@@ -1,9 +1,11 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import { Gem, GemCard } from "@/components/GemCard";
+import { GemCard } from "@/components/GemCard";
 import { Search, Sparkles, Zap, Info } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { MasonryGrid } from "@/components/MasonryGrid";
+import { Gem, SortOption } from "@/types";
 
 const Modal = ({ title, children, isOpen, onClose }: { title: string, children: React.ReactNode, isOpen: boolean, onClose: () => void }) => {
   if (!isOpen) return null;
@@ -43,9 +45,10 @@ export default function Home() {
   const [gems, setGems] = useState<Gem[]>([]);
   const [lastMined, setLastMined] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [noHype, setNoHype] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState<string>("All");
-  const [sortBy, setSortBy] = useState<"score" | "recent" | "stars">("score");
+  const [sortBy, setSortBy] = useState<SortOption>("score");
   const [searchQuery, setSearchQuery] = useState("");
   const [activeModal, setActiveModal] = useState<string | null>(null);
   const [now, setNow] = useState(0);
@@ -56,29 +59,39 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const GEMS_URL = `https://raw.githubusercontent.com/tomwolfe/Undercurrent/main/public/gems.json?t=${Date.now()}`;
-    fetch(GEMS_URL)
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to fetch from Raw URL");
-        return res.json();
-      })
-      .catch(() => {
-        // Fallback to local if raw URL fails
-        return fetch(`/gems.json?t=${Date.now()}`).then(res => res.json());
-      })
-      .then((data) => {
+    const fetchGems = async () => {
+      try {
+        setLoading(true);
+        const GEMS_URL = `https://raw.githubusercontent.com/tomwolfe/Undercurrent/main/public/gems.json?t=${Date.now()}`;
+        let response;
+
+        try {
+          response = await fetch(GEMS_URL);
+          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        } catch (fetchError) {
+          console.warn("Failed to fetch from Raw URL, falling back to local:", fetchError);
+          // Fallback to local if raw URL fails
+          response = await fetch(`/gems.json?t=${Date.now()}`);
+          if (!response.ok) throw new Error(`Local fetch failed: ${response.status}`);
+        }
+
+        const data = await response.json();
+
         if (data.gems) {
           setGems(data.gems);
           setLastMined(data.last_mined);
         } else {
           setGems(data); // Handle old format if necessary
         }
+      } catch (error) {
+        console.error("Failed to fetch gems:", error);
+        setError(error instanceof Error ? error.message : "Unknown error occurred");
+      } finally {
         setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to fetch gems:", err);
-        setLoading(false);
-      });
+      }
+    };
+
+    fetchGems();
   }, []);
 
   const languages = useMemo(() => {
@@ -266,18 +279,34 @@ export default function Home() {
 
       {/* Content */}
       <div className="mx-auto max-w-7xl px-6 py-12">
-        {loading ? (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {error ? (
+          <div className="flex flex-col items-center justify-center h-96 text-center">
+            <div className="h-20 w-20 rounded-full bg-red-500/10 border border-red-500/20 flex items-center justify-center mb-6">
+              <Info size={32} className="text-red-400" />
+            </div>
+            <h3 className="text-xl font-semibold text-white/80">Error Loading Gems</h3>
+            <p className="text-sm text-white/40 mt-2 max-w-md">
+              {error}
+            </p>
+            <button
+              onClick={() => window.location.reload()}
+              className="mt-6 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-white text-sm font-semibold transition-all border border-white/5"
+            >
+              Retry
+            </button>
+          </div>
+        ) : loading ? (
+          <MasonryGrid columnCount={4} className="gap-6">
             {[...Array(8)].map((_, i) => (
               <div key={i} className="h-64 rounded-xl bg-white/[0.02] animate-pulse border border-white/5" />
             ))}
-          </div>
+          </MasonryGrid>
         ) : filteredGems.length > 0 ? (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <MasonryGrid columnCount={4} className="gap-6">
             {filteredGems.map((gem) => (
               <GemCard key={gem.full_name} gem={gem} now={now} />
             ))}
-          </div>
+          </MasonryGrid>
         ) : (
           <div className="flex flex-col items-center justify-center h-96 text-center">
             <div className="h-20 w-20 rounded-full bg-white/[0.02] border border-white/5 flex items-center justify-center mb-6">

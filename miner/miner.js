@@ -18,6 +18,7 @@ const graphqlWithAuth = graphql.defaults({
 });
 
 async function getGems() {
+  console.log("Starting gem mining process...");
   const now = new Date();
   const sixMonthsAgo = new Date(new Date().setMonth(now.getMonth() - 6)).toISOString().split('T')[0];
   const sevenDaysAgo = new Date(new Date().setDate(new Date().getDate() - 7)).toISOString();
@@ -70,42 +71,52 @@ async function getGems() {
   const searchQuery = `stars:100..3000 created:<${sixMonthsAgo} pushed:>${new Date(new Date().setDate(new Date().getDate() - 7)).toISOString().split('T')[0]} sort:updated-desc`;
 
   try {
+    console.log("Executing GraphQL query...");
     const result = await graphqlWithAuth(query, { searchQuery });
-    const repos = result.search.edges.map(edge => edge.node);
+    console.log(`Found ${result.search.edges.length} repositories, calculating scores...`);
+
+    const repos = result.search.edges.filter(edge => edge.node).map(edge => edge.node);
 
     const scoredRepos = repos.map(repo => {
-      const stars = repo.stargazerCount || 1;
-      const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
-      const w2 = repo.defaultBranchRef?.target?.w2?.totalCount || 0;
-      const w3 = repo.defaultBranchRef?.target?.w3?.totalCount || 0;
-      const w4 = repo.defaultBranchRef?.target?.w4?.totalCount || 0;
-      
-      const activity = [w4, w3, w2, w1]; // Past to present
-      const recentCommits = w1;
-      const labeledIssuesCount = repo.labeledIssues?.totalCount || 0;
-      
-      const createdAt = new Date(repo.createdAt);
-      const ageInMonths = Math.max(1, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
-      
-      // Score = (Recent_Commits * 10) + (Open_Issues_with_Labels * 5) / (log10(Stars) * Repo_Age_In_Months)
-      // Following spec's implied grouping for a meaningful score
-      const score = ((recentCommits * 10) + (labeledIssuesCount * 5)) / (Math.log10(stars) * ageInMonths);
+      try {
+        const stars = repo.stargazerCount || 1;
+        const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
+        const w2 = repo.defaultBranchRef?.target?.w2?.totalCount || 0;
+        const w3 = repo.defaultBranchRef?.target?.w3?.totalCount || 0;
+        const w4 = repo.defaultBranchRef?.target?.w4?.totalCount || 0;
 
-      return {
-        name: repo.name,
-        full_name: `${repo.owner.login}/${repo.name}`,
-        description: repo.description,
-        url: repo.url,
-        stars: stars,
-        language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
-        gem_score: Math.round(score * 100) / 100,
-        recent_commits: recentCommits,
-        activity: activity,
-        good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
-        has_good_first_issues: repo.issues.totalCount > 0,
-        pushed_at: repo.pushedAt
-      };
-    });
+        const activity = [w4, w3, w2, w1]; // Past to present
+        const recentCommits = w1;
+        const labeledIssuesCount = repo.labeledIssues?.totalCount || 0;
+
+        const createdAt = new Date(repo.createdAt);
+        const ageInMonths = Math.max(1, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
+
+        // Score = (Recent_Commits * 10) + (Open_Issues_with_Labels * 5) / (log10(Stars) * Repo_Age_In_Months)
+        // Following spec's implied grouping for a meaningful score
+        const score = ((recentCommits * 10) + (labeledIssuesCount * 5)) / (Math.log10(stars) * ageInMonths);
+
+        return {
+          name: repo.name,
+          full_name: `${repo.owner.login}/${repo.name}`,
+          description: repo.description,
+          url: repo.url,
+          stars: stars,
+          language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
+          gem_score: Math.round(score * 100) / 100,
+          recent_commits: recentCommits,
+          activity: activity,
+          good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
+          has_good_first_issues: repo.issues.totalCount > 0,
+          pushed_at: repo.pushedAt
+        };
+      } catch (repoError) {
+        console.error(`Error processing repository ${repo?.name || 'unknown'}:`, repoError);
+        return null; // Return null for invalid repos, will be filtered out later
+      }
+    }).filter(Boolean); // Remove any null values
+
+    console.log(`Calculated scores for ${scoredRepos.length} repositories, sorting...`);
 
     // Sort by score and take top 100
     const topGems = scoredRepos
@@ -124,6 +135,7 @@ async function getGems() {
 
   } catch (error) {
     console.error("Error fetching gems:", error);
+    process.exit(1); // Exit with error code to signal failure to GitHub Actions
   }
 }
 

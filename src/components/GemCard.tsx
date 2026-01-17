@@ -8,20 +8,7 @@ import { Sparkline } from "./Sparkline";
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 
-export interface Gem {
-  name: string;
-  full_name: string;
-  description: string;
-  url: string;
-  stars: number;
-  language: string;
-  gem_score: number;
-  recent_commits: number;
-  activity: number[];
-  good_first_issues_url: string;
-  has_good_first_issues: boolean;
-  pushed_at: string;
-}
+import { Gem } from "@/types";
 
 interface GemCardProps {
   gem: Gem;
