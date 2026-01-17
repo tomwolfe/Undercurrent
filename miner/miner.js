@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 const { graphql } = require("@octokit/graphql");
 const fs = require("fs");
 const path = require("path");
@@ -111,8 +112,14 @@ async function getGems() {
       .sort((a, b) => b.gem_score - a.gem_score)
       .slice(0, 100);
 
+    const output = {
+      last_mined: new Date().toISOString(),
+      count: topGems.length,
+      gems: topGems
+    };
+
     const outputPath = path.join(__dirname, "../public/gems.json");
-    fs.writeFileSync(outputPath, JSON.stringify(topGems, null, 2));
+    fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
     console.log(`Successfully mined ${topGems.length} gems and saved to public/gems.json`);
 
   } catch (error) {

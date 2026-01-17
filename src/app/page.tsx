@@ -2,16 +2,52 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { Gem, GemCard } from "@/components/GemCard";
-import { Search, Filter, Sparkles, Zap, Info } from "lucide-react";
+import { Search, Sparkles, Zap, Info } from "lucide-react";
 import { cn } from "@/lib/utils";
+
+const Modal = ({ title, children, isOpen, onClose }: { title: string, children: React.ReactNode, isOpen: boolean, onClose: () => void }) => {
+  if (!isOpen) return null;
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
+      <div 
+        className="relative w-full max-w-lg rounded-2xl bg-[#0A0A0A] border border-white/10 p-8 shadow-2xl animate-in zoom-in-95 duration-200"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-bold tracking-tight text-white">{title}</h2>
+          <button 
+            onClick={onClose}
+            className="h-8 w-8 flex items-center justify-center rounded-full hover:bg-white/5 text-white/40 hover:text-white transition-colors"
+          >
+            ✕
+          </button>
+        </div>
+        <div className="text-sm text-white/60 leading-relaxed space-y-4">
+          {children}
+        </div>
+        <div className="mt-8 flex justify-end">
+          <button 
+            onClick={onClose}
+            className="px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-white text-xs font-semibold transition-all border border-white/5"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+      <div className="absolute inset-0 -z-10" onClick={onClose} />
+    </div>
+  );
+};
 
 export default function Home() {
   const [gems, setGems] = useState<Gem[]>([]);
+  const [lastMined, setLastMined] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [noHype, setNoHype] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState<string>("All");
   const [sortBy, setSortBy] = useState<"score" | "recent" | "stars">("score");
   const [searchQuery, setSearchQuery] = useState("");
+  const [activeModal, setActiveModal] = useState<string | null>(null);
   const [now, setNow] = useState(0);
 
   useEffect(() => {
@@ -20,7 +56,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const GEMS_URL = "https://raw.githubusercontent.com/tomwolfe/Undercurrent/main/public/gems.json";
+    const GEMS_URL = `https://raw.githubusercontent.com/tomwolfe/Undercurrent/main/public/gems.json?t=${Date.now()}`;
     fetch(GEMS_URL)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch from Raw URL");
@@ -28,10 +64,15 @@ export default function Home() {
       })
       .catch(() => {
         // Fallback to local if raw URL fails
-        return fetch("/gems.json").then(res => res.json());
+        return fetch(`/gems.json?t=${Date.now()}`).then(res => res.json());
       })
       .then((data) => {
-        setGems(data);
+        if (data.gems) {
+          setGems(data.gems);
+          setLastMined(data.last_mined);
+        } else {
+          setGems(data); // Handle old format if necessary
+        }
         setLoading(false);
       })
       .catch((err) => {
@@ -79,6 +120,62 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#050505] text-white selection:bg-blue-500/30">
+      {/* Modals */}
+      <Modal 
+        title="Methodology" 
+        isOpen={activeModal === "methodology"} 
+        onClose={() => setActiveModal(null)}
+      >
+        <p>Undercurrent uses a custom discovery engine to find high-quality engineering projects that haven&apos;t hit the mainstream yet.</p>
+        <div className="space-y-2">
+          <p className="font-semibold text-white">Discovery Criteria:</p>
+          <ul className="list-disc pl-4 space-y-1">
+            <li>Repositories created more than 6 months ago (proving stability).</li>
+            <li>Star counts between 100 and 3,000 (true &quot;hidden gems&quot;).</li>
+            <li>Active development with pushes within the last 7 days.</li>
+          </ul>
+        </div>
+        <p>The engine runs every 12 hours via GitHub Actions, scanning thousands of repositories to surface the top 100 contenders.</p>
+      </Modal>
+
+      <Modal 
+        title="Scoring Logic" 
+        isOpen={activeModal === "scoring"} 
+        onClose={() => setActiveModal(null)}
+      >
+        <p>Gems are ranked using a multi-factor momentum algorithm designed to highlight activity relative to visibility.</p>
+        <div className="bg-white/5 p-4 rounded-xl border border-white/5 font-mono text-[10px] text-blue-400">
+          score = ((Recent_Commits * 10) + (Issues_with_Labels * 5)) / (log10(Stars) * Repo_Age_Months)
+        </div>
+        <div className="space-y-2">
+          <p className="font-semibold text-white">Weighting Factors:</p>
+          <ul className="list-disc pl-4 space-y-1">
+            <li><span className="text-white/90">Recent Commits:</span> High weight on immediate activity.</li>
+            <li><span className="text-white/90">Labeled Issues:</span> Rewards projects with organized contribution paths.</li>
+            <li><span className="text-white/90">Log10 Stars:</span> Normalizes growth so smaller projects can compete.</li>
+            <li><span className="text-white/90">Age:</span> Rewards consistent long-term development.</li>
+          </ul>
+        </div>
+      </Modal>
+
+      <Modal 
+        title="Privacy Policy" 
+        isOpen={activeModal === "privacy"} 
+        onClose={() => setActiveModal(null)}
+      >
+        <p>Undercurrent is a static, client-side application. We do not track you, we do not use cookies, and we do not store any personal data.</p>
+        <p>All repository data is fetched directly from public GitHub records. Your interactions with this site are private and ephemeral.</p>
+      </Modal>
+
+      <Modal 
+        title="Terms of Service" 
+        isOpen={activeModal === "terms"} 
+        onClose={() => setActiveModal(null)}
+      >
+        <p>Undercurrent is provided &quot;as is&quot; without warranty of any kind. The data is mined automatically from GitHub and may occasionally include inaccuracies.</p>
+        <p>Usage of this tool is subject to GitHub&apos;s Acceptable Use Policies. Undercurrent is an open-source discovery engine and is not affiliated with GitHub, Inc.</p>
+      </Modal>
+
       {/* Background Glow */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-blue-500/5 blur-[120px] rounded-full" />
@@ -211,16 +308,23 @@ export default function Home() {
               <div className="space-y-4">
                 <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-white/40">Engine</h4>
                 <ul className="space-y-2 text-sm text-white/20">
-                  <li><a href="#" className="hover:text-blue-400 transition-colors">Methodology</a></li>
-                  <li><a href="#" className="hover:text-blue-400 transition-colors">Scoring</a></li>
-                  <li><a href="https://github.com/tom/Undercurrent" className="hover:text-blue-400 transition-colors">Source</a></li>
+                  <li><button onClick={() => setActiveModal("methodology")} className="hover:text-blue-400 transition-colors cursor-pointer">Methodology</button></li>
+                  <li><button onClick={() => setActiveModal("scoring")} className="hover:text-blue-400 transition-colors cursor-pointer">Scoring</button></li>
+                  <li><a href="https://github.com/tomwolfe/Undercurrent" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">Source</a></li>
                 </ul>
               </div>
               <div className="space-y-4">
                 <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-white/40">Status</h4>
-                <div className="flex items-center gap-2 text-sm text-white/20">
-                  <div className="h-1.5 w-1.5 rounded-full bg-green-500" />
-                  <span>Operational</span>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2 text-sm text-white/20">
+                    <div className="h-1.5 w-1.5 rounded-full bg-green-500" />
+                    <span>Operational</span>
+                  </div>
+                  {lastMined && (
+                    <div className="text-[10px] text-white/10 uppercase tracking-wider font-medium">
+                      Last Updated: {new Date(lastMined).toLocaleString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -230,8 +334,8 @@ export default function Home() {
               © 2026 Undercurrent Engine
             </p>
             <div className="flex gap-8 text-[10px] text-white/10 uppercase tracking-widest font-bold">
-              <a href="#" className="hover:text-white/30 transition-colors">Privacy</a>
-              <a href="#" className="hover:text-white/30 transition-colors">Terms</a>
+              <button onClick={() => setActiveModal("privacy")} className="hover:text-white/30 transition-colors cursor-pointer uppercase text-[10px] font-bold">Privacy</button>
+              <button onClick={() => setActiveModal("terms")} className="hover:text-white/30 transition-colors cursor-pointer uppercase text-[10px] font-bold">Terms</button>
             </div>
           </div>
         </div>

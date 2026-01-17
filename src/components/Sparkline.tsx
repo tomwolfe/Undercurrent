@@ -1,5 +1,7 @@
 "use client";
 
+import { useId } from "react";
+
 interface SparklineProps {
   data: number[];
   width?: number;
@@ -13,6 +15,9 @@ export function Sparkline({
   height = 30, 
   color = "currentColor" 
 }: SparklineProps) {
+  const id = useId();
+  const gradientId = `sparkline-gradient-${id.replace(/:/g, "")}`;
+  
   if (!data || data.length < 2) return null;
 
   const max = Math.max(...data, 1);
@@ -28,7 +33,7 @@ export function Sparkline({
   return (
     <svg width={width} height={height} className="overflow-visible">
       <defs>
-        <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor={color} stopOpacity="0.2" />
           <stop offset="100%" stopColor={color} stopOpacity="0" />
         </linearGradient>
@@ -44,7 +49,7 @@ export function Sparkline({
       />
       <path
         d={`M 0 ${height} L ${points} L ${width} ${height} Z`}
-        fill="url(#gradient)"
+        fill={`url(#${gradientId})`}
         stroke="none"
       />
     </svg>
