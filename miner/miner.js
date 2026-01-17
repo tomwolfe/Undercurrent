@@ -18,28 +18,57 @@ const TARGET_LANGUAGES = [
   "Zig", "Swift", "Kotlin", "C++", "Mojo", "Odin"
 ];
 
-function calculateScore(repo, recentCommits, labeledIssuesCount) {
+const CHURN_KEYWORDS = [
+  "config", "vpn", "proxy", "list", "index", "blocklist", 
+  "iptv", "rules", "detect", "scripts", "backup", "hot-search", 
+  "trending", "awesome-list", "collection", "mirrors", "database",
+  "dns", "auto-updated", "hosts", "payload", "cve", "poc"
+];
+
+function isLikelyChurn(repo) {
+  const name = repo.name.toLowerCase();
+  const description = (repo.description || "").toLowerCase();
+  const fullName = `${repo.owner.login}/${repo.name}`.toLowerCase();
+
+  // Check for churn keywords in name or description
+  if (CHURN_KEYWORDS.some(keyword => name.includes(keyword) || description.includes(keyword))) {
+    return true;
+  }
+
+  // Common automated repo patterns
+  if (name.match(/\d{4}-\d{2}-\d{2}/) || name.match(/\d{6,}/)) {
+    return true;
+  }
+
+  return false;
+}
+
+function calculateScore(repo, recentCommits, labeledIssuesCount, hasGoodFirstIssues) {
   const stars = Math.max(1, repo.stargazerCount);
   const createdAt = new Date(repo.createdAt);
   const ageInMonths = Math.max(6, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
 
-  // Score components
-  // 1. Momentum: Recent commits are very important
-  const momentum = recentCommits * 15;
+  // 1. Momentum: Cap the impact of raw commit volume to prevent automated repos from dominating
+  // Using log2 to reward activity but with diminishing returns for extreme volumes
+  const momentum = Math.log2(recentCommits + 1) * 20;
   
-  // 2. Contribution: Labeled issues show maintainer openness
-  const contribution = labeledIssuesCount * 8;
+  // 2. Contribution: Reward repositories that are actively seeking contributors
+  const contribution = (labeledIssuesCount * 2) + (hasGoodFirstIssues ? 50 : 0);
   
-  // 3. Visibility Penalty: We want hidden gems, so higher stars decrease the score slightly
-  // Using log10 to make the penalty non-linear
-  const visibilityFactor = Math.log10(stars);
+  // 3. Visibility Penalty: "Hidden gems" should be harder to find
+  const visibilityFactor = Math.log10(stars + 1);
   
-  // 4. Maturity: Age provides a base stability factor
-  const maturityFactor = Math.sqrt(ageInMonths);
+  // 4. Maturity: Age provides a base stability factor, capped to avoid over-rewarding ancient repos
+  const maturityFactor = Math.sqrt(Math.min(ageInMonths, 60));
 
-  // Final formula: (Momentum + Contribution) / (Visibility * Maturity)
-  // We multiply by 10 to get a nicer range (0-100+)
-  const rawScore = ((momentum + contribution + 10) / (visibilityFactor * maturityFactor)) * 5;
+  // 5. Language Multiplier: Boost targeted languages
+  const lang = repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text";
+  let langMultiplier = 1.0;
+  if (TARGET_LANGUAGES.includes(lang)) langMultiplier = 1.2;
+  if (lang === "Plain Text" || lang === "HTML" || lang === "CSS") langMultiplier = 0.5;
+
+  // Final formula: ((Momentum + Contribution + 10) / (Visibility * Maturity)) * multiplier
+  const rawScore = ((momentum + contribution + 10) / (visibilityFactor * maturityFactor)) * langMultiplier;
   
   return Math.round(rawScore * 100) / 100;
 }
@@ -131,39 +160,42 @@ async function getGems() {
 
   console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores...`);
 
-  const scoredRepos = Array.from(allRepos.values()).map(repo => {
-    try {
-      const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
-      const w2 = repo.defaultBranchRef?.target?.w2?.totalCount || 0;
-      const w3 = repo.defaultBranchRef?.target?.w3?.totalCount || 0;
-      const w4 = repo.defaultBranchRef?.target?.w4?.totalCount || 0;
+  const scoredRepos = Array.from(allRepos.values())
+    .filter(repo => !isLikelyChurn(repo))
+    .map(repo => {
+      try {
+        const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
+        const w2 = repo.defaultBranchRef?.target?.w2?.totalCount || 0;
+        const w3 = repo.defaultBranchRef?.target?.w3?.totalCount || 0;
+        const w4 = repo.defaultBranchRef?.target?.w4?.totalCount || 0;
 
-      const activity = [w4, w3, w2, w1];
-      const avgActivity = (w2 + w3 + w4) / 3;
-      const momentumTrend = avgActivity === 0 ? (w1 > 0 ? 1 : 0) : (w1 / avgActivity);
+        const activity = [w4, w3, w2, w1];
+        const avgActivity = (w2 + w3 + w4) / 3;
+        const momentumTrend = avgActivity === 0 ? (w1 > 0 ? 1 : 0) : (w1 / avgActivity);
 
-      const labeledIssuesCount = repo.repositoryLabels?.totalCount || 0;
-      const score = calculateScore(repo, w1, labeledIssuesCount);
+        const labeledIssuesCount = repo.repositoryLabels?.totalCount || 0;
+        const hasGoodFirstIssues = repo.issues.totalCount > 0;
+        const score = calculateScore(repo, w1, labeledIssuesCount, hasGoodFirstIssues);
 
-      return {
-        name: repo.name,
-        full_name: `${repo.owner.login}/${repo.name}`,
-        description: repo.description,
-        url: repo.url,
-        stars: repo.stargazerCount,
-        language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
-        gem_score: score,
-        momentum_trend: Math.round(momentumTrend * 100) / 100,
-        recent_commits: w1,
-        activity: activity,
-        good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
-        has_good_first_issues: repo.issues.totalCount > 0,
-        pushed_at: repo.pushedAt
-      };
-    } catch {
-      return null;
-    }
-  }).filter(Boolean);
+        return {
+          name: repo.name,
+          full_name: `${repo.owner.login}/${repo.name}`,
+          description: repo.description,
+          url: repo.url,
+          stars: repo.stargazerCount,
+          language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
+          gem_score: score,
+          momentum_trend: Math.round(momentumTrend * 100) / 100,
+          recent_commits: w1,
+          activity: activity,
+          good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
+          has_good_first_issues: hasGoodFirstIssues,
+          pushed_at: repo.pushedAt
+        };
+      } catch {
+        return null;
+      }
+    }).filter(Boolean);
 
   // Sort and filter
   const topGems = scoredRepos
