@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import { Gem, GemCard } from "@/components/GemCard";
-import { Search, Filter, SortAsc, Sparkles, Zap, LayoutGrid, Info } from "lucide-react";
+import { Search, Filter, Sparkles, Zap, Info } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function Home() {
@@ -11,6 +11,13 @@ export default function Home() {
   const [noHype, setNoHype] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState<string>("All");
   const [sortBy, setSortBy] = useState<"score" | "recent" | "stars">("score");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [now, setNow] = useState(0);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setNow(Date.now());
+  }, []);
 
   useEffect(() => {
     const GEMS_URL = "https://raw.githubusercontent.com/tomwolfe/Undercurrent/main/public/gems.json";
@@ -43,12 +50,22 @@ export default function Home() {
       .filter((gem) => {
         if (noHype) {
           const desc = (gem.description || "").toLowerCase();
-          if (desc.includes("ai") || desc.includes("llm") || desc.includes("gpt")) {
+          const name = gem.name.toLowerCase();
+          const hypeWords = ["ai", "llm", "gpt", "openai", "claude", "langchain", "agent"];
+          if (hypeWords.some(word => desc.includes(word) || name.includes(word))) {
             return false;
           }
         }
         if (selectedLanguage !== "All" && gem.language !== selectedLanguage) {
           return false;
+        }
+        if (searchQuery) {
+          const query = searchQuery.toLowerCase();
+          return (
+            gem.name.toLowerCase().includes(query) ||
+            (gem.description || "").toLowerCase().includes(query) ||
+            gem.language.toLowerCase().includes(query)
+          );
         }
         return true;
       })
@@ -58,14 +75,14 @@ export default function Home() {
         if (sortBy === "stars") return a.stars - b.stars;
         return 0;
       });
-  }, [gems, noHype, selectedLanguage, sortBy]);
+  }, [gems, noHype, selectedLanguage, sortBy, searchQuery]);
 
   return (
     <main className="min-h-screen bg-[#030303] text-white selection:bg-blue-500/30">
       {/* Header */}
       <div className="relative border-b border-white/5 bg-black/50 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-6 py-8">
-          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 shadow-[0_0_20px_rgba(37,99,235,0.4)]">
@@ -76,35 +93,49 @@ export default function Home() {
               <p className="text-sm text-white/40">Discover hidden engineering gems on GitHub.</p>
             </div>
 
-            <div className="flex flex-wrap items-center gap-3">
-              <button
-                onClick={() => setNoHype(!noHype)}
-                className={cn(
-                  "flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium transition-all border",
-                  noHype 
-                    ? "bg-blue-500/10 border-blue-500/50 text-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.15)]" 
-                    : "bg-white/5 border-white/10 text-white/60 hover:text-white"
-                )}
-              >
-                <Sparkles size={14} className={noHype ? "fill-current" : ""} />
-                No-Hype Mode
-              </button>
-              
-              <div className="h-4 w-[1px] bg-white/10" />
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
+              {/* Search Bar */}
+              <div className="relative min-w-[300px]">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-white/20" size={16} />
+                <input
+                  type="text"
+                  placeholder="Search gems, topics, or languages..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="w-full rounded-full bg-white/5 border border-white/10 py-2 pl-10 pr-4 text-sm outline-none focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/20 transition-all"
+                />
+              </div>
 
-              <div className="flex items-center gap-1 rounded-full bg-white/5 p-1 border border-white/5">
-                {(["score", "recent", "stars"] as const).map((option) => (
-                  <button
-                    key={option}
-                    onClick={() => setSortBy(option)}
-                    className={cn(
-                      "rounded-full px-3 py-1 text-xs font-medium capitalize transition-all",
-                      sortBy === option ? "bg-white/10 text-white" : "text-white/40 hover:text-white/60"
-                    )}
-                  >
-                    {option}
-                  </button>
-                ))}
+              <div className="flex flex-wrap items-center gap-3">
+                <button
+                  onClick={() => setNoHype(!noHype)}
+                  className={cn(
+                    "flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium transition-all border",
+                    noHype 
+                      ? "bg-blue-500/10 border-blue-500/50 text-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.15)]" 
+                      : "bg-white/5 border-white/10 text-white/60 hover:text-white"
+                  )}
+                >
+                  <Sparkles size={14} className={noHype ? "fill-current" : ""} />
+                  No-Hype Mode
+                </button>
+                
+                <div className="h-4 w-[1px] bg-white/10 hidden sm:block" />
+
+                <div className="flex items-center gap-1 rounded-full bg-white/5 p-1 border border-white/5">
+                  {(["score", "recent", "stars"] as const).map((option) => (
+                    <button
+                      key={option}
+                      onClick={() => setSortBy(option)}
+                      className={cn(
+                        "rounded-full px-3 py-1 text-xs font-medium capitalize transition-all",
+                        sortBy === option ? "bg-white/10 text-white" : "text-white/40 hover:text-white/60"
+                      )}
+                    >
+                      {option}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -140,7 +171,7 @@ export default function Home() {
         ) : filteredGems.length > 0 ? (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {filteredGems.map((gem) => (
-              <GemCard key={gem.full_name} gem={gem} />
+              <GemCard key={gem.full_name} gem={gem} now={now} />
             ))}
           </div>
         ) : (
