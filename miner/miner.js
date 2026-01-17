@@ -73,7 +73,7 @@ async function fetchReposForQuery(searchQuery, timeframes) {
                 }
               }
               issues(states: OPEN, labels: ["good first issue"], first: 1) { totalCount }
-              labeledIssues: issues(states: OPEN, filterBy: { hasLabels: true }) { totalCount }
+              repositoryLabels: labels { totalCount }
             }
           }
         }
@@ -142,7 +142,7 @@ async function getGems() {
       const avgActivity = (w2 + w3 + w4) / 3;
       const momentumTrend = avgActivity === 0 ? (w1 > 0 ? 1 : 0) : (w1 / avgActivity);
 
-      const labeledIssuesCount = repo.labeledIssues?.totalCount || 0;
+      const labeledIssuesCount = repo.repositoryLabels?.totalCount || 0;
       const score = calculateScore(repo, w1, labeledIssuesCount);
 
       return {
