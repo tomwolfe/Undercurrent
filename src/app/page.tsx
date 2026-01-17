@@ -2,38 +2,56 @@ import { Explorer } from "@/components/Explorer";
 import { GemsResponse } from "@/types";
 import localGems from "../../public/gems.json";
 import { Suspense } from "react";
+import fs from "fs";
+import path from "path";
 
 // Revalidate every 6 hours (mined every 12 hours)
 export const revalidate = 21600;
 
 async function getGems(): Promise<GemsResponse> {
-  const GEMS_URL = process.env.NEXT_PUBLIC_GEMS_URL || "https://raw.githubusercontent.com/tomwolfe/Undercurrent/main/public/gems.json";
+  const GEMS_URL = process.env.NEXT_PUBLIC_GEMS_URL;
   
-  const processData = (data: any): GemsResponse => {
+  const processData = (data: unknown): GemsResponse => {
     if (Array.isArray(data)) {
       return {
         last_mined: new Date().toISOString(),
         count: data.length,
-        gems: data
+        gems: data as Gem[]
       };
     }
     return data as GemsResponse;
   };
 
-  try {
-    const response = await fetch(`${GEMS_URL}?t=${Date.now()}`, {
-      next: { revalidate: 21600 }
-    });
-    
-    if (!response.ok) {
-      throw new Error(`Failed to fetch gems from ${GEMS_URL}`);
+  // If a URL is explicitly provided, fetch from it
+  if (GEMS_URL) {
+    try {
+      const response = await fetch(`${GEMS_URL}?t=${Date.now()}`, {
+        next: { revalidate: 21600 }
+      });
+      
+      if (!response.ok) {
+        throw new Error(`Failed to fetch gems from ${GEMS_URL}`);
+      }
+      
+      const data = await response.json();
+      return processData(data);
+    } catch (error) {
+      console.error("Error fetching gems:", error);
+      return processData(localGems);
     }
-    
-    const data = await response.json();
-    return processData(data);
+  }
+
+  // Otherwise, default to the local filesystem for immediate updates
+  try {
+    const filePath = path.join(process.cwd(), "public", "gems.json");
+    if (fs.existsSync(filePath)) {
+      const fileContent = fs.readFileSync(filePath, "utf8");
+      const data = JSON.parse(fileContent);
+      return processData(data);
+    }
+    return processData(localGems);
   } catch (error) {
-    console.error("Error fetching gems in Server Component:", error);
-    // Fallback to imported local JSON
+    console.error("Error reading gems from filesystem:", error);
     return processData(localGems);
   }
 }
