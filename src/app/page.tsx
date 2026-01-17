@@ -1,5 +1,5 @@
 import { Explorer } from "@/components/Explorer";
-import { GemsResponse } from "@/types";
+import { Gem, GemsResponse } from "@/types";
 import localGems from "../../public/gems.json";
 import { Suspense } from "react";
 import fs from "fs";
