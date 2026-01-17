@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Undercurrent",
+    "full_name": "tom/Undercurrent",
+    "description": "A GitHub 'Hidden Gem' discovery app. Find high-quality, low-star repositories automatically.",
+    "url": "https://github.com/tom/Undercurrent",
+    "stars": 150,
+    "language": "TypeScript",
+    "gem_score": 95.5,
+    "recent_commits": 12,
+    "good_first_issues_url": "https://github.com/tom/Undercurrent/issues",
+    "has_good_first_issues": true,
+    "pushed_at": "2026-01-16T10:00:00Z"
+  },
+  {
+    "name": "FastAPI",
+    "full_name": "tiangolo/fastapi",
+    "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production. LLM powered stuff inside.",
+    "url": "https://github.com/tiangolo/fastapi",
+    "stars": 2500,
+    "language": "Python",
+    "gem_score": 82.3,
+    "recent_commits": 8,
+    "good_first_issues_url": "https://github.com/tiangolo/fastapi/issues",
+    "has_good_first_issues": true,
+    "pushed_at": "2026-01-15T10:00:00Z"
+  },
+  {
+    "name": "Actix",
+    "full_name": "actix/actix-web",
+    "description": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.",
+    "url": "https://github.com/actix/actix-web",
+    "stars": 1800,
+    "language": "Rust",
+    "gem_score": 75.1,
+    "recent_commits": 5,
+    "good_first_issues_url": "https://github.com/actix/actix-web/issues",
+    "has_good_first_issues": false,
+    "pushed_at": "2026-01-14T10:00:00Z"
+  }
+]
