@@ -17,49 +17,65 @@ const graphqlWithAuth = graphql.defaults({
   },
 });
 
-async function getGems() {
-  console.log("Starting gem mining process...");
-  const now = new Date();
-  const sixMonthsAgo = new Date(new Date().setMonth(now.getMonth() - 6)).toISOString().split('T')[0];
-  const sevenDaysAgo = new Date(new Date().setDate(new Date().getDate() - 7)).toISOString();
-  const fourteenDaysAgo = new Date(new Date().setDate(new Date().getDate() - 14)).toISOString();
-  const twentyOneDaysAgo = new Date(new Date().setDate(new Date().getDate() - 21)).toISOString();
-  const twentyEightDaysAgo = new Date(new Date().setDate(new Date().getDate() - 28)).toISOString();
+// Targeted languages to ensure diversity in discovery
+const TARGET_LANGUAGES = [
+  "TypeScript", "JavaScript", "Rust", "Go", "Python", 
+  "Zig", "Swift", "Kotlin", "C++", "Mojo", "Odin"
+];
 
+function calculateScore(repo, recentCommits, labeledIssuesCount) {
+  const stars = Math.max(1, repo.stargazerCount);
+  const createdAt = new Date(repo.createdAt);
+  const ageInMonths = Math.max(6, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
+
+  // Score components
+  // 1. Momentum: Recent commits are very important
+  const momentum = recentCommits * 15;
+  
+  // 2. Contribution: Labeled issues show maintainer openness
+  const contribution = labeledIssuesCount * 8;
+  
+  // 3. Visibility Penalty: We want hidden gems, so higher stars decrease the score slightly
+  // Using log10 to make the penalty non-linear
+  const visibilityFactor = Math.log10(stars);
+  
+  // 4. Maturity: Age provides a base stability factor
+  const maturityFactor = Math.sqrt(ageInMonths);
+
+  // Final formula: (Momentum + Contribution) / (Visibility * Maturity)
+  // We multiply by 10 to get a nicer range (0-100+)
+  const rawScore = ((momentum + contribution + 10) / (visibilityFactor * maturityFactor)) * 5;
+  
+  return Math.round(rawScore * 100) / 100;
+}
+
+async function fetchReposForQuery(searchQuery, timeframes) {
   const query = `
     query($searchQuery: String!) {
-      search(query: $searchQuery, type: REPOSITORY, first: 100) {
+      search(query: $searchQuery, type: REPOSITORY, first: 50) {
         edges {
           node {
             ... on Repository {
               name
-              owner {
-                login
-              }
+              owner { login }
               description
               url
               stargazerCount
               createdAt
               pushedAt
-              primaryLanguage {
-                name
-              }
+              primaryLanguage { name }
               defaultBranchRef {
                 target {
                   ... on Commit {
-                    w1: history(since: "${sevenDaysAgo}") { totalCount }
-                    w2: history(since: "${fourteenDaysAgo}", until: "${sevenDaysAgo}") { totalCount }
-                    w3: history(since: "${twentyOneDaysAgo}", until: "${fourteenDaysAgo}") { totalCount }
-                    w4: history(since: "${twentyEightDaysAgo}", until: "${twentyOneDaysAgo}") { totalCount }
+                    w1: history(since: "${timeframes.w1}") { totalCount }
+                    w2: history(since: "${timeframes.w2}", until: "${timeframes.w1}") { totalCount }
+                    w3: history(since: "${timeframes.w3}", until: "${timeframes.w2}") { totalCount }
+                    w4: history(since: "${timeframes.w4}", until: "${timeframes.w3}") { totalCount }
                   }
                 }
               }
-              issues(states: OPEN, labels: ["good first issue"], first: 1) {
-                totalCount
-              }
-              labeledIssues: issues(states: OPEN, filterBy: { hasLabels: true }) {
-                totalCount
-              }
+              issues(states: OPEN, labels: ["good first issue"], first: 1) { totalCount }
+              labeledIssues: issues(states: OPEN, filterBy: { hasLabels: true }) { totalCount }
             }
           }
         }
@@ -67,76 +83,91 @@ async function getGems() {
     }
   `;
 
-  // Search criteria: Stars 100-3000, Created > 6 months ago, Pushed > 7 days ago
-  const searchQuery = `stars:100..3000 created:<${sixMonthsAgo} pushed:>${new Date(new Date().setDate(new Date().getDate() - 7)).toISOString().split('T')[0]} sort:updated-desc`;
-
   try {
-    console.log("Executing GraphQL query...");
     const result = await graphqlWithAuth(query, { searchQuery });
-    console.log(`Found ${result.search.edges.length} repositories, calculating scores...`);
-
-    const repos = result.search.edges.filter(edge => edge.node).map(edge => edge.node);
-
-    const scoredRepos = repos.map(repo => {
-      try {
-        const stars = repo.stargazerCount || 1;
-        const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
-        const w2 = repo.defaultBranchRef?.target?.w2?.totalCount || 0;
-        const w3 = repo.defaultBranchRef?.target?.w3?.totalCount || 0;
-        const w4 = repo.defaultBranchRef?.target?.w4?.totalCount || 0;
-
-        const activity = [w4, w3, w2, w1]; // Past to present
-        const recentCommits = w1;
-        const labeledIssuesCount = repo.labeledIssues?.totalCount || 0;
-
-        const createdAt = new Date(repo.createdAt);
-        const ageInMonths = Math.max(1, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
-
-        // Score = (Recent_Commits * 10) + (Open_Issues_with_Labels * 5) / (log10(Stars) * Repo_Age_In_Months)
-        // Following spec's implied grouping for a meaningful score
-        const score = ((recentCommits * 10) + (labeledIssuesCount * 5)) / (Math.log10(stars) * ageInMonths);
-
-        return {
-          name: repo.name,
-          full_name: `${repo.owner.login}/${repo.name}`,
-          description: repo.description,
-          url: repo.url,
-          stars: stars,
-          language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
-          gem_score: Math.round(score * 100) / 100,
-          recent_commits: recentCommits,
-          activity: activity,
-          good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
-          has_good_first_issues: repo.issues.totalCount > 0,
-          pushed_at: repo.pushedAt
-        };
-      } catch (repoError) {
-        console.error(`Error processing repository ${repo?.name || 'unknown'}:`, repoError);
-        return null; // Return null for invalid repos, will be filtered out later
-      }
-    }).filter(Boolean); // Remove any null values
-
-    console.log(`Calculated scores for ${scoredRepos.length} repositories, sorting...`);
-
-    // Sort by score and take top 100
-    const topGems = scoredRepos
-      .sort((a, b) => b.gem_score - a.gem_score)
-      .slice(0, 100);
-
-    const output = {
-      last_mined: new Date().toISOString(),
-      count: topGems.length,
-      gems: topGems
-    };
-
-    const outputPath = path.join(__dirname, "../public/gems.json");
-    fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
-    console.log(`Successfully mined ${topGems.length} gems and saved to public/gems.json`);
-
+    return result.search.edges.map(edge => edge.node).filter(Boolean);
   } catch (error) {
-    console.error("Error fetching gems:", error);
-    process.exit(1); // Exit with error code to signal failure to GitHub Actions
+    console.error(`Error fetching for query "${searchQuery}":`, error.message);
+    return [];
   }
+}
+
+async function getGems() {
+  console.log("Starting enhanced gem mining process...");
+  const now = new Date();
+  const sixMonthsAgo = new Date(new Date().setMonth(now.getMonth() - 6)).toISOString().split('T')[0];
+  
+  const timeframes = {
+    w1: new Date(new Date().setDate(now.getDate() - 7)).toISOString(),
+    w2: new Date(new Date().setDate(now.getDate() - 14)).toISOString(),
+    w3: new Date(new Date().setDate(now.getDate() - 21)).toISOString(),
+    w4: new Date(new Date().setDate(now.getDate() - 28)).toISOString()
+  };
+
+  const allRepos = new Map();
+
+  // 1. Generic query for the best current gems across all languages
+  const baseQuery = `stars:150..3000 created:<${sixMonthsAgo} pushed:>${new Date(new Date().setDate(now.getDate() - 7)).toISOString().split('T')[0]} sort:updated-desc`;
+  console.log("Executing base discovery query...");
+  const baseRepos = await fetchReposForQuery(baseQuery, timeframes);
+  baseRepos.forEach(repo => allRepos.set(`${repo.owner.login}/${repo.name}`, repo));
+
+  // 2. Targeted language queries to find hidden gems in specific ecosystems
+  for (const lang of TARGET_LANGUAGES) {
+    console.log(`Searching for ${lang} gems...`);
+    const langQuery = `${baseQuery} language:${lang}`;
+    const langRepos = await fetchReposForQuery(langQuery, timeframes);
+    langRepos.forEach(repo => allRepos.set(`${repo.owner.login}/${repo.name}`, repo));
+    // Small delay to be nice to the API
+    await new Promise(resolve => setTimeout(resolve, 500));
+  }
+
+  console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores...`);
+
+  const scoredRepos = Array.from(allRepos.values()).map(repo => {
+    try {
+      const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
+      const w2 = repo.defaultBranchRef?.target?.w2?.totalCount || 0;
+      const w3 = repo.defaultBranchRef?.target?.w3?.totalCount || 0;
+      const w4 = repo.defaultBranchRef?.target?.w4?.totalCount || 0;
+
+      const activity = [w4, w3, w2, w1];
+      const labeledIssuesCount = repo.labeledIssues?.totalCount || 0;
+      const score = calculateScore(repo, w1, labeledIssuesCount);
+
+      return {
+        name: repo.name,
+        full_name: `${repo.owner.login}/${repo.name}`,
+        description: repo.description,
+        url: repo.url,
+        stars: repo.stargazerCount,
+        language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
+        gem_score: score,
+        recent_commits: w1,
+        activity: activity,
+        good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
+        has_good_first_issues: repo.issues.totalCount > 0,
+        pushed_at: repo.pushedAt
+      };
+    } catch {
+      return null;
+    }
+  }).filter(Boolean);
+
+  // Sort and filter
+  const topGems = scoredRepos
+    .sort((a, b) => b.gem_score - a.gem_score)
+    .slice(0, 150); // Increased to 150 gems for better variety
+
+  const output = {
+    last_mined: new Date().toISOString(),
+    count: topGems.length,
+    gems: topGems
+  };
+
+  const outputPath = path.join(__dirname, "../public/gems.json");
+  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+  console.log(`Successfully mined ${topGems.length} gems and saved to public/gems.json`);
 }
 
 getGems();
