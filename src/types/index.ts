@@ -8,6 +8,7 @@ export interface Gem {
   stars: number;
   language: string;
   gem_score: number;
+  momentum_trend: number;
   recent_commits: number;
   activity: number[]; // [week4, week3, week2, week1] - oldest to newest
   good_first_issues_url: string;

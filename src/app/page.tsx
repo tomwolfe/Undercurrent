@@ -1,6 +1,7 @@
 import { Explorer } from "@/components/Explorer";
 import { GemsResponse } from "@/types";
 import localGems from "../../public/gems.json";
+import { Suspense } from "react";
 
 // Revalidate every 6 hours (mined every 12 hours)
 export const revalidate = 21600;
@@ -40,5 +41,9 @@ async function getGems(): Promise<GemsResponse> {
 export default async function Page() {
   const data = await getGems();
   
-  return <Explorer initialGems={data.gems} lastMined={data.last_mined} />;
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#050505] flex items-center justify-center text-white/20">Loading gems...</div>}>
+      <Explorer initialGems={data.gems} lastMined={data.last_mined} />
+    </Suspense>
+  );
 }

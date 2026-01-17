@@ -6,16 +6,11 @@ require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
-if (!GITHUB_TOKEN) {
-  console.error("GITHUB_TOKEN is required");
-  process.exit(1);
-}
-
-const graphqlWithAuth = graphql.defaults({
+const graphqlWithAuth = GITHUB_TOKEN ? graphql.defaults({
   headers: {
     authorization: `token ${GITHUB_TOKEN}`,
   },
-});
+}) : null;
 
 // Targeted languages to ensure diversity in discovery
 const TARGET_LANGUAGES = [
@@ -50,6 +45,9 @@ function calculateScore(repo, recentCommits, labeledIssuesCount) {
 }
 
 async function fetchReposForQuery(searchQuery, timeframes) {
+  if (!graphqlWithAuth) {
+    throw new Error("GitHub token not configured");
+  }
   const query = `
     query($searchQuery: String!) {
       search(query: $searchQuery, type: REPOSITORY, first: 50) {
@@ -113,13 +111,22 @@ async function getGems() {
   baseRepos.forEach(repo => allRepos.set(`${repo.owner.login}/${repo.name}`, repo));
 
   // 2. Targeted language queries to find hidden gems in specific ecosystems
+  // Only search for languages that aren't already well-represented or to find more niche gems
   for (const lang of TARGET_LANGUAGES) {
     console.log(`Searching for ${lang} gems...`);
     const langQuery = `${baseQuery} language:${lang}`;
     const langRepos = await fetchReposForQuery(langQuery, timeframes);
-    langRepos.forEach(repo => allRepos.set(`${repo.owner.login}/${repo.name}`, repo));
+    let newCount = 0;
+    langRepos.forEach(repo => {
+      const key = `${repo.owner.login}/${repo.name}`;
+      if (!allRepos.has(key)) {
+        allRepos.set(key, repo);
+        newCount++;
+      }
+    });
+    console.log(`  Added ${newCount} new unique ${lang} repos.`);
     // Small delay to be nice to the API
-    await new Promise(resolve => setTimeout(resolve, 500));
+    await new Promise(resolve => setTimeout(resolve, 300));
   }
 
   console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores...`);
@@ -132,6 +139,9 @@ async function getGems() {
       const w4 = repo.defaultBranchRef?.target?.w4?.totalCount || 0;
 
       const activity = [w4, w3, w2, w1];
+      const avgActivity = (w2 + w3 + w4) / 3;
+      const momentumTrend = avgActivity === 0 ? (w1 > 0 ? 1 : 0) : (w1 / avgActivity);
+
       const labeledIssuesCount = repo.labeledIssues?.totalCount || 0;
       const score = calculateScore(repo, w1, labeledIssuesCount);
 
@@ -143,6 +153,7 @@ async function getGems() {
         stars: repo.stargazerCount,
         language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
         gem_score: score,
+        momentum_trend: Math.round(momentumTrend * 100) / 100,
         recent_commits: w1,
         activity: activity,
         good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
@@ -170,4 +181,12 @@ async function getGems() {
   console.log(`Successfully mined ${topGems.length} gems and saved to public/gems.json`);
 }
 
-getGems();
+module.exports = { calculateScore };
+
+if (require.main === module) {
+  if (!GITHUB_TOKEN) {
+    console.error("GITHUB_TOKEN is required");
+    process.exit(1);
+  }
+  getGems();
+}

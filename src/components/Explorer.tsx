@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { Info } from "lucide-react";
 import { GemCard } from "@/components/GemCard";
 import { MasonryGrid } from "@/components/MasonryGrid";
@@ -16,10 +17,14 @@ interface ExplorerProps {
 }
 
 export function Explorer({ initialGems, lastMined }: ExplorerProps) {
-  const [noHype, setNoHype] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("All");
-  const [sortBy, setSortBy] = useState<SortOption>("score");
-  const [searchQuery, setSearchQuery] = useState("");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const [noHype, setNoHype] = useState(searchParams.get("noHype") === "true");
+  const [selectedLanguage, setSelectedLanguage] = useState<string>(searchParams.get("lang") || "All");
+  const [sortBy, setSortBy] = useState<SortOption>((searchParams.get("sort") as SortOption) || "score");
+  const [searchQuery, setSearchQuery] = useState(searchParams.get("q") || "");
   const [activeModal, setActiveModal] = useState<string | null>(null);
   const [now, setNow] = useState(0);
 
@@ -28,8 +33,30 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
     setNow(Date.now());
   }, []);
 
-  const languages = useMemo(() => {
-    const langs = new Set(initialGems.map((g) => g.language));
+  // Sync state to URL
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams.toString());
+    
+    if (noHype) params.set("noHype", "true");
+    else params.delete("noHype");
+    
+    if (selectedLanguage !== "All") params.set("lang", selectedLanguage);
+    else params.delete("lang");
+    
+    if (sortBy !== "score") params.set("sort", sortBy);
+    else params.delete("sort");
+    
+    if (searchQuery) params.set("q", searchQuery);
+    else params.delete("q");
+
+    const query = params.toString();
+    const newUrl = query ? `${pathname}?${query}` : pathname;
+    
+    // Use replace to avoid polluting history with every keystroke
+    router.replace(newUrl, { scroll: false });
+  }, [noHype, selectedLanguage, sortBy, searchQuery, pathname, router, searchParams]);
+
+  const languages = useMemo(() => {    const langs = new Set(initialGems.map((g) => g.language));
     return ["All", ...Array.from(langs).filter(Boolean)].sort();
   }, [initialGems]);
 
@@ -39,7 +66,12 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
         if (noHype) {
           const desc = (gem.description || "").toLowerCase();
           const name = gem.name.toLowerCase();
-          const hypeWords = ["ai", "llm", "gpt", "openai", "claude", "langchain", "agent", "deepseek", "gemini", "llama", "mistral"];
+          const hypeWords = [
+            "ai", "llm", "gpt", "openai", "claude", "langchain", 
+            "agent", "deepseek", "gemini", "llama", "mistral",
+            "rag", "vector", "embedding", "anthropic", "cohere",
+            "stable diffusion", "midjourney", "prompt engineering"
+          ];
           if (hypeWords.some(word => desc.includes(word) || name.includes(word))) {
             return false;
           }

@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { Star, GitCommit, Code2, ArrowUpRight } from "lucide-react";
+import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Sparkline } from "./Sparkline";
 import { Card, CardContent } from "./ui/card";
@@ -33,6 +33,12 @@ export function GemCard({ gem, now }: GemCardProps) {
     return new Date(gem.pushed_at).getTime() > now - 7 * 24 * 60 * 60 * 1000;
   }, [gem.pushed_at, now]);
 
+  const trendIcon = useMemo(() => {
+    if (gem.momentum_trend > 1.2) return <TrendingUp size={10} className="text-emerald-500" />;
+    if (gem.momentum_trend < 0.8) return <TrendingDown size={10} className="text-rose-500" />;
+    return null;
+  }, [gem.momentum_trend]);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
@@ -42,12 +48,25 @@ export function GemCard({ gem, now }: GemCardProps) {
       <Card className="group relative h-full flex flex-col justify-between border-white/[0.05] bg-[#0A0A0A] p-0 hover:border-white/10 hover:bg-[#0F0F0F] transition-all duration-300 overflow-hidden">
         <CardContent className="p-5 flex flex-col gap-4">
           <div className="flex items-start justify-between">
-            <Badge 
-              variant={getScoreVariant(gem.gem_score)}
-              className="px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest"
-            >
-              {getScoreLabel(gem.gem_score)} {gem.gem_score}
-            </Badge>
+            <div className="flex flex-col gap-1.5">
+              <Badge 
+                variant={getScoreVariant(gem.gem_score)}
+                className="px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest"
+              >
+                {getScoreLabel(gem.gem_score)} {gem.gem_score}
+              </Badge>
+              {trendIcon && (
+                <div className="flex items-center gap-1 px-1">
+                  {trendIcon}
+                  <span className={cn(
+                    "text-[8px] font-bold uppercase tracking-tighter",
+                    gem.momentum_trend > 1.2 ? "text-emerald-500/70" : "text-rose-500/70"
+                  )}>
+                    {gem.momentum_trend > 1.2 ? "Trending Up" : "Cooling"}
+                  </span>
+                </div>
+              )}
+            </div>
             
             <div className="flex items-center gap-3">
               {gem.activity && (
