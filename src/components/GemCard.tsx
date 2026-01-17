@@ -2,8 +2,11 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { Star, GitCommit, ExternalLink, Code2 } from "lucide-react";
+import { Star, GitCommit, Code2, ArrowUpRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Sparkline } from "./Sparkline";
+import { Card, CardContent } from "./ui/card";
+import { Badge } from "./ui/badge";
 
 export interface Gem {
   name: string;
@@ -14,6 +17,7 @@ export interface Gem {
   language: string;
   gem_score: number;
   recent_commits: number;
+  activity: number[];
   good_first_issues_url: string;
   has_good_first_issues: boolean;
   pushed_at: string;
@@ -25,16 +29,16 @@ interface GemCardProps {
 }
 
 export function GemCard({ gem, now }: GemCardProps) {
-  const getScoreColor = (score: number) => {
-    if (score >= 90) return "bg-yellow-500/10 text-yellow-500 border-yellow-500/20";
-    if (score >= 70) return "bg-slate-300/10 text-slate-300 border-slate-300/20";
-    return "bg-orange-500/10 text-orange-500 border-orange-500/20";
+  const getScoreVariant = (score: number) => {
+    if (score >= 90) return "gold";
+    if (score >= 70) return "silver";
+    return "outline";
   };
 
   const getScoreLabel = (score: number) => {
     if (score >= 90) return "Gold";
     if (score >= 70) return "Silver";
-    return "Bronze";
+    return "Gem";
   };
 
   const isRecent = useMemo(() => {
@@ -42,110 +46,84 @@ export function GemCard({ gem, now }: GemCardProps) {
     return new Date(gem.pushed_at).getTime() > now - 7 * 24 * 60 * 60 * 1000;
   }, [gem.pushed_at, now]);
 
-  const getInstallCommand = (lang: string, name: string) => {
-    const l = lang.toLowerCase();
-    if (l === "typescript" || l === "javascript") return `npm install ${name.toLowerCase()}`;
-    if (l === "python") return `pip install ${name.toLowerCase()}`;
-    if (l === "rust") return `cargo add ${name.toLowerCase()}`;
-    if (l === "go") return `go get ${gem.full_name}`;
-    return null;
-  };
-
-  const installCmd = getInstallCommand(gem.language, gem.name);
-
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      className="group relative flex flex-col justify-between rounded-xl border border-white/10 bg-black p-6 hover:border-white/20 transition-all duration-300"
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
     >
-      <div className="flex flex-col gap-4">
-        <div className="flex items-start justify-between">
-          <div 
-            title={`Score Breakdown:\n• Activity: ${gem.recent_commits} commits/wk\n• Stars: ${gem.stars}\n• Freshness: ${isRecent ? "High" : "Medium"}`}
-            className={cn(
-              "flex items-center gap-1.5 px-2 py-0.5 rounded-full border text-[10px] font-bold uppercase tracking-wider cursor-help",
-              getScoreColor(gem.gem_score)
-            )}
-          >
-            <span>{getScoreLabel(gem.gem_score)}</span>
-            <span>{gem.gem_score}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            {isRecent && (
-              <span className="flex h-2 w-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)]" title="Recently updated" />
-            )}
-            <div className="flex items-center gap-1.5 text-xs text-white/40">
-              <Star size={14} />
-              <span>{gem.stars.toLocaleString()}</span>
+      <Card className="group relative h-full flex flex-col justify-between border-white/[0.05] bg-[#0A0A0A] p-0 hover:border-white/10 hover:bg-[#0F0F0F] transition-all duration-300 overflow-hidden">
+        <CardContent className="p-5 flex flex-col gap-4">
+          <div className="flex items-start justify-between">
+            <Badge 
+              variant={getScoreVariant(gem.gem_score)}
+              className="px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest"
+            >
+              {getScoreLabel(gem.gem_score)} {gem.gem_score}
+            </Badge>
+            
+            <div className="flex items-center gap-3">
+              {gem.activity && (
+                <div className="opacity-40 group-hover:opacity-100 transition-opacity">
+                  <Sparkline data={gem.activity} color={gem.gem_score >= 70 ? "#94a3b8" : "#4b5563"} />
+                </div>
+              )}
+              <div className="flex items-center gap-1 text-[11px] font-medium text-white/40">
+                <Star size={12} className="text-white/20" />
+                <span>{(gem.stars / 1000).toFixed(1)}k</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div>
-          <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">
-            {gem.name}
-          </h3>
-          <p className="mt-2 line-clamp-2 text-sm text-white/60 leading-relaxed min-h-[40px]">
-            {gem.description || "No description provided."}
-          </p>
-        </div>
-
-        <div className="flex flex-wrap gap-2">
-          <div className="flex items-center gap-1.5 rounded-md bg-white/5 px-2 py-1 text-[11px] text-white/80 border border-white/5">
-            <Code2 size={12} className="text-blue-400" />
-            {gem.language}
+          <div>
+            <h3 className="text-base font-semibold text-white/90 group-hover:text-white transition-colors flex items-center gap-2">
+              {gem.name}
+              {isRecent && (
+                <span className="h-1 w-1 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
+              )}
+            </h3>
+            <p className="mt-2 line-clamp-2 text-sm text-white/40 leading-relaxed min-h-[40px]">
+              {gem.description || "No description provided."}
+            </p>
           </div>
-          <div className="flex items-center gap-1.5 rounded-md bg-white/5 px-2 py-1 text-[11px] text-white/80 border border-white/5">
-            <GitCommit size={12} className="text-green-400" />
-            {gem.recent_commits} commits/wk
-          </div>
-          {gem.has_good_first_issues && (
-            <div className="flex items-center gap-1.5 rounded-md bg-blue-500/10 px-2 py-1 text-[11px] text-blue-400 border border-blue-500/20">
-              Help Wanted
-            </div>
-          )}
-        </div>
-      </div>
 
-      <div className="mt-6 space-y-3">
-        {installCmd && (
-          <button
-            onClick={() => {
-              navigator.clipboard.writeText(installCmd);
-              // Simple feedback would be nice, but keeping it minimal as per mandates
-            }}
-            className="w-full flex items-center justify-between gap-2 rounded-lg bg-white/5 border border-white/10 px-3 py-1.5 text-[11px] font-mono text-white/40 hover:text-white/80 hover:bg-white/10 transition-all"
-            title="Click to copy install command"
-          >
-            <span className="truncate">{installCmd}</span>
-            <ExternalLink size={10} />
-          </button>
-        )}
-        
-        <div className="flex gap-2">
-          <a
-            href={gem.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 inline-flex items-center justify-center gap-2 rounded-lg bg-white px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-white/90"
-          >
-            View Repo
-          </a>
-          <a
-            href={gem.good_first_issues_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={cn(
-              "flex items-center justify-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm font-medium text-white transition-all hover:bg-white/5",
-              !gem.has_good_first_issues && "opacity-50 grayscale cursor-not-allowed pointer-events-none"
-            )}
-            title={gem.has_good_first_issues ? "Contribute to this project" : "No Good First Issues available"}
-          >
-            <ExternalLink size={16} />
-          </a>
-        </div>
-      </div>
+          <div className="flex flex-wrap gap-2">
+            <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/50 bg-white/[0.02]">
+              <Code2 size={10} className="text-white/30" />
+              {gem.language}
+            </Badge>
+            <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/50 bg-white/[0.02]">
+              <GitCommit size={10} className="text-white/30" />
+              {gem.recent_commits} commits/wk
+            </Badge>
+          </div>
+
+          <div className="mt-2 flex gap-2">
+            <a
+              href={gem.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 inline-flex items-center justify-center gap-2 rounded-lg bg-white/[0.05] border border-white/5 px-4 py-2 text-xs font-semibold text-white/80 transition-all hover:bg-white/10 hover:text-white"
+            >
+              View Repo
+            </a>
+            <a
+              href={gem.good_first_issues_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={cn(
+                "inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-xs font-semibold transition-all",
+                gem.has_good_first_issues 
+                  ? "bg-blue-600 text-white shadow-[0_0_20px_rgba(37,99,235,0.2)] hover:bg-blue-500 hover:shadow-[0_0_25px_rgba(37,99,235,0.3)]"
+                  : "bg-white/[0.02] border border-white/5 text-white/20 cursor-not-allowed pointer-events-none"
+              )}
+            >
+              {gem.has_good_first_issues ? "Contribute" : "Lurking"}
+              {gem.has_good_first_issues && <ArrowUpRight size={14} />}
+            </a>
+          </div>
+        </CardContent>
+      </Card>
     </motion.div>
   );
 }

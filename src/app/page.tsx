@@ -51,7 +51,7 @@ export default function Home() {
         if (noHype) {
           const desc = (gem.description || "").toLowerCase();
           const name = gem.name.toLowerCase();
-          const hypeWords = ["ai", "llm", "gpt", "openai", "claude", "langchain", "agent"];
+          const hypeWords = ["ai", "llm", "gpt", "openai", "claude", "langchain", "agent", "deepseek", "gemini", "llama", "mistral"];
           if (hypeWords.some(word => desc.includes(word) || name.includes(word))) {
             return false;
           }
@@ -78,86 +78,91 @@ export default function Home() {
   }, [gems, noHype, selectedLanguage, sortBy, searchQuery]);
 
   return (
-    <main className="min-h-screen bg-[#030303] text-white selection:bg-blue-500/30">
+    <main className="min-h-screen bg-[#050505] text-white selection:bg-blue-500/30">
+      {/* Background Glow */}
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-blue-500/5 blur-[120px] rounded-full" />
+        <div className="absolute top-[20%] -right-[10%] w-[30%] h-[30%] bg-purple-500/5 blur-[120px] rounded-full" />
+      </div>
+
       {/* Header */}
-      <div className="relative border-b border-white/5 bg-black/50 backdrop-blur-xl">
-        <div className="mx-auto max-w-7xl px-6 py-8">
-          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-            <div className="space-y-1">
-              <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 shadow-[0_0_20px_rgba(37,99,235,0.4)]">
-                  <Zap size={20} className="fill-white text-white" />
-                </div>
-                <h1 className="text-2xl font-bold tracking-tight">Undercurrent</h1>
+      <div className="relative border-b border-white/[0.05] bg-black/20 backdrop-blur-md sticky top-0 z-50">
+        <div className="mx-auto max-w-7xl px-6 py-4">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-blue-400 shadow-[0_0_20px_rgba(37,99,235,0.3)]">
+                <Zap size={22} className="fill-white text-white" />
               </div>
-              <p className="text-sm text-white/40">Discover hidden engineering gems on GitHub.</p>
+              <div>
+                <h1 className="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
+                  Undercurrent
+                </h1>
+                <p className="text-[10px] uppercase tracking-widest text-white/30 font-bold">Hidden Gem Discovery</p>
+              </div>
             </div>
 
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-              {/* Search Bar */}
-              <div className="relative min-w-[300px]">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-white/20" size={16} />
+            <div className="flex items-center gap-3">
+              <div className="relative group">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-white/20 group-focus-within:text-blue-500 transition-colors" size={14} />
                 <input
                   type="text"
-                  placeholder="Search gems, topics, or languages..."
+                  placeholder="Search gems..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full rounded-full bg-white/5 border border-white/10 py-2 pl-10 pr-4 text-sm outline-none focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/20 transition-all"
+                  className="w-full md:w-64 rounded-lg bg-white/[0.03] border border-white/10 py-2 pl-9 pr-4 text-xs outline-none focus:border-blue-500/50 focus:bg-white/[0.05] transition-all"
                 />
               </div>
-
-              <div className="flex flex-wrap items-center gap-3">
-                <button
-                  onClick={() => setNoHype(!noHype)}
-                  className={cn(
-                    "flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium transition-all border",
-                    noHype 
-                      ? "bg-blue-500/10 border-blue-500/50 text-blue-400 shadow-[0_0_15px_rgba(59,130,246,0.15)]" 
-                      : "bg-white/5 border-white/10 text-white/60 hover:text-white"
-                  )}
-                >
-                  <Sparkles size={14} className={noHype ? "fill-current" : ""} />
-                  No-Hype Mode
-                </button>
-                
-                <div className="h-4 w-[1px] bg-white/10 hidden sm:block" />
-
-                <div className="flex items-center gap-1 rounded-full bg-white/5 p-1 border border-white/5">
-                  {(["score", "recent", "stars"] as const).map((option) => (
-                    <button
-                      key={option}
-                      onClick={() => setSortBy(option)}
-                      className={cn(
-                        "rounded-full px-3 py-1 text-xs font-medium capitalize transition-all",
-                        sortBy === option ? "bg-white/10 text-white" : "text-white/40 hover:text-white/60"
-                      )}
-                    >
-                      {option}
-                    </button>
-                  ))}
-                </div>
-              </div>
+              
+              <button
+                onClick={() => setNoHype(!noHype)}
+                className={cn(
+                  "flex items-center gap-2 rounded-lg px-3 py-2 text-xs font-semibold transition-all border",
+                  noHype 
+                    ? "bg-blue-500/10 border-blue-500/40 text-blue-400" 
+                    : "bg-white/[0.03] border-white/5 text-white/40 hover:text-white/60 hover:bg-white/[0.05]"
+                )}
+              >
+                <Sparkles size={14} className={noHype ? "fill-current" : ""} />
+                <span className="hidden sm:inline">No-Hype</span>
+              </button>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div className="mt-8 flex items-center gap-2 overflow-x-auto pb-2 no-scrollbar">
-            <Filter size={14} className="text-white/40 shrink-0" />
-            <div className="flex gap-2">
-              {languages.map((lang) => (
-                <button
-                  key={lang}
-                  onClick={() => setSelectedLanguage(lang)}
-                  className={cn(
-                    "whitespace-nowrap rounded-full px-3 py-1 text-xs font-medium transition-all border",
-                    selectedLanguage === lang 
-                      ? "bg-white/10 border-white/20 text-white" 
-                      : "bg-transparent border-white/5 text-white/40 hover:border-white/10 hover:text-white/60"
-                  )}
-                >
-                  {lang}
-                </button>
-              ))}
-            </div>
+      {/* Filters Bar */}
+      <div className="border-b border-white/[0.02] bg-black/40">
+        <div className="mx-auto max-w-7xl px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar w-full sm:w-auto">
+            {languages.map((lang) => (
+              <button
+                key={lang}
+                onClick={() => setSelectedLanguage(lang)}
+                className={cn(
+                  "whitespace-nowrap rounded-md px-3 py-1 text-[11px] font-semibold transition-all",
+                  selectedLanguage === lang 
+                    ? "bg-white/10 text-white" 
+                    : "text-white/30 hover:text-white/50"
+                )}
+              >
+                {lang}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-1 bg-white/[0.03] p-1 rounded-lg border border-white/5">
+            {(["score", "recent", "stars"] as const).map((option) => (
+              <button
+                key={option}
+                onClick={() => setSortBy(option)}
+                className={cn(
+                  "rounded-md px-3 py-1 text-[10px] font-bold uppercase tracking-wider transition-all",
+                  sortBy === option ? "bg-white/10 text-white shadow-sm" : "text-white/20 hover:text-white/40"
+                )}
+              >
+                {option}
+              </button>
+            ))}
           </div>
         </div>
       </div>
@@ -165,8 +170,10 @@ export default function Home() {
       {/* Content */}
       <div className="mx-auto max-w-7xl px-6 py-12">
         {loading ? (
-          <div className="flex h-64 items-center justify-center">
-            <div className="h-8 w-8 animate-spin rounded-full border-2 border-white/20 border-t-white" />
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {[...Array(8)].map((_, i) => (
+              <div key={i} className="h-64 rounded-xl bg-white/[0.02] animate-pulse border border-white/5" />
+            ))}
           </div>
         ) : filteredGems.length > 0 ? (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -175,23 +182,57 @@ export default function Home() {
             ))}
           </div>
         ) : (
-          <div className="flex flex-col items-center justify-center h-64 text-center">
-            <Info size={40} className="text-white/10 mb-4" />
-            <h3 className="text-lg font-medium text-white/60">No gems found</h3>
-            <p className="text-sm text-white/40">Try adjusting your filters or disabling No-Hype mode.</p>
+          <div className="flex flex-col items-center justify-center h-96 text-center">
+            <div className="h-20 w-20 rounded-full bg-white/[0.02] border border-white/5 flex items-center justify-center mb-6">
+              <Info size={32} className="text-white/10" />
+            </div>
+            <h3 className="text-xl font-semibold text-white/80">Zero gems found</h3>
+            <p className="text-sm text-white/30 mt-2 max-w-xs">
+              The current filter combination returned no results. Try broadening your search.
+            </p>
           </div>
         )}
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-white/5 py-12 mt-12">
-        <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-sm text-white/20">
-            Powered by Undercurrent Miner. Updates every 12 hours.
-          </p>
-          <div className="flex gap-6 text-sm text-white/20">
-            <a href="https://github.com/tom/Undercurrent" className="hover:text-white/40 transition-colors">Source</a>
-            <a href="#" className="hover:text-white/40 transition-colors">Methodology</a>
+      <footer className="border-t border-white/[0.05] py-20 mt-20 relative overflow-hidden">
+        <div className="mx-auto max-w-7xl px-6 relative z-10">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-12">
+            <div className="space-y-4">
+              <div className="flex items-center gap-2">
+                <Zap size={18} className="text-blue-500" />
+                <span className="font-bold tracking-tight">Undercurrent</span>
+              </div>
+              <p className="text-sm text-white/20 max-w-xs leading-relaxed">
+                An autonomous engine discovering high-quality, low-visibility engineering projects. Updated every 12 hours.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-16">
+              <div className="space-y-4">
+                <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-white/40">Engine</h4>
+                <ul className="space-y-2 text-sm text-white/20">
+                  <li><a href="#" className="hover:text-blue-400 transition-colors">Methodology</a></li>
+                  <li><a href="#" className="hover:text-blue-400 transition-colors">Scoring</a></li>
+                  <li><a href="https://github.com/tom/Undercurrent" className="hover:text-blue-400 transition-colors">Source</a></li>
+                </ul>
+              </div>
+              <div className="space-y-4">
+                <h4 className="text-[10px] uppercase tracking-[0.2em] font-bold text-white/40">Status</h4>
+                <div className="flex items-center gap-2 text-sm text-white/20">
+                  <div className="h-1.5 w-1.5 rounded-full bg-green-500" />
+                  <span>Operational</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-20 pt-8 border-t border-white/[0.02] flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-[10px] text-white/10 uppercase tracking-widest font-bold">
+              © 2026 Undercurrent Engine
+            </p>
+            <div className="flex gap-8 text-[10px] text-white/10 uppercase tracking-widest font-bold">
+              <a href="#" className="hover:text-white/30 transition-colors">Privacy</a>
+              <a href="#" className="hover:text-white/30 transition-colors">Terms</a>
+            </div>
           </div>
         </div>
       </footer>
