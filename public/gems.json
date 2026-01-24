@@ -1,27 +1,7 @@
 {
-  "last_mined": "2026-01-24T01:25:49.567Z",
+  "last_mined": "2026-01-24T12:37:19.644Z",
   "count": 150,
   "gems": [
-    {
-      "name": "tt-metal",
-      "full_name": "tenstorrent/tt-metal",
-      "description": ":metal: TT-NN operator library, and TT-Metalium low level kernel programming model.",
-      "url": "https://github.com/tenstorrent/tt-metal",
-      "stars": 1319,
-      "language": "C++",
-      "gem_score": 51.37,
-      "momentum_trend": 1.14,
-      "recent_commits": 180,
-      "activity": [
-        70,
-        176,
-        227,
-        180
-      ],
-      "good_first_issues_url": "https://github.com/tenstorrent/tt-metal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:15:51Z"
-    },
     {
       "name": "azure-sdk-for-ios",
       "full_name": "Azure/azure-sdk-for-ios",
@@ -29,98 +9,58 @@
       "url": "https://github.com/Azure/azure-sdk-for-ios",
       "stars": 193,
       "language": "Swift",
-      "gem_score": 44.72,
-      "momentum_trend": 1.33,
-      "recent_commits": 4,
+      "gem_score": 45.08,
+      "momentum_trend": 1.67,
+      "recent_commits": 5,
       "activity": [
         0,
         3,
         6,
-        4
+        5
       ],
       "good_first_issues_url": "https://github.com/Azure/azure-sdk-for-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:48:01Z"
+      "pushed_at": "2026-01-24T02:34:52Z"
     },
     {
-      "name": "google-cloud-rust",
-      "full_name": "googleapis/google-cloud-rust",
-      "description": "Google Cloud Rust Client Libraries",
-      "url": "https://github.com/googleapis/google-cloud-rust",
-      "stars": 878,
-      "language": "Rust",
-      "gem_score": 42.32,
-      "momentum_trend": 1.24,
-      "recent_commits": 50,
-      "activity": [
-        12,
-        66,
-        43,
-        50
-      ],
-      "good_first_issues_url": "https://github.com/googleapis/google-cloud-rust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:01:02Z"
-    },
-    {
-      "name": "azure-sdk-for-rust",
-      "full_name": "Azure/azure-sdk-for-rust",
-      "description": "This repository is for the active development of the Azure SDK for Rust. For consumers of the SDK we recommend visiting Docs.rs and looking up the docs for any of libraries in the SDK.",
-      "url": "https://github.com/Azure/azure-sdk-for-rust",
-      "stars": 862,
-      "language": "Rust",
-      "gem_score": 39.79,
-      "momentum_trend": 2.21,
-      "recent_commits": 25,
+      "name": "WFGY",
+      "full_name": "onestardao/WFGY",
+      "description": "WFGY 2.0. Semantic Reasoning Engine for LLMs (MIT). Fixes RAG/OCR drift, collapse & “ghost matches” via symbolic overlays + logic patches. Autoboot; OneLine & Flagship. ⭐ Star if you explore semantic RAG or hallucination mitigation.",
+      "url": "https://github.com/onestardao/WFGY",
+      "stars": 1330,
+      "language": "Python",
+      "gem_score": 40.1,
+      "momentum_trend": 23.31,
+      "recent_commits": 101,
       "activity": [
         0,
-        15,
-        19,
-        25
+        0,
+        13,
+        101
       ],
-      "good_first_issues_url": "https://github.com/Azure/azure-sdk-for-rust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:51:25Z"
-    },
-    {
-      "name": "archestra",
-      "full_name": "archestra-ai/archestra",
-      "description": "Enterprise-ready MCP gateway, MCP registry & orchestrator",
-      "url": "https://github.com/archestra-ai/archestra",
-      "stars": 484,
-      "language": "TypeScript",
-      "gem_score": 38.58,
-      "momentum_trend": 1,
-      "recent_commits": 87,
-      "activity": [
-        39,
-        94,
-        129,
-        87
-      ],
-      "good_first_issues_url": "https://github.com/archestra-ai/archestra/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/onestardao/WFGY/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:05:44Z"
+      "pushed_at": "2026-01-24T12:28:50Z"
     },
     {
-      "name": "ComfyUI_frontend",
-      "full_name": "Comfy-Org/ComfyUI_frontend",
-      "description": "Official front-end implementation of ComfyUI",
-      "url": "https://github.com/Comfy-Org/ComfyUI_frontend",
-      "stars": 1620,
-      "language": "TypeScript",
-      "gem_score": 37.57,
-      "momentum_trend": 1.55,
-      "recent_commits": 79,
+      "name": "elastic-agent",
+      "full_name": "elastic/elastic-agent",
+      "description": "Elastic Agent - single, unified way to add monitoring for logs, metrics, and other types of data to a host.",
+      "url": "https://github.com/elastic/elastic-agent",
+      "stars": 227,
+      "language": "Go",
+      "gem_score": 36.77,
+      "momentum_trend": 1.59,
+      "recent_commits": 34,
       "activity": [
-        17,
-        57,
-        79,
-        79
+        10,
+        27,
+        27,
+        34
       ],
-      "good_first_issues_url": "https://github.com/Comfy-Org/ComfyUI_frontend/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/elastic/elastic-agent/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:12:42Z"
+      "pushed_at": "2026-01-24T12:25:30Z"
     },
     {
       "name": "repo_posts",
@@ -129,158 +69,258 @@
       "url": "https://github.com/tom-doerr/repo_posts",
       "stars": 214,
       "language": "Python",
-      "gem_score": 36.13,
+      "gem_score": 36.1,
       "momentum_trend": 1.07,
       "recent_commits": 1304,
       "activity": [
         1168,
-        1237,
-        1258,
+        1238,
+        1257,
         1304
       ],
       "good_first_issues_url": "https://github.com/tom-doerr/repo_posts/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:21:26Z"
+      "pushed_at": "2026-01-24T12:30:14Z"
     },
     {
-      "name": "dbt-fusion",
-      "full_name": "dbt-labs/dbt-fusion",
-      "description": "The next-generation engine for dbt",
-      "url": "https://github.com/dbt-labs/dbt-fusion",
-      "stars": 607,
-      "language": "Rust",
-      "gem_score": 32.13,
-      "momentum_trend": 1.58,
-      "recent_commits": 56,
+      "name": "website",
+      "full_name": "hackforla/website",
+      "description": "Hack for LA's website",
+      "url": "https://github.com/hackforla/website",
+      "stars": 362,
+      "language": "JavaScript",
+      "gem_score": 33.96,
+      "momentum_trend": 1.03,
+      "recent_commits": 10,
       "activity": [
-        5,
-        45,
-        56,
-        56
+        8,
+        8,
+        13,
+        10
       ],
-      "good_first_issues_url": "https://github.com/dbt-labs/dbt-fusion/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:12:02Z"
-    },
-    {
-      "name": "inspector",
-      "full_name": "MCPJam/inspector",
-      "description": "Local inspector for ChatGPT apps & MCP apps (ext-apps)",
-      "url": "https://github.com/MCPJam/inspector",
-      "stars": 1594,
-      "language": "TypeScript",
-      "gem_score": 30.59,
-      "momentum_trend": 2.8,
-      "recent_commits": 83,
-      "activity": [
-        3,
-        19,
-        67,
-        83
-      ],
-      "good_first_issues_url": "https://github.com/MCPJam/inspector/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/hackforla/website/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:07:43Z"
+      "pushed_at": "2026-01-24T11:06:59Z"
+    },
+    {
+      "name": "vllm-ascend",
+      "full_name": "vllm-project/vllm-ascend",
+      "description": "Community maintained hardware plugin for vLLM on Ascend",
+      "url": "https://github.com/vllm-project/vllm-ascend",
+      "stars": 1595,
+      "language": "C++",
+      "gem_score": 33.67,
+      "momentum_trend": 1.4,
+      "recent_commits": 107,
+      "activity": [
+        36,
+        118,
+        76,
+        107
+      ],
+      "good_first_issues_url": "https://github.com/vllm-project/vllm-ascend/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T12:34:29Z"
+    },
+    {
+      "name": "AutoAccounting",
+      "full_name": "AutoAccountingOrg/AutoAccounting",
+      "description": "你的每一笔账单都值得记录！",
+      "url": "https://github.com/AutoAccountingOrg/AutoAccounting",
+      "stars": 722,
+      "language": "Kotlin",
+      "gem_score": 32.46,
+      "momentum_trend": 1.3,
+      "recent_commits": 13,
+      "activity": [
+        25,
+        5,
+        0,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/AutoAccountingOrg/AutoAccounting/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:36:14Z"
+    },
+    {
+      "name": "smart-tree",
+      "full_name": "8b-is/smart-tree",
+      "description": "Smart Tree: not just a tree, a philosophy. A context-aware, AI-crafted replacement for 20+ tools with MEM8 quantum compression, semantic search, AST-smart editing, and partnership memory. Crafted with care by human + AI—accept no knock-offs.",
+      "url": "https://github.com/8b-is/smart-tree",
+      "stars": 218,
+      "language": "Rust",
+      "gem_score": 30.73,
+      "momentum_trend": 36.86,
+      "recent_commits": 86,
+      "activity": [
+        0,
+        0,
+        7,
+        86
+      ],
+      "good_first_issues_url": "https://github.com/8b-is/smart-tree/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:32:28Z"
     },
     {
       "name": "apple-browsers",
       "full_name": "duckduckgo/apple-browsers",
       "description": "DuckDuckGo iOS & macOS browsers",
       "url": "https://github.com/duckduckgo/apple-browsers",
-      "stars": 157,
+      "stars": 158,
       "language": "Swift",
-      "gem_score": 30.23,
-      "momentum_trend": 1.75,
-      "recent_commits": 102,
+      "gem_score": 30.13,
+      "momentum_trend": 1.72,
+      "recent_commits": 101,
       "activity": [
         1,
-        96,
+        97,
         78,
-        102
+        101
       ],
       "good_first_issues_url": "https://github.com/duckduckgo/apple-browsers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T23:24:32Z"
+      "pushed_at": "2026-01-24T10:32:22Z"
     },
     {
-      "name": "terraform-provider-google",
-      "full_name": "hashicorp/terraform-provider-google",
-      "description": "Terraform Provider for Google Cloud Platform",
-      "url": "https://github.com/hashicorp/terraform-provider-google",
-      "stars": 2571,
-      "language": "Go",
-      "gem_score": 28.08,
-      "momentum_trend": 1.3,
-      "recent_commits": 36,
-      "activity": [
-        14,
-        32,
-        37,
-        36
-      ],
-      "good_first_issues_url": "https://github.com/hashicorp/terraform-provider-google/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:50:14Z"
-    },
-    {
-      "name": "readur",
-      "full_name": "readur/readur",
-      "description": "Quick, painless, intuitive OCR platform written in Rust and TypeScript. Modern UI with modern API, with an emphasis on intuitive user experience.",
-      "url": "https://github.com/readur/readur",
-      "stars": 569,
+      "name": "arcadia",
+      "full_name": "Arcadia-Solutions/arcadia",
+      "description": "Content-agnostic torrent site & tracker framework",
+      "url": "https://github.com/Arcadia-Solutions/arcadia",
+      "stars": 313,
       "language": "Rust",
-      "gem_score": 24.63,
-      "momentum_trend": 1.35,
+      "gem_score": 28.69,
+      "momentum_trend": 1.05,
+      "recent_commits": 40,
+      "activity": [
+        36,
+        34,
+        44,
+        40
+      ],
+      "good_first_issues_url": "https://github.com/Arcadia-Solutions/arcadia/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T10:56:26Z"
+    },
+    {
+      "name": "cloud-provider-azure",
+      "full_name": "kubernetes-sigs/cloud-provider-azure",
+      "description": "Cloud provider for Azure",
+      "url": "https://github.com/kubernetes-sigs/cloud-provider-azure",
+      "stars": 292,
+      "language": "Go",
+      "gem_score": 26.61,
+      "momentum_trend": 2.53,
+      "recent_commits": 16,
+      "activity": [
+        3,
+        11,
+        5,
+        16
+      ],
+      "good_first_issues_url": "https://github.com/kubernetes-sigs/cloud-provider-azure/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:17:13Z"
+    },
+    {
+      "name": "whatsapp-rust",
+      "full_name": "jlucaso1/whatsapp-rust",
+      "description": "Whatsapp client written purely in Rust based on whatsmeow and baileys",
+      "url": "https://github.com/jlucaso1/whatsapp-rust",
+      "stars": 367,
+      "language": "Rust",
+      "gem_score": 25.96,
+      "momentum_trend": 4.8,
+      "recent_commits": 32,
+      "activity": [
+        3,
+        17,
+        0,
+        32
+      ],
+      "good_first_issues_url": "https://github.com/jlucaso1/whatsapp-rust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:21:39Z"
+    },
+    {
+      "name": "frost",
+      "full_name": "elitan/frost",
+      "description": "Deploy Docker apps. Simply.",
+      "url": "https://github.com/elitan/frost",
+      "stars": 288,
+      "language": "TypeScript",
+      "gem_score": 25.83,
+      "momentum_trend": 1.11,
+      "recent_commits": 76,
+      "activity": [
+        0,
+        134,
+        71,
+        76
+      ],
+      "good_first_issues_url": "https://github.com/elitan/frost/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:24:52Z"
+    },
+    {
+      "name": "facet",
+      "full_name": "facet-rs/facet",
+      "description": "Rust reflection, serialization, deserialization, pretty printing, etc. — the last proc macro you should need",
+      "url": "https://github.com/facet-rs/facet",
+      "stars": 2364,
+      "language": "Rust",
+      "gem_score": 25.51,
+      "momentum_trend": 0.65,
+      "recent_commits": 74,
+      "activity": [
+        165,
+        116,
+        60,
+        74
+      ],
+      "good_first_issues_url": "https://github.com/facet-rs/facet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:31:39Z"
+    },
+    {
+      "name": "miranda-ng",
+      "full_name": "miranda-ng/miranda-ng",
+      "description": "Miranda NG: Next Generation of Miranda IM",
+      "url": "https://github.com/miranda-ng/miranda-ng",
+      "stars": 540,
+      "language": "C++",
+      "gem_score": 24.7,
+      "momentum_trend": 1.07,
+      "recent_commits": 5,
+      "activity": [
+        0,
+        7,
+        7,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/miranda-ng/miranda-ng/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T10:56:53Z"
+    },
+    {
+      "name": "starpsx",
+      "full_name": "kaezrr/starpsx",
+      "description": "A WIP PlayStation 1 emulator written in Rust.",
+      "url": "https://github.com/kaezrr/starpsx",
+      "stars": 186,
+      "language": "Rust",
+      "gem_score": 24.06,
+      "momentum_trend": 1.65,
       "recent_commits": 27,
       "activity": [
-        32,
-        12,
+        0,
         16,
+        33,
         27
       ],
-      "good_first_issues_url": "https://github.com/readur/readur/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/kaezrr/starpsx/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:35:50Z"
-    },
-    {
-      "name": "EinsteinLauncher",
-      "full_name": "JackEblan/EinsteinLauncher",
-      "description": "Only 2 MB Android Launcher, total control, zero bloat, zero tracking",
-      "url": "https://github.com/JackEblan/EinsteinLauncher",
-      "stars": 330,
-      "language": "Kotlin",
-      "gem_score": 24.39,
-      "momentum_trend": 1.66,
-      "recent_commits": 26,
-      "activity": [
-        13,
-        17,
-        17,
-        26
-      ],
-      "good_first_issues_url": "https://github.com/JackEblan/EinsteinLauncher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-23T23:04:02Z"
-    },
-    {
-      "name": "monarch",
-      "full_name": "meta-pytorch/monarch",
-      "description": "PyTorch Single Controller",
-      "url": "https://github.com/meta-pytorch/monarch",
-      "stars": 953,
-      "language": "Rust",
-      "gem_score": 24.14,
-      "momentum_trend": 1.21,
-      "recent_commits": 36,
-      "activity": [
-        7,
-        36,
-        46,
-        36
-      ],
-      "good_first_issues_url": "https://github.com/meta-pytorch/monarch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:04:09Z"
+      "pushed_at": "2026-01-24T11:40:59Z"
     },
     {
       "name": "registry",
@@ -289,58 +329,78 @@
       "url": "https://github.com/opentofu/registry",
       "stars": 388,
       "language": "Go",
-      "gem_score": 23.9,
-      "momentum_trend": 1.19,
-      "recent_commits": 380,
+      "gem_score": 23.89,
+      "momentum_trend": 1.18,
+      "recent_commits": 379,
       "activity": [
-        135,
-        374,
-        450,
-        380
+        139,
+        377,
+        449,
+        379
       ],
       "good_first_issues_url": "https://github.com/opentofu/registry/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:42:12Z"
+      "pushed_at": "2026-01-24T12:26:07Z"
     },
     {
-      "name": "otel-arrow",
-      "full_name": "open-telemetry/otel-arrow",
-      "description": "Protocol and libraries for sending and receiving OpenTelemetry data using Apache Arrow",
-      "url": "https://github.com/open-telemetry/otel-arrow",
-      "stars": 306,
+      "name": "claude-code-history-viewer",
+      "full_name": "jhlee0409/claude-code-history-viewer",
+      "description": "🔍 A Tauri-based desktop app to browse and analyze your Claude Code conversation history from ~/.claude",
+      "url": "https://github.com/jhlee0409/claude-code-history-viewer",
+      "stars": 340,
+      "language": "TypeScript",
+      "gem_score": 23.7,
+      "momentum_trend": 1,
+      "recent_commits": 35,
+      "activity": [
+        0,
+        0,
+        0,
+        35
+      ],
+      "good_first_issues_url": "https://github.com/jhlee0409/claude-code-history-viewer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:01:35Z"
+    },
+    {
+      "name": "rocketmq-rust",
+      "full_name": "mxsm/rocketmq-rust",
+      "description": "🚀Apache RocketMQ build in  Rust🦀. Faster, safer, and with lower memory usage. ⭐ Star to support this project!",
+      "url": "https://github.com/mxsm/rocketmq-rust",
+      "stars": 1453,
       "language": "Rust",
-      "gem_score": 23.51,
-      "momentum_trend": 1.76,
-      "recent_commits": 37,
+      "gem_score": 23.15,
+      "momentum_trend": 0.9,
+      "recent_commits": 88,
       "activity": [
-        4,
-        25,
-        34,
-        37
+        165,
+        112,
+        17,
+        88
       ],
-      "good_first_issues_url": "https://github.com/open-telemetry/otel-arrow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/mxsm/rocketmq-rust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:21:44Z"
+      "pushed_at": "2026-01-24T10:38:02Z"
     },
     {
-      "name": "collectives",
-      "full_name": "nextcloud/collectives",
-      "description": "Collectives is a Nextcloud App for activist and community projects to organize together.",
-      "url": "https://github.com/nextcloud/collectives",
-      "stars": 162,
-      "language": "JavaScript",
-      "gem_score": 22.51,
-      "momentum_trend": 0.38,
-      "recent_commits": 5,
+      "name": "qafiyah",
+      "full_name": "alwalxed/qafiyah",
+      "description": "The Open-Source Home for Arabic Poetry",
+      "url": "https://github.com/alwalxed/qafiyah",
+      "stars": 216,
+      "language": "TypeScript",
+      "gem_score": 22.7,
+      "momentum_trend": 26.25,
+      "recent_commits": 35,
       "activity": [
-        2,
-        8,
-        29,
-        5
+        0,
+        4,
+        0,
+        35
       ],
-      "good_first_issues_url": "https://github.com/nextcloud/collectives/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:36:13Z"
+      "good_first_issues_url": "https://github.com/alwalxed/qafiyah/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:16:35Z"
     },
     {
       "name": "AdBlock_Rule_For_Clash",
@@ -349,198 +409,158 @@
       "url": "https://github.com/REIJI007/AdBlock_Rule_For_Clash",
       "stars": 288,
       "language": "PowerShell",
-      "gem_score": 22.49,
-      "momentum_trend": 11.59,
-      "recent_commits": 1217,
+      "gem_score": 22.46,
+      "momentum_trend": 8.84,
+      "recent_commits": 1208,
       "activity": [
         0,
         0,
-        315,
-        1217
+        410,
+        1208
       ],
       "good_first_issues_url": "https://github.com/REIJI007/AdBlock_Rule_For_Clash/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:20:44Z"
-    },
-    {
-      "name": "element-x-ios",
-      "full_name": "element-hq/element-x-ios",
-      "description": "Next generation Matrix client for iOS built with SwiftUI on top of matrix-rust-sdk.",
-      "url": "https://github.com/element-hq/element-x-ios",
-      "stars": 712,
-      "language": "Swift",
-      "gem_score": 22.47,
-      "momentum_trend": 2.15,
-      "recent_commits": 33,
-      "activity": [
-        0,
-        27,
-        19,
-        33
-      ],
-      "good_first_issues_url": "https://github.com/element-hq/element-x-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T21:11:56Z"
-    },
-    {
-      "name": "solace-agent-mesh",
-      "full_name": "SolaceLabs/solace-agent-mesh",
-      "description": "An event-driven framework designed to build and orchestrate multi-agent AI systems. It enables seamless integration of AI agents with real-world data sources and systems, facilitating complex, multi-step workflows.",
-      "url": "https://github.com/SolaceLabs/solace-agent-mesh",
-      "stars": 1296,
-      "language": "Python",
-      "gem_score": 22.43,
-      "momentum_trend": 1.15,
-      "recent_commits": 40,
-      "activity": [
-        0,
-        46,
-        58,
-        40
-      ],
-      "good_first_issues_url": "https://github.com/SolaceLabs/solace-agent-mesh/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:14:24Z"
+      "pushed_at": "2026-01-24T12:34:52Z"
     },
     {
       "name": "SVM",
       "full_name": "sinavm/SVM",
       "description": "ابزار جمع ‌آوری و تبدیل کانفیگ‌های وی‌پی‌ان به پروتکل‌های مختلف ، توسعه‌یافته توسط سینا",
       "url": "https://github.com/sinavm/SVM",
-      "stars": 305,
+      "stars": 307,
       "language": "PHP",
-      "gem_score": 22.35,
+      "gem_score": 22.3,
       "momentum_trend": 0.9,
       "recent_commits": 112,
       "activity": [
-        150,
-        112,
+        151,
+        111,
         111,
         112
       ],
       "good_first_issues_url": "https://github.com/sinavm/SVM/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:22:17Z"
+      "pushed_at": "2026-01-24T12:34:44Z"
     },
     {
-      "name": "neuro-san-studio",
-      "full_name": "cognizant-ai-lab/neuro-san-studio",
-      "description": "A playground for neuro-san",
-      "url": "https://github.com/cognizant-ai-lab/neuro-san-studio",
-      "stars": 288,
-      "language": "Python",
-      "gem_score": 22.06,
-      "momentum_trend": 1.4,
-      "recent_commits": 75,
+      "name": "stackrox",
+      "full_name": "stackrox/stackrox",
+      "description": "The StackRox Kubernetes Security Platform performs a risk analysis of the container environment, delivers visibility and runtime alerts, and provides recommendations to proactively improve security by hardening the environment.",
+      "url": "https://github.com/stackrox/stackrox",
+      "stars": 1246,
+      "language": "Go",
+      "gem_score": 22.29,
+      "momentum_trend": 1.69,
+      "recent_commits": 77,
       "activity": [
-        18,
-        79,
-        64,
-        75
+        8,
+        58,
+        71,
+        77
       ],
-      "good_first_issues_url": "https://github.com/cognizant-ai-lab/neuro-san-studio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:21:24Z"
-    },
-    {
-      "name": "hazel",
-      "full_name": "HazelChat/hazel",
-      "description": null,
-      "url": "https://github.com/HazelChat/hazel",
-      "stars": 520,
-      "language": "TypeScript",
-      "gem_score": 21.96,
-      "momentum_trend": 1.18,
-      "recent_commits": 57,
-      "activity": [
-        25,
-        63,
-        57,
-        57
-      ],
-      "good_first_issues_url": "https://github.com/HazelChat/hazel/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:42:29Z"
-    },
-    {
-      "name": "balatro-mod-manager",
-      "full_name": "skyline69/balatro-mod-manager",
-      "description": "Balatro Mod Manager by Skyline",
-      "url": "https://github.com/skyline69/balatro-mod-manager",
-      "stars": 318,
-      "language": "Rust",
-      "gem_score": 21.86,
-      "momentum_trend": 2.19,
-      "recent_commits": 78,
-      "activity": [
-        55,
-        18,
-        34,
-        78
-      ],
-      "good_first_issues_url": "https://github.com/skyline69/balatro-mod-manager/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:21:06Z"
-    },
-    {
-      "name": "PixelPlayer",
-      "full_name": "theovilardo/PixelPlayer",
-      "description": null,
-      "url": "https://github.com/theovilardo/PixelPlayer",
-      "stars": 2588,
-      "language": "Kotlin",
-      "gem_score": 21.8,
-      "momentum_trend": 0.62,
-      "recent_commits": 28,
-      "activity": [
-        53,
-        59,
-        23,
-        28
-      ],
-      "good_first_issues_url": "https://github.com/theovilardo/PixelPlayer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/stackrox/stackrox/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:57:31Z"
+      "pushed_at": "2026-01-24T11:15:30Z"
+    },
+    {
+      "name": "tvbox",
+      "full_name": "cluntop/tvbox",
+      "description": "TVBox 接口 / TVBox Interface",
+      "url": "https://github.com/cluntop/tvbox",
+      "stars": 248,
+      "language": "Python",
+      "gem_score": 22.23,
+      "momentum_trend": 1.92,
+      "recent_commits": 284,
+      "activity": [
+        0,
+        149,
+        295,
+        284
+      ],
+      "good_first_issues_url": "https://github.com/cluntop/tvbox/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:22:04Z"
+    },
+    {
+      "name": "css-modules-kit",
+      "full_name": "mizdra/css-modules-kit",
+      "description": "A toolkit for making CSS Modules useful.",
+      "url": "https://github.com/mizdra/css-modules-kit",
+      "stars": 163,
+      "language": "TypeScript",
+      "gem_score": 22.03,
+      "momentum_trend": 0.94,
+      "recent_commits": 5,
+      "activity": [
+        3,
+        6,
+        7,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/mizdra/css-modules-kit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:59:01Z"
+    },
+    {
+      "name": "xiaozhi-client",
+      "full_name": "shenjingnan/xiaozhi-client",
+      "description": "小智AI客户端，目前主要用于MCP的对接",
+      "url": "https://github.com/shenjingnan/xiaozhi-client",
+      "stars": 248,
+      "language": "TypeScript",
+      "gem_score": 21.79,
+      "momentum_trend": 1.16,
+      "recent_commits": 17,
+      "activity": [
+        13,
+        15,
+        16,
+        17
+      ],
+      "good_first_issues_url": "https://github.com/shenjingnan/xiaozhi-client/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:45:55Z"
     },
     {
       "name": "x-kit",
       "full_name": "xiaoxiunique/x-kit",
       "description": "一个用于抓取和分析 X (Twitter) 用户数据和推文的工具。",
       "url": "https://github.com/xiaoxiunique/x-kit",
-      "stars": 876,
+      "stars": 877,
       "language": "TypeScript",
-      "gem_score": 21.77,
+      "gem_score": 21.76,
       "momentum_trend": 1,
       "recent_commits": 320,
       "activity": [
         321,
-        320,
-        315,
+        318,
+        317,
         320
       ],
       "good_first_issues_url": "https://github.com/xiaoxiunique/x-kit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:46:12Z"
+      "pushed_at": "2026-01-24T12:01:57Z"
     },
     {
-      "name": "PVZF-Translation",
-      "full_name": "Teyliu/PVZF-Translation",
-      "description": "A Repository for the translation",
-      "url": "https://github.com/Teyliu/PVZF-Translation",
-      "stars": 492,
+      "name": "Fusion-JetBrainsMapleMono",
+      "full_name": "SpaceTimee/Fusion-JetBrainsMapleMono",
+      "description": "JetBrains Maple Mono: The free and open-source font fused with JetBrains Mono & Maple Mono",
+      "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono",
+      "stars": 1852,
       "language": "Python",
-      "gem_score": 21.77,
-      "momentum_trend": 3.92,
-      "recent_commits": 94,
+      "gem_score": 21.37,
+      "momentum_trend": 0.87,
+      "recent_commits": 347,
       "activity": [
-        23,
-        31,
-        18,
-        94
+        423,
+        387,
+        381,
+        347
       ],
-      "good_first_issues_url": "https://github.com/Teyliu/PVZF-Translation/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:07:09Z"
+      "pushed_at": "2026-01-24T12:36:18Z"
     },
     {
       "name": "Rewrite",
@@ -549,227 +569,167 @@
       "url": "https://github.com/Yu9191/Rewrite",
       "stars": 244,
       "language": "JavaScript",
-      "gem_score": 21.35,
-      "momentum_trend": 1.93,
+      "gem_score": 21.34,
+      "momentum_trend": 1.89,
       "recent_commits": 176,
       "activity": [
-        66,
-        67,
-        141,
+        64,
+        73,
+        143,
         176
       ],
       "good_first_issues_url": "https://github.com/Yu9191/Rewrite/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:58:04Z"
+      "pushed_at": "2026-01-24T10:58:04Z"
     },
     {
-      "name": "xiaozhi-client",
-      "full_name": "shenjingnan/xiaozhi-client",
-      "description": "小智AI客户端，目前主要用于MCP的对接",
-      "url": "https://github.com/shenjingnan/xiaozhi-client",
-      "stars": 247,
-      "language": "TypeScript",
-      "gem_score": 20.86,
-      "momentum_trend": 0.95,
-      "recent_commits": 14,
-      "activity": [
-        13,
-        15,
-        16,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/shenjingnan/xiaozhi-client/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:01:24Z"
-    },
-    {
-      "name": "cyrus",
-      "full_name": "ceedaragents/cyrus",
-      "description": "Your Claude Code powered Linear agent that runs on any machine",
-      "url": "https://github.com/ceedaragents/cyrus",
-      "stars": 297,
-      "language": "TypeScript",
-      "gem_score": 20.5,
-      "momentum_trend": 0.24,
-      "recent_commits": 3,
-      "activity": [
-        11,
-        11,
-        15,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/ceedaragents/cyrus/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:23:14Z"
-    },
-    {
-      "name": "celestia-app",
-      "full_name": "celestiaorg/celestia-app",
-      "description": "Celestia consensus node",
-      "url": "https://github.com/celestiaorg/celestia-app",
-      "stars": 405,
-      "language": "Go",
-      "gem_score": 20.46,
-      "momentum_trend": 1.9,
-      "recent_commits": 19,
-      "activity": [
-        6,
-        10,
-        14,
-        19
-      ],
-      "good_first_issues_url": "https://github.com/celestiaorg/celestia-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:36:01Z"
-    },
-    {
-      "name": "ao",
-      "full_name": "pytorch/ao",
-      "description": "PyTorch native quantization and sparsity for training and inference",
-      "url": "https://github.com/pytorch/ao",
-      "stars": 2644,
-      "language": "Python",
-      "gem_score": 20.32,
-      "momentum_trend": 1.75,
-      "recent_commits": 35,
-      "activity": [
-        13,
-        21,
-        26,
-        35
-      ],
-      "good_first_issues_url": "https://github.com/pytorch/ao/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:18:47Z"
-    },
-    {
-      "name": "dashboard",
-      "full_name": "rancher/dashboard",
-      "description": "The Rancher UI",
-      "url": "https://github.com/rancher/dashboard",
-      "stars": 571,
-      "language": "TypeScript",
-      "gem_score": 20.25,
-      "momentum_trend": 0.84,
-      "recent_commits": 22,
-      "activity": [
-        7,
-        47,
-        25,
-        22
-      ],
-      "good_first_issues_url": "https://github.com/rancher/dashboard/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:43:28Z"
-    },
-    {
-      "name": "uccl",
-      "full_name": "uccl-project/uccl",
-      "description": "UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)",
-      "url": "https://github.com/uccl-project/uccl",
-      "stars": 1186,
-      "language": "C++",
-      "gem_score": 19.72,
-      "momentum_trend": 4.67,
-      "recent_commits": 28,
+      "name": "migu_video",
+      "full_name": "develop202/migu_video",
+      "description": null,
+      "url": "https://github.com/develop202/migu_video",
+      "stars": 704,
+      "language": "JavaScript",
+      "gem_score": 21.17,
+      "momentum_trend": 4.24,
+      "recent_commits": 65,
       "activity": [
         3,
+        3,
+        40,
+        65
+      ],
+      "good_first_issues_url": "https://github.com/develop202/migu_video/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:16:50Z"
+    },
+    {
+      "name": "Foundation-Models-Framework-Example",
+      "full_name": "rudrankriyam/Foundation-Models-Framework-Example",
+      "description": "Example apps for Foundation Models Framework in iOS 26 and macOS 26",
+      "url": "https://github.com/rudrankriyam/Foundation-Models-Framework-Example",
+      "stars": 888,
+      "language": "Swift",
+      "gem_score": 20.99,
+      "momentum_trend": 1.2,
+      "recent_commits": 8,
+      "activity": [
+        8,
+        2,
         10,
-        5,
-        28
+        8
       ],
-      "good_first_issues_url": "https://github.com/uccl-project/uccl/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/rudrankriyam/Foundation-Models-Framework-Example/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:22:09Z"
+      "pushed_at": "2026-01-24T12:19:58Z"
     },
     {
-      "name": "SpeedyNote",
-      "full_name": "alpha-liu-01/SpeedyNote",
-      "description": "A simple note app with good performance and PDF import support",
-      "url": "https://github.com/alpha-liu-01/SpeedyNote",
-      "stars": 1028,
-      "language": "C++",
-      "gem_score": 19.51,
-      "momentum_trend": 2.24,
-      "recent_commits": 112,
+      "name": "glide",
+      "full_name": "glide-browser/glide",
+      "description": "An extensible and keyboard-focused web browser",
+      "url": "https://github.com/glide-browser/glide",
+      "stars": 1230,
+      "language": "TypeScript",
+      "gem_score": 20.51,
+      "momentum_trend": 1.13,
+      "recent_commits": 29,
       "activity": [
-        48,
-        38,
+        30,
+        21,
+        26,
+        29
+      ],
+      "good_first_issues_url": "https://github.com/glide-browser/glide/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:52:07Z"
+    },
+    {
+      "name": "arkflow",
+      "full_name": "arkflow-rs/arkflow",
+      "description": "High performance Rust stream processing engine seamlessly integrates AI capabilities, providing powerful real-time data processing and intelligent analysis. ",
+      "url": "https://github.com/arkflow-rs/arkflow",
+      "stars": 1244,
+      "language": "Rust",
+      "gem_score": 20.49,
+      "momentum_trend": 1.54,
+      "recent_commits": 20,
+      "activity": [
+        13,
+        17,
+        9,
+        20
+      ],
+      "good_first_issues_url": "https://github.com/arkflow-rs/arkflow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T12:29:24Z"
+    },
+    {
+      "name": "ryos",
+      "full_name": "ryokun6/ryos",
+      "description": "ryOS, made with Cursor",
+      "url": "https://github.com/ryokun6/ryos",
+      "stars": 1061,
+      "language": "TypeScript",
+      "gem_score": 19.21,
+      "momentum_trend": 0.76,
+      "recent_commits": 114,
+      "activity": [
+        339,
+        45,
         64,
-        112
+        114
       ],
-      "good_first_issues_url": "https://github.com/alpha-liu-01/SpeedyNote/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/ryokun6/ryos/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:37:54Z"
+      "pushed_at": "2026-01-24T12:11:08Z"
     },
     {
-      "name": "heron",
-      "full_name": "tunjid/heron",
-      "description": "A graceful multiplatform bluesky client",
-      "url": "https://github.com/tunjid/heron",
-      "stars": 442,
-      "language": "Kotlin",
-      "gem_score": 19.46,
-      "momentum_trend": 0.68,
-      "recent_commits": 72,
+      "name": "hypershift",
+      "full_name": "openshift/hypershift",
+      "description": "Hyperscale OpenShift - clusters with hosted control planes",
+      "url": "https://github.com/openshift/hypershift",
+      "stars": 501,
+      "language": "Go",
+      "gem_score": 19.16,
+      "momentum_trend": 1.43,
+      "recent_commits": 51,
       "activity": [
-        114,
-        119,
-        87,
-        72
+        1,
+        26,
+        80,
+        51
       ],
-      "good_first_issues_url": "https://github.com/tunjid/heron/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/openshift/hypershift/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:24:41Z"
+      "pushed_at": "2026-01-24T12:36:29Z"
     },
     {
-      "name": "irdashies",
-      "full_name": "tariknz/irdashies",
-      "description": "iRacing Overlays with Electron and TypeScript",
-      "url": "https://github.com/tariknz/irdashies",
-      "stars": 153,
-      "language": "TypeScript",
-      "gem_score": 19.27,
-      "momentum_trend": 1.65,
-      "recent_commits": 34,
+      "name": "perpetual",
+      "full_name": "perpetual-ml/perpetual",
+      "description": "A self-generalizing gradient boosting machine that doesn't need hyperparameter optimization",
+      "url": "https://github.com/perpetual-ml/perpetual",
+      "stars": 586,
+      "language": "Rust",
+      "gem_score": 19.08,
+      "momentum_trend": 43.5,
+      "recent_commits": 58,
       "activity": [
-        29,
-        18,
-        15,
-        34
+        0,
+        0,
+        4,
+        58
       ],
-      "good_first_issues_url": "https://github.com/tariknz/irdashies/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:52:10Z"
-    },
-    {
-      "name": "saf",
-      "full_name": "mitre/saf",
-      "description": "The MITRE Security Automation Framework (SAF) Command Line Interface (CLI) brings together applications, techniques, libraries, and tools developed by MITRE and the security community to streamline security automation for systems and DevOps pipelines",
-      "url": "https://github.com/mitre/saf",
-      "stars": 170,
-      "language": "TypeScript",
-      "gem_score": 19.19,
-      "momentum_trend": 1.41,
-      "recent_commits": 103,
-      "activity": [
-        22,
-        67,
-        130,
-        103
-      ],
-      "good_first_issues_url": "https://github.com/mitre/saf/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/perpetual-ml/perpetual/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:24:31Z"
+      "pushed_at": "2026-01-24T12:27:18Z"
     },
     {
       "name": "thunderbird-ios",
       "full_name": "thunderbird/thunderbird-ios",
       "description": "Thunderbird for iOS – Open Source Email App for iOS",
       "url": "https://github.com/thunderbird/thunderbird-ios",
-      "stars": 708,
+      "stars": 710,
       "language": "Swift",
-      "gem_score": 18.88,
+      "gem_score": 18.86,
       "momentum_trend": 1.5,
       "recent_commits": 12,
       "activity": [
@@ -783,124 +743,64 @@
       "pushed_at": "2026-01-23T21:33:11Z"
     },
     {
-      "name": "ocis",
-      "full_name": "owncloud/ocis",
-      "description": ":atom_symbol: ownCloud Infinite Scale Stack",
-      "url": "https://github.com/owncloud/ocis",
-      "stars": 1855,
-      "language": "Go",
-      "gem_score": 18.86,
-      "momentum_trend": 4.9,
-      "recent_commits": 103,
+      "name": "liquid",
+      "full_name": "FletchMcKee/liquid",
+      "description": "Liquid RuntimeShader effects for Compose Multiplatform",
+      "url": "https://github.com/FletchMcKee/liquid",
+      "stars": 478,
+      "language": "Kotlin",
+      "gem_score": 18.6,
+      "momentum_trend": 2.1,
+      "recent_commits": 14,
       "activity": [
-        10,
-        18,
-        35,
-        103
+        5,
+        6,
+        9,
+        14
       ],
-      "good_first_issues_url": "https://github.com/owncloud/ocis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/FletchMcKee/liquid/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:12:35Z"
+      "pushed_at": "2026-01-24T10:08:00Z"
     },
     {
-      "name": "CodeWebChat",
-      "full_name": "robertpiosik/CodeWebChat",
-      "description": "Blazing fast AI coding with chatbots/APIs",
-      "url": "https://github.com/robertpiosik/CodeWebChat",
-      "stars": 1313,
-      "language": "TypeScript",
-      "gem_score": 18.66,
-      "momentum_trend": 1.23,
-      "recent_commits": 119,
+      "name": "transferia",
+      "full_name": "transferia/transferia",
+      "description": "Open Source Cloud Native Ingestion engine",
+      "url": "https://github.com/transferia/transferia",
+      "stars": 177,
+      "language": "Go",
+      "gem_score": 18.47,
+      "momentum_trend": 2.25,
+      "recent_commits": 9,
       "activity": [
-        83,
-        76,
-        132,
-        119
+        0,
+        0,
+        12,
+        9
       ],
-      "good_first_issues_url": "https://github.com/robertpiosik/CodeWebChat/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:23:46Z"
+      "good_first_issues_url": "https://github.com/transferia/transferia/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:22:58Z"
     },
     {
       "name": "swift-build",
       "full_name": "swiftlang/swift-build",
       "description": "A high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package Manager",
       "url": "https://github.com/swiftlang/swift-build",
-      "stars": 2159,
+      "stars": 2158,
       "language": "Swift",
-      "gem_score": 18.5,
-      "momentum_trend": 1.6,
-      "recent_commits": 24,
+      "gem_score": 18.37,
+      "momentum_trend": 1.5,
+      "recent_commits": 23,
       "activity": [
         2,
         26,
-        17,
-        24
+        18,
+        23
       ],
       "good_first_issues_url": "https://github.com/swiftlang/swift-build/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
       "pushed_at": "2026-01-23T20:49:31Z"
-    },
-    {
-      "name": "breadboard",
-      "full_name": "breadboard-ai/breadboard",
-      "description": "A library for prototyping generative AI applications.",
-      "url": "https://github.com/breadboard-ai/breadboard",
-      "stars": 371,
-      "language": "TypeScript",
-      "gem_score": 18.47,
-      "momentum_trend": 1.9,
-      "recent_commits": 50,
-      "activity": [
-        11,
-        22,
-        46,
-        50
-      ],
-      "good_first_issues_url": "https://github.com/breadboard-ai/breadboard/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:57:48Z"
-    },
-    {
-      "name": "intents",
-      "full_name": "OHF-Voice/intents",
-      "description": "Intents to be used with Home Assistant",
-      "url": "https://github.com/OHF-Voice/intents",
-      "stars": 580,
-      "language": "Python",
-      "gem_score": 18.41,
-      "momentum_trend": 0.69,
-      "recent_commits": 11,
-      "activity": [
-        9,
-        14,
-        25,
-        11
-      ],
-      "good_first_issues_url": "https://github.com/OHF-Voice/intents/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:10:54Z"
-    },
-    {
-      "name": "addons-server",
-      "full_name": "mozilla/addons-server",
-      "description": "🕶 addons.mozilla.org Django app and API 🎉",
-      "url": "https://github.com/mozilla/addons-server",
-      "stars": 890,
-      "language": "Python",
-      "gem_score": 18.41,
-      "momentum_trend": 1.95,
-      "recent_commits": 69,
-      "activity": [
-        13,
-        55,
-        38,
-        69
-      ],
-      "good_first_issues_url": "https://github.com/mozilla/addons-server/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:10:14Z"
     },
     {
       "name": "Noora",
@@ -914,13 +814,13 @@
       "recent_commits": 24,
       "activity": [
         7,
-        22,
-        35,
+        24,
+        33,
         24
       ],
       "good_first_issues_url": "https://github.com/tuist/Noora/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:10:55Z"
+      "pushed_at": "2026-01-24T12:26:21Z"
     },
     {
       "name": "inline",
@@ -929,38 +829,38 @@
       "url": "https://github.com/inline-chat/inline",
       "stars": 617,
       "language": "Swift",
-      "gem_score": 18.07,
-      "momentum_trend": 3.38,
-      "recent_commits": 132,
+      "gem_score": 18.28,
+      "momentum_trend": 3.64,
+      "recent_commits": 142,
       "activity": [
-        40,
-        27,
+        45,
+        22,
         50,
-        132
+        142
       ],
       "good_first_issues_url": "https://github.com/inline-chat/inline/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T16:18:49Z"
+      "pushed_at": "2026-01-24T12:04:26Z"
     },
     {
-      "name": "testdriverai",
-      "full_name": "testdriverai/testdriverai",
-      "description": "Computer-Use SDK for E2E QA Testing",
-      "url": "https://github.com/testdriverai/testdriverai",
-      "stars": 208,
-      "language": "JavaScript",
-      "gem_score": 17.89,
-      "momentum_trend": 1.46,
-      "recent_commits": 39,
+      "name": "ZalithLauncher2",
+      "full_name": "ZalithLauncher/ZalithLauncher2",
+      "description": "A Minecraft: Java Edition Launcher for Android",
+      "url": "https://github.com/ZalithLauncher/ZalithLauncher2",
+      "stars": 646,
+      "language": "Kotlin",
+      "gem_score": 17.83,
+      "momentum_trend": 0.74,
+      "recent_commits": 19,
       "activity": [
-        0,
-        57,
-        23,
-        39
+        69,
+        1,
+        7,
+        19
       ],
-      "good_first_issues_url": "https://github.com/testdriverai/testdriverai/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/ZalithLauncher/ZalithLauncher2/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:46:17Z"
+      "pushed_at": "2026-01-24T11:46:45Z"
     },
     {
       "name": "Nautica",
@@ -969,7 +869,7 @@
       "url": "https://github.com/FoolVPN-ID/Nautica",
       "stars": 199,
       "language": "JavaScript",
-      "gem_score": 17.73,
+      "gem_score": 17.72,
       "momentum_trend": 1,
       "recent_commits": 28,
       "activity": [
@@ -980,7 +880,27 @@
       ],
       "good_first_issues_url": "https://github.com/FoolVPN-ID/Nautica/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:06:41Z"
+      "pushed_at": "2026-01-24T12:28:58Z"
+    },
+    {
+      "name": "modeling-app",
+      "full_name": "KittyCAD/modeling-app",
+      "description": "The Zoo Design Studio app.",
+      "url": "https://github.com/KittyCAD/modeling-app",
+      "stars": 1064,
+      "language": "TypeScript",
+      "gem_score": 17.68,
+      "momentum_trend": 0.88,
+      "recent_commits": 40,
+      "activity": [
+        19,
+        66,
+        51,
+        40
+      ],
+      "good_first_issues_url": "https://github.com/KittyCAD/modeling-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:12:55Z"
     },
     {
       "name": "Hello-CTFtime",
@@ -1000,167 +920,67 @@
       ],
       "good_first_issues_url": "https://github.com/ProbiusOfficial/Hello-CTFtime/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:24:19Z"
+      "pushed_at": "2026-01-24T12:35:56Z"
     },
     {
-      "name": "deck",
-      "full_name": "nextcloud/deck",
-      "description": "🗂 Kanban-style project & personal management tool for Nextcloud, similar to Trello",
-      "url": "https://github.com/nextcloud/deck",
-      "stars": 1346,
-      "language": "JavaScript",
-      "gem_score": 17.47,
-      "momentum_trend": 4.8,
-      "recent_commits": 32,
-      "activity": [
-        2,
-        8,
-        10,
-        32
-      ],
-      "good_first_issues_url": "https://github.com/nextcloud/deck/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:41:00Z"
-    },
-    {
-      "name": "thorium",
-      "full_name": "cisagov/thorium",
-      "description": "A scalable file analysis and data generation platform that allows users to easily orchestrate arbitrary docker/vm/shell tools at scale.",
-      "url": "https://github.com/cisagov/thorium",
-      "stars": 973,
-      "language": "Rust",
-      "gem_score": 17.47,
+      "name": "vemetric",
+      "full_name": "vemetric/vemetric",
+      "description": "Simple, yet powerful Web- & Product Analytics.",
+      "url": "https://github.com/vemetric/vemetric",
+      "stars": 334,
+      "language": "TypeScript",
+      "gem_score": 16.95,
       "momentum_trend": 1,
-      "recent_commits": 19,
+      "recent_commits": 8,
       "activity": [
-        0,
-        0,
-        0,
-        19
-      ],
-      "good_first_issues_url": "https://github.com/cisagov/thorium/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:22:51Z"
-    },
-    {
-      "name": "ytsaurus",
-      "full_name": "ytsaurus/ytsaurus",
-      "description": "YTsaurus is a scalable and fault-tolerant open-source big data platform.",
-      "url": "https://github.com/ytsaurus/ytsaurus",
-      "stars": 2119,
-      "language": "C++",
-      "gem_score": 17.21,
-      "momentum_trend": 1.92,
-      "recent_commits": 212,
-      "activity": [
-        67,
-        63,
-        202,
-        212
-      ],
-      "good_first_issues_url": "https://github.com/ytsaurus/ytsaurus/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:50:26Z"
-    },
-    {
-      "name": "metro",
-      "full_name": "ZacSweers/metro",
-      "description": "A multiplatform, compile-time dependency injection framework for Kotlin",
-      "url": "https://github.com/ZacSweers/metro",
-      "stars": 973,
-      "language": "Kotlin",
-      "gem_score": 16.93,
-      "momentum_trend": 1.77,
-      "recent_commits": 46,
-      "activity": [
-        17,
-        17,
-        44,
-        46
-      ],
-      "good_first_issues_url": "https://github.com/ZacSweers/metro/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T22:28:42Z"
-    },
-    {
-      "name": "csi-driver",
-      "full_name": "cert-manager/csi-driver",
-      "description": "A Kubernetes CSI plugin to automatically mount signed certificates to Pods using ephemeral volumes",
-      "url": "https://github.com/cert-manager/csi-driver",
-      "stars": 232,
-      "language": "Go",
-      "gem_score": 16.78,
-      "momentum_trend": 1.8,
-      "recent_commits": 9,
-      "activity": [
-        0,
         8,
-        7,
-        9
+        6,
+        10,
+        8
       ],
-      "good_first_issues_url": "https://github.com/cert-manager/csi-driver/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:18:01Z"
-    },
-    {
-      "name": "rovr",
-      "full_name": "NSPC911/rovr",
-      "description": "A post-modern terminal file manager.",
-      "url": "https://github.com/NSPC911/rovr",
-      "stars": 158,
-      "language": "Python",
-      "gem_score": 16.77,
-      "momentum_trend": 0.09,
-      "recent_commits": 2,
-      "activity": [
-        33,
-        22,
-        15,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/NSPC911/rovr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/vemetric/vemetric/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:17:58Z"
+      "pushed_at": "2026-01-24T12:24:36Z"
     },
     {
-      "name": "mobileapp",
-      "full_name": "coredevices/mobileapp",
+      "name": "666",
+      "full_name": "WeiGiegie/666",
       "description": null,
-      "url": "https://github.com/coredevices/mobileapp",
-      "stars": 631,
+      "url": "https://github.com/WeiGiegie/666",
+      "stars": 354,
+      "language": "JavaScript",
+      "gem_score": 16.67,
+      "momentum_trend": 1.14,
+      "recent_commits": 150,
+      "activity": [
+        140,
+        125,
+        131,
+        150
+      ],
+      "good_first_issues_url": "https://github.com/WeiGiegie/666/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:00:05Z"
+    },
+    {
+      "name": "IronFox",
+      "full_name": "ironfox-oss/IronFox",
+      "description": "Private, secure, user first web browser for Android. This is a read-only mirror of https://gitlab.com/ironfox-oss/IronFox.",
+      "url": "https://github.com/ironfox-oss/IronFox",
+      "stars": 596,
       "language": "Kotlin",
       "gem_score": 16.58,
-      "momentum_trend": 1.8,
-      "recent_commits": 24,
+      "momentum_trend": 64.5,
+      "recent_commits": 43,
       "activity": [
-        1,
-        26,
-        13,
-        24
+        0,
+        0,
+        2,
+        43
       ],
-      "good_first_issues_url": "https://github.com/coredevices/mobileapp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/ironfox-oss/IronFox/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:24:05Z"
-    },
-    {
-      "name": "kwrt-packages",
-      "full_name": "kiddin9/kwrt-packages",
-      "description": null,
-      "url": "https://github.com/kiddin9/kwrt-packages",
-      "stars": 194,
-      "language": "JavaScript",
-      "gem_score": 16.46,
-      "momentum_trend": 1.19,
-      "recent_commits": 27,
-      "activity": [
-        22,
-        22,
-        24,
-        27
-      ],
-      "good_first_issues_url": "https://github.com/kiddin9/kwrt-packages/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:05:40Z"
+      "pushed_at": "2026-01-24T11:17:15Z"
     },
     {
       "name": "airport-free",
@@ -1169,7 +989,7 @@
       "url": "https://github.com/xiaoji235/airport-free",
       "stars": 443,
       "language": "Python",
-      "gem_score": 16.44,
+      "gem_score": 16.43,
       "momentum_trend": 0.86,
       "recent_commits": 48,
       "activity": [
@@ -1180,254 +1000,94 @@
       ],
       "good_first_issues_url": "https://github.com/xiaoji235/airport-free/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:15:10Z"
+      "pushed_at": "2026-01-24T12:31:17Z"
     },
     {
-      "name": "Awesome-Ollama-Server",
-      "full_name": "forrany/Awesome-Ollama-Server",
-      "description": "这是一个用于监控和检测 Ollama 服务可用性和性能的系统。它提供了一个现代化的 Web 界面，支持多语言（中文/英文），并具有实时检测和数据展示功能。",
-      "url": "https://github.com/forrany/Awesome-Ollama-Server",
-      "stars": 384,
-      "language": "TypeScript",
-      "gem_score": 16.43,
-      "momentum_trend": 1,
-      "recent_commits": 21,
+      "name": "website-hot-hub",
+      "full_name": "cxyfreedom/website-hot-hub",
+      "description": "记录 36Kr、bilibili、GitHub、抖音、掘金、微信读书平台从 2023-10-25 日至今的热点榜。每小时抓取一次数据，按天归档。非当年数据归档到 Releases 中",
+      "url": "https://github.com/cxyfreedom/website-hot-hub",
+      "stars": 302,
+      "language": "Python",
+      "gem_score": 16.15,
+      "momentum_trend": 0.97,
+      "recent_commits": 154,
       "activity": [
-        21,
-        21,
-        21,
-        21
+        158,
+        159,
+        158,
+        154
       ],
-      "good_first_issues_url": "https://github.com/forrany/Awesome-Ollama-Server/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/cxyfreedom/website-hot-hub/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:06:31Z"
+      "pushed_at": "2026-01-24T12:24:08Z"
     },
     {
-      "name": "tscircuit",
-      "full_name": "tscircuit/tscircuit",
-      "description": "Create real electronics with Typescript and React",
-      "url": "https://github.com/tscircuit/tscircuit",
-      "stars": 1389,
-      "language": "TypeScript",
-      "gem_score": 16.43,
-      "momentum_trend": 2.75,
-      "recent_commits": 101,
-      "activity": [
-        12,
-        51,
-        47,
-        101
-      ],
-      "good_first_issues_url": "https://github.com/tscircuit/tscircuit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:45:19Z"
-    },
-    {
-      "name": "mcp-gateway",
-      "full_name": "docker/mcp-gateway",
-      "description": "docker mcp CLI plugin / MCP Gateway",
-      "url": "https://github.com/docker/mcp-gateway",
-      "stars": 1190,
+      "name": "api",
+      "full_name": "kubernetes/api",
+      "description": "The canonical location of the Kubernetes API definition.",
+      "url": "https://github.com/kubernetes/api",
+      "stars": 735,
       "language": "Go",
-      "gem_score": 16.36,
-      "momentum_trend": 0.44,
+      "gem_score": 16.13,
+      "momentum_trend": 12,
       "recent_commits": 4,
       "activity": [
         0,
-        14,
-        13,
+        1,
+        0,
         4
       ],
-      "good_first_issues_url": "https://github.com/docker/mcp-gateway/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:15:14Z"
-    },
-    {
-      "name": "momentum",
-      "full_name": "facebookresearch/momentum",
-      "description": "A library for human kinematic motion and numerical optimization solvers to apply human motion",
-      "url": "https://github.com/facebookresearch/momentum",
-      "stars": 287,
-      "language": "C++",
-      "gem_score": 16.22,
-      "momentum_trend": 2.29,
-      "recent_commits": 29,
-      "activity": [
-        3,
-        18,
-        17,
-        29
-      ],
-      "good_first_issues_url": "https://github.com/facebookresearch/momentum/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/kubernetes/api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:02:18Z"
+      "pushed_at": "2026-01-24T10:43:07Z"
     },
     {
-      "name": "enhanced-FaaS-in-China",
-      "full_name": "xingpingcn/enhanced-FaaS-in-China",
-      "description": "提升部署在cloudflare、vercel或netlify的网页在中国的访问速度和稳定性 Improve the access speed and stability in China of web pages hosted on cloudflare, vercel or netlify by merely changing your CNAME record. cf优选域名 | cf优选ip | cloudflare | vercel | netlify | 加速 | 国内 | 中国 | 境内 | 大陆",
-      "url": "https://github.com/xingpingcn/enhanced-FaaS-in-China",
-      "stars": 2803,
-      "language": "Python",
-      "gem_score": 16.04,
-      "momentum_trend": 0.99,
-      "recent_commits": 748,
-      "activity": [
-        753,
-        755,
-        749,
-        748
-      ],
-      "good_first_issues_url": "https://github.com/xingpingcn/enhanced-FaaS-in-China/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:22:01Z"
-    },
-    {
-      "name": "talk-android",
-      "full_name": "nextcloud/talk-android",
-      "description": "📱😀 Video & audio calls through Nextcloud on Android",
-      "url": "https://github.com/nextcloud/talk-android",
-      "stars": 680,
-      "language": "Kotlin",
-      "gem_score": 16.03,
-      "momentum_trend": 2.18,
-      "recent_commits": 61,
-      "activity": [
-        10,
-        16,
-        58,
-        61
-      ],
-      "good_first_issues_url": "https://github.com/nextcloud/talk-android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-23T22:14:12Z"
-    },
-    {
-      "name": "delta-kernel-rs",
-      "full_name": "delta-io/delta-kernel-rs",
-      "description": "A native Delta implementation for integration with any query engine",
-      "url": "https://github.com/delta-io/delta-kernel-rs",
-      "stars": 309,
-      "language": "Rust",
-      "gem_score": 16.02,
-      "momentum_trend": 2.2,
-      "recent_commits": 22,
-      "activity": [
-        0,
-        11,
-        19,
-        22
-      ],
-      "good_first_issues_url": "https://github.com/delta-io/delta-kernel-rs/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:48:29Z"
-    },
-    {
-      "name": "pixels",
-      "full_name": "databricks-industry-solutions/pixels",
-      "description": "Facilitates simple large scale processing of HLS Medical images, documents, zip files. OHIF Viewer, 2 segmentation models and interactive learning.",
-      "url": "https://github.com/databricks-industry-solutions/pixels",
-      "stars": 200,
-      "language": "JavaScript",
-      "gem_score": 15.92,
-      "momentum_trend": 1,
-      "recent_commits": 35,
-      "activity": [
-        0,
-        0,
-        0,
-        35
-      ],
-      "good_first_issues_url": "https://github.com/databricks-industry-solutions/pixels/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:07:20Z"
-    },
-    {
-      "name": "calendar",
-      "full_name": "nextcloud/calendar",
-      "description": "📆 Calendar app for Nextcloud",
-      "url": "https://github.com/nextcloud/calendar",
-      "stars": 1100,
-      "language": "JavaScript",
-      "gem_score": 15.87,
-      "momentum_trend": 2.71,
-      "recent_commits": 47,
-      "activity": [
-        5,
-        8,
-        39,
-        47
-      ],
-      "good_first_issues_url": "https://github.com/nextcloud/calendar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:33:00Z"
-    },
-    {
-      "name": "medTimer",
-      "full_name": "Futsch1/medTimer",
-      "description": "MedTimer Android app",
-      "url": "https://github.com/Futsch1/medTimer",
-      "stars": 408,
-      "language": "Kotlin",
-      "gem_score": 15.65,
-      "momentum_trend": 0.59,
-      "recent_commits": 17,
-      "activity": [
-        11,
-        56,
-        19,
-        17
-      ],
-      "good_first_issues_url": "https://github.com/Futsch1/medTimer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-23T22:02:23Z"
-    },
-    {
-      "name": "tetrs",
-      "full_name": "Strophox/tetrs",
-      "description": "Tetromino Game Engine + Terminal Application in Rust",
-      "url": "https://github.com/Strophox/tetrs",
-      "stars": 211,
+      "name": "ferron",
+      "full_name": "ferronweb/ferron",
+      "description": "A fast, memory-safe web server written in Rust.",
+      "url": "https://github.com/ferronweb/ferron",
+      "stars": 1822,
       "language": "Rust",
       "gem_score": 15.63,
-      "momentum_trend": 2.58,
-      "recent_commits": 37,
+      "momentum_trend": 0.76,
+      "recent_commits": 41,
       "activity": [
-        0,
-        11,
-        32,
-        37
+        62,
+        46,
+        54,
+        41
       ],
-      "good_first_issues_url": "https://github.com/Strophox/tetrs/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/ferronweb/ferron/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T23:50:32Z"
+      "pushed_at": "2026-01-24T11:42:25Z"
     },
     {
-      "name": "forms",
-      "full_name": "nextcloud/forms",
-      "description": "📝 Simple form & survey app for Nextcloud",
-      "url": "https://github.com/nextcloud/forms",
-      "stars": 362,
-      "language": "JavaScript",
+      "name": "Daily_CF_Problems",
+      "full_name": "Yawn-Sean/Daily_CF_Problems",
+      "description": "To practice your competitive programming skills, try solving daily Codeforces problems!",
+      "url": "https://github.com/Yawn-Sean/Daily_CF_Problems",
+      "stars": 588,
+      "language": "C++",
       "gem_score": 15.61,
-      "momentum_trend": 7.75,
-      "recent_commits": 31,
+      "momentum_trend": 0.9,
+      "recent_commits": 149,
       "activity": [
-        2,
-        1,
-        9,
-        31
+        136,
+        192,
+        166,
+        149
       ],
-      "good_first_issues_url": "https://github.com/nextcloud/forms/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:58:32Z"
+      "good_first_issues_url": "https://github.com/Yawn-Sean/Daily_CF_Problems/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:41:19Z"
     },
     {
       "name": "flow",
       "full_name": "neurocyte/flow",
       "description": "Flow Control: a programmer's text editor",
       "url": "https://github.com/neurocyte/flow",
-      "stars": 1593,
+      "stars": 1595,
       "language": "Zig",
       "gem_score": 15.6,
       "momentum_trend": 1.24,
@@ -1443,24 +1103,124 @@
       "pushed_at": "2026-01-23T15:01:37Z"
     },
     {
-      "name": "komapper",
-      "full_name": "komapper/komapper",
-      "description": "Kotlin ORM for JDBC and R2DBC",
-      "url": "https://github.com/komapper/komapper",
-      "stars": 337,
-      "language": "Kotlin",
-      "gem_score": 15.31,
-      "momentum_trend": 3.6,
-      "recent_commits": 12,
+      "name": "nio",
+      "full_name": "nurmohammed840/nio",
+      "description": "Nio is an experimental async runtime for Rust",
+      "url": "https://github.com/nurmohammed840/nio",
+      "stars": 324,
+      "language": "Rust",
+      "gem_score": 15.58,
+      "momentum_trend": 0.82,
+      "recent_commits": 25,
+      "activity": [
+        19,
+        29,
+        43,
+        25
+      ],
+      "good_first_issues_url": "https://github.com/nurmohammed840/nio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:42:51Z"
+    },
+    {
+      "name": "drpy-node",
+      "full_name": "hjdhnx/drpy-node",
+      "description": "nodejs作为服务端的drpy实现。全面升级异步写法。配合drplayer实现全平台浏览器观影",
+      "url": "https://github.com/hjdhnx/drpy-node",
+      "stars": 498,
+      "language": "JavaScript",
+      "gem_score": 15.55,
+      "momentum_trend": 1.96,
+      "recent_commits": 34,
+      "activity": [
+        1,
+        0,
+        51,
+        34
+      ],
+      "good_first_issues_url": "https://github.com/hjdhnx/drpy-node/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:22:55Z"
+    },
+    {
+      "name": "queens-game",
+      "full_name": "samimsu/queens-game",
+      "description": "Queens game",
+      "url": "https://github.com/samimsu/queens-game",
+      "stars": 188,
+      "language": "TypeScript",
+      "gem_score": 15.38,
+      "momentum_trend": 0.25,
+      "recent_commits": 2,
+      "activity": [
+        9,
+        13,
+        2,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/samimsu/queens-game/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T12:16:39Z"
+    },
+    {
+      "name": "OTGW-firmware",
+      "full_name": "rvdbreemen/OTGW-firmware",
+      "description": "A ESP8266 devkit firmware for the Nodoshop version of the Opentherm Gateway (OTGW) ",
+      "url": "https://github.com/rvdbreemen/OTGW-firmware",
+      "stars": 166,
+      "language": "C++",
+      "gem_score": 15.29,
+      "momentum_trend": 0.41,
+      "recent_commits": 108,
+      "activity": [
+        236,
+        414,
+        141,
+        108
+      ],
+      "good_first_issues_url": "https://github.com/rvdbreemen/OTGW-firmware/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:18:39Z"
+    },
+    {
+      "name": "pik",
+      "full_name": "jacek-kurlit/pik",
+      "description": "Process Interactive Kill",
+      "url": "https://github.com/jacek-kurlit/pik",
+      "stars": 420,
+      "language": "Rust",
+      "gem_score": 15.22,
+      "momentum_trend": 15,
+      "recent_commits": 10,
       "activity": [
         0,
-        4,
-        6,
-        12
+        0,
+        2,
+        10
       ],
-      "good_first_issues_url": "https://github.com/komapper/komapper/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/jacek-kurlit/pik/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T10:54:08Z"
+    },
+    {
+      "name": "hot_searches_for_apps",
+      "full_name": "iiecho1/hot_searches_for_apps",
+      "description": "获取微博、知乎、百度、抖音等30个平台的热搜，按天归档。",
+      "url": "https://github.com/iiecho1/hot_searches_for_apps",
+      "stars": 339,
+      "language": "Python",
+      "gem_score": 15.19,
+      "momentum_trend": 0.98,
+      "recent_commits": 154,
+      "activity": [
+        157,
+        157,
+        156,
+        154
+      ],
+      "good_first_issues_url": "https://github.com/iiecho1/hot_searches_for_apps/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T22:37:38Z"
+      "pushed_at": "2026-01-24T12:22:04Z"
     },
     {
       "name": "spreed",
@@ -1469,78 +1229,18 @@
       "url": "https://github.com/nextcloud/spreed",
       "stars": 2049,
       "language": "JavaScript",
-      "gem_score": 15.3,
-      "momentum_trend": 1.41,
-      "recent_commits": 81,
+      "gem_score": 15.18,
+      "momentum_trend": 1.24,
+      "recent_commits": 74,
       "activity": [
-        23,
-        73,
-        76,
-        81
+        29,
+        70,
+        80,
+        74
       ],
       "good_first_issues_url": "https://github.com/nextcloud/spreed/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:25:19Z"
-    },
-    {
-      "name": "FlagGems",
-      "full_name": "flagos-ai/FlagGems",
-      "description": "FlagGems is an operator library for large language models implemented in the Triton Language.",
-      "url": "https://github.com/flagos-ai/FlagGems",
-      "stars": 881,
-      "language": "Python",
-      "gem_score": 15.25,
-      "momentum_trend": 0.87,
-      "recent_commits": 27,
-      "activity": [
-        20,
-        50,
-        23,
-        27
-      ],
-      "good_first_issues_url": "https://github.com/flagos-ai/FlagGems/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:09:05Z"
-    },
-    {
-      "name": "skip-ui",
-      "full_name": "skiptools/skip-ui",
-      "description": "SwiftUI for Android",
-      "url": "https://github.com/skiptools/skip-ui",
-      "stars": 241,
-      "language": "Swift",
-      "gem_score": 15.24,
-      "momentum_trend": 1.5,
-      "recent_commits": 12,
-      "activity": [
-        5,
-        9,
-        10,
-        12
-      ],
-      "good_first_issues_url": "https://github.com/skiptools/skip-ui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-23T23:19:40Z"
-    },
-    {
-      "name": "Smart-Cleaner-for-Android",
-      "full_name": "MihaiCristianCondrea/Smart-Cleaner-for-Android",
-      "description": "Smart Cleaner is built for everyday people who want their phones running smoothly, without hassle. Get reminders when it’s time to clean, spot and remove rarely used apps, clear out giant forgotten files, and tidy up your contacts in seconds! All in a refreshed, easy-to-use design.",
-      "url": "https://github.com/MihaiCristianCondrea/Smart-Cleaner-for-Android",
-      "stars": 206,
-      "language": "Kotlin",
-      "gem_score": 15.09,
-      "momentum_trend": 3.15,
-      "recent_commits": 124,
-      "activity": [
-        0,
-        1,
-        117,
-        124
-      ],
-      "good_first_issues_url": "https://github.com/MihaiCristianCondrea/Smart-Cleaner-for-Android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:27:56Z"
+      "pushed_at": "2026-01-24T12:17:23Z"
     },
     {
       "name": "Trail-Sense",
@@ -1549,18 +1249,38 @@
       "url": "https://github.com/kylecorry31/Trail-Sense",
       "stars": 2385,
       "language": "Kotlin",
-      "gem_score": 15.09,
-      "momentum_trend": 1.16,
-      "recent_commits": 53,
+      "gem_score": 15.12,
+      "momentum_trend": 1.19,
+      "recent_commits": 54,
       "activity": [
-        64,
-        40,
+        65,
+        38,
         33,
-        53
+        54
       ],
       "good_first_issues_url": "https://github.com/kylecorry31/Trail-Sense/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:07:48Z"
+      "pushed_at": "2026-01-24T12:32:50Z"
+    },
+    {
+      "name": "sockudo",
+      "full_name": "sockudo/sockudo",
+      "description": "Blazingly fast pusher drop-in replacement written in rust",
+      "url": "https://github.com/sockudo/sockudo",
+      "stars": 424,
+      "language": "Rust",
+      "gem_score": 15.08,
+      "momentum_trend": 4.06,
+      "recent_commits": 23,
+      "activity": [
+        9,
+        5,
+        3,
+        23
+      ],
+      "good_first_issues_url": "https://github.com/sockudo/sockudo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:11:36Z"
     },
     {
       "name": "gem-ios",
@@ -1569,258 +1289,158 @@
       "url": "https://github.com/gemwalletcom/gem-ios",
       "stars": 365,
       "language": "Swift",
-      "gem_score": 15.07,
-      "momentum_trend": 2.84,
+      "gem_score": 15.06,
+      "momentum_trend": 2.89,
       "recent_commits": 53,
       "activity": [
-        9,
-        22,
-        25,
+        8,
+        24,
+        23,
         53
       ],
       "good_first_issues_url": "https://github.com/gemwalletcom/gem-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T20:36:47Z"
+      "pushed_at": "2026-01-24T12:00:10Z"
     },
     {
-      "name": "getnighthawk",
-      "full_name": "layer5io/getnighthawk",
-      "description": "Putting Nighthawk into the hands of many",
-      "url": "https://github.com/layer5io/getnighthawk",
-      "stars": 154,
-      "language": "Go",
-      "gem_score": 14.97,
-      "momentum_trend": 0.46,
-      "recent_commits": 2,
+      "name": "Smart-Cleaner-for-Android",
+      "full_name": "MihaiCristianCondrea/Smart-Cleaner-for-Android",
+      "description": "Smart Cleaner is built for everyday people who want their phones running smoothly, without hassle. Get reminders when it’s time to clean, spot and remove rarely used apps, clear out giant forgotten files, and tidy up your contacts in seconds! All in a refreshed, easy-to-use design.",
+      "url": "https://github.com/MihaiCristianCondrea/Smart-Cleaner-for-Android",
+      "stars": 206,
+      "language": "Kotlin",
+      "gem_score": 15.03,
+      "momentum_trend": 2.95,
+      "recent_commits": 121,
       "activity": [
-        4,
-        5,
-        4,
-        2
+        1,
+        0,
+        122,
+        121
       ],
-      "good_first_issues_url": "https://github.com/layer5io/getnighthawk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:20:07Z"
-    },
-    {
-      "name": "animeko-source",
-      "full_name": "MajoSissi/animeko-source",
-      "description": "Animeko 聚合订阅源/数据源",
-      "url": "https://github.com/MajoSissi/animeko-source",
-      "stars": 220,
-      "language": "JavaScript",
-      "gem_score": 14.83,
-      "momentum_trend": 1,
-      "recent_commits": 7,
-      "activity": [
-        7,
-        7,
-        7,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/MajoSissi/animeko-source/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/MihaiCristianCondrea/Smart-Cleaner-for-Android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:58:29Z"
+      "pushed_at": "2026-01-24T09:26:32Z"
+    },
+    {
+      "name": "skip-ui",
+      "full_name": "skiptools/skip-ui",
+      "description": "SwiftUI for Android",
+      "url": "https://github.com/skiptools/skip-ui",
+      "stars": 246,
+      "language": "Swift",
+      "gem_score": 14.97,
+      "momentum_trend": 1.32,
+      "recent_commits": 11,
+      "activity": [
+        5,
+        9,
+        11,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/skiptools/skip-ui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-23T23:19:40Z"
+    },
+    {
+      "name": "MAA_Punish",
+      "full_name": "overflow65537/MAA_Punish",
+      "description": "战双帕弥什每日任务自动化 | Assistant For Punishing Gray Raven",
+      "url": "https://github.com/overflow65537/MAA_Punish",
+      "stars": 246,
+      "language": "Python",
+      "gem_score": 14.89,
+      "momentum_trend": 1.22,
+      "recent_commits": 39,
+      "activity": [
+        52,
+        22,
+        22,
+        39
+      ],
+      "good_first_issues_url": "https://github.com/overflow65537/MAA_Punish/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:24:37Z"
+    },
+    {
+      "name": "fast-note-sync-service",
+      "full_name": "haierkeys/fast-note-sync-service",
+      "description": "A high-performance, low-latency note synchronization service built with Golang + Websocket + Sqlite + React, requiring Obsidian Fast Note Sync Plugin for use.",
+      "url": "https://github.com/haierkeys/fast-note-sync-service",
+      "stars": 348,
+      "language": "Go",
+      "gem_score": 14.69,
+      "momentum_trend": 0.37,
+      "recent_commits": 11,
+      "activity": [
+        27,
+        41,
+        22,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/haierkeys/fast-note-sync-service/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:03:11Z"
     },
     {
       "name": "Deecy",
       "full_name": "Senryoku/Deecy",
       "description": "Experimental Dreamcast emulator written in Zig",
       "url": "https://github.com/Senryoku/Deecy",
-      "stars": 165,
+      "stars": 166,
       "language": "Zig",
-      "gem_score": 14.82,
-      "momentum_trend": 3.43,
-      "recent_commits": 32,
+      "gem_score": 14.61,
+      "momentum_trend": 2.73,
+      "recent_commits": 30,
       "activity": [
         6,
         11,
-        11,
-        32
+        16,
+        30
       ],
       "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T12:58:28Z"
+      "pushed_at": "2026-01-24T11:10:33Z"
     },
     {
-      "name": "swiss-knife",
-      "full_name": "swiss-knife-xyz/swiss-knife",
-      "description": "All your EVM tools in one place!",
-      "url": "https://github.com/swiss-knife-xyz/swiss-knife",
-      "stars": 222,
+      "name": "imagor-studio",
+      "full_name": "cshum/imagor-studio",
+      "description": "Self-hosted image gallery and live editing web application for creators",
+      "url": "https://github.com/cshum/imagor-studio",
+      "stars": 181,
       "language": "TypeScript",
-      "gem_score": 14.77,
-      "momentum_trend": 20.25,
-      "recent_commits": 27,
+      "gem_score": 14.56,
+      "momentum_trend": 27,
+      "recent_commits": 18,
       "activity": [
-        4,
+        1,
+        1,
         0,
-        0,
-        27
+        18
       ],
-      "good_first_issues_url": "https://github.com/swiss-knife-xyz/swiss-knife/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/cshum/imagor-studio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:24:08Z"
+      "pushed_at": "2026-01-24T11:55:35Z"
     },
     {
-      "name": "xls",
-      "full_name": "google/xls",
-      "description": "XLS: Accelerated HW Synthesis",
-      "url": "https://github.com/google/xls",
-      "stars": 1419,
-      "language": "C++",
-      "gem_score": 14.77,
-      "momentum_trend": 0.92,
-      "recent_commits": 34,
-      "activity": [
-        28,
-        41,
-        42,
-        34
-      ],
-      "good_first_issues_url": "https://github.com/google/xls/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:54:21Z"
-    },
-    {
-      "name": "pulumi-kubernetes",
-      "full_name": "pulumi/pulumi-kubernetes",
-      "description": "A Pulumi resource provider for Kubernetes to manage API resources and workloads in running clusters",
-      "url": "https://github.com/pulumi/pulumi-kubernetes",
-      "stars": 446,
-      "language": "Go",
-      "gem_score": 14.71,
-      "momentum_trend": 0.38,
-      "recent_commits": 2,
-      "activity": [
-        2,
-        6,
-        8,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/pulumi/pulumi-kubernetes/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:53:07Z"
-    },
-    {
-      "name": "basalt",
-      "full_name": "erikjuhani/basalt",
-      "description": "TUI Application to manage Obsidian notes directly from the terminal",
-      "url": "https://github.com/erikjuhani/basalt",
+      "name": "FileRise",
+      "full_name": "error311/FileRise",
+      "description": "🗂️ FileRise – lightweight, self-hosted file manager with granular ACLs, shared uploads, encrypted folders, WebDAV & SSO. Fully Docker / Unraid compatible.",
+      "url": "https://github.com/error311/FileRise",
       "stars": 858,
-      "language": "Rust",
-      "gem_score": 14.68,
-      "momentum_trend": 3.55,
-      "recent_commits": 39,
-      "activity": [
-        12,
-        9,
-        12,
-        39
-      ],
-      "good_first_issues_url": "https://github.com/erikjuhani/basalt/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:08:06Z"
-    },
-    {
-      "name": "nostr-watch",
-      "full_name": "sandwichfarm/nostr-watch",
-      "description": "NIP-66 stack",
-      "url": "https://github.com/sandwichfarm/nostr-watch",
-      "stars": 192,
-      "language": "TypeScript",
-      "gem_score": 14.58,
-      "momentum_trend": 1,
-      "recent_commits": 28,
-      "activity": [
-        0,
-        0,
-        0,
-        28
-      ],
-      "good_first_issues_url": "https://github.com/sandwichfarm/nostr-watch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:23:01Z"
-    },
-    {
-      "name": "omicron",
-      "full_name": "oxidecomputer/omicron",
-      "description": "Omicron: Oxide control plane",
-      "url": "https://github.com/oxidecomputer/omicron",
-      "stars": 421,
-      "language": "Rust",
-      "gem_score": 14.57,
-      "momentum_trend": 1.41,
-      "recent_commits": 24,
+      "language": "JavaScript",
+      "gem_score": 14.47,
+      "momentum_trend": 2.18,
+      "recent_commits": 16,
       "activity": [
         8,
-        16,
-        27,
-        24
+        0,
+        14,
+        16
       ],
-      "good_first_issues_url": "https://github.com/oxidecomputer/omicron/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:17:00Z"
-    },
-    {
-      "name": "mago",
-      "full_name": "carthage-software/mago",
-      "description": "Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code.",
-      "url": "https://github.com/carthage-software/mago",
-      "stars": 2730,
-      "language": "Rust",
-      "gem_score": 14.54,
-      "momentum_trend": 1.38,
-      "recent_commits": 18,
-      "activity": [
-        18,
-        10,
-        11,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/carthage-software/mago/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/error311/FileRise/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:13:37Z"
-    },
-    {
-      "name": "speakeasy",
-      "full_name": "speakeasy-api/speakeasy",
-      "description": "Build APIs your users love ❤️ with Speakeasy. ✨ Polished and type-safe SDKs. 🌐 Terraform providers and Contract Tests for your API. OpenAPI native. ",
-      "url": "https://github.com/speakeasy-api/speakeasy",
-      "stars": 378,
-      "language": "JavaScript",
-      "gem_score": 14.52,
-      "momentum_trend": 2.45,
-      "recent_commits": 18,
-      "activity": [
-        6,
-        7,
-        9,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/speakeasy-api/speakeasy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:26:54Z"
-    },
-    {
-      "name": "leetcode",
-      "full_name": "ishaanbuildsthings/leetcode",
-      "description": null,
-      "url": "https://github.com/ishaanbuildsthings/leetcode",
-      "stars": 232,
-      "language": "JavaScript",
-      "gem_score": 14.46,
-      "momentum_trend": 1.84,
-      "recent_commits": 109,
-      "activity": [
-        43,
-        56,
-        79,
-        109
-      ],
-      "good_first_issues_url": "https://github.com/ishaanbuildsthings/leetcode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:57:36Z"
+      "pushed_at": "2026-01-24T10:58:31Z"
     },
     {
       "name": "libqt6zig",
@@ -1829,7 +1449,7 @@
       "url": "https://github.com/rcalixte/libqt6zig",
       "stars": 175,
       "language": "Zig",
-      "gem_score": 14.45,
+      "gem_score": 14.44,
       "momentum_trend": 4.2,
       "recent_commits": 7,
       "activity": [
@@ -1841,6 +1461,26 @@
       "good_first_issues_url": "https://github.com/rcalixte/libqt6zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
       "pushed_at": "2026-01-23T21:53:55Z"
+    },
+    {
+      "name": "rikkahub",
+      "full_name": "rikkahub/rikkahub",
+      "description": "RikkaHub is an Android APP that supports for multiple LLM providers.",
+      "url": "https://github.com/rikkahub/rikkahub",
+      "stars": 2965,
+      "language": "Kotlin",
+      "gem_score": 14.41,
+      "momentum_trend": 1.63,
+      "recent_commits": 37,
+      "activity": [
+        25,
+        9,
+        34,
+        37
+      ],
+      "good_first_issues_url": "https://github.com/rikkahub/rikkahub/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:35:13Z"
     },
     {
       "name": "quick-rss",
@@ -1863,44 +1503,44 @@
       "pushed_at": "2026-01-23T21:03:05Z"
     },
     {
-      "name": "China-TV-Live-M3U8",
-      "full_name": "mytv-android/China-TV-Live-M3U8",
-      "description": "不同于网上烂大街的万人骑直播源，基于全国31个省市地方的电视台官网实时最新抓取",
-      "url": "https://github.com/mytv-android/China-TV-Live-M3U8",
-      "stars": 206,
-      "language": "Plain Text",
-      "gem_score": 14.38,
-      "momentum_trend": 0.98,
-      "recent_commits": 854,
+      "name": "clangen",
+      "full_name": "ClanGenOfficial/clangen",
+      "description": "Warrior Cats fan game",
+      "url": "https://github.com/ClanGenOfficial/clangen",
+      "stars": 347,
+      "language": "Python",
+      "gem_score": 14.34,
+      "momentum_trend": 1.24,
+      "recent_commits": 24,
       "activity": [
-        852,
-        873,
-        896,
-        854
+        6,
+        23,
+        29,
+        24
       ],
-      "good_first_issues_url": "https://github.com/mytv-android/China-TV-Live-M3U8/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:22:51Z"
+      "good_first_issues_url": "https://github.com/ClanGenOfficial/clangen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T12:24:44Z"
     },
     {
-      "name": "hummingbird",
-      "full_name": "hummingbird-player/hummingbird",
-      "description": "Modern music player written in Rust using GPUI with a focus on design and performance",
-      "url": "https://github.com/hummingbird-player/hummingbird",
-      "stars": 429,
-      "language": "Rust",
-      "gem_score": 14.31,
-      "momentum_trend": 2.16,
-      "recent_commits": 18,
+      "name": "ever-teams",
+      "full_name": "ever-co/ever-teams",
+      "description": "Ever® Teams™ - Open Work and Project Management Platform - https://ever.team",
+      "url": "https://github.com/ever-co/ever-teams",
+      "stars": 476,
+      "language": "TypeScript",
+      "gem_score": 14.24,
+      "momentum_trend": 1.94,
+      "recent_commits": 11,
       "activity": [
         2,
-        8,
-        15,
-        18
+        4,
+        11,
+        11
       ],
-      "good_first_issues_url": "https://github.com/hummingbird-player/hummingbird/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/ever-co/ever-teams/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:05:52Z"
+      "pushed_at": "2026-01-24T12:15:30Z"
     },
     {
       "name": "zignal",
@@ -1909,198 +1549,158 @@
       "url": "https://github.com/bfactory-ai/zignal",
       "stars": 341,
       "language": "Zig",
-      "gem_score": 14.25,
-      "momentum_trend": 3.83,
-      "recent_commits": 46,
+      "gem_score": 14.18,
+      "momentum_trend": 3.75,
+      "recent_commits": 45,
       "activity": [
-        6,
         5,
+        6,
         25,
-        46
+        45
       ],
       "good_first_issues_url": "https://github.com/bfactory-ai/zignal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
       "pushed_at": "2026-01-23T14:09:52Z"
     },
     {
-      "name": "incus-os",
-      "full_name": "lxc/incus-os",
-      "description": "Immutable Linux OS to run Incus",
-      "url": "https://github.com/lxc/incus-os",
-      "stars": 818,
-      "language": "Go",
-      "gem_score": 14.12,
-      "momentum_trend": 0.66,
-      "recent_commits": 62,
-      "activity": [
-        75,
-        145,
-        60,
-        62
-      ],
-      "good_first_issues_url": "https://github.com/lxc/incus-os/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:00:00Z"
-    },
-    {
-      "name": "contacts",
-      "full_name": "nextcloud/contacts",
-      "description": "📇 Contacts app for Nextcloud",
-      "url": "https://github.com/nextcloud/contacts",
-      "stars": 612,
-      "language": "JavaScript",
-      "gem_score": 14.07,
-      "momentum_trend": 1.2,
-      "recent_commits": 28,
-      "activity": [
-        11,
-        31,
-        28,
-        28
-      ],
-      "good_first_issues_url": "https://github.com/nextcloud/contacts/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:37:18Z"
-    },
-    {
-      "name": "ironbar",
-      "full_name": "JakeStanger/ironbar",
-      "description": "Customisable Wayland GTK4 bar written in Rust.",
-      "url": "https://github.com/JakeStanger/ironbar",
-      "stars": 1103,
-      "language": "Rust",
-      "gem_score": 14.07,
-      "momentum_trend": 0.5,
-      "recent_commits": 8,
-      "activity": [
-        20,
-        13,
-        15,
-        8
-      ],
-      "good_first_issues_url": "https://github.com/JakeStanger/ironbar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:46:10Z"
-    },
-    {
-      "name": "moosestack",
-      "full_name": "514-labs/moosestack",
-      "description": "The developer framework for building analytics into your app on top of ClickHouse, Redpanda and other high-performance analytical infrastructure",
-      "url": "https://github.com/514-labs/moosestack",
+      "name": "specta",
+      "full_name": "specta-rs/specta",
+      "description": "Easily export your Rust types to other languages",
+      "url": "https://github.com/specta-rs/specta",
       "stars": 517,
       "language": "Rust",
-      "gem_score": 14.05,
-      "momentum_trend": 2.08,
-      "recent_commits": 34,
+      "gem_score": 14.06,
+      "momentum_trend": 1.64,
+      "recent_commits": 36,
       "activity": [
-        3,
+        0,
+        55,
         11,
-        35,
-        34
+        36
       ],
-      "good_first_issues_url": "https://github.com/514-labs/moosestack/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:24:59Z"
+      "good_first_issues_url": "https://github.com/specta-rs/specta/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:38:08Z"
     },
     {
       "name": "freenode",
       "full_name": "telegeam/freenode",
       "description": "免费公益节点每天定时更新,clash节点、v2rayj节点，免费clash节点、免费节点、免费梯子、clash科学上网、clash翻墙、clash订阅链接、clash for Windows、clash教程、免费公益节点、最新clash免费节点订阅地址、clash免费节点每日更新",
       "url": "https://github.com/telegeam/freenode",
-      "stars": 308,
+      "stars": 309,
       "language": "Shell",
-      "gem_score": 14.01,
-      "momentum_trend": 1.05,
+      "gem_score": 13.99,
+      "momentum_trend": 1.04,
       "recent_commits": 169,
       "activity": [
         164,
-        161,
         159,
+        163,
         169
       ],
       "good_first_issues_url": "https://github.com/telegeam/freenode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:21:18Z"
+      "pushed_at": "2026-01-24T12:34:37Z"
     },
     {
-      "name": "istio-csr",
-      "full_name": "cert-manager/istio-csr",
-      "description": "istio-csr is an agent that allows for Istio workload and control plane components to be secured using cert-manager.",
-      "url": "https://github.com/cert-manager/istio-csr",
-      "stars": 183,
-      "language": "Go",
-      "gem_score": 13.93,
-      "momentum_trend": 1.74,
-      "recent_commits": 11,
+      "name": "ioBroker.repositories",
+      "full_name": "ioBroker/ioBroker.repositories",
+      "description": "Repositories for ioBroker project",
+      "url": "https://github.com/ioBroker/ioBroker.repositories",
+      "stars": 152,
+      "language": "JavaScript",
+      "gem_score": 13.88,
+      "momentum_trend": 1.07,
+      "recent_commits": 16,
       "activity": [
-        4,
-        8,
-        7,
-        11
+        15,
+        14,
+        16,
+        16
       ],
-      "good_first_issues_url": "https://github.com/cert-manager/istio-csr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/ioBroker/ioBroker.repositories/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:28:35Z"
+      "pushed_at": "2026-01-24T11:44:37Z"
     },
     {
-      "name": "moonlight",
-      "full_name": "moonlight-mod/moonlight",
-      "description": "Yet another Discord mod",
-      "url": "https://github.com/moonlight-mod/moonlight",
-      "stars": 288,
-      "language": "TypeScript",
-      "gem_score": 13.9,
-      "momentum_trend": 1,
-      "recent_commits": 8,
+      "name": "cloudstream-extensions-phisher",
+      "full_name": "phisher98/cloudstream-extensions-phisher",
+      "description": "Cloudstream Extensions by Phisher",
+      "url": "https://github.com/phisher98/cloudstream-extensions-phisher",
+      "stars": 294,
+      "language": "Kotlin",
+      "gem_score": 13.81,
+      "momentum_trend": 1.82,
+      "recent_commits": 37,
       "activity": [
-        0,
-        0,
-        0,
-        8
+        24,
+        15,
+        22,
+        37
       ],
-      "good_first_issues_url": "https://github.com/moonlight-mod/moonlight/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:02:02Z"
-    },
-    {
-      "name": "posixutils-rs",
-      "full_name": "rustcoreutils/posixutils-rs",
-      "description": "Core POSIX command line utilities in safe Rust",
-      "url": "https://github.com/rustcoreutils/posixutils-rs",
-      "stars": 404,
-      "language": "Rust",
-      "gem_score": 13.89,
-      "momentum_trend": 0.62,
-      "recent_commits": 40,
-      "activity": [
-        55,
-        71,
-        67,
-        40
-      ],
-      "good_first_issues_url": "https://github.com/rustcoreutils/posixutils-rs/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/phisher98/cloudstream-extensions-phisher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:22:40Z"
+      "pushed_at": "2026-01-24T09:50:31Z"
     },
     {
-      "name": "vtr-verilog-to-routing",
-      "full_name": "verilog-to-routing/vtr-verilog-to-routing",
-      "description": "Verilog to Routing -- Open Source CAD Flow for FPGA Research",
-      "url": "https://github.com/verilog-to-routing/vtr-verilog-to-routing",
-      "stars": 1191,
+      "name": "inputstream.adaptive",
+      "full_name": "xbmc/inputstream.adaptive",
+      "description": "kodi inputstream addon for several manifest types",
+      "url": "https://github.com/xbmc/inputstream.adaptive",
+      "stars": 516,
       "language": "C++",
-      "gem_score": 13.89,
-      "momentum_trend": 2.69,
-      "recent_commits": 44,
+      "gem_score": 13.8,
+      "momentum_trend": 0.83,
+      "recent_commits": 5,
       "activity": [
+        0,
+        6,
+        12,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/xbmc/inputstream.adaptive/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:06:47Z"
+    },
+    {
+      "name": "and-bible",
+      "full_name": "AndBible/and-bible",
+      "description": "AndBible: Bible Study",
+      "url": "https://github.com/AndBible/and-bible",
+      "stars": 729,
+      "language": "Kotlin",
+      "gem_score": 13.7,
+      "momentum_trend": 1.43,
+      "recent_commits": 10,
+      "activity": [
+        1,
         9,
         11,
-        29,
-        44
+        10
       ],
-      "good_first_issues_url": "https://github.com/verilog-to-routing/vtr-verilog-to-routing/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/AndBible/and-bible/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:26:35Z"
+    },
+    {
+      "name": "ezra-bible-app",
+      "full_name": "ezra-bible-app/ezra-bible-app",
+      "description": "Ezra Bible App is a modern and user-friendly Bible app for desktops, tablets and mobiles focussing on topical study",
+      "url": "https://github.com/ezra-bible-app/ezra-bible-app",
+      "stars": 198,
+      "language": "JavaScript",
+      "gem_score": 13.69,
+      "momentum_trend": 1.13,
+      "recent_commits": 30,
+      "activity": [
+        27,
+        47,
+        6,
+        30
+      ],
+      "good_first_issues_url": "https://github.com/ezra-bible-app/ezra-bible-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:15:48Z"
+      "pushed_at": "2026-01-24T11:32:07Z"
     },
     {
       "name": "sentry-cocoa",
@@ -2123,44 +1723,24 @@
       "pushed_at": "2026-01-23T22:38:09Z"
     },
     {
-      "name": "collect",
-      "full_name": "getodk/collect",
-      "description": "ODK Collect is an Android app for filling out forms. It's been used to collect billions of data points in challenging environments around the world. Contribute and make the world a better place! ✨📋✨",
-      "url": "https://github.com/getodk/collect",
-      "stars": 756,
-      "language": "Kotlin",
-      "gem_score": 13.66,
-      "momentum_trend": 4.31,
-      "recent_commits": 89,
+      "name": "runtipi-appstore",
+      "full_name": "runtipi/runtipi-appstore",
+      "description": "Official Runtipi AppStore. Apps and updates live here!",
+      "url": "https://github.com/runtipi/runtipi-appstore",
+      "stars": 448,
+      "language": "JavaScript",
+      "gem_score": 13.56,
+      "momentum_trend": 1.83,
+      "recent_commits": 78,
       "activity": [
-        6,
-        49,
-        7,
-        89
+        41,
+        35,
+        52,
+        78
       ],
-      "good_first_issues_url": "https://github.com/getodk/collect/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-23T22:15:53Z"
-    },
-    {
-      "name": "exograph",
-      "full_name": "exograph/exograph",
-      "description": "Build production-ready backends in minutes",
-      "url": "https://github.com/exograph/exograph",
-      "stars": 340,
-      "language": "Rust",
-      "gem_score": 13.64,
-      "momentum_trend": 2.06,
-      "recent_commits": 11,
-      "activity": [
-        4,
-        5,
-        7,
-        11
-      ],
-      "good_first_issues_url": "https://github.com/exograph/exograph/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:10:55Z"
+      "good_first_issues_url": "https://github.com/runtipi/runtipi-appstore/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:26:18Z"
     },
     {
       "name": "swift-testing",
@@ -2183,6 +1763,106 @@
       "pushed_at": "2026-01-23T22:18:56Z"
     },
     {
+      "name": "sail",
+      "full_name": "lakehq/sail",
+      "description": "LakeSail's computation framework with a mission to unify batch processing, stream processing, and compute-intensive AI workloads.",
+      "url": "https://github.com/lakehq/sail",
+      "stars": 1131,
+      "language": "Rust",
+      "gem_score": 13.32,
+      "momentum_trend": 0.97,
+      "recent_commits": 12,
+      "activity": [
+        5,
+        11,
+        21,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/lakehq/sail/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:01:08Z"
+    },
+    {
+      "name": "sqlx4k",
+      "full_name": "smyrgeorge/sqlx4k",
+      "description": "A coroutine-first SQL toolkit with compile-time query validations for Kotlin Multiplatform. PostgreSQL, MySQL/MariaDB, and SQLite supported.",
+      "url": "https://github.com/smyrgeorge/sqlx4k",
+      "stars": 271,
+      "language": "Kotlin",
+      "gem_score": 13.32,
+      "momentum_trend": 0.93,
+      "recent_commits": 18,
+      "activity": [
+        14,
+        22,
+        22,
+        18
+      ],
+      "good_first_issues_url": "https://github.com/smyrgeorge/sqlx4k/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T10:22:29Z"
+    },
+    {
+      "name": "chatterino2",
+      "full_name": "Chatterino/chatterino2",
+      "description": "Chat client for https://twitch.tv",
+      "url": "https://github.com/Chatterino/chatterino2",
+      "stars": 2392,
+      "language": "C++",
+      "gem_score": 13.26,
+      "momentum_trend": 0.64,
+      "recent_commits": 10,
+      "activity": [
+        25,
+        16,
+        6,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/Chatterino/chatterino2/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T12:26:12Z"
+    },
+    {
+      "name": "meeting-media-manager",
+      "full_name": "sircharlo/meeting-media-manager",
+      "description": "A cross platform app to download and present media for congregation meetings of Jehovah’s Witnesses in any language. Features include automatic media downloading, easy drag-and-drop adding of additional media, and media presentation tools for meetings.",
+      "url": "https://github.com/sircharlo/meeting-media-manager",
+      "stars": 197,
+      "language": "TypeScript",
+      "gem_score": 13.08,
+      "momentum_trend": 0.7,
+      "recent_commits": 110,
+      "activity": [
+        208,
+        154,
+        108,
+        110
+      ],
+      "good_first_issues_url": "https://github.com/sircharlo/meeting-media-manager/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:22:55Z"
+    },
+    {
+      "name": "cella",
+      "full_name": "cellajs/cella",
+      "description": "Template to build web apps with sync engine and offline support using pg, node, hono, drizzle, react, electric-sync, tanstack.",
+      "url": "https://github.com/cellajs/cella",
+      "stars": 446,
+      "language": "TypeScript",
+      "gem_score": 13.05,
+      "momentum_trend": 4,
+      "recent_commits": 56,
+      "activity": [
+        5,
+        10,
+        27,
+        56
+      ],
+      "good_first_issues_url": "https://github.com/cellajs/cella/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:45:28Z"
+    },
+    {
       "name": "Free-Proxies",
       "full_name": "Anonym0usWork1221/Free-Proxies",
       "description": "Update free every 2 hours",
@@ -2200,87 +1880,47 @@
       ],
       "good_first_issues_url": "https://github.com/Anonym0usWork1221/Free-Proxies/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:02:30Z"
+      "pushed_at": "2026-01-24T12:23:57Z"
     },
     {
-      "name": "cherry-studio-app",
-      "full_name": "CherryHQ/cherry-studio-app",
-      "description": "🍒 This is the mobile version of Cherry Studio.",
-      "url": "https://github.com/CherryHQ/cherry-studio-app",
-      "stars": 2455,
+      "name": "voidauth",
+      "full_name": "voidauth/voidauth",
+      "description": "Single Sign-On for Your Self-Hosted Universe",
+      "url": "https://github.com/voidauth/voidauth",
+      "stars": 1727,
       "language": "TypeScript",
-      "gem_score": 12.95,
-      "momentum_trend": 1.75,
-      "recent_commits": 14,
+      "gem_score": 12.94,
+      "momentum_trend": 0.41,
+      "recent_commits": 13,
       "activity": [
-        8,
-        14,
-        2,
-        14
+        39,
+        44,
+        12,
+        13
       ],
-      "good_first_issues_url": "https://github.com/CherryHQ/cherry-studio-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/voidauth/voidauth/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:52:30Z"
+      "pushed_at": "2026-01-24T12:16:52Z"
     },
     {
-      "name": "simc",
-      "full_name": "simulationcraft/simc",
-      "description": "Simulationcraft engine/GUI",
-      "url": "https://github.com/simulationcraft/simc",
-      "stars": 1508,
-      "language": "C++",
-      "gem_score": 12.85,
-      "momentum_trend": 1.84,
-      "recent_commits": 166,
+      "name": "capgo",
+      "full_name": "Cap-go/capgo",
+      "description": "Capgo Console and backend to manage Instant update for capacitor apps",
+      "url": "https://github.com/Cap-go/capgo",
+      "stars": 179,
+      "language": "TypeScript",
+      "gem_score": 12.92,
+      "momentum_trend": 0.65,
+      "recent_commits": 89,
       "activity": [
-        69,
-        73,
-        128,
-        166
+        170,
+        152,
+        87,
+        89
       ],
-      "good_first_issues_url": "https://github.com/simulationcraft/simc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/Cap-go/capgo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:18:28Z"
-    },
-    {
-      "name": "stripe-android",
-      "full_name": "stripe/stripe-android",
-      "description": "Stripe Android SDK    ",
-      "url": "https://github.com/stripe/stripe-android",
-      "stars": 1467,
-      "language": "Kotlin",
-      "gem_score": 12.84,
-      "momentum_trend": 1.57,
-      "recent_commits": 22,
-      "activity": [
-        0,
-        18,
-        24,
-        22
-      ],
-      "good_first_issues_url": "https://github.com/stripe/stripe-android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:22:32Z"
-    },
-    {
-      "name": "clr",
-      "full_name": "ityonemo/clr",
-      "description": "Checker for Lifetimes and other Refinement types",
-      "url": "https://github.com/ityonemo/clr",
-      "stars": 160,
-      "language": "Zig",
-      "gem_score": 12.69,
-      "momentum_trend": 0.24,
-      "recent_commits": 5,
-      "activity": [
-        36,
-        26,
-        0,
-        5
-      ],
-      "good_first_issues_url": "https://github.com/ityonemo/clr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-18T16:43:02Z"
+      "pushed_at": "2026-01-24T12:24:32Z"
     },
     {
       "name": "astroz",
@@ -2289,18 +1929,98 @@
       "url": "https://github.com/ATTron/astroz",
       "stars": 203,
       "language": "Zig",
-      "gem_score": 12.65,
-      "momentum_trend": 1.5,
-      "recent_commits": 14,
+      "gem_score": 12.87,
+      "momentum_trend": 1.61,
+      "recent_commits": 15,
       "activity": [
         0,
         4,
         24,
-        14
+        15
       ],
       "good_first_issues_url": "https://github.com/ATTron/astroz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:01:05Z"
+      "pushed_at": "2026-01-24T04:50:50Z"
+    },
+    {
+      "name": "stash-override",
+      "full_name": "deezertidal/stash-override",
+      "description": "Stash覆写 脚本 规则 override stoverride 磁贴 面板 分流 破解 解锁",
+      "url": "https://github.com/deezertidal/stash-override",
+      "stars": 461,
+      "language": "JavaScript",
+      "gem_score": 12.74,
+      "momentum_trend": 1.06,
+      "recent_commits": 91,
+      "activity": [
+        74,
+        91,
+        92,
+        91
+      ],
+      "good_first_issues_url": "https://github.com/deezertidal/stash-override/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:33:37Z"
+    },
+    {
+      "name": "cherry-studio-app",
+      "full_name": "CherryHQ/cherry-studio-app",
+      "description": "🍒 This is the mobile version of Cherry Studio.",
+      "url": "https://github.com/CherryHQ/cherry-studio-app",
+      "stars": 2463,
+      "language": "TypeScript",
+      "gem_score": 12.72,
+      "momentum_trend": 1.95,
+      "recent_commits": 13,
+      "activity": [
+        3,
+        14,
+        3,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/CherryHQ/cherry-studio-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:55:01Z"
+    },
+    {
+      "name": "VoxCity",
+      "full_name": "kunifujiwara/VoxCity",
+      "description": null,
+      "url": "https://github.com/kunifujiwara/VoxCity",
+      "stars": 278,
+      "language": "Jupyter Notebook",
+      "gem_score": 12.69,
+      "momentum_trend": 2.16,
+      "recent_commits": 31,
+      "activity": [
+        11,
+        1,
+        31,
+        31
+      ],
+      "good_first_issues_url": "https://github.com/kunifujiwara/VoxCity/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:34:46Z"
+    },
+    {
+      "name": "clr",
+      "full_name": "ityonemo/clr",
+      "description": "Checker for Lifetimes and other Refinement types",
+      "url": "https://github.com/ityonemo/clr",
+      "stars": 160,
+      "language": "Zig",
+      "gem_score": 12.68,
+      "momentum_trend": 0.27,
+      "recent_commits": 5,
+      "activity": [
+        34,
+        21,
+        0,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/ityonemo/clr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-18T16:43:02Z"
     },
     {
       "name": "microsoft-authentication-library-for-objc",
@@ -2323,224 +2043,264 @@
       "pushed_at": "2026-01-24T01:22:03Z"
     },
     {
-      "name": "kuberay",
-      "full_name": "ray-project/kuberay",
-      "description": "A toolkit to run Ray applications on Kubernetes",
-      "url": "https://github.com/ray-project/kuberay",
-      "stars": 2284,
-      "language": "Go",
-      "gem_score": 12.51,
-      "momentum_trend": 1,
-      "recent_commits": 10,
-      "activity": [
-        11,
-        9,
-        10,
-        10
-      ],
-      "good_first_issues_url": "https://github.com/ray-project/kuberay/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:32:33Z"
-    },
-    {
-      "name": "ios",
-      "full_name": "bitwarden/ios",
-      "description": "Bitwarden mobile apps (Password Manager and Authenticator) for iOS.",
-      "url": "https://github.com/bitwarden/ios",
-      "stars": 497,
-      "language": "Swift",
-      "gem_score": 12.51,
-      "momentum_trend": 1.38,
-      "recent_commits": 18,
-      "activity": [
-        13,
-        4,
-        22,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/bitwarden/ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T22:39:54Z"
-    },
-    {
-      "name": "anytype-swift",
-      "full_name": "anyproto/anytype-swift",
-      "description": "Official Anytype client for iOS",
-      "url": "https://github.com/anyproto/anytype-swift",
-      "stars": 427,
-      "language": "Swift",
-      "gem_score": 12.46,
-      "momentum_trend": 2.19,
-      "recent_commits": 105,
-      "activity": [
-        24,
-        34,
-        86,
-        105
-      ],
-      "good_first_issues_url": "https://github.com/anyproto/anytype-swift/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T15:49:48Z"
-    },
-    {
-      "name": "proof-systems",
-      "full_name": "o1-labs/proof-systems",
-      "description": "The proof systems used by Mina",
-      "url": "https://github.com/o1-labs/proof-systems",
-      "stars": 458,
-      "language": "Rust",
-      "gem_score": 12.42,
-      "momentum_trend": 1,
-      "recent_commits": 17,
-      "activity": [
-        2,
-        40,
-        9,
-        17
-      ],
-      "good_first_issues_url": "https://github.com/o1-labs/proof-systems/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:46:57Z"
-    },
-    {
-      "name": "clashfree",
-      "full_name": "clashv2ray-hub/clashfree",
-      "description": "clash节点、免费clash节点、最新clash免费节点订阅地址、clash免费节点每日更新、免费节点、免费梯子、clash科学上网、clash翻墙、clash订阅链接、clash for Windows、clash教程、免费公益节点、",
-      "url": "https://github.com/clashv2ray-hub/clashfree",
-      "stars": 188,
-      "language": "Shell",
-      "gem_score": 12.4,
-      "momentum_trend": 1,
-      "recent_commits": 44,
-      "activity": [
-        44,
-        45,
-        43,
-        44
-      ],
-      "good_first_issues_url": "https://github.com/clashv2ray-hub/clashfree/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:23:14Z"
-    },
-    {
-      "name": "Flare",
-      "full_name": "DimensionDev/Flare",
-      "description": "All your Mastodon, Bluesky, Misskey, X, RSS feeds, in one APP.",
-      "url": "https://github.com/DimensionDev/Flare",
-      "stars": 537,
+      "name": "ReVanced-Patch-Bundles",
+      "full_name": "Jman-Github/ReVanced-Patch-Bundles",
+      "description": "Automatically aggregates alternative ReVanced patch and integration repositories into JSON files to import into the ReVanced Manager Compose.",
+      "url": "https://github.com/Jman-Github/ReVanced-Patch-Bundles",
+      "stars": 333,
       "language": "Kotlin",
-      "gem_score": 12.36,
-      "momentum_trend": 2.43,
-      "recent_commits": 56,
+      "gem_score": 12.58,
+      "momentum_trend": 1.23,
+      "recent_commits": 30,
       "activity": [
-        3,
         22,
-        44,
-        56
+        30,
+        21,
+        30
       ],
-      "good_first_issues_url": "https://github.com/DimensionDev/Flare/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:17:48Z"
+      "pushed_at": "2026-01-24T08:44:11Z"
     },
     {
-      "name": "pylabrobot",
-      "full_name": "PyLabRobot/pylabrobot",
-      "description": "interactive & hardware agnostic SDK for lab automation",
-      "url": "https://github.com/PyLabRobot/pylabrobot",
-      "stars": 370,
-      "language": "Python",
-      "gem_score": 12.34,
-      "momentum_trend": 2.37,
-      "recent_commits": 15,
+      "name": "go-feature-flag",
+      "full_name": "thomaspoignant/go-feature-flag",
+      "description": "GO Feature Flag is a simple, complete and lightweight self-hosted feature flag solution 100% Open Source. 🎛️",
+      "url": "https://github.com/thomaspoignant/go-feature-flag",
+      "stars": 1908,
+      "language": "Go",
+      "gem_score": 12.53,
+      "momentum_trend": 2.54,
+      "recent_commits": 66,
       "activity": [
-        1,
-        5,
-        13,
-        15
+        18,
+        32,
+        28,
+        66
       ],
-      "good_first_issues_url": "https://github.com/PyLabRobot/pylabrobot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/thomaspoignant/go-feature-flag/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:11:58Z"
+      "pushed_at": "2026-01-24T11:45:38Z"
     },
     {
-      "name": "nur-combined",
-      "full_name": "nix-community/nur-combined",
-      "description": "A repository of NUR that combines all repositories [maintainer=@Mic92] ",
-      "url": "https://github.com/nix-community/nur-combined",
-      "stars": 177,
-      "language": "Nix",
-      "gem_score": 12.16,
-      "momentum_trend": 1.12,
-      "recent_commits": 627,
+      "name": "spm4Kmp",
+      "full_name": "frankois944/spm4Kmp",
+      "description": "SPM For KMP: Use Apple Swift packages and bridge Swift sources in a KMP project",
+      "url": "https://github.com/frankois944/spm4Kmp",
+      "stars": 344,
+      "language": "Kotlin",
+      "gem_score": 12.53,
+      "momentum_trend": 1.88,
+      "recent_commits": 5,
       "activity": [
-        543,
-        490,
-        650,
-        627
-      ],
-      "good_first_issues_url": "https://github.com/nix-community/nur-combined/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:23:41Z"
-    },
-    {
-      "name": "tides-of-revival",
-      "full_name": "Srekel/tides-of-revival",
-      "description": null,
-      "url": "https://github.com/Srekel/tides-of-revival",
-      "stars": 158,
-      "language": "Zig",
-      "gem_score": 12.13,
-      "momentum_trend": 5.5,
-      "recent_commits": 11,
-      "activity": [
-        0,
         0,
         6,
-        11
+        2,
+        5
       ],
-      "good_first_issues_url": "https://github.com/Srekel/tides-of-revival/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-20T19:47:46Z"
+      "good_first_issues_url": "https://github.com/frankois944/spm4Kmp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:22:05Z"
     },
     {
-      "name": "k8s-dra-driver-gpu",
-      "full_name": "NVIDIA/k8s-dra-driver-gpu",
-      "description": "NVIDIA DRA Driver for GPUs",
-      "url": "https://github.com/NVIDIA/k8s-dra-driver-gpu",
-      "stars": 548,
-      "language": "Go",
-      "gem_score": 11.99,
-      "momentum_trend": 7.5,
+      "name": "SkyHanni",
+      "full_name": "hannibal002/SkyHanni",
+      "description": "SkyHanni is a Minecraft Mod for Hypixel SkyBlock.",
+      "url": "https://github.com/hannibal002/SkyHanni",
+      "stars": 474,
+      "language": "Kotlin",
+      "gem_score": 12.36,
+      "momentum_trend": 0.99,
+      "recent_commits": 31,
+      "activity": [
+        12,
+        50,
+        32,
+        31
+      ],
+      "good_first_issues_url": "https://github.com/hannibal002/SkyHanni/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T10:52:23Z"
+    },
+    {
+      "name": "posthog-foss",
+      "full_name": "PostHog/posthog-foss",
+      "description": "PostHog FOSS is a read-only mirror of PostHog, with all proprietary code removed. NOTE: This repo is synced automatically from the main PostHog repo. Please raise any issues and PRs there.",
+      "url": "https://github.com/PostHog/posthog-foss",
+      "stars": 442,
+      "language": "Python",
+      "gem_score": 12.23,
+      "momentum_trend": 1.39,
+      "recent_commits": 400,
+      "activity": [
+        136,
+        353,
+        376,
+        400
+      ],
+      "good_first_issues_url": "https://github.com/PostHog/posthog-foss/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:18:56Z"
+    },
+    {
+      "name": "decadeUI",
+      "full_name": "diandian157/decadeUI",
+      "description": "原萌修十周年UI 双端适用",
+      "url": "https://github.com/diandian157/decadeUI",
+      "stars": 196,
+      "language": "JavaScript",
+      "gem_score": 12.22,
+      "momentum_trend": 0.43,
       "recent_commits": 20,
       "activity": [
-        1,
-        4,
-        3,
+        80,
+        51,
+        7,
         20
       ],
-      "good_first_issues_url": "https://github.com/NVIDIA/k8s-dra-driver-gpu/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/diandian157/decadeUI/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:13:32Z"
+      "pushed_at": "2026-01-24T10:31:05Z"
     },
     {
-      "name": "airbyte-platform",
-      "full_name": "airbytehq/airbyte-platform",
-      "description": "The platform that powers Airbyte. Please file issues in https://github.com/airbytehq/airbyte",
-      "url": "https://github.com/airbytehq/airbyte-platform",
-      "stars": 292,
-      "language": "Kotlin",
-      "gem_score": 11.69,
-      "momentum_trend": 0.91,
-      "recent_commits": 13,
+      "name": "notifuse",
+      "full_name": "Notifuse/notifuse",
+      "description": "Notifuse is an open-source & modern emailing platform",
+      "url": "https://github.com/Notifuse/notifuse",
+      "stars": 1687,
+      "language": "Go",
+      "gem_score": 12.02,
+      "momentum_trend": 1.64,
+      "recent_commits": 12,
       "activity": [
-        2,
-        28,
-        13,
-        13
+        7,
+        5,
+        10,
+        12
       ],
-      "good_first_issues_url": "https://github.com/airbytehq/airbyte-platform/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/Notifuse/notifuse/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T20:40:35Z"
+      "pushed_at": "2026-01-24T10:47:46Z"
+    },
+    {
+      "name": "terraform-provider-alicloud",
+      "full_name": "aliyun/terraform-provider-alicloud",
+      "description": "Terraform AliCloud provider",
+      "url": "https://github.com/aliyun/terraform-provider-alicloud",
+      "stars": 639,
+      "language": "Go",
+      "gem_score": 11.99,
+      "momentum_trend": 1.07,
+      "recent_commits": 21,
+      "activity": [
+        17,
+        15,
+        27,
+        21
+      ],
+      "good_first_issues_url": "https://github.com/aliyun/terraform-provider-alicloud/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T10:53:36Z"
+    },
+    {
+      "name": "HomeKey-ESP32",
+      "full_name": "rednblkx/HomeKey-ESP32",
+      "description": "ESP32 HomeKit Lock with support for Apple Home Key (reverse-engineered)",
+      "url": "https://github.com/rednblkx/HomeKey-ESP32",
+      "stars": 851,
+      "language": "C++",
+      "gem_score": 11.99,
+      "momentum_trend": 1.54,
+      "recent_commits": 41,
+      "activity": [
+        32,
+        16,
+        32,
+        41
+      ],
+      "good_first_issues_url": "https://github.com/rednblkx/HomeKey-ESP32/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:11:25Z"
+    },
+    {
+      "name": "drawy",
+      "full_name": "Prayag2/drawy",
+      "description": "The project has now moved to KDE Invent.",
+      "url": "https://github.com/Prayag2/drawy",
+      "stars": 882,
+      "language": "C++",
+      "gem_score": 11.98,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/Prayag2/drawy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:01:28Z"
+    },
+    {
+      "name": "rama",
+      "full_name": "plabayo/rama",
+      "description": "modular service framework to move and transform network packets",
+      "url": "https://github.com/plabayo/rama",
+      "stars": 919,
+      "language": "Rust",
+      "gem_score": 11.94,
+      "momentum_trend": 0.93,
+      "recent_commits": 14,
+      "activity": [
+        15,
+        8,
+        22,
+        14
+      ],
+      "good_first_issues_url": "https://github.com/plabayo/rama/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T10:55:37Z"
+    },
+    {
+      "name": "RecurringExpenseTracker",
+      "full_name": "DennisBauer/RecurringExpenseTracker",
+      "description": "A Material You recurring expense tracker, allowing you to keep track of your monthly spending.",
+      "url": "https://github.com/DennisBauer/RecurringExpenseTracker",
+      "stars": 325,
+      "language": "Kotlin",
+      "gem_score": 11.9,
+      "momentum_trend": 7.91,
+      "recent_commits": 29,
+      "activity": [
+        0,
+        0,
+        11,
+        29
+      ],
+      "good_first_issues_url": "https://github.com/DennisBauer/RecurringExpenseTracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T09:49:17Z"
+    },
+    {
+      "name": "talk-ios",
+      "full_name": "nextcloud/talk-ios",
+      "description": "📱😀 Video & audio calls through Nextcloud on iOS",
+      "url": "https://github.com/nextcloud/talk-ios",
+      "stars": 206,
+      "language": "Swift",
+      "gem_score": 11.85,
+      "momentum_trend": 0.59,
+      "recent_commits": 10,
+      "activity": [
+        3,
+        27,
+        21,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/nextcloud/talk-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T03:00:14Z"
     },
     {
       "name": "Hiddify-Warp",
@@ -2560,16 +2320,36 @@
       ],
       "good_first_issues_url": "https://github.com/ByteMysticRogue/Hiddify-Warp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:04:14Z"
+      "pushed_at": "2026-01-24T12:25:25Z"
     },
     {
-      "name": "app",
-      "full_name": "all-contributors/app",
-      "description": "🤖 A GitHub App to automate acknowledging contributors to your open source projects",
-      "url": "https://github.com/all-contributors/app",
-      "stars": 613,
-      "language": "JavaScript",
+      "name": "k8m",
+      "full_name": "weibaohui/k8m",
+      "description": "一款轻量级、跨平台的 Mini Kubernetes AI Dashboard，支持大模型+智能体+MCP(支持设置操作权限)，集成多集群管理、智能分析、实时异常检测等功能，支持多架构并可单文件部署，助力高效集群管理与运维优化。",
+      "url": "https://github.com/weibaohui/k8m",
+      "stars": 763,
+      "language": "Go",
       "gem_score": 11.65,
+      "momentum_trend": 0.09,
+      "recent_commits": 12,
+      "activity": [
+        167,
+        194,
+        62,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/weibaohui/k8m/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:57:38Z"
+    },
+    {
+      "name": "compose-datetime-wheel-picker",
+      "full_name": "darkokoa/compose-datetime-wheel-picker",
+      "description": "Wheel Date & Time Picker in Compose Multiplatform",
+      "url": "https://github.com/darkokoa/compose-datetime-wheel-picker",
+      "stars": 216,
+      "language": "Kotlin",
+      "gem_score": 11.58,
       "momentum_trend": 1,
       "recent_commits": 16,
       "activity": [
@@ -2578,29 +2358,29 @@
         0,
         16
       ],
-      "good_first_issues_url": "https://github.com/all-contributors/app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:17:18Z"
+      "good_first_issues_url": "https://github.com/darkokoa/compose-datetime-wheel-picker/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:32:50Z"
     },
     {
-      "name": "website",
-      "full_name": "asyncapi/website",
-      "description": "AsyncAPI specification website",
-      "url": "https://github.com/asyncapi/website",
-      "stars": 679,
-      "language": "TypeScript",
-      "gem_score": 11.59,
-      "momentum_trend": 0.72,
-      "recent_commits": 7,
+      "name": "plugins",
+      "full_name": "NotePlan/plugins",
+      "description": "The main NotePlan repository, which contains the source code for all NotePlan plugins. If a release entry has been created, it will be available for installation from within NotePlan application.",
+      "url": "https://github.com/NotePlan/plugins",
+      "stars": 190,
+      "language": "JavaScript",
+      "gem_score": 11.56,
+      "momentum_trend": 0.78,
+      "recent_commits": 41,
       "activity": [
-        13,
-        11,
-        5,
-        7
+        41,
+        46,
+        70,
+        41
       ],
-      "good_first_issues_url": "https://github.com/asyncapi/website/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:46:16Z"
+      "good_first_issues_url": "https://github.com/NotePlan/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T10:52:36Z"
     },
     {
       "name": "AnimacX",
@@ -2609,7 +2389,7 @@
       "url": "https://github.com/AnimacX/AnimacX",
       "stars": 243,
       "language": "Swift",
-      "gem_score": 11.57,
+      "gem_score": 11.56,
       "momentum_trend": 1.05,
       "recent_commits": 14,
       "activity": [
@@ -2620,127 +2400,67 @@
       ],
       "good_first_issues_url": "https://github.com/AnimacX/AnimacX/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T18:23:09Z"
+      "pushed_at": "2026-01-24T11:12:19Z"
     },
     {
-      "name": "terraform-provider-google-beta",
-      "full_name": "hashicorp/terraform-provider-google-beta",
-      "description": "Terraform Provider for Google Cloud Platform (Beta)",
-      "url": "https://github.com/hashicorp/terraform-provider-google-beta",
-      "stars": 295,
-      "language": "Go",
-      "gem_score": 11.55,
-      "momentum_trend": 1.29,
-      "recent_commits": 36,
-      "activity": [
-        14,
-        34,
-        36,
-        36
-      ],
-      "good_first_issues_url": "https://github.com/hashicorp/terraform-provider-google-beta/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:50:16Z"
-    },
-    {
-      "name": "fizzbee",
-      "full_name": "fizzbee-io/fizzbee",
-      "description": "Easiest-ever formal methods language! Designed for developers crafting distributed systems, microservices, and cloud applications",
-      "url": "https://github.com/fizzbee-io/fizzbee",
-      "stars": 275,
-      "language": "Python",
-      "gem_score": 11.51,
-      "momentum_trend": 0.4,
-      "recent_commits": 2,
-      "activity": [
-        2,
-        13,
-        0,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/fizzbee-io/fizzbee/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:08:16Z"
-    },
-    {
-      "name": "WSF",
-      "full_name": "WSF-Team/WSF",
-      "description": null,
-      "url": "https://github.com/WSF-Team/WSF",
-      "stars": 276,
-      "language": "Swift",
-      "gem_score": 11.5,
-      "momentum_trend": 1.8,
-      "recent_commits": 9,
-      "activity": [
-        0,
-        3,
-        12,
-        9
-      ],
-      "good_first_issues_url": "https://github.com/WSF-Team/WSF/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T16:06:42Z"
-    },
-    {
-      "name": "plugins",
-      "full_name": "NotePlan/plugins",
-      "description": "The main NotePlan repository, which contains the source code for all NotePlan plugins. If a release entry has been created, it will be available for installation from within NotePlan application.",
-      "url": "https://github.com/NotePlan/plugins",
-      "stars": 190,
+      "name": "indie-wiki-buddy",
+      "full_name": "KevinPayravi/indie-wiki-buddy",
+      "description": "Browser extension that automatically notifies and redirects you to independent wikis.",
+      "url": "https://github.com/KevinPayravi/indie-wiki-buddy",
+      "stars": 458,
       "language": "JavaScript",
-      "gem_score": 11.46,
-      "momentum_trend": 0.75,
-      "recent_commits": 39,
-      "activity": [
-        40,
-        48,
-        68,
-        39
-      ],
-      "good_first_issues_url": "https://github.com/NotePlan/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:58:43Z"
-    },
-    {
-      "name": "alveusgg",
-      "full_name": "alveusgg/alveusgg",
-      "description": "alveussanctuary.org / alveus.gg - community-built, open-source website for Alveus Sanctuary, built with Next.js and Tailwind.",
-      "url": "https://github.com/alveusgg/alveusgg",
-      "stars": 156,
-      "language": "TypeScript",
-      "gem_score": 11.42,
-      "momentum_trend": 1.33,
-      "recent_commits": 16,
-      "activity": [
-        14,
-        9,
-        13,
-        16
-      ],
-      "good_first_issues_url": "https://github.com/alveusgg/alveusgg/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:47:00Z"
-    },
-    {
-      "name": "ort",
-      "full_name": "oss-review-toolkit/ort",
-      "description": "A suite of tools to automate software compliance checks.",
-      "url": "https://github.com/oss-review-toolkit/ort",
-      "stars": 1914,
-      "language": "Kotlin",
-      "gem_score": 11.36,
-      "momentum_trend": 2.22,
-      "recent_commits": 60,
+      "gem_score": 11.54,
+      "momentum_trend": 2.25,
+      "recent_commits": 12,
       "activity": [
         6,
-        27,
-        48,
-        60
+        9,
+        1,
+        12
       ],
-      "good_first_issues_url": "https://github.com/oss-review-toolkit/ort/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/KevinPayravi/indie-wiki-buddy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T10:31:18Z"
+    },
+    {
+      "name": "gh-action-data-scraping",
+      "full_name": "swyxio/gh-action-data-scraping",
+      "description": "this shows how to use github actions to do periodic data scraping",
+      "url": "https://github.com/swyxio/gh-action-data-scraping",
+      "stars": 237,
+      "language": "JavaScript",
+      "gem_score": 11.47,
+      "momentum_trend": 1,
+      "recent_commits": 168,
+      "activity": [
+        168,
+        168,
+        168,
+        168
+      ],
+      "good_first_issues_url": "https://github.com/swyxio/gh-action-data-scraping/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:00:27Z"
+    },
+    {
+      "name": "tides-of-revival",
+      "full_name": "Srekel/tides-of-revival",
+      "description": null,
+      "url": "https://github.com/Srekel/tides-of-revival",
+      "stars": 158,
+      "language": "Zig",
+      "gem_score": 11.45,
+      "momentum_trend": 2.67,
+      "recent_commits": 8,
+      "activity": [
+        0,
+        0,
+        9,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/Srekel/tides-of-revival/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-23T21:59:14Z"
+      "pushed_at": "2026-01-20T19:47:46Z"
     },
     {
       "name": "dd-sdk-ios",
@@ -2749,178 +2469,118 @@
       "url": "https://github.com/DataDog/dd-sdk-ios",
       "stars": 263,
       "language": "Swift",
-      "gem_score": 11.35,
-      "momentum_trend": 2.84,
-      "recent_commits": 35,
+      "gem_score": 11.45,
+      "momentum_trend": 3,
+      "recent_commits": 37,
       "activity": [
         2,
         16,
         19,
-        35
+        37
       ],
       "good_first_issues_url": "https://github.com/DataDog/dd-sdk-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T18:43:49Z"
+      "pushed_at": "2026-01-24T07:27:39Z"
     },
     {
-      "name": "mojo-gpu-puzzles",
-      "full_name": "modular/mojo-gpu-puzzles",
-      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
-      "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 280,
-      "language": "Mojo",
-      "gem_score": 11.23,
-      "momentum_trend": 0.41,
-      "recent_commits": 3,
+      "name": "alveusgg",
+      "full_name": "alveusgg/alveusgg",
+      "description": "alveussanctuary.org / alveus.gg - community-built, open-source website for Alveus Sanctuary, built with Next.js and Tailwind.",
+      "url": "https://github.com/alveusgg/alveusgg",
+      "stars": 157,
+      "language": "TypeScript",
+      "gem_score": 11.41,
+      "momentum_trend": 1.3,
+      "recent_commits": 16,
       "activity": [
-        0,
-        17,
-        5,
-        3
+        14,
+        9,
+        14,
+        16
       ],
-      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/alveusgg/alveusgg/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-21T17:40:16Z"
+      "pushed_at": "2026-01-24T12:00:21Z"
     },
     {
-      "name": "golem",
-      "full_name": "golemcloud/golem",
-      "description": "Golem is an open source durable computing platform that makes it easy to build and deploy highly reliable distributed systems.",
-      "url": "https://github.com/golemcloud/golem",
-      "stars": 947,
-      "language": "Rust",
-      "gem_score": 11.07,
-      "momentum_trend": 0.33,
-      "recent_commits": 7,
+      "name": "batocera.linux",
+      "full_name": "batocera-linux/batocera.linux",
+      "description": "batocera.linux",
+      "url": "https://github.com/batocera-linux/batocera.linux",
+      "stars": 2855,
+      "language": "Python",
+      "gem_score": 11.36,
+      "momentum_trend": 1.18,
+      "recent_commits": 108,
+      "activity": [
+        92,
+        81,
+        102,
+        108
+      ],
+      "good_first_issues_url": "https://github.com/batocera-linux/batocera.linux/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:13:20Z"
+    },
+    {
+      "name": "ghalint",
+      "full_name": "suzuki-shunsuke/ghalint",
+      "description": "GitHub Actions linter",
+      "url": "https://github.com/suzuki-shunsuke/ghalint",
+      "stars": 203,
+      "language": "Go",
+      "gem_score": 11.32,
+      "momentum_trend": 2.25,
+      "recent_commits": 18,
+      "activity": [
+        7,
+        6,
+        11,
+        18
+      ],
+      "good_first_issues_url": "https://github.com/suzuki-shunsuke/ghalint/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T10:29:48Z"
+    },
+    {
+      "name": "zhihu-plus-plus",
+      "full_name": "zly2006/zhihu-plus-plus",
+      "description": "去广告、占用低、AI大模型powered的新时代知乎安卓端体验。",
+      "url": "https://github.com/zly2006/zhihu-plus-plus",
+      "stars": 533,
+      "language": "Kotlin",
+      "gem_score": 11.3,
+      "momentum_trend": 18,
+      "recent_commits": 12,
+      "activity": [
+        2,
+        0,
+        0,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/zly2006/zhihu-plus-plus/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T08:39:44Z"
+    },
+    {
+      "name": "matrix-hookshot",
+      "full_name": "matrix-org/matrix-hookshot",
+      "description": "A bridge between Matrix and multiple project management services, such as GitHub, GitLab and JIRA.",
+      "url": "https://github.com/matrix-org/matrix-hookshot",
+      "stars": 379,
+      "language": "TypeScript",
+      "gem_score": 11.23,
+      "momentum_trend": 75,
+      "recent_commits": 75,
       "activity": [
         1,
-        44,
-        18,
-        7
+        1,
+        1,
+        75
       ],
-      "good_first_issues_url": "https://github.com/golemcloud/golem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/matrix-org/matrix-hookshot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:10:33Z"
-    },
-    {
-      "name": "prime",
-      "full_name": "PrimeDecomp/prime",
-      "description": "A matching decompilation of Metroid Prime",
-      "url": "https://github.com/PrimeDecomp/prime",
-      "stars": 235,
-      "language": "C++",
-      "gem_score": 10.92,
-      "momentum_trend": 2.95,
-      "recent_commits": 60,
-      "activity": [
-        0,
-        32,
-        29,
-        60
-      ],
-      "good_first_issues_url": "https://github.com/PrimeDecomp/prime/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:33:59Z"
-    },
-    {
-      "name": "fastify-boilerplate",
-      "full_name": "marcoturi/fastify-boilerplate",
-      "description": "Fastify 5 application boilerplate based on clean architecture, domain-driven design, CQRS, functional programming, vertical slice architecture for building production-grade applications 🚀",
-      "url": "https://github.com/marcoturi/fastify-boilerplate",
-      "stars": 347,
-      "language": "TypeScript",
-      "gem_score": 10.88,
-      "momentum_trend": 0.77,
-      "recent_commits": 11,
-      "activity": [
-        7,
-        19,
-        17,
-        11
-      ],
-      "good_first_issues_url": "https://github.com/marcoturi/fastify-boilerplate/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:08:14Z"
-    },
-    {
-      "name": "Unwatched",
-      "full_name": "fer0n/Unwatched",
-      "description": "RSS feed based YouTube video player for iOS, macOS, tvOS",
-      "url": "https://github.com/fer0n/Unwatched",
-      "stars": 382,
-      "language": "Swift",
-      "gem_score": 10.84,
-      "momentum_trend": 5,
-      "recent_commits": 20,
-      "activity": [
-        4,
-        5,
-        3,
-        20
-      ],
-      "good_first_issues_url": "https://github.com/fer0n/Unwatched/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T22:21:59Z"
-    },
-    {
-      "name": "coreychiu-portfolio-template",
-      "full_name": "iAmCorey/coreychiu-portfolio-template",
-      "description": "portfolio template by corey chiu",
-      "url": "https://github.com/iAmCorey/coreychiu-portfolio-template",
-      "stars": 458,
-      "language": "TypeScript",
-      "gem_score": 10.83,
-      "momentum_trend": 1,
-      "recent_commits": 7,
-      "activity": [
-        7,
-        7,
-        7,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/iAmCorey/coreychiu-portfolio-template/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:02:59Z"
-    },
-    {
-      "name": "egglog",
-      "full_name": "egraphs-good/egglog",
-      "description": "egraphs + datalog!",
-      "url": "https://github.com/egraphs-good/egglog",
-      "stars": 669,
-      "language": "Rust",
-      "gem_score": 10.82,
-      "momentum_trend": 3.14,
-      "recent_commits": 23,
-      "activity": [
-        13,
-        9,
-        0,
-        23
-      ],
-      "good_first_issues_url": "https://github.com/egraphs-good/egglog/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T01:15:24Z"
-    },
-    {
-      "name": "ASR-TTS-paper-daily",
-      "full_name": "halsay/ASR-TTS-paper-daily",
-      "description": "Update ASR paper everyday",
-      "url": "https://github.com/halsay/ASR-TTS-paper-daily",
-      "stars": 436,
-      "language": "Python",
-      "gem_score": 10.79,
-      "momentum_trend": 1.03,
-      "recent_commits": 11,
-      "activity": [
-        10,
-        10,
-        12,
-        11
-      ],
-      "good_first_issues_url": "https://github.com/halsay/ASR-TTS-paper-daily/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T01:03:59Z"
+      "pushed_at": "2026-01-24T12:36:08Z"
     },
     {
       "name": "moblin",
@@ -2929,58 +2589,298 @@
       "url": "https://github.com/eerimoq/moblin",
       "stars": 525,
       "language": "Swift",
-      "gem_score": 10.78,
-      "momentum_trend": 0.45,
-      "recent_commits": 36,
+      "gem_score": 11.19,
+      "momentum_trend": 0.56,
+      "recent_commits": 43,
       "activity": [
-        108,
-        87,
+        97,
+        86,
         47,
-        36
+        43
       ],
       "good_first_issues_url": "https://github.com/eerimoq/moblin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-01-23T21:17:15Z"
+      "pushed_at": "2026-01-24T11:26:12Z"
     },
     {
-      "name": "light-protocol",
-      "full_name": "Lightprotocol/light-protocol",
-      "description": "The ZK Compression Protocol For Solana",
-      "url": "https://github.com/Lightprotocol/light-protocol",
-      "stars": 314,
+      "name": "release-plz",
+      "full_name": "release-plz/release-plz",
+      "description": "Publish Rust crates from CI with a Release PR.",
+      "url": "https://github.com/release-plz/release-plz",
+      "stars": 1275,
       "language": "Rust",
-      "gem_score": 10.71,
-      "momentum_trend": 8.45,
-      "recent_commits": 31,
+      "gem_score": 11.18,
+      "momentum_trend": 5.33,
+      "recent_commits": 32,
       "activity": [
+        5,
+        4,
+        9,
+        32
+      ],
+      "good_first_issues_url": "https://github.com/release-plz/release-plz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T12:32:16Z"
+    },
+    {
+      "name": "esjs-dolar-api",
+      "full_name": "enzonotario/esjs-dolar-api",
+      "description": "API desarrollada en EsJS para las diferentes cotizaciones de Dólar en Argentina, Chile, Venezuela, Uruguay, México, Bolivia, Brasil y Colombia",
+      "url": "https://github.com/enzonotario/esjs-dolar-api",
+      "stars": 494,
+      "language": "JavaScript",
+      "gem_score": 11.18,
+      "momentum_trend": 0.97,
+      "recent_commits": 63,
+      "activity": [
+        60,
+        69,
+        66,
+        63
+      ],
+      "good_first_issues_url": "https://github.com/enzonotario/esjs-dolar-api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:02:42Z"
+    },
+    {
+      "name": "bazaar",
+      "full_name": "siyuan-note/bazaar",
+      "description": "SiYuan community marketplace",
+      "url": "https://github.com/siyuan-note/bazaar",
+      "stars": 204,
+      "language": "Go",
+      "gem_score": 11.13,
+      "momentum_trend": 1.31,
+      "recent_commits": 111,
+      "activity": [
+        85,
+        79,
+        90,
+        111
+      ],
+      "good_first_issues_url": "https://github.com/siyuan-note/bazaar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:22:49Z"
+    },
+    {
+      "name": "qihang-ecom-erp-open",
+      "full_name": "zeasin/qihang-ecom-erp-open",
+      "description": "启航电商ERP系统是一个轻量级现代化的电商业务处理系统，该系统专注核心订单处理业务。该项目采用SpringCloud微服务开发，帮助企业低成本构建订单中台。系统支持多平台多店铺商品、订单、售后、库存、电子面单等电商核心业务处理，支持：淘宝、京东、拼多多、抖店、微信小店等。主体功能包括：商品管理、订单管理、售后管理、发货管理、库存管理等。可使用接口对接内部ERP、WMS、财务等系统。",
+      "url": "https://github.com/zeasin/qihang-ecom-erp-open",
+      "stars": 170,
+      "language": "Java",
+      "gem_score": 11.11,
+      "momentum_trend": 1.71,
+      "recent_commits": 24,
+      "activity": [
+        25,
+        0,
+        17,
+        24
+      ],
+      "good_first_issues_url": "https://github.com/zeasin/qihang-ecom-erp-open/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:33:44Z"
+    },
+    {
+      "name": "sakura",
+      "full_name": "sakura-editor/sakura",
+      "description": "SAKURA Editor (Japanese text editor for MS Windows)",
+      "url": "https://github.com/sakura-editor/sakura",
+      "stars": 1407,
+      "language": "C++",
+      "gem_score": 11.05,
+      "momentum_trend": 1.28,
+      "recent_commits": 85,
+      "activity": [
+        50,
+        70,
+        79,
+        85
+      ],
+      "good_first_issues_url": "https://github.com/sakura-editor/sakura/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T11:18:35Z"
+    },
+    {
+      "name": "obsidian",
+      "full_name": "wix-incubator/obsidian",
+      "description": "Dependency injection library for React and React Native applications",
+      "url": "https://github.com/wix-incubator/obsidian",
+      "stars": 150,
+      "language": "TypeScript",
+      "gem_score": 11.03,
+      "momentum_trend": 1.2,
+      "recent_commits": 4,
+      "activity": [
+        7,
+        3,
+        0,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/wix-incubator/obsidian/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T12:09:05Z"
+    },
+    {
+      "name": "oUF",
+      "full_name": "oUF-wow/oUF",
+      "description": "WoW AddOn - Unit frame framework.",
+      "url": "https://github.com/oUF-wow/oUF",
+      "stars": 230,
+      "language": "Lua",
+      "gem_score": 10.95,
+      "momentum_trend": 128.25,
+      "recent_commits": 171,
+      "activity": [
+        0,
+        4,
+        0,
+        171
+      ],
+      "good_first_issues_url": "https://github.com/oUF-wow/oUF/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:34:44Z"
+    },
+    {
+      "name": "stream-chat-react-native",
+      "full_name": "GetStream/stream-chat-react-native",
+      "description": " 💬 React-Native Chat SDK ➜ Stream Chat. Includes a tutorial on building your own chat app experience using React-Native, React-Navigation and Stream",
+      "url": "https://github.com/GetStream/stream-chat-react-native",
+      "stars": 1130,
+      "language": "TypeScript",
+      "gem_score": 10.95,
+      "momentum_trend": 8.57,
+      "recent_commits": 20,
+      "activity": [
+        2,
         1,
         4,
-        6,
-        31
+        20
       ],
-      "good_first_issues_url": "https://github.com/Lightprotocol/light-protocol/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-01-24T00:17:21Z"
+      "good_first_issues_url": "https://github.com/GetStream/stream-chat-react-native/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:55:11Z"
     },
     {
-      "name": "operator",
-      "full_name": "tigera/operator",
-      "description": "Kubernetes operator for installing Calico and Calico Enterprise",
-      "url": "https://github.com/tigera/operator",
-      "stars": 208,
-      "language": "Go",
-      "gem_score": 10.71,
-      "momentum_trend": 1.5,
-      "recent_commits": 9,
+      "name": "geoshare",
+      "full_name": "jakubvalenta/geoshare",
+      "description": "An Android app to open map links in other map apps and copy coordinates",
+      "url": "https://github.com/jakubvalenta/geoshare",
+      "stars": 199,
+      "language": "Kotlin",
+      "gem_score": 10.87,
+      "momentum_trend": 0.75,
+      "recent_commits": 5,
+      "activity": [
+        6,
+        6,
+        8,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/jakubvalenta/geoshare/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:18:40Z"
+    },
+    {
+      "name": "Unwatched",
+      "full_name": "fer0n/Unwatched",
+      "description": "RSS feed based YouTube video player for iOS, macOS, tvOS",
+      "url": "https://github.com/fer0n/Unwatched",
+      "stars": 382,
+      "language": "Swift",
+      "gem_score": 10.83,
+      "momentum_trend": 4.62,
+      "recent_commits": 20,
       "activity": [
         3,
-        11,
-        4,
-        9
+        5,
+        5,
+        20
       ],
-      "good_first_issues_url": "https://github.com/tigera/operator/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/fer0n/Unwatched/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T10:01:40Z"
+    },
+    {
+      "name": "jok",
+      "full_name": "Jack-Ji/jok",
+      "description": "A minimal 2d/3d game framework for @ziglang.",
+      "url": "https://github.com/Jack-Ji/jok",
+      "stars": 357,
+      "language": "Zig",
+      "gem_score": 10.72,
+      "momentum_trend": 1.57,
+      "recent_commits": 12,
+      "activity": [
+        3,
+        9,
+        11,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/Jack-Ji/jok/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-01-24T00:45:06Z"
+      "pushed_at": "2026-01-24T05:49:07Z"
+    },
+    {
+      "name": "WSF",
+      "full_name": "WSF-Team/WSF",
+      "description": null,
+      "url": "https://github.com/WSF-Team/WSF",
+      "stars": 276,
+      "language": "Swift",
+      "gem_score": 10.71,
+      "momentum_trend": 1.17,
+      "recent_commits": 7,
+      "activity": [
+        3,
+        0,
+        15,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/WSF-Team/WSF/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T05:32:26Z"
+    },
+    {
+      "name": "HomeLab",
+      "full_name": "Michaelpalacce/HomeLab",
+      "description": "My HomeLab environment ",
+      "url": "https://github.com/Michaelpalacce/HomeLab",
+      "stars": 224,
+      "language": "Python",
+      "gem_score": 10.7,
+      "momentum_trend": 0.95,
+      "recent_commits": 59,
+      "activity": [
+        31,
+        71,
+        84,
+        59
+      ],
+      "good_first_issues_url": "https://github.com/Michaelpalacce/HomeLab/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:32:19Z"
+    },
+    {
+      "name": "inspect_ai",
+      "full_name": "UKGovernmentBEIS/inspect_ai",
+      "description": "Inspect: A framework for large language model evaluations",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "stars": 1686,
+      "language": "Python",
+      "gem_score": 10.65,
+      "momentum_trend": 1.16,
+      "recent_commits": 37,
+      "activity": [
+        27,
+        43,
+        26,
+        37
+      ],
+      "good_first_issues_url": "https://github.com/UKGovernmentBEIS/inspect_ai/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:34:10Z"
     },
     {
       "name": "tokamak",
@@ -2990,10 +2890,10 @@
       "stars": 567,
       "language": "Zig",
       "gem_score": 10.61,
-      "momentum_trend": 3.3,
+      "momentum_trend": 3.47,
       "recent_commits": 22,
       "activity": [
-        2,
+        1,
         7,
         11,
         22
@@ -3001,6 +2901,106 @@
       "good_first_issues_url": "https://github.com/cztomsik/tokamak/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
       "pushed_at": "2026-01-22T19:27:56Z"
+    },
+    {
+      "name": "grafana-operator",
+      "full_name": "grafana/grafana-operator",
+      "description": "An operator for Grafana that installs and manages Grafana instances, Dashboards and Datasources through Kubernetes/OpenShift CRs",
+      "url": "https://github.com/grafana/grafana-operator",
+      "stars": 1258,
+      "language": "Go",
+      "gem_score": 10.6,
+      "momentum_trend": 1.77,
+      "recent_commits": 13,
+      "activity": [
+        2,
+        13,
+        7,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/grafana/grafana-operator/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:22:44Z"
+    },
+    {
+      "name": "zig2nix",
+      "full_name": "Cloudef/zig2nix",
+      "description": "Flake for packaging, building and running Zig projects.",
+      "url": "https://github.com/Cloudef/zig2nix",
+      "stars": 152,
+      "language": "Zig",
+      "gem_score": 10.6,
+      "momentum_trend": 1.09,
+      "recent_commits": 8,
+      "activity": [
+        7,
+        8,
+        7,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/Cloudef/zig2nix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T01:55:53Z"
+    },
+    {
+      "name": "Scribe-iOS",
+      "full_name": "scribe-org/Scribe-iOS",
+      "description": "iOS app with keyboards for language learners",
+      "url": "https://github.com/scribe-org/Scribe-iOS",
+      "stars": 159,
+      "language": "Swift",
+      "gem_score": 10.59,
+      "momentum_trend": 0.53,
+      "recent_commits": 3,
+      "activity": [
+        2,
+        11,
+        4,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/scribe-org/Scribe-iOS/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T01:31:37Z"
+    },
+    {
+      "name": "boring",
+      "full_name": "cloudflare/boring",
+      "description": "BoringSSL bindings for the Rust programming language.",
+      "url": "https://github.com/cloudflare/boring",
+      "stars": 468,
+      "language": "Rust",
+      "gem_score": 10.54,
+      "momentum_trend": 8.25,
+      "recent_commits": 33,
+      "activity": [
+        1,
+        11,
+        0,
+        33
+      ],
+      "good_first_issues_url": "https://github.com/cloudflare/boring/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-24T11:41:14Z"
+    },
+    {
+      "name": "free",
+      "full_name": "shaoyouvip/free",
+      "description": "周润发公益免费v2ray节点订阅、翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子、v2ray节点、免费节点、免费v2ray节点、最新公益免费v2ray节点订阅地址、免费v2ray节点每日更新、免费v2ray/clash/singbox节点",
+      "url": "https://github.com/shaoyouvip/free",
+      "stars": 435,
+      "language": "Plain Text",
+      "gem_score": 10.49,
+      "momentum_trend": 1,
+      "recent_commits": 154,
+      "activity": [
+        154,
+        154,
+        156,
+        154
+      ],
+      "good_first_issues_url": "https://github.com/shaoyouvip/free/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T12:33:37Z"
     }
   ]
 }
