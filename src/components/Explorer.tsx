@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { Info, X } from "lucide-react";
+import { X } from "lucide-react";
 import { GemCard } from "@/components/GemCard";
 import { MasonryGrid } from "@/components/MasonryGrid";
 import ErrorBoundary from "@/components/ErrorBoundary";
@@ -10,6 +10,14 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FiltersBar } from "@/components/FiltersBar";
 import { Modal } from "@/components/Modal";
+import { RepoDetails } from "@/components/RepoDetails";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet";
 import { Gem, SortOption } from "@/types";
 import { useLocalStorage, useDebounce } from "@/lib/hooks";
 
@@ -30,6 +38,7 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
   
   const [activeModal, setActiveModal] = useState<string | null>(null);
+  const [selectedGem, setSelectedGem] = useState<Gem | null>(null);
   const [now, setNow] = useState(0);
 
   const [savedGems, setSavedGems] = useLocalStorage<string[]>("saved-gems", []);
@@ -212,6 +221,7 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
                   now={now} 
                   isSaved={savedGems.includes(gem.full_name)}
                   onToggleSave={toggleSave}
+                  onSelect={setSelectedGem}
                 />
               ))}
             </MasonryGrid>
@@ -238,6 +248,20 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
       </div>
 
       <Footer lastMined={lastMined} setActiveModal={setActiveModal} />
+
+      <Sheet open={!!selectedGem} onOpenChange={(open) => !open && setSelectedGem(null)}>
+        <SheetContent className="w-full sm:max-w-2xl bg-[#0A0A0A] border-white/10 text-white overflow-y-auto">
+          <SheetHeader className="mb-8">
+            <SheetTitle className="text-2xl font-bold text-white flex items-center gap-3">
+              {selectedGem?.name}
+            </SheetTitle>
+            <SheetDescription className="text-white/50 text-base">
+              {selectedGem?.description}
+            </SheetDescription>
+          </SheetHeader>
+          {selectedGem && <RepoDetails fullName={selectedGem.full_name} />}
+        </SheetContent>
+      </Sheet>
     </main>
   );
 }

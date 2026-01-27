@@ -15,9 +15,10 @@ interface GemCardProps {
   now: number;
   isSaved?: boolean;
   onToggleSave?: (fullName: string) => void;
+  onSelect?: (gem: Gem) => void;
 }
 
-export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
+export function GemCard({ gem, now, isSaved, onToggleSave, onSelect }: GemCardProps) {
   const getScoreVariant = (score: number) => {
     if (score >= 90) return "gold";
     if (score >= 70) return "silver";
@@ -52,6 +53,8 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
+      onClick={() => onSelect?.(gem)}
+      className="cursor-pointer"
     >
       <Card className="group relative h-full flex flex-col justify-between border-white/[0.05] bg-[#0A0A0A] p-0 hover:border-white/10 hover:bg-[#0F0F0F] transition-all duration-300 overflow-hidden">
         <CardContent className="p-5 flex flex-col gap-4">
@@ -86,7 +89,10 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
             <div className="flex items-center gap-3">
               {onToggleSave && (
                 <button 
-                  onClick={() => onToggleSave(gem.full_name)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onToggleSave(gem.full_name);
+                  }}
                   className={cn(
                     "transition-colors",
                     isSaved ? "text-blue-500" : "text-white/10 hover:text-white/30"
@@ -147,6 +153,7 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
               href={gem.url}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
               className="flex-1 inline-flex items-center justify-center gap-2 rounded-lg bg-white/[0.05] border border-white/5 px-4 py-2 text-xs font-semibold text-white/80 transition-all hover:bg-white/10 hover:text-white"
             >
               View Repo
@@ -155,6 +162,7 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
               href={gem.good_first_issues_url}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
               className={cn(
                 "inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-xs font-semibold transition-all",
                 gem.has_good_first_issues 

@@ -32,55 +32,78 @@ const HYPE_KEYWORDS = [
   "stable diffusion", "midjourney", "prompt engineering"
 ];
 
-function isLikelyChurn(repo) {
-  const name = repo.name.toLowerCase();
-  const description = (repo.description || "").toLowerCase();
-  
-  // Check for churn keywords in name or description
-  if (CHURN_KEYWORDS.some(keyword => name.includes(keyword) || description.includes(keyword))) {
-    return true;
+class Classifier {
+  static CHURN_KEYWORDS = [
+    "config", "vpn", "proxy", "list", "index", "blocklist", 
+    "iptv", "rules", "detect", "scripts", "backup", "hot-search", 
+    "trending", "awesome-list", "collection", "mirrors", "database",
+    "dns", "auto-updated", "hosts", "payload", "cve", "poc"
+  ];
+
+  static HYPE_KEYWORDS = [
+    "ai", "llm", "gpt", "openai", "claude", "langchain", 
+    "agent", "deepseek", "gemini", "llama", "mistral",
+    "rag", "vector", "embedding", "anthropic", "cohere",
+    "stable diffusion", "midjourney", "prompt engineering"
+  ];
+
+  static isLikelyChurn(repo) {
+    const name = repo.name.toLowerCase();
+    const description = (repo.description || "").toLowerCase();
+    
+    if (this.CHURN_KEYWORDS.some(keyword => name.includes(keyword) || description.includes(keyword))) {
+      return true;
+    }
+
+    if (name.match(/\d{4}-\d{2}-\d{2}/) || name.match(/\d{6,}/)) {
+      return true;
+    }
+
+    return false;
   }
 
-  // Common automated repo patterns
-  if (name.match(/\d{4}-\d{2}-\d{2}/) || name.match(/\d{6,}/)) {
-    return true;
+  static isHype(repo) {
+    const name = repo.name.toLowerCase();
+    const description = (repo.description || "").toLowerCase();
+    const hasHypeKeyword = this.HYPE_KEYWORDS.some(word => name.includes(word) || description.includes(word));
+    
+    // Bot-Detection heuristic: high stars but low unique contributors
+    const contributorCount = repo.mentionableUsers?.totalCount || 0;
+    const isBotInflated = repo.stargazerCount > 1000 && contributorCount < 5;
+
+    return hasHypeKeyword || isBotInflated;
   }
-
-  return false;
 }
 
-function isHype(repo) {
-  const name = repo.name.toLowerCase();
-  const description = (repo.description || "").toLowerCase();
-  return HYPE_KEYWORDS.some(word => name.includes(word) || description.includes(word));
-}
-
-function calculateScore(repo, recentCommits, labeledIssuesCount, hasGoodFirstIssues) {
+function calculateScore(repo, recentCommits, labeledIssuesCount, hasGoodFirstIssues, hasContributing) {
   const stars = Math.max(1, repo.stargazerCount);
   const createdAt = new Date(repo.createdAt);
   const ageInMonths = Math.max(6, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
 
-  // 1. Momentum: Cap the impact of raw commit volume to prevent automated repos from dominating
+  // 1. Momentum: Cap the impact of raw commit volume
   const momentum = Math.log2(recentCommits + 1) * 20;
   
-  // 2. Contribution: Reward repositories that are actively seeking contributors
+  // 2. Contribution: Reward active seeker of contributors
   const contribution = (labeledIssuesCount * 2) + (hasGoodFirstIssues ? 50 : 0);
   
-  // 3. Visibility Penalty: "Hidden gems" should be harder to find
+  // 3. Visibility Penalty: "Hidden gems" normalization
   const visibilityFactor = Math.log10(stars + 1);
   
-  // 4. Maturity: Age provides a base stability factor, capped to avoid over-rewarding ancient repos
+  // 4. Maturity: Base stability factor
   const maturityFactor = Math.sqrt(Math.min(ageInMonths, 60));
 
-  // 5. Language Multiplier: Boost targeted languages
+  // 5. Language Multiplier
   const lang = repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text";
   let langMultiplier = 1.0;
   if (TARGET_LANGUAGES.includes(lang)) langMultiplier = 1.2;
   if (lang === "Plain Text" || lang === "HTML" || lang === "CSS") langMultiplier = 0.5;
 
-  // Final formula: ((Momentum + Contribution + 10) / (Visibility * Maturity)) * multiplier
-  const rawScore = ((momentum + contribution + 10) / (visibilityFactor * maturityFactor)) * langMultiplier;
+  // Final formula
+  let rawScore = ((momentum + contribution + 10) / (visibilityFactor * maturityFactor)) * langMultiplier;
   
+  // Explicit 10% boost for contributing.md after initial score
+  if (hasContributing) rawScore *= 1.1;
+
   return Math.round(rawScore * 100) / 100;
 }
 
@@ -124,6 +147,10 @@ async function fetchReposForQuery(searchQuery, timeframes, maxPages = 3) {
               }
               issues(states: OPEN, labels: ["good first issue"], first: 1) { totalCount }
               repositoryLabels: labels { totalCount }
+              mentionableUsers { totalCount }
+              contributing: object(expression: "HEAD:CONTRIBUTING.md") {
+                ... on Blob { byteSize }
+              }
             }
           }
         }
@@ -196,7 +223,7 @@ async function getGems() {
   console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores...`);
 
   const scoredRepos = Array.from(allRepos.values())
-    .filter(repo => !isLikelyChurn(repo))
+    .filter(repo => !Classifier.isLikelyChurn(repo))
     .map(repo => {
       try {
         const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
@@ -210,7 +237,8 @@ async function getGems() {
 
         const labeledIssuesCount = repo.repositoryLabels?.totalCount || 0;
         const hasGoodFirstIssues = repo.issues.totalCount > 0;
-        const score = calculateScore(repo, w1, labeledIssuesCount, hasGoodFirstIssues);
+        const hasContributing = !!repo.contributing;
+        const score = calculateScore(repo, w1, labeledIssuesCount, hasGoodFirstIssues, hasContributing);
 
         return {
           name: repo.name,
@@ -226,7 +254,7 @@ async function getGems() {
           good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
           has_good_first_issues: hasGoodFirstIssues,
           pushed_at: repo.pushedAt,
-          is_hype: isHype(repo),
+          is_hype: Classifier.isHype(repo),
           license: repo.licenseInfo?.spdxId,
           latest_release: repo.latestRelease ? {
             tag: repo.latestRelease.tagName,
@@ -270,7 +298,7 @@ async function getGems() {
   console.log(`Successfully mined ${finalGems.length} gems (Hype: ${hypeCount}) and saved to public/gems.json`);
 }
 
-module.exports = { calculateScore };
+module.exports = { calculateScore, Classifier };
 
 if (require.main === module) {
   if (!GITHUB_TOKEN) {
