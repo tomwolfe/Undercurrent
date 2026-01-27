@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# miner directory
+/miner/node_modules
+/miner/.next
+/miner/out
+/miner/build
