@@ -25,11 +25,17 @@ const CHURN_KEYWORDS = [
   "dns", "auto-updated", "hosts", "payload", "cve", "poc"
 ];
 
+const HYPE_KEYWORDS = [
+  "ai", "llm", "gpt", "openai", "claude", "langchain", 
+  "agent", "deepseek", "gemini", "llama", "mistral",
+  "rag", "vector", "embedding", "anthropic", "cohere",
+  "stable diffusion", "midjourney", "prompt engineering"
+];
+
 function isLikelyChurn(repo) {
   const name = repo.name.toLowerCase();
   const description = (repo.description || "").toLowerCase();
-  const fullName = `${repo.owner.login}/${repo.name}`.toLowerCase();
-
+  
   // Check for churn keywords in name or description
   if (CHURN_KEYWORDS.some(keyword => name.includes(keyword) || description.includes(keyword))) {
     return true;
@@ -43,13 +49,18 @@ function isLikelyChurn(repo) {
   return false;
 }
 
+function isHype(repo) {
+  const name = repo.name.toLowerCase();
+  const description = (repo.description || "").toLowerCase();
+  return HYPE_KEYWORDS.some(word => name.includes(word) || description.includes(word));
+}
+
 function calculateScore(repo, recentCommits, labeledIssuesCount, hasGoodFirstIssues) {
   const stars = Math.max(1, repo.stargazerCount);
   const createdAt = new Date(repo.createdAt);
   const ageInMonths = Math.max(6, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
 
   // 1. Momentum: Cap the impact of raw commit volume to prevent automated repos from dominating
-  // Using log2 to reward activity but with diminishing returns for extreme volumes
   const momentum = Math.log2(recentCommits + 1) * 20;
   
   // 2. Contribution: Reward repositories that are actively seeking contributors
@@ -73,13 +84,18 @@ function calculateScore(repo, recentCommits, labeledIssuesCount, hasGoodFirstIss
   return Math.round(rawScore * 100) / 100;
 }
 
-async function fetchReposForQuery(searchQuery, timeframes) {
+async function fetchReposForQuery(searchQuery, timeframes, maxPages = 3) {
   if (!graphqlWithAuth) {
     throw new Error("GitHub token not configured");
   }
+
   const query = `
-    query($searchQuery: String!) {
-      search(query: $searchQuery, type: REPOSITORY, first: 50) {
+    query($searchQuery: String!, $cursor: String) {
+      search(query: $searchQuery, type: REPOSITORY, first: 50, after: $cursor) {
+        pageInfo {
+          hasNextPage
+          endCursor
+        }
         edges {
           node {
             ... on Repository {
@@ -91,6 +107,11 @@ async function fetchReposForQuery(searchQuery, timeframes) {
               createdAt
               pushedAt
               primaryLanguage { name }
+              licenseInfo { spdxId }
+              latestRelease {
+                tagName
+                publishedAt
+              }
               defaultBranchRef {
                 target {
                   ... on Commit {
@@ -110,17 +131,33 @@ async function fetchReposForQuery(searchQuery, timeframes) {
     }
   `;
 
-  try {
-    const result = await graphqlWithAuth(query, { searchQuery });
-    return result.search.edges.map(edge => edge.node).filter(Boolean);
-  } catch (error) {
-    console.error(`Error fetching for query "${searchQuery}":`, error.message);
-    return [];
+  let allRepos = [];
+  let cursor = null;
+  let page = 0;
+
+  while (page < maxPages) {
+    try {
+      const result = await graphqlWithAuth(query, { searchQuery, cursor });
+      const repos = result.search.edges.map(edge => edge.node).filter(Boolean);
+      allRepos = allRepos.concat(repos);
+
+      if (!result.search.pageInfo.hasNextPage) break;
+      cursor = result.search.pageInfo.endCursor;
+      page++;
+      
+      // Respect secondary rate limits
+      await new Promise(resolve => setTimeout(resolve, 500));
+    } catch (error) {
+      console.error(`Error fetching page ${page} for query "${searchQuery}":`, error.message);
+      break;
+    }
   }
+
+  return allRepos;
 }
 
 async function getGems() {
-  console.log("Starting enhanced gem mining process...");
+  console.log("Starting deep gem mining process...");
   const now = new Date();
   const sixMonthsAgo = new Date(new Date().setMonth(now.getMonth() - 6)).toISOString().split('T')[0];
   
@@ -133,18 +170,17 @@ async function getGems() {
 
   const allRepos = new Map();
 
-  // 1. Generic query for the best current gems across all languages
+  // 1. Base discovery query
   const baseQuery = `stars:150..3000 created:<${sixMonthsAgo} pushed:>${new Date(new Date().setDate(now.getDate() - 7)).toISOString().split('T')[0]} sort:updated-desc`;
-  console.log("Executing base discovery query...");
-  const baseRepos = await fetchReposForQuery(baseQuery, timeframes);
+  console.log("Executing base discovery query (paginated)...");
+  const baseRepos = await fetchReposForQuery(baseQuery, timeframes, 3);
   baseRepos.forEach(repo => allRepos.set(`${repo.owner.login}/${repo.name}`, repo));
 
-  // 2. Targeted language queries to find hidden gems in specific ecosystems
-  // Only search for languages that aren't already well-represented or to find more niche gems
+  // 2. Targeted language queries
   for (const lang of TARGET_LANGUAGES) {
     console.log(`Searching for ${lang} gems...`);
     const langQuery = `${baseQuery} language:${lang}`;
-    const langRepos = await fetchReposForQuery(langQuery, timeframes);
+    const langRepos = await fetchReposForQuery(langQuery, timeframes, 2);
     let newCount = 0;
     langRepos.forEach(repo => {
       const key = `${repo.owner.login}/${repo.name}`;
@@ -154,8 +190,7 @@ async function getGems() {
       }
     });
     console.log(`  Added ${newCount} new unique ${lang} repos.`);
-    // Small delay to be nice to the API
-    await new Promise(resolve => setTimeout(resolve, 300));
+    await new Promise(resolve => setTimeout(resolve, 500));
   }
 
   console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores...`);
@@ -190,27 +225,49 @@ async function getGems() {
           activity: activity,
           good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
           has_good_first_issues: hasGoodFirstIssues,
-          pushed_at: repo.pushedAt
+          pushed_at: repo.pushedAt,
+          is_hype: isHype(repo),
+          license: repo.licenseInfo?.spdxId,
+          latest_release: repo.latestRelease ? {
+            tag: repo.latestRelease.tagName,
+            published_at: repo.latestRelease.publishedAt
+          } : null
         };
-      } catch {
+      } catch (err) {
         return null;
       }
     }).filter(Boolean);
 
-  // Sort and filter
-  const topGems = scoredRepos
-    .sort((a, b) => b.gem_score - a.gem_score)
-    .slice(0, 150); // Increased to 150 gems for better variety
+  // Sort and Diversity Filter
+  const sortedGems = scoredRepos.sort((a, b) => b.gem_score - a.gem_score);
+  
+  const finalGems = [];
+  let hypeCount = 0;
+  const HYPE_LIMIT = 75; // Max 30% of 250
+  const TOTAL_LIMIT = 250;
+
+  for (const gem of sortedGems) {
+    if (finalGems.length >= TOTAL_LIMIT) break;
+    
+    if (gem.is_hype) {
+      if (hypeCount < HYPE_LIMIT) {
+        finalGems.push(gem);
+        hypeCount++;
+      }
+    } else {
+      finalGems.push(gem);
+    }
+  }
 
   const output = {
     last_mined: new Date().toISOString(),
-    count: topGems.length,
-    gems: topGems
+    count: finalGems.length,
+    gems: finalGems
   };
 
   const outputPath = path.join(__dirname, "../public/gems.json");
   fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
-  console.log(`Successfully mined ${topGems.length} gems and saved to public/gems.json`);
+  console.log(`Successfully mined ${finalGems.length} gems (Hype: ${hypeCount}) and saved to public/gems.json`);
 }
 
 module.exports = { calculateScore };

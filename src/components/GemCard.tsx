@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown } from "lucide-react";
+import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown, Bookmark, Scale, Timer } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Sparkline } from "./Sparkline";
 import { Card, CardContent } from "./ui/card";
@@ -13,9 +13,11 @@ import { Gem } from "@/types";
 interface GemCardProps {
   gem: Gem;
   now: number;
+  isSaved?: boolean;
+  onToggleSave?: (fullName: string) => void;
 }
 
-export function GemCard({ gem, now }: GemCardProps) {
+export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
   const getScoreVariant = (score: number) => {
     if (score >= 90) return "gold";
     if (score >= 70) return "silver";
@@ -33,6 +35,12 @@ export function GemCard({ gem, now }: GemCardProps) {
     return new Date(gem.pushed_at).getTime() > now - 7 * 24 * 60 * 60 * 1000;
   }, [gem.pushed_at, now]);
 
+  const isNewRelease = useMemo(() => {
+    if (!gem.latest_release?.published_at) return false;
+    const publishedAt = new Date(gem.latest_release.published_at).getTime();
+    return publishedAt > now - 30 * 24 * 60 * 60 * 1000;
+  }, [gem.latest_release, now]);
+
   const trendIcon = useMemo(() => {
     if (gem.momentum_trend > 1.2) return <TrendingUp size={10} className="text-emerald-500" />;
     if (gem.momentum_trend < 0.8) return <TrendingDown size={10} className="text-rose-500" />;
@@ -49,12 +57,19 @@ export function GemCard({ gem, now }: GemCardProps) {
         <CardContent className="p-5 flex flex-col gap-4">
           <div className="flex items-start justify-between">
             <div className="flex flex-col gap-1.5">
-              <Badge 
-                variant={getScoreVariant(gem.gem_score)}
-                className="px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest"
-              >
-                {getScoreLabel(gem.gem_score)} {gem.gem_score}
-              </Badge>
+              <div className="flex items-center gap-2">
+                <Badge 
+                  variant={getScoreVariant(gem.gem_score)}
+                  className="px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest"
+                >
+                  {getScoreLabel(gem.gem_score)} {gem.gem_score}
+                </Badge>
+                {isNewRelease && (
+                  <Badge variant="default" className="bg-blue-500/10 text-blue-400 border-blue-500/20 text-[9px] px-1.5 py-0">
+                    NEW RELEASE
+                  </Badge>
+                )}
+              </div>
               {trendIcon && (
                 <div className="flex items-center gap-1 px-1">
                   {trendIcon}
@@ -69,6 +84,17 @@ export function GemCard({ gem, now }: GemCardProps) {
             </div>
             
             <div className="flex items-center gap-3">
+              {onToggleSave && (
+                <button 
+                  onClick={() => onToggleSave(gem.full_name)}
+                  className={cn(
+                    "transition-colors",
+                    isSaved ? "text-blue-500" : "text-white/10 hover:text-white/30"
+                  )}
+                >
+                  <Bookmark size={16} fill={isSaved ? "currentColor" : "none"} />
+                </button>
+              )}
               {gem.activity && (
                 <div className="opacity-40 group-hover:opacity-100 transition-opacity">
                   <Sparkline data={gem.activity} color={gem.gem_score >= 70 ? "#94a3b8" : "#4b5563"} />
@@ -102,6 +128,18 @@ export function GemCard({ gem, now }: GemCardProps) {
               <GitCommit size={10} className="text-white/30" />
               {gem.recent_commits} commits/wk
             </Badge>
+            {gem.license && (
+              <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/30 bg-white/[0.02]">
+                <Scale size={10} />
+                {gem.license}
+              </Badge>
+            )}
+            {gem.latest_release && (
+              <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/30 bg-white/[0.02]">
+                <Timer size={10} />
+                {gem.latest_release.tag}
+              </Badge>
+            )}
           </div>
 
           <div className="mt-2 flex gap-2">

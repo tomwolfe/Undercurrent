@@ -39,7 +39,7 @@ export function FiltersBar({
         </div>
 
         <div className="flex items-center gap-1 bg-white/[0.03] p-1 rounded-lg border border-white/5">
-          {(["score", "recent", "stars"] as const).map((option) => (
+          {(["score", "recent", "stars", "saved"] as const).map((option) => (
             <button
               key={option}
               onClick={() => setSortBy(option)}
