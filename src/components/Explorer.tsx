@@ -97,7 +97,8 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
           return (
             gem.name.toLowerCase().includes(query) ||
             (gem.description || "").toLowerCase().includes(query) ||
-            gem.language.toLowerCase().includes(query)
+            gem.language.toLowerCase().includes(query) ||
+            (gem.topics || []).some(topic => topic.toLowerCase().includes(query))
           );
         }
         return true;

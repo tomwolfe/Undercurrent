@@ -55,7 +55,7 @@ function isHype(repo) {
   return HYPE_KEYWORDS.some(word => name.includes(word) || description.includes(word));
 }
 
-function calculateScore(repo, recentCommits, labeledIssuesCount, hasGoodFirstIssues) {
+function calculateScore(repo, recentCommits, mergedPrsCount, labeledIssuesCount, hasGoodFirstIssues) {
   const stars = Math.max(1, repo.stargazerCount);
   const createdAt = new Date(repo.createdAt);
   const ageInMonths = Math.max(6, (new Date() - createdAt) / (1000 * 60 * 60 * 24 * 30.44));
@@ -63,23 +63,26 @@ function calculateScore(repo, recentCommits, labeledIssuesCount, hasGoodFirstIss
   // 1. Momentum: Cap the impact of raw commit volume to prevent automated repos from dominating
   const momentum = Math.log2(recentCommits + 1) * 20;
   
-  // 2. Contribution: Reward repositories that are actively seeking contributors
+  // 2. PR Velocity: High-signal quality metric (merged PRs in last 30 days)
+  const prVelocity = Math.log2(mergedPrsCount + 1) * 30;
+  
+  // 3. Contribution: Reward repositories that are actively seeking contributors
   const contribution = (labeledIssuesCount * 2) + (hasGoodFirstIssues ? 50 : 0);
   
-  // 3. Visibility Penalty: "Hidden gems" should be harder to find
+  // 4. Visibility Penalty: "Hidden gems" should be harder to find
   const visibilityFactor = Math.log10(stars + 1);
   
-  // 4. Maturity: Age provides a base stability factor, capped to avoid over-rewarding ancient repos
+  // 5. Maturity: Age provides a base stability factor, capped to avoid over-rewarding ancient repos
   const maturityFactor = Math.sqrt(Math.min(ageInMonths, 60));
 
-  // 5. Language Multiplier: Boost targeted languages
+  // 6. Language Multiplier: Boost targeted languages
   const lang = repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text";
   let langMultiplier = 1.0;
   if (TARGET_LANGUAGES.includes(lang)) langMultiplier = 1.2;
   if (lang === "Plain Text" || lang === "HTML" || lang === "CSS") langMultiplier = 0.5;
 
-  // Final formula: ((Momentum + Contribution + 10) / (Visibility * Maturity)) * multiplier
-  const rawScore = ((momentum + contribution + 10) / (visibilityFactor * maturityFactor)) * langMultiplier;
+  // Final formula: ((Momentum + PRVelocity + Contribution + 10) / (Visibility * Maturity)) * multiplier
+  const rawScore = ((momentum + prVelocity + contribution + 10) / (visibilityFactor * maturityFactor)) * langMultiplier;
   
   return Math.round(rawScore * 100) / 100;
 }
@@ -108,6 +111,18 @@ async function fetchReposForQuery(searchQuery, timeframes, maxPages = 3) {
               pushedAt
               primaryLanguage { name }
               licenseInfo { spdxId }
+              repositoryTopics(first: 3) {
+                nodes {
+                  topic {
+                    name
+                  }
+                }
+              }
+              mergedPrs: pullRequests(states: MERGED, first: 50, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                nodes {
+                  mergedAt
+                }
+              }
               latestRelease {
                 tagName
                 publishedAt
@@ -208,9 +223,17 @@ async function getGems() {
         const avgActivity = (w2 + w3 + w4) / 3;
         const momentumTrend = avgActivity === 0 ? (w1 > 0 ? 1 : 0) : (w1 / avgActivity);
 
+        const thirtyDaysAgo = new Date();
+        thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+        
+        const mergedPrsCount = (repo.mergedPrs?.nodes || [])
+          .filter(pr => new Date(pr.mergedAt) > thirtyDaysAgo).length;
+
+        const topics = (repo.repositoryTopics?.nodes || []).map(node => node.topic.name);
+
         const labeledIssuesCount = repo.repositoryLabels?.totalCount || 0;
         const hasGoodFirstIssues = repo.issues.totalCount > 0;
-        const score = calculateScore(repo, w1, labeledIssuesCount, hasGoodFirstIssues);
+        const score = calculateScore(repo, w1, mergedPrsCount, labeledIssuesCount, hasGoodFirstIssues);
 
         return {
           name: repo.name,
@@ -222,6 +245,8 @@ async function getGems() {
           gem_score: score,
           momentum_trend: Math.round(momentumTrend * 100) / 100,
           recent_commits: w1,
+          merged_prs_count: mergedPrsCount,
+          topics: topics,
           activity: activity,
           good_first_issues_url: `${repo.url}/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22`,
           has_good_first_issues: hasGoodFirstIssues,

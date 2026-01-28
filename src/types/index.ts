@@ -29,9 +29,9 @@ export interface Gem {
   pushed_at: string;
 
   is_hype: boolean;
-
+  merged_prs_count: number;
+  topics: string[];
   license?: string;
-
   latest_release?: {
 
     tag: string;

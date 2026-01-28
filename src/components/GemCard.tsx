@@ -1,8 +1,8 @@
 "use client";
 
-import { useMemo } from "react";
+import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown, Bookmark, Scale, Timer } from "lucide-react";
+import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown, Bookmark, Scale, Timer, Flame, Share2, Check, Tag, GitPullRequest } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Sparkline } from "./Sparkline";
 import { Card, CardContent } from "./ui/card";
@@ -18,6 +18,8 @@ interface GemCardProps {
 }
 
 export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
+  const [isShared, setIsShared] = useState(false);
+
   const getScoreVariant = (score: number) => {
     if (score >= 90) return "gold";
     if (score >= 70) return "silver";
@@ -47,6 +49,26 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
     return null;
   }, [gem.momentum_trend]);
 
+  const handleShare = async () => {
+    const shareData = {
+      title: gem.name,
+      text: gem.description,
+      url: gem.url,
+    };
+
+    try {
+      if (navigator.share && navigator.canShare(shareData)) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(gem.url);
+        setIsShared(true);
+        setTimeout(() => setIsShared(false), 2000);
+      }
+    } catch (err) {
+      console.error("Error sharing:", err);
+    }
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 10 }}
@@ -64,6 +86,12 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
                 >
                   {getScoreLabel(gem.gem_score)} {gem.gem_score}
                 </Badge>
+                {gem.momentum_trend > 1.5 && (
+                  <Badge variant="default" className="bg-orange-500/10 text-orange-400 border-orange-500/20 text-[9px] px-1.5 py-0 flex items-center gap-1">
+                    <Flame size={10} className="fill-current" />
+                    HIGH MOMENTUM
+                  </Badge>
+                )}
                 {isNewRelease && (
                   <Badge variant="default" className="bg-blue-500/10 text-blue-400 border-blue-500/20 text-[9px] px-1.5 py-0">
                     NEW RELEASE
@@ -84,17 +112,30 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
             </div>
             
             <div className="flex items-center gap-3">
-              {onToggleSave && (
+              <div className="flex items-center gap-2">
                 <button 
-                  onClick={() => onToggleSave(gem.full_name)}
+                  onClick={handleShare}
                   className={cn(
                     "transition-colors",
-                    isSaved ? "text-blue-500" : "text-white/10 hover:text-white/30"
+                    isShared ? "text-emerald-500" : "text-white/10 hover:text-white/30"
                   )}
+                  title="Share repository"
                 >
-                  <Bookmark size={16} fill={isSaved ? "currentColor" : "none"} />
+                  {isShared ? <Check size={16} /> : <Share2 size={16} />}
                 </button>
-              )}
+                {onToggleSave && (
+                  <button 
+                    onClick={() => onToggleSave(gem.full_name)}
+                    className={cn(
+                      "transition-colors",
+                      isSaved ? "text-blue-500" : "text-white/10 hover:text-white/30"
+                    )}
+                    title={isSaved ? "Unsave" : "Save to bookmarks"}
+                  >
+                    <Bookmark size={16} fill={isSaved ? "currentColor" : "none"} />
+                  </button>
+                )}
+              </div>
               {gem.activity && (
                 <div className="opacity-40 group-hover:opacity-100 transition-opacity">
                   <Sparkline data={gem.activity} color={gem.gem_score >= 70 ? "#94a3b8" : "#4b5563"} />
@@ -128,6 +169,12 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
               <GitCommit size={10} className="text-white/30" />
               {gem.recent_commits} commits/wk
             </Badge>
+            {gem.merged_prs_count > 0 && (
+              <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/50 bg-white/[0.02]">
+                <GitPullRequest size={10} className="text-white/30" />
+                {gem.merged_prs_count} PRs/mo
+              </Badge>
+            )}
             {gem.license && (
               <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/30 bg-white/[0.02]">
                 <Scale size={10} />
@@ -141,6 +188,17 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
               </Badge>
             )}
           </div>
+
+          {gem.topics && gem.topics.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 mt-1">
+              {gem.topics.slice(0, 3).map((topic) => (
+                <span key={topic} className="inline-flex items-center gap-1 text-[9px] text-white/20 hover:text-white/40 transition-colors">
+                  <Tag size={8} />
+                  {topic}
+                </span>
+              ))}
+            </div>
+          )}
 
           <div className="mt-2 flex gap-2">
             <a
