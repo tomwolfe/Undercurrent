@@ -1,5 +1,2428 @@
 {
-  "last_mined": "2026-01-28T12:44:48.976Z",
-  "count": 0,
-  "gems": []
+  "last_mined": "2026-01-29T01:52:17.378Z",
+  "count": 84,
+  "gems": [
+    {
+      "name": "rocm-systems",
+      "full_name": "ROCm/rocm-systems",
+      "description": "super repo for rocm systems projects",
+      "url": "https://github.com/ROCm/rocm-systems",
+      "stars": 226,
+      "language": "C++",
+      "gem_score": 81.66,
+      "momentum_trend": 0.87,
+      "recent_commits": 70,
+      "merged_prs_count": 49,
+      "topics": [],
+      "activity": [
+        54,
+        76,
+        112,
+        70
+      ],
+      "good_first_issues_url": "https://github.com/ROCm/rocm-systems/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:09:14Z",
+      "is_hype": false,
+      "latest_release": {
+        "tag": "rocm-7.2.0",
+        "published_at": "2026-01-21T20:51:44Z"
+      }
+    },
+    {
+      "name": "tt-metal",
+      "full_name": "tenstorrent/tt-metal",
+      "description": ":metal: TT-NN operator library, and TT-Metalium low level kernel programming model.",
+      "url": "https://github.com/tenstorrent/tt-metal",
+      "stars": 1326,
+      "language": "C++",
+      "gem_score": 62.56,
+      "momentum_trend": 1.07,
+      "recent_commits": 184,
+      "merged_prs_count": 49,
+      "topics": [
+        "llama",
+        "llm",
+        "metal"
+      ],
+      "activity": [
+        111,
+        224,
+        181,
+        184
+      ],
+      "good_first_issues_url": "https://github.com/tenstorrent/tt-metal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:48:28Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.65.0",
+        "published_at": "2026-01-13T22:36:45Z"
+      }
+    },
+    {
+      "name": "Ymir",
+      "full_name": "StrikerX3/Ymir",
+      "description": "Sega Saturn emulator",
+      "url": "https://github.com/StrikerX3/Ymir",
+      "stars": 772,
+      "language": "C++",
+      "gem_score": 42.85,
+      "momentum_trend": 2.29,
+      "recent_commits": 52,
+      "merged_prs_count": 7,
+      "topics": [
+        "cpp",
+        "cpp20",
+        "emulator"
+      ],
+      "activity": [
+        3,
+        35,
+        30,
+        52
+      ],
+      "good_first_issues_url": "https://github.com/StrikerX3/Ymir/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T01:30:53Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.2.1",
+        "published_at": "2026-01-10T18:48:07Z"
+      }
+    },
+    {
+      "name": "LiteRT-LM",
+      "full_name": "google-ai-edge/LiteRT-LM",
+      "description": null,
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "stars": 770,
+      "language": "C++",
+      "gem_score": 39.11,
+      "momentum_trend": 1.98,
+      "recent_commits": 41,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        10,
+        28,
+        24,
+        41
+      ],
+      "good_first_issues_url": "https://github.com/google-ai-edge/LiteRT-LM/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:35:53Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.8.1",
+        "published_at": "2025-12-02T17:17:28Z"
+      }
+    },
+    {
+      "name": "mojo-gpu-puzzles",
+      "full_name": "modular/mojo-gpu-puzzles",
+      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
+      "url": "https://github.com/modular/mojo-gpu-puzzles",
+      "stars": 283,
+      "language": "Mojo",
+      "gem_score": 32.58,
+      "momentum_trend": 0.48,
+      "recent_commits": 4,
+      "merged_prs_count": 17,
+      "topics": [
+        "mojo",
+        "gpu",
+        "learn-by-doing"
+      ],
+      "activity": [
+        8,
+        9,
+        8,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T18:15:31Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "zignal",
+      "full_name": "bfactory-ai/zignal",
+      "description": "zero-dependency image processing library",
+      "url": "https://github.com/bfactory-ai/zignal",
+      "stars": 344,
+      "language": "Zig",
+      "gem_score": 31.86,
+      "momentum_trend": 2.89,
+      "recent_commits": 52,
+      "merged_prs_count": 50,
+      "topics": [
+        "image-processing",
+        "zig",
+        "webassembly"
+      ],
+      "activity": [
+        7,
+        15,
+        32,
+        52
+      ],
+      "good_first_issues_url": "https://github.com/bfactory-ai/zignal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T08:02:20Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.9.1",
+        "published_at": "2025-12-15T20:45:57Z"
+      }
+    },
+    {
+      "name": "heir",
+      "full_name": "google/heir",
+      "description": "A compiler for homomorphic encryption",
+      "url": "https://github.com/google/heir",
+      "stars": 672,
+      "language": "C++",
+      "gem_score": 26.96,
+      "momentum_trend": 1.73,
+      "recent_commits": 26,
+      "merged_prs_count": 27,
+      "topics": [
+        "homomorphic-encryption",
+        "mlir"
+      ],
+      "activity": [
+        16,
+        17,
+        12,
+        26
+      ],
+      "good_first_issues_url": "https://github.com/google/heir/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T00:53:19Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v2026.01.01",
+        "published_at": "2026-01-01T00:55:52Z"
+      }
+    },
+    {
+      "name": "gdzig",
+      "full_name": "gdzig/gdzig",
+      "description": "Zig bindings for Godot 4",
+      "url": "https://github.com/gdzig/gdzig",
+      "stars": 150,
+      "language": "Zig",
+      "gem_score": 26.91,
+      "momentum_trend": 9,
+      "recent_commits": 3,
+      "merged_prs_count": 3,
+      "topics": [],
+      "activity": [
+        1,
+        0,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/gdzig/gdzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-27T08:49:16Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "mcpe",
+      "full_name": "ReMinecraftPE/mcpe",
+      "description": "ReMinecraftPE - A custom experience based on Minecraft PE as of 2011.",
+      "url": "https://github.com/ReMinecraftPE/mcpe",
+      "stars": 446,
+      "language": "C++",
+      "gem_score": 26.9,
+      "momentum_trend": 1.08,
+      "recent_commits": 13,
+      "merged_prs_count": 49,
+      "topics": [
+        "decompilation",
+        "minecraft"
+      ],
+      "activity": [
+        15,
+        10,
+        11,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/ReMinecraftPE/mcpe/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T00:50:44Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "libqt6zig",
+      "full_name": "rcalixte/libqt6zig",
+      "description": "Qt 6 for Zig",
+      "url": "https://github.com/rcalixte/libqt6zig",
+      "stars": 178,
+      "language": "Zig",
+      "gem_score": 25.14,
+      "momentum_trend": 0.67,
+      "recent_commits": 2,
+      "merged_prs_count": 8,
+      "topics": [
+        "bindings",
+        "gui-library",
+        "qt"
+      ],
+      "activity": [
+        1,
+        2,
+        6,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/rcalixte/libqt6zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-26T00:25:12Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "astroz",
+      "full_name": "ATTron/astroz",
+      "description": "Astrodynamics and Spacecraft Toolkit Written in Zig! Features orbit prop, celestial precession, CCSDS parsing, RF parsing, fits image parsing, and more!",
+      "url": "https://github.com/ATTron/astroz",
+      "stars": 215,
+      "language": "Zig",
+      "gem_score": 25.07,
+      "momentum_trend": 0.37,
+      "recent_commits": 5,
+      "merged_prs_count": 21,
+      "topics": [
+        "astro",
+        "astronomy",
+        "astrophysics"
+      ],
+      "activity": [
+        3,
+        2,
+        36,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/ATTron/astroz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-26T06:16:57Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.5.0",
+        "published_at": "2026-01-26T06:16:57Z"
+      }
+    },
+    {
+      "name": "hutb",
+      "full_name": "OpenHUTB/hutb",
+      "description": "人车模拟器",
+      "url": "https://github.com/OpenHUTB/hutb",
+      "stars": 433,
+      "language": "C++",
+      "gem_score": 24.37,
+      "momentum_trend": 14,
+      "recent_commits": 56,
+      "merged_prs_count": 9,
+      "topics": [
+        "simulation",
+        "vehicle",
+        "humanoid"
+      ],
+      "activity": [
+        0,
+        10,
+        2,
+        56
+      ],
+      "good_first_issues_url": "https://github.com/OpenHUTB/hutb/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:22:27Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2.2",
+        "published_at": "2025-07-21T01:44:59Z"
+      }
+    },
+    {
+      "name": "moose",
+      "full_name": "idaholab/moose",
+      "description": "Multiphysics Object Oriented Simulation Environment",
+      "url": "https://github.com/idaholab/moose",
+      "stars": 2149,
+      "language": "C++",
+      "gem_score": 23.71,
+      "momentum_trend": 0.89,
+      "recent_commits": 91,
+      "merged_prs_count": 47,
+      "topics": [
+        "multiphysics",
+        "simulation",
+        "fem"
+      ],
+      "activity": [
+        84,
+        148,
+        76,
+        91
+      ],
+      "good_first_issues_url": "https://github.com/idaholab/moose/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T01:10:53Z",
+      "is_hype": false,
+      "license": "LGPL-2.1",
+      "latest_release": null
+    },
+    {
+      "name": "autoware_core",
+      "full_name": "autowarefoundation/autoware_core",
+      "description": null,
+      "url": "https://github.com/autowarefoundation/autoware_core",
+      "stars": 154,
+      "language": "C++",
+      "gem_score": 21.58,
+      "momentum_trend": 2.2,
+      "recent_commits": 11,
+      "merged_prs_count": 28,
+      "topics": [
+        "autoware",
+        "ros",
+        "ros2"
+      ],
+      "activity": [
+        1,
+        7,
+        7,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/autowarefoundation/autoware_core/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:50:52Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "1.6.0",
+        "published_at": "2025-12-31T08:12:44Z"
+      }
+    },
+    {
+      "name": "NeuralAmpModelerCore",
+      "full_name": "sdatkinson/NeuralAmpModelerCore",
+      "description": "Core DSP library for NAM plugins",
+      "url": "https://github.com/sdatkinson/NeuralAmpModelerCore",
+      "stars": 554,
+      "language": "C++",
+      "gem_score": 21.16,
+      "momentum_trend": 1.69,
+      "recent_commits": 9,
+      "merged_prs_count": 23,
+      "topics": [],
+      "activity": [
+        0,
+        7,
+        9,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/sdatkinson/NeuralAmpModelerCore/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T01:02:50Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.3.0",
+        "published_at": "2026-01-09T20:04:07Z"
+      }
+    },
+    {
+      "name": "autoware_universe",
+      "full_name": "autowarefoundation/autoware_universe",
+      "description": null,
+      "url": "https://github.com/autowarefoundation/autoware_universe",
+      "stars": 1463,
+      "language": "C++",
+      "gem_score": 20.97,
+      "momentum_trend": 0.84,
+      "recent_commits": 34,
+      "merged_prs_count": 41,
+      "topics": [
+        "ros",
+        "ros2",
+        "autoware"
+      ],
+      "activity": [
+        18,
+        32,
+        72,
+        34
+      ],
+      "good_first_issues_url": "https://github.com/autowarefoundation/autoware_universe/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:49:50Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "0.49.0",
+        "published_at": "2026-01-05T07:10:50Z"
+      }
+    },
+    {
+      "name": "dde-control-center",
+      "full_name": "linuxdeepin/dde-control-center",
+      "description": "Control panel of Deepin Desktop Environment.",
+      "url": "https://github.com/linuxdeepin/dde-control-center",
+      "stars": 188,
+      "language": "C++",
+      "gem_score": 19.85,
+      "momentum_trend": 1.55,
+      "recent_commits": 15,
+      "merged_prs_count": 45,
+      "topics": [],
+      "activity": [
+        7,
+        7,
+        15,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/linuxdeepin/dde-control-center/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:32:40Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "6.1.70",
+        "published_at": "2026-01-28T08:24:58Z"
+      }
+    },
+    {
+      "name": "flow",
+      "full_name": "neurocyte/flow",
+      "description": "Flow Control: a programmer's text editor",
+      "url": "https://github.com/neurocyte/flow",
+      "stars": 1604,
+      "language": "Zig",
+      "gem_score": 19.72,
+      "momentum_trend": 0.86,
+      "recent_commits": 40,
+      "merged_prs_count": 3,
+      "topics": [
+        "language-server-client",
+        "language-server-protocol",
+        "text-editor"
+      ],
+      "activity": [
+        6,
+        69,
+        64,
+        40
+      ],
+      "good_first_issues_url": "https://github.com/neurocyte/flow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-28T20:40:51Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.6.0",
+        "published_at": "2025-11-05T22:22:32Z"
+      }
+    },
+    {
+      "name": "ONE",
+      "full_name": "Samsung/ONE",
+      "description": "On-device Neural Engine",
+      "url": "https://github.com/Samsung/ONE",
+      "stars": 546,
+      "language": "C++",
+      "gem_score": 18.92,
+      "momentum_trend": 3,
+      "recent_commits": 6,
+      "merged_prs_count": 13,
+      "topics": [
+        "on-device-ai",
+        "neural-network",
+        "runtime"
+      ],
+      "activity": [
+        0,
+        4,
+        2,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/Samsung/ONE/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T01:22:08Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "1.30.1",
+        "published_at": "2025-09-19T05:04:57Z"
+      }
+    },
+    {
+      "name": "Deecy",
+      "full_name": "Senryoku/Deecy",
+      "description": "Experimental Dreamcast emulator written in Zig",
+      "url": "https://github.com/Senryoku/Deecy",
+      "stars": 169,
+      "language": "Zig",
+      "gem_score": 18.65,
+      "momentum_trend": 0.89,
+      "recent_commits": 14,
+      "merged_prs_count": 3,
+      "topics": [
+        "dreamcast",
+        "emulator",
+        "zig"
+      ],
+      "activity": [
+        4,
+        12,
+        31,
+        14
+      ],
+      "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T16:34:33Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.5.4",
+        "published_at": "2025-11-25T22:44:01Z"
+      }
+    },
+    {
+      "name": "leechcraft",
+      "full_name": "0xd34df00d/leechcraft",
+      "description": "LeechCraft is a free open source cross-platform modular internet-client. LeechCraft allows to browse the web, read RSS/Atom feeds, download files via BitTorrent, FTP, HTTP and DC, automatically download, play or stream podcasts (and other media files) and much more.",
+      "url": "https://github.com/0xd34df00d/leechcraft",
+      "stars": 195,
+      "language": "C++",
+      "gem_score": 18.3,
+      "momentum_trend": 0.57,
+      "recent_commits": 35,
+      "merged_prs_count": 37,
+      "topics": [],
+      "activity": [
+        49,
+        84,
+        50,
+        35
+      ],
+      "good_first_issues_url": "https://github.com/0xd34df00d/leechcraft/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:41:27Z",
+      "is_hype": false,
+      "license": "BSL-1.0",
+      "latest_release": null
+    },
+    {
+      "name": "microzig",
+      "full_name": "ZigEmbeddedGroup/microzig",
+      "description": "MicroZig is a toolbox for building embedded applications in Zig.",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig",
+      "stars": 2026,
+      "language": "Zig",
+      "gem_score": 17.16,
+      "momentum_trend": 2.03,
+      "recent_commits": 21,
+      "merged_prs_count": 50,
+      "topics": [
+        "ziglang",
+        "zig-package",
+        "zig"
+      ],
+      "activity": [
+        15,
+        8,
+        8,
+        21
+      ],
+      "good_first_issues_url": "https://github.com/ZigEmbeddedGroup/microzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-28T18:52:24Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": {
+        "tag": "0.14.4",
+        "published_at": "2025-10-04T06:21:23Z"
+      }
+    },
+    {
+      "name": "ITK",
+      "full_name": "InsightSoftwareConsortium/ITK",
+      "description": "Insight Toolkit (ITK) -- Official Repository.  ITK builds on a proven, spatially-oriented architecture for processing, segmentation, and registration of scientific images in two, three, or more dimensions.",
+      "url": "https://github.com/InsightSoftwareConsortium/ITK",
+      "stars": 1566,
+      "language": "C++",
+      "gem_score": 17.1,
+      "momentum_trend": 0.73,
+      "recent_commits": 15,
+      "merged_prs_count": 30,
+      "topics": [
+        "itk",
+        "insight-toolkit",
+        "image-analysis"
+      ],
+      "activity": [
+        12,
+        19,
+        31,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/InsightSoftwareConsortium/ITK/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T01:50:56Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v5.4.5",
+        "published_at": "2025-11-24T20:35:02Z"
+      }
+    },
+    {
+      "name": "delve-framework",
+      "full_name": "Interrupt/delve-framework",
+      "description": "Delve is a framework for writing Games in Zig and Lua. For those who value being cross platform and keeping things simple.",
+      "url": "https://github.com/Interrupt/delve-framework",
+      "stars": 305,
+      "language": "Zig",
+      "gem_score": 16.75,
+      "momentum_trend": 2.25,
+      "recent_commits": 6,
+      "merged_prs_count": 7,
+      "topics": [],
+      "activity": [
+        0,
+        2,
+        6,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/Interrupt/delve-framework/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T17:53:07Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.1.4",
+        "published_at": "2026-01-15T17:38:23Z"
+      }
+    },
+    {
+      "name": "sig",
+      "full_name": "Syndica/sig",
+      "description": "a Solana validator client implementation written in Zig",
+      "url": "https://github.com/Syndica/sig",
+      "stars": 367,
+      "language": "Zig",
+      "gem_score": 16.64,
+      "momentum_trend": 1.09,
+      "recent_commits": 4,
+      "merged_prs_count": 15,
+      "topics": [],
+      "activity": [
+        2,
+        4,
+        5,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T23:32:13Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.1.0",
+        "published_at": "2023-05-20T19:58:37Z"
+      }
+    },
+    {
+      "name": "XRT",
+      "full_name": "Xilinx/XRT",
+      "description": "Run Time for AIE and FPGA based platforms",
+      "url": "https://github.com/Xilinx/XRT",
+      "stars": 646,
+      "language": "C++",
+      "gem_score": 16.29,
+      "momentum_trend": 1.38,
+      "recent_commits": 11,
+      "merged_prs_count": 43,
+      "topics": [
+        "fpga",
+        "xrt",
+        "linux-kernel"
+      ],
+      "activity": [
+        4,
+        8,
+        12,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/Xilinx/XRT/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:43:44Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "202520.2.20.197",
+        "published_at": "2025-12-10T10:51:52Z"
+      }
+    },
+    {
+      "name": "zig2nix",
+      "full_name": "Cloudef/zig2nix",
+      "description": "Flake for packaging, building and running Zig projects.",
+      "url": "https://github.com/Cloudef/zig2nix",
+      "stars": 153,
+      "language": "Zig",
+      "gem_score": 15.43,
+      "momentum_trend": 0.91,
+      "recent_commits": 7,
+      "merged_prs_count": 2,
+      "topics": [
+        "automation",
+        "build",
+        "ci"
+      ],
+      "activity": [
+        8,
+        7,
+        8,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/Cloudef/zig2nix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T02:01:18Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "zig-course",
+      "full_name": "zigcc/zig-course",
+      "description": "Zig 语言圣经：简单、快速地学习 Zig, Zig Chinese tutorial, learn zig simply and quickly",
+      "url": "https://github.com/zigcc/zig-course",
+      "stars": 314,
+      "language": "Zig",
+      "gem_score": 14.97,
+      "momentum_trend": 0.75,
+      "recent_commits": 2,
+      "merged_prs_count": 8,
+      "topics": [
+        "tutorial",
+        "tutorials",
+        "zig"
+      ],
+      "activity": [
+        0,
+        6,
+        2,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/zigcc/zig-course/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T04:12:38Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v_26_01_13",
+        "published_at": "2026-01-13T03:07:14Z"
+      }
+    },
+    {
+      "name": "scummvm",
+      "full_name": "scummvm/scummvm",
+      "description": "ScummVM main repository",
+      "url": "https://github.com/scummvm/scummvm",
+      "stars": 2615,
+      "language": "C++",
+      "gem_score": 14.26,
+      "momentum_trend": 1.2,
+      "recent_commits": 134,
+      "merged_prs_count": 35,
+      "topics": [
+        "adventure-games",
+        "rpg-engine",
+        "adventure-engine"
+      ],
+      "activity": [
+        181,
+        43,
+        112,
+        134
+      ],
+      "good_first_issues_url": "https://github.com/scummvm/scummvm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:17:46Z",
+      "is_hype": true,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v2.9.1",
+        "published_at": "2025-05-25T14:33:34Z"
+      }
+    },
+    {
+      "name": "ags",
+      "full_name": "adventuregamestudio/ags",
+      "description": "AGS editor and engine source code",
+      "url": "https://github.com/adventuregamestudio/ags",
+      "stars": 779,
+      "language": "C++",
+      "gem_score": 14.1,
+      "momentum_trend": 0.73,
+      "recent_commits": 16,
+      "merged_prs_count": 2,
+      "topics": [],
+      "activity": [
+        35,
+        20,
+        11,
+        16
+      ],
+      "good_first_issues_url": "https://github.com/adventuregamestudio/ags/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:14:15Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v3.6.2.16",
+        "published_at": "2026-01-06T08:12:42Z"
+      }
+    },
+    {
+      "name": "VisRTX",
+      "full_name": "NVIDIA/VisRTX",
+      "description": "NVIDIA OptiX based implementation of ANARI",
+      "url": "https://github.com/NVIDIA/VisRTX",
+      "stars": 273,
+      "language": "C++",
+      "gem_score": 13.75,
+      "momentum_trend": 1.26,
+      "recent_commits": 13,
+      "merged_prs_count": 13,
+      "topics": [],
+      "activity": [
+        4,
+        17,
+        10,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/NVIDIA/VisRTX/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:57:26Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v0.13.0",
+        "published_at": "2025-12-04T19:48:11Z"
+      }
+    },
+    {
+      "name": "tides-of-revival",
+      "full_name": "Srekel/tides-of-revival",
+      "description": null,
+      "url": "https://github.com/Srekel/tides-of-revival",
+      "stars": 158,
+      "language": "Zig",
+      "gem_score": 12.46,
+      "momentum_trend": 2.29,
+      "recent_commits": 13,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        4,
+        13,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/Srekel/tides-of-revival/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-27T21:23:44Z",
+      "is_hype": false,
+      "license": "Unlicense",
+      "latest_release": null
+    },
+    {
+      "name": "tokamak",
+      "full_name": "cztomsik/tokamak",
+      "description": "Web framework for Zig that leverages dependency injection for clean, modular application development.",
+      "url": "https://github.com/cztomsik/tokamak",
+      "stars": 571,
+      "language": "Zig",
+      "gem_score": 12.3,
+      "momentum_trend": 1.25,
+      "recent_commits": 15,
+      "merged_prs_count": 1,
+      "topics": [
+        "zig-package",
+        "api",
+        "http"
+      ],
+      "activity": [
+        4,
+        12,
+        20,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/cztomsik/tokamak/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-26T22:56:53Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "dvui",
+      "full_name": "david-vanderson/dvui",
+      "description": "Immediate Zig GUI for Apps and Games",
+      "url": "https://github.com/david-vanderson/dvui",
+      "stars": 1161,
+      "language": "Zig",
+      "gem_score": 12,
+      "momentum_trend": 1.36,
+      "recent_commits": 19,
+      "merged_prs_count": 7,
+      "topics": [],
+      "activity": [
+        10,
+        19,
+        13,
+        19
+      ],
+      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:01:54Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v0.3.0",
+        "published_at": "2025-08-30T17:33:50Z"
+      }
+    },
+    {
+      "name": "ols",
+      "full_name": "DanielGavin/ols",
+      "description": "Language server for Odin",
+      "url": "https://github.com/DanielGavin/ols",
+      "stars": 860,
+      "language": "Odin",
+      "gem_score": 11.29,
+      "momentum_trend": 3,
+      "recent_commits": 13,
+      "merged_prs_count": 10,
+      "topics": [
+        "language-server",
+        "odin",
+        "lsp"
+      ],
+      "activity": [
+        5,
+        1,
+        7,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-27T09:26:02Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "dev-2025-12",
+        "published_at": "2026-01-06T04:11:09Z"
+      }
+    },
+    {
+      "name": "vk_video_samples",
+      "full_name": "nvpro-samples/vk_video_samples",
+      "description": "Vulkan video samples",
+      "url": "https://github.com/nvpro-samples/vk_video_samples",
+      "stars": 328,
+      "language": "C++",
+      "gem_score": 11.26,
+      "momentum_trend": 0.88,
+      "recent_commits": 5,
+      "merged_prs_count": 9,
+      "topics": [],
+      "activity": [
+        5,
+        5,
+        7,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/nvpro-samples/vk_video_samples/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:38:39Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": null
+    },
+    {
+      "name": "bof-launcher",
+      "full_name": "The-Z-Labs/bof-launcher",
+      "description": "bof-launcher - a library for loading, executing and in-memory masking BOFs on Windows (x64, x86) and Linux (x64, x86, aarch64, arm). Ready to use in C/Zig/Rust/Go/C++ applications.",
+      "url": "https://github.com/The-Z-Labs/bof-launcher",
+      "stars": 286,
+      "language": "Zig",
+      "gem_score": 11.23,
+      "momentum_trend": 2,
+      "recent_commits": 6,
+      "merged_prs_count": 0,
+      "topics": [
+        "bof",
+        "beacon",
+        "beaconobjectfile"
+      ],
+      "activity": [
+        0,
+        1,
+        8,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/The-Z-Labs/bof-launcher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-28T15:31:27Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause",
+      "latest_release": null
+    },
+    {
+      "name": "ziggy-pydust",
+      "full_name": "spiraldb/ziggy-pydust",
+      "description": "A toolkit for building Python extensions in Zig.",
+      "url": "https://github.com/spiraldb/ziggy-pydust",
+      "stars": 724,
+      "language": "Zig",
+      "gem_score": 11.22,
+      "momentum_trend": 1.5,
+      "recent_commits": 2,
+      "merged_prs_count": 6,
+      "topics": [
+        "python",
+        "zig"
+      ],
+      "activity": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/spiraldb/ziggy-pydust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-26T00:33:22Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "0.26.0",
+        "published_at": "2025-09-18T17:08:06Z"
+      }
+    },
+    {
+      "name": "zig-book",
+      "full_name": "pedropark99/zig-book",
+      "description": "An open, technical and introductory book for the Zig programming language 📚📖",
+      "url": "https://github.com/pedropark99/zig-book",
+      "stars": 2330,
+      "language": "Zig",
+      "gem_score": 11.07,
+      "momentum_trend": 0.43,
+      "recent_commits": 2,
+      "merged_prs_count": 5,
+      "topics": [
+        "book",
+        "programming",
+        "programming-language"
+      ],
+      "activity": [
+        0,
+        0,
+        14,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/pedropark99/zig-book/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-26T15:12:56Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v1.5.1",
+        "published_at": "2025-11-28T13:57:49Z"
+      }
+    },
+    {
+      "name": "MaterialX",
+      "full_name": "AcademySoftwareFoundation/MaterialX",
+      "description": "MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers.",
+      "url": "https://github.com/AcademySoftwareFoundation/MaterialX",
+      "stars": 2120,
+      "language": "C++",
+      "gem_score": 11.07,
+      "momentum_trend": 1.33,
+      "recent_commits": 4,
+      "merged_prs_count": 14,
+      "topics": [
+        "computer-graphics",
+        "3d-graphics",
+        "vfx"
+      ],
+      "activity": [
+        3,
+        3,
+        3,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/AcademySoftwareFoundation/MaterialX/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T00:48:03Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v1.39.4",
+        "published_at": "2025-09-15T18:17:27Z"
+      }
+    },
+    {
+      "name": "h1-mod",
+      "full_name": "auroramod/h1-mod",
+      "description": "Modification for H1 (MWR)",
+      "url": "https://github.com/auroramod/h1-mod",
+      "stars": 359,
+      "language": "C++",
+      "gem_score": 10.42,
+      "momentum_trend": 0.6,
+      "recent_commits": 1,
+      "merged_prs_count": 2,
+      "topics": [
+        "mwr",
+        "h1"
+      ],
+      "activity": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/auroramod/h1-mod/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T01:34:09Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v2.0.2",
+        "published_at": "2025-03-08T20:44:10Z"
+      }
+    },
+    {
+      "name": "jok",
+      "full_name": "Jack-Ji/jok",
+      "description": "A minimal 2d/3d game framework for @ziglang.",
+      "url": "https://github.com/Jack-Ji/jok",
+      "stars": 357,
+      "language": "Zig",
+      "gem_score": 10.17,
+      "momentum_trend": 0.9,
+      "recent_commits": 9,
+      "merged_prs_count": 0,
+      "topics": [
+        "gamedev",
+        "ziglang",
+        "sdl2"
+      ],
+      "activity": [
+        7,
+        10,
+        13,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/Jack-Ji/jok/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-28T15:34:36Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "dxvk-remix",
+      "full_name": "NVIDIAGameWorks/dxvk-remix",
+      "description": null,
+      "url": "https://github.com/NVIDIAGameWorks/dxvk-remix",
+      "stars": 383,
+      "language": "C++",
+      "gem_score": 10.13,
+      "momentum_trend": 3.65,
+      "recent_commits": 28,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        4,
+        14,
+        5,
+        28
+      ],
+      "good_first_issues_url": "https://github.com/NVIDIAGameWorks/dxvk-remix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:49:22Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": null
+    },
+    {
+      "name": "polymer",
+      "full_name": "ddiakopoulos/polymer",
+      "description": "🎨 C++17 + OpenGL 4.5 prototyping sandbox",
+      "url": "https://github.com/ddiakopoulos/polymer",
+      "stars": 327,
+      "language": "C++",
+      "gem_score": 10.09,
+      "momentum_trend": 1,
+      "recent_commits": 20,
+      "merged_prs_count": 0,
+      "topics": [
+        "game-engine",
+        "graphics",
+        "rendering"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        20
+      ],
+      "good_first_issues_url": "https://github.com/ddiakopoulos/polymer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-29T01:13:24Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause",
+      "latest_release": null
+    },
+    {
+      "name": "fpp",
+      "full_name": "FalconChristmas/fpp",
+      "description": "Falcon Player",
+      "url": "https://github.com/FalconChristmas/fpp",
+      "stars": 705,
+      "language": "C++",
+      "gem_score": 10.01,
+      "momentum_trend": 0.3,
+      "recent_commits": 6,
+      "merged_prs_count": 7,
+      "topics": [],
+      "activity": [
+        31,
+        19,
+        11,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/FalconChristmas/fpp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:12:57Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "9.5",
+        "published_at": "2026-01-08T03:09:40Z"
+      }
+    },
+    {
+      "name": "fboss",
+      "full_name": "facebook/fboss",
+      "description": "Facebook Open Switching System\n\nSoftware for controlling network switches.",
+      "url": "https://github.com/facebook/fboss",
+      "stars": 946,
+      "language": "C++",
+      "gem_score": 9.96,
+      "momentum_trend": 1.74,
+      "recent_commits": 176,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        63,
+        153,
+        88,
+        176
+      ],
+      "good_first_issues_url": "https://github.com/facebook/fboss/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:57:34Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "gdcef",
+      "full_name": "Lecrapouille/gdcef",
+      "description": "[Plugin][Version 0.18.0][Functional] Chromium Embedded Framework Webview for Godot 4",
+      "url": "https://github.com/Lecrapouille/gdcef",
+      "stars": 389,
+      "language": "C++",
+      "gem_score": 9.78,
+      "momentum_trend": 3.5,
+      "recent_commits": 14,
+      "merged_prs_count": 1,
+      "topics": [
+        "cef",
+        "chromium-embedded-framework",
+        "gdnative"
+      ],
+      "activity": [
+        0,
+        0,
+        12,
+        14
+      ],
+      "good_first_issues_url": "https://github.com/Lecrapouille/gdcef/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:47:42Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.18.1-godot4",
+        "published_at": "2026-01-28T21:33:40Z"
+      }
+    },
+    {
+      "name": "odin-http",
+      "full_name": "laytan/odin-http",
+      "description": "A HTTP/1.1 client/server implementation for Odin.",
+      "url": "https://github.com/laytan/odin-http",
+      "stars": 328,
+      "language": "Odin",
+      "gem_score": 9.77,
+      "momentum_trend": 1.5,
+      "recent_commits": 2,
+      "merged_prs_count": 2,
+      "topics": [
+        "odin-lib",
+        "http",
+        "http-client"
+      ],
+      "activity": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T18:03:39Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "Zag-Smalltalk",
+      "full_name": "Zag-Research/Zag-Smalltalk",
+      "description": "Smalltalk VM Written in Zig with methods stored as type-annotated ASTs",
+      "url": "https://github.com/Zag-Research/Zag-Smalltalk",
+      "stars": 151,
+      "language": "Zig",
+      "gem_score": 9.74,
+      "momentum_trend": 2.21,
+      "recent_commits": 14,
+      "merged_prs_count": 1,
+      "topics": [
+        "smalltalk",
+        "interpreter",
+        "zig"
+      ],
+      "activity": [
+        5,
+        3,
+        11,
+        14
+      ],
+      "good_first_issues_url": "https://github.com/Zag-Research/Zag-Smalltalk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-27T00:48:15Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "SpartanEngine",
+      "full_name": "PanosK92/SpartanEngine",
+      "description": "A game engine with an emphasis on real-time cutting-edge solutions",
+      "url": "https://github.com/PanosK92/SpartanEngine",
+      "stars": 2847,
+      "language": "C++",
+      "gem_score": 9.58,
+      "momentum_trend": 0.98,
+      "recent_commits": 54,
+      "merged_prs_count": 3,
+      "topics": [
+        "game-engine",
+        "imgui",
+        "cpp"
+      ],
+      "activity": [
+        43,
+        58,
+        64,
+        54
+      ],
+      "good_first_issues_url": "https://github.com/PanosK92/SpartanEngine/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:45:08Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "pigweed",
+      "full_name": "pigweed-project/pigweed",
+      "description": "Modern software development for embedded systems",
+      "url": "https://github.com/pigweed-project/pigweed",
+      "stars": 465,
+      "language": "C++",
+      "gem_score": 8.99,
+      "momentum_trend": 1.3,
+      "recent_commits": 53,
+      "merged_prs_count": 0,
+      "topics": [
+        "embedded",
+        "microcontroller",
+        "cpp"
+      ],
+      "activity": [
+        22,
+        45,
+        55,
+        53
+      ],
+      "good_first_issues_url": "https://github.com/pigweed-project/pigweed/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:52:52Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": null
+    },
+    {
+      "name": "pixi",
+      "full_name": "foxnne/pixi",
+      "description": "Pixel art editor made with Zig.",
+      "url": "https://github.com/foxnne/pixi",
+      "stars": 1237,
+      "language": "Zig",
+      "gem_score": 8.85,
+      "momentum_trend": 1.3,
+      "recent_commits": 23,
+      "merged_prs_count": 0,
+      "topics": [
+        "2d",
+        "animation",
+        "cross-platform"
+      ],
+      "activity": [
+        12,
+        17,
+        24,
+        23
+      ],
+      "good_first_issues_url": "https://github.com/foxnne/pixi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-28T21:54:41Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "slang",
+      "full_name": "MikePopoloski/slang",
+      "description": "SystemVerilog compiler and language services",
+      "url": "https://github.com/MikePopoloski/slang",
+      "stars": 935,
+      "language": "C++",
+      "gem_score": 8.84,
+      "momentum_trend": 0.71,
+      "recent_commits": 4,
+      "merged_prs_count": 8,
+      "topics": [
+        "verilog",
+        "compiler",
+        "systemverilog"
+      ],
+      "activity": [
+        7,
+        3,
+        7,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/MikePopoloski/slang/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:42:58Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v10.0",
+        "published_at": "2026-01-15T23:23:29Z"
+      }
+    },
+    {
+      "name": "zig-string",
+      "full_name": "JakubSzark/zig-string",
+      "description": "A String Library made for Zig",
+      "url": "https://github.com/JakubSzark/zig-string",
+      "stars": 538,
+      "language": "Zig",
+      "gem_score": 8.39,
+      "momentum_trend": 1,
+      "recent_commits": 3,
+      "merged_prs_count": 1,
+      "topics": [
+        "zig",
+        "zig-string",
+        "simple"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/JakubSzark/zig-string/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-25T18:13:07Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "jetzig",
+      "full_name": "jetzig-framework/jetzig",
+      "description": "Jetzig is a web framework written in Zig",
+      "url": "https://github.com/jetzig-framework/jetzig",
+      "stars": 1404,
+      "language": "Zig",
+      "gem_score": 8.35,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 1,
+      "topics": [
+        "zig-package"
+      ],
+      "activity": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/jetzig-framework/jetzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-25T21:11:02Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "zigimg",
+      "full_name": "zigimg/zigimg",
+      "description": "Zig library for reading and writing different image formats",
+      "url": "https://github.com/zigimg/zigimg",
+      "stars": 737,
+      "language": "Zig",
+      "gem_score": 8.3,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 4,
+      "topics": [
+        "zig",
+        "zig-library",
+        "image-processing"
+      ],
+      "activity": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/zigimg/zigimg/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-28T13:45:45Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "zigimg_zig_0.15.1",
+        "published_at": "2025-09-22T13:11:02Z"
+      }
+    },
+    {
+      "name": "CHARM",
+      "full_name": "arc-research-lab/CHARM",
+      "description": "CHARM: Composing Heterogeneous Accelerators on Heterogeneous SoC Architecture",
+      "url": "https://github.com/arc-research-lab/CHARM",
+      "stars": 162,
+      "language": "C++",
+      "gem_score": 8.19,
+      "momentum_trend": 1,
+      "recent_commits": 7,
+      "merged_prs_count": 0,
+      "topics": [
+        "deeplearning",
+        "fpga",
+        "heterogeneous-computing"
+      ],
+      "activity": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/arc-research-lab/CHARM/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:55:00Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "arocc",
+      "full_name": "Vexu/arocc",
+      "description": "A modern fully featured C compiler.",
+      "url": "https://github.com/Vexu/arocc",
+      "stars": 1568,
+      "language": "Zig",
+      "gem_score": 8.18,
+      "momentum_trend": 0.5,
+      "recent_commits": 1,
+      "merged_prs_count": 5,
+      "topics": [
+        "c",
+        "compiler",
+        "zig"
+      ],
+      "activity": [
+        0,
+        0,
+        6,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/Vexu/arocc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-01-25T11:26:42Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "kicad-source-mirror",
+      "full_name": "KiCad/kicad-source-mirror",
+      "description": "This is an active mirror of the KiCad development branch, which is hosted at GitLab (updated every time something is pushed). Pull requests on GitHub are not accepted or watched.",
+      "url": "https://github.com/KiCad/kicad-source-mirror",
+      "stars": 2503,
+      "language": "C++",
+      "gem_score": 7.92,
+      "momentum_trend": 1.05,
+      "recent_commits": 167,
+      "merged_prs_count": 0,
+      "topics": [
+        "kicad",
+        "wxwidgets",
+        "cad"
+      ],
+      "activity": [
+        193,
+        129,
+        154,
+        167
+      ],
+      "good_first_issues_url": "https://github.com/KiCad/kicad-source-mirror/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:42:57Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "9.0.7",
+        "published_at": "2026-01-02T02:51:43Z"
+      }
+    },
+    {
+      "name": "zmpl",
+      "full_name": "jetzig-framework/zmpl",
+      "description": "Zmpl is a templating language written in Zig",
+      "url": "https://github.com/jetzig-framework/zmpl",
+      "stars": 220,
+      "language": "Zig",
+      "gem_score": 7.85,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 2,
+      "topics": [
+        "zig-package"
+      ],
+      "activity": [
+        6,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/jetzig-framework/zmpl/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-25T21:08:51Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "plasma-workspace",
+      "full_name": "KDE/plasma-workspace",
+      "description": "Various components needed to run a Plasma-based environment",
+      "url": "https://github.com/KDE/plasma-workspace",
+      "stars": 264,
+      "language": "C++",
+      "gem_score": 7.68,
+      "momentum_trend": 0.61,
+      "recent_commits": 27,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        41,
+        63,
+        28,
+        27
+      ],
+      "good_first_issues_url": "https://github.com/KDE/plasma-workspace/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:40:36Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "fbthrift",
+      "full_name": "facebook/fbthrift",
+      "description": "Facebook's branch of Apache Thrift, including a new C++ server.",
+      "url": "https://github.com/facebook/fbthrift",
+      "stars": 2674,
+      "language": "C++",
+      "gem_score": 7.6,
+      "momentum_trend": 1.33,
+      "recent_commits": 84,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        53,
+        77,
+        60,
+        84
+      ],
+      "good_first_issues_url": "https://github.com/facebook/fbthrift/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:27:12Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v2020.08.24.00",
+        "published_at": "2020-08-28T17:48:45Z"
+      }
+    },
+    {
+      "name": "rats-search",
+      "full_name": "librats/rats-search",
+      "description": "rats-search: BitTorrent P2P multi-platform search engine for Desktop and Web servers with integrated torrent client",
+      "url": "https://github.com/librats/rats-search",
+      "stars": 1771,
+      "language": "C++",
+      "gem_score": 7.53,
+      "momentum_trend": 5.08,
+      "recent_commits": 44,
+      "merged_prs_count": 0,
+      "topics": [
+        "bittorrent",
+        "search",
+        "scanner"
+      ],
+      "activity": [
+        1,
+        0,
+        25,
+        44
+      ],
+      "good_first_issues_url": "https://github.com/librats/rats-search/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:50:50Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2.0.3",
+        "published_at": "2026-01-28T04:51:47Z"
+      }
+    },
+    {
+      "name": "libvaxis",
+      "full_name": "rockorager/libvaxis",
+      "description": "a modern tui library written in zig",
+      "url": "https://github.com/rockorager/libvaxis",
+      "stars": 1574,
+      "language": "Zig",
+      "gem_score": 7.43,
+      "momentum_trend": 3,
+      "recent_commits": 1,
+      "merged_prs_count": 2,
+      "topics": [
+        "tui",
+        "zig",
+        "zig-package"
+      ],
+      "activity": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/rockorager/libvaxis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T14:25:52Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.5.1",
+        "published_at": "2024-11-12T15:34:11Z"
+      }
+    },
+    {
+      "name": "qtbase",
+      "full_name": "qt/qtbase",
+      "description": "Qt Base (Core, Gui, Widgets, Network, ...)",
+      "url": "https://github.com/qt/qtbase",
+      "stars": 2937,
+      "language": "C++",
+      "gem_score": 7.17,
+      "momentum_trend": 2.12,
+      "recent_commits": 98,
+      "merged_prs_count": 0,
+      "topics": [
+        "qt",
+        "c-plus-plus",
+        "qt5"
+      ],
+      "activity": [
+        42,
+        64,
+        33,
+        98
+      ],
+      "good_first_issues_url": "https://github.com/qt/qtbase/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:32:05Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "kwin",
+      "full_name": "KDE/kwin",
+      "description": "Easy to use, but flexible, Wayland Compositor",
+      "url": "https://github.com/KDE/kwin",
+      "stars": 617,
+      "language": "C++",
+      "gem_score": 7.07,
+      "momentum_trend": 1.03,
+      "recent_commits": 35,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        11,
+        67,
+        24,
+        35
+      ],
+      "good_first_issues_url": "https://github.com/KDE/kwin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:39:47Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "engine",
+      "full_name": "pkmn/engine",
+      "description": "A minimal, complete, Pokémon battle simulation engine optimized for performance",
+      "url": "https://github.com/pkmn/engine",
+      "stars": 331,
+      "language": "Zig",
+      "gem_score": 6.96,
+      "momentum_trend": 0.95,
+      "recent_commits": 12,
+      "merged_prs_count": 0,
+      "topics": [
+        "pokemon",
+        "simulator",
+        "game"
+      ],
+      "activity": [
+        0,
+        3,
+        35,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/pkmn/engine/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:55:31Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "vulkan-zig",
+      "full_name": "Snektron/vulkan-zig",
+      "description": "Vulkan binding generator for Zig",
+      "url": "https://github.com/Snektron/vulkan-zig",
+      "stars": 768,
+      "language": "Zig",
+      "gem_score": 6.87,
+      "momentum_trend": 2.25,
+      "recent_commits": 3,
+      "merged_prs_count": 3,
+      "topics": [],
+      "activity": [
+        4,
+        0,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/Snektron/vulkan-zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-23T18:37:18Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "labplot",
+      "full_name": "KDE/labplot",
+      "description": "LabPlot is a FREE, open source and cross-platform Data Visualization and Analysis software accessible to everyone.",
+      "url": "https://github.com/KDE/labplot",
+      "stars": 440,
+      "language": "C++",
+      "gem_score": 6.78,
+      "momentum_trend": 0.59,
+      "recent_commits": 23,
+      "merged_prs_count": 0,
+      "topics": [
+        "data-visualization",
+        "data-analysis",
+        "data-science"
+      ],
+      "activity": [
+        37,
+        38,
+        41,
+        23
+      ],
+      "good_first_issues_url": "https://github.com/KDE/labplot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:43:08Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "plasma-desktop",
+      "full_name": "KDE/plasma-desktop",
+      "description": "Plasma for the Desktop",
+      "url": "https://github.com/KDE/plasma-desktop",
+      "stars": 1136,
+      "language": "C++",
+      "gem_score": 6.09,
+      "momentum_trend": 0.84,
+      "recent_commits": 27,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        45,
+        35,
+        17,
+        27
+      ],
+      "good_first_issues_url": "https://github.com/KDE/plasma-desktop/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:40:09Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "kdevelop",
+      "full_name": "KDE/kdevelop",
+      "description": "Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP",
+      "url": "https://github.com/KDE/kdevelop",
+      "stars": 567,
+      "language": "C++",
+      "gem_score": 5.95,
+      "momentum_trend": 2.67,
+      "recent_commits": 16,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        8,
+        6,
+        4,
+        16
+      ],
+      "good_first_issues_url": "https://github.com/KDE/kdevelop/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:49:57Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "spectacle",
+      "full_name": "KDE/spectacle",
+      "description": "Screenshot capture utility",
+      "url": "https://github.com/KDE/spectacle",
+      "stars": 325,
+      "language": "C++",
+      "gem_score": 5.57,
+      "momentum_trend": 0.71,
+      "recent_commits": 9,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        5,
+        24,
+        9,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/KDE/spectacle/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:40:55Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "eepp",
+      "full_name": "SpartanJ/eepp",
+      "description": "eepp is an open source cross-platform game and application development framework heavily focused on the development of rich graphical user interfaces.",
+      "url": "https://github.com/SpartanJ/eepp",
+      "stars": 586,
+      "language": "C++",
+      "gem_score": 5.47,
+      "momentum_trend": 1.32,
+      "recent_commits": 11,
+      "merged_prs_count": 0,
+      "topics": [
+        "opengl",
+        "gui",
+        "css"
+      ],
+      "activity": [
+        10,
+        7,
+        8,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/SpartanJ/eepp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:41:16Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "zig-protobuf",
+      "full_name": "Arwalk/zig-protobuf",
+      "description": "a protobuf 3 implementation for zig.",
+      "url": "https://github.com/Arwalk/zig-protobuf",
+      "stars": 378,
+      "language": "Zig",
+      "gem_score": 5.03,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 2,
+      "topics": [
+        "zig",
+        "protobuf",
+        "zig-package"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/Arwalk/zig-protobuf/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-28T15:49:27Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v3.0.1",
+        "published_at": "2025-10-05T20:41:03Z"
+      }
+    },
+    {
+      "name": "xit",
+      "full_name": "radarroark/xit",
+      "description": "a git alternative written in zig",
+      "url": "https://github.com/radarroark/xit",
+      "stars": 330,
+      "language": "Zig",
+      "gem_score": 4.91,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 1,
+      "topics": [],
+      "activity": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/radarroark/xit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T00:12:34Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "kate",
+      "full_name": "KDE/kate",
+      "description": "Advanced text editor",
+      "url": "https://github.com/KDE/kate",
+      "stars": 952,
+      "language": "C++",
+      "gem_score": 4.85,
+      "momentum_trend": 0.36,
+      "recent_commits": 10,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        13,
+        45,
+        26,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/KDE/kate/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:41:25Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "zig-clap",
+      "full_name": "Hejsil/zig-clap",
+      "description": "Command line argument parsing library",
+      "url": "https://github.com/Hejsil/zig-clap",
+      "stars": 1458,
+      "language": "Zig",
+      "gem_score": 4.68,
+      "momentum_trend": 0.75,
+      "recent_commits": 1,
+      "merged_prs_count": 2,
+      "topics": [
+        "zig-package",
+        "argument-parser",
+        "argument-parsing"
+      ],
+      "activity": [
+        4,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/Hejsil/zig-clap/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T22:27:04Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.11.0",
+        "published_at": "2025-08-21T17:39:59Z"
+      }
+    },
+    {
+      "name": "okular",
+      "full_name": "KDE/okular",
+      "description": "KDE document viewer",
+      "url": "https://github.com/KDE/okular",
+      "stars": 1264,
+      "language": "C++",
+      "gem_score": 4.1,
+      "momentum_trend": 0.9,
+      "recent_commits": 6,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        5,
+        9,
+        6,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/KDE/okular/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:49:03Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "DnfHelper-C",
+      "full_name": "code-gopher/DnfHelper-C",
+      "description": "C++ 地下城与勇士-辅助",
+      "url": "https://github.com/code-gopher/DnfHelper-C",
+      "stars": 152,
+      "language": "C++",
+      "gem_score": 4.03,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/code-gopher/DnfHelper-C/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:20:07Z",
+      "is_hype": false,
+      "latest_release": null
+    },
+    {
+      "name": "gwenview",
+      "full_name": "KDE/gwenview",
+      "description": "Image viewer by KDE",
+      "url": "https://github.com/KDE/gwenview",
+      "stars": 153,
+      "language": "C++",
+      "gem_score": 3.94,
+      "momentum_trend": 0.67,
+      "recent_commits": 2,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        3,
+        3,
+        3,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/KDE/gwenview/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:47:40Z",
+      "is_hype": false,
+      "license": "GPL-2.0",
+      "latest_release": null
+    },
+    {
+      "name": "marble",
+      "full_name": "KDE/marble",
+      "description": "Virtual Globe and World Atlas that you can use to learn more about the Earth",
+      "url": "https://github.com/KDE/marble",
+      "stars": 156,
+      "language": "C++",
+      "gem_score": 3.93,
+      "momentum_trend": 0.67,
+      "recent_commits": 2,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        1,
+        4,
+        4,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/KDE/marble/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:43:16Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "fancy-cat",
+      "full_name": "freref/fancy-cat",
+      "description": "PDF reader for terminal emulators using the Kitty image protocol",
+      "url": "https://github.com/freref/fancy-cat",
+      "stars": 473,
+      "language": "Zig",
+      "gem_score": 3.26,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "zig",
+        "zig-package",
+        "pdf-viewer"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/freref/fancy-cat/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-24T02:18:05Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": null
+    },
+    {
+      "name": "sdk",
+      "full_name": "meganz/sdk",
+      "description": "MEGA C++ SDK",
+      "url": "https://github.com/meganz/sdk",
+      "stars": 1425,
+      "language": "C++",
+      "gem_score": 3.03,
+      "momentum_trend": 0.04,
+      "recent_commits": 2,
+      "merged_prs_count": 0,
+      "topics": [
+        "sdk",
+        "mega",
+        "end-to-end-encryption"
+      ],
+      "activity": [
+        44,
+        69,
+        25,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/meganz/sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:31:03Z",
+      "is_hype": false,
+      "license": "BSD-2-Clause",
+      "latest_release": {
+        "tag": "v10.5.0",
+        "published_at": "2026-01-29T01:31:03Z"
+      }
+    },
+    {
+      "name": "unitree_ros",
+      "full_name": "unitreerobotics/unitree_ros",
+      "description": null,
+      "url": "https://github.com/unitreerobotics/unitree_ros",
+      "stars": 1204,
+      "language": "C++",
+      "gem_score": 2.41,
+      "momentum_trend": 3,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/unitreerobotics/unitree_ros/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-29T01:50:11Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause",
+      "latest_release": null
+    }
+  ]
 }
