@@ -1,6 +1,6 @@
 const assert = require("node:assert");
 const test = require("node:test");
-const { calculateScore } = require("./miner.js");
+const { calculateScore, isLikelyChurn, isHype } = require("./miner.js");
 
 test("calculateScore logic", async (t) => {
   await t.test("higher recent commits should increase score but with diminishing returns", () => {
@@ -75,5 +75,48 @@ test("calculateScore logic", async (t) => {
     const scoreWith = calculateScore(repo, 10, 0, 0, true);
     
     assert.ok(scoreWith > scoreWithout, "Good first issues should boost score");
+  });
+
+  await t.test("edge case: stars=0 should not result in Infinity or NaN", () => {
+    const repo = {
+      stargazerCount: 0,
+      createdAt: new Date(Date.now() - 12 * 30 * 24 * 60 * 60 * 1000).toISOString(),
+    };
+    const score = calculateScore(repo, 10, 0, 0, false);
+    assert.ok(Number.isFinite(score), `Score ${score} should be finite`);
+    assert.ok(!Number.isNaN(score), "Score should not be NaN");
+  });
+
+  await t.test("edge case: repo_age=0 should not result in Infinity or NaN", () => {
+    const repo = {
+      stargazerCount: 1000,
+      createdAt: new Date().toISOString(), // 0 days old
+    };
+    const score = calculateScore(repo, 10, 0, 0, false);
+    assert.ok(Number.isFinite(score), `Score ${score} should be finite`);
+    assert.ok(!Number.isNaN(score), "Score should not be NaN");
+  });
+});
+
+test("isLikelyChurn logic", async (t) => {
+  await t.test("should identify churn keywords in name", () => {
+    assert.strictEqual(isLikelyChurn({ name: "my-proxy-list", description: "" }), true);
+    assert.strictEqual(isLikelyChurn({ name: "awesome-thing", description: "" }), false);
+  });
+
+  await t.test("should identify churn keywords in description", () => {
+    assert.strictEqual(isLikelyChurn({ name: "repo", description: "A list of blocklist rules" }), true);
+  });
+
+  await t.test("should identify automated date patterns in name", () => {
+    assert.strictEqual(isLikelyChurn({ name: "update-2023-10-01", description: "" }), true);
+  });
+});
+
+test("isHype logic", async (t) => {
+  await t.test("should identify hype keywords", () => {
+    assert.strictEqual(isHype({ name: "ai-generator", description: "" }), true);
+    assert.strictEqual(isHype({ name: "my-cool-app", description: "using llm and gpt" }), true);
+    assert.strictEqual(isHype({ name: "database-driver", description: "" }), false);
   });
 });

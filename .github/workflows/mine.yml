@@ -25,6 +25,9 @@ jobs:
         run: node miner/miner.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate Output
+        run: node miner/validate-output.js
           
       - name: Commit and Push
         run: |

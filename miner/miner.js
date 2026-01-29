@@ -32,6 +32,16 @@ const HYPE_KEYWORDS = [
   "stable diffusion", "midjourney", "prompt engineering"
 ];
 
+/**
+ * @typedef {import('./types').Repository} Repository
+ * @typedef {import('./types').ScoredGem} ScoredGem
+ */
+
+/**
+ * Checks if a repository is likely to be "churn" (low quality, automated, etc.)
+ * @param {Repository} repo 
+ * @returns {boolean}
+ */
 function isLikelyChurn(repo) {
   const name = repo.name.toLowerCase();
   const description = (repo.description || "").toLowerCase();
@@ -49,12 +59,26 @@ function isLikelyChurn(repo) {
   return false;
 }
 
+/**
+ * Checks if a repository matches "hype" keywords (AI, LLM, etc.)
+ * @param {Repository} repo 
+ * @returns {boolean}
+ */
 function isHype(repo) {
   const name = repo.name.toLowerCase();
   const description = (repo.description || "").toLowerCase();
   return HYPE_KEYWORDS.some(word => name.includes(word) || description.includes(word));
 }
 
+/**
+ * Calculates the discovery score for a repository
+ * @param {Repository} repo 
+ * @param {number} recentCommits 
+ * @param {number} mergedPrsCount 
+ * @param {number} labeledIssuesCount 
+ * @param {boolean} hasGoodFirstIssues 
+ * @returns {number}
+ */
 function calculateScore(repo, recentCommits, mergedPrsCount, labeledIssuesCount, hasGoodFirstIssues) {
   const stars = Math.max(1, repo.stargazerCount);
   const createdAt = new Date(repo.createdAt);
@@ -87,11 +111,32 @@ function calculateScore(repo, recentCommits, mergedPrsCount, labeledIssuesCount,
   return Math.round(rawScore * 100) / 100;
 }
 
-async function fetchReposForQuery(searchQuery, timeframes, maxPages = 3) {
-  if (!graphqlWithAuth) {
-    throw new Error("GitHub token not configured");
+async function fetchWithRetry(query, variables, maxRetries = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      if (!graphqlWithAuth) {
+        throw new Error("GitHub token not configured");
+      }
+      return await graphqlWithAuth(query, variables);
+    } catch (error) {
+      lastError = error;
+      const status = error.status;
+      const isRetryable = status === 403 || status === 502 || (error.message && error.message.includes("rate limit"));
+      
+      if (isRetryable && attempt < maxRetries) {
+        const delay = Math.pow(2, attempt) * 1000;
+        console.warn(`Retryable error (status: ${status}). Attempt ${attempt}/${maxRetries}. Retrying in ${delay}ms...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+        continue;
+      }
+      throw error;
+    }
   }
+  throw lastError;
+}
 
+async function fetchReposForQuery(searchQuery, timeframes, maxPages = 3) {
   const query = `
     query($searchQuery: String!, $cursor: String) {
       search(query: $searchQuery, type: REPOSITORY, first: 50, after: $cursor) {
@@ -152,7 +197,7 @@ async function fetchReposForQuery(searchQuery, timeframes, maxPages = 3) {
 
   while (page < maxPages) {
     try {
-      const result = await graphqlWithAuth(query, { searchQuery, cursor });
+      const result = await fetchWithRetry(query, { searchQuery, cursor });
       const repos = result.search.edges.map(edge => edge.node).filter(Boolean);
       allRepos = allRepos.concat(repos);
 
@@ -295,7 +340,7 @@ async function getGems() {
   console.log(`Successfully mined ${finalGems.length} gems (Hype: ${hypeCount}) and saved to public/gems.json`);
 }
 
-module.exports = { calculateScore };
+module.exports = { calculateScore, isLikelyChurn, isHype };
 
 if (require.main === module) {
   if (!GITHUB_TOKEN) {
