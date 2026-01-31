@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown, Bookmark, Scale, Timer, Flame, Share2, Check, Tag, GitPullRequest } from "lucide-react";
+import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown, Bookmark, Scale, Timer, Flame, Share2, Check, Tag, GitPullRequest, Terminal } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Sparkline } from "./Sparkline";
 import { Card, CardContent } from "./ui/card";
@@ -19,6 +19,7 @@ interface GemCardProps {
 
 export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
   const [isShared, setIsShared] = useState(false);
+  const [isCloned, setIsCloned] = useState(false);
 
   const getScoreVariant = (score: number) => {
     if (score >= 90) return "gold";
@@ -66,6 +67,16 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
       }
     } catch (err) {
       console.error("Error sharing:", err);
+    }
+  };
+
+  const handleCopyClone = async () => {
+    try {
+      await navigator.clipboard.writeText(`git clone ${gem.url}`);
+      setIsCloned(true);
+      setTimeout(() => setIsCloned(false), 2000);
+    } catch (err) {
+      console.error("Error copying clone command:", err);
     }
   };
 
@@ -209,6 +220,19 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
             >
               View Repo
             </a>
+            <button
+              onClick={handleCopyClone}
+              className={cn(
+                "inline-flex items-center justify-center gap-2 rounded-lg border border-white/5 px-3 py-2 text-xs font-semibold transition-all",
+                isCloned 
+                  ? "bg-emerald-500/10 text-emerald-500 border-emerald-500/20" 
+                  : "bg-white/[0.05] text-white/80 hover:bg-white/10 hover:text-white"
+              )}
+              title="Copy clone command"
+            >
+              <span className="sr-only">git clone</span>
+              {isCloned ? <Check size={14} /> : <Terminal size={14} />}
+            </button>
             <a
               href={gem.good_first_issues_url}
               target="_blank"

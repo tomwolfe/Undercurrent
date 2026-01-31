@@ -41,6 +41,10 @@ export interface Repository {
   issues: {
     totalCount: number;
   };
+  openIssues: {
+    totalCount: number;
+  };
+  forkCount: number;
   repositoryLabels: {
     totalCount: number;
   };
@@ -52,6 +56,8 @@ export interface ScoredGem {
   description: string | null;
   url: string;
   stars: number;
+  forks_count: number;
+  open_issues_count: number;
   language: string;
   gem_score: number;
   momentum_trend: number;

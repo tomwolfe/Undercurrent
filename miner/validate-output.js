@@ -8,6 +8,8 @@ const GemSchema = z.object({
   description: z.string().nullable(),
   url: z.string().url(),
   stars: z.number().nonnegative(),
+  forks_count: z.number().nonnegative(),
+  open_issues_count: z.number().nonnegative(),
   language: z.string(),
   gem_score: z.number(),
   momentum_trend: z.number(),

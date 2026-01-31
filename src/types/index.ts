@@ -12,6 +12,10 @@ export interface Gem {
 
   stars: number;
 
+  forks_count: number;
+
+  open_issues_count: number;
+
   language: string;
 
   gem_score: number;

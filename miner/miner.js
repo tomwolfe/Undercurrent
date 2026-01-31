@@ -22,7 +22,8 @@ const CHURN_KEYWORDS = [
   "config", "vpn", "proxy", "list", "index", "blocklist", 
   "iptv", "rules", "detect", "scripts", "backup", "hot-search", 
   "trending", "awesome-list", "collection", "mirrors", "database",
-  "dns", "auto-updated", "hosts", "payload", "cve", "poc"
+  "dns", "auto-updated", "hosts", "payload", "cve", "poc",
+  "homework", "assignment", "leetcode", "tutorial", "course"
 ];
 
 const HYPE_KEYWORDS = [
@@ -183,6 +184,8 @@ async function fetchReposForQuery(searchQuery, timeframes, maxPages = 3) {
                 }
               }
               issues(states: OPEN, labels: ["good first issue"], first: 1) { totalCount }
+              openIssues: issues(states: OPEN) { totalCount }
+              forkCount
               repositoryLabels: labels { totalCount }
             }
           }
@@ -286,6 +289,8 @@ async function getGems() {
           description: repo.description,
           url: repo.url,
           stars: repo.stargazerCount,
+          forks_count: repo.forkCount || 0,
+          open_issues_count: repo.openIssues?.totalCount || 0,
           language: repo.primaryLanguage ? repo.primaryLanguage.name : "Plain Text",
           gem_score: score,
           momentum_trend: Math.round(momentumTrend * 100) / 100,
