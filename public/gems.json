@@ -1,5 +1,1073 @@
 {
-  "last_mined": "2026-02-05T01:56:05.834Z",
-  "count": 0,
-  "gems": []
+  "last_mined": "2026-02-05T13:00:30.865Z",
+  "count": 34,
+  "gems": [
+    {
+      "name": "libqt6zig",
+      "full_name": "rcalixte/libqt6zig",
+      "description": "Qt 6 for Zig",
+      "url": "https://github.com/rcalixte/libqt6zig",
+      "stars": 180,
+      "forks_count": 6,
+      "open_issues_count": 1,
+      "language": "Zig",
+      "gem_score": 31.89,
+      "momentum_trend": 2.1,
+      "recent_commits": 7,
+      "merged_prs_count": 12,
+      "topics": [
+        "bindings",
+        "gui-library",
+        "qt"
+      ],
+      "activity": [
+        2,
+        6,
+        2,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/rcalixte/libqt6zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-04T23:09:59Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "gdzig",
+      "full_name": "gdzig/gdzig",
+      "description": "Zig bindings for Godot 4",
+      "url": "https://github.com/gdzig/gdzig",
+      "stars": 151,
+      "forks_count": 14,
+      "open_issues_count": 11,
+      "language": "Zig",
+      "gem_score": 30.66,
+      "momentum_trend": 5,
+      "recent_commits": 5,
+      "merged_prs_count": 4,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        3,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/gdzig/gdzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-01T02:45:10Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "mojo-gpu-puzzles",
+      "full_name": "modular/mojo-gpu-puzzles",
+      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
+      "url": "https://github.com/modular/mojo-gpu-puzzles",
+      "stars": 288,
+      "forks_count": 298,
+      "open_issues_count": 3,
+      "language": "Mojo",
+      "gem_score": 30.61,
+      "momentum_trend": 0.43,
+      "recent_commits": 3,
+      "merged_prs_count": 16,
+      "topics": [
+        "mojo",
+        "gpu",
+        "learn-by-doing"
+      ],
+      "activity": [
+        9,
+        8,
+        4,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-02T23:20:50Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "zignal",
+      "full_name": "arrufat/zignal",
+      "description": "zero-dependency image processing library",
+      "url": "https://github.com/arrufat/zignal",
+      "stars": 347,
+      "forks_count": 10,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 28.14,
+      "momentum_trend": 0.43,
+      "recent_commits": 15,
+      "merged_prs_count": 50,
+      "topics": [
+        "image-processing",
+        "zig",
+        "webassembly"
+      ],
+      "activity": [
+        21,
+        36,
+        48,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/arrufat/zignal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T06:46:55Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.9.1",
+        "published_at": "2025-12-15T20:45:57Z"
+      }
+    },
+    {
+      "name": "astroz",
+      "full_name": "ATTron/astroz",
+      "description": "Astrodynamics and Spacecraft Toolkit Written in Zig! Features orbit prop, celestial precession, CCSDS parsing, RF parsing, fits image parsing, and more!",
+      "url": "https://github.com/ATTron/astroz",
+      "stars": 224,
+      "forks_count": 9,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 26.72,
+      "momentum_trend": 0.48,
+      "recent_commits": 7,
+      "merged_prs_count": 26,
+      "topics": [
+        "astro",
+        "astronomy",
+        "astrophysics"
+      ],
+      "activity": [
+        5,
+        33,
+        6,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/ATTron/astroz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T07:35:38Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.7.1",
+        "published_at": "2026-02-02T09:32:01Z"
+      }
+    },
+    {
+      "name": "flow",
+      "full_name": "neurocyte/flow",
+      "description": "Flow Control: a programmer's text editor",
+      "url": "https://github.com/neurocyte/flow",
+      "stars": 1628,
+      "forks_count": 81,
+      "open_issues_count": 56,
+      "language": "Zig",
+      "gem_score": 22.07,
+      "momentum_trend": 1.53,
+      "recent_commits": 89,
+      "merged_prs_count": 4,
+      "topics": [
+        "language-server-client",
+        "language-server-protocol",
+        "text-editor"
+      ],
+      "activity": [
+        77,
+        61,
+        36,
+        89
+      ],
+      "good_first_issues_url": "https://github.com/neurocyte/flow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-02-05T08:27:46Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.6.0",
+        "published_at": "2025-11-05T22:22:32Z"
+      }
+    },
+    {
+      "name": "Deecy",
+      "full_name": "Senryoku/Deecy",
+      "description": "Experimental Dreamcast emulator written in Zig",
+      "url": "https://github.com/Senryoku/Deecy",
+      "stars": 174,
+      "forks_count": 4,
+      "open_issues_count": 19,
+      "language": "Zig",
+      "gem_score": 18.79,
+      "momentum_trend": 0.58,
+      "recent_commits": 11,
+      "merged_prs_count": 4,
+      "topics": [
+        "dreamcast",
+        "emulator",
+        "zig"
+      ],
+      "activity": [
+        12,
+        31,
+        14,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-04T13:12:30Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.5.4",
+        "published_at": "2025-11-25T22:44:01Z"
+      }
+    },
+    {
+      "name": "sig",
+      "full_name": "Syndica/sig",
+      "description": "a Solana validator client implementation written in Zig",
+      "url": "https://github.com/Syndica/sig",
+      "stars": 370,
+      "forks_count": 53,
+      "open_issues_count": 71,
+      "language": "Zig",
+      "gem_score": 16.82,
+      "momentum_trend": 0.64,
+      "recent_commits": 3,
+      "merged_prs_count": 19,
+      "topics": [],
+      "activity": [
+        4,
+        5,
+        5,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T06:44:50Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.1.0",
+        "published_at": "2023-05-20T19:58:37Z"
+      }
+    },
+    {
+      "name": "zig-esp-idf-sample",
+      "full_name": "kassane/zig-esp-idf-sample",
+      "description": "Run Zig on esp-idf (Xtensa/RISC-V)",
+      "url": "https://github.com/kassane/zig-esp-idf-sample",
+      "stars": 202,
+      "forks_count": 17,
+      "open_issues_count": 5,
+      "language": "Zig",
+      "gem_score": 16.43,
+      "momentum_trend": 1,
+      "recent_commits": 6,
+      "merged_prs_count": 3,
+      "topics": [
+        "esp32-idf",
+        "zig",
+        "esp-idf"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/kassane/zig-esp-idf-sample/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-04T19:00:03Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": null
+    },
+    {
+      "name": "clr",
+      "full_name": "ityonemo/clr",
+      "description": "Checker for Lifetimes and other Refinement types",
+      "url": "https://github.com/ityonemo/clr",
+      "stars": 163,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 15.54,
+      "momentum_trend": 3.67,
+      "recent_commits": 11,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        4,
+        5,
+        0,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/ityonemo/clr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T07:15:07Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "zig2nix",
+      "full_name": "Cloudef/zig2nix",
+      "description": "Flake for packaging, building and running Zig projects.",
+      "url": "https://github.com/Cloudef/zig2nix",
+      "stars": 156,
+      "forks_count": 10,
+      "open_issues_count": 4,
+      "language": "Zig",
+      "gem_score": 15.3,
+      "momentum_trend": 0.95,
+      "recent_commits": 7,
+      "merged_prs_count": 2,
+      "topics": [
+        "automation",
+        "build",
+        "ci"
+      ],
+      "activity": [
+        7,
+        8,
+        7,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/Cloudef/zig2nix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T02:25:07Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "delve-framework",
+      "full_name": "Interrupt/delve-framework",
+      "description": "Delve is a framework for writing Games in Zig and Lua. For those who value being cross platform and keeping things simple.",
+      "url": "https://github.com/Interrupt/delve-framework",
+      "stars": 305,
+      "forks_count": 17,
+      "open_issues_count": 9,
+      "language": "Zig",
+      "gem_score": 14.33,
+      "momentum_trend": 0.43,
+      "recent_commits": 2,
+      "merged_prs_count": 7,
+      "topics": [],
+      "activity": [
+        2,
+        6,
+        6,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/Interrupt/delve-framework/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-03T16:54:43Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.1.5",
+        "published_at": "2026-02-03T16:54:43Z"
+      }
+    },
+    {
+      "name": "microzig",
+      "full_name": "ZigEmbeddedGroup/microzig",
+      "description": "MicroZig is a toolbox for building embedded applications in Zig.",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig",
+      "stars": 2032,
+      "forks_count": 164,
+      "open_issues_count": 56,
+      "language": "Zig",
+      "gem_score": 14.05,
+      "momentum_trend": 0.16,
+      "recent_commits": 2,
+      "merged_prs_count": 42,
+      "topics": [
+        "ziglang",
+        "zig-package",
+        "zig"
+      ],
+      "activity": [
+        8,
+        11,
+        19,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/ZigEmbeddedGroup/microzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-02-02T10:35:51Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": {
+        "tag": "0.14.4",
+        "published_at": "2025-10-04T06:21:23Z"
+      }
+    },
+    {
+      "name": "tides-of-revival",
+      "full_name": "Srekel/tides-of-revival",
+      "description": null,
+      "url": "https://github.com/Srekel/tides-of-revival",
+      "stars": 159,
+      "forks_count": 6,
+      "open_issues_count": 14,
+      "language": "Zig",
+      "gem_score": 13.46,
+      "momentum_trend": 2.1,
+      "recent_commits": 21,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        4,
+        13,
+        13,
+        21
+      ],
+      "good_first_issues_url": "https://github.com/Srekel/tides-of-revival/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-02-05T07:59:11Z",
+      "is_hype": false,
+      "license": "Unlicense",
+      "latest_release": null
+    },
+    {
+      "name": "ziglua",
+      "full_name": "natecraddock/ziglua",
+      "description": "Zig bindings for the Lua C API",
+      "url": "https://github.com/natecraddock/ziglua",
+      "stars": 441,
+      "forks_count": 60,
+      "open_issues_count": 21,
+      "language": "Zig",
+      "gem_score": 12.06,
+      "momentum_trend": 3.75,
+      "recent_commits": 10,
+      "merged_prs_count": 5,
+      "topics": [
+        "binding",
+        "lua",
+        "zig"
+      ],
+      "activity": [
+        4,
+        1,
+        3,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/natecraddock/ziglua/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-30T20:51:20Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.6.0",
+        "published_at": "2025-11-25T04:25:27Z"
+      }
+    },
+    {
+      "name": "dvui",
+      "full_name": "david-vanderson/dvui",
+      "description": "Immediate Zig GUI for Apps and Games",
+      "url": "https://github.com/david-vanderson/dvui",
+      "stars": 1188,
+      "forks_count": 94,
+      "open_issues_count": 52,
+      "language": "Zig",
+      "gem_score": 12.01,
+      "momentum_trend": 0.82,
+      "recent_commits": 14,
+      "merged_prs_count": 9,
+      "topics": [],
+      "activity": [
+        19,
+        14,
+        18,
+        14
+      ],
+      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T01:16:32Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v0.3.0",
+        "published_at": "2025-08-30T17:33:50Z"
+      }
+    },
+    {
+      "name": "ols",
+      "full_name": "DanielGavin/ols",
+      "description": "Language server for Odin",
+      "url": "https://github.com/DanielGavin/ols",
+      "stars": 865,
+      "forks_count": 130,
+      "open_issues_count": 77,
+      "language": "Odin",
+      "gem_score": 11.88,
+      "momentum_trend": 1.33,
+      "recent_commits": 12,
+      "merged_prs_count": 14,
+      "topics": [
+        "language-server",
+        "odin",
+        "lsp"
+      ],
+      "activity": [
+        4,
+        5,
+        18,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-03T09:45:23Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "dev-2026-01",
+        "published_at": "2026-01-31T20:28:23Z"
+      }
+    },
+    {
+      "name": "yazap",
+      "full_name": "prajwalch/yazap",
+      "description": "🔧 The ultimate Zig library for seamless command line argument parsing. ",
+      "url": "https://github.com/prajwalch/yazap",
+      "stars": 197,
+      "forks_count": 24,
+      "open_issues_count": 8,
+      "language": "Zig",
+      "gem_score": 11.77,
+      "momentum_trend": 3,
+      "recent_commits": 4,
+      "merged_prs_count": 4,
+      "topics": [
+        "argument-parser",
+        "argument-parsing",
+        "command-line-arguments-parser"
+      ],
+      "activity": [
+        4,
+        0,
+        0,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/prajwalch/yazap/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-01T17:27:34Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.7.0",
+        "published_at": "2026-02-01T17:25:11Z"
+      }
+    },
+    {
+      "name": "ziggy-pydust",
+      "full_name": "spiraldb/ziggy-pydust",
+      "description": "A toolkit for building Python extensions in Zig.",
+      "url": "https://github.com/spiraldb/ziggy-pydust",
+      "stars": 727,
+      "forks_count": 39,
+      "open_issues_count": 32,
+      "language": "Zig",
+      "gem_score": 11.61,
+      "momentum_trend": 1.2,
+      "recent_commits": 2,
+      "merged_prs_count": 7,
+      "topics": [
+        "python",
+        "zig"
+      ],
+      "activity": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/spiraldb/ziggy-pydust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-03T18:31:21Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "0.26.0",
+        "published_at": "2025-09-18T17:08:06Z"
+      }
+    },
+    {
+      "name": "z2d",
+      "full_name": "vancluever/z2d",
+      "description": "Pure Zig 2D graphics library",
+      "url": "https://github.com/vancluever/z2d",
+      "stars": 187,
+      "forks_count": 10,
+      "open_issues_count": 5,
+      "language": "Zig",
+      "gem_score": 10.38,
+      "momentum_trend": 1,
+      "recent_commits": 3,
+      "merged_prs_count": 1,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/vancluever/z2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-03T03:31:50Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null
+    },
+    {
+      "name": "xit",
+      "full_name": "xit-vcs/xit",
+      "description": "a git alternative written in zig",
+      "url": "https://github.com/xit-vcs/xit",
+      "stars": 331,
+      "forks_count": 12,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 9.94,
+      "momentum_trend": 10.5,
+      "recent_commits": 7,
+      "merged_prs_count": 1,
+      "topics": [],
+      "activity": [
+        2,
+        0,
+        0,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/xit-vcs/xit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-04T14:50:18Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "Zag-Smalltalk",
+      "full_name": "Zag-Research/Zag-Smalltalk",
+      "description": "Smalltalk VM Written in Zig with methods stored as type-annotated ASTs",
+      "url": "https://github.com/Zag-Research/Zag-Smalltalk",
+      "stars": 151,
+      "forks_count": 12,
+      "open_issues_count": 4,
+      "language": "Zig",
+      "gem_score": 9.43,
+      "momentum_trend": 1.29,
+      "recent_commits": 12,
+      "merged_prs_count": 1,
+      "topics": [
+        "smalltalk",
+        "interpreter",
+        "zig"
+      ],
+      "activity": [
+        3,
+        12,
+        13,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/Zag-Research/Zag-Smalltalk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T03:28:14Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "bof-launcher",
+      "full_name": "The-Z-Labs/bof-launcher",
+      "description": "bof-launcher - a library for loading, executing and in-memory masking BOFs on Windows (x64, x86) and Linux (x64, x86, aarch64, arm). Ready to use in C/Zig/Rust/Go/C++ applications.",
+      "url": "https://github.com/The-Z-Labs/bof-launcher",
+      "stars": 291,
+      "forks_count": 27,
+      "open_issues_count": 11,
+      "language": "Zig",
+      "gem_score": 9.13,
+      "momentum_trend": 0.38,
+      "recent_commits": 2,
+      "merged_prs_count": 0,
+      "topics": [
+        "bof",
+        "beacon",
+        "beaconobjectfile"
+      ],
+      "activity": [
+        5,
+        4,
+        7,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/The-Z-Labs/bof-launcher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-02-04T19:14:07Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause",
+      "latest_release": null
+    },
+    {
+      "name": "pixi",
+      "full_name": "foxnne/pixi",
+      "description": "Pixel art editor made with Zig.",
+      "url": "https://github.com/foxnne/pixi",
+      "stars": 1244,
+      "forks_count": 31,
+      "open_issues_count": 11,
+      "language": "Zig",
+      "gem_score": 8.94,
+      "momentum_trend": 1.17,
+      "recent_commits": 25,
+      "merged_prs_count": 0,
+      "topics": [
+        "2d",
+        "animation",
+        "cross-platform"
+      ],
+      "activity": [
+        17,
+        24,
+        23,
+        25
+      ],
+      "good_first_issues_url": "https://github.com/foxnne/pixi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-02-05T05:35:44Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "tokamak",
+      "full_name": "cztomsik/tokamak",
+      "description": "Web framework for Zig that leverages dependency injection for clean, modular application development.",
+      "url": "https://github.com/cztomsik/tokamak",
+      "stars": 576,
+      "forks_count": 20,
+      "open_issues_count": 5,
+      "language": "Zig",
+      "gem_score": 7.95,
+      "momentum_trend": 0.13,
+      "recent_commits": 2,
+      "merged_prs_count": 1,
+      "topics": [
+        "zig-package",
+        "api",
+        "http"
+      ],
+      "activity": [
+        15,
+        17,
+        15,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/cztomsik/tokamak/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T11:50:59Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "spice",
+      "full_name": "judofyr/spice",
+      "description": "Fine-grained parallelism with sub-nanosecond overhead in Zig",
+      "url": "https://github.com/judofyr/spice",
+      "stars": 939,
+      "forks_count": 23,
+      "open_issues_count": 4,
+      "language": "Zig",
+      "gem_score": 7.59,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 1,
+      "topics": [
+        "concurrency",
+        "parallelism",
+        "threads"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/judofyr/spice/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-01T11:26:10Z",
+      "is_hype": true,
+      "license": "0BSD",
+      "latest_release": null
+    },
+    {
+      "name": "zeit",
+      "full_name": "rockorager/zeit",
+      "description": "a date and time library written in zig. Timezone, DST, and leap second aware",
+      "url": "https://github.com/rockorager/zeit",
+      "stars": 188,
+      "forks_count": 24,
+      "open_issues_count": 2,
+      "language": "Zig",
+      "gem_score": 6.42,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 1,
+      "topics": [
+        "date",
+        "datetime",
+        "library"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/rockorager/zeit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-01T16:20:09Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.7.0",
+        "published_at": "2025-09-11T11:58:13Z"
+      }
+    },
+    {
+      "name": "engine",
+      "full_name": "pkmn/engine",
+      "description": "A minimal, complete, Pokémon battle simulation engine optimized for performance",
+      "url": "https://github.com/pkmn/engine",
+      "stars": 333,
+      "forks_count": 11,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 6.23,
+      "momentum_trend": 0.48,
+      "recent_commits": 8,
+      "merged_prs_count": 0,
+      "topics": [
+        "pokemon",
+        "simulator",
+        "game"
+      ],
+      "activity": [
+        3,
+        35,
+        12,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/pkmn/engine/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-04T20:15:03Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "vulkan-zig",
+      "full_name": "Snektron/vulkan-zig",
+      "description": "Vulkan binding generator for Zig",
+      "url": "https://github.com/Snektron/vulkan-zig",
+      "stars": 773,
+      "forks_count": 87,
+      "open_issues_count": 18,
+      "language": "Zig",
+      "gem_score": 6.2,
+      "momentum_trend": 3,
+      "recent_commits": 3,
+      "merged_prs_count": 2,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        3,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/Snektron/vulkan-zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-02T07:48:25Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "websocket.zig",
+      "full_name": "karlseguin/websocket.zig",
+      "description": "A websocket implementation for zig",
+      "url": "https://github.com/karlseguin/websocket.zig",
+      "stars": 473,
+      "forks_count": 66,
+      "open_issues_count": 7,
+      "language": "Zig",
+      "gem_score": 6.04,
+      "momentum_trend": 1,
+      "recent_commits": 2,
+      "merged_prs_count": 1,
+      "topics": [
+        "websocket",
+        "zig",
+        "zig-package"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/karlseguin/websocket.zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-05T12:52:26Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null
+    },
+    {
+      "name": "zbpf",
+      "full_name": "tw4452852/zbpf",
+      "description": "Writing eBPF in Zig",
+      "url": "https://github.com/tw4452852/zbpf",
+      "stars": 226,
+      "forks_count": 11,
+      "open_issues_count": 2,
+      "language": "Zig",
+      "gem_score": 4.2,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [
+        "bpf",
+        "ebpf",
+        "zig"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/tw4452852/zbpf/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-04T04:25:16Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "0.3.0",
+        "published_at": "2024-12-05T02:12:28Z"
+      }
+    },
+    {
+      "name": "lyceum",
+      "full_name": "Dr-Nekoma/lyceum",
+      "description": "An MMO game written in Erlang + PostgreSQL (+ Omnigres) + Zig (+ Raylib) ",
+      "url": "https://github.com/Dr-Nekoma/lyceum",
+      "stars": 319,
+      "forks_count": 10,
+      "open_issues_count": 17,
+      "language": "Zig",
+      "gem_score": 3.85,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "erlang",
+        "justfile",
+        "nix"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/Dr-Nekoma/lyceum/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-01T00:28:16Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.2.3",
+        "published_at": "2025-11-12T01:38:23Z"
+      }
+    },
+    {
+      "name": "buzz",
+      "full_name": "buzz-language/buzz",
+      "description": "👨‍🚀  buzz, A small/lightweight statically typed scripting language",
+      "url": "https://github.com/buzz-language/buzz",
+      "stars": 1454,
+      "forks_count": 39,
+      "open_issues_count": 80,
+      "language": "Zig",
+      "gem_score": 3.31,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "zig",
+        "language"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/buzz-language/buzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-04T13:23:15Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.5.0",
+        "published_at": "2025-01-24T10:52:11Z"
+      }
+    },
+    {
+      "name": "keylogger",
+      "full_name": "TheFox/keylogger",
+      "description": "Keylogger for Windows.",
+      "url": "https://github.com/TheFox/keylogger",
+      "stars": 220,
+      "forks_count": 80,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 2.11,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [
+        "windows",
+        "keylogger",
+        "mit-license"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/TheFox/keylogger/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-01-31T17:40:23Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2.1.0",
+        "published_at": "2025-10-26T15:56:24Z"
+      }
+    }
+  ]
 }
