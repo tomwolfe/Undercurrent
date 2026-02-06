@@ -178,7 +178,9 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
                 )}
               </h3>
               {gem.is_verified && (
-                <ShieldCheck size={14} className="text-blue-500" title="Verified Maintainer" />
+                <span title="Verified Maintainer">
+                  <ShieldCheck size={14} className="text-blue-500" />
+                </span>
               )}
             </div>
             <p className="mt-2 line-clamp-2 text-sm text-white/40 leading-relaxed min-h-[40px]">

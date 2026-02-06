@@ -21,6 +21,8 @@ const mockGem: Gem = {
   description: "A test repository description",
   url: "https://github.com/owner/test-repo",
   stars: 1500,
+  forks_count: 120,
+  open_issues_count: 5,
   language: "TypeScript",
   gem_score: 85,
   momentum_trend: 1.6,
