@@ -10,8 +10,10 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FiltersBar } from "@/components/FiltersBar";
 import { Modal } from "@/components/Modal";
+import { CommandPalette } from "@/components/CommandPalette";
 import { Gem, SortOption } from "@/types";
 import { useLocalStorage, useDebounce } from "@/lib/hooks";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface ExplorerProps {
   initialGems: Gem[];
@@ -124,6 +126,7 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
 
   return (
     <main className="min-h-screen bg-[#050505] text-white selection:bg-blue-500/30">
+      <CommandPalette gems={initialGems} />
       {/* Modals */}
       <Modal 
         title="Methodology" 
@@ -202,7 +205,12 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
       />
 
       {/* Content */}
-      <div className="mx-auto max-w-7xl px-6 py-12">
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
+        className="mx-auto max-w-7xl px-6 py-12"
+      >
         {filteredGems.length > 0 ? (
           <ErrorBoundary>
             <MasonryGrid className="gap-6">
@@ -236,7 +244,7 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
             </button>
           </div>
         )}
-      </div>
+      </motion.div>
 
       <Footer lastMined={lastMined} setActiveModal={setActiveModal} />
     </main>

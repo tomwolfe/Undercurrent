@@ -1,6 +1,22 @@
 const assert = require("node:assert");
 const test = require("node:test");
-const { calculateScore, isLikelyChurn, isHype } = require("./miner.js");
+const { calculateScore, isLikelyChurn, isHype, calculateMaintenanceScore } = require("./miner.js");
+
+test("calculateMaintenanceScore logic", async (t) => {
+  await t.test("should return 0 for just merged PR", () => {
+    const now = new Date().toISOString();
+    assert.strictEqual(calculateMaintenanceScore(now), 0);
+  });
+
+  await t.test("should return correct number of days for older merge", () => {
+    const tenDaysAgo = new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString();
+    assert.strictEqual(calculateMaintenanceScore(tenDaysAgo), 10);
+  });
+
+  await t.test("should return 999 if no merge date provided", () => {
+    assert.strictEqual(calculateMaintenanceScore(null), 999);
+  });
+});
 
 test("calculateScore logic", async (t) => {
   await t.test("higher recent commits should increase score but with diminishing returns", () => {

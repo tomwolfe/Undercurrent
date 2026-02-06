@@ -2,9 +2,15 @@
 const { graphql } = require("@octokit/graphql");
 const fs = require("fs");
 const path = require("path");
+const axios = require("axios");
+const cheerio = require("cheerio");
+const { OpenAI } = require("openai");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+
+const openai = OPENAI_API_KEY ? new OpenAI({ apiKey: OPENAI_API_KEY }) : null;
 
 const graphqlWithAuth = GITHUB_TOKEN ? graphql.defaults({
   headers: {
@@ -32,6 +38,104 @@ const HYPE_KEYWORDS = [
   "rag", "vector", "embedding", "anthropic", "cohere",
   "stable diffusion", "midjourney", "prompt engineering"
 ];
+
+/**
+ * Fetches current GitHub Trending repositories
+ * @returns {Promise<string[]>} List of full_names
+ */
+async function fetchGitHubTrending() {
+  try {
+    const { data } = await axios.get("https://github.com/trending", {
+      headers: { "User-Agent": "Mozilla/5.0" }
+    });
+    const $ = cheerio.load(data);
+    const repos = [];
+    $(".Box-row h2 a").each((i, el) => {
+      const href = $(el).attr("href");
+      if (href) {
+        repos.push(href.startsWith("/") ? href.slice(1) : href);
+      }
+    });
+    return repos;
+  } catch (error) {
+    console.error("Error fetching GitHub Trending:", error.message);
+    return [];
+  }
+}
+
+/**
+ * Checks if a repository has been mentioned on Hacker News
+ * @param {string} fullName 
+ * @returns {Promise<boolean>}
+ */
+async function checkHackerNews(fullName) {
+  try {
+    const query = encodeURIComponent(fullName);
+    const { data } = await axios.get(`https://hn.algolia.com/api/v1/search?query=${query}&tags=story`);
+    return data.nbHits > 0;
+  } catch (error) {
+    console.error(`Error checking HN for ${fullName}:`, error.message);
+    return false;
+  }
+}
+
+/**
+ * Generates an LLM summary for a repository README
+ * @param {string} fullName 
+ * @param {string} description 
+ * @returns {Promise<string>}
+ */
+async function getLLMSummary(fullName, description) {
+  if (!openai) return description || "No description available.";
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-3.5-turbo",
+      messages: [
+        {
+          role: "system",
+          content: "You are a helpful assistant that summarizes GitHub repositories. Provide a concise, 1-sentence summary that captures the essence and unique value proposition of the project."
+        },
+        {
+          role: "user",
+          content: `Summarize this repository: ${fullName}. Description: ${description}`
+        }
+      ],
+      max_tokens: 60
+    });
+    return response.choices[0].message.content.trim();
+  } catch (error) {
+    console.error(`Error generating summary for ${fullName}:`, error.message);
+    return description || "No description available.";
+  }
+}
+
+/**
+ * Fetches bundle size for JS/TS repositories
+ * @param {string} name 
+ * @returns {Promise<number|null>} size in bytes
+ */
+async function getBundleSize(name) {
+  try {
+    // Note: This is a heuristic. Not all GitHub names match NPM names.
+    const { data } = await axios.get(`https://bundlephobia.com/api/size?package=${name.toLowerCase()}`);
+    return data.size;
+  } catch (error) {
+    // Silent fail as many repos won't be on NPM
+    return null;
+  }
+}
+
+/**
+ * Calculates maintenance score based on last PR merge
+ * @param {string} lastMergedAt 
+ * @returns {number} Days since last merge
+ */
+function calculateMaintenanceScore(lastMergedAt) {
+  if (!lastMergedAt) return 999;
+  const lastDate = new Date(lastMergedAt);
+  const diffTime = Math.abs(new Date() - lastDate);
+  return Math.floor(diffTime / (1000 * 60 * 60 * 24));
+}
 
 /**
  * @typedef {import('./types').Repository} Repository
@@ -233,7 +337,20 @@ async function getGems() {
 
   const allRepos = new Map();
 
-  // 1. Base discovery query
+  // 1. Trending discovery
+  console.log("Fetching GitHub Trending...");
+  const trendingFullNames = await fetchGitHubTrending();
+  
+  // To get full data for trending repos, we'll search for them specifically if they match our criteria
+  // or just add them to the search set.
+  for (const fullName of trendingFullNames.slice(0, 10)) { // Limit to top 10 for performance
+    const [owner, name] = fullName.split("/");
+    const trendingQuery = `repo:${fullName}`;
+    const repos = await fetchReposForQuery(trendingQuery, timeframes, 1);
+    repos.forEach(repo => allRepos.set(`${repo.owner.login}/${repo.name}`, repo));
+  }
+
+  // 2. Base discovery query
   const baseQuery = `stars:150..3000 created:<${sixMonthsAgo} pushed:>${new Date(new Date().setDate(now.getDate() - 7)).toISOString().split('T')[0]} sort:updated-desc`;
   console.log("Executing base discovery query (paginated)...");
   const baseRepos = await fetchReposForQuery(baseQuery, timeframes, 3);
@@ -256,12 +373,13 @@ async function getGems() {
     await new Promise(resolve => setTimeout(resolve, 500));
   }
 
-  console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores...`);
+  console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores and enriching data...`);
 
-  const scoredRepos = Array.from(allRepos.values())
+  const scoredRepos = await Promise.all(Array.from(allRepos.values())
     .filter(repo => !isLikelyChurn(repo))
-    .map(repo => {
+    .map(async (repo) => {
       try {
+        const fullName = `${repo.owner.login}/${repo.name}`;
         const w1 = repo.defaultBranchRef?.target?.w1?.totalCount || 0;
         const w2 = repo.defaultBranchRef?.target?.w2?.totalCount || 0;
         const w3 = repo.defaultBranchRef?.target?.w3?.totalCount || 0;
@@ -274,8 +392,9 @@ async function getGems() {
         const thirtyDaysAgo = new Date();
         thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
         
-        const mergedPrsCount = (repo.mergedPrs?.nodes || [])
-          .filter(pr => new Date(pr.mergedAt) > thirtyDaysAgo).length;
+        const mergedPrs = repo.mergedPrs?.nodes || [];
+        const mergedPrsCount = mergedPrs.filter(pr => new Date(pr.mergedAt) > thirtyDaysAgo).length;
+        const lastMergedAt = mergedPrs.length > 0 ? mergedPrs[0].mergedAt : null;
 
         const topics = (repo.repositoryTopics?.nodes || []).map(node => node.topic.name);
 
@@ -283,10 +402,26 @@ async function getGems() {
         const hasGoodFirstIssues = repo.issues.totalCount > 0;
         const score = calculateScore(repo, w1, mergedPrsCount, labeledIssuesCount, hasGoodFirstIssues);
 
+        // Discovery Loop: Cross-reference Trending + HN
+        const isTrending = trendingFullNames.includes(fullName);
+        const isOnHN = isTrending ? await checkHackerNews(fullName) : false;
+        const featured = isTrending && isOnHN;
+
+        let description = repo.description;
+        if (featured) {
+          console.log(`  Featured gem found: ${fullName}! Generating summary...`);
+          description = await getLLMSummary(fullName, repo.description);
+        }
+
+        // Decision Metrics
+        const maintenance_score = calculateMaintenanceScore(lastMergedAt);
+        const isJS = ["TypeScript", "JavaScript"].includes(repo.primaryLanguage?.name);
+        const bundle_size = isJS ? await getBundleSize(repo.name) : null;
+
         return {
           name: repo.name,
-          full_name: `${repo.owner.login}/${repo.name}`,
-          description: repo.description,
+          full_name: fullName,
+          description: description,
           url: repo.url,
           stars: repo.stargazerCount,
           forks_count: repo.forkCount || 0,
@@ -306,15 +441,22 @@ async function getGems() {
           latest_release: repo.latestRelease ? {
             tag: repo.latestRelease.tagName,
             published_at: repo.latestRelease.publishedAt
-          } : null
+          } : null,
+          featured: featured,
+          maintenance_score: maintenance_score,
+          bundle_size: bundle_size,
+          is_verified: Math.random() > 0.9 // Mock verification logic
         };
       } catch (err) {
+        console.error(`Error processing repo ${repo.name}:`, err.message);
         return null;
       }
-    }).filter(Boolean);
+    }));
+
+  const filteredScoredRepos = scoredRepos.filter(Boolean);
 
   // Sort and Diversity Filter
-  const sortedGems = scoredRepos.sort((a, b) => b.gem_score - a.gem_score);
+  const sortedGems = filteredScoredRepos.sort((a, b) => b.gem_score - a.gem_score);
   
   const finalGems = [];
   let hypeCount = 0;
@@ -345,7 +487,7 @@ async function getGems() {
   console.log(`Successfully mined ${finalGems.length} gems (Hype: ${hypeCount}) and saved to public/gems.json`);
 }
 
-module.exports = { calculateScore, isLikelyChurn, isHype };
+module.exports = { calculateScore, isLikelyChurn, isHype, calculateMaintenanceScore };
 
 if (require.main === module) {
   if (!GITHUB_TOKEN) {

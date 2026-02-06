@@ -74,6 +74,10 @@ export interface ScoredGem {
     tag: string;
     published_at: string;
   } | null;
+  featured?: boolean;
+  maintenance_score?: number;
+  bundle_size?: number | null;
+  is_verified?: boolean;
 }
 
 export interface MiningConfig {

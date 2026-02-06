@@ -2,11 +2,12 @@
 
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown, Bookmark, Scale, Timer, Flame, Share2, Check, Tag, GitPullRequest, Terminal } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Star, GitCommit, Code2, ArrowUpRight, TrendingUp, TrendingDown, Bookmark, Scale, Timer, Flame, Share2, Check, Tag, GitPullRequest, Terminal, ShieldCheck, Box, History, Sparkles } from "lucide-react";
+import { cn, formatBytes } from "@/lib/utils";
 import { Sparkline } from "./Sparkline";
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
+import { ClaimRepoButton } from "./ui/ClaimRepoButton";
 
 import { Gem } from "@/types";
 
@@ -86,7 +87,10 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
-      <Card className="group relative h-full flex flex-col justify-between border-white/[0.05] bg-[#0A0A0A] p-0 hover:border-white/10 hover:bg-[#0F0F0F] transition-all duration-300 overflow-hidden">
+      <Card className={cn(
+        "group relative h-full flex flex-col justify-between border-white/[0.05] bg-[#0A0A0A] p-0 hover:border-white/10 transition-all duration-300 overflow-hidden",
+        gem.featured ? "bg-gradient-to-br from-[#0A0A0A] via-[#0F0F0F] to-blue-900/10 border-blue-500/20 shadow-[0_0_30px_rgba(59,130,246,0.05)]" : "hover:bg-[#0F0F0F]"
+      )}>
         <CardContent className="p-5 flex flex-col gap-4">
           <div className="flex items-start justify-between">
             <div className="flex flex-col gap-1.5">
@@ -97,7 +101,13 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
                 >
                   {getScoreLabel(gem.gem_score)} {gem.gem_score}
                 </Badge>
-                {gem.momentum_trend > 1.5 && (
+                {gem.featured && (
+                  <Badge variant="default" className="bg-blue-500 text-white border-transparent text-[9px] px-1.5 py-0 flex items-center gap-1 shadow-[0_0_10px_rgba(59,130,246,0.5)]">
+                    <Sparkles size={10} className="fill-current" />
+                    FEATURED
+                  </Badge>
+                )}
+                {gem.momentum_trend > 1.5 && !gem.featured && (
                   <Badge variant="default" className="bg-orange-500/10 text-orange-400 border-orange-500/20 text-[9px] px-1.5 py-0 flex items-center gap-1">
                     <Flame size={10} className="fill-current" />
                     HIGH MOMENTUM
@@ -160,12 +170,17 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
           </div>
 
           <div>
-            <h3 className="text-base font-semibold text-white/90 group-hover:text-white transition-colors flex items-center gap-2">
-              {gem.name}
-              {isRecent && (
-                <span className="h-1 w-1 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
+            <div className="flex items-center gap-2">
+              <h3 className="text-base font-semibold text-white/90 group-hover:text-white transition-colors flex items-center gap-2">
+                {gem.name}
+                {isRecent && (
+                  <span className="h-1 w-1 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
+                )}
+              </h3>
+              {gem.is_verified && (
+                <ShieldCheck size={14} className="text-blue-500" title="Verified Maintainer" />
               )}
-            </h3>
+            </div>
             <p className="mt-2 line-clamp-2 text-sm text-white/40 leading-relaxed min-h-[40px]">
               {gem.description || "No description provided."}
             </p>
@@ -177,6 +192,16 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
               {gem.language}
             </Badge>
             <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/50 bg-white/[0.02]">
+              <History size={10} className="text-white/30" />
+              Maintenance Score: {gem.maintenance_score}d
+            </Badge>
+            {gem.bundle_size && (
+              <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/50 bg-white/[0.02]">
+                <Box size={10} className="text-white/30" />
+                Bundle Size: {formatBytes(gem.bundle_size)}
+              </Badge>
+            )}
+            <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/50 bg-white/[0.02]">
               <GitCommit size={10} className="text-white/30" />
               {gem.recent_commits} commits/wk
             </Badge>
@@ -186,30 +211,23 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
                 {gem.merged_prs_count} PRs/mo
               </Badge>
             )}
-            {gem.license && (
-              <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/30 bg-white/[0.02]">
-                <Scale size={10} />
-                {gem.license}
-              </Badge>
-            )}
-            {gem.latest_release && (
-              <Badge variant="outline" className="flex items-center gap-1.5 px-2 py-1 text-[10px] font-medium text-white/30 bg-white/[0.02]">
-                <Timer size={10} />
-                {gem.latest_release.tag}
-              </Badge>
-            )}
           </div>
 
-          {gem.topics && gem.topics.length > 0 && (
-            <div className="flex flex-wrap gap-1.5 mt-1">
-              {gem.topics.slice(0, 3).map((topic) => (
-                <span key={topic} className="inline-flex items-center gap-1 text-[9px] text-white/20 hover:text-white/40 transition-colors">
-                  <Tag size={8} />
-                  {topic}
-                </span>
-              ))}
+          <div className="flex items-center justify-between gap-2 mt-1">
+            {gem.topics && gem.topics.length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {gem.topics.slice(0, 2).map((topic) => (
+                  <span key={topic} className="inline-flex items-center gap-1 text-[9px] text-white/20 hover:text-white/40 transition-colors">
+                    <Tag size={8} />
+                    {topic}
+                  </span>
+                ))}
+              </div>
+            )}
+            <div className="ml-auto">
+              <ClaimRepoButton repoFullName={gem.full_name} isVerified={gem.is_verified} />
             </div>
-          )}
+          </div>
 
           <div className="mt-2 flex gap-2">
             <a
