@@ -1,39 +1,39 @@
 {
-  "last_mined": "2026-02-11T02:08:41.623Z",
-  "count": 11,
+  "last_mined": "2026-02-11T13:10:32.161Z",
+  "count": 8,
   "gems": [
     {
       "name": "gh-aw",
       "full_name": "github/gh-aw",
       "description": "GitHub Agentic Workflows",
       "url": "https://github.com/github/gh-aw",
-      "stars": 1356,
-      "forks_count": 106,
-      "open_issues_count": 84,
+      "stars": 1526,
+      "forks_count": 114,
+      "open_issues_count": 87,
       "language": "Go",
-      "gem_score": 176.54,
+      "gem_score": 174.33,
       "momentum_trend": 1,
-      "recent_commits": 408,
-      "merged_prs_count": 49,
+      "recent_commits": 405,
+      "merged_prs_count": 50,
       "topics": [
         "gh-extension",
         "actions",
         "cai"
       ],
       "activity": [
-        390,
-        406,
-        424,
-        408
+        371,
+        415,
+        430,
+        405
       ],
       "good_first_issues_url": "https://github.com/github/gh-aw/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-11T02:03:03Z",
+      "pushed_at": "2026-02-11T12:57:55Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.43.3",
-        "published_at": "2026-02-11T00:50:59Z"
+        "tag": "v0.43.5",
+        "published_at": "2026-02-11T07:18:36Z"
       },
       "featured": true,
       "maintenance_score": 0,
@@ -41,37 +41,37 @@
       "is_verified": false
     },
     {
-      "name": "AionUi",
-      "full_name": "iOfficeAI/AionUi",
-      "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
-      "url": "https://github.com/iOfficeAI/AionUi",
-      "stars": 14483,
-      "forks_count": 1103,
-      "open_issues_count": 95,
+      "name": "chrome-devtools-mcp",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "stars": 23795,
+      "forks_count": 1411,
+      "open_issues_count": 53,
       "language": "TypeScript",
-      "gem_score": 50.3,
-      "momentum_trend": 1.24,
-      "recent_commits": 173,
+      "gem_score": 34.82,
+      "momentum_trend": 0.88,
+      "recent_commits": 24,
       "merged_prs_count": 50,
       "topics": [
-        "ai",
-        "ai-agent",
-        "gemini"
+        "mcp-server",
+        "puppeteer",
+        "chrome-devtools"
       ],
       "activity": [
-        77,
-        141,
-        199,
-        173
+        31,
+        32,
+        19,
+        24
       ],
-      "good_first_issues_url": "https://github.com/iOfficeAI/AionUi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-10T13:37:04Z",
+      "good_first_issues_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-11T10:44:41Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v1.8.6",
-        "published_at": "2026-02-10T17:46:23Z"
+        "tag": "chrome-devtools-mcp-v0.17.0",
+        "published_at": "2026-02-10T08:32:41Z"
       },
       "featured": true,
       "maintenance_score": 0,
@@ -83,11 +83,11 @@
       "full_name": "EveryInc/compound-engineering-plugin",
       "description": "Official Claude Code compound engineering plugin",
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
-      "stars": 8184,
-      "forks_count": 642,
-      "open_issues_count": 44,
+      "stars": 8309,
+      "forks_count": 652,
+      "open_issues_count": 46,
       "language": "TypeScript",
-      "gem_score": 31.53,
+      "gem_score": 31.48,
       "momentum_trend": 1.02,
       "recent_commits": 14,
       "merged_prs_count": 28,
@@ -116,9 +116,9 @@
       "url": "https://github.com/modular/mojo-gpu-puzzles",
       "stars": 293,
       "forks_count": 303,
-      "open_issues_count": 4,
+      "open_issues_count": 5,
       "language": "Mojo",
-      "gem_score": 29.81,
+      "gem_score": 29.78,
       "momentum_trend": 0.6,
       "recent_commits": 3,
       "merged_prs_count": 15,
@@ -129,8 +129,8 @@
       ],
       "activity": [
         7,
-        1,
-        7,
+        2,
+        6,
         3
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -145,79 +145,6 @@
       "is_verified": false
     },
     {
-      "name": "shannon",
-      "full_name": "KeygraphHQ/shannon",
-      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
-      "url": "https://github.com/KeygraphHQ/shannon",
-      "stars": 19801,
-      "forks_count": 2023,
-      "open_issues_count": 7,
-      "language": "TypeScript",
-      "gem_score": 24.75,
-      "momentum_trend": 1.42,
-      "recent_commits": 9,
-      "merged_prs_count": 16,
-      "topics": [
-        "penetration-testing",
-        "pentesting",
-        "security-audit"
-      ],
-      "activity": [
-        14,
-        5,
-        0,
-        9
-      ],
-      "good_first_issues_url": "https://github.com/KeygraphHQ/shannon/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-10T20:21:48Z",
-      "is_hype": true,
-      "license": "AGPL-3.0",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "gitbutler",
-      "full_name": "gitbutlerapp/gitbutler",
-      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
-      "url": "https://github.com/gitbutlerapp/gitbutler",
-      "stars": 19041,
-      "forks_count": 820,
-      "open_issues_count": 636,
-      "language": "Rust",
-      "gem_score": 22.95,
-      "momentum_trend": 0.74,
-      "recent_commits": 202,
-      "merged_prs_count": 50,
-      "topics": [
-        "git",
-        "github",
-        "tauri"
-      ],
-      "activity": [
-        254,
-        317,
-        253,
-        202
-      ],
-      "good_first_issues_url": "https://github.com/gitbutlerapp/gitbutler/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-11T00:42:53Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "release/0.19.1",
-        "published_at": "2026-02-08T19:22:03Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "lightbug_http",
       "full_name": "Lightbug-HQ/lightbug_http",
       "description": "Simple and fast HTTP framework for Mojo! 🔥🐝",
@@ -226,7 +153,7 @@
       "forks_count": 46,
       "open_issues_count": 15,
       "language": "Mojo",
-      "gem_score": 14.5,
+      "gem_score": 14.49,
       "momentum_trend": 4.71,
       "recent_commits": 11,
       "merged_prs_count": 2,
@@ -265,7 +192,7 @@
       "open_issues_count": 79,
       "language": "Odin",
       "gem_score": 14.18,
-      "momentum_trend": 1.72,
+      "momentum_trend": 1.76,
       "recent_commits": 27,
       "merged_prs_count": 24,
       "topics": [
@@ -274,7 +201,7 @@
         "lsp"
       ],
       "activity": [
-        8,
+        7,
         17,
         22,
         27
@@ -289,20 +216,20 @@
         "published_at": "2026-01-31T20:28:23Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "langextract",
       "full_name": "google/langextract",
       "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
       "url": "https://github.com/google/langextract",
-      "stars": 28570,
-      "forks_count": 1925,
-      "open_issues_count": 78,
+      "stars": 29861,
+      "forks_count": 1993,
+      "open_issues_count": 79,
       "language": "Python",
-      "gem_score": 5.44,
+      "gem_score": 5.41,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -328,37 +255,6 @@
       },
       "featured": true,
       "maintenance_score": 43,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "TradingAgents-CN",
-      "full_name": "hsliuping/TradingAgents-CN",
-      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
-      "url": "https://github.com/hsliuping/TradingAgents-CN",
-      "stars": 16685,
-      "forks_count": 3617,
-      "open_issues_count": 120,
-      "language": "Python",
-      "gem_score": 4.97,
-      "momentum_trend": 1,
-      "recent_commits": 1,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/hsliuping/TradingAgents-CN/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-08T09:46:18Z",
-      "is_hype": true,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 87,
       "bundle_size": null,
       "is_verified": false
     },
@@ -395,7 +291,7 @@
       "featured": false,
       "maintenance_score": 79,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     }
   ]
 }
