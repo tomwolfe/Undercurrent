@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-02-10T13:13:13.234Z",
+  "last_mined": "2026-02-11T02:08:41.623Z",
   "count": 11,
   "gems": [
     {
@@ -7,13 +7,13 @@
       "full_name": "github/gh-aw",
       "description": "GitHub Agentic Workflows",
       "url": "https://github.com/github/gh-aw",
-      "stars": 1150,
-      "forks_count": 96,
-      "open_issues_count": 66,
+      "stars": 1356,
+      "forks_count": 106,
+      "open_issues_count": 84,
       "language": "Go",
-      "gem_score": 180.3,
-      "momentum_trend": 1.06,
-      "recent_commits": 434,
+      "gem_score": 176.54,
+      "momentum_trend": 1,
+      "recent_commits": 408,
       "merged_prs_count": 49,
       "topics": [
         "gh-extension",
@@ -21,19 +21,19 @@
         "cai"
       ],
       "activity": [
-        414,
-        393,
-        421,
-        434
+        390,
+        406,
+        424,
+        408
       ],
       "good_first_issues_url": "https://github.com/github/gh-aw/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-10T12:33:02Z",
+      "pushed_at": "2026-02-11T02:03:03Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.43.0",
-        "published_at": "2026-02-10T06:54:11Z"
+        "tag": "v0.43.3",
+        "published_at": "2026-02-11T00:50:59Z"
       },
       "featured": true,
       "maintenance_score": 0,
@@ -45,13 +45,13 @@
       "full_name": "iOfficeAI/AionUi",
       "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
       "url": "https://github.com/iOfficeAI/AionUi",
-      "stars": 14181,
-      "forks_count": 1084,
-      "open_issues_count": 93,
+      "stars": 14483,
+      "forks_count": 1103,
+      "open_issues_count": 95,
       "language": "TypeScript",
-      "gem_score": 50.56,
-      "momentum_trend": 1.29,
-      "recent_commits": 177,
+      "gem_score": 50.3,
+      "momentum_trend": 1.24,
+      "recent_commits": 173,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -59,19 +59,19 @@
         "gemini"
       ],
       "activity": [
-        76,
-        140,
-        196,
-        177
+        77,
+        141,
+        199,
+        173
       ],
       "good_first_issues_url": "https://github.com/iOfficeAI/AionUi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-02-10T12:21:04Z",
+      "pushed_at": "2026-02-10T13:37:04Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v1.8.5",
-        "published_at": "2026-02-10T00:57:19Z"
+        "tag": "v1.8.6",
+        "published_at": "2026-02-10T17:46:23Z"
       },
       "featured": true,
       "maintenance_score": 0,
@@ -83,18 +83,18 @@
       "full_name": "EveryInc/compound-engineering-plugin",
       "description": "Official Claude Code compound engineering plugin",
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
-      "stars": 8044,
-      "forks_count": 637,
+      "stars": 8184,
+      "forks_count": 642,
       "open_issues_count": 44,
       "language": "TypeScript",
-      "gem_score": 31.59,
+      "gem_score": 31.53,
       "momentum_trend": 1.02,
       "recent_commits": 14,
       "merged_prs_count": 28,
       "topics": [],
       "activity": [
-        17,
-        23,
+        22,
+        18,
         1,
         14
       ],
@@ -105,7 +105,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
@@ -114,11 +114,11 @@
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 292,
-      "forks_count": 304,
-      "open_issues_count": 3,
+      "stars": 293,
+      "forks_count": 303,
+      "open_issues_count": 4,
       "language": "Mojo",
-      "gem_score": 29.85,
+      "gem_score": 29.81,
       "momentum_trend": 0.6,
       "recent_commits": 3,
       "merged_prs_count": 15,
@@ -140,6 +140,41 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "shannon",
+      "full_name": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "stars": 19801,
+      "forks_count": 2023,
+      "open_issues_count": 7,
+      "language": "TypeScript",
+      "gem_score": 24.75,
+      "momentum_trend": 1.42,
+      "recent_commits": 9,
+      "merged_prs_count": 16,
+      "topics": [
+        "penetration-testing",
+        "pentesting",
+        "security-audit"
+      ],
+      "activity": [
+        14,
+        5,
+        0,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/KeygraphHQ/shannon/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-10T20:21:48Z",
+      "is_hype": true,
+      "license": "AGPL-3.0",
+      "latest_release": null,
+      "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
@@ -149,13 +184,13 @@
       "full_name": "gitbutlerapp/gitbutler",
       "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
       "url": "https://github.com/gitbutlerapp/gitbutler",
-      "stars": 18787,
-      "forks_count": 810,
-      "open_issues_count": 633,
+      "stars": 19041,
+      "forks_count": 820,
+      "open_issues_count": 636,
       "language": "Rust",
-      "gem_score": 23.17,
-      "momentum_trend": 0.85,
-      "recent_commits": 232,
+      "gem_score": 22.95,
+      "momentum_trend": 0.74,
+      "recent_commits": 202,
       "merged_prs_count": 50,
       "topics": [
         "git",
@@ -163,14 +198,14 @@
         "tauri"
       ],
       "activity": [
-        260,
-        313,
-        244,
-        232
+        254,
+        317,
+        253,
+        202
       ],
       "good_first_issues_url": "https://github.com/gitbutlerapp/gitbutler/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-02-10T06:53:54Z",
+      "pushed_at": "2026-02-11T00:42:53Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
@@ -179,41 +214,6 @@
       },
       "featured": true,
       "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "shannon",
-      "full_name": "KeygraphHQ/shannon",
-      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
-      "url": "https://github.com/KeygraphHQ/shannon",
-      "stars": 19100,
-      "forks_count": 1958,
-      "open_issues_count": 10,
-      "language": "TypeScript",
-      "gem_score": 21.82,
-      "momentum_trend": 0.79,
-      "recent_commits": 5,
-      "merged_prs_count": 12,
-      "topics": [
-        "penetration-testing",
-        "pentesting",
-        "security-audit"
-      ],
-      "activity": [
-        8,
-        9,
-        2,
-        5
-      ],
-      "good_first_issues_url": "https://github.com/KeygraphHQ/shannon/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-09T21:30:21Z",
-      "is_hype": true,
-      "license": "AGPL-3.0",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 33,
       "bundle_size": null,
       "is_verified": false
     },
@@ -251,7 +251,7 @@
         "published_at": "2026-02-09T19:40:31Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
@@ -261,12 +261,12 @@
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
       "stars": 876,
-      "forks_count": 131,
+      "forks_count": 132,
       "open_issues_count": 79,
       "language": "Odin",
-      "gem_score": 14.48,
-      "momentum_trend": 2.41,
-      "recent_commits": 33,
+      "gem_score": 14.18,
+      "momentum_trend": 1.72,
+      "recent_commits": 27,
       "merged_prs_count": 24,
       "topics": [
         "language-server",
@@ -276,8 +276,8 @@
       "activity": [
         8,
         17,
-        16,
-        33
+        22,
+        27
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -291,18 +291,18 @@
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "langextract",
       "full_name": "google/langextract",
       "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
       "url": "https://github.com/google/langextract",
-      "stars": 26782,
-      "forks_count": 1839,
-      "open_issues_count": 77,
+      "stars": 28570,
+      "forks_count": 1925,
+      "open_issues_count": 78,
       "language": "Python",
-      "gem_score": 5.49,
+      "gem_score": 5.44,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -327,7 +327,7 @@
         "published_at": "2025-11-27T04:49:59Z"
       },
       "featured": true,
-      "maintenance_score": 42,
+      "maintenance_score": 43,
       "bundle_size": null,
       "is_verified": false
     },
@@ -336,8 +336,8 @@
       "full_name": "hsliuping/TradingAgents-CN",
       "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
       "url": "https://github.com/hsliuping/TradingAgents-CN",
-      "stars": 16574,
-      "forks_count": 3607,
+      "stars": 16685,
+      "forks_count": 3617,
       "open_issues_count": 120,
       "language": "Python",
       "gem_score": 4.97,
@@ -367,9 +367,9 @@
       "full_name": "tairov/llama2.mojo",
       "description": "Inference Llama 2 in one file of pure 🔥",
       "url": "https://github.com/tairov/llama2.mojo",
-      "stars": 2116,
+      "stars": 2117,
       "forks_count": 136,
-      "open_issues_count": 8,
+      "open_issues_count": 0,
       "language": "Mojo",
       "gem_score": 4,
       "momentum_trend": 1,
@@ -393,7 +393,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 78,
+      "maintenance_score": 79,
       "bundle_size": null,
       "is_verified": true
     }
