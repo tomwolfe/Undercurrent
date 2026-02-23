@@ -1,45 +1,7 @@
 {
-  "last_mined": "2026-02-23T02:02:16.395Z",
-  "count": 85,
+  "last_mined": "2026-02-23T13:03:38.129Z",
+  "count": 40,
   "gems": [
-    {
-      "name": "apple-browsers",
-      "full_name": "duckduckgo/apple-browsers",
-      "description": "DuckDuckGo iOS & macOS browsers",
-      "url": "https://github.com/duckduckgo/apple-browsers",
-      "stars": 174,
-      "forks_count": 47,
-      "open_issues_count": 0,
-      "language": "Swift",
-      "gem_score": 52.23,
-      "momentum_trend": 0.89,
-      "recent_commits": 91,
-      "merged_prs_count": 50,
-      "topics": [
-        "browsers",
-        "duckduckgo",
-        "ios"
-      ],
-      "activity": [
-        97,
-        105,
-        104,
-        91
-      ],
-      "good_first_issues_url": "https://github.com/duckduckgo/apple-browsers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T01:16:47Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "7.207.0+ios",
-        "published_at": "2026-02-16T12:29:45Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
@@ -49,8 +11,8 @@
       "forks_count": 27,
       "open_issues_count": 23,
       "language": "Odin",
-      "gem_score": 50.5,
-      "momentum_trend": 0.86,
+      "gem_score": 50.44,
+      "momentum_trend": 0.88,
       "recent_commits": 21,
       "merged_prs_count": 10,
       "topics": [
@@ -59,7 +21,7 @@
         "odin-lang"
       ],
       "activity": [
-        21,
+        20,
         31,
         21,
         21
@@ -76,7 +38,7 @@
       "featured": false,
       "maintenance_score": 1,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "gdzig",
@@ -87,7 +49,7 @@
       "forks_count": 15,
       "open_issues_count": 12,
       "language": "Zig",
-      "gem_score": 45.55,
+      "gem_score": 45.51,
       "momentum_trend": 3.38,
       "recent_commits": 9,
       "merged_prs_count": 7,
@@ -105,183 +67,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 4,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "sourcekit-bazel-bsp",
-      "full_name": "spotify/sourcekit-bazel-bsp",
-      "description": "iOS Development (and more) in alternative IDEs like Cursor / VSCode, for Bazel projects",
-      "url": "https://github.com/spotify/sourcekit-bazel-bsp",
-      "stars": 412,
-      "forks_count": 27,
-      "open_issues_count": 10,
-      "language": "Swift",
-      "gem_score": 42.25,
-      "momentum_trend": 0.39,
-      "recent_commits": 3,
-      "merged_prs_count": 21,
-      "topics": [],
-      "activity": [
-        10,
-        10,
-        3,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/spotify/sourcekit-bazel-bsp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-22T09:53:50Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "0.7.1",
-        "published_at": "2026-02-15T15:41:39Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Nook",
-      "full_name": "nook-browser/Nook",
-      "description": "A new browser, not owned by Atlassian.",
-      "url": "https://github.com/nook-browser/Nook",
-      "stars": 1812,
-      "forks_count": 66,
-      "open_issues_count": 31,
-      "language": "Swift",
-      "gem_score": 37.84,
-      "momentum_trend": 7.5,
-      "recent_commits": 30,
-      "merged_prs_count": 19,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        12,
-        30
-      ],
-      "good_first_issues_url": "https://github.com/nook-browser/Nook/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T21:11:49Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v1.0.5",
-        "published_at": "2025-11-29T23:55:22Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "swift-build",
-      "full_name": "swiftlang/swift-build",
-      "description": "A high-level build system based on llbuild, used by Xcode, Swift Playground, and the Swift Package Manager",
-      "url": "https://github.com/swiftlang/swift-build",
-      "stars": 2174,
-      "forks_count": 151,
-      "open_issues_count": 60,
-      "language": "Swift",
-      "gem_score": 35.2,
-      "momentum_trend": 1.78,
-      "recent_commits": 32,
-      "merged_prs_count": 45,
-      "topics": [
-        "build",
-        "build-system",
-        "build-tool"
-      ],
-      "activity": [
-        19,
-        19,
-        16,
-        32
-      ],
-      "good_first_issues_url": "https://github.com/swiftlang/swift-build/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-22T22:30:39Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Fabric",
-      "full_name": "Fabric-Project/Fabric",
-      "description": "Node Creative Coding / 3D / Image Processing tool inspired by Quartz Composer",
-      "url": "https://github.com/Fabric-Project/Fabric",
-      "stars": 446,
-      "forks_count": 20,
-      "open_issues_count": 29,
-      "language": "Swift",
-      "gem_score": 34.01,
-      "momentum_trend": 0.88,
-      "recent_commits": 12,
-      "merged_prs_count": 6,
-      "topics": [
-        "3d",
-        "graphics",
-        "metal"
-      ],
-      "activity": [
-        19,
-        22,
-        0,
-        12
-      ],
-      "good_first_issues_url": "https://github.com/Fabric-Project/Fabric/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-22T22:54:06Z",
-      "is_hype": false,
-      "license": "BSD-3-Clause",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Noora",
-      "full_name": "tuist/Noora",
-      "description": "🎨 A design system for Swift CLIs and Phoenix apps",
-      "url": "https://github.com/tuist/Noora",
-      "stars": 353,
-      "forks_count": 20,
-      "open_issues_count": 14,
-      "language": "Swift",
-      "gem_score": 33.01,
-      "momentum_trend": 1.11,
-      "recent_commits": 21,
-      "merged_prs_count": 50,
-      "topics": [
-        "terminal",
-        "phoenix",
-        "swift"
-      ],
-      "activity": [
-        19,
-        17,
-        21,
-        21
-      ],
-      "good_first_issues_url": "https://github.com/tuist/Noora/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-23T01:37:04Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "web-0.64.1",
-        "published_at": "2026-02-20T11:25:17Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": false
     },
@@ -294,7 +80,7 @@
       "forks_count": 311,
       "open_issues_count": 5,
       "language": "Mojo",
-      "gem_score": 31.61,
+      "gem_score": 31.59,
       "momentum_trend": 1.8,
       "recent_commits": 6,
       "merged_prs_count": 15,
@@ -325,11 +111,11 @@
       "full_name": "abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "url": "https://github.com/abhigyanpatwari/GitNexus",
-      "stars": 1532,
-      "forks_count": 118,
+      "stars": 1726,
+      "forks_count": 131,
       "open_issues_count": 9,
       "language": "TypeScript",
-      "gem_score": 31.58,
+      "gem_score": 31.04,
       "momentum_trend": 2.14,
       "recent_commits": 30,
       "merged_prs_count": 7,
@@ -349,81 +135,7 @@
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "element-x-ios",
-      "full_name": "element-hq/element-x-ios",
-      "description": "Next generation Matrix client for iOS built with SwiftUI on top of matrix-rust-sdk.",
-      "url": "https://github.com/element-hq/element-x-ios",
-      "stars": 750,
-      "forks_count": 251,
-      "open_issues_count": 368,
-      "language": "Swift",
-      "gem_score": 31.24,
-      "momentum_trend": 0.65,
-      "recent_commits": 17,
-      "merged_prs_count": 49,
-      "topics": [
-        "matrix"
-      ],
-      "activity": [
-        30,
-        16,
-        33,
-        17
-      ],
-      "good_first_issues_url": "https://github.com/element-hq/element-x-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T12:11:14Z",
-      "is_hype": false,
-      "license": "AGPL-3.0",
-      "latest_release": {
-        "tag": "release/26.02.2",
-        "published_at": "2026-02-12T09:41:14Z"
-      },
-      "featured": false,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "agents",
-      "full_name": "cloudflare/agents",
-      "description": "Build and deploy AI Agents on Cloudflare ",
-      "url": "https://github.com/cloudflare/agents",
-      "stars": 3758,
-      "forks_count": 404,
-      "open_issues_count": 40,
-      "language": "TypeScript",
-      "gem_score": 30.54,
-      "momentum_trend": 1.77,
-      "recent_commits": 49,
-      "merged_prs_count": 48,
-      "topics": [
-        "agents",
-        "ai",
-        "cloudflare"
-      ],
-      "activity": [
-        16,
-        33,
-        34,
-        49
-      ],
-      "good_first_issues_url": "https://github.com/cloudflare/agents/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T23:46:51Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "agents@0.5.1",
-        "published_at": "2026-02-20T10:42:20Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "libqt6zig",
@@ -434,7 +146,7 @@
       "forks_count": 6,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 30.29,
+      "gem_score": 30.27,
       "momentum_trend": 1.38,
       "recent_commits": 6,
       "merged_prs_count": 12,
@@ -465,11 +177,11 @@
       "full_name": "marler8997/msvcup",
       "description": "Hermetic install of MSVC/SDK from the CLI",
       "url": "https://github.com/marler8997/msvcup",
-      "stars": 315,
+      "stars": 314,
       "forks_count": 6,
       "open_issues_count": 7,
       "language": "Zig",
-      "gem_score": 30.05,
+      "gem_score": 30.04,
       "momentum_trend": 3,
       "recent_commits": 7,
       "merged_prs_count": 8,
@@ -482,7 +194,7 @@
       ],
       "good_first_issues_url": "https://github.com/marler8997/msvcup/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T00:43:17Z",
+      "pushed_at": "2026-02-23T03:42:30Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -490,261 +202,7 @@
         "published_at": "2026-02-22T04:28:47Z"
       },
       "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "RuntimeViewer",
-      "full_name": "MxIris-Reverse-Engineering/RuntimeViewer",
-      "description": "Objective-C & Swift Runtime Viewer for macOS and iOS",
-      "url": "https://github.com/MxIris-Reverse-Engineering/RuntimeViewer",
-      "stars": 280,
-      "forks_count": 11,
-      "open_issues_count": 4,
-      "language": "Swift",
-      "gem_score": 28.33,
-      "momentum_trend": 4.24,
-      "recent_commits": 48,
-      "merged_prs_count": 16,
-      "topics": [],
-      "activity": [
-        13,
-        13,
-        8,
-        48
-      ],
-      "good_first_issues_url": "https://github.com/MxIris-Reverse-Engineering/RuntimeViewer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T12:27:01Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v2.0.0-RC.1",
-        "published_at": "2026-02-22T07:43:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "try-swift-tokyo",
-      "full_name": "tryswift/try-swift-tokyo",
-      "description": "Single Source of try! Swift Tokyo",
-      "url": "https://github.com/tryswift/try-swift-tokyo",
-      "stars": 187,
-      "forks_count": 33,
-      "open_issues_count": 6,
-      "language": "Swift",
-      "gem_score": 27.46,
-      "momentum_trend": 0.22,
-      "recent_commits": 8,
-      "merged_prs_count": 50,
-      "topics": [
-        "swift",
-        "swiftui",
-        "tca"
-      ],
-      "activity": [
-        72,
-        27,
-        9,
-        8
-      ],
-      "good_first_issues_url": "https://github.com/tryswift/try-swift-tokyo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T08:20:45Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "1.2.0",
-        "published_at": "2024-03-20T05:12:06Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "FlowDown",
-      "full_name": "Lakr233/FlowDown",
-      "description": "https://flowdown.ai/",
-      "url": "https://github.com/Lakr233/FlowDown",
-      "stars": 965,
-      "forks_count": 87,
-      "open_issues_count": 7,
-      "language": "Swift",
-      "gem_score": 26.67,
-      "momentum_trend": 3.14,
-      "recent_commits": 22,
-      "merged_prs_count": 14,
-      "topics": [],
-      "activity": [
-        10,
-        0,
-        11,
-        22
-      ],
-      "good_first_issues_url": "https://github.com/Lakr233/FlowDown/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T03:03:57Z",
-      "is_hype": true,
-      "license": "AGPL-3.0",
-      "latest_release": {
-        "tag": "4.6.0",
-        "published_at": "2026-02-20T14:34:30Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "LaunchNow",
-      "full_name": "ggkevinnnn/LaunchNow",
-      "description": "Alternative Launchpad for MacOS Tahoe. ",
-      "url": "https://github.com/ggkevinnnn/LaunchNow",
-      "stars": 719,
-      "forks_count": 38,
-      "open_issues_count": 30,
-      "language": "Swift",
-      "gem_score": 25.6,
-      "momentum_trend": 4.67,
-      "recent_commits": 14,
-      "merged_prs_count": 2,
-      "topics": [],
-      "activity": [
-        0,
-        7,
-        2,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/ggkevinnnn/LaunchNow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T15:55:51Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v1.7.2-1",
-        "published_at": "2026-02-22T15:01:34Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "elementary-ui",
-      "full_name": "elementary-swift/elementary-ui",
-      "description": "Build SwiftUI-style apps that run in the browser",
-      "url": "https://github.com/elementary-swift/elementary-ui",
-      "stars": 327,
-      "forks_count": 9,
-      "open_issues_count": 3,
-      "language": "Swift",
-      "gem_score": 25.58,
-      "momentum_trend": 3.75,
-      "recent_commits": 10,
-      "merged_prs_count": 16,
-      "topics": [
-        "frontend",
-        "swift",
-        "swiftui"
-      ],
-      "activity": [
-        4,
-        0,
-        4,
-        10
-      ],
-      "good_first_issues_url": "https://github.com/elementary-swift/elementary-ui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T06:42:49Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "0.1.5",
-        "published_at": "2026-02-18T13:47:15Z"
-      },
-      "featured": false,
       "maintenance_score": 1,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Petrichor",
-      "full_name": "kushalpandya/Petrichor",
-      "description": "An offline macOS music player",
-      "url": "https://github.com/kushalpandya/Petrichor",
-      "stars": 1322,
-      "forks_count": 50,
-      "open_issues_count": 21,
-      "language": "Swift",
-      "gem_score": 24.98,
-      "momentum_trend": 1.91,
-      "recent_commits": 7,
-      "merged_prs_count": 12,
-      "topics": [
-        "audio-player",
-        "desktop-app",
-        "macos"
-      ],
-      "activity": [
-        2,
-        4,
-        5,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/kushalpandya/Petrichor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T00:59:05Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.4.0",
-        "published_at": "2026-02-23T00:31:28Z"
-      },
-      "featured": false,
-      "maintenance_score": 19,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "mlem",
-      "full_name": "mlemgroup/mlem",
-      "description": "Mlem for Lemmy",
-      "url": "https://github.com/mlemgroup/mlem",
-      "stars": 230,
-      "forks_count": 33,
-      "open_issues_count": 329,
-      "language": "Swift",
-      "gem_score": 24.83,
-      "momentum_trend": 2.44,
-      "recent_commits": 13,
-      "merged_prs_count": 32,
-      "topics": [
-        "ios",
-        "lemmy",
-        "swift"
-      ],
-      "activity": [
-        3,
-        5,
-        8,
-        13
-      ],
-      "good_first_issues_url": "https://github.com/mlemgroup/mlem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T11:28:17Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "release-1.3",
-        "published_at": "2024-05-05T19:18:53Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -754,10 +212,10 @@
       "description": "Flow Control: a programmer's text editor",
       "url": "https://github.com/neurocyte/flow",
       "stars": 1689,
-      "forks_count": 88,
+      "forks_count": 89,
       "open_issues_count": 61,
       "language": "Zig",
-      "gem_score": 23.08,
+      "gem_score": 23.07,
       "momentum_trend": 0.59,
       "recent_commits": 35,
       "merged_prs_count": 13,
@@ -767,8 +225,8 @@
         "text-editor"
       ],
       "activity": [
+        71,
         66,
-        72,
         41,
         35
       ],
@@ -782,40 +240,7 @@
         "published_at": "2026-02-14T16:37:22Z"
       },
       "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Luna",
-      "full_name": "cranci1/Luna",
-      "description": null,
-      "url": "https://github.com/cranci1/Luna",
-      "stars": 156,
-      "forks_count": 38,
-      "open_issues_count": 3,
-      "language": "Swift",
-      "gem_score": 22.65,
-      "momentum_trend": 1,
-      "recent_commits": 14,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/cranci1/Luna/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T16:55:54Z",
-      "is_hype": false,
-      "latest_release": {
-        "tag": "v1.0.0",
-        "published_at": "2026-02-22T16:55:54Z"
-      },
-      "featured": false,
-      "maintenance_score": 53,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
@@ -828,7 +253,7 @@
       "forks_count": 18,
       "open_issues_count": 4,
       "language": "Zig",
-      "gem_score": 22.43,
+      "gem_score": 22.42,
       "momentum_trend": 1.31,
       "recent_commits": 7,
       "merged_prs_count": 10,
@@ -838,8 +263,8 @@
         "esp-idf"
       ],
       "activity": [
-        1,
-        11,
+        2,
+        10,
         4,
         7
       ],
@@ -864,7 +289,7 @@
       "open_issues_count": 0,
       "language": "Zig",
       "gem_score": 21.02,
-      "momentum_trend": 0.03,
+      "momentum_trend": 0.04,
       "recent_commits": 1,
       "merged_prs_count": 42,
       "topics": [
@@ -873,9 +298,9 @@
         "webassembly"
       ],
       "activity": [
-        38,
-        27,
-        21,
+        35,
+        28,
+        20,
         1
       ],
       "good_first_issues_url": "https://github.com/arrufat/zignal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -888,9 +313,9 @@
         "published_at": "2025-12-15T20:45:57Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "sig",
@@ -901,7 +326,7 @@
       "forks_count": 54,
       "open_issues_count": 67,
       "language": "Zig",
-      "gem_score": 20.41,
+      "gem_score": 20.4,
       "momentum_trend": 2.06,
       "recent_commits": 11,
       "merged_prs_count": 27,
@@ -914,7 +339,7 @@
       ],
       "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T22:01:19Z",
+      "pushed_at": "2026-02-23T11:46:21Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -924,100 +349,29 @@
       "featured": false,
       "maintenance_score": 2,
       "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "iOS",
-      "full_name": "home-assistant/iOS",
-      "description": ":iphone: Home Assistant for Apple platforms",
-      "url": "https://github.com/home-assistant/iOS",
-      "stars": 2103,
-      "forks_count": 420,
-      "open_issues_count": 179,
-      "language": "Swift",
-      "gem_score": 20.24,
-      "momentum_trend": 0.69,
-      "recent_commits": 15,
-      "merged_prs_count": 50,
-      "topics": [
-        "swift",
-        "home-assistant",
-        "home-automation"
-      ],
-      "activity": [
-        30,
-        16,
-        19,
-        15
-      ],
-      "good_first_issues_url": "https://github.com/home-assistant/iOS/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T20:37:44Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "release/2026.2.1/2026.1766",
-        "published_at": "2026-02-11T14:07:27Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "claude-code",
-      "full_name": "anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "url": "https://github.com/anthropics/claude-code",
-      "stars": 68986,
-      "forks_count": 5413,
-      "open_issues_count": 6412,
-      "language": "Shell",
-      "gem_score": 19.95,
-      "momentum_trend": 0.55,
-      "recent_commits": 9,
-      "merged_prs_count": 7,
-      "topics": [],
-      "activity": [
-        13,
-        10,
-        26,
-        9
-      ],
-      "good_first_issues_url": "https://github.com/anthropics/claude-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-20T23:48:56Z",
-      "is_hype": true,
-      "latest_release": {
-        "tag": "v2.1.50",
-        "published_at": "2026-02-20T23:48:57Z"
-      },
-      "featured": true,
-      "maintenance_score": 5,
-      "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "astroz",
       "full_name": "ATTron/astroz",
       "description": "Astrodynamics and Spacecraft Toolkit Written in Zig! Features orbit prop, celestial precession, CCSDS parsing, RF parsing, fits image parsing, and more!",
       "url": "https://github.com/ATTron/astroz",
-      "stars": 237,
+      "stars": 238,
       "forks_count": 11,
       "open_issues_count": 2,
       "language": "Zig",
-      "gem_score": 19.82,
-      "momentum_trend": 0.19,
+      "gem_score": 19.53,
+      "momentum_trend": 0.2,
       "recent_commits": 1,
-      "merged_prs_count": 18,
+      "merged_prs_count": 17,
       "topics": [
         "astro",
         "astronomy",
         "astrophysics"
       ],
       "activity": [
-        7,
-        5,
+        8,
+        3,
         4,
         1
       ],
@@ -1031,110 +385,7 @@
         "published_at": "2026-02-17T02:18:16Z"
       },
       "featured": false,
-      "maintenance_score": 5,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "pentagi",
-      "full_name": "vxcontrol/pentagi",
-      "description": "✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "stars": 7062,
-      "forks_count": 815,
-      "open_issues_count": 17,
-      "language": "Go",
-      "gem_score": 19.76,
-      "momentum_trend": 8.63,
-      "recent_commits": 23,
-      "merged_prs_count": 11,
-      "topics": [
-        "ai-agents",
-        "ai-security-tool",
-        "autonomous-agents"
-      ],
-      "activity": [
-        0,
-        8,
-        0,
-        23
-      ],
-      "good_first_issues_url": "https://github.com/vxcontrol/pentagi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T19:11:25Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.1.0",
-        "published_at": "2026-01-17T23:30:43Z"
-      },
-      "featured": false,
-      "maintenance_score": 150,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "moblin",
-      "full_name": "eerimoq/moblin",
-      "description": "Moblin, a free iOS app for IRL streaming.",
-      "url": "https://github.com/eerimoq/moblin",
-      "stars": 541,
-      "forks_count": 73,
-      "open_issues_count": 5,
-      "language": "Swift",
-      "gem_score": 19.26,
-      "momentum_trend": 0.67,
-      "recent_commits": 38,
-      "merged_prs_count": 11,
-      "topics": [],
-      "activity": [
-        72,
-        48,
-        49,
-        38
-      ],
-      "good_first_issues_url": "https://github.com/eerimoq/moblin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T17:35:25Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
       "maintenance_score": 6,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "inline",
-      "full_name": "inline-chat/inline",
-      "description": "Inline is a fast, lightweight, scalable, and powerful work chat app which enables unprecedented collaboration bandwidth.",
-      "url": "https://github.com/inline-chat/inline",
-      "stars": 642,
-      "forks_count": 26,
-      "open_issues_count": 1,
-      "language": "Swift",
-      "gem_score": 18.86,
-      "momentum_trend": 0.67,
-      "recent_commits": 75,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        81,
-        168,
-        85,
-        75
-      ],
-      "good_first_issues_url": "https://github.com/inline-chat/inline/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T20:21:43Z",
-      "is_hype": false,
-      "license": "AGPL-3.0",
-      "latest_release": {
-        "tag": "cli-v0.3.4",
-        "published_at": "2026-02-18T21:34:34Z"
-      },
-      "featured": false,
-      "maintenance_score": 22,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1145,11 +396,11 @@
       "url": "https://github.com/Senryoku/Deecy",
       "stars": 183,
       "forks_count": 3,
-      "open_issues_count": 40,
+      "open_issues_count": 42,
       "language": "Zig",
-      "gem_score": 17.87,
-      "momentum_trend": 0.78,
-      "recent_commits": 13,
+      "gem_score": 17.65,
+      "momentum_trend": 0.71,
+      "recent_commits": 12,
       "merged_prs_count": 3,
       "topics": [
         "dreamcast",
@@ -1157,14 +408,14 @@
         "zig"
       ],
       "activity": [
-        6,
-        11,
-        33,
-        13
+        5,
+        12,
+        34,
+        12
       ],
       "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T13:21:29Z",
+      "pushed_at": "2026-02-23T11:05:11Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -1181,11 +432,11 @@
       "full_name": "mewz-project/mewz",
       "description": "A unikernel designed specifically for running Wasm applications and compatible with WASI",
       "url": "https://github.com/mewz-project/mewz",
-      "stars": 663,
+      "stars": 664,
       "forks_count": 18,
       "open_issues_count": 10,
       "language": "Zig",
-      "gem_score": 17.45,
+      "gem_score": 17.44,
       "momentum_trend": 1,
       "recent_commits": 2,
       "merged_prs_count": 8,
@@ -1215,80 +466,15 @@
       "is_verified": false
     },
     {
-      "name": "OpenSwiftUI",
-      "full_name": "OpenSwiftUIProject/OpenSwiftUI",
-      "description": "Open source implementation of Apple's SwiftUI.",
-      "url": "https://github.com/OpenSwiftUIProject/OpenSwiftUI",
-      "stars": 2025,
-      "forks_count": 60,
-      "open_issues_count": 28,
-      "language": "Swift",
-      "gem_score": 17.38,
-      "momentum_trend": 0.26,
-      "recent_commits": 3,
-      "merged_prs_count": 45,
-      "topics": [],
-      "activity": [
-        14,
-        17,
-        3,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/OpenSwiftUIProject/OpenSwiftUI/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T20:01:21Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "0.15.0",
-        "published_at": "2026-02-08T19:38:21Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "skills",
-      "full_name": "huggingface/skills",
-      "description": "No description available.",
-      "url": "https://github.com/huggingface/skills",
-      "stars": 2683,
-      "forks_count": 190,
-      "open_issues_count": 2,
-      "language": "Python",
-      "gem_score": 16.81,
-      "momentum_trend": 0.5,
-      "recent_commits": 1,
-      "merged_prs_count": 4,
-      "topics": [],
-      "activity": [
-        4,
-        2,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/huggingface/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-20T10:24:20Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "lightbug_http",
       "full_name": "Lightbug-HQ/lightbug_http",
       "description": "Simple and fast HTTP framework for Mojo! 🔥🐝",
       "url": "https://github.com/Lightbug-HQ/lightbug_http",
-      "stars": 719,
+      "stars": 720,
       "forks_count": 46,
       "open_issues_count": 9,
       "language": "Mojo",
-      "gem_score": 16.7,
+      "gem_score": 16.69,
       "momentum_trend": 0.89,
       "recent_commits": 8,
       "merged_prs_count": 6,
@@ -1318,78 +504,33 @@
       "is_verified": false
     },
     {
-      "name": "deltachat-ios",
-      "full_name": "deltachat/deltachat-ios",
-      "description": "Decentralized private messenger with chat-shared tools and games for iOS",
-      "url": "https://github.com/deltachat/deltachat-ios",
-      "stars": 413,
-      "forks_count": 67,
-      "open_issues_count": 39,
-      "language": "Swift",
-      "gem_score": 15.9,
-      "momentum_trend": 2,
-      "recent_commits": 18,
-      "merged_prs_count": 19,
-      "topics": [
-        "email",
-        "deltachat",
-        "messenger"
-      ],
+      "name": "skills",
+      "full_name": "huggingface/skills",
+      "description": "No description available.",
+      "url": "https://github.com/huggingface/skills",
+      "stars": 3375,
+      "forks_count": 228,
+      "open_issues_count": 2,
+      "language": "Python",
+      "gem_score": 16.34,
+      "momentum_trend": 0.5,
+      "recent_commits": 1,
+      "merged_prs_count": 4,
+      "topics": [],
       "activity": [
-        7,
-        15,
-        5,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/deltachat/deltachat-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T13:30:39Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "v2.9.0",
-        "published_at": "2025-07-31T23:41:45Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "openhab-ios",
-      "full_name": "openhab/openhab-ios",
-      "description": "The repository of the iOS client",
-      "url": "https://github.com/openhab/openhab-ios",
-      "stars": 208,
-      "forks_count": 134,
-      "open_issues_count": 16,
-      "language": "Swift",
-      "gem_score": 15.81,
-      "momentum_trend": 1.56,
-      "recent_commits": 13,
-      "merged_prs_count": 16,
-      "topics": [
-        "openhab-ios",
-        "apple",
-        "openhab"
-      ],
-      "activity": [
-        17,
+        4,
+        2,
         0,
-        8,
-        13
+        1
       ],
-      "good_first_issues_url": "https://github.com/openhab/openhab-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/huggingface/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T19:27:44Z",
+      "pushed_at": "2026-02-20T10:24:20Z",
       "is_hype": false,
-      "license": "EPL-2.0",
-      "latest_release": {
-        "tag": "3.1.49",
-        "published_at": "2026-02-12T21:35:09Z"
-      },
-      "featured": false,
-      "maintenance_score": 1,
+      "license": "Apache-2.0",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1402,9 +543,9 @@
       "forks_count": 133,
       "open_issues_count": 83,
       "language": "Odin",
-      "gem_score": 15.2,
-      "momentum_trend": 0.9,
-      "recent_commits": 25,
+      "gem_score": 14.88,
+      "momentum_trend": 0.68,
+      "recent_commits": 20,
       "merged_prs_count": 41,
       "topics": [
         "language-server",
@@ -1413,9 +554,9 @@
       ],
       "activity": [
         24,
-        18,
-        41,
-        25
+        21,
+        43,
+        20
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1427,47 +568,9 @@
         "published_at": "2026-02-12T02:00:39Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
-    },
-    {
-      "name": "FossFLOW",
-      "full_name": "stan-smith/FossFLOW",
-      "description": "Make beautiful isometric infrastructure diagrams",
-      "url": "https://github.com/stan-smith/FossFLOW",
-      "stars": 18190,
-      "forks_count": 1178,
-      "open_issues_count": 8,
-      "language": "TypeScript",
-      "gem_score": 15.05,
-      "momentum_trend": 0.24,
-      "recent_commits": 2,
-      "merged_prs_count": 5,
-      "topics": [
-        "devops",
-        "infra",
-        "infrastructure"
-      ],
-      "activity": [
-        6,
-        11,
-        8,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/stan-smith/FossFLOW/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T18:00:10Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.10.7",
-        "published_at": "2026-02-15T09:46:21Z"
-      },
-      "featured": true,
-      "maintenance_score": 15,
-      "bundle_size": null,
-      "is_verified": true
     },
     {
       "name": "tides-of-revival",
@@ -1496,7 +599,7 @@
       "license": "Unlicense",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1506,19 +609,19 @@
       "description": "Immediate Zig GUI for Apps and Games",
       "url": "https://github.com/david-vanderson/dvui",
       "stars": 1227,
-      "forks_count": 98,
+      "forks_count": 99,
       "open_issues_count": 57,
       "language": "Zig",
-      "gem_score": 14.52,
-      "momentum_trend": 1.47,
-      "recent_commits": 25,
+      "gem_score": 14.46,
+      "momentum_trend": 1.38,
+      "recent_commits": 24,
       "merged_prs_count": 19,
       "topics": [],
       "activity": [
         10,
-        20,
-        21,
-        25
+        24,
+        18,
+        24
       ],
       "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1539,12 +642,12 @@
       "full_name": "ZigEmbeddedGroup/microzig",
       "description": "MicroZig is a toolbox for building embedded applications in Zig.",
       "url": "https://github.com/ZigEmbeddedGroup/microzig",
-      "stars": 2060,
+      "stars": 2062,
       "forks_count": 165,
       "open_issues_count": 56,
       "language": "Zig",
       "gem_score": 14.41,
-      "momentum_trend": 0.63,
+      "momentum_trend": 0.65,
       "recent_commits": 5,
       "merged_prs_count": 33,
       "topics": [
@@ -1553,7 +656,7 @@
         "zig"
       ],
       "activity": [
-        13,
+        12,
         6,
         5,
         5
@@ -1573,221 +676,40 @@
       "is_verified": false
     },
     {
-      "name": "Changes",
-      "full_name": "maoyama/Changes",
-      "description": "An Open Source GUI Git Client for macOS",
-      "url": "https://github.com/maoyama/Changes",
-      "stars": 189,
-      "forks_count": 14,
-      "open_issues_count": 7,
-      "language": "Swift",
-      "gem_score": 14.34,
-      "momentum_trend": 1,
-      "recent_commits": 10,
-      "merged_prs_count": 5,
+      "name": "FossFLOW",
+      "full_name": "stan-smith/FossFLOW",
+      "description": "Make beautiful isometric infrastructure diagrams",
+      "url": "https://github.com/stan-smith/FossFLOW",
+      "stars": 18371,
+      "forks_count": 1187,
+      "open_issues_count": 8,
+      "language": "TypeScript",
+      "gem_score": 14.23,
+      "momentum_trend": 0.26,
+      "recent_commits": 2,
+      "merged_prs_count": 4,
       "topics": [
-        "git",
-        "macos",
-        "swiftui"
+        "devops",
+        "infra",
+        "infrastructure"
       ],
       "activity": [
-        0,
-        0,
-        0,
-        10
+        7,
+        8,
+        8,
+        2
       ],
-      "good_first_issues_url": "https://github.com/maoyama/Changes/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/stan-smith/FossFLOW/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T02:00:47Z",
+      "pushed_at": "2026-02-22T18:00:10Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
-        "tag": "v2.0",
-        "published_at": "2025-09-23T00:12:35Z"
+        "tag": "v1.10.7",
+        "published_at": "2026-02-15T09:46:21Z"
       },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "hylo",
-      "full_name": "hylo-lang/hylo",
-      "description": "The Hylo programming language",
-      "url": "https://github.com/hylo-lang/hylo",
-      "stars": 1481,
-      "forks_count": 60,
-      "open_issues_count": 208,
-      "language": "Swift",
-      "gem_score": 14.32,
-      "momentum_trend": 2.22,
-      "recent_commits": 17,
-      "merged_prs_count": 10,
-      "topics": [
-        "programming-language"
-      ],
-      "activity": [
-        13,
-        4,
-        6,
-        17
-      ],
-      "good_first_issues_url": "https://github.com/hylo-lang/hylo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-22T16:49:40Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "zBench",
-      "full_name": "hendriknielaender/zBench",
-      "description": "📊 zig benchmark",
-      "url": "https://github.com/hendriknielaender/zBench",
-      "stars": 185,
-      "forks_count": 21,
-      "open_issues_count": 12,
-      "language": "Zig",
-      "gem_score": 14.17,
-      "momentum_trend": 1,
-      "recent_commits": 3,
-      "merged_prs_count": 1,
-      "topics": [
-        "benchmark",
-        "zig",
-        "performance"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/hendriknielaender/zBench/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-17T19:14:25Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.12.0",
-        "published_at": "2025-12-10T13:09:29Z"
-      },
-      "featured": false,
-      "maintenance_score": 5,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "freewrite",
-      "full_name": "farzaa/freewrite",
-      "description": null,
-      "url": "https://github.com/farzaa/freewrite",
-      "stars": 1201,
-      "forks_count": 217,
-      "open_issues_count": 0,
-      "language": "Swift",
-      "gem_score": 14.11,
-      "momentum_trend": 1,
-      "recent_commits": 7,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/farzaa/freewrite/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T02:01:00Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "prod5",
-        "published_at": "2026-02-22T02:01:00Z"
-      },
-      "featured": false,
-      "maintenance_score": 1,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Blankie",
-      "full_name": "codybrom/Blankie",
-      "description": "Ambient sound mixer for macOS inspired by Blanket. Now available on the Mac App Store and via Homebrew.",
-      "url": "https://github.com/codybrom/Blankie",
-      "stars": 278,
-      "forks_count": 6,
-      "open_issues_count": 23,
-      "language": "Swift",
-      "gem_score": 13.8,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [
-        "ambient-sounds",
-        "blanket",
-        "macos"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/codybrom/Blankie/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-22T18:42:36Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.0.13",
-        "published_at": "2025-10-28T05:24:31Z"
-      },
-      "featured": false,
-      "maintenance_score": 90,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "ios",
-      "full_name": "nextcloud/ios",
-      "description": "📱 Nextcloud iOS App",
-      "url": "https://github.com/nextcloud/ios",
-      "stars": 2355,
-      "forks_count": 991,
-      "open_issues_count": 968,
-      "language": "Swift",
-      "gem_score": 13.53,
-      "momentum_trend": 1.67,
-      "recent_commits": 20,
-      "merged_prs_count": 30,
-      "topics": [
-        "nextcloud",
-        "ios",
-        "open-source"
-      ],
-      "activity": [
-        12,
-        13,
-        11,
-        20
-      ],
-      "good_first_issues_url": "https://github.com/nextcloud/ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T14:02:22Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "33.0.1",
-        "published_at": "2026-02-21T11:03:31Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
+      "featured": true,
+      "maintenance_score": 16,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1800,9 +722,9 @@
       "forks_count": 39,
       "open_issues_count": 32,
       "language": "Zig",
-      "gem_score": 13.34,
-      "momentum_trend": 4,
-      "recent_commits": 4,
+      "gem_score": 12.84,
+      "momentum_trend": 2.25,
+      "recent_commits": 3,
       "merged_prs_count": 9,
       "topics": [
         "python",
@@ -1811,8 +733,8 @@
       "activity": [
         2,
         1,
-        0,
-        4
+        1,
+        3
       ],
       "good_first_issues_url": "https://github.com/spiraldb/ziggy-pydust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1862,9 +784,9 @@
         "published_at": "2024-05-11T20:42:59Z"
       },
       "featured": false,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "z2d",
@@ -1894,6 +816,44 @@
       "latest_release": null,
       "featured": false,
       "maintenance_score": 2,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "zBench",
+      "full_name": "hendriknielaender/zBench",
+      "description": "📊 zig benchmark",
+      "url": "https://github.com/hendriknielaender/zBench",
+      "stars": 185,
+      "forks_count": 21,
+      "open_issues_count": 12,
+      "language": "Zig",
+      "gem_score": 12.33,
+      "momentum_trend": 1.5,
+      "recent_commits": 1,
+      "merged_prs_count": 1,
+      "topics": [
+        "benchmark",
+        "zig",
+        "performance"
+      ],
+      "activity": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/hendriknielaender/zBench/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-02-17T19:14:25Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.12.0",
+        "published_at": "2025-12-10T13:09:29Z"
+      },
+      "featured": false,
+      "maintenance_score": 6,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1933,117 +893,6 @@
       "is_verified": false
     },
     {
-      "name": "MarkupEditor",
-      "full_name": "stevengharris/MarkupEditor",
-      "description": "WYSIWYG editing for SwiftUI and UIKit apps",
-      "url": "https://github.com/stevengharris/MarkupEditor",
-      "stars": 447,
-      "forks_count": 45,
-      "open_issues_count": 11,
-      "language": "Swift",
-      "gem_score": 12.13,
-      "momentum_trend": 7.41,
-      "recent_commits": 42,
-      "merged_prs_count": 4,
-      "topics": [
-        "swift",
-        "swiftui",
-        "uikit"
-      ],
-      "activity": [
-        0,
-        17,
-        0,
-        42
-      ],
-      "good_first_issues_url": "https://github.com/stevengharris/MarkupEditor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T22:12:24Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "AnimacX",
-      "full_name": "AnimacX/AnimacX",
-      "description": "（弹弹Play MacOS/iOS版）一款可以追番的弹幕视频播放器。原生支持M/intel系列芯片，实现了大部分Window端功能。新增支持iOS系统。",
-      "url": "https://github.com/AnimacX/AnimacX",
-      "stars": 244,
-      "forks_count": 3,
-      "open_issues_count": 6,
-      "language": "Swift",
-      "gem_score": 11.32,
-      "momentum_trend": 1.17,
-      "recent_commits": 14,
-      "merged_prs_count": 0,
-      "topics": [
-        "danmaku",
-        "ios",
-        "macos"
-      ],
-      "activity": [
-        12,
-        12,
-        12,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/AnimacX/AnimacX/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T18:25:30Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "0.5.1",
-        "published_at": "2025-11-13T12:54:45Z"
-      },
-      "featured": false,
-      "maintenance_score": 999,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "PDF-Archiver",
-      "full_name": "PDF-Archiver/PDF-Archiver",
-      "description": "A tool for tagging files and archiving tasks.",
-      "url": "https://github.com/PDF-Archiver/PDF-Archiver",
-      "stars": 328,
-      "forks_count": 24,
-      "open_issues_count": 4,
-      "language": "Swift",
-      "gem_score": 11.18,
-      "momentum_trend": 1,
-      "recent_commits": 14,
-      "merged_prs_count": 5,
-      "topics": [
-        "pdf-archiver",
-        "pdf",
-        "archive"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/PDF-Archiver/PDF-Archiver/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T09:27:50Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "4.4.0",
-        "published_at": "2026-01-04T18:20:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "Zag-Smalltalk",
       "full_name": "Zag-Research/Zag-Smalltalk",
       "description": "Smalltalk VM Written in Zig with methods stored as type-annotated ASTs",
@@ -2079,79 +928,6 @@
       "is_verified": false
     },
     {
-      "name": "zigrad",
-      "full_name": "Marco-Christiani/zigrad",
-      "description": "A deep learning framework built on an autograd engine with high level abstractions and low level control.",
-      "url": "https://github.com/Marco-Christiani/zigrad",
-      "stars": 183,
-      "forks_count": 10,
-      "open_issues_count": 11,
-      "language": "Zig",
-      "gem_score": 11.06,
-      "momentum_trend": 1,
-      "recent_commits": 1,
-      "merged_prs_count": 0,
-      "topics": [
-        "autograd",
-        "deep-learning",
-        "machine-learning"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/Marco-Christiani/zigrad/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-02-22T03:47:57Z",
-      "is_hype": false,
-      "license": "LGPL-3.0",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 140,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "StikDebug",
-      "full_name": "StephenDev0/StikDebug",
-      "description": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-      "url": "https://github.com/StephenDev0/StikDebug",
-      "stars": 1133,
-      "forks_count": 135,
-      "open_issues_count": 3,
-      "language": "Swift",
-      "gem_score": 10.69,
-      "momentum_trend": 10.5,
-      "recent_commits": 7,
-      "merged_prs_count": 0,
-      "topics": [
-        "idevice",
-        "ios",
-        "jit"
-      ],
-      "activity": [
-        0,
-        0,
-        2,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/StephenDev0/StikDebug/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T01:12:23Z",
-      "is_hype": false,
-      "license": "AGPL-3.0",
-      "latest_release": {
-        "tag": "2.3.7",
-        "published_at": "2026-01-09T19:27:57Z"
-      },
-      "featured": false,
-      "maintenance_score": 44,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "zig2nix",
       "full_name": "Cloudef/zig2nix",
       "description": "Flake for packaging, building and running Zig projects.",
@@ -2177,50 +953,12 @@
       ],
       "good_first_issues_url": "https://github.com/Cloudef/zig2nix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T02:31:11Z",
+      "pushed_at": "2026-02-23T02:30:24Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
       "maintenance_score": 34,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "SwiftTerm",
-      "full_name": "migueldeicaza/SwiftTerm",
-      "description": "Xterm/VT100 Terminal emulator in Swift",
-      "url": "https://github.com/migueldeicaza/SwiftTerm",
-      "stars": 1351,
-      "forks_count": 240,
-      "open_issues_count": 56,
-      "language": "Swift",
-      "gem_score": 9.51,
-      "momentum_trend": 1.18,
-      "recent_commits": 15,
-      "merged_prs_count": 6,
-      "topics": [
-        "macos",
-        "ios",
-        "swift"
-      ],
-      "activity": [
-        9,
-        28,
-        1,
-        15
-      ],
-      "good_first_issues_url": "https://github.com/migueldeicaza/SwiftTerm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T01:54:12Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.11.2",
-        "published_at": "2026-02-20T16:09:15Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2255,80 +993,42 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "satellite-eyes",
-      "full_name": "tomtaylor/satellite-eyes",
-      "description": "Mac OS X app to automatically set your desktop wallpaper to the satellite view overhead.",
-      "url": "https://github.com/tomtaylor/satellite-eyes",
-      "stars": 669,
-      "forks_count": 62,
-      "open_issues_count": 10,
-      "language": "Swift",
-      "gem_score": 8.98,
-      "momentum_trend": 1,
-      "recent_commits": 44,
-      "merged_prs_count": 1,
+      "name": "zigrad",
+      "full_name": "Marco-Christiani/zigrad",
+      "description": "A deep learning framework built on an autograd engine with high level abstractions and low level control.",
+      "url": "https://github.com/Marco-Christiani/zigrad",
+      "stars": 183,
+      "forks_count": 10,
+      "open_issues_count": 11,
+      "language": "Zig",
+      "gem_score": 9.01,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
       "topics": [
-        "satellite",
-        "satellite-eyes",
-        "desktop-wallpaper"
+        "autograd",
+        "deep-learning",
+        "machine-learning"
       ],
       "activity": [
         0,
         0,
-        0,
-        44
+        1,
+        0
       ],
-      "good_first_issues_url": "https://github.com/tomtaylor/satellite-eyes/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T20:14:50Z",
+      "good_first_issues_url": "https://github.com/Marco-Christiani/zigrad/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-02-22T03:47:57Z",
       "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "1.5.0",
-        "published_at": "2020-11-19T21:41:32Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "pointfreeco",
-      "full_name": "pointfreeco/pointfreeco",
-      "description": "🎬 The source for www.pointfree.co, a hub for advanced Swift programming.",
-      "url": "https://github.com/pointfreeco/pointfreeco",
-      "stars": 1159,
-      "forks_count": 103,
-      "open_issues_count": 15,
-      "language": "Swift",
-      "gem_score": 8.68,
-      "momentum_trend": 0.16,
-      "recent_commits": 3,
-      "merged_prs_count": 10,
-      "topics": [
-        "swift",
-        "server-side-swift",
-        "snapshot-testing"
-      ],
-      "activity": [
-        35,
-        17,
-        6,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/pointfreeco/pointfreeco/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T20:16:49Z",
-      "is_hype": false,
-      "license": "MIT",
+      "license": "LGPL-3.0",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 11,
+      "maintenance_score": 140,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2337,8 +1037,8 @@
       "full_name": "OpenBB-finance/OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 61009,
-      "forks_count": 5949,
+      "stars": 61216,
+      "forks_count": 5971,
       "open_issues_count": 35,
       "language": "Python",
       "gem_score": 8.36,
@@ -2369,37 +1069,6 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
-    },
-    {
-      "name": "BaoLianDeng",
-      "full_name": "madeye/BaoLianDeng",
-      "description": "An iOS client for Clash",
-      "url": "https://github.com/madeye/BaoLianDeng",
-      "stars": 321,
-      "forks_count": 91,
-      "open_issues_count": 0,
-      "language": "Swift",
-      "gem_score": 8.13,
-      "momentum_trend": 1,
-      "recent_commits": 7,
-      "merged_prs_count": 2,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/madeye/BaoLianDeng/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T01:13:06Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true
     },
     {
       "name": "ziglua",
@@ -2440,37 +1109,37 @@
       "is_verified": false
     },
     {
-      "name": "koral",
-      "full_name": "kulics/koral",
-      "description": "An open source cross-platform programming language focused on efficiency.",
-      "url": "https://github.com/kulics/koral",
-      "stars": 410,
-      "forks_count": 27,
-      "open_issues_count": 0,
-      "language": "Swift",
-      "gem_score": 7.93,
-      "momentum_trend": 2.86,
-      "recent_commits": 41,
-      "merged_prs_count": 0,
+      "name": "pg.zig",
+      "full_name": "karlseguin/pg.zig",
+      "description": "Native PostgreSQL driver / client for Zig",
+      "url": "https://github.com/karlseguin/pg.zig",
+      "stars": 493,
+      "forks_count": 47,
+      "open_issues_count": 2,
+      "language": "Zig",
+      "gem_score": 8.05,
+      "momentum_trend": 1.5,
+      "recent_commits": 1,
+      "merged_prs_count": 2,
       "topics": [
-        "programming-language",
-        "cross-platform",
-        "language"
+        "postgresql-client",
+        "zig",
+        "zig-library"
       ],
       "activity": [
-        17,
-        17,
-        9,
-        41
+        0,
+        0,
+        2,
+        1
       ],
-      "good_first_issues_url": "https://github.com/kulics/koral/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/karlseguin/pg.zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T01:53:23Z",
+      "pushed_at": "2026-02-23T11:00:24Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1003,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2484,7 +1153,7 @@
       "open_issues_count": 12,
       "language": "Zig",
       "gem_score": 7.85,
-      "momentum_trend": 0.44,
+      "momentum_trend": 0.45,
       "recent_commits": 12,
       "merged_prs_count": 0,
       "topics": [
@@ -2494,7 +1163,7 @@
       ],
       "activity": [
         20,
-        27,
+        26,
         34,
         12
       ],
@@ -2510,198 +1179,15 @@
       "is_verified": false
     },
     {
-      "name": "hummingbird",
-      "full_name": "hummingbird-project/hummingbird",
-      "description": "Lightweight, flexible HTTP server framework written in Swift",
-      "url": "https://github.com/hummingbird-project/hummingbird",
-      "stars": 1685,
-      "forks_count": 88,
-      "open_issues_count": 23,
-      "language": "Swift",
-      "gem_score": 7.67,
-      "momentum_trend": 1.2,
-      "recent_commits": 2,
-      "merged_prs_count": 7,
-      "topics": [
-        "server-side-swift",
-        "http-server",
-        "server"
-      ],
-      "activity": [
-        1,
-        2,
-        2,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/hummingbird-project/hummingbird/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T17:21:25Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "2.20.1",
-        "published_at": "2026-02-11T15:52:42Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "habitica-ios",
-      "full_name": "HabitRPG/habitica-ios",
-      "description": "Native iOS app for Habitica",
-      "url": "https://github.com/HabitRPG/habitica-ios",
-      "stars": 826,
-      "forks_count": 259,
-      "open_issues_count": 21,
-      "language": "Swift",
-      "gem_score": 7.54,
-      "momentum_trend": 0.24,
-      "recent_commits": 7,
-      "merged_prs_count": 1,
-      "topics": [
-        "habitica",
-        "objective-c",
-        "ios"
-      ],
-      "activity": [
-        52,
-        31,
-        6,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/HabitRPG/habitica-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T07:39:49Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "1.11.1",
-        "published_at": "2017-10-03T18:16:28Z"
-      },
-      "featured": false,
-      "maintenance_score": 20,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Unwatched",
-      "full_name": "fer0n/Unwatched",
-      "description": "RSS feed based YouTube video player for iOS, macOS, tvOS",
-      "url": "https://github.com/fer0n/Unwatched",
-      "stars": 414,
-      "forks_count": 27,
-      "open_issues_count": 26,
-      "language": "Swift",
-      "gem_score": 7.06,
-      "momentum_trend": 1,
-      "recent_commits": 1,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        3,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/fer0n/Unwatched/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T22:03:57Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v1.8.2",
-        "published_at": "2026-01-21T18:52:41Z"
-      },
-      "featured": false,
-      "maintenance_score": 7,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "pg.zig",
-      "full_name": "karlseguin/pg.zig",
-      "description": "Native PostgreSQL driver / client for Zig",
-      "url": "https://github.com/karlseguin/pg.zig",
-      "stars": 492,
-      "forks_count": 47,
-      "open_issues_count": 2,
-      "language": "Zig",
-      "gem_score": 6.57,
-      "momentum_trend": 1.5,
-      "recent_commits": 1,
-      "merged_prs_count": 1,
-      "topics": [
-        "postgresql-client",
-        "zig",
-        "zig-library"
-      ],
-      "activity": [
-        0,
-        0,
-        2,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/karlseguin/pg.zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-18T00:36:41Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 9,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "YouTubeKit",
-      "full_name": "alexeichhorn/YouTubeKit",
-      "description": "YouTube video and audio extractor for iOS, watchOS, visionOS, tvOS and macOS",
-      "url": "https://github.com/alexeichhorn/YouTubeKit",
-      "stars": 338,
-      "forks_count": 77,
-      "open_issues_count": 41,
-      "language": "Swift",
-      "gem_score": 6.48,
-      "momentum_trend": 0.75,
-      "recent_commits": 3,
-      "merged_prs_count": 1,
-      "topics": [
-        "youtube",
-        "downloader",
-        "video"
-      ],
-      "activity": [
-        12,
-        0,
-        0,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/alexeichhorn/YouTubeKit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T13:00:28Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "0.4.3",
-        "published_at": "2026-02-01T13:08:58Z"
-      },
-      "featured": false,
-      "maintenance_score": 24,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "stremio-web",
       "full_name": "Stremio/stremio-web",
       "description": "Stremio - Freedom to Stream",
       "url": "https://github.com/Stremio/stremio-web",
-      "stars": 9717,
-      "forks_count": 1068,
+      "stars": 9832,
+      "forks_count": 1076,
       "open_issues_count": 69,
       "language": "JavaScript",
-      "gem_score": 6.22,
+      "gem_score": 6.21,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 3,
@@ -2717,7 +1203,7 @@
       ],
       "good_first_issues_url": "https://github.com/Stremio/stremio-web/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-02-08T00:39:46Z",
+      "pushed_at": "2026-02-23T12:51:58Z",
       "is_hype": false,
       "license": "GPL-2.0",
       "latest_release": {
@@ -2725,47 +1211,9 @@
         "published_at": "2026-01-22T14:49:01Z"
       },
       "featured": false,
-      "maintenance_score": 76,
+      "maintenance_score": 77,
       "bundle_size": null,
       "is_verified": false
-    },
-    {
-      "name": "LosslessSwitcher",
-      "full_name": "vincentneo/LosslessSwitcher",
-      "description": "Automated Apple Music Lossless Sample Rate Switching for Audio Devices on Macs.",
-      "url": "https://github.com/vincentneo/LosslessSwitcher",
-      "stars": 1738,
-      "forks_count": 120,
-      "open_issues_count": 50,
-      "language": "Swift",
-      "gem_score": 6.1,
-      "momentum_trend": 1,
-      "recent_commits": 5,
-      "merged_prs_count": 1,
-      "topics": [
-        "applemusic",
-        "macos",
-        "audio"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        5
-      ],
-      "good_first_issues_url": "https://github.com/vincentneo/LosslessSwitcher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T07:32:04Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "2.0-beta3",
-        "published_at": "2026-02-22T07:13:25Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true
     },
     {
       "name": "zig-cookbook",
@@ -2833,78 +1281,6 @@
       "is_verified": false
     },
     {
-      "name": "SwiftGodot",
-      "full_name": "migueldeicaza/SwiftGodot",
-      "description": "New Godot bindings for Swift",
-      "url": "https://github.com/migueldeicaza/SwiftGodot",
-      "stars": 1585,
-      "forks_count": 105,
-      "open_issues_count": 97,
-      "language": "Swift",
-      "gem_score": 5.07,
-      "momentum_trend": 1,
-      "recent_commits": 1,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/migueldeicaza/SwiftGodot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T02:39:29Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.75.0",
-        "published_at": "2026-02-22T02:32:15Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Komet",
-      "full_name": "zorgiepoo/Komet",
-      "description": "Cocoa editor for creating commit messages",
-      "url": "https://github.com/zorgiepoo/Komet",
-      "stars": 187,
-      "forks_count": 6,
-      "open_issues_count": 3,
-      "language": "Swift",
-      "gem_score": 4.07,
-      "momentum_trend": 2,
-      "recent_commits": 2,
-      "merged_prs_count": 0,
-      "topics": [
-        "git",
-        "editor",
-        "cocoa"
-      ],
-      "activity": [
-        0,
-        0,
-        3,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/zorgiepoo/Komet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T03:50:16Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "1.5.1",
-        "published_at": "2026-02-22T03:50:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 158,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
       "name": "examples",
       "full_name": "odin-lang/examples",
       "description": "Examples of idiomatic Odin code",
@@ -2932,6 +1308,41 @@
       "featured": false,
       "maintenance_score": 4,
       "bundle_size": null,
+      "is_verified": true
+    },
+    {
+      "name": "prompts.chat",
+      "full_name": "f/prompts.chat",
+      "description": "a.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "url": "https://github.com/f/prompts.chat",
+      "stars": 146789,
+      "forks_count": 19382,
+      "open_issues_count": 3,
+      "language": "HTML",
+      "gem_score": 3.57,
+      "momentum_trend": 0.79,
+      "recent_commits": 89,
+      "merged_prs_count": 4,
+      "topics": [
+        "chatgpt",
+        "ai",
+        "artificial-intelligence"
+      ],
+      "activity": [
+        159,
+        86,
+        93,
+        89
+      ],
+      "good_first_issues_url": "https://github.com/f/prompts.chat/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-02-23T03:54:44Z",
+      "is_hype": true,
+      "license": "CC0-1.0",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 4,
+      "bundle_size": null,
       "is_verified": false
     },
     {
@@ -2939,13 +1350,13 @@
       "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "stars": 117874,
-      "forks_count": 30586,
-      "open_issues_count": 78,
+      "stars": 118914,
+      "forks_count": 30885,
+      "open_issues_count": 79,
       "language": "Plain Text",
-      "gem_score": 2.77,
-      "momentum_trend": 2,
-      "recent_commits": 2,
+      "gem_score": 2.42,
+      "momentum_trend": 0.75,
+      "recent_commits": 1,
       "merged_prs_count": 1,
       "topics": [
         "ai",
@@ -2955,8 +1366,8 @@
       "activity": [
         2,
         1,
-        0,
-        2
+        1,
+        1
       ],
       "good_first_issues_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -2970,50 +1381,15 @@
       "is_verified": false
     },
     {
-      "name": "HotReloading",
-      "full_name": "johnno1962/HotReloading",
-      "description": "Hot reloading as a Swift Package",
-      "url": "https://github.com/johnno1962/HotReloading",
-      "stars": 609,
-      "forks_count": 54,
-      "open_issues_count": 0,
-      "language": "Swift",
-      "gem_score": 2.67,
-      "momentum_trend": 3,
-      "recent_commits": 1,
-      "merged_prs_count": 0,
-      "topics": [
-        "swift",
-        "swiftui",
-        "hot-reload"
-      ],
-      "activity": [
-        0,
-        0,
-        1,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/johnno1962/HotReloading/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-02-22T17:37:14Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 515,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "swift-format",
-      "full_name": "swiftlang/swift-format",
-      "description": "Formatting technology for Swift source code",
-      "url": "https://github.com/swiftlang/swift-format",
-      "stars": 2879,
-      "forks_count": 256,
-      "open_issues_count": 129,
-      "language": "Swift",
-      "gem_score": 1.88,
+      "name": "stable-diffusion",
+      "full_name": "CompVis/stable-diffusion",
+      "description": "A latent text-to-image diffusion model",
+      "url": "https://github.com/CompVis/stable-diffusion",
+      "stars": 72438,
+      "forks_count": 10595,
+      "open_issues_count": 536,
+      "language": "Jupyter Notebook",
+      "gem_score": 0.88,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -3024,17 +1400,14 @@
         0,
         0
       ],
-      "good_first_issues_url": "https://github.com/swiftlang/swift-format/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/CompVis/stable-diffusion/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-23T01:47:55Z",
+      "pushed_at": "2024-06-18T01:53:49Z",
       "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "602.0.0",
-        "published_at": "2025-09-16T00:09:24Z"
-      },
-      "featured": false,
-      "maintenance_score": 31,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 1280,
       "bundle_size": null,
       "is_verified": false
     }
