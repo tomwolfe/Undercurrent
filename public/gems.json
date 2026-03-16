@@ -1,26 +1,64 @@
 {
-  "last_mined": "2026-03-16T02:13:24.742Z",
+  "last_mined": "2026-03-16T13:12:21.236Z",
   "count": 44,
   "gems": [
+    {
+      "name": "deepagents",
+      "full_name": "langchain-ai/deepagents",
+      "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "stars": 12201,
+      "forks_count": 1940,
+      "open_issues_count": 101,
+      "language": "Python",
+      "gem_score": 44.75,
+      "momentum_trend": 1.1,
+      "recent_commits": 90,
+      "merged_prs_count": 50,
+      "topics": [
+        "deepagents",
+        "langchain",
+        "langgraph"
+      ],
+      "activity": [
+        74,
+        31,
+        141,
+        90
+      ],
+      "good_first_issues_url": "https://github.com/langchain-ai/deepagents/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-03-16T06:29:36Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "deepagents==0.4.11",
+        "published_at": "2026-03-13T21:35:00Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
     {
       "name": "project-nomad",
       "full_name": "Crosstalk-Solutions/project-nomad",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
       "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "stars": 1154,
-      "forks_count": 120,
-      "open_issues_count": 25,
+      "stars": 1479,
+      "forks_count": 143,
+      "open_issues_count": 31,
       "language": "TypeScript",
-      "gem_score": 37.05,
-      "momentum_trend": 2.33,
-      "recent_commits": 35,
+      "gem_score": 35.66,
+      "momentum_trend": 2.22,
+      "recent_commits": 34,
       "merged_prs_count": 24,
       "topics": [],
       "activity": [
         19,
         1,
-        25,
-        35
+        26,
+        34
       ],
       "good_first_issues_url": "https://github.com/Crosstalk-Solutions/project-nomad/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -32,9 +70,47 @@
         "published_at": "2026-03-13T20:47:01Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": 36140,
+      "forks_count": 2603,
+      "open_issues_count": 63,
+      "language": "TypeScript",
+      "gem_score": 31.5,
+      "momentum_trend": 0.63,
+      "recent_commits": 15,
+      "merged_prs_count": 50,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory"
+      ],
+      "activity": [
+        36,
+        26,
+        9,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/thedotmack/claude-mem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-03-16T09:12:34Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v10.5.5",
+        "published_at": "2026-03-09T10:02:21Z"
+      },
+      "featured": true,
+      "maintenance_score": 3,
+      "bundle_size": null,
+      "is_verified": false
     },
     {
       "name": "karl2d",
@@ -45,9 +121,9 @@
       "forks_count": 31,
       "open_issues_count": 28,
       "language": "Odin",
-      "gem_score": 32.34,
-      "momentum_trend": 0.22,
-      "recent_commits": 3,
+      "gem_score": 30.87,
+      "momentum_trend": 0.14,
+      "recent_commits": 2,
       "merged_prs_count": 4,
       "topics": [
         "gamedev",
@@ -57,8 +133,8 @@
       "activity": [
         21,
         8,
-        12,
-        3
+        13,
+        2
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
@@ -79,24 +155,24 @@
       "full_name": "abhigyanpatwari/GitNexus",
       "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
       "url": "https://github.com/abhigyanpatwari/GitNexus",
-      "stars": 14389,
-      "forks_count": 1675,
-      "open_issues_count": 66,
+      "stars": 15116,
+      "forks_count": 1749,
+      "open_issues_count": 69,
       "language": "TypeScript",
-      "gem_score": 30.33,
-      "momentum_trend": 0.28,
-      "recent_commits": 15,
+      "gem_score": 29.94,
+      "momentum_trend": 0.26,
+      "recent_commits": 14,
       "merged_prs_count": 41,
       "topics": [],
       "activity": [
         46,
-        93,
-        19,
-        15
+        95,
+        18,
+        14
       ],
       "good_first_issues_url": "https://github.com/abhigyanpatwari/GitNexus/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-15T18:49:44Z",
+      "pushed_at": "2026-03-16T12:52:23Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -117,7 +193,7 @@
       "forks_count": 7,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 28.5,
+      "gem_score": 28.48,
       "momentum_trend": 1,
       "recent_commits": 5,
       "merged_prs_count": 12,
@@ -141,18 +217,18 @@
       "featured": false,
       "maintenance_score": 1,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "msvcup",
       "full_name": "marler8997/msvcup",
       "description": "Hermetic install of MSVC/SDK from the CLI",
       "url": "https://github.com/marler8997/msvcup",
-      "stars": 336,
+      "stars": 337,
       "forks_count": 6,
       "open_issues_count": 11,
       "language": "Zig",
-      "gem_score": 24.83,
+      "gem_score": 24.79,
       "momentum_trend": 0.16,
       "recent_commits": 1,
       "merged_prs_count": 12,
@@ -186,7 +262,7 @@
       "forks_count": 317,
       "open_issues_count": 6,
       "language": "Mojo",
-      "gem_score": 23.76,
+      "gem_score": 23.74,
       "momentum_trend": 0.75,
       "recent_commits": 2,
       "merged_prs_count": 9,
@@ -210,45 +286,7 @@
       "featured": false,
       "maintenance_score": 5,
       "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "cognee",
-      "full_name": "topoteretes/cognee",
-      "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
-      "url": "https://github.com/topoteretes/cognee",
-      "stars": 13947,
-      "forks_count": 1390,
-      "open_issues_count": 41,
-      "language": "Python",
-      "gem_score": 23.22,
-      "momentum_trend": 0.8,
-      "recent_commits": 96,
-      "merged_prs_count": 50,
-      "topics": [
-        "ai",
-        "cognitive-architecture",
-        "vector-database"
-      ],
-      "activity": [
-        134,
-        141,
-        83,
-        96
-      ],
-      "good_first_issues_url": "https://github.com/topoteretes/cognee/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-03-15T20:51:09Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.5.5",
-        "published_at": "2026-03-14T14:19:41Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "sig",
@@ -272,7 +310,7 @@
       ],
       "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-15T19:07:14Z",
+      "pushed_at": "2026-03-16T11:13:44Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -289,11 +327,11 @@
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 86066,
-      "forks_count": 6772,
-      "open_issues_count": 59,
+      "stars": 87578,
+      "forks_count": 6915,
+      "open_issues_count": 63,
       "language": "Shell",
-      "gem_score": 22.64,
+      "gem_score": 22.6,
       "momentum_trend": 3.42,
       "recent_commits": 41,
       "merged_prs_count": 10,
@@ -311,7 +349,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": false
     },
@@ -324,7 +362,7 @@
       "forks_count": 22,
       "open_issues_count": 15,
       "language": "Mojo",
-      "gem_score": 21.26,
+      "gem_score": 21.25,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 30,
@@ -357,11 +395,11 @@
       "full_name": "p-e-w/heretic",
       "description": "Fully automatic censorship removal for language models",
       "url": "https://github.com/p-e-w/heretic",
-      "stars": 14736,
-      "forks_count": 1500,
-      "open_issues_count": 63,
+      "stars": 15036,
+      "forks_count": 1520,
+      "open_issues_count": 53,
       "language": "Python",
-      "gem_score": 19.33,
+      "gem_score": 19.29,
       "momentum_trend": 2.4,
       "recent_commits": 4,
       "merged_prs_count": 7,
@@ -386,7 +424,7 @@
         "published_at": "2026-02-14T13:45:15Z"
       },
       "featured": true,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
@@ -395,13 +433,13 @@
       "full_name": "lightpanda-io/browser",
       "description": "Lightpanda: the headless browser designed for AI and automation",
       "url": "https://github.com/lightpanda-io/browser",
-      "stars": 18734,
-      "forks_count": 699,
-      "open_issues_count": 65,
+      "stars": 19767,
+      "forks_count": 749,
+      "open_issues_count": 67,
       "language": "Zig",
-      "gem_score": 18.06,
-      "momentum_trend": 1.2,
-      "recent_commits": 223,
+      "gem_score": 17.8,
+      "momentum_trend": 1.01,
+      "recent_commits": 197,
       "merged_prs_count": 50,
       "topics": [
         "browser",
@@ -409,14 +447,14 @@
         "headless"
       ],
       "activity": [
-        221,
-        174,
-        162,
-        223
+        219,
+        207,
+        157,
+        197
       ],
       "good_first_issues_url": "https://github.com/lightpanda-io/browser/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-16T01:25:39Z",
+      "pushed_at": "2026-03-16T13:02:55Z",
       "is_hype": true,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -437,9 +475,9 @@
       "forks_count": 12,
       "open_issues_count": 4,
       "language": "Zig",
-      "gem_score": 16.73,
-      "momentum_trend": 1.8,
-      "recent_commits": 36,
+      "gem_score": 16.79,
+      "momentum_trend": 1.85,
+      "recent_commits": 37,
       "merged_prs_count": 10,
       "topics": [
         "smalltalk",
@@ -448,13 +486,13 @@
       ],
       "activity": [
         16,
-        28,
-        16,
-        36
+        29,
+        15,
+        37
       ],
       "good_first_issues_url": "https://github.com/Zag-Research/Zag-Smalltalk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-16T02:09:41Z",
+      "pushed_at": "2026-03-16T04:40:53Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
@@ -469,13 +507,13 @@
       "description": "Astrodynamics and Spacecraft Toolkit. Features fast orbit prop, celestial precession, CCSDS parsing, RF parsing, fits image parsing, and more!",
       "url": "https://github.com/ATTron/astroz",
       "stars": 242,
-      "forks_count": 11,
+      "forks_count": 12,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 16.56,
+      "gem_score": 15.92,
       "momentum_trend": 2,
       "recent_commits": 2,
-      "merged_prs_count": 7,
+      "merged_prs_count": 6,
       "topics": [
         "astro",
         "astronomy",
@@ -506,11 +544,11 @@
       "full_name": "neurocyte/flow",
       "description": "Flow Control: a programmer's text editor",
       "url": "https://github.com/neurocyte/flow",
-      "stars": 1770,
+      "stars": 1774,
       "forks_count": 93,
       "open_issues_count": 69,
       "language": "Zig",
-      "gem_score": 15.62,
+      "gem_score": 15.61,
       "momentum_trend": 0.08,
       "recent_commits": 1,
       "merged_prs_count": 10,
@@ -537,7 +575,7 @@
       "featured": false,
       "maintenance_score": 93,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "ols",
@@ -549,7 +587,7 @@
       "open_issues_count": 81,
       "language": "Odin",
       "gem_score": 14.87,
-      "momentum_trend": 0.66,
+      "momentum_trend": 0.7,
       "recent_commits": 18,
       "merged_prs_count": 45,
       "topics": [
@@ -558,7 +596,7 @@
         "lsp"
       ],
       "activity": [
-        30,
+        25,
         42,
         10,
         18
@@ -578,6 +616,40 @@
       "is_verified": false
     },
     {
+      "name": "dvui",
+      "full_name": "david-vanderson/dvui",
+      "description": "Immediate Zig GUI for Apps and Games",
+      "url": "https://github.com/david-vanderson/dvui",
+      "stars": 1271,
+      "forks_count": 104,
+      "open_issues_count": 65,
+      "language": "Zig",
+      "gem_score": 14.61,
+      "momentum_trend": 0.86,
+      "recent_commits": 32,
+      "merged_prs_count": 18,
+      "topics": [],
+      "activity": [
+        31,
+        38,
+        42,
+        32
+      ],
+      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-03-16T02:22:58Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v0.3.0",
+        "published_at": "2025-08-30T17:33:50Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "Deecy",
       "full_name": "Senryoku/Deecy",
       "description": "Experimental Dreamcast emulator written in Zig",
@@ -586,8 +658,8 @@
       "forks_count": 4,
       "open_issues_count": 40,
       "language": "Zig",
-      "gem_score": 13.6,
-      "momentum_trend": 0.79,
+      "gem_score": 13.59,
+      "momentum_trend": 0.87,
       "recent_commits": 9,
       "merged_prs_count": 1,
       "topics": [
@@ -597,13 +669,13 @@
       ],
       "activity": [
         13,
-        5,
+        2,
         16,
         9
       ],
       "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-15T22:50:51Z",
+      "pushed_at": "2026-03-16T05:10:24Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -611,7 +683,7 @@
         "published_at": "2026-02-07T15:58:43Z"
       },
       "featured": false,
-      "maintenance_score": 5,
+      "maintenance_score": 6,
       "bundle_size": null,
       "is_verified": false
     },
@@ -662,7 +734,7 @@
       "forks_count": 18,
       "open_issues_count": 4,
       "language": "Zig",
-      "gem_score": 13.25,
+      "gem_score": 13.24,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 5,
@@ -697,9 +769,9 @@
       "forks_count": 10,
       "open_issues_count": 17,
       "language": "Zig",
-      "gem_score": 13.12,
-      "momentum_trend": 1,
-      "recent_commits": 3,
+      "gem_score": 12.34,
+      "momentum_trend": 6,
+      "recent_commits": 2,
       "merged_prs_count": 3,
       "topics": [
         "erlang",
@@ -709,8 +781,8 @@
       "activity": [
         0,
         0,
-        0,
-        3
+        1,
+        2
       ],
       "good_first_issues_url": "https://github.com/Dr-Nekoma/lyceum/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -727,40 +799,6 @@
       "is_verified": false
     },
     {
-      "name": "dvui",
-      "full_name": "david-vanderson/dvui",
-      "description": "Immediate Zig GUI for Apps and Games",
-      "url": "https://github.com/david-vanderson/dvui",
-      "stars": 1271,
-      "forks_count": 104,
-      "open_issues_count": 65,
-      "language": "Zig",
-      "gem_score": 12.19,
-      "momentum_trend": 0.16,
-      "recent_commits": 6,
-      "merged_prs_count": 19,
-      "topics": [],
-      "activity": [
-        32,
-        31,
-        49,
-        6
-      ],
-      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-03-16T01:17:12Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "v0.3.0",
-        "published_at": "2025-08-30T17:33:50Z"
-      },
-      "featured": false,
-      "maintenance_score": 8,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
       "name": "ziggy-pydust",
       "full_name": "spiraldb/ziggy-pydust",
       "description": "A toolkit for building Python extensions in Zig.",
@@ -769,8 +807,8 @@
       "forks_count": 39,
       "open_issues_count": 32,
       "language": "Zig",
-      "gem_score": 11.7,
-      "momentum_trend": 1,
+      "gem_score": 11.69,
+      "momentum_trend": 1.2,
       "recent_commits": 2,
       "merged_prs_count": 8,
       "topics": [
@@ -778,7 +816,7 @@
         "zig"
       ],
       "activity": [
-        4,
+        3,
         2,
         0,
         2
@@ -795,7 +833,7 @@
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "tides-of-revival",
@@ -824,7 +862,7 @@
       "license": "Unlicense",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 22,
+      "maintenance_score": 23,
       "bundle_size": null,
       "is_verified": false
     },
@@ -859,9 +897,9 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "jams",
@@ -879,8 +917,8 @@
       "topics": [],
       "activity": [
         0,
-        9,
-        24,
+        20,
+        13,
         23
       ],
       "good_first_issues_url": "https://github.com/jamii/jams/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -919,7 +957,7 @@
       ],
       "good_first_issues_url": "https://github.com/Cloudef/zig2nix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-15T02:42:20Z",
+      "pushed_at": "2026-03-16T02:42:09Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
@@ -982,7 +1020,7 @@
         "machine-learning"
       ],
       "activity": [
-        1,
+        0,
         0,
         0,
         0
@@ -1003,7 +1041,7 @@
       "full_name": "rockorager/libvaxis",
       "description": "a modern tui library written in zig",
       "url": "https://github.com/rockorager/libvaxis",
-      "stars": 1676,
+      "stars": 1677,
       "forks_count": 115,
       "open_issues_count": 17,
       "language": "Zig",
@@ -1032,7 +1070,7 @@
         "published_at": "2024-11-12T15:34:11Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1041,11 +1079,11 @@
       "full_name": "shareAI-lab/learn-claude-code",
       "description": "Bash is all you need -  A nano Claude Code–like agent, built from 0 to 1",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "stars": 28023,
-      "forks_count": 4885,
+      "stars": 28986,
+      "forks_count": 4980,
       "open_issues_count": 11,
       "language": "TypeScript",
-      "gem_score": 8.29,
+      "gem_score": 8.26,
       "momentum_trend": 0.67,
       "recent_commits": 2,
       "merged_prs_count": 1,
@@ -1067,9 +1105,9 @@
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 68,
+      "maintenance_score": 69,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "jok",
@@ -1080,7 +1118,7 @@
       "forks_count": 14,
       "open_issues_count": 6,
       "language": "Zig",
-      "gem_score": 8.16,
+      "gem_score": 8.15,
       "momentum_trend": 4.5,
       "recent_commits": 3,
       "merged_prs_count": 0,
@@ -1091,8 +1129,8 @@
       ],
       "activity": [
         0,
-        1,
-        1,
+        2,
+        0,
         3
       ],
       "good_first_issues_url": "https://github.com/Jack-Ji/jok/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -1102,7 +1140,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 180,
+      "maintenance_score": 181,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1111,11 +1149,11 @@
       "full_name": "Snektron/vulkan-zig",
       "description": "Vulkan binding generator for Zig",
       "url": "https://github.com/Snektron/vulkan-zig",
-      "stars": 802,
+      "stars": 803,
       "forks_count": 95,
       "open_issues_count": 18,
       "language": "Zig",
-      "gem_score": 7.68,
+      "gem_score": 7.67,
       "momentum_trend": 0.32,
       "recent_commits": 2,
       "merged_prs_count": 6,
@@ -1133,20 +1171,20 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "pixi",
       "full_name": "foxnne/pixi",
       "description": "Pixel art editor made with Zig.",
       "url": "https://github.com/foxnne/pixi",
-      "stars": 1261,
+      "stars": 1262,
       "forks_count": 32,
       "open_issues_count": 12,
       "language": "Zig",
-      "gem_score": 7.47,
+      "gem_score": 7.46,
       "momentum_trend": 0.04,
       "recent_commits": 1,
       "merged_prs_count": 2,
@@ -1173,41 +1211,6 @@
       "is_verified": false
     },
     {
-      "name": "claude-code-best-practice",
-      "full_name": "shanraisshan/claude-code-best-practice",
-      "description": "practice made claude perfect",
-      "url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "stars": 17075,
-      "forks_count": 1512,
-      "open_issues_count": 2,
-      "language": "HTML",
-      "gem_score": 7.38,
-      "momentum_trend": 1.32,
-      "recent_commits": 26,
-      "merged_prs_count": 1,
-      "topics": [
-        "claude-ai",
-        "claude-code",
-        "agentic-engineering"
-      ],
-      "activity": [
-        8,
-        12,
-        39,
-        26
-      ],
-      "good_first_issues_url": "https://github.com/shanraisshan/claude-code-best-practice/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-03-15T08:01:47Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 17,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "delve-framework",
       "full_name": "Interrupt/delve-framework",
       "description": "Delve is a framework for writing Games in Zig and Lua. For those who value being cross platform and keeping things simple.",
@@ -1216,7 +1219,7 @@
       "forks_count": 17,
       "open_issues_count": 9,
       "language": "Zig",
-      "gem_score": 7.25,
+      "gem_score": 7.24,
       "momentum_trend": 1,
       "recent_commits": 1,
       "merged_prs_count": 1,
@@ -1237,9 +1240,9 @@
         "published_at": "2026-02-03T16:54:43Z"
       },
       "featured": false,
-      "maintenance_score": 5,
+      "maintenance_score": 6,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "tetris",
@@ -1318,7 +1321,7 @@
       "full_name": "webui-dev/zig-webui",
       "description": "Use any web browser or WebView as GUI, with Zig in the backend and modern web technologies in the frontend, all in a lightweight portable library.",
       "url": "https://github.com/webui-dev/zig-webui",
-      "stars": 753,
+      "stars": 754,
       "forks_count": 32,
       "open_issues_count": 5,
       "language": "Zig",
@@ -1347,9 +1350,9 @@
         "published_at": "2025-03-06T02:11:58Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "tokamak",
@@ -1360,7 +1363,7 @@
       "forks_count": 19,
       "open_issues_count": 5,
       "language": "Zig",
-      "gem_score": 5.86,
+      "gem_score": 5.85,
       "momentum_trend": 1,
       "recent_commits": 3,
       "merged_prs_count": 0,
@@ -1421,11 +1424,11 @@
       "full_name": "666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
       "url": "https://github.com/666ghj/MiroFish",
-      "stars": 27404,
-      "forks_count": 3290,
-      "open_issues_count": 59,
+      "stars": 28885,
+      "forks_count": 3517,
+      "open_issues_count": 55,
       "language": "Python",
-      "gem_score": 4.86,
+      "gem_score": 4.83,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -1450,7 +1453,7 @@
         "published_at": "2026-03-07T13:45:58Z"
       },
       "featured": true,
-      "maintenance_score": 75,
+      "maintenance_score": 76,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1487,7 +1490,7 @@
         "published_at": "2025-01-24T10:52:11Z"
       },
       "featured": false,
-      "maintenance_score": 121,
+      "maintenance_score": 122,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1525,7 +1528,7 @@
         "published_at": "2025-08-21T17:39:59Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1560,9 +1563,9 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1662,
+      "maintenance_score": 1663,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     }
   ]
 }
