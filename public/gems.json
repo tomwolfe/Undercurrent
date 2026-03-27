@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-03-26T13:15:23.101Z",
-  "count": 11,
+  "last_mined": "2026-03-27T02:09:27.372Z",
+  "count": 8,
   "gems": [
     {
       "name": "oh-my-claudecode",
       "full_name": "Yeachan-Heo/oh-my-claudecode",
       "description": "Teams-first Multi-agent orchestration for Claude Code",
       "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-      "stars": 12031,
-      "forks_count": 813,
+      "stars": 12720,
+      "forks_count": 846,
       "open_issues_count": 17,
       "language": "TypeScript",
-      "gem_score": 39.58,
-      "momentum_trend": 0.28,
-      "recent_commits": 50,
+      "gem_score": 38.91,
+      "momentum_trend": 0.24,
+      "recent_commits": 44,
       "merged_prs_count": 50,
       "topics": [
         "agentic-coding",
@@ -21,14 +21,14 @@
         "claude"
       ],
       "activity": [
-        257,
-        158,
-        126,
-        50
+        278,
+        136,
+        128,
+        44
       ],
       "good_first_issues_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-26T12:47:00Z",
+      "pushed_at": "2026-03-27T01:01:42Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -41,55 +41,17 @@
       "is_verified": false
     },
     {
-      "name": "karl2d",
-      "full_name": "karl-zylinski/karl2d",
-      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
-      "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 457,
-      "forks_count": 32,
-      "open_issues_count": 28,
-      "language": "Odin",
-      "gem_score": 33.66,
-      "momentum_trend": 0.57,
-      "recent_commits": 4,
-      "merged_prs_count": 5,
-      "topics": [
-        "gamedev",
-        "odin",
-        "odin-lang"
-      ],
-      "activity": [
-        6,
-        13,
-        2,
-        4
-      ],
-      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-03-25T17:48:34Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "beta-2",
-        "published_at": "2026-01-22T15:45:47Z"
-      },
-      "featured": false,
-      "maintenance_score": 5,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "url": "https://github.com/bytedance/deer-flow",
-      "stars": 47656,
-      "forks_count": 5675,
-      "open_issues_count": 267,
+      "stars": 48540,
+      "forks_count": 5786,
+      "open_issues_count": 277,
       "language": "Python",
-      "gem_score": 25.84,
-      "momentum_trend": 1.78,
-      "recent_commits": 61,
+      "gem_score": 26.02,
+      "momentum_trend": 2.02,
+      "recent_commits": 68,
       "merged_prs_count": 49,
       "topics": [
         "agent",
@@ -97,14 +59,14 @@
         "agentic-framework"
       ],
       "activity": [
-        29,
-        37,
-        37,
-        61
+        28,
+        38,
+        35,
+        68
       ],
       "good_first_issues_url": "https://github.com/bytedance/deer-flow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-26T09:44:25Z",
+      "pushed_at": "2026-03-27T01:54:14Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": null,
@@ -118,20 +80,20 @@
       "full_name": "virattt/dexter",
       "description": "An autonomous agent for deep financial research",
       "url": "https://github.com/virattt/dexter",
-      "stars": 18709,
-      "forks_count": 2312,
-      "open_issues_count": 18,
+      "stars": 19022,
+      "forks_count": 2334,
+      "open_issues_count": 19,
       "language": "TypeScript",
-      "gem_score": 23.75,
-      "momentum_trend": 1.07,
-      "recent_commits": 15,
+      "gem_score": 21.81,
+      "momentum_trend": 0.59,
+      "recent_commits": 8,
       "merged_prs_count": 8,
       "topics": [],
       "activity": [
-        12,
-        23,
-        7,
-        15
+        9,
+        18,
+        14,
+        8
       ],
       "good_first_issues_url": "https://github.com/virattt/dexter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -151,11 +113,11 @@
       "full_name": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 9055,
-      "forks_count": 799,
+      "stars": 10406,
+      "forks_count": 889,
       "open_issues_count": 20,
       "language": "Python",
-      "gem_score": 21.53,
+      "gem_score": 21.21,
       "momentum_trend": 0.06,
       "recent_commits": 2,
       "merged_prs_count": 13,
@@ -165,8 +127,8 @@
         "claude-code"
       ],
       "activity": [
-        26,
-        66,
+        28,
+        60,
         17,
         2
       ],
@@ -185,50 +147,15 @@
       "is_verified": false
     },
     {
-      "name": "mojo-gpu-puzzles",
-      "full_name": "modular/mojo-gpu-puzzles",
-      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
-      "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 308,
-      "forks_count": 321,
-      "open_issues_count": 6,
-      "language": "Mojo",
-      "gem_score": 21.08,
-      "momentum_trend": 1.5,
-      "recent_commits": 2,
-      "merged_prs_count": 6,
-      "topics": [
-        "mojo",
-        "gpu",
-        "learn-by-doing"
-      ],
-      "activity": [
-        0,
-        4,
-        0,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-03-25T21:53:10Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 1,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "agentscope",
       "full_name": "agentscope-ai/agentscope",
       "description": "Build and run agents you can see, understand and trust.",
       "url": "https://github.com/agentscope-ai/agentscope",
-      "stars": 20095,
-      "forks_count": 1950,
+      "stars": 20483,
+      "forks_count": 1998,
       "open_issues_count": 97,
       "language": "Python",
-      "gem_score": 18.7,
+      "gem_score": 18.65,
       "momentum_trend": 2,
       "recent_commits": 12,
       "merged_prs_count": 30,
@@ -255,20 +182,20 @@
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "twenty",
       "full_name": "twentyhq/twenty",
       "description": "Building a modern alternative to Salesforce, powered by the community.",
       "url": "https://github.com/twentyhq/twenty",
-      "stars": 41012,
-      "forks_count": 5480,
+      "stars": 41302,
+      "forks_count": 5505,
       "open_issues_count": 83,
       "language": "TypeScript",
-      "gem_score": 17.5,
-      "momentum_trend": 1.42,
-      "recent_commits": 168,
+      "gem_score": 17.57,
+      "momentum_trend": 1.52,
+      "recent_commits": 181,
       "merged_prs_count": 50,
       "topics": [
         "crm",
@@ -276,14 +203,14 @@
         "graphql"
       ],
       "activity": [
-        106,
-        129,
-        119,
-        168
+        124,
+        121,
+        112,
+        181
       ],
       "good_first_issues_url": "https://github.com/twentyhq/twenty/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-03-26T13:04:00Z",
+      "pushed_at": "2026-03-27T01:19:42Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
@@ -291,46 +218,8 @@
         "published_at": "2026-03-23T15:57:41Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 2,
       "bundle_size": 904513,
-      "is_verified": false
-    },
-    {
-      "name": "ols",
-      "full_name": "DanielGavin/ols",
-      "description": "Language server for Odin",
-      "url": "https://github.com/DanielGavin/ols",
-      "stars": 933,
-      "forks_count": 140,
-      "open_issues_count": 84,
-      "language": "Odin",
-      "gem_score": 15.68,
-      "momentum_trend": 1.48,
-      "recent_commits": 30,
-      "merged_prs_count": 47,
-      "topics": [
-        "language-server",
-        "odin",
-        "lsp"
-      ],
-      "activity": [
-        26,
-        12,
-        23,
-        30
-      ],
-      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-03-25T23:39:55Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "dev-2026-03",
-        "published_at": "2026-03-17T06:00:24Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
       "is_verified": false
     },
     {
@@ -338,11 +227,11 @@
       "full_name": "datalab-to/chandra",
       "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
       "url": "https://github.com/datalab-to/chandra",
-      "stars": 5760,
-      "forks_count": 644,
-      "open_issues_count": 24,
+      "stars": 6209,
+      "forks_count": 676,
+      "open_issues_count": 25,
       "language": "Python",
-      "gem_score": 9.84,
+      "gem_score": 9.76,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 2,
@@ -366,20 +255,20 @@
         "published_at": "2026-03-18T15:16:25Z"
       },
       "featured": true,
-      "maintenance_score": 7,
+      "maintenance_score": 8,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "insanely-fast-whisper",
       "full_name": "Vaibhavs10/insanely-fast-whisper",
       "description": "No description available.",
       "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
-      "stars": 10652,
-      "forks_count": 785,
+      "stars": 11276,
+      "forks_count": 819,
       "open_issues_count": 100,
       "language": "Jupyter Notebook",
-      "gem_score": 1.37,
+      "gem_score": 1.36,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -397,7 +286,7 @@
       "license": "Apache-2.0",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 864,
+      "maintenance_score": 865,
       "bundle_size": null,
       "is_verified": false
     }
