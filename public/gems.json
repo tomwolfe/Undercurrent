@@ -1,7 +1,40 @@
 {
-  "last_mined": "2026-04-02T13:13:10.401Z",
-  "count": 40,
+  "last_mined": "2026-04-03T02:10:11.458Z",
+  "count": 34,
   "gems": [
+    {
+      "name": "oh-my-codex",
+      "full_name": "Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "stars": 11855,
+      "forks_count": 1100,
+      "open_issues_count": 6,
+      "language": "TypeScript",
+      "gem_score": 44,
+      "momentum_trend": 0.24,
+      "recent_commits": 47,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        243,
+        226,
+        109,
+        47
+      ],
+      "good_first_issues_url": "https://github.com/Yeachan-Heo/oh-my-codex/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-03T01:20:13Z",
+      "is_hype": true,
+      "latest_release": {
+        "tag": "v0.11.12",
+        "published_at": "2026-04-02T07:43:18Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
@@ -11,9 +44,9 @@
       "forks_count": 31,
       "open_issues_count": 29,
       "language": "Odin",
-      "gem_score": 36.86,
-      "momentum_trend": 1.26,
-      "recent_commits": 8,
+      "gem_score": 35.64,
+      "momentum_trend": 0.86,
+      "recent_commits": 6,
       "merged_prs_count": 6,
       "topics": [
         "gamedev",
@@ -22,9 +55,9 @@
       ],
       "activity": [
         13,
-        2,
-        4,
-        8
+        3,
+        5,
+        6
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
@@ -36,41 +69,7 @@
         "published_at": "2026-01-22T15:45:47Z"
       },
       "featured": false,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "codex",
-      "full_name": "openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "url": "https://github.com/openai/codex",
-      "stars": 72415,
-      "forks_count": 10136,
-      "open_issues_count": 2088,
-      "language": "Rust",
-      "gem_score": 31.14,
-      "momentum_trend": 0.91,
-      "recent_commits": 181,
-      "merged_prs_count": 50,
-      "topics": [],
-      "activity": [
-        218,
-        188,
-        188,
-        181
-      ],
-      "good_first_issues_url": "https://github.com/openai/codex/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-02T12:48:45Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "rust-v0.118.0",
-        "published_at": "2026-03-31T17:02:18Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
@@ -79,14 +78,14 @@
       "full_name": "Mojo-Numerics-and-Algorithms-group/NuMojo",
       "description": "NuMojo is a library for numerical computing in Mojo 🔥 similar to numpy in Python.",
       "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
-      "stars": 206,
+      "stars": 207,
       "forks_count": 22,
       "open_issues_count": 15,
       "language": "Mojo",
-      "gem_score": 28.81,
+      "gem_score": 28.56,
       "momentum_trend": 1,
       "recent_commits": 43,
-      "merged_prs_count": 17,
+      "merged_prs_count": 16,
       "topics": [
         "mathematics",
         "numerical-analysis"
@@ -107,7 +106,45 @@
         "published_at": "2026-03-31T16:37:00Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "openscreen",
+      "full_name": "siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. ",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "stars": 16019,
+      "forks_count": 1093,
+      "open_issues_count": 39,
+      "language": "TypeScript",
+      "gem_score": 28.45,
+      "momentum_trend": 0.03,
+      "recent_commits": 1,
+      "merged_prs_count": 27,
+      "topics": [
+        "electron",
+        "pixijs",
+        "screen-recorder"
+      ],
+      "activity": [
+        21,
+        79,
+        14,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/siddharthvaddem/openscreen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-04-02T05:19:00Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.3.0",
+        "published_at": "2026-04-02T05:19:00Z"
+      },
+      "featured": true,
+      "maintenance_score": 14,
       "bundle_size": null,
       "is_verified": false
     },
@@ -120,7 +157,7 @@
       "forks_count": 19,
       "open_issues_count": 13,
       "language": "Zig",
-      "gem_score": 28.27,
+      "gem_score": 28.25,
       "momentum_trend": 1,
       "recent_commits": 2,
       "merged_prs_count": 2,
@@ -143,44 +180,6 @@
       "is_verified": false
     },
     {
-      "name": "GLM-OCR",
-      "full_name": "zai-org/GLM-OCR",
-      "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
-      "url": "https://github.com/zai-org/GLM-OCR",
-      "stars": 5106,
-      "forks_count": 449,
-      "open_issues_count": 38,
-      "language": "Python",
-      "gem_score": 26.96,
-      "momentum_trend": 0.21,
-      "recent_commits": 4,
-      "merged_prs_count": 19,
-      "topics": [
-        "glm",
-        "image2text",
-        "ocr"
-      ],
-      "activity": [
-        23,
-        19,
-        15,
-        4
-      ],
-      "good_first_issues_url": "https://github.com/zai-org/GLM-OCR/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-03-27T09:52:08Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.1.4",
-        "published_at": "2026-03-19T02:38:35Z"
-      },
-      "featured": true,
-      "maintenance_score": 6,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "oxwm",
       "full_name": "tonybanters/oxwm",
       "description": null,
@@ -189,14 +188,14 @@
       "forks_count": 45,
       "open_issues_count": 31,
       "language": "Zig",
-      "gem_score": 24.73,
-      "momentum_trend": 1.29,
+      "gem_score": 24.69,
+      "momentum_trend": 1.5,
       "recent_commits": 6,
       "merged_prs_count": 3,
       "topics": [],
       "activity": [
-        9,
-        1,
+        8,
+        0,
         4,
         6
       ],
@@ -207,9 +206,9 @@
       "license": "GPL-3.0",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -217,11 +216,11 @@
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
       "stars": 311,
-      "forks_count": 324,
+      "forks_count": 325,
       "open_issues_count": 5,
       "language": "Mojo",
-      "gem_score": 24.25,
-      "momentum_trend": 1.5,
+      "gem_score": 24.24,
+      "momentum_trend": 1.8,
       "recent_commits": 3,
       "merged_prs_count": 9,
       "topics": [
@@ -230,7 +229,7 @@
         "learn-by-doing"
       ],
       "activity": [
-        4,
+        3,
         0,
         2,
         3
@@ -242,9 +241,9 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "sig",
@@ -253,22 +252,22 @@
       "url": "https://github.com/Syndica/sig",
       "stars": 379,
       "forks_count": 56,
-      "open_issues_count": 69,
+      "open_issues_count": 70,
       "language": "Zig",
-      "gem_score": 23.01,
-      "momentum_trend": 1.23,
-      "recent_commits": 18,
+      "gem_score": 22.88,
+      "momentum_trend": 1.21,
+      "recent_commits": 17,
       "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        27,
-        5,
-        12,
-        18
+        23,
+        6,
+        13,
+        17
       ],
       "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-02T12:21:55Z",
+      "pushed_at": "2026-04-03T02:01:51Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -278,7 +277,7 @@
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "libqt6zig",
@@ -289,8 +288,8 @@
       "forks_count": 7,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 22.17,
-      "momentum_trend": 1.13,
+      "gem_score": 22.16,
+      "momentum_trend": 1.29,
       "recent_commits": 3,
       "merged_prs_count": 6,
       "topics": [
@@ -299,8 +298,8 @@
         "qt"
       ],
       "activity": [
+        4,
         3,
-        5,
         0,
         3
       ],
@@ -311,38 +310,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "VibeVoice",
-      "full_name": "microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "url": "https://github.com/microsoft/VibeVoice",
-      "stars": 34955,
-      "forks_count": 3975,
-      "open_issues_count": 91,
-      "language": "Python",
-      "gem_score": 18.02,
-      "momentum_trend": 12,
-      "recent_commits": 16,
-      "merged_prs_count": 4,
-      "topics": [],
-      "activity": [
-        2,
-        0,
-        2,
-        16
-      ],
-      "good_first_issues_url": "https://github.com/microsoft/VibeVoice/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-02T11:07:48Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
@@ -385,53 +353,15 @@
       "is_verified": false
     },
     {
-      "name": "claude-howto",
-      "full_name": "luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "stars": 16627,
-      "forks_count": 1940,
-      "open_issues_count": 6,
-      "language": "Python",
-      "gem_score": 17.36,
-      "momentum_trend": 3,
-      "recent_commits": 12,
-      "merged_prs_count": 2,
-      "topics": [
-        "claude-code",
-        "guide",
-        "tutorial"
-      ],
-      "activity": [
-        0,
-        12,
-        0,
-        12
-      ],
-      "good_first_issues_url": "https://github.com/luongnv89/claude-howto/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-02T00:20:48Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v2.2.0",
-        "published_at": "2026-03-26T14:06:27Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "flow",
       "full_name": "neurocyte/flow",
       "description": "Flow Control: a programmer's text editor",
       "url": "https://github.com/neurocyte/flow",
-      "stars": 1829,
+      "stars": 1831,
       "forks_count": 97,
       "open_issues_count": 69,
       "language": "Zig",
-      "gem_score": 16.87,
+      "gem_score": 16.86,
       "momentum_trend": 1.17,
       "recent_commits": 7,
       "merged_prs_count": 6,
@@ -461,39 +391,6 @@
       "is_verified": false
     },
     {
-      "name": "claude-code",
-      "full_name": "anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "url": "https://github.com/anthropics/claude-code",
-      "stars": 105258,
-      "forks_count": 16705,
-      "open_issues_count": 8339,
-      "language": "Shell",
-      "gem_score": 15.91,
-      "momentum_trend": 1.26,
-      "recent_commits": 8,
-      "merged_prs_count": 2,
-      "topics": [],
-      "activity": [
-        9,
-        5,
-        5,
-        8
-      ],
-      "good_first_issues_url": "https://github.com/anthropics/claude-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-01T23:41:31Z",
-      "is_hype": true,
-      "latest_release": {
-        "tag": "v2.1.90",
-        "published_at": "2026-04-01T23:41:31Z"
-      },
-      "featured": true,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "Zag-Smalltalk",
       "full_name": "Zag-Research/Zag-Smalltalk",
       "description": "Smalltalk VM Written in Zig with methods stored as type-annotated ASTs",
@@ -502,9 +399,9 @@
       "forks_count": 12,
       "open_issues_count": 4,
       "language": "Zig",
-      "gem_score": 15.47,
-      "momentum_trend": 1.1,
-      "recent_commits": 19,
+      "gem_score": 15.37,
+      "momentum_trend": 1.04,
+      "recent_commits": 18,
       "merged_prs_count": 10,
       "topics": [
         "smalltalk",
@@ -512,14 +409,14 @@
         "zig"
       ],
       "activity": [
-        16,
-        32,
-        4,
-        19
+        26,
+        21,
+        5,
+        18
       ],
       "good_first_issues_url": "https://github.com/Zag-Research/Zag-Smalltalk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-02T02:17:48Z",
+      "pushed_at": "2026-04-02T19:29:56Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
@@ -537,13 +434,13 @@
       "forks_count": 0,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 14.98,
+      "gem_score": 14.97,
       "momentum_trend": 0.17,
       "recent_commits": 4,
       "merged_prs_count": 1,
       "topics": [],
       "activity": [
-        30,
+        29,
         15,
         25,
         4
@@ -555,7 +452,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 24,
+      "maintenance_score": 25,
       "bundle_size": null,
       "is_verified": false
     },
@@ -565,13 +462,13 @@
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
       "stars": 940,
-      "forks_count": 142,
+      "forks_count": 143,
       "open_issues_count": 82,
       "language": "Odin",
-      "gem_score": 14.38,
-      "momentum_trend": 0.78,
-      "recent_commits": 17,
-      "merged_prs_count": 38,
+      "gem_score": 14.65,
+      "momentum_trend": 0.88,
+      "recent_commits": 19,
+      "merged_prs_count": 40,
       "topics": [
         "language-server",
         "odin",
@@ -579,13 +476,13 @@
       ],
       "activity": [
         12,
-        23,
-        30,
-        17
+        21,
+        32,
+        19
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-01T20:03:37Z",
+      "pushed_at": "2026-04-02T22:39:54Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -602,7 +499,7 @@
       "full_name": "Lightbug-HQ/lightbug_http",
       "description": "Simple and fast HTTP framework for Mojo",
       "url": "https://github.com/Lightbug-HQ/lightbug_http",
-      "stars": 726,
+      "stars": 725,
       "forks_count": 46,
       "open_issues_count": 9,
       "language": "Mojo",
@@ -636,62 +533,24 @@
       "is_verified": false
     },
     {
-      "name": "zignal",
-      "full_name": "arrufat/zignal",
-      "description": "zero-dependency image processing library",
-      "url": "https://github.com/arrufat/zignal",
-      "stars": 358,
-      "forks_count": 10,
-      "open_issues_count": 0,
-      "language": "Zig",
-      "gem_score": 12.99,
-      "momentum_trend": 1.5,
-      "recent_commits": 4,
-      "merged_prs_count": 3,
-      "topics": [
-        "image-processing",
-        "zig",
-        "webassembly"
-      ],
-      "activity": [
-        2,
-        1,
-        5,
-        4
-      ],
-      "good_first_issues_url": "https://github.com/arrufat/zignal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-03-27T03:21:02Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "0.9.1",
-        "published_at": "2025-12-15T20:45:57Z"
-      },
-      "featured": false,
-      "maintenance_score": 8,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "dvui",
       "full_name": "david-vanderson/dvui",
       "description": "Immediate Zig GUI for Apps and Games",
       "url": "https://github.com/david-vanderson/dvui",
-      "stars": 1304,
+      "stars": 1307,
       "forks_count": 107,
-      "open_issues_count": 68,
+      "open_issues_count": 69,
       "language": "Zig",
-      "gem_score": 12.76,
-      "momentum_trend": 0.53,
-      "recent_commits": 14,
-      "merged_prs_count": 15,
+      "gem_score": 11.89,
+      "momentum_trend": 0.42,
+      "recent_commits": 11,
+      "merged_prs_count": 12,
       "topics": [],
       "activity": [
-        35,
+        32,
         25,
-        20,
-        14
+        22,
+        11
       ],
       "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -703,7 +562,7 @@
         "published_at": "2025-08-30T17:33:50Z"
       },
       "featured": false,
-      "maintenance_score": 29,
+      "maintenance_score": 30,
       "bundle_size": null,
       "is_verified": false
     },
@@ -716,7 +575,7 @@
       "forks_count": 11,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 11.73,
+      "gem_score": 11.72,
       "momentum_trend": 1.5,
       "recent_commits": 1,
       "merged_prs_count": 3,
@@ -741,9 +600,9 @@
         "published_at": "2026-03-11T16:22:10Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "anyzig",
@@ -851,46 +710,8 @@
         "published_at": "2025-09-11T11:58:13Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "axios",
-      "full_name": "axios/axios",
-      "description": "Promise based HTTP client for the browser and node.js",
-      "url": "https://github.com/axios/axios",
-      "stars": 108966,
-      "forks_count": 11592,
-      "open_issues_count": 187,
-      "language": "JavaScript",
-      "gem_score": 9.98,
-      "momentum_trend": 1.86,
-      "recent_commits": 18,
-      "merged_prs_count": 47,
-      "topics": [
-        "http-client",
-        "javascript",
-        "nodejs"
-      ],
-      "activity": [
-        2,
-        21,
-        6,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/axios/axios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-02T07:02:59Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.14.0",
-        "published_at": "2026-03-27T19:01:13Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": 36297,
       "is_verified": false
     },
     {
@@ -924,7 +745,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 72,
+      "maintenance_score": 73,
       "bundle_size": null,
       "is_verified": false
     },
@@ -937,16 +758,16 @@
       "forks_count": 1,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 9.66,
-      "momentum_trend": 0.93,
-      "recent_commits": 22,
+      "gem_score": 9.55,
+      "momentum_trend": 0.88,
+      "recent_commits": 21,
       "merged_prs_count": 0,
       "topics": [],
       "activity": [
         15,
         20,
-        36,
-        22
+        37,
+        21
       ],
       "good_first_issues_url": "https://github.com/jamii/jams/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -967,7 +788,7 @@
       "forks_count": 39,
       "open_issues_count": 32,
       "language": "Zig",
-      "gem_score": 9.4,
+      "gem_score": 9.39,
       "momentum_trend": 0.75,
       "recent_commits": 1,
       "merged_prs_count": 5,
@@ -991,7 +812,7 @@
         "published_at": "2025-09-18T17:08:06Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1015,8 +836,8 @@
       ],
       "activity": [
         7,
-        11,
-        24,
+        12,
+        23,
         1
       ],
       "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -1052,8 +873,8 @@
         "zig"
       ],
       "activity": [
-        0,
-        7,
+        1,
+        6,
         0,
         1
       ],
@@ -1098,7 +919,7 @@
         "published_at": "2026-02-03T16:54:43Z"
       },
       "featured": false,
-      "maintenance_score": 7,
+      "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1133,7 +954,7 @@
       "license": "LGPL-3.0",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 178,
+      "maintenance_score": 179,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1146,9 +967,9 @@
       "forks_count": 18,
       "open_issues_count": 5,
       "language": "Zig",
-      "gem_score": 7.48,
-      "momentum_trend": 3,
-      "recent_commits": 7,
+      "gem_score": 7.15,
+      "momentum_trend": 2.25,
+      "recent_commits": 6,
       "merged_prs_count": 0,
       "topics": [
         "zig-package",
@@ -1156,10 +977,10 @@
         "http"
       ],
       "activity": [
-        0,
+        2,
+        2,
         4,
-        3,
-        7
+        6
       ],
       "good_first_issues_url": "https://github.com/cztomsik/tokamak/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1168,9 +989,9 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 80,
+      "maintenance_score": 81,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "zig-protobuf",
@@ -1181,7 +1002,7 @@
       "forks_count": 60,
       "open_issues_count": 19,
       "language": "Zig",
-      "gem_score": 6.86,
+      "gem_score": 6.85,
       "momentum_trend": 3,
       "recent_commits": 1,
       "merged_prs_count": 3,
@@ -1206,79 +1027,7 @@
         "published_at": "2026-03-09T15:45:53Z"
       },
       "featured": false,
-      "maintenance_score": 3,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "timesfm",
-      "full_name": "google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "url": "https://github.com/google-research/timesfm",
-      "stars": 12907,
-      "forks_count": 1064,
-      "open_issues_count": 137,
-      "language": "Python",
-      "gem_score": 6.8,
-      "momentum_trend": 0.43,
-      "recent_commits": 1,
-      "merged_prs_count": 3,
-      "topics": [],
-      "activity": [
-        4,
-        1,
-        2,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/google-research/timesfm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-01T21:46:32Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v1.2.6",
-        "published_at": "2024-12-31T19:07:28Z"
-      },
-      "featured": true,
-      "maintenance_score": 13,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "linuxwave",
-      "full_name": "orhun/linuxwave",
-      "description": "Generate music from the entropy of Linux 🐧🎵",
-      "url": "https://github.com/orhun/linuxwave",
-      "stars": 640,
-      "forks_count": 22,
-      "open_issues_count": 7,
-      "language": "Zig",
-      "gem_score": 5.79,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [
-        "entropy",
-        "linux",
-        "music"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/orhun/linuxwave/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-03-27T18:03:07Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.3.0",
-        "published_at": "2025-03-07T23:27:44Z"
-      },
-      "featured": false,
-      "maintenance_score": 110,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1313,7 +1062,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1322,7 +1071,7 @@
       "full_name": "foxnne/pixi",
       "description": "Pixel art editor made with Zig.",
       "url": "https://github.com/foxnne/pixi",
-      "stars": 1275,
+      "stars": 1277,
       "forks_count": 34,
       "open_issues_count": 12,
       "language": "Zig",
@@ -1336,7 +1085,7 @@
         "cross-platform"
       ],
       "activity": [
-        6,
+        5,
         1,
         13,
         0
@@ -1348,79 +1097,110 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 11,
+      "maintenance_score": 12,
+      "bundle_size": null,
+      "is_verified": true
+    },
+    {
+      "name": "system_prompts_leaks",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "stars": 36426,
+      "forks_count": 6019,
+      "open_issues_count": 1,
+      "language": "Plain Text",
+      "gem_score": 4.5,
+      "momentum_trend": 1.34,
+      "recent_commits": 13,
+      "merged_prs_count": 1,
+      "topics": [
+        "ai",
+        "anthropic",
+        "chatgpt"
+      ],
+      "activity": [
+        14,
+        8,
+        7,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/asgeirtj/system_prompts_leaks/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-01T01:35:42Z",
+      "is_hype": true,
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 18,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "known-folders",
-      "full_name": "ziglibs/known-folders",
-      "description": "Provides access to well-known folders across several operating systems",
-      "url": "https://github.com/ziglibs/known-folders",
-      "stars": 295,
-      "forks_count": 23,
-      "open_issues_count": 2,
-      "language": "Zig",
-      "gem_score": 4.67,
-      "momentum_trend": 1,
-      "recent_commits": 4,
-      "merged_prs_count": 0,
+      "name": "sherlock",
+      "full_name": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "stars": 77331,
+      "forks_count": 9072,
+      "open_issues_count": 78,
+      "language": "Python",
+      "gem_score": 4.49,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 2,
       "topics": [
-        "zig",
-        "zig-package"
+        "osint",
+        "reconnaissance",
+        "linux"
       ],
       "activity": [
+        2,
+        1,
         0,
-        0,
-        0,
-        4
+        0
       ],
-      "good_first_issues_url": "https://github.com/ziglibs/known-folders/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-03-27T23:14:47Z",
+      "good_first_issues_url": "https://github.com/sherlock-project/sherlock/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-04-02T05:37:52Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
-        "tag": "0.7.0",
-        "published_at": "2020-11-16T07:53:40Z"
+        "tag": "v0.16.0",
+        "published_at": "2025-09-16T02:37:59Z"
       },
-      "featured": false,
-      "maintenance_score": 53,
+      "featured": true,
+      "maintenance_score": 16,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "prompts.chat",
-      "full_name": "f/prompts.chat",
-      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "url": "https://github.com/f/prompts.chat",
-      "stars": 156586,
-      "forks_count": 20549,
-      "open_issues_count": 8,
-      "language": "HTML",
-      "gem_score": 4.6,
-      "momentum_trend": 0.78,
-      "recent_commits": 149,
-      "merged_prs_count": 18,
-      "topics": [
-        "chatgpt",
-        "ai",
-        "artificial-intelligence"
-      ],
+      "name": "xit",
+      "full_name": "xit-vcs/xit",
+      "description": "a git alternative written in zig",
+      "url": "https://github.com/xit-vcs/xit",
+      "stars": 344,
+      "forks_count": 12,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 2.28,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [],
       "activity": [
-        199,
-        151,
-        224,
-        149
+        0,
+        3,
+        1,
+        0
       ],
-      "good_first_issues_url": "https://github.com/f/prompts.chat/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/xit-vcs/xit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-02T03:58:34Z",
-      "is_hype": true,
-      "license": "CC0-1.0",
+      "pushed_at": "2026-04-01T18:24:10Z",
+      "is_hype": false,
+      "license": "MIT",
       "latest_release": null,
-      "featured": true,
-      "maintenance_score": 0,
+      "featured": false,
+      "maintenance_score": 84,
       "bundle_size": null,
       "is_verified": false
     }
