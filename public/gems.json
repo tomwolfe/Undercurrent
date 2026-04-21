@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-04-20T13:30:43.401Z",
+  "last_mined": "2026-04-21T02:30:00.047Z",
   "count": 12,
   "gems": [
     {
@@ -7,13 +7,13 @@
       "full_name": "koala73/worldmonitor",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "url": "https://github.com/koala73/worldmonitor",
-      "stars": 49533,
-      "forks_count": 8109,
-      "open_issues_count": 39,
+      "stars": 50206,
+      "forks_count": 8153,
+      "open_issues_count": 40,
       "language": "TypeScript",
-      "gem_score": 51.49,
-      "momentum_trend": 0.54,
-      "recent_commits": 133,
+      "gem_score": 51.34,
+      "momentum_trend": 0.53,
+      "recent_commits": 129,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -21,14 +21,14 @@
         "geopolitics"
       ],
       "activity": [
-        311,
-        181,
-        249,
-        133
+        300,
+        179,
+        252,
+        129
       ],
       "good_first_issues_url": "https://github.com/koala73/worldmonitor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-04-20T12:28:07Z",
+      "pushed_at": "2026-04-20T23:21:06Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -45,13 +45,13 @@
       "full_name": "thunderbird/thunderbolt",
       "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
       "url": "https://github.com/thunderbird/thunderbolt",
-      "stars": 2583,
-      "forks_count": 150,
-      "open_issues_count": 3,
+      "stars": 2859,
+      "forks_count": 168,
+      "open_issues_count": 7,
       "language": "TypeScript",
-      "gem_score": 39.18,
-      "momentum_trend": 1.71,
-      "recent_commits": 37,
+      "gem_score": 38.9,
+      "momentum_trend": 2.07,
+      "recent_commits": 40,
       "merged_prs_count": 49,
       "topics": [
         "ai",
@@ -59,22 +59,22 @@
         "llms"
       ],
       "activity": [
-        16,
-        10,
-        39,
-        37
+        9,
+        17,
+        32,
+        40
       ],
       "good_first_issues_url": "https://github.com/thunderbird/thunderbolt/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-20T12:50:48Z",
+      "pushed_at": "2026-04-20T22:57:23Z",
       "is_hype": true,
       "license": "MPL-2.0",
       "latest_release": {
         "tag": "v0.1.87",
         "published_at": "2026-04-10T19:56:24Z"
       },
-      "featured": false,
-      "maintenance_score": 2,
+      "featured": true,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -83,11 +83,11 @@
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 494,
+      "stars": 495,
       "forks_count": 36,
       "open_issues_count": 30,
       "language": "Odin",
-      "gem_score": 38.51,
+      "gem_score": 38.46,
       "momentum_trend": 1.36,
       "recent_commits": 10,
       "merged_prs_count": 9,
@@ -97,14 +97,14 @@
         "odin-lang"
       ],
       "activity": [
-        9,
-        1,
+        10,
+        0,
         12,
         10
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-04-20T13:17:19Z",
+      "pushed_at": "2026-04-20T14:15:17Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -112,7 +112,7 @@
         "published_at": "2026-04-10T11:54:36Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
@@ -121,13 +121,13 @@
       "full_name": "openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
       "url": "https://github.com/openai/openai-agents-python",
-      "stars": 23706,
-      "forks_count": 3672,
-      "open_issues_count": 43,
+      "stars": 23987,
+      "forks_count": 3698,
+      "open_issues_count": 44,
       "language": "Python",
-      "gem_score": 24.97,
-      "momentum_trend": 1.92,
-      "recent_commits": 32,
+      "gem_score": 25.5,
+      "momentum_trend": 2.57,
+      "recent_commits": 42,
       "merged_prs_count": 49,
       "topics": [
         "agents",
@@ -135,22 +135,57 @@
         "framework"
       ],
       "activity": [
-        27,
+        26,
         15,
         8,
-        32
+        42
       ],
       "good_first_issues_url": "https://github.com/openai/openai-agents-python/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-20T05:36:59Z",
+      "pushed_at": "2026-04-21T02:18:20Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.14.2",
-        "published_at": "2026-04-18T00:17:07Z"
+        "tag": "v0.14.3",
+        "published_at": "2026-04-20T22:24:28Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "mojo-gpu-puzzles",
+      "full_name": "modular/mojo-gpu-puzzles",
+      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
+      "url": "https://github.com/modular/mojo-gpu-puzzles",
+      "stars": 315,
+      "forks_count": 334,
+      "open_issues_count": 5,
+      "language": "Mojo",
+      "gem_score": 21.04,
+      "momentum_trend": 1.2,
+      "recent_commits": 2,
+      "merged_prs_count": 7,
+      "topics": [
+        "mojo",
+        "gpu",
+        "learn-by-doing"
+      ],
+      "activity": [
+        4,
+        1,
+        0,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-20T21:33:16Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -159,17 +194,17 @@
       "full_name": "tractorjuice/arc-kit",
       "description": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
       "url": "https://github.com/tractorjuice/arc-kit",
-      "stars": 1200,
-      "forks_count": 150,
+      "stars": 1363,
+      "forks_count": 166,
       "open_issues_count": 12,
       "language": "HTML",
-      "gem_score": 21.08,
-      "momentum_trend": 5.34,
+      "gem_score": 20.67,
+      "momentum_trend": 6.58,
       "recent_commits": 57,
       "merged_prs_count": 47,
       "topics": [],
       "activity": [
-        17,
+        11,
         5,
         10,
         57
@@ -186,41 +221,6 @@
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "mojo-gpu-puzzles",
-      "full_name": "modular/mojo-gpu-puzzles",
-      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
-      "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 314,
-      "forks_count": 334,
-      "open_issues_count": 5,
-      "language": "Mojo",
-      "gem_score": 18.6,
-      "momentum_trend": 0.6,
-      "recent_commits": 1,
-      "merged_prs_count": 6,
-      "topics": [
-        "mojo",
-        "gpu",
-        "learn-by-doing"
-      ],
-      "activity": [
-        4,
-        1,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-15T21:09:19Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 5,
-      "bundle_size": null,
       "is_verified": false
     },
     {
@@ -228,13 +228,13 @@
       "full_name": "Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "stars": 8470,
-      "forks_count": 1201,
-      "open_issues_count": 15,
+      "stars": 9728,
+      "forks_count": 1329,
+      "open_issues_count": 19,
       "language": "Python",
-      "gem_score": 15.47,
-      "momentum_trend": 2.2,
-      "recent_commits": 61,
+      "gem_score": 15.29,
+      "momentum_trend": 2.28,
+      "recent_commits": 63,
       "merged_prs_count": 5,
       "topics": [
         "bloomberg-terminal",
@@ -242,14 +242,14 @@
         "financial-markets"
       ],
       "activity": [
-        27,
-        20,
-        36,
-        61
+        44,
+        4,
+        35,
+        63
       ],
       "good_first_issues_url": "https://github.com/Fincept-Corporation/FinceptTerminal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-20T13:16:14Z",
+      "pushed_at": "2026-04-20T14:00:17Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
@@ -266,23 +266,23 @@
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 954,
+      "stars": 955,
       "forks_count": 149,
       "open_issues_count": 86,
       "language": "Odin",
-      "gem_score": 14.27,
-      "momentum_trend": 1.36,
+      "gem_score": 14.06,
+      "momentum_trend": 1.43,
       "recent_commits": 20,
-      "merged_prs_count": 33,
+      "merged_prs_count": 30,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        23,
-        10,
-        11,
+        21,
+        12,
+        9,
         20
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -295,7 +295,7 @@
         "published_at": "2026-04-17T10:22:23Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
@@ -304,13 +304,13 @@
       "full_name": "XTLS/Xray-core",
       "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
       "url": "https://github.com/XTLS/Xray-core",
-      "stars": 37320,
-      "forks_count": 5201,
+      "stars": 37486,
+      "forks_count": 5213,
       "open_issues_count": 18,
       "language": "Go",
-      "gem_score": 10.53,
-      "momentum_trend": 4.42,
-      "recent_commits": 28,
+      "gem_score": 10.21,
+      "momentum_trend": 2.22,
+      "recent_commits": 20,
       "merged_prs_count": 45,
       "topics": [
         "xray",
@@ -320,12 +320,12 @@
       "activity": [
         3,
         6,
-        10,
-        28
+        18,
+        20
       ],
       "good_first_issues_url": "https://github.com/XTLS/Xray-core/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-20T09:12:13Z",
+      "pushed_at": "2026-04-21T00:52:51Z",
       "is_hype": false,
       "license": "MPL-2.0",
       "latest_release": {
@@ -333,7 +333,7 @@
         "published_at": "2026-03-27T17:51:11Z"
       },
       "featured": true,
-      "maintenance_score": 78,
+      "maintenance_score": 79,
       "bundle_size": null,
       "is_verified": false
     },
@@ -342,11 +342,11 @@
       "full_name": "deepseek-ai/DeepGEMM",
       "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
       "url": "https://github.com/deepseek-ai/DeepGEMM",
-      "stars": 6746,
-      "forks_count": 897,
+      "stars": 6844,
+      "forks_count": 903,
       "open_issues_count": 49,
       "language": "Cuda",
-      "gem_score": 7.63,
+      "gem_score": 7.62,
       "momentum_trend": 1,
       "recent_commits": 1,
       "merged_prs_count": 3,
@@ -367,7 +367,7 @@
         "published_at": "2025-10-15T14:30:54Z"
       },
       "featured": true,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false
     },
@@ -376,14 +376,14 @@
       "full_name": "pi-hole/pi-hole",
       "description": "A black hole for Internet advertisements",
       "url": "https://github.com/pi-hole/pi-hole",
-      "stars": 56837,
-      "forks_count": 3031,
+      "stars": 57232,
+      "forks_count": 3044,
       "open_issues_count": 25,
       "language": "Shell",
-      "gem_score": 7.48,
+      "gem_score": 7.52,
       "momentum_trend": 0,
       "recent_commits": 0,
-      "merged_prs_count": 24,
+      "merged_prs_count": 25,
       "topics": [
         "pi-hole",
         "ad-blocker",
@@ -397,7 +397,7 @@
       ],
       "good_first_issues_url": "https://github.com/pi-hole/pi-hole/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-19T21:45:48Z",
+      "pushed_at": "2026-04-21T01:02:52Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
@@ -435,12 +435,12 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-19T20:41:51Z",
+      "pushed_at": "2026-04-20T20:46:44Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 8,
+      "maintenance_score": 9,
       "bundle_size": null,
       "is_verified": false
     }
