@@ -1,7 +1,45 @@
 {
-  "last_mined": "2026-04-22T02:26:50.365Z",
-  "count": 11,
+  "last_mined": "2026-04-22T13:27:45.159Z",
+  "count": 13,
   "gems": [
+    {
+      "name": "worldmonitor",
+      "full_name": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "url": "https://github.com/koala73/worldmonitor",
+      "stars": 51144,
+      "forks_count": 8259,
+      "open_issues_count": 47,
+      "language": "TypeScript",
+      "gem_score": 51.41,
+      "momentum_trend": 0.58,
+      "recent_commits": 136,
+      "merged_prs_count": 50,
+      "topics": [
+        "ai",
+        "dashboard",
+        "geopolitics"
+      ],
+      "activity": [
+        265,
+        203,
+        231,
+        136
+      ],
+      "good_first_issues_url": "https://github.com/koala73/worldmonitor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-04-22T13:17:06Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v2.5.23",
+        "published_at": "2026-03-01T23:34:08Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
@@ -11,7 +49,7 @@
       "forks_count": 36,
       "open_issues_count": 30,
       "language": "Odin",
-      "gem_score": 39.02,
+      "gem_score": 38.99,
       "momentum_trend": 1.3,
       "recent_commits": 10,
       "merged_prs_count": 10,
@@ -28,7 +66,7 @@
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-04-22T00:01:25Z",
+      "pushed_at": "2026-04-22T10:12:16Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -41,53 +79,15 @@
       "is_verified": false
     },
     {
-      "name": "thunderbolt",
-      "full_name": "thunderbird/thunderbolt",
-      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
-      "url": "https://github.com/thunderbird/thunderbolt",
-      "stars": 3506,
-      "forks_count": 205,
-      "open_issues_count": 6,
-      "language": "TypeScript",
-      "gem_score": 37.53,
-      "momentum_trend": 1.75,
-      "recent_commits": 35,
-      "merged_prs_count": 50,
-      "topics": [
-        "ai",
-        "ai-agents",
-        "llms"
-      ],
-      "activity": [
-        7,
-        20,
-        33,
-        35
-      ],
-      "good_first_issues_url": "https://github.com/thunderbird/thunderbolt/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-21T19:59:29Z",
-      "is_hype": true,
-      "license": "MPL-2.0",
-      "latest_release": {
-        "tag": "v0.1.87",
-        "published_at": "2026-04-10T19:56:24Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
       "stars": 315,
-      "forks_count": 334,
+      "forks_count": 335,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 27.39,
+      "gem_score": 27.37,
       "momentum_trend": 4.5,
       "recent_commits": 6,
       "merged_prs_count": 12,
@@ -114,17 +114,166 @@
       "is_verified": false
     },
     {
+      "name": "langfuse",
+      "full_name": "langfuse/langfuse",
+      "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+      "url": "https://github.com/langfuse/langfuse",
+      "stars": 25406,
+      "forks_count": 2578,
+      "open_issues_count": 313,
+      "language": "TypeScript",
+      "gem_score": 26.81,
+      "momentum_trend": 1.02,
+      "recent_commits": 66,
+      "merged_prs_count": 50,
+      "topics": [
+        "analytics",
+        "llm",
+        "llmops"
+      ],
+      "activity": [
+        66,
+        36,
+        92,
+        66
+      ],
+      "good_first_issues_url": "https://github.com/langfuse/langfuse/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-04-22T13:17:00Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v3.169.0",
+        "published_at": "2026-04-17T12:43:58Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": 62591,
+      "is_verified": false
+    },
+    {
+      "name": "shannon",
+      "full_name": "KeygraphHQ/shannon",
+      "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "stars": 39273,
+      "forks_count": 4336,
+      "open_issues_count": 14,
+      "language": "TypeScript",
+      "gem_score": 22.24,
+      "momentum_trend": 4.71,
+      "recent_commits": 11,
+      "merged_prs_count": 16,
+      "topics": [
+        "penetration-testing",
+        "pentesting",
+        "security-audit"
+      ],
+      "activity": [
+        2,
+        4,
+        1,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/KeygraphHQ/shannon/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-21T07:58:05Z",
+      "is_hype": true,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v1.1.0",
+        "published_at": "2026-04-21T07:58:05Z"
+      },
+      "featured": true,
+      "maintenance_score": 5,
+      "bundle_size": 3324,
+      "is_verified": true
+    },
+    {
+      "name": "OpenMetadata",
+      "full_name": "open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "stars": 11921,
+      "forks_count": 1973,
+      "open_issues_count": 503,
+      "language": "TypeScript",
+      "gem_score": 20.15,
+      "momentum_trend": 0.99,
+      "recent_commits": 96,
+      "merged_prs_count": 49,
+      "topics": [
+        "metadata",
+        "datadiscovery",
+        "dataquality"
+      ],
+      "activity": [
+        99,
+        90,
+        103,
+        96
+      ],
+      "good_first_issues_url": "https://github.com/open-metadata/OpenMetadata/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-22T13:18:53Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "1.12.5-release",
+        "published_at": "2026-04-10T13:35:47Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "claude-context",
+      "full_name": "zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "url": "https://github.com/zilliztech/claude-context",
+      "stars": 7135,
+      "forks_count": 597,
+      "open_issues_count": 74,
+      "language": "TypeScript",
+      "gem_score": 18.09,
+      "momentum_trend": 24,
+      "recent_commits": 8,
+      "merged_prs_count": 8,
+      "topics": [
+        "agent",
+        "agentic-rag",
+        "ai-coding"
+      ],
+      "activity": [
+        0,
+        0,
+        1,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/zilliztech/claude-context/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-22T06:16:32Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 127955,
+      "is_verified": false
+    },
+    {
       "name": "FinceptTerminal",
       "full_name": "Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "stars": 11722,
-      "forks_count": 1536,
-      "open_issues_count": 20,
+      "stars": 12624,
+      "forks_count": 1657,
+      "open_issues_count": 17,
       "language": "Python",
-      "gem_score": 16.26,
-      "momentum_trend": 2.42,
-      "recent_commits": 67,
+      "gem_score": 16.15,
+      "momentum_trend": 2.4,
+      "recent_commits": 68,
       "merged_prs_count": 8,
       "topics": [
         "bloomberg-terminal",
@@ -134,53 +283,18 @@
       "activity": [
         33,
         4,
-        46,
-        67
+        48,
+        68
       ],
       "good_first_issues_url": "https://github.com/Fincept-Corporation/FinceptTerminal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-04-21T12:55:08Z",
+      "pushed_at": "2026-04-22T13:19:28Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
         "tag": "v4.0.1",
         "published_at": "2026-04-15T11:03:53Z"
       },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "ai-agents-for-beginners",
-      "full_name": "microsoft/ai-agents-for-beginners",
-      "description": "12 Lessons to Get Started Building AI Agents",
-      "url": "https://github.com/microsoft/ai-agents-for-beginners",
-      "stars": 57807,
-      "forks_count": 19882,
-      "open_issues_count": 2,
-      "language": "Jupyter Notebook",
-      "gem_score": 14.41,
-      "momentum_trend": 0.75,
-      "recent_commits": 29,
-      "merged_prs_count": 33,
-      "topics": [
-        "agentic-ai",
-        "agentic-framework",
-        "agentic-rag"
-      ],
-      "activity": [
-        8,
-        26,
-        82,
-        29
-      ],
-      "good_first_issues_url": "https://github.com/microsoft/ai-agents-for-beginners/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-20T17:31:59Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
       "featured": true,
       "maintenance_score": 1,
       "bundle_size": null,
@@ -191,11 +305,11 @@
       "full_name": "HKUDS/RAG-Anything",
       "description": "\"RAG-Anything: All-in-One RAG Framework\"",
       "url": "https://github.com/HKUDS/RAG-Anything",
-      "stars": 16959,
-      "forks_count": 2007,
-      "open_issues_count": 103,
+      "stars": 17311,
+      "forks_count": 2037,
+      "open_issues_count": 105,
       "language": "Python",
-      "gem_score": 14.31,
+      "gem_score": 14.27,
       "momentum_trend": 0.55,
       "recent_commits": 2,
       "merged_prs_count": 10,
@@ -219,7 +333,7 @@
         "published_at": "2026-03-24T07:49:23Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
@@ -232,20 +346,20 @@
       "forks_count": 149,
       "open_issues_count": 86,
       "language": "Odin",
-      "gem_score": 13.82,
-      "momentum_trend": 1.5,
-      "recent_commits": 20,
-      "merged_prs_count": 27,
+      "gem_score": 13.59,
+      "momentum_trend": 1.42,
+      "recent_commits": 18,
+      "merged_prs_count": 26,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        21,
         17,
-        2,
-        20
+        17,
+        4,
+        18
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -262,78 +376,6 @@
       "is_verified": false
     },
     {
-      "name": "claude-context",
-      "full_name": "zilliztech/claude-context",
-      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
-      "url": "https://github.com/zilliztech/claude-context",
-      "stars": 6673,
-      "forks_count": 571,
-      "open_issues_count": 74,
-      "language": "TypeScript",
-      "gem_score": 12.58,
-      "momentum_trend": 9,
-      "recent_commits": 3,
-      "merged_prs_count": 3,
-      "topics": [
-        "agent",
-        "agentic-rag",
-        "ai-coding"
-      ],
-      "activity": [
-        0,
-        0,
-        1,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/zilliztech/claude-context/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-20T03:29:34Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 1,
-      "bundle_size": 127955,
-      "is_verified": false
-    },
-    {
-      "name": "YTLite",
-      "full_name": "dayanch96/YTLite",
-      "description": "A flexible enhancer for YouTube on iOS",
-      "url": "https://github.com/dayanch96/YTLite",
-      "stars": 4851,
-      "forks_count": 20147,
-      "open_issues_count": 34,
-      "language": "Logos",
-      "gem_score": 10.38,
-      "momentum_trend": 4.29,
-      "recent_commits": 20,
-      "merged_prs_count": 11,
-      "topics": [
-        "downloader",
-        "ios",
-        "jailbreak"
-      ],
-      "activity": [
-        7,
-        3,
-        4,
-        20
-      ],
-      "good_first_issues_url": "https://github.com/dayanch96/YTLite/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-04-21T19:16:12Z",
-      "is_hype": false,
-      "latest_release": {
-        "tag": "v5.2",
-        "published_at": "2026-04-20T01:33:50Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "odin-http",
       "full_name": "laytan/odin-http",
       "description": "A HTTP/1.1 client/server implementation for Odin.",
@@ -342,7 +384,7 @@
       "forks_count": 40,
       "open_issues_count": 16,
       "language": "Odin",
-      "gem_score": 5.36,
+      "gem_score": 5.35,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 1,
@@ -373,9 +415,9 @@
       "full_name": "sansan0/TrendRadar",
       "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
       "url": "https://github.com/sansan0/TrendRadar",
-      "stars": 53734,
-      "forks_count": 23550,
-      "open_issues_count": 31,
+      "stars": 54206,
+      "forks_count": 23628,
+      "open_issues_count": 29,
       "language": "Python",
       "gem_score": 3.84,
       "momentum_trend": 0.27,
@@ -399,7 +441,45 @@
       "license": "GPL-3.0",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 34,
+      "maintenance_score": 35,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Pixelle-Video",
+      "full_name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "stars": 5228,
+      "forks_count": 857,
+      "open_issues_count": 47,
+      "language": "Python",
+      "gem_score": 3.69,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "aigc",
+        "comfyui",
+        "image-generation"
+      ],
+      "activity": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/AIDC-AI/Pixelle-Video/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-13T03:29:09Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.1.15",
+        "published_at": "2026-01-27T13:51:55Z"
+      },
+      "featured": false,
+      "maintenance_score": 86,
       "bundle_size": null,
       "is_verified": false
     }
