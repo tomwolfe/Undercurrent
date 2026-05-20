@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-05-19T15:01:37.175Z",
+  "last_mined": "2026-05-20T03:01:18.964Z",
   "count": 11,
   "gems": [
     {
@@ -7,24 +7,24 @@
       "full_name": "tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "url": "https://github.com/tinyhumansai/openhuman",
-      "stars": 20000,
-      "forks_count": 1762,
-      "open_issues_count": 145,
+      "stars": 21600,
+      "forks_count": 1912,
+      "open_issues_count": 118,
       "language": "Rust",
-      "gem_score": 49.58,
-      "momentum_trend": 1.94,
-      "recent_commits": 327,
+      "gem_score": 49.73,
+      "momentum_trend": 2.28,
+      "recent_commits": 385,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        152,
-        140,
-        213,
-        327
+        154,
+        156,
+        196,
+        385
       ],
       "good_first_issues_url": "https://github.com/tinyhumansai/openhuman/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-19T14:10:07Z",
+      "pushed_at": "2026-05-20T02:55:30Z",
       "is_hype": true,
       "license": "GPL-3.0",
       "latest_release": {
@@ -41,13 +41,13 @@
       "full_name": "rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "url": "https://github.com/rohitg00/agentmemory",
-      "stars": 13771,
-      "forks_count": 1157,
-      "open_issues_count": 66,
+      "stars": 14270,
+      "forks_count": 1189,
+      "open_issues_count": 70,
       "language": "TypeScript",
-      "gem_score": 42.55,
-      "momentum_trend": 3.26,
-      "recent_commits": 76,
+      "gem_score": 42.65,
+      "momentum_trend": 3.67,
+      "recent_commits": 82,
       "merged_prs_count": 50,
       "topics": [
         "agentmemory",
@@ -55,19 +55,19 @@
         "ai"
       ],
       "activity": [
-        37,
-        5,
         28,
-        76
+        5,
+        34,
+        82
       ],
       "good_first_issues_url": "https://github.com/rohitg00/agentmemory/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-19T12:01:21Z",
+      "pushed_at": "2026-05-20T00:15:32Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.9.20",
-        "published_at": "2026-05-18T19:15:36Z"
+        "tag": "v0.9.21",
+        "published_at": "2026-05-19T18:45:37Z"
       },
       "featured": false,
       "maintenance_score": 0,
@@ -79,13 +79,13 @@
       "full_name": "Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "url": "https://github.com/Imbad0202/academic-research-skills",
-      "stars": 13731,
-      "forks_count": 1300,
+      "stars": 14287,
+      "forks_count": 1339,
       "open_issues_count": 8,
       "language": "Python",
-      "gem_score": 35.88,
-      "momentum_trend": 0.39,
-      "recent_commits": 24,
+      "gem_score": 35.99,
+      "momentum_trend": 0.44,
+      "recent_commits": 26,
       "merged_prs_count": 50,
       "topics": [
         "academic-writing",
@@ -93,14 +93,14 @@
         "claude"
       ],
       "activity": [
-        138,
+        130,
         25,
         21,
-        24
+        26
       ],
       "good_first_issues_url": "https://github.com/Imbad0202/academic-research-skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-19T14:11:16Z",
+      "pushed_at": "2026-05-19T15:18:21Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -110,19 +110,19 @@
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "claude-plugins-official",
       "full_name": "anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "stars": 19927,
-      "forks_count": 2496,
-      "open_issues_count": 665,
+      "stars": 20279,
+      "forks_count": 2512,
+      "open_issues_count": 669,
       "language": "Python",
-      "gem_score": 33.43,
-      "momentum_trend": 0.67,
+      "gem_score": 33.37,
+      "momentum_trend": 0.69,
       "recent_commits": 21,
       "merged_prs_count": 50,
       "topics": [
@@ -131,14 +131,14 @@
         "skills"
       ],
       "activity": [
-        37,
-        14,
-        43,
+        35,
+        12,
+        44,
         21
       ],
       "good_first_issues_url": "https://github.com/anthropics/claude-plugins-official/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-19T13:20:21Z",
+      "pushed_at": "2026-05-20T00:54:19Z",
       "is_hype": true,
       "latest_release": null,
       "featured": true,
@@ -151,18 +151,18 @@
       "full_name": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "stars": 37450,
-      "forks_count": 3590,
+      "stars": 37811,
+      "forks_count": 3622,
       "open_issues_count": 40,
       "language": "Python",
-      "gem_score": 27.74,
-      "momentum_trend": 0.69,
+      "gem_score": 27.71,
+      "momentum_trend": 0.7,
       "recent_commits": 21,
       "merged_prs_count": 28,
       "topics": [],
       "activity": [
-        42,
-        35,
+        44,
+        32,
         14,
         21
       ],
@@ -176,9 +176,9 @@
         "published_at": "2026-04-24T15:49:56Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -186,12 +186,12 @@
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
       "stars": 326,
-      "forks_count": 345,
+      "forks_count": 346,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 26.88,
-      "momentum_trend": 1.66,
-      "recent_commits": 16,
+      "gem_score": 27.29,
+      "momentum_trend": 2,
+      "recent_commits": 18,
       "merged_prs_count": 6,
       "topics": [
         "mojo",
@@ -199,19 +199,19 @@
         "learn-by-doing"
       ],
       "activity": [
-        3,
+        0,
         16,
-        10,
-        16
+        11,
+        18
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-18T07:41:36Z",
+      "pushed_at": "2026-05-19T21:30:15Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 34,
+      "maintenance_score": 35,
       "bundle_size": null,
       "is_verified": false
     },
@@ -224,7 +224,7 @@
       "forks_count": 24,
       "open_issues_count": 15,
       "language": "Mojo",
-      "gem_score": 16.74,
+      "gem_score": 16.73,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 11,
@@ -250,18 +250,18 @@
       "featured": false,
       "maintenance_score": 49,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 197929,
-      "forks_count": 17659,
-      "open_issues_count": 139,
+      "stars": 198590,
+      "forks_count": 17720,
+      "open_issues_count": 135,
       "language": "Shell",
-      "gem_score": 15.57,
+      "gem_score": 15.55,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 26,
@@ -282,7 +282,7 @@
         "published_at": "2026-05-04T22:13:34Z"
       },
       "featured": true,
-      "maintenance_score": 14,
+      "maintenance_score": 15,
       "bundle_size": null,
       "is_verified": false
     },
@@ -291,28 +291,28 @@
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 982,
+      "stars": 983,
       "forks_count": 152,
-      "open_issues_count": 88,
+      "open_issues_count": 89,
       "language": "Odin",
-      "gem_score": 14.5,
-      "momentum_trend": 2.38,
-      "recent_commits": 27,
-      "merged_prs_count": 31,
+      "gem_score": 14.46,
+      "momentum_trend": 1.97,
+      "recent_commits": 25,
+      "merged_prs_count": 32,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        9,
-        5,
-        20,
-        27
+        10,
+        4,
+        24,
+        25
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-18T09:08:02Z",
+      "pushed_at": "2026-05-19T19:46:51Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -320,9 +320,9 @@
         "published_at": "2026-05-07T07:26:52Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "odin-http",
@@ -350,12 +350,12 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-18T21:03:50Z",
+      "pushed_at": "2026-05-19T21:07:34Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 37,
+      "maintenance_score": 38,
       "bundle_size": null,
       "is_verified": false
     },
@@ -364,9 +364,9 @@
       "full_name": "msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "url": "https://github.com/msitarzewski/agency-agents",
-      "stars": 100968,
-      "forks_count": 16720,
-      "open_issues_count": 56,
+      "stars": 101767,
+      "forks_count": 16820,
+      "open_issues_count": 57,
       "language": "Shell",
       "gem_score": 2.09,
       "momentum_trend": 0,
