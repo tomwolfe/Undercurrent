@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-05-25T14:55:22.867Z",
+  "last_mined": "2026-05-26T02:56:47.817Z",
   "count": 49,
   "gems": [
     {
@@ -7,13 +7,13 @@
       "full_name": "manaflow-ai/cmux",
       "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
       "url": "https://github.com/manaflow-ai/cmux",
-      "stars": 19348,
-      "forks_count": 1464,
-      "open_issues_count": 1075,
+      "stars": 19538,
+      "forks_count": 1474,
+      "open_issues_count": 1077,
       "language": "Swift",
-      "gem_score": 42.77,
-      "momentum_trend": 1.25,
-      "recent_commits": 256,
+      "gem_score": 42.62,
+      "momentum_trend": 1.18,
+      "recent_commits": 247,
       "merged_prs_count": 50,
       "topics": [
         "amp",
@@ -21,14 +21,14 @@
         "codex"
       ],
       "activity": [
-        321,
-        151,
-        143,
-        256
+        343,
+        132,
+        152,
+        247
       ],
       "good_first_issues_url": "https://github.com/manaflow-ai/cmux/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T11:56:36Z",
+      "pushed_at": "2026-05-26T02:51:02Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -45,36 +45,36 @@
       "full_name": "yuku-toolchain/yuku",
       "description": "High-performance JavaScript/TypeScript compiler toolchain in Zig.",
       "url": "https://github.com/yuku-toolchain/yuku",
-      "stars": 357,
+      "stars": 356,
       "forks_count": 7,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 40.22,
-      "momentum_trend": 1.68,
-      "recent_commits": 19,
-      "merged_prs_count": 12,
+      "gem_score": 41.24,
+      "momentum_trend": 1.75,
+      "recent_commits": 21,
+      "merged_prs_count": 13,
       "topics": [
         "javascript",
         "parser",
         "typescript"
       ],
       "activity": [
-        7,
-        14,
+        8,
         13,
-        19
+        15,
+        21
       ],
       "good_first_issues_url": "https://github.com/yuku-toolchain/yuku/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-24T15:19:27Z",
+      "pushed_at": "2026-05-25T16:05:40Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.5.16",
-        "published_at": "2026-05-24T15:26:35Z"
+        "tag": "v0.5.17",
+        "published_at": "2026-05-25T15:21:37Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -83,13 +83,13 @@
       "full_name": "rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 17956,
-      "forks_count": 3073,
+      "stars": 18848,
+      "forks_count": 3187,
       "open_issues_count": 7,
       "language": "Python",
-      "gem_score": 39.83,
-      "momentum_trend": 4.93,
-      "recent_commits": 166,
+      "gem_score": 40.69,
+      "momentum_trend": 6.87,
+      "recent_commits": 229,
       "merged_prs_count": 50,
       "topics": [
         "agents",
@@ -97,14 +97,14 @@
         "ai-agents"
       ],
       "activity": [
-        3,
+        2,
         30,
         68,
-        166
+        229
       ],
       "good_first_issues_url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T11:30:29Z",
+      "pushed_at": "2026-05-25T22:57:42Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": null,
@@ -122,7 +122,7 @@
       "forks_count": 22,
       "open_issues_count": 16,
       "language": "Zig",
-      "gem_score": 39.78,
+      "gem_score": 39.74,
       "momentum_trend": 1.88,
       "recent_commits": 15,
       "merged_prs_count": 26,
@@ -133,13 +133,13 @@
       ],
       "activity": [
         4,
-        10,
-        10,
+        11,
+        9,
         15
       ],
       "good_first_issues_url": "https://github.com/lalinsky/zio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T10:59:42Z",
+      "pushed_at": "2026-05-25T19:54:03Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
@@ -147,7 +147,7 @@
         "published_at": "2026-05-22T06:13:15Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
@@ -156,11 +156,11 @@
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 562,
+      "stars": 563,
       "forks_count": 47,
       "open_issues_count": 39,
       "language": "Odin",
-      "gem_score": 38.21,
+      "gem_score": 38.17,
       "momentum_trend": 0.68,
       "recent_commits": 9,
       "merged_prs_count": 16,
@@ -185,37 +185,37 @@
         "published_at": "2026-05-01T20:20:15Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "Understand-Anything",
       "full_name": "Lum1104/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "url": "https://github.com/Lum1104/Understand-Anything",
-      "stars": 29752,
-      "forks_count": 2480,
-      "open_issues_count": 18,
+      "stars": 31647,
+      "forks_count": 2599,
+      "open_issues_count": 23,
       "language": "TypeScript",
-      "gem_score": 35.64,
-      "momentum_trend": 0.91,
-      "recent_commits": 33,
-      "merged_prs_count": 28,
+      "gem_score": 36.1,
+      "momentum_trend": 1.03,
+      "recent_commits": 37,
+      "merged_prs_count": 30,
       "topics": [
         "claude-code",
         "claude-skills",
         "understandcode"
       ],
       "activity": [
-        53,
-        39,
-        17,
-        33
+        52,
+        40,
+        16,
+        37
       ],
       "good_first_issues_url": "https://github.com/Lum1104/Understand-Anything/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-05-24T13:12:57Z",
+      "pushed_at": "2026-05-26T00:03:39Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -223,23 +223,23 @@
         "published_at": "2026-05-19T07:13:36Z"
       },
       "featured": true,
-      "maintenance_score": 2,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 191898,
-      "forks_count": 29704,
-      "open_issues_count": 8,
+      "stars": 192556,
+      "forks_count": 29794,
+      "open_issues_count": 6,
       "language": "JavaScript",
-      "gem_score": 32.48,
-      "momentum_trend": 0.39,
-      "recent_commits": 59,
-      "merged_prs_count": 50,
+      "gem_score": 32.53,
+      "momentum_trend": 0.4,
+      "recent_commits": 62,
+      "merged_prs_count": 49,
       "topics": [
         "ai-agents",
         "anthropic",
@@ -247,13 +247,13 @@
       ],
       "activity": [
         86,
-        32,
-        332,
-        59
+        69,
+        310,
+        62
       ],
       "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-24T04:53:35Z",
+      "pushed_at": "2026-05-25T18:28:39Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -261,7 +261,7 @@
         "published_at": "2026-04-05T20:20:57Z"
       },
       "featured": false,
-      "maintenance_score": 8,
+      "maintenance_score": 0,
       "bundle_size": 2425,
       "is_verified": false
     },
@@ -270,11 +270,11 @@
       "full_name": "anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "stars": 14818,
-      "forks_count": 1809,
-      "open_issues_count": 46,
+      "stars": 15620,
+      "forks_count": 1880,
+      "open_issues_count": 48,
       "language": "Python",
-      "gem_score": 29.27,
+      "gem_score": 29.11,
       "momentum_trend": 2.17,
       "recent_commits": 13,
       "merged_prs_count": 25,
@@ -287,12 +287,12 @@
       ],
       "good_first_issues_url": "https://github.com/anthropics/knowledge-work-plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T08:47:01Z",
+      "pushed_at": "2026-05-25T17:00:19Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
@@ -305,7 +305,7 @@
       "forks_count": 11,
       "open_issues_count": 10,
       "language": "Zig",
-      "gem_score": 24.9,
+      "gem_score": 24.88,
       "momentum_trend": 12,
       "recent_commits": 4,
       "merged_prs_count": 1,
@@ -332,41 +332,7 @@
       "featured": false,
       "maintenance_score": 3,
       "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "sig",
-      "full_name": "Syndica/sig",
-      "description": "a Solana validator client implementation written in Zig",
-      "url": "https://github.com/Syndica/sig",
-      "stars": 394,
-      "forks_count": 59,
-      "open_issues_count": 41,
-      "language": "Zig",
-      "gem_score": 22.14,
-      "momentum_trend": 2.38,
-      "recent_commits": 19,
-      "merged_prs_count": 45,
-      "topics": [],
-      "activity": [
-        7,
-        6,
-        11,
-        19
-      ],
-      "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-23T16:52:55Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.1.0",
-        "published_at": "2023-05-20T19:58:37Z"
-      },
-      "featured": false,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "libqt6zig",
@@ -377,8 +343,8 @@
       "forks_count": 7,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 22.11,
-      "momentum_trend": 1.09,
+      "gem_score": 22.1,
+      "momentum_trend": 1.33,
       "recent_commits": 4,
       "merged_prs_count": 7,
       "topics": [
@@ -387,7 +353,7 @@
         "qt"
       ],
       "activity": [
-        3,
+        1,
         5,
         3,
         4
@@ -399,6 +365,40 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
+      "maintenance_score": 4,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "sig",
+      "full_name": "Syndica/sig",
+      "description": "a Solana validator client implementation written in Zig",
+      "url": "https://github.com/Syndica/sig",
+      "stars": 394,
+      "forks_count": 59,
+      "open_issues_count": 41,
+      "language": "Zig",
+      "gem_score": 21.77,
+      "momentum_trend": 1.85,
+      "recent_commits": 16,
+      "merged_prs_count": 45,
+      "topics": [],
+      "activity": [
+        6,
+        7,
+        13,
+        16
+      ],
+      "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-23T16:52:55Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.1.0",
+        "published_at": "2023-05-20T19:58:37Z"
+      },
+      "featured": false,
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
@@ -408,11 +408,11 @@
       "full_name": "neurosnap/zmx",
       "description": "Session persistence for terminal processes",
       "url": "https://github.com/neurosnap/zmx",
-      "stars": 1523,
+      "stars": 1527,
       "forks_count": 88,
       "open_issues_count": 15,
       "language": "Zig",
-      "gem_score": 21.02,
+      "gem_score": 20.99,
       "momentum_trend": 0.39,
       "recent_commits": 3,
       "merged_prs_count": 6,
@@ -434,7 +434,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 8,
+      "maintenance_score": 9,
       "bundle_size": null,
       "is_verified": false
     },
@@ -447,9 +447,9 @@
       "forks_count": 12,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 20.86,
-      "momentum_trend": 0.84,
-      "recent_commits": 14,
+      "gem_score": 20.48,
+      "momentum_trend": 0.69,
+      "recent_commits": 12,
       "merged_prs_count": 17,
       "topics": [
         "image-processing",
@@ -457,10 +457,10 @@
         "webassembly"
       ],
       "activity": [
-        4,
-        2,
-        44,
-        14
+        5,
+        1,
+        46,
+        12
       ],
       "good_first_issues_url": "https://github.com/arrufat/zignal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -481,14 +481,14 @@
       "full_name": "justrach/turboAPI",
       "description": "FastAPI-compatible Python framework with Zig HTTP core; 7x faster, free-threading native",
       "url": "https://github.com/justrach/turboAPI",
-      "stars": 983,
+      "stars": 984,
       "forks_count": 27,
-      "open_issues_count": 25,
+      "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 19.69,
+      "gem_score": 19.07,
       "momentum_trend": 0.12,
       "recent_commits": 1,
-      "merged_prs_count": 15,
+      "merged_prs_count": 13,
       "topics": [
         "free-threading",
         "http-server",
@@ -502,7 +502,7 @@
       ],
       "good_first_issues_url": "https://github.com/justrach/turboAPI/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T06:44:33Z",
+      "pushed_at": "2026-05-25T18:44:39Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -510,45 +510,7 @@
         "published_at": "2026-05-11T05:50:14Z"
       },
       "featured": false,
-      "maintenance_score": 36,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "fizzy",
-      "full_name": "foxnne/fizzy",
-      "description": "Pixel art editor made with Zig.",
-      "url": "https://github.com/foxnne/fizzy",
-      "stars": 1365,
-      "forks_count": 38,
-      "open_issues_count": 11,
-      "language": "Zig",
-      "gem_score": 17.85,
-      "momentum_trend": 2.19,
-      "recent_commits": 59,
-      "merged_prs_count": 42,
-      "topics": [
-        "2d",
-        "animation",
-        "cross-platform"
-      ],
-      "activity": [
-        6,
-        3,
-        72,
-        59
-      ],
-      "good_first_issues_url": "https://github.com/foxnne/fizzy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-05-23T22:30:21Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v0.0.15",
-        "published_at": "2026-05-22T20:30:10Z"
-      },
-      "featured": false,
-      "maintenance_score": 9,
+      "maintenance_score": 37,
       "bundle_size": null,
       "is_verified": false
     },
@@ -557,13 +519,13 @@
       "full_name": "neurocyte/flow",
       "description": "Flow Control: a programmer's text editor",
       "url": "https://github.com/neurocyte/flow",
-      "stars": 1965,
+      "stars": 1966,
       "forks_count": 98,
       "open_issues_count": 67,
       "language": "Zig",
-      "gem_score": 17.53,
-      "momentum_trend": 0.51,
-      "recent_commits": 25,
+      "gem_score": 18.12,
+      "momentum_trend": 0.72,
+      "recent_commits": 34,
       "merged_prs_count": 4,
       "topics": [
         "language-server-client",
@@ -572,13 +534,13 @@
       ],
       "activity": [
         48,
-        42,
-        57,
-        25
+        50,
+        43,
+        34
       ],
       "good_first_issues_url": "https://github.com/neurocyte/flow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-05-21T18:25:44Z",
+      "pushed_at": "2026-05-25T20:50:11Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -591,15 +553,91 @@
       "is_verified": false
     },
     {
+      "name": "fizzy",
+      "full_name": "foxnne/fizzy",
+      "description": "Pixel art editor made with Zig.",
+      "url": "https://github.com/foxnne/fizzy",
+      "stars": 1365,
+      "forks_count": 38,
+      "open_issues_count": 11,
+      "language": "Zig",
+      "gem_score": 17.35,
+      "momentum_trend": 1.77,
+      "recent_commits": 52,
+      "merged_prs_count": 36,
+      "topics": [
+        "2d",
+        "animation",
+        "cross-platform"
+      ],
+      "activity": [
+        6,
+        11,
+        71,
+        52
+      ],
+      "good_first_issues_url": "https://github.com/foxnne/fizzy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-05-23T22:30:21Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.0.15",
+        "published_at": "2026-05-22T20:30:10Z"
+      },
+      "featured": false,
+      "maintenance_score": 10,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Deecy",
+      "full_name": "Senryoku/Deecy",
+      "description": "Experimental Dreamcast emulator written in Zig",
+      "url": "https://github.com/Senryoku/Deecy",
+      "stars": 198,
+      "forks_count": 5,
+      "open_issues_count": 45,
+      "language": "Zig",
+      "gem_score": 16.65,
+      "momentum_trend": 1.5,
+      "recent_commits": 6,
+      "merged_prs_count": 5,
+      "topics": [
+        "dreamcast",
+        "emulator",
+        "zig"
+      ],
+      "activity": [
+        4,
+        6,
+        2,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-26T01:27:36Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.6.1",
+        "published_at": "2026-04-22T23:59:43Z"
+      },
+      "featured": false,
+      "maintenance_score": 12,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "Anthropic-Cybersecurity-Skills",
       "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
       "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "stars": 8918,
-      "forks_count": 1104,
-      "open_issues_count": 9,
+      "stars": 9337,
+      "forks_count": 1141,
+      "open_issues_count": 10,
       "language": "Python",
-      "gem_score": 16.31,
+      "gem_score": 16.23,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 2,
@@ -637,7 +675,7 @@
       "forks_count": 17,
       "open_issues_count": 17,
       "language": "Zig",
-      "gem_score": 16.18,
+      "gem_score": 16.16,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 2,
@@ -663,6 +701,78 @@
       },
       "featured": false,
       "maintenance_score": 10,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "FinceptTerminal",
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "stars": 23925,
+      "forks_count": 3288,
+      "open_issues_count": 16,
+      "language": "Python",
+      "gem_score": 15.17,
+      "momentum_trend": 0.38,
+      "recent_commits": 11,
+      "merged_prs_count": 17,
+      "topics": [
+        "bloomberg-terminal",
+        "finance",
+        "financial-markets"
+      ],
+      "activity": [
+        11,
+        17,
+        60,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/Fincept-Corporation/FinceptTerminal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-26T02:09:00Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v4.0.3",
+        "published_at": "2026-05-12T10:01:09Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "dvui",
+      "full_name": "david-vanderson/dvui",
+      "description": "Immediate Zig GUI for Apps and Games",
+      "url": "https://github.com/david-vanderson/dvui",
+      "stars": 1425,
+      "forks_count": 122,
+      "open_issues_count": 76,
+      "language": "Zig",
+      "gem_score": 15.1,
+      "momentum_trend": 1.52,
+      "recent_commits": 48,
+      "merged_prs_count": 22,
+      "topics": [],
+      "activity": [
+        35,
+        20,
+        40,
+        48
+      ],
+      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-25T22:11:00Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-04-16T18:05:34Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -693,79 +803,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 77,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "dvui",
-      "full_name": "david-vanderson/dvui",
-      "description": "Immediate Zig GUI for Apps and Games",
-      "url": "https://github.com/david-vanderson/dvui",
-      "stars": 1423,
-      "forks_count": 121,
-      "open_issues_count": 76,
-      "language": "Zig",
-      "gem_score": 14.64,
-      "momentum_trend": 1.39,
-      "recent_commits": 44,
-      "merged_prs_count": 19,
-      "topics": [],
-      "activity": [
-        35,
-        23,
-        37,
-        44
-      ],
-      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T13:34:21Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "v0.4.0",
-        "published_at": "2026-04-16T18:05:34Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "FinceptTerminal",
-      "full_name": "Fincept-Corporation/FinceptTerminal",
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "stars": 23712,
-      "forks_count": 3267,
-      "open_issues_count": 15,
-      "language": "Python",
-      "gem_score": 14.55,
-      "momentum_trend": 0.28,
-      "recent_commits": 8,
-      "merged_prs_count": 16,
-      "topics": [
-        "bloomberg-terminal",
-        "finance",
-        "financial-markets"
-      ],
-      "activity": [
-        11,
-        17,
-        57,
-        8
-      ],
-      "good_first_issues_url": "https://github.com/Fincept-Corporation/FinceptTerminal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T04:12:51Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "v4.0.3",
-        "published_at": "2026-05-12T10:01:09Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 78,
       "bundle_size": null,
       "is_verified": false
     },
@@ -778,7 +816,7 @@
       "forks_count": 350,
       "open_issues_count": 1,
       "language": "Mojo",
-      "gem_score": 14.38,
+      "gem_score": 14.37,
       "momentum_trend": 0.86,
       "recent_commits": 12,
       "merged_prs_count": 0,
@@ -800,7 +838,7 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 40,
+      "maintenance_score": 41,
       "bundle_size": null,
       "is_verified": false
     },
@@ -814,7 +852,7 @@
       "open_issues_count": 0,
       "language": "Zig",
       "gem_score": 14.05,
-      "momentum_trend": 0.41,
+      "momentum_trend": 0.66,
       "recent_commits": 11,
       "merged_prs_count": 8,
       "topics": [
@@ -823,7 +861,7 @@
         "macos"
       ],
       "activity": [
-        68,
+        38,
         8,
         4,
         11
@@ -851,9 +889,9 @@
       "forks_count": 173,
       "open_issues_count": 63,
       "language": "Zig",
-      "gem_score": 13.48,
-      "momentum_trend": 36,
-      "recent_commits": 12,
+      "gem_score": 13.38,
+      "momentum_trend": 16.5,
+      "recent_commits": 11,
       "merged_prs_count": 13,
       "topics": [
         "ziglang",
@@ -863,8 +901,8 @@
       "activity": [
         1,
         0,
-        0,
-        12
+        1,
+        11
       ],
       "good_first_issues_url": "https://github.com/ZigEmbeddedGroup/microzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
@@ -881,6 +919,43 @@
       "is_verified": false
     },
     {
+      "name": "buzz",
+      "full_name": "buzz-language/buzz",
+      "description": "👨‍🚀  buzz, A small/lightweight statically typed scripting language",
+      "url": "https://github.com/buzz-language/buzz",
+      "stars": 1491,
+      "forks_count": 40,
+      "open_issues_count": 78,
+      "language": "Zig",
+      "gem_score": 13.22,
+      "momentum_trend": 0.81,
+      "recent_commits": 19,
+      "merged_prs_count": 13,
+      "topics": [
+        "zig",
+        "language"
+      ],
+      "activity": [
+        18,
+        20,
+        32,
+        19
+      ],
+      "good_first_issues_url": "https://github.com/buzz-language/buzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-25T21:09:24Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.5.0",
+        "published_at": "2025-01-24T10:52:11Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "ols",
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
@@ -889,19 +964,19 @@
       "forks_count": 153,
       "open_issues_count": 92,
       "language": "Odin",
-      "gem_score": 13.29,
+      "gem_score": 13.16,
       "momentum_trend": 0.57,
       "recent_commits": 10,
-      "merged_prs_count": 34,
+      "merged_prs_count": 32,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        2,
+        4,
         22,
-        29,
+        27,
         10
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -914,82 +989,7 @@
         "published_at": "2026-05-07T07:26:52Z"
       },
       "featured": false,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "Deecy",
-      "full_name": "Senryoku/Deecy",
-      "description": "Experimental Dreamcast emulator written in Zig",
-      "url": "https://github.com/Senryoku/Deecy",
-      "stars": 198,
-      "forks_count": 5,
-      "open_issues_count": 45,
-      "language": "Zig",
-      "gem_score": 13.19,
-      "momentum_trend": 0.2,
-      "recent_commits": 1,
-      "merged_prs_count": 5,
-      "topics": [
-        "dreamcast",
-        "emulator",
-        "zig"
-      ],
-      "activity": [
-        7,
-        6,
-        2,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-22T22:54:06Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.6.1",
-        "published_at": "2026-04-22T23:59:43Z"
-      },
-      "featured": false,
-      "maintenance_score": 11,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "buzz",
-      "full_name": "buzz-language/buzz",
-      "description": "👨‍🚀  buzz, A small/lightweight statically typed scripting language",
-      "url": "https://github.com/buzz-language/buzz",
-      "stars": 1491,
-      "forks_count": 40,
-      "open_issues_count": 79,
-      "language": "Zig",
-      "gem_score": 13.15,
-      "momentum_trend": 0.77,
-      "recent_commits": 18,
-      "merged_prs_count": 13,
-      "topics": [
-        "zig",
-        "language"
-      ],
-      "activity": [
-        18,
-        15,
-        37,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/buzz-language/buzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-25T12:55:53Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "0.5.0",
-        "published_at": "2025-01-24T10:52:11Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1002,7 +1002,7 @@
       "forks_count": 13,
       "open_issues_count": 5,
       "language": "Zig",
-      "gem_score": 12.23,
+      "gem_score": 12.22,
       "momentum_trend": 0.91,
       "recent_commits": 7,
       "merged_prs_count": 1,
@@ -1012,8 +1012,8 @@
         "ci"
       ],
       "activity": [
-        7,
         8,
+        7,
         8,
         7
       ],
@@ -1024,7 +1024,45 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 20,
+      "maintenance_score": 21,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "libvaxis",
+      "full_name": "rockorager/libvaxis",
+      "description": "a modern tui library written in zig",
+      "url": "https://github.com/rockorager/libvaxis",
+      "stars": 1816,
+      "forks_count": 138,
+      "open_issues_count": 18,
+      "language": "Zig",
+      "gem_score": 11.6,
+      "momentum_trend": 0.23,
+      "recent_commits": 1,
+      "merged_prs_count": 14,
+      "topics": [
+        "tui",
+        "zig",
+        "zig-package"
+      ],
+      "activity": [
+        6,
+        3,
+        4,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/rockorager/libvaxis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-25T16:08:19Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.5.1",
+        "published_at": "2024-11-12T15:34:11Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1033,7 +1071,7 @@
       "full_name": "Vexu/arocc",
       "description": "A modern fully featured C compiler.",
       "url": "https://github.com/Vexu/arocc",
-      "stars": 1707,
+      "stars": 1708,
       "forks_count": 95,
       "open_issues_count": 49,
       "language": "Zig",
@@ -1054,7 +1092,7 @@
       ],
       "good_first_issues_url": "https://github.com/Vexu/arocc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-05-24T08:39:48Z",
+      "pushed_at": "2026-05-25T22:55:05Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
@@ -1094,7 +1132,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1107,8 +1145,8 @@
       "forks_count": 21,
       "open_issues_count": 4,
       "language": "Zig",
-      "gem_score": 10.63,
-      "momentum_trend": 1.83,
+      "gem_score": 10.62,
+      "momentum_trend": 2.06,
       "recent_commits": 11,
       "merged_prs_count": 1,
       "topics": [
@@ -1117,7 +1155,7 @@
         "http"
       ],
       "activity": [
-        9,
+        7,
         4,
         5,
         11
@@ -1138,12 +1176,12 @@
       "full_name": "The-Z-Labs/bof-launcher",
       "description": "[ BOF-LAUNCHER ] ->  an API for loading, executing and in-memory masking BOFs on Windows and Linux for use in C/Zig/Go/Rust agents/implants. [ Z-BEAC0N ] ->   a custom-written stage-1 (aka pre-C2) solution engineered with a small footprint, stealth and modularity in mind. [ DEVELOPED BOFS ] -> cross-platform (12), Linux-only (10), Win-only (2)",
       "url": "https://github.com/The-Z-Labs/bof-launcher",
-      "stars": 315,
+      "stars": 317,
       "forks_count": 29,
       "open_issues_count": 12,
       "language": "Zig",
-      "gem_score": 10.47,
-      "momentum_trend": 0.42,
+      "gem_score": 10.46,
+      "momentum_trend": 0.43,
       "recent_commits": 6,
       "merged_prs_count": 0,
       "topics": [
@@ -1153,7 +1191,7 @@
       ],
       "activity": [
         2,
-        9,
+        8,
         32,
         6
       ],
@@ -1164,9 +1202,9 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 104,
+      "maintenance_score": 105,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "tardy",
@@ -1207,53 +1245,15 @@
       "is_verified": false
     },
     {
-      "name": "zeit",
-      "full_name": "rockorager/zeit",
-      "description": "a date and time library written in zig. Timezone, DST, and leap second aware",
-      "url": "https://github.com/rockorager/zeit",
-      "stars": 212,
-      "forks_count": 32,
-      "open_issues_count": 3,
-      "language": "Zig",
-      "gem_score": 9.85,
-      "momentum_trend": 1,
-      "recent_commits": 3,
-      "merged_prs_count": 1,
-      "topics": [
-        "date",
-        "datetime",
-        "library"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/rockorager/zeit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-19T11:35:41Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.8.0",
-        "published_at": "2026-04-16T13:02:03Z"
-      },
-      "featured": false,
-      "maintenance_score": 6,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "nats.zig",
       "full_name": "nats-io/nats.zig",
       "description": "Zig Client for NATS",
       "url": "https://github.com/nats-io/nats.zig",
-      "stars": 210,
+      "stars": 211,
       "forks_count": 8,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 9.69,
+      "gem_score": 9.68,
       "momentum_trend": 0.75,
       "recent_commits": 2,
       "merged_prs_count": 6,
@@ -1274,7 +1274,7 @@
         "published_at": "2026-04-28T23:39:35Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1283,11 +1283,11 @@
       "full_name": "freref/fancy-cat",
       "description": "PDF reader for terminal emulators using the Kitty image protocol",
       "url": "https://github.com/freref/fancy-cat",
-      "stars": 520,
+      "stars": 521,
       "forks_count": 19,
       "open_issues_count": 16,
       "language": "Zig",
-      "gem_score": 9.17,
+      "gem_score": 9.16,
       "momentum_trend": 1,
       "recent_commits": 2,
       "merged_prs_count": 1,
@@ -1311,14 +1311,14 @@
       "featured": false,
       "maintenance_score": 4,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "ziggy-pydust",
       "full_name": "spiraldb/ziggy-pydust",
       "description": "A toolkit for building Python extensions in Zig.",
       "url": "https://github.com/spiraldb/ziggy-pydust",
-      "stars": 771,
+      "stars": 772,
       "forks_count": 39,
       "open_issues_count": 33,
       "language": "Zig",
@@ -1346,7 +1346,38 @@
         "published_at": "2025-09-18T17:08:06Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "xit",
+      "full_name": "xit-vcs/xit",
+      "description": "a git alternative written in zig",
+      "url": "https://github.com/xit-vcs/xit",
+      "stars": 683,
+      "forks_count": 17,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 9.03,
+      "momentum_trend": 3,
+      "recent_commits": 10,
+      "merged_prs_count": 1,
+      "topics": [],
+      "activity": [
+        4,
+        4,
+        2,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/xit-vcs/xit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-25T20:26:50Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 14,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1355,7 +1386,7 @@
       "full_name": "karlseguin/http.zig",
       "description": "An HTTP/1.1 server for zig",
       "url": "https://github.com/karlseguin/http.zig",
-      "stars": 1514,
+      "stars": 1517,
       "forks_count": 113,
       "open_issues_count": 13,
       "language": "Zig",
@@ -1381,38 +1412,42 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "xit",
-      "full_name": "xit-vcs/xit",
-      "description": "a git alternative written in zig",
-      "url": "https://github.com/xit-vcs/xit",
-      "stars": 683,
-      "forks_count": 17,
-      "open_issues_count": 0,
+      "name": "zig-esp-idf-sample",
+      "full_name": "kassane/zig-esp-idf-sample",
+      "description": "Run Zig on esp-idf (Xtensa/RISC-V)",
+      "url": "https://github.com/kassane/zig-esp-idf-sample",
+      "stars": 246,
+      "forks_count": 19,
+      "open_issues_count": 2,
       "language": "Zig",
-      "gem_score": 8.38,
-      "momentum_trend": 2.1,
-      "recent_commits": 7,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        4,
-        2,
-        4,
-        7
+      "gem_score": 7.17,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [
+        "esp32-idf",
+        "zig",
+        "esp-idf"
       ],
-      "good_first_issues_url": "https://github.com/xit-vcs/xit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/kassane/zig-esp-idf-sample/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-23T11:53:05Z",
+      "pushed_at": "2026-05-25T19:29:56Z",
       "is_hype": false,
-      "license": "MIT",
+      "license": "Apache-2.0",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 13,
+      "maintenance_score": 37,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1421,11 +1456,11 @@
       "full_name": "Zag-Research/Zag-Smalltalk",
       "description": "Smalltalk VM Written in Zig with methods stored as type-annotated ASTs",
       "url": "https://github.com/Zag-Research/Zag-Smalltalk",
-      "stars": 155,
+      "stars": 156,
       "forks_count": 11,
       "open_issues_count": 5,
       "language": "Zig",
-      "gem_score": 6.75,
+      "gem_score": 6.74,
       "momentum_trend": 1.5,
       "recent_commits": 1,
       "merged_prs_count": 2,
@@ -1435,57 +1470,19 @@
         "zig"
       ],
       "activity": [
-        0,
         1,
+        0,
         1,
         1
       ],
       "good_first_issues_url": "https://github.com/Zag-Research/Zag-Smalltalk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-24T01:25:04Z",
+      "pushed_at": "2026-05-25T20:47:30Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
       "maintenance_score": 13,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "zig-protobuf",
-      "full_name": "Arwalk/zig-protobuf",
-      "description": "a protobuf 3 implementation for zig.",
-      "url": "https://github.com/Arwalk/zig-protobuf",
-      "stars": 403,
-      "forks_count": 65,
-      "open_issues_count": 18,
-      "language": "Zig",
-      "gem_score": 4.99,
-      "momentum_trend": 3,
-      "recent_commits": 1,
-      "merged_prs_count": 1,
-      "topics": [
-        "zig",
-        "protobuf",
-        "zig-package"
-      ],
-      "activity": [
-        0,
-        0,
-        1,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/Arwalk/zig-protobuf/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-19T16:07:27Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v5.0.0",
-        "published_at": "2026-04-16T20:41:53Z"
-      },
-      "featured": false,
-      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1533,9 +1530,9 @@
       "forks_count": 14,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 4.47,
-      "momentum_trend": 0.53,
-      "recent_commits": 3,
+      "gem_score": 3.94,
+      "momentum_trend": 0.33,
+      "recent_commits": 2,
       "merged_prs_count": 0,
       "topics": [
         "pokemon",
@@ -1544,9 +1541,9 @@
       ],
       "activity": [
         0,
-        15,
+        16,
         2,
-        3
+        2
       ],
       "good_first_issues_url": "https://github.com/pkmn/engine/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1555,7 +1552,42 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 422,
+      "maintenance_score": 423,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "pg.zig",
+      "full_name": "karlseguin/pg.zig",
+      "description": "Native PostgreSQL driver / client for Zig",
+      "url": "https://github.com/karlseguin/pg.zig",
+      "stars": 551,
+      "forks_count": 57,
+      "open_issues_count": 2,
+      "language": "Zig",
+      "gem_score": 3.77,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [
+        "postgresql-client",
+        "zig",
+        "zig-library"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/karlseguin/pg.zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-26T01:37:52Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 36,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1595,7 +1627,7 @@
       "featured": false,
       "maintenance_score": 4079,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "zig-cli",
@@ -1658,12 +1690,12 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-05-24T20:53:42Z",
+      "pushed_at": "2026-05-25T21:02:21Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 43,
+      "maintenance_score": 44,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1706,47 +1738,12 @@
       "is_verified": false
     },
     {
-      "name": "pg.zig",
-      "full_name": "karlseguin/pg.zig",
-      "description": "Native PostgreSQL driver / client for Zig",
-      "url": "https://github.com/karlseguin/pg.zig",
-      "stars": 551,
-      "forks_count": 57,
-      "open_issues_count": 1,
-      "language": "Zig",
-      "gem_score": 2.2,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [
-        "postgresql-client",
-        "zig",
-        "zig-library"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/karlseguin/pg.zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-23T11:00:39Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 35,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "andrej-karpathy-skills",
       "full_name": "multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "stars": 154015,
-      "forks_count": 15775,
+      "stars": 155217,
+      "forks_count": 15916,
       "open_issues_count": 0,
       "language": "Plain Text",
       "gem_score": 1.1,
