@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-06-02T03:43:12.235Z",
-  "count": 10,
+  "last_mined": "2026-06-02T16:20:34.928Z",
+  "count": 8,
   "gems": [
     {
       "name": "hermes-webui",
       "full_name": "nesquena/hermes-webui",
       "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
       "url": "https://github.com/nesquena/hermes-webui",
-      "stars": 11514,
-      "forks_count": 1467,
-      "open_issues_count": 157,
+      "stars": 12362,
+      "forks_count": 1521,
+      "open_issues_count": 164,
       "language": "Python",
-      "gem_score": 52.2,
-      "momentum_trend": 0.91,
-      "recent_commits": 537,
+      "gem_score": 51.78,
+      "momentum_trend": 0.9,
+      "recent_commits": 533,
       "merged_prs_count": 49,
       "topics": [
         "agent",
@@ -21,19 +21,19 @@
         "ai-agents"
       ],
       "activity": [
-        589,
-        668,
-        518,
-        537
+        612,
+        638,
+        517,
+        533
       ],
       "good_first_issues_url": "https://github.com/nesquena/hermes-webui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T03:39:43Z",
+      "pushed_at": "2026-06-02T05:23:38Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.51.208",
-        "published_at": "2026-06-02T02:39:38Z"
+        "tag": "v0.51.210",
+        "published_at": "2026-06-02T05:23:57Z"
       },
       "featured": false,
       "maintenance_score": 0,
@@ -41,112 +41,41 @@
       "is_verified": false
     },
     {
-      "name": "impeccable",
-      "full_name": "pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
-      "url": "https://github.com/pbakaus/impeccable",
-      "stars": 32862,
-      "forks_count": 1789,
-      "open_issues_count": 16,
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 203263,
+      "forks_count": 31181,
+      "open_issues_count": 25,
       "language": "JavaScript",
-      "gem_score": 28.61,
-      "momentum_trend": 6.33,
-      "recent_commits": 38,
-      "merged_prs_count": 25,
-      "topics": [],
-      "activity": [
-        0,
-        17,
-        1,
-        38
-      ],
-      "good_first_issues_url": "https://github.com/pbakaus/impeccable/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-01T21:44:46Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "cli-v2.3.2",
-        "published_at": "2026-05-30T01:33:40Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": 98867,
-      "is_verified": true
-    },
-    {
-      "name": "compound-engineering-plugin",
-      "full_name": "EveryInc/compound-engineering-plugin",
-      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
-      "url": "https://github.com/EveryInc/compound-engineering-plugin",
-      "stars": 19157,
-      "forks_count": 1430,
-      "open_issues_count": 53,
-      "language": "TypeScript",
-      "gem_score": 28.45,
-      "momentum_trend": 0.81,
-      "recent_commits": 13,
-      "merged_prs_count": 50,
+      "gem_score": 25.52,
+      "momentum_trend": 0.03,
+      "recent_commits": 5,
+      "merged_prs_count": 42,
       "topics": [
-        "compound",
-        "engineering"
+        "ai-agents",
+        "anthropic",
+        "claude"
       ],
       "activity": [
-        31,
-        8,
-        9,
-        13
+        105,
+        304,
+        32,
+        5
       ],
-      "good_first_issues_url": "https://github.com/EveryInc/compound-engineering-plugin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T02:16:43Z",
+      "pushed_at": "2026-06-02T11:51:04Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "compound-engineering-v3.9.4",
-        "published_at": "2026-05-31T17:35:51Z"
+        "tag": "v1.10.0",
+        "published_at": "2026-04-05T20:20:57Z"
       },
       "featured": false,
       "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "heretic",
-      "full_name": "p-e-w/heretic",
-      "description": "Fully automatic censorship removal for language models",
-      "url": "https://github.com/p-e-w/heretic",
-      "stars": 23082,
-      "forks_count": 2469,
-      "open_issues_count": 54,
-      "language": "Python",
-      "gem_score": 16.96,
-      "momentum_trend": 1.5,
-      "recent_commits": 4,
-      "merged_prs_count": 9,
-      "topics": [
-        "abliteration",
-        "llm",
-        "transformer"
-      ],
-      "activity": [
-        4,
-        1,
-        3,
-        4
-      ],
-      "good_first_issues_url": "https://github.com/p-e-w/heretic/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-31T09:56:40Z",
-      "is_hype": false,
-      "license": "AGPL-3.0",
-      "latest_release": {
-        "tag": "v1.3.0",
-        "published_at": "2026-05-05T14:36:36Z"
-      },
-      "featured": true,
-      "maintenance_score": 1,
-      "bundle_size": null,
+      "bundle_size": 2425,
       "is_verified": false
     },
     {
@@ -154,13 +83,13 @@
       "full_name": "supermemoryai/supermemory",
       "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
       "url": "https://github.com/supermemoryai/supermemory",
-      "stars": 24088,
-      "forks_count": 2153,
+      "stars": 24465,
+      "forks_count": 2167,
       "open_issues_count": 5,
       "language": "TypeScript",
-      "gem_score": 15.74,
-      "momentum_trend": 0.71,
-      "recent_commits": 21,
+      "gem_score": 15.65,
+      "momentum_trend": 0.66,
+      "recent_commits": 20,
       "merged_prs_count": 50,
       "topics": [
         "cloudflare-pages",
@@ -168,14 +97,14 @@
         "drizzle-orm"
       ],
       "activity": [
-        32,
         34,
-        23,
-        21
+        32,
+        25,
+        20
       ],
       "good_first_issues_url": "https://github.com/supermemoryai/supermemory/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-01T18:11:29Z",
+      "pushed_at": "2026-06-02T16:14:35Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": null,
@@ -185,40 +114,40 @@
       "is_verified": false
     },
     {
-      "name": "MoneyPrinterTurbo",
-      "full_name": "harry0703/MoneyPrinterTurbo",
-      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "stars": 77046,
-      "forks_count": 10935,
-      "open_issues_count": 14,
-      "language": "Python",
-      "gem_score": 11.37,
-      "momentum_trend": 7.07,
-      "recent_commits": 33,
-      "merged_prs_count": 11,
+      "name": "flowsint",
+      "full_name": "reconurge/flowsint",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "url": "https://github.com/reconurge/flowsint",
+      "stars": 4354,
+      "forks_count": 573,
+      "open_issues_count": 29,
+      "language": "TypeScript",
+      "gem_score": 11.71,
+      "momentum_trend": 6.75,
+      "recent_commits": 9,
+      "merged_prs_count": 2,
       "topics": [
-        "shortvideo",
-        "automation",
-        "chatgpt"
+        "investigation",
+        "osint",
+        "recon"
       ],
       "activity": [
-        4,
-        4,
-        6,
-        33
+        1,
+        2,
+        1,
+        9
       ],
-      "good_first_issues_url": "https://github.com/harry0703/MoneyPrinterTurbo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/reconurge/flowsint/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T02:49:38Z",
-      "is_hype": true,
-      "license": "MIT",
+      "pushed_at": "2026-05-31T12:57:28Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
       "latest_release": {
         "tag": "v1.2.9",
-        "published_at": "2026-05-30T09:38:54Z"
+        "published_at": "2026-05-31T12:57:28Z"
       },
-      "featured": true,
-      "maintenance_score": 0,
+      "featured": false,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
@@ -227,12 +156,12 @@
       "full_name": "D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "url": "https://github.com/D4Vinci/Scrapling",
-      "stars": 58236,
-      "forks_count": 5646,
+      "stars": 58900,
+      "forks_count": 5693,
       "open_issues_count": 9,
       "language": "Python",
-      "gem_score": 9.54,
-      "momentum_trend": 0.71,
+      "gem_score": 9.53,
+      "momentum_trend": 0.75,
       "recent_commits": 5,
       "merged_prs_count": 3,
       "topics": [
@@ -241,7 +170,7 @@
         "crawling-python"
       ],
       "activity": [
-        17,
+        16,
         4,
         0,
         5
@@ -261,88 +190,15 @@
       "is_verified": false
     },
     {
-      "name": "TradingAgents",
-      "full_name": "TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "stars": 81868,
-      "forks_count": 15913,
-      "open_issues_count": 154,
-      "language": "Python",
-      "gem_score": 9.07,
-      "momentum_trend": 1.24,
-      "recent_commits": 14,
-      "merged_prs_count": 2,
-      "topics": [
-        "agent",
-        "finance",
-        "llm"
-      ],
-      "activity": [
-        29,
-        5,
-        0,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/TauricResearch/TradingAgents/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-01T02:02:48Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.2.5",
-        "published_at": "2026-05-11T09:27:40Z"
-      },
-      "featured": true,
-      "maintenance_score": 15,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "harness",
-      "full_name": "revfactory/harness",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "url": "https://github.com/revfactory/harness",
-      "stars": 5229,
-      "forks_count": 698,
-      "open_issues_count": 0,
-      "language": "HTML",
-      "gem_score": 8.63,
-      "momentum_trend": 10,
-      "recent_commits": 10,
-      "merged_prs_count": 3,
-      "topics": [
-        "claude-code",
-        "claude-code-plugin",
-        "harness"
-      ],
-      "activity": [
-        1,
-        2,
-        0,
-        10
-      ],
-      "good_first_issues_url": "https://github.com/revfactory/harness/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-29T17:04:20Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 3,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
       "name": "markitdown",
       "full_name": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "url": "https://github.com/microsoft/markitdown",
-      "stars": 138877,
-      "forks_count": 9454,
-      "open_issues_count": 390,
+      "stars": 140711,
+      "forks_count": 9579,
+      "open_issues_count": 391,
       "language": "Python",
-      "gem_score": 8.42,
+      "gem_score": 8.41,
       "momentum_trend": 3,
       "recent_commits": 1,
       "merged_prs_count": 2,
@@ -367,7 +223,82 @@
         "published_at": "2026-05-26T22:42:14Z"
       },
       "featured": true,
-      "maintenance_score": 83,
+      "maintenance_score": 84,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "VoxCPM",
+      "full_name": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "stars": 24926,
+      "forks_count": 2864,
+      "open_issues_count": 104,
+      "language": "Python",
+      "gem_score": 5.42,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 1,
+      "topics": [
+        "audio",
+        "deeplearning",
+        "minicpm"
+      ],
+      "activity": [
+        1,
+        3,
+        1,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/OpenBMB/VoxCPM/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-22T03:27:10Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "2.0.3",
+        "published_at": "2026-05-11T11:59:20Z"
+      },
+      "featured": true,
+      "maintenance_score": 11,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "machine-learning-for-trading",
+      "full_name": "stefan-jansen/machine-learning-for-trading",
+      "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+      "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "stars": 18261,
+      "forks_count": 5214,
+      "open_issues_count": 13,
+      "language": "Jupyter Notebook",
+      "gem_score": 0.79,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "machine-learning",
+        "trading",
+        "investment"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/stefan-jansen/machine-learning-for-trading/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2024-08-18T21:54:07Z",
+      "is_hype": false,
+      "latest_release": {
+        "tag": "2.0",
+        "published_at": "2021-02-27T02:09:47Z"
+      },
+      "featured": true,
+      "maintenance_score": 1246,
       "bundle_size": null,
       "is_verified": false
     }
