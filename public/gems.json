@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-06-03T03:52:37.932Z",
-  "count": 12,
+  "last_mined": "2026-06-03T16:45:39.987Z",
+  "count": 8,
   "gems": [
     {
       "name": "hermes-webui",
       "full_name": "nesquena/hermes-webui",
       "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
       "url": "https://github.com/nesquena/hermes-webui",
-      "stars": 12650,
-      "forks_count": 1546,
+      "stars": 12992,
+      "forks_count": 1585,
       "open_issues_count": 160,
       "language": "Python",
-      "gem_score": 51.68,
-      "momentum_trend": 0.9,
-      "recent_commits": 537,
+      "gem_score": 51.43,
+      "momentum_trend": 0.88,
+      "recent_commits": 521,
       "merged_prs_count": 49,
       "topics": [
         "agent",
@@ -21,21 +21,59 @@
         "ai-agents"
       ],
       "activity": [
-        621,
-        664,
-        503,
-        537
+        649,
+        640,
+        487,
+        521
       ],
       "good_first_issues_url": "https://github.com/nesquena/hermes-webui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-03T03:24:53Z",
+      "pushed_at": "2026-06-03T16:35:19Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.51.227",
-        "published_at": "2026-06-03T03:25:08Z"
+        "tag": "v0.51.233",
+        "published_at": "2026-06-03T16:35:09Z"
       },
       "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 178657,
+      "forks_count": 30615,
+      "open_issues_count": 5905,
+      "language": "Python",
+      "gem_score": 39.04,
+      "momentum_trend": 0.96,
+      "recent_commits": 721,
+      "merged_prs_count": 48,
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents"
+      ],
+      "activity": [
+        764,
+        892,
+        594,
+        721
+      ],
+      "good_first_issues_url": "https://github.com/NousResearch/hermes-agent/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-03T16:38:32Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2026.5.29.2",
+        "published_at": "2026-05-29T13:37:26Z"
+      },
+      "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
@@ -45,13 +83,13 @@
       "full_name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 204236,
-      "forks_count": 31324,
-      "open_issues_count": 26,
+      "stars": 205269,
+      "forks_count": 31509,
+      "open_issues_count": 27,
       "language": "JavaScript",
-      "gem_score": 25.51,
-      "momentum_trend": 0.03,
-      "recent_commits": 5,
+      "gem_score": 25.91,
+      "momentum_trend": 0.04,
+      "recent_commits": 6,
       "merged_prs_count": 42,
       "topics": [
         "ai-agents",
@@ -59,14 +97,14 @@
         "claude"
       ],
       "activity": [
-        142,
-        281,
+        163,
+        260,
         18,
-        5
+        6
       ],
       "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T11:51:04Z",
+      "pushed_at": "2026-06-03T13:54:32Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -79,151 +117,75 @@
       "is_verified": false
     },
     {
-      "name": "karl2d",
-      "full_name": "karl-zylinski/karl2d",
-      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
-      "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 572,
-      "forks_count": 48,
-      "open_issues_count": 43,
-      "language": "Odin",
-      "gem_score": 23.62,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 7,
+      "name": "opendataloader-pdf",
+      "full_name": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "stars": 23114,
+      "forks_count": 2172,
+      "open_issues_count": 39,
+      "language": "Java",
+      "gem_score": 14.44,
+      "momentum_trend": 0.14,
+      "recent_commits": 2,
+      "merged_prs_count": 42,
       "topics": [
-        "gamedev",
-        "odin",
-        "odin-lang"
+        "json",
+        "markdown",
+        "pdf"
       ],
       "activity": [
-        2,
-        0,
-        9,
-        0
+        5,
+        27,
+        10,
+        2
       ],
-      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-01T12:40:32Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": {
-        "tag": "karl2d-jam-hotfix-1",
-        "published_at": "2026-05-01T20:20:15Z"
-      },
-      "featured": false,
-      "maintenance_score": 11,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "supermemory",
-      "full_name": "supermemoryai/supermemory",
-      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-      "url": "https://github.com/supermemoryai/supermemory",
-      "stars": 24742,
-      "forks_count": 2181,
-      "open_issues_count": 5,
-      "language": "TypeScript",
-      "gem_score": 15.3,
-      "momentum_trend": 0.51,
-      "recent_commits": 16,
-      "merged_prs_count": 50,
-      "topics": [
-        "cloudflare-pages",
-        "cloudflare-workers",
-        "drizzle-orm"
-      ],
-      "activity": [
-        32,
-        38,
-        24,
-        16
-      ],
-      "good_first_issues_url": "https://github.com/supermemoryai/supermemory/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/opendataloader-project/opendataloader-pdf/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T18:58:58Z",
+      "pushed_at": "2026-06-03T16:14:48Z",
       "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": 25255,
-      "is_verified": false
-    },
-    {
-      "name": "flowsint",
-      "full_name": "reconurge/flowsint",
-      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
-      "url": "https://github.com/reconurge/flowsint",
-      "stars": 4590,
-      "forks_count": 586,
-      "open_issues_count": 30,
-      "language": "TypeScript",
-      "gem_score": 14.23,
-      "momentum_trend": 9.75,
-      "recent_commits": 13,
-      "merged_prs_count": 4,
-      "topics": [
-        "investigation",
-        "osint",
-        "recon"
-      ],
-      "activity": [
-        1,
-        2,
-        1,
-        13
-      ],
-      "good_first_issues_url": "https://github.com/reconurge/flowsint/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T19:11:45Z",
-      "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v1.2.9",
-        "published_at": "2026-05-31T12:57:28Z"
+        "tag": "v2.4.7",
+        "published_at": "2026-05-27T10:05:12Z"
       },
-      "featured": false,
-      "maintenance_score": 0,
+      "featured": true,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "ols",
-      "full_name": "DanielGavin/ols",
-      "description": "Language server for Odin",
-      "url": "https://github.com/DanielGavin/ols",
-      "stars": 1000,
-      "forks_count": 156,
-      "open_issues_count": 91,
-      "language": "Odin",
-      "gem_score": 13.59,
-      "momentum_trend": 0.55,
-      "recent_commits": 11,
-      "merged_prs_count": 37,
+      "name": "odoo",
+      "full_name": "odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "url": "https://github.com/odoo/odoo",
+      "stars": 51839,
+      "forks_count": 32634,
+      "open_issues_count": 3696,
+      "language": "Python",
+      "gem_score": 10.21,
+      "momentum_trend": 1.17,
+      "recent_commits": 150,
+      "merged_prs_count": 0,
       "topics": [
-        "language-server",
-        "odin",
-        "lsp"
+        "odoo",
+        "python",
+        "business"
       ],
       "activity": [
-        24,
-        25,
-        11,
-        11
+        133,
+        124,
+        128,
+        150
       ],
-      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/odoo/odoo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T19:32:22Z",
+      "pushed_at": "2026-06-03T16:22:38Z",
       "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "dev-2026-05",
-        "published_at": "2026-05-07T07:26:52Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 131,
       "bundle_size": null,
       "is_verified": false
     },
@@ -232,12 +194,12 @@
       "full_name": "D4Vinci/Scrapling",
       "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "url": "https://github.com/D4Vinci/Scrapling",
-      "stars": 59329,
-      "forks_count": 5728,
+      "stars": 59929,
+      "forks_count": 5787,
       "open_issues_count": 10,
       "language": "Python",
-      "gem_score": 9.22,
-      "momentum_trend": 0.57,
+      "gem_score": 9.21,
+      "momentum_trend": 0.6,
       "recent_commits": 4,
       "merged_prs_count": 3,
       "topics": [
@@ -246,7 +208,7 @@
         "crawling-python"
       ],
       "activity": [
-        16,
+        15,
         4,
         1,
         4
@@ -266,49 +228,15 @@
       "is_verified": false
     },
     {
-      "name": "SVC16",
-      "full_name": "JanNeuendorf/SVC16",
-      "description": "A Simple Virtual Computer",
-      "url": "https://github.com/JanNeuendorf/SVC16",
-      "stars": 354,
-      "forks_count": 15,
-      "open_issues_count": 2,
-      "language": "Odin",
-      "gem_score": 7.61,
-      "momentum_trend": 1,
-      "recent_commits": 3,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/JanNeuendorf/SVC16/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-28T09:23:54Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v2.1.0",
-        "published_at": "2026-05-28T09:23:54Z"
-      },
-      "featured": false,
-      "maintenance_score": 283,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "markitdown",
       "full_name": "microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "url": "https://github.com/microsoft/markitdown",
-      "stars": 141449,
-      "forks_count": 9642,
-      "open_issues_count": 391,
+      "stars": 142560,
+      "forks_count": 9731,
+      "open_issues_count": 392,
       "language": "Python",
-      "gem_score": 7.32,
+      "gem_score": 7.31,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 2,
@@ -333,117 +261,45 @@
         "published_at": "2026-05-26T22:42:14Z"
       },
       "featured": true,
-      "maintenance_score": 84,
+      "maintenance_score": 280,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "VoxCPM",
-      "full_name": "OpenBMB/VoxCPM",
-      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
-      "url": "https://github.com/OpenBMB/VoxCPM",
-      "stars": 25241,
-      "forks_count": 2887,
-      "open_issues_count": 104,
+      "name": "Open-LLM-VTuber",
+      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "stars": 8820,
+      "forks_count": 1099,
+      "open_issues_count": 89,
       "language": "Python",
-      "gem_score": 5.41,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 1,
-      "topics": [
-        "audio",
-        "deeplearning",
-        "minicpm"
-      ],
-      "activity": [
-        1,
-        3,
-        1,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/OpenBMB/VoxCPM/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-05-22T03:27:10Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "2.0.3",
-        "published_at": "2026-05-11T11:59:20Z"
-      },
-      "featured": true,
-      "maintenance_score": 12,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "odin-http",
-      "full_name": "laytan/odin-http",
-      "description": "A HTTP/1.1 client/server implementation for Odin.",
-      "url": "https://github.com/laytan/odin-http",
-      "stars": 378,
-      "forks_count": 42,
-      "open_issues_count": 17,
-      "language": "Odin",
-      "gem_score": 2.91,
+      "gem_score": 5.19,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
       "topics": [
-        "odin-lib",
-        "http",
-        "http-client"
+        "ai-vtuber",
+        "ai-waifu",
+        "ai"
       ],
       "activity": [
         0,
-        0,
+        1,
         0,
         0
       ],
-      "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-02T21:35:28Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
+      "good_first_issues_url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-05-15T07:18:04Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v1.2.1",
+        "published_at": "2025-08-26T08:47:08Z"
+      },
       "featured": false,
-      "maintenance_score": 52,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "machine-learning-for-trading",
-      "full_name": "stefan-jansen/machine-learning-for-trading",
-      "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
-      "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
-      "stars": 18570,
-      "forks_count": 5232,
-      "open_issues_count": 13,
-      "language": "Jupyter Notebook",
-      "gem_score": 0.79,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [
-        "machine-learning",
-        "trading",
-        "investment"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/stefan-jansen/machine-learning-for-trading/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2024-08-18T21:54:07Z",
-      "is_hype": false,
-      "latest_release": {
-        "tag": "2.0",
-        "published_at": "2021-02-27T02:09:47Z"
-      },
-      "featured": true,
-      "maintenance_score": 1247,
+      "maintenance_score": 302,
       "bundle_size": null,
       "is_verified": false
     }
