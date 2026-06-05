@@ -1,68 +1,34 @@
 {
-  "last_mined": "2026-06-05T03:33:21.561Z",
+  "last_mined": "2026-06-05T14:47:05.000Z",
   "count": 9,
   "gems": [
-    {
-      "name": "copilot-sdk",
-      "full_name": "github/copilot-sdk",
-      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "url": "https://github.com/github/copilot-sdk",
-      "stars": 9019,
-      "forks_count": 1213,
-      "open_issues_count": 144,
-      "language": "Java",
-      "gem_score": 46.85,
-      "momentum_trend": 1.38,
-      "recent_commits": 69,
-      "merged_prs_count": 49,
-      "topics": [],
-      "activity": [
-        31,
-        49,
-        70,
-        69
-      ],
-      "good_first_issues_url": "https://github.com/github/copilot-sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-05T00:13:32Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "java/v1.0.0",
-        "published_at": "2026-06-02T15:04:15Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": 181216,
-      "forks_count": 31097,
-      "open_issues_count": 6143,
+      "stars": 182256,
+      "forks_count": 31259,
+      "open_issues_count": 6217,
       "language": "Python",
-      "gem_score": 39.3,
-      "momentum_trend": 1.14,
-      "recent_commits": 823,
-      "merged_prs_count": 50,
+      "gem_score": 39.03,
+      "momentum_trend": 1.02,
+      "recent_commits": 760,
+      "merged_prs_count": 49,
       "topics": [
         "ai",
         "ai-agent",
         "ai-agents"
       ],
       "activity": [
-        674,
-        827,
-        658,
-        823
+        702,
+        814,
+        726,
+        760
       ],
       "good_first_issues_url": "https://github.com/NousResearch/hermes-agent/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-05T03:30:05Z",
+      "pushed_at": "2026-06-05T14:15:36Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -75,41 +41,79 @@
       "is_verified": false
     },
     {
-      "name": "spec-kit",
-      "full_name": "github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "url": "https://github.com/github/spec-kit",
-      "stars": 108661,
-      "forks_count": 9602,
-      "open_issues_count": 259,
+      "name": "last30days-skill",
+      "full_name": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "stars": 28048,
+      "forks_count": 2381,
+      "open_issues_count": 62,
       "language": "Python",
-      "gem_score": 29.98,
-      "momentum_trend": 1.49,
-      "recent_commits": 51,
-      "merged_prs_count": 48,
+      "gem_score": 26.89,
+      "momentum_trend": 0.05,
+      "recent_commits": 3,
+      "merged_prs_count": 50,
       "topics": [
-        "ai",
-        "copilot",
-        "development"
+        "ai-prompts",
+        "claude",
+        "claude-code"
       ],
       "activity": [
-        38,
-        27,
-        38,
-        51
+        3,
+        182,
+        4,
+        3
       ],
-      "good_first_issues_url": "https://github.com/github/spec-kit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/mvanhorn/last30days-skill/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-04T21:53:43Z",
-      "is_hype": false,
+      "pushed_at": "2026-06-01T14:41:33Z",
+      "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.9.4",
-        "published_at": "2026-06-04T16:13:16Z"
+        "tag": "v3.3.0",
+        "published_at": "2026-05-17T16:26:10Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 4,
       "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 208010,
+      "forks_count": 31919,
+      "open_issues_count": 32,
+      "language": "JavaScript",
+      "gem_score": 24.99,
+      "momentum_trend": 0.03,
+      "recent_commits": 4,
+      "merged_prs_count": 42,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude"
+      ],
+      "activity": [
+        202,
+        221,
+        21,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-04T23:00:53Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.10.0",
+        "published_at": "2026-04-05T20:20:57Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": 2425,
       "is_verified": false
     },
     {
@@ -117,13 +121,13 @@
       "full_name": "lfnovo/open-notebook",
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "url": "https://github.com/lfnovo/open-notebook",
-      "stars": 25175,
-      "forks_count": 2924,
-      "open_issues_count": 127,
+      "stars": 25657,
+      "forks_count": 2957,
+      "open_issues_count": 128,
       "language": "TypeScript",
-      "gem_score": 25.41,
-      "momentum_trend": 4.71,
-      "recent_commits": 22,
+      "gem_score": 24.71,
+      "momentum_trend": 2.14,
+      "recent_commits": 15,
       "merged_prs_count": 36,
       "topics": [
         "assistant",
@@ -132,9 +136,9 @@
       ],
       "activity": [
         0,
-        13,
-        1,
-        22
+        14,
+        7,
+        15
       ],
       "good_first_issues_url": "https://github.com/lfnovo/open-notebook/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
@@ -151,41 +155,41 @@
       "is_verified": false
     },
     {
-      "name": "ECC",
-      "full_name": "affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "url": "https://github.com/affaan-m/ECC",
-      "stars": 207401,
-      "forks_count": 31836,
-      "open_issues_count": 30,
-      "language": "JavaScript",
-      "gem_score": 24.99,
-      "momentum_trend": 0.03,
-      "recent_commits": 4,
-      "merged_prs_count": 42,
+      "name": "CopilotKit",
+      "full_name": "CopilotKit/CopilotKit",
+      "description": "The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "stars": 32424,
+      "forks_count": 4177,
+      "open_issues_count": 318,
+      "language": "TypeScript",
+      "gem_score": 21.84,
+      "momentum_trend": 1.79,
+      "recent_commits": 661,
+      "merged_prs_count": 50,
       "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude"
+        "ai",
+        "llm",
+        "nextjs"
       ],
       "activity": [
-        184,
-        239,
-        21,
-        4
+        342,
+        454,
+        309,
+        661
       ],
-      "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-04T23:00:53Z",
+      "good_first_issues_url": "https://github.com/CopilotKit/CopilotKit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-05T14:05:22Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v1.10.0",
-        "published_at": "2026-04-05T20:20:57Z"
+        "tag": "v1.59.5",
+        "published_at": "2026-06-05T05:59:48Z"
       },
-      "featured": false,
+      "featured": true,
       "maintenance_score": 0,
-      "bundle_size": 2425,
+      "bundle_size": null,
       "is_verified": false
     },
     {
@@ -193,24 +197,24 @@
       "full_name": "NVIDIA/cosmos",
       "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
       "url": "https://github.com/NVIDIA/cosmos",
-      "stars": 9084,
-      "forks_count": 583,
-      "open_issues_count": 3,
+      "stars": 9296,
+      "forks_count": 592,
+      "open_issues_count": 6,
       "language": "Jupyter Notebook",
-      "gem_score": 12.94,
+      "gem_score": 13.25,
       "momentum_trend": 1,
-      "recent_commits": 13,
-      "merged_prs_count": 10,
+      "recent_commits": 14,
+      "merged_prs_count": 11,
       "topics": [],
       "activity": [
         0,
         0,
         0,
-        13
+        14
       ],
       "good_first_issues_url": "https://github.com/NVIDIA/cosmos/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-04T23:45:56Z",
+      "pushed_at": "2026-06-05T05:18:59Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -223,17 +227,55 @@
       "is_verified": false
     },
     {
+      "name": "MiroFish",
+      "full_name": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "url": "https://github.com/666ghj/MiroFish",
+      "stars": 64521,
+      "forks_count": 10069,
+      "open_issues_count": 152,
+      "language": "Python",
+      "gem_score": 9.11,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 2,
+      "topics": [
+        "agent-memory",
+        "financial-forecasting",
+        "future-prediction"
+      ],
+      "activity": [
+        0,
+        0,
+        5,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/666ghj/MiroFish/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-24T16:48:58Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v0.1.2",
+        "published_at": "2026-03-07T13:45:58Z"
+      },
+      "featured": true,
+      "maintenance_score": 11,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
       "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "stars": 79987,
-      "forks_count": 10609,
-      "open_issues_count": 138,
+      "stars": 80364,
+      "forks_count": 10623,
+      "open_issues_count": 140,
       "language": "Python",
-      "gem_score": 8.94,
-      "momentum_trend": 0.78,
-      "recent_commits": 6,
+      "gem_score": 8.62,
+      "momentum_trend": 0.48,
+      "recent_commits": 4,
       "merged_prs_count": 26,
       "topics": [
         "ocr",
@@ -243,8 +285,8 @@
       "activity": [
         8,
         1,
-        14,
-        6
+        16,
+        4
       ],
       "good_first_issues_url": "https://github.com/PaddlePaddle/PaddleOCR/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -261,75 +303,40 @@
       "is_verified": false
     },
     {
-      "name": "Open-LLM-VTuber",
-      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
-      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
-      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
-      "stars": 9687,
-      "forks_count": 1160,
-      "open_issues_count": 89,
+      "name": "Agent-Reach",
+      "full_name": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "stars": 21342,
+      "forks_count": 1851,
+      "open_issues_count": 23,
       "language": "Python",
-      "gem_score": 5.14,
+      "gem_score": 3.39,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
       "topics": [
-        "ai-vtuber",
-        "ai-waifu",
-        "ai"
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search"
       ],
       "activity": [
         0,
-        1,
+        0,
         0,
         0
       ],
-      "good_first_issues_url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-05-15T07:18:04Z",
+      "good_first_issues_url": "https://github.com/Panniantong/Agent-Reach/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-05-18T12:39:22Z",
       "is_hype": true,
-      "license": "NOASSERTION",
+      "license": "MIT",
       "latest_release": {
-        "tag": "v1.2.1",
-        "published_at": "2025-08-26T08:47:08Z"
+        "tag": "v1.4.0",
+        "published_at": "2026-03-31T10:26:58Z"
       },
       "featured": false,
-      "maintenance_score": 303,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "coding-interview-university",
-      "full_name": "jwasham/coding-interview-university",
-      "description": "A complete computer science study plan to become a software engineer.",
-      "url": "https://github.com/jwasham/coding-interview-university",
-      "stars": 349808,
-      "forks_count": 83239,
-      "open_issues_count": 75,
-      "language": "Plain Text",
-      "gem_score": 0.44,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [
-        "computer-science",
-        "interview",
-        "programming-interviews"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/jwasham/coding-interview-university/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2025-08-28T14:42:47Z",
-      "is_hype": false,
-      "license": "CC-BY-SA-4.0",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 3528,
+      "maintenance_score": 53,
       "bundle_size": null,
       "is_verified": false
     }
