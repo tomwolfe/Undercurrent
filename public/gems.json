@@ -1,19 +1,53 @@
 {
-  "last_mined": "2026-06-13T13:59:59.657Z",
-  "count": 101,
+  "last_mined": "2026-06-14T03:48:31.814Z",
+  "count": 146,
   "gems": [
+    {
+      "name": "Zayit",
+      "full_name": "kdroidFilter/Zayit",
+      "description": "Zayit is a free app to read, search, and explore Jewish study texts. Built for study: fast search, smooth navigation, clean citations. For review, preparing a lesson, or studying with a partner.",
+      "url": "https://github.com/kdroidFilter/Zayit",
+      "stars": 162,
+      "forks_count": 20,
+      "open_issues_count": 33,
+      "language": "Kotlin",
+      "gem_score": 52.26,
+      "momentum_trend": 1.5,
+      "recent_commits": 67,
+      "merged_prs_count": 29,
+      "topics": [],
+      "activity": [
+        13,
+        45,
+        76,
+        67
+      ],
+      "good_first_issues_url": "https://github.com/kdroidFilter/Zayit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T03:39:29Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v0.5.12",
+        "published_at": "2026-06-13T19:29:55Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
     {
       "name": "zio",
       "full_name": "lalinsky/zio",
       "description": "Async I/O framework for Zig",
       "url": "https://github.com/lalinsky/zio",
-      "stars": 517,
+      "stars": 518,
       "forks_count": 27,
       "open_issues_count": 26,
       "language": "Zig",
-      "gem_score": 51.38,
-      "momentum_trend": 0.67,
-      "recent_commits": 15,
+      "gem_score": 50.74,
+      "momentum_trend": 0.58,
+      "recent_commits": 13,
       "merged_prs_count": 50,
       "topics": [
         "zig-package",
@@ -22,9 +56,9 @@
       ],
       "activity": [
         16,
-        29,
-        22,
-        15
+        28,
+        23,
+        13
       ],
       "good_first_issues_url": "https://github.com/lalinsky/zio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
@@ -38,31 +72,31 @@
       "featured": false,
       "maintenance_score": 2,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "agentsview",
       "full_name": "kenn-io/agentsview",
       "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
       "url": "https://github.com/kenn-io/agentsview",
-      "stars": 2180,
-      "forks_count": 202,
-      "open_issues_count": 87,
+      "stars": 2397,
+      "forks_count": 219,
+      "open_issues_count": 78,
       "language": "Go",
-      "gem_score": 45.87,
-      "momentum_trend": 2.17,
-      "recent_commits": 39,
+      "gem_score": 46.33,
+      "momentum_trend": 2.88,
+      "recent_commits": 50,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        17,
-        24,
-        13,
-        39
+        18,
+        23,
+        11,
+        50
       ],
       "good_first_issues_url": "https://github.com/kenn-io/agentsview/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-12T20:34:36Z",
+      "pushed_at": "2026-06-14T02:19:10Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -83,9 +117,9 @@
       "forks_count": 18,
       "open_issues_count": 28,
       "language": "Zig",
-      "gem_score": 45.66,
-      "momentum_trend": 3.65,
-      "recent_commits": 95,
+      "gem_score": 44.97,
+      "momentum_trend": 2.83,
+      "recent_commits": 84,
       "merged_prs_count": 6,
       "topics": [
         "client-side-rendering",
@@ -94,9 +128,9 @@
       ],
       "activity": [
         0,
-        30,
-        48,
-        95
+        40,
+        49,
+        84
       ],
       "good_first_issues_url": "https://github.com/ziex-dev/ziex/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -113,6 +147,82 @@
       "is_verified": false
     },
     {
+      "name": "pennywiseai-tracker",
+      "full_name": "sarim2000/pennywiseai-tracker",
+      "description": "PennyWise automatically reads transaction SMS messages and transforms them    into organized financial data with on-device AI assistance. No manual   entry, no cloud processing, complete privacy.",
+      "url": "https://github.com/sarim2000/pennywiseai-tracker",
+      "stars": 486,
+      "forks_count": 96,
+      "open_issues_count": 26,
+      "language": "Kotlin",
+      "gem_score": 41.82,
+      "momentum_trend": 0.96,
+      "recent_commits": 45,
+      "merged_prs_count": 50,
+      "topics": [
+        "android",
+        "expense-tracker",
+        "kotlin"
+      ],
+      "activity": [
+        33,
+        19,
+        88,
+        45
+      ],
+      "good_first_issues_url": "https://github.com/sarim2000/pennywiseai-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:59:33Z",
+      "is_hype": true,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v2.15.60",
+        "published_at": "2026-06-08T09:20:30Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "mobile-app",
+      "full_name": "music-assistant/mobile-app",
+      "description": "The (official) Music Assistant Mobile app is a cross-platform client application designed for Android and iOS. Developed using Kotlin Multiplatform (KMP) and Compose Multiplatform frameworks, this project aims to provide a unified codebase for seamless music management across multiple platforms.",
+      "url": "https://github.com/music-assistant/mobile-app",
+      "stars": 379,
+      "forks_count": 31,
+      "open_issues_count": 17,
+      "language": "Kotlin",
+      "gem_score": 40.74,
+      "momentum_trend": 1.29,
+      "recent_commits": 50,
+      "merged_prs_count": 50,
+      "topics": [
+        "android",
+        "android-app",
+        "home-assistant"
+      ],
+      "activity": [
+        31,
+        52,
+        33,
+        50
+      ],
+      "good_first_issues_url": "https://github.com/music-assistant/mobile-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T22:03:33Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "ios-v1.0-build-38",
+        "published_at": "2026-06-12T20:50:54Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "yuku",
       "full_name": "yuku-toolchain/yuku",
       "description": "High-performance JavaScript/TypeScript compiler toolchain in Zig.",
@@ -121,7 +231,7 @@
       "forks_count": 8,
       "open_issues_count": 3,
       "language": "Zig",
-      "gem_score": 38.26,
+      "gem_score": 38.22,
       "momentum_trend": 0.61,
       "recent_commits": 11,
       "merged_prs_count": 17,
@@ -151,15 +261,277 @@
       "is_verified": false
     },
     {
+      "name": "ArchiveTune",
+      "full_name": "ArchiveTuneApp/ArchiveTune",
+      "description": "The Cutest Material 3 Expressive Music Player With Support Local File and Youtube Music for Android.",
+      "url": "https://github.com/ArchiveTuneApp/ArchiveTune",
+      "stars": 2602,
+      "forks_count": 88,
+      "open_issues_count": 33,
+      "language": "Kotlin",
+      "gem_score": 38.15,
+      "momentum_trend": 0.68,
+      "recent_commits": 130,
+      "merged_prs_count": 41,
+      "topics": [
+        "android-application",
+        "android-studio",
+        "streaming-apps"
+      ],
+      "activity": [
+        142,
+        227,
+        202,
+        130
+      ],
+      "good_first_issues_url": "https://github.com/ArchiveTuneApp/ArchiveTune/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T23:07:59Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v13.4.0",
+        "published_at": "2026-05-29T20:40:00Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "essentials",
+      "full_name": "sameerasw/essentials",
+      "description": "Essential tools and mods for Android nerds",
+      "url": "https://github.com/sameerasw/essentials",
+      "stars": 2013,
+      "forks_count": 42,
+      "open_issues_count": 76,
+      "language": "Kotlin",
+      "gem_score": 36.67,
+      "momentum_trend": 0.14,
+      "recent_commits": 13,
+      "merged_prs_count": 29,
+      "topics": [
+        "android",
+        "google-pixel",
+        "jetpack-compose"
+      ],
+      "activity": [
+        247,
+        4,
+        35,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/sameerasw/essentials/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T17:01:24Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v15.4",
+        "published_at": "2026-06-05T17:31:54Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "LastChat",
+      "full_name": "Cocolalilal/LastChat",
+      "description": "A Fork of Rikkahub with an overhauled UI and feature additions",
+      "url": "https://github.com/Cocolalilal/LastChat",
+      "stars": 221,
+      "forks_count": 30,
+      "open_issues_count": 10,
+      "language": "Kotlin",
+      "gem_score": 35.26,
+      "momentum_trend": 1.47,
+      "recent_commits": 22,
+      "merged_prs_count": 3,
+      "topics": [
+        "ai",
+        "ai-assistant",
+        "android-app"
+      ],
+      "activity": [
+        7,
+        17,
+        21,
+        22
+      ],
+      "good_first_issues_url": "https://github.com/Cocolalilal/LastChat/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T16:56:57Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "1.4.3",
+        "published_at": "2026-06-12T21:36:04Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "argosy-launcher",
+      "full_name": "rommapp/argosy-launcher",
+      "description": "A native Android client for RomM  for syncing, installing, and launching games on any of your mobile devices",
+      "url": "https://github.com/rommapp/argosy-launcher",
+      "stars": 304,
+      "forks_count": 13,
+      "open_issues_count": 74,
+      "language": "Kotlin",
+      "gem_score": 34.62,
+      "momentum_trend": 0.34,
+      "recent_commits": 18,
+      "merged_prs_count": 3,
+      "topics": [],
+      "activity": [
+        39,
+        89,
+        31,
+        18
+      ],
+      "good_first_issues_url": "https://github.com/rommapp/argosy-launcher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T20:30:16Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v1.10.7",
+        "published_at": "2026-06-11T11:51:09Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "metro",
+      "full_name": "ZacSweers/metro",
+      "description": "A multiplatform, compile-time dependency injection framework for Kotlin",
+      "url": "https://github.com/ZacSweers/metro",
+      "stars": 1285,
+      "forks_count": 102,
+      "open_issues_count": 17,
+      "language": "Kotlin",
+      "gem_score": 33.74,
+      "momentum_trend": 1.71,
+      "recent_commits": 40,
+      "merged_prs_count": 50,
+      "topics": [
+        "compiler-plugin",
+        "dependency-injection",
+        "di"
+      ],
+      "activity": [
+        14,
+        20,
+        36,
+        40
+      ],
+      "good_first_issues_url": "https://github.com/ZacSweers/metro/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-13T20:20:50Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "1.2.1",
+        "published_at": "2026-06-12T02:45:15Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "BoomingMusic",
+      "full_name": "mardous/BoomingMusic",
+      "description": "Clean, fast, and Material-driven music player with powerful features for Android.",
+      "url": "https://github.com/mardous/BoomingMusic",
+      "stars": 301,
+      "forks_count": 24,
+      "open_issues_count": 92,
+      "language": "Kotlin",
+      "gem_score": 33.04,
+      "momentum_trend": 3.09,
+      "recent_commits": 69,
+      "merged_prs_count": 7,
+      "topics": [
+        "android",
+        "kotlin",
+        "material-ui"
+      ],
+      "activity": [
+        9,
+        46,
+        12,
+        69
+      ],
+      "good_first_issues_url": "https://github.com/mardous/BoomingMusic/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T00:09:50Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v1.3.0",
+        "published_at": "2026-05-03T14:04:38Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Monica",
+      "full_name": "Monica-Pass/Monica",
+      "description": " Monica Pass，Password Management, 2FA Generator",
+      "url": "https://github.com/Monica-Pass/Monica",
+      "stars": 779,
+      "forks_count": 47,
+      "open_issues_count": 13,
+      "language": "Kotlin",
+      "gem_score": 31.9,
+      "momentum_trend": 0.66,
+      "recent_commits": 21,
+      "merged_prs_count": 10,
+      "topics": [
+        "android",
+        "authenticator",
+        "kotlin"
+      ],
+      "activity": [
+        11,
+        42,
+        42,
+        21
+      ],
+      "good_first_issues_url": "https://github.com/Monica-Pass/Monica/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T21:38:03Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "1.0.290",
+        "published_at": "2026-06-13T08:27:09Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true
+    },
+    {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 583,
-      "forks_count": 50,
-      "open_issues_count": 43,
+      "stars": 584,
+      "forks_count": 51,
+      "open_issues_count": 44,
       "language": "Odin",
-      "gem_score": 31.43,
+      "gem_score": 31.39,
       "momentum_trend": 1.33,
       "recent_commits": 4,
       "merged_prs_count": 10,
@@ -189,37 +561,37 @@
       "is_verified": false
     },
     {
-      "name": "medTimer",
-      "full_name": "Futsch1/medTimer",
-      "description": "MedTimer Android app",
-      "url": "https://github.com/Futsch1/medTimer",
-      "stars": 538,
-      "forks_count": 55,
-      "open_issues_count": 51,
+      "name": "compose-stability-analyzer",
+      "full_name": "skydoves/compose-stability-analyzer",
+      "description": "🦄 Real-time analysis of Jetpack Compose composable functions' stability directly within Android Studio and IntelliJ.",
+      "url": "https://github.com/skydoves/compose-stability-analyzer",
+      "stars": 1559,
+      "forks_count": 37,
+      "open_issues_count": 5,
       "language": "Kotlin",
-      "gem_score": 30.69,
-      "momentum_trend": 0.94,
-      "recent_commits": 60,
-      "merged_prs_count": 50,
+      "gem_score": 30.94,
+      "momentum_trend": 6,
+      "recent_commits": 10,
+      "merged_prs_count": 13,
       "topics": [
         "android",
-        "android-app",
-        "java"
+        "compose",
+        "intellij-plugin"
       ],
       "activity": [
-        52,
-        45,
-        94,
-        60
+        0,
+        2,
+        3,
+        10
       ],
-      "good_first_issues_url": "https://github.com/Futsch1/medTimer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T13:44:17Z",
+      "good_first_issues_url": "https://github.com/skydoves/compose-stability-analyzer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:01:43Z",
       "is_hype": false,
-      "license": "MIT",
+      "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v1.23.0",
-        "published_at": "2026-06-03T14:46:40Z"
+        "tag": "0.10.0",
+        "published_at": "2026-06-11T08:25:59Z"
       },
       "featured": false,
       "maintenance_score": 0,
@@ -227,75 +599,37 @@
       "is_verified": false
     },
     {
-      "name": "ArchiveTune",
-      "full_name": "ArchiveTuneApp/ArchiveTune",
-      "description": "The Cutest Material 3 Expressive Music Player With Support Local File and Youtube Music for Android.",
-      "url": "https://github.com/ArchiveTuneApp/ArchiveTune",
-      "stars": 2583,
-      "forks_count": 89,
-      "open_issues_count": 33,
+      "name": "ZDT-D",
+      "full_name": "GAME-OVER-op/ZDT-D",
+      "description": "ZDT-D, Bypassing Internet blocks.",
+      "url": "https://github.com/GAME-OVER-op/ZDT-D",
+      "stars": 229,
+      "forks_count": 10,
+      "open_issues_count": 0,
       "language": "Kotlin",
-      "gem_score": 30.56,
-      "momentum_trend": 0.07,
-      "recent_commits": 13,
-      "merged_prs_count": 39,
+      "gem_score": 30.46,
+      "momentum_trend": 0.29,
+      "recent_commits": 16,
+      "merged_prs_count": 22,
       "topics": [
-        "android-application",
-        "android-studio",
-        "streaming-apps"
+        "anticensorship",
+        "dpi-bypassing",
+        "internetfreedom"
       ],
       "activity": [
-        148,
-        223,
-        202,
-        13
+        33,
+        67,
+        64,
+        16
       ],
-      "good_first_issues_url": "https://github.com/ArchiveTuneApp/ArchiveTune/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/GAME-OVER-op/ZDT-D/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:13:44Z",
+      "pushed_at": "2026-06-13T21:11:53Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": {
-        "tag": "v13.4.0",
-        "published_at": "2026-05-29T20:40:00Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "universal-installer",
-      "full_name": "pass-with-high-score/universal-installer",
-      "description": "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.",
-      "url": "https://github.com/pass-with-high-score/universal-installer",
-      "stars": 385,
-      "forks_count": 19,
-      "open_issues_count": 16,
-      "language": "Kotlin",
-      "gem_score": 29.7,
-      "momentum_trend": 2.06,
-      "recent_commits": 44,
-      "merged_prs_count": 4,
-      "topics": [
-        "android",
-        "jetpack-compose",
-        "shizuku"
-      ],
-      "activity": [
-        15,
-        20,
-        29,
-        44
-      ],
-      "good_first_issues_url": "https://github.com/pass-with-high-score/universal-installer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:54:49Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v1.8.5",
-        "published_at": "2026-06-12T03:25:00Z"
+        "tag": "V3.8.0",
+        "published_at": "2026-06-05T06:03:36Z"
       },
       "featured": false,
       "maintenance_score": 8,
@@ -307,24 +641,24 @@
       "full_name": "fast4x/RiPlay",
       "description": "Multiplatform Music Player",
       "url": "https://github.com/fast4x/RiPlay",
-      "stars": 314,
+      "stars": 316,
       "forks_count": 25,
-      "open_issues_count": 27,
+      "open_issues_count": 25,
       "language": "Kotlin",
-      "gem_score": 29.43,
-      "momentum_trend": 0.95,
+      "gem_score": 29.38,
+      "momentum_trend": 0.93,
       "recent_commits": 55,
       "merged_prs_count": 4,
       "topics": [],
       "activity": [
-        21,
-        42,
-        111,
+        18,
+        43,
+        116,
         55
       ],
       "good_first_issues_url": "https://github.com/fast4x/RiPlay/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:19:23Z",
+      "pushed_at": "2026-06-14T02:13:44Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": {
@@ -341,12 +675,12 @@
       "full_name": "LMCache/LMCache",
       "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
       "url": "https://github.com/LMCache/LMCache",
-      "stars": 8770,
-      "forks_count": 1299,
+      "stars": 8924,
+      "forks_count": 1308,
       "open_issues_count": 122,
       "language": "Python",
-      "gem_score": 27.84,
-      "momentum_trend": 1.24,
+      "gem_score": 27.78,
+      "momentum_trend": 1.22,
       "recent_commits": 56,
       "merged_prs_count": 50,
       "topics": [
@@ -355,14 +689,14 @@
         "inference"
       ],
       "activity": [
-        32,
+        31,
         53,
-        51,
+        54,
         56
       ],
       "good_first_issues_url": "https://github.com/LMCache/LMCache/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T10:22:27Z",
+      "pushed_at": "2026-06-14T03:35:36Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -370,6 +704,82 @@
         "published_at": "2026-06-13T00:08:59Z"
       },
       "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "YagniLauncher",
+      "full_name": "JackEblan/YagniLauncher",
+      "description": "You Aren't Gonna Need It Android Launcher From Scratch",
+      "url": "https://github.com/JackEblan/YagniLauncher",
+      "stars": 548,
+      "forks_count": 24,
+      "open_issues_count": 94,
+      "language": "Kotlin",
+      "gem_score": 26.48,
+      "momentum_trend": 0.45,
+      "recent_commits": 10,
+      "merged_prs_count": 8,
+      "topics": [
+        "jetpack-compose",
+        "kotlin-coroutines",
+        "android"
+      ],
+      "activity": [
+        28,
+        25,
+        14,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/JackEblan/YagniLauncher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-13T21:17:27Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.7.5-alpha",
+        "published_at": "2026-06-13T21:22:57Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "FairScan",
+      "full_name": "pynicolas/FairScan",
+      "description": "An Android app to scan your documents — simple and respectful",
+      "url": "https://github.com/pynicolas/FairScan",
+      "stars": 617,
+      "forks_count": 43,
+      "open_issues_count": 32,
+      "language": "Kotlin",
+      "gem_score": 26.3,
+      "momentum_trend": 4.42,
+      "recent_commits": 28,
+      "merged_prs_count": 11,
+      "topics": [
+        "android",
+        "pdf",
+        "android-app"
+      ],
+      "activity": [
+        5,
+        10,
+        4,
+        28
+      ],
+      "good_first_issues_url": "https://github.com/pynicolas/FairScan/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:46:37Z",
+      "is_hype": true,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v2.0.0",
+        "published_at": "2026-06-13T19:54:40Z"
+      },
+      "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
@@ -383,10 +793,10 @@
       "forks_count": 16,
       "open_issues_count": 0,
       "language": "Kotlin",
-      "gem_score": 26.51,
-      "momentum_trend": 2.2,
-      "recent_commits": 83,
-      "merged_prs_count": 18,
+      "gem_score": 26.07,
+      "momentum_trend": 1.41,
+      "recent_commits": 65,
+      "merged_prs_count": 19,
       "topics": [
         "android",
         "firebase",
@@ -394,13 +804,13 @@
       ],
       "activity": [
         16,
-        46,
-        51,
-        83
+        48,
+        74,
+        65
       ],
       "good_first_issues_url": "https://github.com/nikbulavin/cashsense/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:53:35Z",
+      "pushed_at": "2026-06-13T16:45:17Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -413,97 +823,21 @@
       "is_verified": false
     },
     {
-      "name": "komapper",
-      "full_name": "komapper/komapper",
-      "description": "Kotlin ORM for JDBC and R2DBC",
-      "url": "https://github.com/komapper/komapper",
-      "stars": 339,
-      "forks_count": 20,
-      "open_issues_count": 6,
-      "language": "Kotlin",
-      "gem_score": 25.94,
-      "momentum_trend": 12,
-      "recent_commits": 40,
-      "merged_prs_count": 26,
-      "topics": [
-        "kotlin",
-        "sql",
-        "ksp"
-      ],
-      "activity": [
-        1,
-        6,
-        3,
-        40
-      ],
-      "good_first_issues_url": "https://github.com/komapper/komapper/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:32:12Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v7.0.0",
-        "published_at": "2026-06-12T21:30:08Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "YagniLauncher",
-      "full_name": "JackEblan/YagniLauncher",
-      "description": "You Aren't Gonna Need It Android Launcher From Scratch",
-      "url": "https://github.com/JackEblan/YagniLauncher",
-      "stars": 546,
-      "forks_count": 24,
-      "open_issues_count": 97,
-      "language": "Kotlin",
-      "gem_score": 25.89,
-      "momentum_trend": 0.34,
-      "recent_commits": 8,
-      "merged_prs_count": 8,
-      "topics": [
-        "jetpack-compose",
-        "kotlin-coroutines",
-        "android"
-      ],
-      "activity": [
-        27,
-        29,
-        14,
-        8
-      ],
-      "good_first_issues_url": "https://github.com/JackEblan/YagniLauncher/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T12:11:24Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v0.7.4-alpha",
-        "published_at": "2026-06-12T01:55:34Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "container",
       "full_name": "apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "url": "https://github.com/apple/container",
-      "stars": 35855,
-      "forks_count": 1014,
+      "stars": 36398,
+      "forks_count": 1035,
       "open_issues_count": 236,
       "language": "Swift",
-      "gem_score": 24.83,
-      "momentum_trend": 0.42,
+      "gem_score": 24.78,
+      "momentum_trend": 0.44,
       "recent_commits": 7,
       "merged_prs_count": 48,
       "topics": [],
       "activity": [
-        14,
+        12,
         12,
         24,
         7
@@ -518,9 +852,196 @@
         "published_at": "2026-06-09T01:27:50Z"
       },
       "featured": true,
-      "maintenance_score": 85,
+      "maintenance_score": 86,
       "bundle_size": null,
       "is_verified": false
+    },
+    {
+      "name": "WeatherMaster",
+      "full_name": "PranshulGG/WeatherMaster",
+      "description": "A Weather app for android 🌦🌞☔",
+      "url": "https://github.com/PranshulGG/WeatherMaster",
+      "stars": 2854,
+      "forks_count": 114,
+      "open_issues_count": 79,
+      "language": "Kotlin",
+      "gem_score": 24.49,
+      "momentum_trend": 0.3,
+      "recent_commits": 77,
+      "merged_prs_count": 17,
+      "topics": [
+        "android",
+        "weather",
+        "javascript"
+      ],
+      "activity": [
+        266,
+        413,
+        96,
+        77
+      ],
+      "good_first_issues_url": "https://github.com/PranshulGG/WeatherMaster/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:25:32Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v3.3.0",
+        "published_at": "2026-06-06T04:46:49Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Echo-Music",
+      "full_name": "EchoMusicApp/Echo-Music",
+      "description": "A modern Android music app with ad-free streaming, synced lyrics, offline playback, and an intuitive user experience.",
+      "url": "https://github.com/EchoMusicApp/Echo-Music",
+      "stars": 1456,
+      "forks_count": 76,
+      "open_issues_count": 330,
+      "language": "Kotlin",
+      "gem_score": 23.79,
+      "momentum_trend": 0.73,
+      "recent_commits": 23,
+      "merged_prs_count": 4,
+      "topics": [
+        "adfree",
+        "free",
+        "music"
+      ],
+      "activity": [
+        17,
+        1,
+        77,
+        23
+      ],
+      "good_first_issues_url": "https://github.com/EchoMusicApp/Echo-Music/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T21:54:07Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v5.1.9",
+        "published_at": "2026-06-13T22:04:51Z"
+      },
+      "featured": false,
+      "maintenance_score": 6,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Wow",
+      "full_name": "Ahoo-Wang/Wow",
+      "description": "Modern Reactive CQRS Architecture Microservice development framework based on DDD and EventSourcing | 基于 DDD & EventSourcing 的现代响应式 CQRS 架构微服务开发框架",
+      "url": "https://github.com/Ahoo-Wang/Wow",
+      "stars": 292,
+      "forks_count": 40,
+      "open_issues_count": 3,
+      "language": "Kotlin",
+      "gem_score": 23.55,
+      "momentum_trend": 1.56,
+      "recent_commits": 27,
+      "merged_prs_count": 50,
+      "topics": [
+        "cqrs",
+        "domain-driven-design",
+        "event-driven"
+      ],
+      "activity": [
+        6,
+        14,
+        32,
+        27
+      ],
+      "good_first_issues_url": "https://github.com/Ahoo-Wang/Wow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:51:24Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v8.5.0",
+        "published_at": "2026-06-09T14:25:39Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "hammer-editor",
+      "full_name": "Wavesonics/hammer-editor",
+      "description": "A simple tool for building stories.",
+      "url": "https://github.com/Wavesonics/hammer-editor",
+      "stars": 266,
+      "forks_count": 12,
+      "open_issues_count": 27,
+      "language": "Kotlin",
+      "gem_score": 23.54,
+      "momentum_trend": 1.55,
+      "recent_commits": 99,
+      "merged_prs_count": 50,
+      "topics": [
+        "android",
+        "compose",
+        "compose-desktop"
+      ],
+      "activity": [
+        72,
+        46,
+        74,
+        99
+      ],
+      "good_first_issues_url": "https://github.com/Wavesonics/hammer-editor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:40:06Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v3.3.0",
+        "published_at": "2026-06-13T20:09:35Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "composelife",
+      "full_name": "alexvanyo/composelife",
+      "description": "A Game of Life simulator Android app and watchface built with Jetpack Compose",
+      "url": "https://github.com/alexvanyo/composelife",
+      "stars": 255,
+      "forks_count": 20,
+      "open_issues_count": 46,
+      "language": "Kotlin",
+      "gem_score": 23.49,
+      "momentum_trend": 7.14,
+      "recent_commits": 50,
+      "merged_prs_count": 45,
+      "topics": [
+        "android",
+        "jetpack-compose",
+        "kotlin"
+      ],
+      "activity": [
+        0,
+        5,
+        16,
+        50
+      ],
+      "good_first_issues_url": "https://github.com/alexvanyo/composelife/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-13T20:56:19Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true
     },
     {
       "name": "sig",
@@ -531,20 +1052,20 @@
       "forks_count": 61,
       "open_issues_count": 47,
       "language": "Zig",
-      "gem_score": 22.94,
-      "momentum_trend": 1.81,
-      "recent_commits": 26,
+      "gem_score": 23.01,
+      "momentum_trend": 1.88,
+      "recent_commits": 27,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
         20,
         10,
         13,
-        26
+        27
       ],
       "good_first_issues_url": "https://github.com/Syndica/sig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-12T19:26:10Z",
+      "pushed_at": "2026-06-13T19:56:04Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -561,14 +1082,14 @@
       "full_name": "zly2006/zhihu-plus-plus",
       "description": "Zhihu++ | 知乎++: Ad-free, low cost, AI powered zhihu android 3rd-party client. 去广告、占用低、AI大模型的新时代知乎安卓端体验",
       "url": "https://github.com/zly2006/zhihu-plus-plus",
-      "stars": 2909,
+      "stars": 2922,
       "forks_count": 136,
-      "open_issues_count": 42,
+      "open_issues_count": 37,
       "language": "Kotlin",
-      "gem_score": 22.62,
-      "momentum_trend": 1.53,
-      "recent_commits": 25,
-      "merged_prs_count": 44,
+      "gem_score": 22.97,
+      "momentum_trend": 1.62,
+      "recent_commits": 27,
+      "merged_prs_count": 47,
       "topics": [
         "android",
         "zhihu",
@@ -577,12 +1098,12 @@
       "activity": [
         28,
         12,
-        9,
-        25
+        10,
+        27
       ],
       "good_first_issues_url": "https://github.com/zly2006/zhihu-plus-plus/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:38:00Z",
+      "pushed_at": "2026-06-14T03:43:35Z",
       "is_hype": true,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -595,17 +1116,131 @@
       "is_verified": false
     },
     {
+      "name": "compose-unstyled",
+      "full_name": "composablehorizons/compose-unstyled",
+      "description": "The missing Design System layer for Compose UI",
+      "url": "https://github.com/composablehorizons/compose-unstyled",
+      "stars": 1171,
+      "forks_count": 58,
+      "open_issues_count": 8,
+      "language": "Kotlin",
+      "gem_score": 22.77,
+      "momentum_trend": 0.55,
+      "recent_commits": 14,
+      "merged_prs_count": 50,
+      "topics": [
+        "android",
+        "compose-desktop",
+        "compose-multiplatform"
+      ],
+      "activity": [
+        60,
+        4,
+        12,
+        14
+      ],
+      "good_first_issues_url": "https://github.com/composablehorizons/compose-unstyled/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:57:32Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "2.6.0",
+        "published_at": "2026-06-11T09:15:32Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "compose-hot-reload",
+      "full_name": "JetBrains/compose-hot-reload",
+      "description": "Compose Hot Reload: Make changes to your UI code in a Compose Multiplatform application, and see the results in real time. No restarts required. Compose Hot Reload runs your application on the JetBrains Runtime and intelligently reloads your code whenever it is changed.",
+      "url": "https://github.com/JetBrains/compose-hot-reload",
+      "stars": 1391,
+      "forks_count": 43,
+      "open_issues_count": 0,
+      "language": "Kotlin",
+      "gem_score": 22.77,
+      "momentum_trend": 1.14,
+      "recent_commits": 14,
+      "merged_prs_count": 22,
+      "topics": [
+        "compose",
+        "compose-desktop",
+        "compose-multiplatform"
+      ],
+      "activity": [
+        8,
+        7,
+        22,
+        14
+      ],
+      "good_first_issues_url": "https://github.com/JetBrains/compose-hot-reload/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:44:14Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v1.2.0-alpha02",
+        "published_at": "2026-06-11T10:53:35Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true
+    },
+    {
+      "name": "amethyst",
+      "full_name": "vitorpamplona/amethyst",
+      "description": "Nostr client for Android",
+      "url": "https://github.com/vitorpamplona/amethyst",
+      "stars": 1546,
+      "forks_count": 206,
+      "open_issues_count": 226,
+      "language": "Kotlin",
+      "gem_score": 22.66,
+      "momentum_trend": 1.05,
+      "recent_commits": 334,
+      "merged_prs_count": 50,
+      "topics": [
+        "android",
+        "kotlin",
+        "nostr"
+      ],
+      "activity": [
+        306,
+        441,
+        206,
+        334
+      ],
+      "good_first_issues_url": "https://github.com/vitorpamplona/amethyst/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:43:32Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.11.0",
+        "published_at": "2026-05-20T23:06:41Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "Flow",
       "full_name": "A-EDev/Flow",
       "description": "A modern, feature-rich YouTube client for Android built with Jetpack Compose",
       "url": "https://github.com/A-EDev/Flow",
-      "stars": 1186,
+      "stars": 1193,
       "forks_count": 31,
-      "open_issues_count": 66,
+      "open_issues_count": 71,
       "language": "Kotlin",
-      "gem_score": 21.55,
-      "momentum_trend": 0.17,
-      "recent_commits": 12,
+      "gem_score": 22.58,
+      "momentum_trend": 0.24,
+      "recent_commits": 16,
       "merged_prs_count": 1,
       "topics": [
         "android",
@@ -613,14 +1248,14 @@
         "kotlin"
       ],
       "activity": [
-        48,
-        97,
-        68,
-        12
+        49,
+        105,
+        49,
+        16
       ],
       "good_first_issues_url": "https://github.com/A-EDev/Flow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:32:17Z",
+      "pushed_at": "2026-06-13T18:18:21Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": {
@@ -633,37 +1268,116 @@
       "is_verified": false
     },
     {
-      "name": "tachiyomi-extensions",
-      "full_name": "yuzono/tachiyomi-extensions",
-      "description": "Source code of extensions for Komikku / Mihon & forks.",
-      "url": "https://github.com/yuzono/tachiyomi-extensions",
-      "stars": 703,
-      "forks_count": 63,
-      "open_issues_count": 0,
+      "name": "android",
+      "full_name": "swingmx/android",
+      "description": "Swing Music Android Client",
+      "url": "https://github.com/swingmx/android",
+      "stars": 157,
+      "forks_count": 16,
+      "open_issues_count": 16,
       "language": "Kotlin",
-      "gem_score": 21.3,
-      "momentum_trend": 1.39,
-      "recent_commits": 99,
-      "merged_prs_count": 4,
+      "gem_score": 22.07,
+      "momentum_trend": 1,
+      "recent_commits": 19,
+      "merged_prs_count": 6,
       "topics": [
-        "extension",
-        "komikku",
-        "manga"
+        "kotlin",
+        "musicplayer",
+        "swingmusic"
       ],
       "activity": [
-        70,
-        49,
-        95,
-        99
+        0,
+        0,
+        0,
+        19
       ],
-      "good_first_issues_url": "https://github.com/yuzono/tachiyomi-extensions/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/swingmx/android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:11:40Z",
+      "pushed_at": "2026-06-13T17:26:33Z",
       "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": null,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v1.0.1",
+        "published_at": "2025-12-13T21:57:03Z"
+      },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "CleverKeys",
+      "full_name": "tribixbite/CleverKeys",
+      "description": "Privacy-first neural Android keyboard with advanced swipe prediction",
+      "url": "https://github.com/tribixbite/CleverKeys",
+      "stars": 370,
+      "forks_count": 32,
+      "open_issues_count": 50,
+      "language": "Kotlin",
+      "gem_score": 21.28,
+      "momentum_trend": 2.9,
+      "recent_commits": 29,
+      "merged_prs_count": 0,
+      "topics": [
+        "android-app",
+        "android-keyboard",
+        "apk"
+      ],
+      "activity": [
+        19,
+        0,
+        11,
+        29
+      ],
+      "good_first_issues_url": "https://github.com/tribixbite/CleverKeys/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T00:37:09Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v1.4.0",
+        "published_at": "2026-04-26T04:22:55Z"
+      },
+      "featured": false,
+      "maintenance_score": 189,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Felicity",
+      "full_name": "Hamza417/Felicity",
+      "description": "Premium audiophile grade offline music player with native DSP, Visualizer, 10-Band Equalizer, Parametric Equalizer with PreAmp and Milkdrop support, currently in initial alpha testing.",
+      "url": "https://github.com/Hamza417/Felicity",
+      "stars": 151,
+      "forks_count": 16,
+      "open_issues_count": 12,
+      "language": "Kotlin",
+      "gem_score": 21.2,
+      "momentum_trend": 0.25,
+      "recent_commits": 17,
+      "merged_prs_count": 15,
+      "topics": [
+        "android",
+        "android-app",
+        "kotlin"
+      ],
+      "activity": [
+        8,
+        164,
+        34,
+        17
+      ],
+      "good_first_issues_url": "https://github.com/Hamza417/Felicity/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:00:38Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "0.0.23_alpha",
+        "published_at": "2026-06-12T14:43:36Z"
+      },
+      "featured": false,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false
     },
@@ -674,11 +1388,11 @@
       "url": "https://github.com/tardy-org/tardy",
       "stars": 283,
       "forks_count": 21,
-      "open_issues_count": 8,
+      "open_issues_count": 10,
       "language": "Zig",
-      "gem_score": 20.56,
-      "momentum_trend": 2.45,
-      "recent_commits": 9,
+      "gem_score": 21.13,
+      "momentum_trend": 2.75,
+      "recent_commits": 11,
       "merged_prs_count": 1,
       "topics": [
         "async",
@@ -686,37 +1400,37 @@
         "runtime"
       ],
       "activity": [
-        4,
-        3,
-        4,
-        9
+        7,
+        0,
+        5,
+        11
       ],
       "good_first_issues_url": "https://github.com/tardy-org/tardy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T13:34:10Z",
+      "pushed_at": "2026-06-13T17:20:26Z",
       "is_hype": false,
       "license": "MPL-2.0",
       "latest_release": {
-        "tag": "v0.3.1",
-        "published_at": "2026-04-16T13:56:39Z"
+        "tag": "v0.3.2",
+        "published_at": "2026-06-13T17:28:57Z"
       },
       "featured": false,
       "maintenance_score": 5,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "Trail-Sense",
       "full_name": "kylecorry31/Trail-Sense",
       "description": "An Android app that uses your phone's sensors to assist with wilderness treks or survival situations.",
       "url": "https://github.com/kylecorry31/Trail-Sense",
-      "stars": 2667,
+      "stars": 2668,
       "forks_count": 153,
       "open_issues_count": 281,
       "language": "Kotlin",
-      "gem_score": 20.44,
-      "momentum_trend": 0.49,
-      "recent_commits": 20,
+      "gem_score": 20.47,
+      "momentum_trend": 0.55,
+      "recent_commits": 22,
       "merged_prs_count": 50,
       "topics": [
         "android",
@@ -724,14 +1438,14 @@
         "altimeter"
       ],
       "activity": [
-        27,
-        54,
-        42,
-        20
+        32,
+        55,
+        34,
+        22
       ],
       "good_first_issues_url": "https://github.com/kylecorry31/Trail-Sense/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:47:04Z",
+      "pushed_at": "2026-06-13T17:43:31Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -748,13 +1462,13 @@
       "full_name": "addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "url": "https://github.com/addyosmani/agent-skills",
-      "stars": 57733,
-      "forks_count": 6238,
-      "open_issues_count": 56,
+      "stars": 58541,
+      "forks_count": 6325,
+      "open_issues_count": 57,
       "language": "Shell",
-      "gem_score": 20.06,
-      "momentum_trend": 4.6,
-      "recent_commits": 23,
+      "gem_score": 19.82,
+      "momentum_trend": 3.94,
+      "recent_commits": 21,
       "merged_prs_count": 13,
       "topics": [
         "agent-skills",
@@ -762,10 +1476,10 @@
         "antigravity-ide"
       ],
       "activity": [
-        7,
+        6,
         3,
-        5,
-        23
+        7,
+        21
       ],
       "good_first_issues_url": "https://github.com/addyosmani/agent-skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -777,45 +1491,83 @@
         "published_at": "2026-06-11T01:41:28Z"
       },
       "featured": true,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
+      "bundle_size": null,
+      "is_verified": true
+    },
+    {
+      "name": "BiBi-Keyboard",
+      "full_name": "BryceWG/BiBi-Keyboard",
+      "description": "说点啥（BiBi Keyboard）:一个基于 Kotlin 的 Android 平台的 LLM 与 ASR 语音输入法键盘应用  An LLM ASR voice input method keyboard application for the Android platform based on Kotlin",
+      "url": "https://github.com/BryceWG/BiBi-Keyboard",
+      "stars": 668,
+      "forks_count": 50,
+      "open_issues_count": 11,
+      "language": "Kotlin",
+      "gem_score": 19.53,
+      "momentum_trend": 0.73,
+      "recent_commits": 12,
+      "merged_prs_count": 1,
+      "topics": [
+        "android-app",
+        "asr",
+        "doubao"
+      ],
+      "activity": [
+        10,
+        0,
+        39,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/BryceWG/BiBi-Keyboard/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T03:30:22Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v4.0.0",
+        "published_at": "2026-06-07T07:19:09Z"
+      },
+      "featured": false,
+      "maintenance_score": 10,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "miuix",
-      "full_name": "compose-miuix-ui/miuix",
-      "description": "A UI library for Compose Multiplatform.",
-      "url": "https://github.com/compose-miuix-ui/miuix",
-      "stars": 825,
-      "forks_count": 69,
-      "open_issues_count": 2,
+      "name": "KSafe",
+      "full_name": "ioannisa/KSafe",
+      "description": "A library for saving key/value pair data for Kotlin Multiplatform and Android. Encryption enabled by default, with option for Plain (unencrypted) storage. Supports Property Delegates, Flow/StateFlow, with Jetpack Compose and biometrics integration using hardware-backed encryption.",
+      "url": "https://github.com/ioannisa/KSafe",
+      "stars": 297,
+      "forks_count": 16,
+      "open_issues_count": 0,
       "language": "Kotlin",
-      "gem_score": 19.46,
-      "momentum_trend": 0.85,
-      "recent_commits": 11,
-      "merged_prs_count": 14,
+      "gem_score": 19.4,
+      "momentum_trend": 2.52,
+      "recent_commits": 52,
+      "merged_prs_count": 0,
       "topics": [
-        "miuix",
-        "compose-multiplatform",
-        "compose-multiplatform-library"
+        "kotlin",
+        "android-keystore",
+        "datastore-preferences"
       ],
       "activity": [
-        6,
-        17,
-        16,
-        11
+        25,
+        28,
+        9,
+        52
       ],
-      "good_first_issues_url": "https://github.com/compose-miuix-ui/miuix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/ioannisa/KSafe/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:13:40Z",
-      "is_hype": false,
+      "pushed_at": "2026-06-13T19:20:08Z",
+      "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.9.2",
-        "published_at": "2026-06-05T11:13:48Z"
+        "tag": "2.1.2",
+        "published_at": "2026-06-13T13:41:18Z"
       },
       "featured": false,
-      "maintenance_score": 9,
+      "maintenance_score": 46,
       "bundle_size": null,
       "is_verified": false
     },
@@ -824,12 +1576,12 @@
       "full_name": "neurosnap/zmx",
       "description": "Session attach/detach for the terminal",
       "url": "https://github.com/neurosnap/zmx",
-      "stars": 1593,
+      "stars": 1597,
       "forks_count": 90,
       "open_issues_count": 16,
       "language": "Zig",
-      "gem_score": 19.42,
-      "momentum_trend": 1.65,
+      "gem_score": 19.39,
+      "momentum_trend": 8.25,
       "recent_commits": 11,
       "merged_prs_count": 2,
       "topics": [
@@ -838,7 +1590,7 @@
         "zig"
       ],
       "activity": [
-        19,
+        3,
         0,
         1,
         11
@@ -858,44 +1610,6 @@
       "is_verified": false
     },
     {
-      "name": "KSafe",
-      "full_name": "ioannisa/KSafe",
-      "description": "A library for saving key/value pair data for Kotlin Multiplatform and Android. Encryption enabled by default, with option for Plain (unencrypted) storage. Supports Property Delegates, Flow/StateFlow, with Jetpack Compose and biometrics integration using hardware-backed encryption.",
-      "url": "https://github.com/ioannisa/KSafe",
-      "stars": 297,
-      "forks_count": 16,
-      "open_issues_count": 0,
-      "language": "Kotlin",
-      "gem_score": 19.34,
-      "momentum_trend": 2.47,
-      "recent_commits": 51,
-      "merged_prs_count": 0,
-      "topics": [
-        "kotlin",
-        "android-keystore",
-        "datastore-preferences"
-      ],
-      "activity": [
-        25,
-        28,
-        9,
-        51
-      ],
-      "good_first_issues_url": "https://github.com/ioannisa/KSafe/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:44:58Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "2.1.2",
-        "published_at": "2026-06-13T13:41:18Z"
-      },
-      "featured": false,
-      "maintenance_score": 45,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "zignal",
       "full_name": "arrufat/zignal",
       "description": "zero-dependency image processing library",
@@ -904,17 +1618,17 @@
       "forks_count": 12,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 19.25,
-      "momentum_trend": 0.64,
+      "gem_score": 18.99,
+      "momentum_trend": 0.86,
       "recent_commits": 10,
-      "merged_prs_count": 15,
+      "merged_prs_count": 14,
       "topics": [
         "image-processing",
         "zig",
         "webassembly"
       ],
       "activity": [
-        44,
+        32,
         0,
         3,
         10
@@ -929,7 +1643,42 @@
         "published_at": "2026-04-15T06:25:35Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "tv-maniac",
+      "full_name": "thomaskioko/tv-maniac",
+      "description": "Tv-Maniac is a personalized entertainment tracking and recommendation Multiplatform app (Android & iOS) for tracking TV Shows using TMDB API.",
+      "url": "https://github.com/thomaskioko/tv-maniac",
+      "stars": 358,
+      "forks_count": 39,
+      "open_issues_count": 2,
+      "language": "Kotlin",
+      "gem_score": 18.87,
+      "momentum_trend": 1.42,
+      "recent_commits": 26,
+      "merged_prs_count": 50,
+      "topics": [
+        "kotlin-multiplatform",
+        "jetpack-compose",
+        "android"
+      ],
+      "activity": [
+        19,
+        24,
+        12,
+        26
+      ],
+      "good_first_issues_url": "https://github.com/thomaskioko/tv-maniac/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T20:08:35Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -938,12 +1687,12 @@
       "full_name": "neurocyte/flow",
       "description": "Flow Control: a programmer's text editor",
       "url": "https://github.com/neurocyte/flow",
-      "stars": 2041,
+      "stars": 2043,
       "forks_count": 105,
       "open_issues_count": 70,
       "language": "Zig",
-      "gem_score": 18.79,
-      "momentum_trend": 1.09,
+      "gem_score": 18.78,
+      "momentum_trend": 1.1,
       "recent_commits": 42,
       "merged_prs_count": 5,
       "topics": [
@@ -952,7 +1701,7 @@
         "text-editor"
       ],
       "activity": [
-        36,
+        35,
         38,
         42,
         42
@@ -976,20 +1725,20 @@
       "full_name": "andrewyng/aisuite",
       "description": "Simple, unified interface to multiple Generative AI providers ",
       "url": "https://github.com/andrewyng/aisuite",
-      "stars": 13999,
-      "forks_count": 1483,
+      "stars": 14148,
+      "forks_count": 1489,
       "open_issues_count": 65,
       "language": "Python",
-      "gem_score": 17.75,
-      "momentum_trend": 67,
-      "recent_commits": 67,
+      "gem_score": 17.7,
+      "momentum_trend": 49.5,
+      "recent_commits": 66,
       "merged_prs_count": 25,
       "topics": [],
       "activity": [
         0,
-        0,
+        1,
         3,
-        67
+        66
       ],
       "good_first_issues_url": "https://github.com/andrewyng/aisuite/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1001,7 +1750,7 @@
         "published_at": "2026-06-11T22:46:31Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1010,11 +1759,11 @@
       "full_name": "kristoff-it/superhtml",
       "description": "HTML Validator, Formatter, LSP, and Templating Language Library",
       "url": "https://github.com/kristoff-it/superhtml",
-      "stars": 1303,
+      "stars": 1304,
       "forks_count": 64,
       "open_issues_count": 28,
       "language": "Zig",
-      "gem_score": 17.65,
+      "gem_score": 17.64,
       "momentum_trend": 51,
       "recent_commits": 17,
       "merged_prs_count": 10,
@@ -1039,114 +1788,42 @@
         "published_at": "2026-06-09T15:45:45Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "lambda",
-      "full_name": "lambda-client/lambda",
-      "description": "The ultimate open-source Fabric utility mod written in Kotlin",
-      "url": "https://github.com/lambda-client/lambda",
-      "stars": 155,
-      "forks_count": 32,
-      "open_issues_count": 21,
-      "language": "Kotlin",
-      "gem_score": 17.59,
-      "momentum_trend": 4.5,
-      "recent_commits": 9,
-      "merged_prs_count": 4,
-      "topics": [],
-      "activity": [
-        1,
-        4,
-        1,
-        9
-      ],
-      "good_first_issues_url": "https://github.com/lambda-client/lambda/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:12:01Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "0.1.0+1.21.11",
-        "published_at": "2026-03-11T23:06:05Z"
-      },
-      "featured": false,
-      "maintenance_score": 1,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Meshtastic-Android",
-      "full_name": "meshtastic/Meshtastic-Android",
-      "description": "Android application for Meshtastic",
-      "url": "https://github.com/meshtastic/Meshtastic-Android",
-      "stars": 1676,
-      "forks_count": 465,
-      "open_issues_count": 33,
-      "language": "Kotlin",
-      "gem_score": 17.36,
-      "momentum_trend": 0.37,
-      "recent_commits": 30,
-      "merged_prs_count": 50,
+      "name": "zzz",
+      "full_name": "tardy-org/zzz",
+      "description": "A framework for writing performant and reliable networked services.",
+      "url": "https://github.com/tardy-org/zzz",
+      "stars": 741,
+      "forks_count": 37,
+      "open_issues_count": 12,
+      "language": "Zig",
+      "gem_score": 16.62,
+      "momentum_trend": 1,
+      "recent_commits": 10,
+      "merged_prs_count": 2,
       "topics": [
-        "gps",
-        "lora",
-        "android"
+        "http",
+        "https",
+        "tls"
       ],
       "activity": [
-        105,
-        77,
-        62,
-        30
+        0,
+        0,
+        0,
+        10
       ],
-      "good_first_issues_url": "https://github.com/meshtastic/Meshtastic-Android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:35:14Z",
+      "good_first_issues_url": "https://github.com/tardy-org/zzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-13T17:19:04Z",
       "is_hype": false,
-      "license": "GPL-3.0",
+      "license": "MPL-2.0",
       "latest_release": {
-        "tag": "v2.7.14",
-        "published_at": "2026-06-03T21:13:21Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Rush",
-      "full_name": "shub39/Rush",
-      "description": "✨ App to search, save and share lyrics like spotify! ",
-      "url": "https://github.com/shub39/Rush",
-      "stars": 954,
-      "forks_count": 53,
-      "open_issues_count": 0,
-      "language": "Kotlin",
-      "gem_score": 17.26,
-      "momentum_trend": 0.42,
-      "recent_commits": 12,
-      "merged_prs_count": 15,
-      "topics": [
-        "genius-api",
-        "lyrics-fetcher",
-        "kotlin-android"
-      ],
-      "activity": [
-        30,
-        17,
-        39,
-        12
-      ],
-      "good_first_issues_url": "https://github.com/shub39/Rush/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:19:03Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "6.4.0",
-        "published_at": "2026-06-13T11:19:03Z"
+        "tag": "v0.3.2",
+        "published_at": "2026-06-13T17:32:51Z"
       },
       "featured": false,
       "maintenance_score": 0,
@@ -1154,78 +1831,76 @@
       "is_verified": true
     },
     {
-      "name": "KMPNotifier",
-      "full_name": "mirzemehdi/KMPNotifier",
-      "description": "Kotlin Multiplatform  Push Notification Library targetting android, iOS, Desktop and Web (JS and Wasm)",
-      "url": "https://github.com/mirzemehdi/KMPNotifier",
-      "stars": 633,
-      "forks_count": 45,
-      "open_issues_count": 27,
+      "name": "AquaDX",
+      "full_name": "MewoLab/AquaDX",
+      "description": "A magical server for certain arcade rhythm games 🪄",
+      "url": "https://github.com/MewoLab/AquaDX",
+      "stars": 542,
+      "forks_count": 122,
+      "open_issues_count": 7,
       "language": "Kotlin",
-      "gem_score": 16.96,
-      "momentum_trend": 1,
-      "recent_commits": 24,
-      "merged_prs_count": 9,
+      "gem_score": 16.57,
+      "momentum_trend": 3.86,
+      "recent_commits": 18,
+      "merged_prs_count": 8,
       "topics": [
-        "android",
-        "firebase-push-notification",
-        "ios"
+        "arcade",
+        "rhythm-game"
       ],
       "activity": [
-        0,
-        0,
-        0,
-        24
+        2,
+        2,
+        10,
+        18
       ],
-      "good_first_issues_url": "https://github.com/mirzemehdi/KMPNotifier/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/MewoLab/AquaDX/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:48:45Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
+      "pushed_at": "2026-06-14T03:44:07Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
       "latest_release": {
-        "tag": "v2.0.0-RC",
-        "published_at": "2026-06-13T10:33:32Z"
+        "tag": "0.0.47",
+        "published_at": "2024-02-12T08:04:04Z"
       },
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
-      "name": "CloudGallery",
-      "full_name": "AKS-Labs/CloudGallery",
-      "description": "CloudGallery is an Android app that lets you instantly back up all your images to Telegram using Bot API — simple, Secure, and infinite.",
-      "url": "https://github.com/AKS-Labs/CloudGallery",
-      "stars": 405,
-      "forks_count": 45,
-      "open_issues_count": 11,
+      "name": "easy-api",
+      "full_name": "tangcent/easy-api",
+      "description": "IntelliJ plugin that generates API documentation and runnable requests from Java/Kotlin code, with export to Postman, Markdown,   cURL, and HTTP Client.",
+      "url": "https://github.com/tangcent/easy-api",
+      "stars": 228,
+      "forks_count": 35,
+      "open_issues_count": 0,
       "language": "Kotlin",
-      "gem_score": 16.4,
-      "momentum_trend": 0.86,
-      "recent_commits": 6,
-      "merged_prs_count": 1,
+      "gem_score": 16.37,
+      "momentum_trend": 3,
+      "recent_commits": 16,
+      "merged_prs_count": 11,
       "topics": [
-        "android",
-        "cloud-storage",
-        "foss"
+        "idea-plugin",
+        "postman"
       ],
       "activity": [
+        5,
         0,
-        2,
-        19,
-        6
+        11,
+        16
       ],
-      "good_first_issues_url": "https://github.com/AKS-Labs/CloudGallery/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/tangcent/easy-api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:45:05Z",
+      "pushed_at": "2026-06-14T00:27:42Z",
       "is_hype": false,
-      "license": "GPL-3.0",
+      "license": "AGPL-3.0",
       "latest_release": {
-        "tag": "v0.7",
-        "published_at": "2026-06-13T12:22:37Z"
+        "tag": "v3.1.2",
+        "published_at": "2026-06-07T22:35:12Z"
       },
       "featured": false,
-      "maintenance_score": 13,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1238,7 +1913,7 @@
       "forks_count": 8,
       "open_issues_count": 0,
       "language": "Zig",
-      "gem_score": 16.36,
+      "gem_score": 16.35,
       "momentum_trend": 0.43,
       "recent_commits": 1,
       "merged_prs_count": 5,
@@ -1260,7 +1935,41 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "dvui",
+      "full_name": "david-vanderson/dvui",
+      "description": "Immediate Zig GUI for Apps and Games",
+      "url": "https://github.com/david-vanderson/dvui",
+      "stars": 1498,
+      "forks_count": 129,
+      "open_issues_count": 79,
+      "language": "Zig",
+      "gem_score": 16,
+      "momentum_trend": 0.51,
+      "recent_commits": 19,
+      "merged_prs_count": 20,
+      "topics": [],
+      "activity": [
+        59,
+        29,
+        24,
+        19
+      ],
+      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-13T19:27:06Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-04-16T18:05:34Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1269,13 +1978,13 @@
       "full_name": "bitfireAT/davx5-ose",
       "description": "DAVx⁵ is an open-source CalDAV/CardDAV suite and sync app for Android. You can also access your online files (WebDAV) with it.",
       "url": "https://github.com/bitfireAT/davx5-ose",
-      "stars": 2658,
+      "stars": 2659,
       "forks_count": 126,
       "open_issues_count": 85,
       "language": "Kotlin",
-      "gem_score": 16,
+      "gem_score": 15.97,
       "momentum_trend": 1.5,
-      "recent_commits": 49,
+      "recent_commits": 48,
       "merged_prs_count": 50,
       "topics": [
         "caldav",
@@ -1283,14 +1992,14 @@
         "webdav"
       ],
       "activity": [
-        29,
+        26,
         32,
-        37,
-        49
+        38,
+        48
       ],
       "good_first_issues_url": "https://github.com/bitfireAT/davx5-ose/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:12:55Z",
+      "pushed_at": "2026-06-13T19:09:37Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": {
@@ -1300,31 +2009,31 @@
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "server",
       "full_name": "music-assistant/server",
       "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
       "url": "https://github.com/music-assistant/server",
-      "stars": 1920,
-      "forks_count": 426,
+      "stars": 2022,
+      "forks_count": 430,
       "open_issues_count": 0,
       "language": "Python",
-      "gem_score": 15.94,
-      "momentum_trend": 1.16,
-      "recent_commits": 79,
+      "gem_score": 15.91,
+      "momentum_trend": 1.24,
+      "recent_commits": 84,
       "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        61,
-        76,
+        62,
+        74,
         68,
-        79
+        84
       ],
       "good_first_issues_url": "https://github.com/music-assistant/server/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:38:06Z",
+      "pushed_at": "2026-06-13T23:37:19Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -1332,43 +2041,47 @@
         "published_at": "2026-06-10T19:22:13Z"
       },
       "featured": false,
-      "maintenance_score": 68,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true
     },
     {
-      "name": "dvui",
-      "full_name": "david-vanderson/dvui",
-      "description": "Immediate Zig GUI for Apps and Games",
-      "url": "https://github.com/david-vanderson/dvui",
-      "stars": 1496,
-      "forks_count": 129,
-      "open_issues_count": 79,
-      "language": "Zig",
-      "gem_score": 15.56,
-      "momentum_trend": 0.33,
-      "recent_commits": 13,
-      "merged_prs_count": 21,
-      "topics": [],
-      "activity": [
-        64,
-        30,
-        25,
-        13
+      "name": "github-workflows-kt",
+      "full_name": "typesafegithub/github-workflows-kt",
+      "description": "Authoring GitHub Actions workflows in Kotlin. You won't go back to YAML!",
+      "url": "https://github.com/typesafegithub/github-workflows-kt",
+      "stars": 654,
+      "forks_count": 28,
+      "open_issues_count": 24,
+      "language": "Kotlin",
+      "gem_score": 15.52,
+      "momentum_trend": 5.1,
+      "recent_commits": 17,
+      "merged_prs_count": 28,
+      "topics": [
+        "kotlin",
+        "github-actions",
+        "dsl"
       ],
-      "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-12T16:21:51Z",
+      "activity": [
+        2,
+        4,
+        4,
+        17
+      ],
+      "good_first_issues_url": "https://github.com/typesafegithub/github-workflows-kt/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:24:51Z",
       "is_hype": false,
-      "license": "NOASSERTION",
+      "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.4.0",
-        "published_at": "2026-04-16T18:05:34Z"
+        "tag": "v3.7.0",
+        "published_at": "2025-12-17T11:07:10Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false
+      "is_verified": true
     },
     {
       "name": "zine",
@@ -1379,7 +2092,7 @@
       "forks_count": 98,
       "open_issues_count": 37,
       "language": "Zig",
-      "gem_score": 15.39,
+      "gem_score": 15.38,
       "momentum_trend": 1,
       "recent_commits": 10,
       "merged_prs_count": 4,
@@ -1404,42 +2117,38 @@
         "published_at": "2025-11-21T14:05:48Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "zeit",
-      "full_name": "rockorager/zeit",
-      "description": "a date and time library written in zig. Timezone, DST, and leap second aware",
-      "url": "https://github.com/rockorager/zeit",
-      "stars": 219,
-      "forks_count": 32,
-      "open_issues_count": 4,
-      "language": "Zig",
-      "gem_score": 15.19,
-      "momentum_trend": 4.5,
-      "recent_commits": 6,
-      "merged_prs_count": 4,
-      "topics": [
-        "date",
-        "datetime",
-        "library"
-      ],
+      "name": "MSD",
+      "full_name": "chenxiaolong/MSD",
+      "description": "Android app for emulating mass storage devices over USB",
+      "url": "https://github.com/chenxiaolong/MSD",
+      "stars": 251,
+      "forks_count": 12,
+      "open_issues_count": 9,
+      "language": "Kotlin",
+      "gem_score": 15.23,
+      "momentum_trend": 0.82,
+      "recent_commits": 3,
+      "merged_prs_count": 5,
+      "topics": [],
       "activity": [
-        3,
         0,
-        1,
-        6
+        9,
+        2,
+        3
       ],
-      "good_first_issues_url": "https://github.com/rockorager/zeit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/chenxiaolong/MSD/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:54:11Z",
-      "is_hype": false,
-      "license": "MIT",
+      "pushed_at": "2026-06-13T22:56:57Z",
+      "is_hype": true,
+      "license": "GPL-3.0",
       "latest_release": {
-        "tag": "v0.8.0",
-        "published_at": "2026-04-16T13:02:03Z"
+        "tag": "v2.1",
+        "published_at": "2026-06-13T22:57:29Z"
       },
       "featured": false,
       "maintenance_score": 0,
@@ -1447,37 +2156,37 @@
       "is_verified": false
     },
     {
-      "name": "kuvasz",
-      "full_name": "kuvasz-uptime/kuvasz",
-      "description": "Kuvasz (pronounce as [ˈkuvɒs]) is an open-source uptime and SSL monitoring service, with multiple notification channels, status pages, IAC support via YAML, Prometheus integration, a complete REST API and many more!",
-      "url": "https://github.com/kuvasz-uptime/kuvasz",
-      "stars": 529,
-      "forks_count": 32,
-      "open_issues_count": 10,
+      "name": "lazurite",
+      "full_name": "k1ngmang/lazurite",
+      "description": "simple functional programming language",
+      "url": "https://github.com/k1ngmang/lazurite",
+      "stars": 163,
+      "forks_count": 14,
+      "open_issues_count": 0,
       "language": "Kotlin",
-      "gem_score": 15.05,
-      "momentum_trend": 0.92,
+      "gem_score": 14.84,
+      "momentum_trend": 1.2,
       "recent_commits": 4,
-      "merged_prs_count": 13,
+      "merged_prs_count": 7,
       "topics": [
-        "monitoring",
-        "cloud-native",
-        "ssl-monitor"
+        "language",
+        "programming-language",
+        "java"
       ],
       "activity": [
-        4,
-        4,
-        5,
+        0,
+        7,
+        3,
         4
       ],
-      "good_first_issues_url": "https://github.com/kuvasz-uptime/kuvasz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T10:53:57Z",
+      "good_first_issues_url": "https://github.com/k1ngmang/lazurite/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T17:42:58Z",
       "is_hype": false,
-      "license": "AGPL-3.0",
+      "license": "MIT",
       "latest_release": {
-        "tag": "3.11.0",
-        "published_at": "2026-05-30T14:26:44Z"
+        "tag": "lazurite-1.0",
+        "published_at": "2024-08-25T12:36:04Z"
       },
       "featured": false,
       "maintenance_score": 0,
@@ -1485,127 +2194,17 @@
       "is_verified": true
     },
     {
-      "name": "and-bible",
-      "full_name": "AndBible/and-bible",
-      "description": "AndBible: Bible Study",
-      "url": "https://github.com/AndBible/and-bible",
-      "stars": 759,
-      "forks_count": 226,
-      "open_issues_count": 1013,
-      "language": "Kotlin",
-      "gem_score": 14.51,
-      "momentum_trend": 0.63,
-      "recent_commits": 16,
-      "merged_prs_count": 0,
-      "topics": [
-        "bible",
-        "java",
-        "android"
-      ],
-      "activity": [
-        29,
-        26,
-        21,
-        16
-      ],
-      "good_first_issues_url": "https://github.com/AndBible/and-bible/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:56:04Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "production-1098",
-        "published_at": "2026-05-29T15:42:41Z"
-      },
-      "featured": false,
-      "maintenance_score": 39,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Muzza",
-      "full_name": "Maloy-Android/Muzza",
-      "description": "A Material 3 YouTube Music client for Android",
-      "url": "https://github.com/Maloy-Android/Muzza",
-      "stars": 648,
-      "forks_count": 22,
-      "open_issues_count": 49,
-      "language": "Kotlin",
-      "gem_score": 14.46,
-      "momentum_trend": 2.09,
-      "recent_commits": 30,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        9,
-        6,
-        28,
-        30
-      ],
-      "good_first_issues_url": "https://github.com/Maloy-Android/Muzza/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:35:15Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v.0.7.5",
-        "published_at": "2026-05-10T07:58:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 6,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "anytype-kotlin",
-      "full_name": "anyproto/anytype-kotlin",
-      "description": "Official Anytype client for Android",
-      "url": "https://github.com/anyproto/anytype-kotlin",
-      "stars": 907,
-      "forks_count": 87,
-      "open_issues_count": 71,
-      "language": "Kotlin",
-      "gem_score": 14.3,
-      "momentum_trend": 1,
-      "recent_commits": 5,
-      "merged_prs_count": 17,
-      "topics": [
-        "e2ee",
-        "local-first",
-        "offline-first"
-      ],
-      "activity": [
-        5,
-        8,
-        2,
-        5
-      ],
-      "good_first_issues_url": "https://github.com/anyproto/anytype-kotlin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:07:30Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "0.47.3",
-        "published_at": "2026-06-10T10:37:17Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "chatwoot",
       "full_name": "chatwoot/chatwoot",
       "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
       "url": "https://github.com/chatwoot/chatwoot",
-      "stars": 30684,
-      "forks_count": 7541,
-      "open_issues_count": 905,
+      "stars": 30904,
+      "forks_count": 7555,
+      "open_issues_count": 904,
       "language": "Ruby",
-      "gem_score": 14.19,
-      "momentum_trend": 1.04,
-      "recent_commits": 32,
+      "gem_score": 14.29,
+      "momentum_trend": 1.21,
+      "recent_commits": 37,
       "merged_prs_count": 50,
       "topics": [
         "vuejs",
@@ -1616,11 +2215,11 @@
         34,
         21,
         37,
-        32
+        37
       ],
       "good_first_issues_url": "https://github.com/chatwoot/chatwoot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T13:14:19Z",
+      "pushed_at": "2026-06-14T03:27:39Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -1628,7 +2227,121 @@
         "published_at": "2026-06-10T17:37:23Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "LiquidBounce",
+      "full_name": "CCBlueX/LiquidBounce",
+      "description": "A free Minecraft hacked client (utility mod) for Fabric",
+      "url": "https://github.com/CCBlueX/LiquidBounce",
+      "stars": 2198,
+      "forks_count": 657,
+      "open_issues_count": 145,
+      "language": "Kotlin",
+      "gem_score": 14.27,
+      "momentum_trend": 0.79,
+      "recent_commits": 11,
+      "merged_prs_count": 50,
+      "topics": [
+        "liquidbounce",
+        "minecraft",
+        "hacked-client"
+      ],
+      "activity": [
+        13,
+        10,
+        19,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/CCBlueX/LiquidBounce/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T17:09:30Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.38.0",
+        "published_at": "2026-05-19T16:01:15Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "jellyfin-android",
+      "full_name": "jellyfin/jellyfin-android",
+      "description": "Android Client for Jellyfin",
+      "url": "https://github.com/jellyfin/jellyfin-android",
+      "stars": 2552,
+      "forks_count": 462,
+      "open_issues_count": 190,
+      "language": "Kotlin",
+      "gem_score": 14.18,
+      "momentum_trend": 1.81,
+      "recent_commits": 32,
+      "merged_prs_count": 25,
+      "topics": [
+        "jellyfin",
+        "java",
+        "kotlin"
+      ],
+      "activity": [
+        26,
+        22,
+        5,
+        32
+      ],
+      "good_first_issues_url": "https://github.com/jellyfin/jellyfin-android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T18:23:13Z",
+      "is_hype": false,
+      "license": "GPL-2.0",
+      "latest_release": {
+        "tag": "v2.6.4",
+        "published_at": "2026-04-03T17:51:40Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "local-dream",
+      "full_name": "xororz/local-dream",
+      "description": "Run Stable Diffusion on Android Devices with Snapdragon NPU acceleration. Also supports CPU/GPU inference.",
+      "url": "https://github.com/xororz/local-dream",
+      "stars": 2653,
+      "forks_count": 166,
+      "open_issues_count": 79,
+      "language": "Kotlin",
+      "gem_score": 14.15,
+      "momentum_trend": 7.8,
+      "recent_commits": 39,
+      "merged_prs_count": 1,
+      "topics": [
+        "stable-diffusion",
+        "stable-diffusion-android",
+        "img2img"
+      ],
+      "activity": [
+        6,
+        5,
+        4,
+        39
+      ],
+      "good_first_issues_url": "https://github.com/xororz/local-dream/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:24:53Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v2.6.4",
+        "published_at": "2026-06-10T12:25:34Z"
+      },
+      "featured": false,
+      "maintenance_score": 13,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1637,28 +2350,28 @@
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 1022,
+      "stars": 1024,
       "forks_count": 158,
-      "open_issues_count": 87,
+      "open_issues_count": 88,
       "language": "Odin",
-      "gem_score": 13.9,
-      "momentum_trend": 1.34,
-      "recent_commits": 17,
-      "merged_prs_count": 33,
+      "gem_score": 14.12,
+      "momentum_trend": 1.58,
+      "recent_commits": 19,
+      "merged_prs_count": 34,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        17,
+        15,
         6,
         15,
-        17
+        19
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T10:39:04Z",
+      "pushed_at": "2026-06-14T03:17:00Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -1671,18 +2384,56 @@
       "is_verified": false
     },
     {
+      "name": "TorrentSearch",
+      "full_name": "prajwalch/TorrentSearch",
+      "description": "An Android app for searching torrents across multiple providers - fast, detailed, and packed with actions.",
+      "url": "https://github.com/prajwalch/TorrentSearch",
+      "stars": 982,
+      "forks_count": 35,
+      "open_issues_count": 3,
+      "language": "Kotlin",
+      "gem_score": 13.82,
+      "momentum_trend": 0.18,
+      "recent_commits": 9,
+      "merged_prs_count": 1,
+      "topics": [
+        "aggregator",
+        "android",
+        "kotlin"
+      ],
+      "activity": [
+        50,
+        70,
+        27,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/prajwalch/TorrentSearch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:01:20Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.5.0",
+        "published_at": "2026-05-27T08:38:06Z"
+      },
+      "featured": false,
+      "maintenance_score": 11,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 226566,
-      "forks_count": 20136,
-      "open_issues_count": 122,
+      "stars": 227039,
+      "forks_count": 20195,
+      "open_issues_count": 123,
       "language": "Shell",
-      "gem_score": 13.88,
+      "gem_score": 13.72,
       "momentum_trend": 0,
       "recent_commits": 0,
-      "merged_prs_count": 19,
+      "merged_prs_count": 18,
       "topics": [],
       "activity": [
         0,
@@ -1692,7 +2443,7 @@
       ],
       "good_first_issues_url": "https://github.com/obra/superpowers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-12T16:05:34Z",
+      "pushed_at": "2026-06-13T22:17:11Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -1700,77 +2451,260 @@
         "published_at": "2026-05-04T22:13:34Z"
       },
       "featured": true,
-      "maintenance_score": 30,
+      "maintenance_score": 31,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "curbox",
-      "full_name": "nethical6/curbox",
-      "description": "Free App & Website Blocker for android",
-      "url": "https://github.com/nethical6/curbox",
-      "stars": 957,
-      "forks_count": 111,
-      "open_issues_count": 15,
+      "name": "Dictate",
+      "full_name": "DevEmperor/Dictate",
+      "description": "A powerful Whisper AI keyboard for reliable speech transcription",
+      "url": "https://github.com/DevEmperor/Dictate",
+      "stars": 215,
+      "forks_count": 56,
+      "open_issues_count": 34,
       "language": "Kotlin",
-      "gem_score": 13.74,
-      "momentum_trend": 8.5,
-      "recent_commits": 51,
-      "merged_prs_count": 1,
+      "gem_score": 13.65,
+      "momentum_trend": 1,
+      "recent_commits": 35,
+      "merged_prs_count": 0,
       "topics": [
-        "app-blocker",
-        "reels-blocker",
-        "android"
+        "android",
+        "keyboard",
+        "openai"
       ],
       "activity": [
         0,
-        1,
-        17,
-        51
+        0,
+        0,
+        35
       ],
-      "good_first_issues_url": "https://github.com/nethical6/curbox/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/DevEmperor/Dictate/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:19:21Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": null,
+      "pushed_at": "2026-06-13T19:00:36Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v3.2.0",
+        "published_at": "2025-12-30T15:51:32Z"
+      },
       "featured": false,
-      "maintenance_score": 19,
+      "maintenance_score": 641,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "baresip-studio",
-      "full_name": "juha-h/baresip-studio",
-      "description": "baresip library based SIP client for Android",
-      "url": "https://github.com/juha-h/baresip-studio",
-      "stars": 396,
-      "forks_count": 82,
-      "open_issues_count": 0,
+      "name": "Kahon",
+      "full_name": "AmanoTeam/Kahon",
+      "description": "A fork of Mihon with some annoying restrictions removed",
+      "url": "https://github.com/AmanoTeam/Kahon",
+      "stars": 255,
+      "forks_count": 0,
+      "open_issues_count": 7,
       "language": "Kotlin",
-      "gem_score": 13.72,
-      "momentum_trend": 0.71,
-      "recent_commits": 26,
-      "merged_prs_count": 12,
+      "gem_score": 13.51,
+      "momentum_trend": 4.91,
+      "recent_commits": 36,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        3,
+        5,
+        14,
+        36
+      ],
+      "good_first_issues_url": "https://github.com/AmanoTeam/Kahon/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T23:02:52Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.19.7",
+        "published_at": "2026-04-05T19:01:33Z"
+      },
+      "featured": false,
+      "maintenance_score": 402,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Feeder",
+      "full_name": "spacecowboy/Feeder",
+      "description": "Android feed reader app",
+      "url": "https://github.com/spacecowboy/Feeder",
+      "stars": 2864,
+      "forks_count": 185,
+      "open_issues_count": 210,
+      "language": "Kotlin",
+      "gem_score": 13.42,
+      "momentum_trend": 2.64,
+      "recent_commits": 22,
+      "merged_prs_count": 17,
       "topics": [
-        "baresip",
-        "sip-client",
-        "android-application"
+        "android",
+        "jetpack-compose",
+        "jsonfeed"
       ],
       "activity": [
-        54,
-        27,
-        29,
-        26
+        10,
+        13,
+        2,
+        22
       ],
-      "good_first_issues_url": "https://github.com/juha-h/baresip-studio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:49:37Z",
+      "good_first_issues_url": "https://github.com/spacecowboy/Feeder/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-13T21:18:59Z",
       "is_hype": false,
-      "license": "BSD-3-Clause",
+      "license": "GPL-3.0",
       "latest_release": {
-        "tag": "83.1.1",
-        "published_at": "2026-06-13T06:28:35Z"
+        "tag": "2.21.1",
+        "published_at": "2026-06-13T21:25:21Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "ReVanced-Patch-Bundles",
+      "full_name": "Jman-Github/ReVanced-Patch-Bundles",
+      "description": "Automatically aggregates alternative ReVanced & Morphe patch bundles into JSON files to import into the ReVanced & Morphe Managers.",
+      "url": "https://github.com/Jman-Github/ReVanced-Patch-Bundles",
+      "stars": 569,
+      "forks_count": 25,
+      "open_issues_count": 0,
+      "language": "Kotlin",
+      "gem_score": 13.36,
+      "momentum_trend": 2.03,
+      "recent_commits": 100,
+      "merged_prs_count": 0,
+      "topics": [
+        "revanced",
+        "python",
+        "koltin"
+      ],
+      "activity": [
+        39,
+        39,
+        70,
+        100
+      ],
+      "good_first_issues_url": "https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:26:55Z",
+      "is_hype": false,
+      "license": "Unlicense",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 262,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "arocc",
+      "full_name": "Vexu/arocc",
+      "description": "A modern fully featured C compiler.",
+      "url": "https://github.com/Vexu/arocc",
+      "stars": 1722,
+      "forks_count": 97,
+      "open_issues_count": 45,
+      "language": "Zig",
+      "gem_score": 13.28,
+      "momentum_trend": 0.49,
+      "recent_commits": 6,
+      "merged_prs_count": 32,
+      "topics": [
+        "c",
+        "compiler",
+        "zig"
+      ],
+      "activity": [
+        4,
+        9,
+        24,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/Vexu/arocc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-13T20:37:19Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "orika-spring-boot-starter",
+      "full_name": "akkinoc/orika-spring-boot-starter",
+      "description": "Spring Boot Starter for Orika.",
+      "url": "https://github.com/akkinoc/orika-spring-boot-starter",
+      "stars": 161,
+      "forks_count": 32,
+      "open_issues_count": 1,
+      "language": "Kotlin",
+      "gem_score": 13.12,
+      "momentum_trend": 6,
+      "recent_commits": 12,
+      "merged_prs_count": 8,
+      "topics": [
+        "spring-boot",
+        "spring-boot-starter",
+        "orika"
+      ],
+      "activity": [
+        2,
+        0,
+        4,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/akkinoc/orika-spring-boot-starter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:54:36Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v4.1.0",
+        "published_at": "2026-06-14T02:36:33Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "compose-placeholder",
+      "full_name": "eygraber/compose-placeholder",
+      "description": "A Compose Multiplatform library which provides a modifier for display 'placeholder' UI while content is loading.",
+      "url": "https://github.com/eygraber/compose-placeholder",
+      "stars": 323,
+      "forks_count": 5,
+      "open_issues_count": 2,
+      "language": "Kotlin",
+      "gem_score": 13.07,
+      "momentum_trend": 1.5,
+      "recent_commits": 2,
+      "merged_prs_count": 6,
+      "topics": [
+        "compose",
+        "compose-multiplatform",
+        "kotlin-multiplatform"
+      ],
+      "activity": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/eygraber/compose-placeholder/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T20:56:48Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "1.0.12",
+        "published_at": "2025-09-12T04:32:17Z"
       },
       "featured": false,
       "maintenance_score": 0,
@@ -1786,9 +2720,9 @@
       "forks_count": 357,
       "open_issues_count": 2,
       "language": "Mojo",
-      "gem_score": 13.69,
-      "momentum_trend": 1.03,
-      "recent_commits": 11,
+      "gem_score": 13,
+      "momentum_trend": 0.79,
+      "recent_commits": 9,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -1796,10 +2730,10 @@
         "learn-by-doing"
       ],
       "activity": [
-        11,
         12,
-        9,
-        11
+        12,
+        10,
+        9
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1808,115 +2742,7 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 59,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "FileKit",
-      "full_name": "vinceglb/FileKit",
-      "description": "Pick and save Files, Medias and Folder for Kotlin Multiplatform / KMP and Compose Multiplatform / CMP",
-      "url": "https://github.com/vinceglb/FileKit",
-      "stars": 1468,
-      "forks_count": 72,
-      "open_issues_count": 18,
-      "language": "Kotlin",
-      "gem_score": 13.46,
-      "momentum_trend": 42,
-      "recent_commits": 14,
-      "merged_prs_count": 3,
-      "topics": [
-        "compose",
-        "compose-multiplatform",
-        "kotlin"
-      ],
-      "activity": [
-        0,
-        0,
-        1,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/vinceglb/FileKit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:54:39Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "0.14.2",
-        "published_at": "2026-06-13T12:54:40Z"
-      },
-      "featured": false,
-      "maintenance_score": 1,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "arocc",
-      "full_name": "Vexu/arocc",
-      "description": "A modern fully featured C compiler.",
-      "url": "https://github.com/Vexu/arocc",
-      "stars": 1721,
-      "forks_count": 97,
-      "open_issues_count": 44,
-      "language": "Zig",
-      "gem_score": 13.22,
-      "momentum_trend": 0.49,
-      "recent_commits": 6,
-      "merged_prs_count": 31,
-      "topics": [
-        "c",
-        "compiler",
-        "zig"
-      ],
-      "activity": [
-        5,
-        8,
-        24,
-        6
-      ],
-      "good_first_issues_url": "https://github.com/Vexu/arocc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T10:54:19Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "ReVanced-Patch-Bundles",
-      "full_name": "Jman-Github/ReVanced-Patch-Bundles",
-      "description": "Automatically aggregates alternative ReVanced & Morphe patch bundles into JSON files to import into the ReVanced & Morphe Managers.",
-      "url": "https://github.com/Jman-Github/ReVanced-Patch-Bundles",
-      "stars": 569,
-      "forks_count": 25,
-      "open_issues_count": 0,
-      "language": "Kotlin",
-      "gem_score": 13.11,
-      "momentum_trend": 1.82,
-      "recent_commits": 90,
-      "merged_prs_count": 0,
-      "topics": [
-        "revanced",
-        "python",
-        "koltin"
-      ],
-      "activity": [
-        41,
-        34,
-        73,
-        90
-      ],
-      "good_first_issues_url": "https://github.com/Jman-Github/ReVanced-Patch-Bundles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:20:00Z",
-      "is_hype": false,
-      "license": "Unlicense",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 261,
+      "maintenance_score": 60,
       "bundle_size": null,
       "is_verified": false
     },
@@ -1930,7 +2756,7 @@
       "open_issues_count": 0,
       "language": "Zig",
       "gem_score": 12.9,
-      "momentum_trend": 1.5,
+      "momentum_trend": 1.58,
       "recent_commits": 10,
       "merged_prs_count": 6,
       "topics": [
@@ -1939,7 +2765,7 @@
         "macos"
       ],
       "activity": [
-        2,
+        1,
         18,
         0,
         10
@@ -1954,45 +2780,83 @@
         "published_at": "2026-06-12T15:39:02Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "Dictate",
-      "full_name": "DevEmperor/Dictate",
-      "description": "A powerful Whisper AI keyboard for reliable speech transcription",
-      "url": "https://github.com/DevEmperor/Dictate",
-      "stars": 215,
-      "forks_count": 56,
-      "open_issues_count": 34,
+      "name": "Grunt",
+      "full_name": "SpartanB312/Grunt",
+      "description": "Industrial-aimed JVM bytecode obfuscator framework",
+      "url": "https://github.com/SpartanB312/Grunt",
+      "stars": 270,
+      "forks_count": 29,
+      "open_issues_count": 5,
       "language": "Kotlin",
-      "gem_score": 12.9,
-      "momentum_trend": 1,
-      "recent_commits": 27,
-      "merged_prs_count": 0,
+      "gem_score": 12.88,
+      "momentum_trend": 2.88,
+      "recent_commits": 24,
+      "merged_prs_count": 3,
       "topics": [
-        "android",
-        "keyboard",
-        "openai"
+        "asm",
+        "java",
+        "jvm"
       ],
       "activity": [
+        7,
         0,
-        0,
-        0,
-        27
+        18,
+        24
       ],
-      "good_first_issues_url": "https://github.com/DevEmperor/Dictate/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/SpartanB312/Grunt/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:10:17Z",
+      "pushed_at": "2026-06-13T20:34:42Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v3.2.0",
-        "published_at": "2025-12-30T15:51:32Z"
+        "tag": "2.4.5.250307",
+        "published_at": "2025-03-07T19:42:05Z"
       },
       "featured": false,
-      "maintenance_score": 641,
+      "maintenance_score": 10,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "vice",
+      "full_name": "eygraber/vice",
+      "description": "KMP MVI framework built using Compose for Compose",
+      "url": "https://github.com/eygraber/vice",
+      "stars": 159,
+      "forks_count": 5,
+      "open_issues_count": 1,
+      "language": "Kotlin",
+      "gem_score": 12.87,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 4,
+      "topics": [
+        "compose",
+        "kotlin",
+        "mvi"
+      ],
+      "activity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/eygraber/vice/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T23:04:11Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "1.0.8",
+        "published_at": "2025-12-04T00:51:36Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2016,8 +2880,8 @@
       ],
       "activity": [
         0,
-        19,
         20,
+        19,
         17
       ],
       "good_first_issues_url": "https://github.com/diodesign/diosix/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -2038,11 +2902,11 @@
       "url": "https://github.com/FoedusProgramme/Gramophone",
       "stars": 2124,
       "forks_count": 118,
-      "open_issues_count": 261,
+      "open_issues_count": 259,
       "language": "Kotlin",
-      "gem_score": 12.51,
-      "momentum_trend": 0.59,
-      "recent_commits": 33,
+      "gem_score": 12.6,
+      "momentum_trend": 0.63,
+      "recent_commits": 35,
       "merged_prs_count": 2,
       "topics": [
         "android",
@@ -2050,14 +2914,14 @@
         "kotlin-android"
       ],
       "activity": [
-        11,
-        89,
-        68,
-        33
+        26,
+        82,
+        58,
+        35
       ],
       "good_first_issues_url": "https://github.com/FoedusProgramme/Gramophone/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:01:06Z",
+      "pushed_at": "2026-06-13T20:40:19Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": {
@@ -2065,7 +2929,83 @@
         "published_at": "2025-05-20T21:26:18Z"
       },
       "featured": false,
-      "maintenance_score": 8,
+      "maintenance_score": 9,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "logback-access-spring-boot-starter",
+      "full_name": "akkinoc/logback-access-spring-boot-starter",
+      "description": "Spring Boot Starter for Logback-access.",
+      "url": "https://github.com/akkinoc/logback-access-spring-boot-starter",
+      "stars": 205,
+      "forks_count": 33,
+      "open_issues_count": 11,
+      "language": "Kotlin",
+      "gem_score": 12.53,
+      "momentum_trend": 6,
+      "recent_commits": 12,
+      "merged_prs_count": 8,
+      "topics": [
+        "spring-boot",
+        "spring-boot-starter",
+        "logback-access"
+      ],
+      "activity": [
+        2,
+        0,
+        4,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/akkinoc/logback-access-spring-boot-starter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:54:38Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v5.1.0",
+        "published_at": "2026-06-14T02:36:54Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "CCC",
+      "full_name": "Oztechan/CCC",
+      "description": "💰 Currency Converter Calculator for Android, iOS and Backend with power of Kotlin Multiplatform :muscle:",
+      "url": "https://github.com/Oztechan/CCC",
+      "stars": 343,
+      "forks_count": 34,
+      "open_issues_count": 10,
+      "language": "Kotlin",
+      "gem_score": 12.26,
+      "momentum_trend": 2.57,
+      "recent_commits": 6,
+      "merged_prs_count": 16,
+      "topics": [
+        "kotlin",
+        "android",
+        "mvvm"
+      ],
+      "activity": [
+        6,
+        0,
+        1,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/Oztechan/CCC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:00:13Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v2.12.6",
+        "published_at": "2025-12-29T22:42:38Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2074,24 +3014,24 @@
       "full_name": "JetBrains/android",
       "description": "Android Plugin for IntelliJ IDEA. This repository is a subset of git://git.jetbrains.org/idea/android.git cut according to GitHub file size limitations.",
       "url": "https://github.com/JetBrains/android",
-      "stars": 1103,
+      "stars": 1104,
       "forks_count": 246,
       "open_issues_count": 0,
       "language": "Kotlin",
       "gem_score": 12.24,
-      "momentum_trend": 141.82,
-      "recent_commits": 2080,
+      "momentum_trend": 141.89,
+      "recent_commits": 2081,
       "merged_prs_count": 0,
       "topics": [],
       "activity": [
         13,
         10,
         21,
-        2080
+        2081
       ],
       "good_first_issues_url": "https://github.com/JetBrains/android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:22:33Z",
+      "pushed_at": "2026-06-13T17:39:44Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
@@ -2101,118 +3041,146 @@
       "is_verified": false
     },
     {
-      "name": "mifos-pay",
-      "full_name": "openMF/mifos-pay",
-      "description": "A reference implementation of Mifos platform wallet and payment capabilities.  Default branch is Dev for Pull Requests.  Main is release code and subject to release process.",
-      "url": "https://github.com/openMF/mifos-pay",
-      "stars": 333,
-      "forks_count": 558,
-      "open_issues_count": 8,
+      "name": "ryecharm",
+      "full_name": "InSyncWithFoo/ryecharm",
+      "description": "The all-in-one PyCharm plugin for Astral-backed Python tools",
+      "url": "https://github.com/InSyncWithFoo/ryecharm",
+      "stars": 191,
+      "forks_count": 7,
+      "open_issues_count": 19,
       "language": "Kotlin",
-      "gem_score": 12.17,
-      "momentum_trend": 0.3,
+      "gem_score": 11.98,
+      "momentum_trend": 0.75,
       "recent_commits": 1,
-      "merged_prs_count": 13,
+      "merged_prs_count": 2,
       "topics": [
-        "wallet",
-        "android",
-        "fineract"
+        "intellij-plugin",
+        "pycharm-plugin",
+        "python"
       ],
       "activity": [
-        2,
-        2,
-        6,
+        1,
+        0,
+        3,
         1
       ],
-      "good_first_issues_url": "https://github.com/openMF/mifos-pay/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/InSyncWithFoo/ryecharm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:50:20Z",
-      "is_hype": true,
-      "license": "MPL-2.0",
-      "latest_release": {
-        "tag": "2025.7.4-beta.0.0",
-        "published_at": "2025-07-20T05:51:02Z"
-      },
+      "pushed_at": "2026-06-13T18:40:02Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "zzz",
-      "full_name": "tardy-org/zzz",
-      "description": "A framework for writing performant and reliable networked services.",
-      "url": "https://github.com/tardy-org/zzz",
-      "stars": 741,
-      "forks_count": 37,
-      "open_issues_count": 12,
-      "language": "Zig",
-      "gem_score": 11.88,
-      "momentum_trend": 1,
+      "name": "mbrc",
+      "full_name": "musicbeeremote/mbrc",
+      "description": "MusicBee Remote for Android",
+      "url": "https://github.com/musicbeeremote/mbrc",
+      "stars": 171,
+      "forks_count": 27,
+      "open_issues_count": 30,
+      "language": "Kotlin",
+      "gem_score": 11.97,
+      "momentum_trend": 0.5,
       "recent_commits": 2,
-      "merged_prs_count": 1,
+      "merged_prs_count": 12,
       "topics": [
-        "http",
-        "https",
-        "tls"
+        "musicbee",
+        "android",
+        "remote-control"
       ],
       "activity": [
-        0,
-        0,
-        0,
+        1,
+        8,
+        3,
         2
       ],
-      "good_first_issues_url": "https://github.com/tardy-org/zzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T13:49:16Z",
-      "is_hype": false,
-      "license": "MPL-2.0",
-      "latest_release": {
-        "tag": "v0.3.1",
-        "published_at": "2026-04-16T14:24:11Z"
-      },
-      "featured": false,
-      "maintenance_score": 3,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "awesome-app-rating",
-      "full_name": "SuddenH4X/awesome-app-rating",
-      "description": "An Android library providing a dialog, which asks the user to rate the app or give feedback. You can also use the library to show the Google in-app review easily under certain conditions.",
-      "url": "https://github.com/SuddenH4X/awesome-app-rating",
-      "stars": 236,
-      "forks_count": 42,
-      "open_issues_count": 0,
-      "language": "Kotlin",
-      "gem_score": 11.78,
-      "momentum_trend": 1,
-      "recent_commits": 18,
-      "merged_prs_count": 4,
-      "topics": [
-        "android",
-        "rating",
-        "dialog"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/SuddenH4X/awesome-app-rating/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/musicbeeremote/mbrc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:55:54Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
+      "pushed_at": "2026-06-13T20:53:25Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
       "latest_release": {
-        "tag": "2.8.0",
-        "published_at": "2025-01-29T18:31:42Z"
+        "tag": "v1.6.0",
+        "published_at": "2026-06-01T15:16:31Z"
       },
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
+    },
+    {
+      "name": "adhan-kotlin",
+      "full_name": "batoulapps/adhan-kotlin",
+      "description": "High precision Islamic prayer time library for Java",
+      "url": "https://github.com/batoulapps/adhan-kotlin",
+      "stars": 210,
+      "forks_count": 55,
+      "open_issues_count": 9,
+      "language": "Kotlin",
+      "gem_score": 11.97,
+      "momentum_trend": 1,
+      "recent_commits": 12,
+      "merged_prs_count": 5,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/batoulapps/adhan-kotlin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:42:05Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "adhan2-v0.0.7",
+        "published_at": "2026-06-13T19:41:23Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true
+    },
+    {
+      "name": "zig-esp-idf-sample",
+      "full_name": "kassane/zig-esp-idf-sample",
+      "description": "Run Zig on esp-idf (Xtensa/RISC-V)",
+      "url": "https://github.com/kassane/zig-esp-idf-sample",
+      "stars": 256,
+      "forks_count": 22,
+      "open_issues_count": 2,
+      "language": "Zig",
+      "gem_score": 11.79,
+      "momentum_trend": 4.5,
+      "recent_commits": 3,
+      "merged_prs_count": 1,
+      "topics": [
+        "esp32-idf",
+        "zig",
+        "esp-idf"
+      ],
+      "activity": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/kassane/zig-esp-idf-sample/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:45:18Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true
     },
     {
       "name": "buzz",
@@ -2220,11 +3188,11 @@
       "description": "👨‍🚀  buzz, A small/lightweight statically typed scripting language",
       "url": "https://github.com/buzz-language/buzz",
       "stars": 1490,
-      "forks_count": 41,
+      "forks_count": 40,
       "open_issues_count": 78,
       "language": "Zig",
       "gem_score": 11.77,
-      "momentum_trend": 0.68,
+      "momentum_trend": 0.71,
       "recent_commits": 10,
       "merged_prs_count": 10,
       "topics": [
@@ -2232,7 +3200,7 @@
         "language"
       ],
       "activity": [
-        14,
+        12,
         20,
         10,
         10
@@ -2247,7 +3215,45 @@
         "published_at": "2025-01-24T10:52:11Z"
       },
       "featured": false,
-      "maintenance_score": 9,
+      "maintenance_score": 10,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Phone",
+      "full_name": "FossifyOrg/Phone",
+      "description": "A handy phone call manager with phonebook, number blocking and multi-SIM support",
+      "url": "https://github.com/FossifyOrg/Phone",
+      "stars": 1219,
+      "forks_count": 163,
+      "open_issues_count": 143,
+      "language": "Kotlin",
+      "gem_score": 11.75,
+      "momentum_trend": 1.71,
+      "recent_commits": 4,
+      "merged_prs_count": 9,
+      "topics": [
+        "android",
+        "dialer",
+        "foss"
+      ],
+      "activity": [
+        0,
+        0,
+        7,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/FossifyOrg/Phone/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:33:53Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "1.11.1",
+        "published_at": "2026-02-03T02:36:25Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2256,12 +3262,12 @@
       "full_name": "cztomsik/tokamak",
       "description": "Web framework for Zig that leverages dependency injection for clean, modular application development.",
       "url": "https://github.com/cztomsik/tokamak",
-      "stars": 614,
+      "stars": 615,
       "forks_count": 21,
       "open_issues_count": 4,
       "language": "Zig",
-      "gem_score": 11.71,
-      "momentum_trend": 0.83,
+      "gem_score": 11.7,
+      "momentum_trend": 0.86,
       "recent_commits": 10,
       "merged_prs_count": 2,
       "topics": [
@@ -2270,7 +3276,7 @@
         "http"
       ],
       "activity": [
-        13,
+        12,
         15,
         8,
         10
@@ -2287,40 +3293,74 @@
       "is_verified": false
     },
     {
-      "name": "kotshi",
-      "full_name": "ansman/kotshi",
-      "description": "An annotation processor that generates Moshi adapters from immutable Kotlin data classes.",
-      "url": "https://github.com/ansman/kotshi",
-      "stars": 766,
-      "forks_count": 42,
-      "open_issues_count": 0,
-      "language": "Kotlin",
-      "gem_score": 11.34,
-      "momentum_trend": 1,
-      "recent_commits": 11,
-      "merged_prs_count": 11,
+      "name": "zeit",
+      "full_name": "rockorager/zeit",
+      "description": "a date and time library written in zig. Timezone, DST, and leap second aware",
+      "url": "https://github.com/rockorager/zeit",
+      "stars": 219,
+      "forks_count": 32,
+      "open_issues_count": 4,
+      "language": "Zig",
+      "gem_score": 11.62,
+      "momentum_trend": 0.33,
+      "recent_commits": 1,
+      "merged_prs_count": 4,
       "topics": [
-        "kotlin",
-        "moshi",
-        "annotation-processor"
+        "date",
+        "datetime",
+        "library"
       ],
       "activity": [
+        3,
         0,
-        0,
-        0,
-        11
+        6,
+        1
       ],
-      "good_first_issues_url": "https://github.com/ansman/kotshi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/rockorager/zeit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:18:16Z",
+      "pushed_at": "2026-06-13T13:54:11Z",
       "is_hype": false,
-      "license": "Apache-2.0",
+      "license": "MIT",
       "latest_release": {
-        "tag": "4.0.0",
-        "published_at": "2025-04-26T13:41:47Z"
+        "tag": "v0.8.0",
+        "published_at": "2026-04-16T13:02:03Z"
       },
       "featured": false,
       "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "qralarm-android",
+      "full_name": "sweakpl/qralarm-android",
+      "description": "QRAlarm is an Android alarm clock application that lets the user turn off alarms by scanning the QR Code.",
+      "url": "https://github.com/sweakpl/qralarm-android",
+      "stars": 332,
+      "forks_count": 24,
+      "open_issues_count": 11,
+      "language": "Kotlin",
+      "gem_score": 11.46,
+      "momentum_trend": 1.8,
+      "recent_commits": 12,
+      "merged_prs_count": 4,
+      "topics": [],
+      "activity": [
+        0,
+        13,
+        7,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/sweakpl/qralarm-android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:57:34Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "2.10.0",
+        "published_at": "2026-06-06T08:16:50Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2333,7 +3373,7 @@
       "forks_count": 15,
       "open_issues_count": 8,
       "language": "Zig",
-      "gem_score": 11.26,
+      "gem_score": 11.25,
       "momentum_trend": 2.4,
       "recent_commits": 4,
       "merged_prs_count": 2,
@@ -2353,7 +3393,231 @@
       "featured": false,
       "maintenance_score": 3,
       "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Cloudy",
+      "full_name": "skydoves/Cloudy",
+      "description": "☁️ Kotlin Multiplatform blur and liquid glass effect library for Compose, with GPU-accelerated rendering and CPU fallback for older devices.",
+      "url": "https://github.com/skydoves/Cloudy",
+      "stars": 1168,
+      "forks_count": 45,
+      "open_issues_count": 5,
+      "language": "Kotlin",
+      "gem_score": 11.09,
+      "momentum_trend": 1,
+      "recent_commits": 15,
+      "merged_prs_count": 5,
+      "topics": [
+        "android",
+        "blur",
+        "blur-image"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/skydoves/Cloudy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T03:28:40Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "0.5.0",
+        "published_at": "2026-01-17T02:44:44Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
       "is_verified": true
+    },
+    {
+      "name": "timeago",
+      "full_name": "marlonlom/timeago",
+      "description": "Simple java library for displaying dates as relative time ago language.",
+      "url": "https://github.com/marlonlom/timeago",
+      "stars": 381,
+      "forks_count": 79,
+      "open_issues_count": 0,
+      "language": "Kotlin",
+      "gem_score": 11.05,
+      "momentum_trend": 2.4,
+      "recent_commits": 4,
+      "merged_prs_count": 10,
+      "topics": [
+        "android-library",
+        "java-library",
+        "dates"
+      ],
+      "activity": [
+        3,
+        1,
+        1,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/marlonlom/timeago/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T00:15:35Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v4.3.0",
+        "published_at": "2026-05-18T18:12:27Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "microzig",
+      "full_name": "ZigEmbeddedGroup/microzig",
+      "description": "MicroZig is a toolbox for building embedded applications in Zig.",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig",
+      "stars": 2188,
+      "forks_count": 178,
+      "open_issues_count": 66,
+      "language": "Zig",
+      "gem_score": 10.96,
+      "momentum_trend": 0.25,
+      "recent_commits": 1,
+      "merged_prs_count": 13,
+      "topics": [
+        "ziglang",
+        "zig-package",
+        "zig"
+      ],
+      "activity": [
+        12,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/ZigEmbeddedGroup/microzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-14T00:06:34Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": {
+        "tag": "0.15.1",
+        "published_at": "2026-02-10T06:14:44Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "plees-tracker",
+      "full_name": "vmiklos/plees-tracker",
+      "description": "Plees Tracker is a simple sleep tracker for your Android phone.",
+      "url": "https://github.com/vmiklos/plees-tracker",
+      "stars": 225,
+      "forks_count": 51,
+      "open_issues_count": 22,
+      "language": "Kotlin",
+      "gem_score": 10.93,
+      "momentum_trend": 27,
+      "recent_commits": 9,
+      "merged_prs_count": 4,
+      "topics": [
+        "android",
+        "sleep",
+        "tracker"
+      ],
+      "activity": [
+        0,
+        0,
+        1,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/vmiklos/plees-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T22:01:06Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v26.2",
+        "published_at": "2026-02-06T21:24:38Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "android",
+      "full_name": "urnetwork/android",
+      "description": null,
+      "url": "https://github.com/urnetwork/android",
+      "stars": 191,
+      "forks_count": 11,
+      "open_issues_count": 25,
+      "language": "Kotlin",
+      "gem_score": 10.67,
+      "momentum_trend": 1.2,
+      "recent_commits": 2,
+      "merged_prs_count": 1,
+      "topics": [],
+      "activity": [
+        0,
+        2,
+        3,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/urnetwork/android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-14T03:39:58Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v2026.3.23-895075980",
+        "published_at": "2026-03-25T04:40:22Z"
+      },
+      "featured": false,
+      "maintenance_score": 9,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "avro4k",
+      "full_name": "avro-kotlin/avro4k",
+      "description": "Avro format support for Kotlin",
+      "url": "https://github.com/avro-kotlin/avro4k",
+      "stars": 234,
+      "forks_count": 48,
+      "open_issues_count": 17,
+      "language": "Kotlin",
+      "gem_score": 10.45,
+      "momentum_trend": 12,
+      "recent_commits": 4,
+      "merged_prs_count": 5,
+      "topics": [
+        "avro",
+        "kotlin",
+        "serialization"
+      ],
+      "activity": [
+        1,
+        0,
+        0,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/avro-kotlin/avro4k/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T21:44:16Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v2.10.0",
+        "published_at": "2026-02-10T21:23:38Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
     },
     {
       "name": "fizzy",
@@ -2364,20 +3628,20 @@
       "forks_count": 39,
       "open_issues_count": 11,
       "language": "Zig",
-      "gem_score": 11.05,
-      "momentum_trend": 0.21,
-      "recent_commits": 6,
-      "merged_prs_count": 7,
+      "gem_score": 10.22,
+      "momentum_trend": 0.18,
+      "recent_commits": 5,
+      "merged_prs_count": 5,
       "topics": [
         "2d",
         "animation",
         "cross-platform"
       ],
       "activity": [
-        52,
-        16,
-        19,
-        6
+        59,
+        5,
+        20,
+        5
       ],
       "good_first_issues_url": "https://github.com/fizzyedit/fizzy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
@@ -2389,7 +3653,7 @@
         "published_at": "2026-06-12T16:33:13Z"
       },
       "featured": false,
-      "maintenance_score": 7,
+      "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2402,9 +3666,9 @@
       "forks_count": 11,
       "open_issues_count": 5,
       "language": "Zig",
-      "gem_score": 10.54,
-      "momentum_trend": 0.63,
-      "recent_commits": 5,
+      "gem_score": 10.17,
+      "momentum_trend": 0.5,
+      "recent_commits": 4,
       "merged_prs_count": 4,
       "topics": [
         "smalltalk",
@@ -2412,10 +3676,10 @@
         "zig"
       ],
       "activity": [
-        8,
+        7,
         4,
-        12,
-        5
+        13,
+        4
       ],
       "good_first_issues_url": "https://github.com/Zag-Research/Zag-Smalltalk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -2424,7 +3688,7 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 8,
+      "maintenance_score": 9,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2437,7 +3701,7 @@
       "forks_count": 5,
       "open_issues_count": 46,
       "language": "Zig",
-      "gem_score": 10.16,
+      "gem_score": 10.15,
       "momentum_trend": 0.25,
       "recent_commits": 1,
       "merged_prs_count": 2,
@@ -2463,82 +3727,6 @@
       },
       "featured": false,
       "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "plees-tracker",
-      "full_name": "vmiklos/plees-tracker",
-      "description": "Plees Tracker is a simple sleep tracker for your Android phone.",
-      "url": "https://github.com/vmiklos/plees-tracker",
-      "stars": 225,
-      "forks_count": 51,
-      "open_issues_count": 22,
-      "language": "Kotlin",
-      "gem_score": 10.09,
-      "momentum_trend": 24,
-      "recent_commits": 8,
-      "merged_prs_count": 3,
-      "topics": [
-        "android",
-        "sleep",
-        "tracker"
-      ],
-      "activity": [
-        0,
-        0,
-        1,
-        8
-      ],
-      "good_first_issues_url": "https://github.com/vmiklos/plees-tracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:34:24Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v26.2",
-        "published_at": "2026-02-06T21:24:38Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true
-    },
-    {
-      "name": "microzig",
-      "full_name": "ZigEmbeddedGroup/microzig",
-      "description": "MicroZig is a toolbox for building embedded applications in Zig.",
-      "url": "https://github.com/ZigEmbeddedGroup/microzig",
-      "stars": 2188,
-      "forks_count": 178,
-      "open_issues_count": 66,
-      "language": "Zig",
-      "gem_score": 9.88,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 12,
-      "topics": [
-        "ziglang",
-        "zig-package",
-        "zig"
-      ],
-      "activity": [
-        12,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/ZigEmbeddedGroup/microzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-06-13T00:54:51Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": {
-        "tag": "0.15.1",
-        "published_at": "2026-02-10T06:14:44Z"
-      },
-      "featured": false,
-      "maintenance_score": 22,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2571,43 +3759,47 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "adhan-kotlin",
-      "full_name": "batoulapps/adhan-kotlin",
-      "description": "High precision Islamic prayer time library for Java",
-      "url": "https://github.com/batoulapps/adhan-kotlin",
-      "stars": 210,
-      "forks_count": 55,
-      "open_issues_count": 9,
+      "name": "File-Manager",
+      "full_name": "FossifyOrg/File-Manager",
+      "description": "Easy app for managing your files without ads, respecting your privacy & security",
+      "url": "https://github.com/FossifyOrg/File-Manager",
+      "stars": 1590,
+      "forks_count": 105,
+      "open_issues_count": 75,
       "language": "Kotlin",
-      "gem_score": 9.86,
-      "momentum_trend": 1,
-      "recent_commits": 7,
-      "merged_prs_count": 3,
-      "topics": [],
+      "gem_score": 9.63,
+      "momentum_trend": 0.43,
+      "recent_commits": 1,
+      "merged_prs_count": 8,
+      "topics": [
+        "android",
+        "file-manager",
+        "foss"
+      ],
       "activity": [
         0,
-        0,
-        0,
-        7
+        4,
+        3,
+        1
       ],
-      "good_first_issues_url": "https://github.com/batoulapps/adhan-kotlin/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/FossifyOrg/File-Manager/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:49:21Z",
+      "pushed_at": "2026-06-14T01:33:47Z",
       "is_hype": false,
-      "license": "MIT",
+      "license": "GPL-3.0",
       "latest_release": {
-        "tag": "adhan2-v0.0.6",
-        "published_at": "2025-10-12T20:41:07Z"
+        "tag": "1.6.1",
+        "published_at": "2026-02-17T02:35:26Z"
       },
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "http.zig",
@@ -2615,11 +3807,11 @@
       "description": "An HTTP/1.1 server for zig",
       "url": "https://github.com/karlseguin/http.zig",
       "stars": 1546,
-      "forks_count": 117,
+      "forks_count": 118,
       "open_issues_count": 13,
       "language": "Zig",
-      "gem_score": 9.6,
-      "momentum_trend": 0.6,
+      "gem_score": 9.59,
+      "momentum_trend": 0.67,
       "recent_commits": 2,
       "merged_prs_count": 9,
       "topics": [
@@ -2628,8 +3820,8 @@
         "zig-library"
       ],
       "activity": [
-        4,
-        5,
+        6,
+        2,
         1,
         2
       ],
@@ -2645,36 +3837,77 @@
       "is_verified": false
     },
     {
-      "name": "cpudefense",
-      "full_name": "ochadenas/cpudefense",
-      "description": "A tower defense game for Android based on a microprocessor theme",
-      "url": "https://github.com/ochadenas/cpudefense",
-      "stars": 192,
-      "forks_count": 15,
-      "open_issues_count": 32,
+      "name": "MusicRecognizer",
+      "full_name": "aleksey-saenko/MusicRecognizer",
+      "description": "An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identification.",
+      "url": "https://github.com/aleksey-saenko/MusicRecognizer",
+      "stars": 1136,
+      "forks_count": 43,
+      "open_issues_count": 14,
       "language": "Kotlin",
-      "gem_score": 9.23,
-      "momentum_trend": 2.45,
+      "gem_score": 9.55,
+      "momentum_trend": 2.7,
       "recent_commits": 9,
-      "merged_prs_count": 1,
-      "topics": [],
+      "merged_prs_count": 3,
+      "topics": [
+        "android",
+        "android-application",
+        "kotlin-android"
+      ],
       "activity": [
-        2,
-        5,
-        4,
+        10,
+        0,
+        0,
         9
       ],
-      "good_first_issues_url": "https://github.com/ochadenas/cpudefense/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/aleksey-saenko/MusicRecognizer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:57:24Z",
+      "pushed_at": "2026-06-13T17:48:59Z",
       "is_hype": false,
-      "license": "MIT",
+      "license": "GPL-3.0",
       "latest_release": {
-        "tag": "v1.60",
-        "published_at": "2026-06-13T11:58:24Z"
+        "tag": "v1.16.1",
+        "published_at": "2026-06-13T17:56:27Z"
       },
       "featured": false,
-      "maintenance_score": 6,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Ledger",
+      "full_name": "QuiltServerTools/Ledger",
+      "description": " A server-side logging mod for fabric 1.17+",
+      "url": "https://github.com/QuiltServerTools/Ledger",
+      "stars": 242,
+      "forks_count": 83,
+      "open_issues_count": 53,
+      "language": "Kotlin",
+      "gem_score": 9.22,
+      "momentum_trend": 1,
+      "recent_commits": 3,
+      "merged_prs_count": 3,
+      "topics": [
+        "minecraft",
+        "fabric"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/QuiltServerTools/Ledger/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T21:00:28Z",
+      "is_hype": false,
+      "license": "LGPL-3.0",
+      "latest_release": {
+        "tag": "1.3.20",
+        "published_at": "2026-04-01T01:09:49Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2709,80 +3942,235 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 39,
+      "maintenance_score": 40,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "zig-esp-idf-sample",
-      "full_name": "kassane/zig-esp-idf-sample",
-      "description": "Run Zig on esp-idf (Xtensa/RISC-V)",
-      "url": "https://github.com/kassane/zig-esp-idf-sample",
-      "stars": 255,
-      "forks_count": 21,
-      "open_issues_count": 2,
-      "language": "Zig",
-      "gem_score": 8.16,
-      "momentum_trend": 3,
-      "recent_commits": 2,
-      "merged_prs_count": 0,
+      "name": "adyeshach",
+      "full_name": "TabooLib/adyeshach",
+      "description": "Powerful plugin for creating virtual NPCs within the Minecraft",
+      "url": "https://github.com/TabooLib/adyeshach",
+      "stars": 158,
+      "forks_count": 146,
+      "open_issues_count": 22,
+      "language": "Kotlin",
+      "gem_score": 8.95,
+      "momentum_trend": 3.75,
+      "recent_commits": 10,
+      "merged_prs_count": 1,
       "topics": [
-        "esp32-idf",
-        "zig",
-        "esp-idf"
+        "taboolib",
+        "bukkit",
+        "minecraft"
       ],
       "activity": [
-        0,
+        4,
+        3,
         1,
-        1,
-        2
+        10
       ],
-      "good_first_issues_url": "https://github.com/kassane/zig-esp-idf-sample/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/TabooLib/adyeshach/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-09T12:04:29Z",
+      "pushed_at": "2026-06-13T17:51:51Z",
       "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "1.4.21",
+        "published_at": "2021-12-30T15:35:04Z"
+      },
+      "featured": false,
+      "maintenance_score": 3,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Braincup",
+      "full_name": "SimonSchubert/Braincup",
+      "description": "Memory, focus & math trainer",
+      "url": "https://github.com/SimonSchubert/Braincup",
+      "stars": 212,
+      "forks_count": 15,
+      "open_issues_count": 5,
+      "language": "Kotlin",
+      "gem_score": 8.59,
+      "momentum_trend": 1.31,
+      "recent_commits": 28,
+      "merged_prs_count": 0,
+      "topics": [
+        "kotlin-multiplatform",
+        "education",
+        "game"
+      ],
+      "activity": [
+        21,
+        33,
+        10,
+        28
+      ],
+      "good_first_issues_url": "https://github.com/SimonSchubert/Braincup/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:21:39Z",
+      "is_hype": true,
       "license": "Apache-2.0",
-      "latest_release": null,
+      "latest_release": {
+        "tag": "v2.20.0",
+        "published_at": "2026-06-13T19:20:48Z"
+      },
       "featured": false,
       "maintenance_score": 55,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
-      "name": "FileNavigator",
-      "full_name": "w2sv/FileNavigator",
-      "description": " The missing link between Android and a sorted file system. ",
-      "url": "https://github.com/w2sv/FileNavigator",
-      "stars": 532,
-      "forks_count": 26,
-      "open_issues_count": 39,
+      "name": "react-native-compressor",
+      "full_name": "numandev1/react-native-compressor",
+      "description": "🗜️Compress Image, Video, and Audio same like Whatsapp 🚀✨",
+      "url": "https://github.com/numandev1/react-native-compressor",
+      "stars": 1300,
+      "forks_count": 142,
+      "open_issues_count": 31,
       "language": "Kotlin",
-      "gem_score": 7.8,
-      "momentum_trend": 1.73,
-      "recent_commits": 15,
-      "merged_prs_count": 0,
+      "gem_score": 8.44,
+      "momentum_trend": 1,
+      "recent_commits": 7,
+      "merged_prs_count": 4,
       "topics": [
-        "android",
-        "android-application",
-        "filesystem"
+        "compress",
+        "compression",
+        "react-native"
       ],
       "activity": [
         0,
-        5,
-        21,
-        15
+        0,
+        0,
+        7
       ],
-      "good_first_issues_url": "https://github.com/w2sv/FileNavigator/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/numandev1/react-native-compressor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:12:35Z",
+      "pushed_at": "2026-06-13T21:24:17Z",
       "is_hype": false,
-      "license": "GPL-3.0",
+      "license": "MIT",
       "latest_release": {
-        "tag": "0.3.5",
-        "published_at": "2026-06-09T11:43:34Z"
+        "tag": "v2.0.0",
+        "published_at": "2026-06-12T03:23:55Z"
       },
       "featured": false,
-      "maintenance_score": 388,
+      "maintenance_score": 2,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "uri-kmp",
+      "full_name": "eygraber/uri-kmp",
+      "description": "A library for working with URIs and URLs in Kotlin Multiplatform",
+      "url": "https://github.com/eygraber/uri-kmp",
+      "stars": 280,
+      "forks_count": 9,
+      "open_issues_count": 4,
+      "language": "Kotlin",
+      "gem_score": 8.34,
+      "momentum_trend": 1.5,
+      "recent_commits": 1,
+      "merged_prs_count": 3,
+      "topics": [
+        "kotlin",
+        "kotlin-multiplatform",
+        "uri"
+      ],
+      "activity": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/eygraber/uri-kmp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T18:42:57Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "0.0.21",
+        "published_at": "2025-10-01T12:00:10Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "kotlin-wrappers",
+      "full_name": "JetBrains/kotlin-wrappers",
+      "description": "Kotlin wrappers for popular JavaScript libraries",
+      "url": "https://github.com/JetBrains/kotlin-wrappers",
+      "stars": 1576,
+      "forks_count": 187,
+      "open_issues_count": 24,
+      "language": "Kotlin",
+      "gem_score": 8.31,
+      "momentum_trend": 0.49,
+      "recent_commits": 25,
+      "merged_prs_count": 2,
+      "topics": [
+        "kotlin",
+        "kotlin-js",
+        "react"
+      ],
+      "activity": [
+        62,
+        16,
+        76,
+        25
+      ],
+      "good_first_issues_url": "https://github.com/JetBrains/kotlin-wrappers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:30:05Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "2026.6.3",
+        "published_at": "2026-06-06T16:37:53Z"
+      },
+      "featured": false,
+      "maintenance_score": 11,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "BinaryEye",
+      "full_name": "markusfisch/BinaryEye",
+      "description": "Yet another barcode scanner for Android",
+      "url": "https://github.com/markusfisch/BinaryEye",
+      "stars": 2220,
+      "forks_count": 171,
+      "open_issues_count": 173,
+      "language": "Kotlin",
+      "gem_score": 7.87,
+      "momentum_trend": 0.61,
+      "recent_commits": 9,
+      "merged_prs_count": 5,
+      "topics": [
+        "android",
+        "kotlin-android",
+        "renderscript"
+      ],
+      "activity": [
+        0,
+        17,
+        27,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/markusfisch/BinaryEye/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T17:36:48Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "1.74.3",
+        "published_at": "2026-06-13T17:37:19Z"
+      },
+      "featured": false,
+      "maintenance_score": 10,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2806,8 +4194,8 @@
       ],
       "activity": [
         0,
-        1,
         2,
+        1,
         2
       ],
       "good_first_issues_url": "https://github.com/natecraddock/ziglua/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -2825,6 +4213,44 @@
       "is_verified": false
     },
     {
+      "name": "ReFra",
+      "full_name": "IacobIonut01/ReFra",
+      "description": "Media Gallery app for Android made with Jetpack Compose",
+      "url": "https://github.com/IacobIonut01/ReFra",
+      "stars": 2382,
+      "forks_count": 139,
+      "open_issues_count": 97,
+      "language": "Kotlin",
+      "gem_score": 7.74,
+      "momentum_trend": 0.48,
+      "recent_commits": 12,
+      "merged_prs_count": 1,
+      "topics": [
+        "android",
+        "android-gallery",
+        "gallery"
+      ],
+      "activity": [
+        24,
+        31,
+        20,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/IacobIonut01/ReFra/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T02:53:33Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "5.0.0",
+        "published_at": "2026-06-10T21:16:46Z"
+      },
+      "featured": false,
+      "maintenance_score": 16,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "IReader",
       "full_name": "IReaderorg/IReader",
       "description": "Free and open source novel reader for Android and Desktop.",
@@ -2833,9 +4259,9 @@
       "forks_count": 57,
       "open_issues_count": 15,
       "language": "Kotlin",
-      "gem_score": 7.55,
-      "momentum_trend": 4.17,
-      "recent_commits": 32,
+      "gem_score": 7.4,
+      "momentum_trend": 3.11,
+      "recent_commits": 29,
       "merged_prs_count": 0,
       "topics": [
         "android",
@@ -2845,12 +4271,12 @@
       "activity": [
         0,
         18,
-        5,
-        32
+        10,
+        29
       ],
       "good_first_issues_url": "https://github.com/IReaderorg/IReader/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:45:15Z",
+      "pushed_at": "2026-06-13T19:13:50Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -2858,7 +4284,45 @@
         "published_at": "2026-06-05T08:24:07Z"
       },
       "featured": false,
-      "maintenance_score": 595,
+      "maintenance_score": 596,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "compass",
+      "full_name": "jordond/compass",
+      "description": "🧭 Kotlin Multiplatform library location toolkit for geocoding and geolocation",
+      "url": "https://github.com/jordond/compass",
+      "stars": 424,
+      "forks_count": 22,
+      "open_issues_count": 26,
+      "language": "Kotlin",
+      "gem_score": 7.35,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 2,
+      "topics": [
+        "compose",
+        "compose-multiplatform",
+        "geocoder"
+      ],
+      "activity": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/jordond/compass/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T01:35:15Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "3.0.2",
+        "published_at": "2026-03-09T21:06:30Z"
+      },
+      "featured": false,
+      "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2867,11 +4331,11 @@
       "full_name": "Arwalk/zig-protobuf",
       "description": "a protobuf 3 implementation for zig.",
       "url": "https://github.com/Arwalk/zig-protobuf",
-      "stars": 411,
+      "stars": 412,
       "forks_count": 67,
       "open_issues_count": 17,
       "language": "Zig",
-      "gem_score": 7.33,
+      "gem_score": 7.32,
       "momentum_trend": 1,
       "recent_commits": 1,
       "merged_prs_count": 4,
@@ -2882,8 +4346,8 @@
       ],
       "activity": [
         1,
-        0,
-        2,
+        1,
+        1,
         1
       ],
       "good_first_issues_url": "https://github.com/Arwalk/zig-protobuf/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -2896,45 +4360,7 @@
         "published_at": "2026-04-16T20:41:53Z"
       },
       "featured": false,
-      "maintenance_score": 4,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "Braincup",
-      "full_name": "SimonSchubert/Braincup",
-      "description": "Memory, focus & math trainer",
-      "url": "https://github.com/SimonSchubert/Braincup",
-      "stars": 211,
-      "forks_count": 15,
-      "open_issues_count": 6,
-      "language": "Kotlin",
-      "gem_score": 7.33,
-      "momentum_trend": 0.66,
-      "recent_commits": 14,
-      "merged_prs_count": 0,
-      "topics": [
-        "kotlin-multiplatform",
-        "education",
-        "game"
-      ],
-      "activity": [
-        15,
-        39,
-        10,
-        14
-      ],
-      "good_first_issues_url": "https://github.com/SimonSchubert/Braincup/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:20:47Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v2.19.0",
-        "published_at": "2026-06-09T00:07:58Z"
-      },
-      "featured": false,
-      "maintenance_score": 54,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": false
     },
@@ -2948,7 +4374,7 @@
       "open_issues_count": 11,
       "language": "Zig",
       "gem_score": 6.94,
-      "momentum_trend": 0.16,
+      "momentum_trend": 0.2,
       "recent_commits": 2,
       "merged_prs_count": 1,
       "topics": [
@@ -2957,7 +4383,7 @@
         "beaconobjectfile"
       ],
       "activity": [
-        26,
+        19,
         6,
         5,
         2
@@ -2969,7 +4395,41 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 8,
+      "maintenance_score": 9,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "jugglinglab",
+      "full_name": "jkboyce/jugglinglab",
+      "description": "Juggling Lab juggling animator",
+      "url": "https://github.com/jkboyce/jugglinglab",
+      "stars": 229,
+      "forks_count": 30,
+      "open_issues_count": 28,
+      "language": "Kotlin",
+      "gem_score": 6.85,
+      "momentum_trend": 1.8,
+      "recent_commits": 9,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        1,
+        10,
+        4,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/jkboyce/jugglinglab/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T00:59:43Z",
+      "is_hype": false,
+      "license": "GPL-2.0",
+      "latest_release": {
+        "tag": "v1.7.3",
+        "published_at": "2026-05-27T04:03:56Z"
+      },
+      "featured": false,
+      "maintenance_score": 121,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3007,38 +4467,7 @@
         "published_at": "2026-05-11T05:50:14Z"
       },
       "featured": false,
-      "maintenance_score": 55,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "sing-box-for-android",
-      "full_name": "SagerNet/sing-box-for-android",
-      "description": "Experimental Android client for sing-box",
-      "url": "https://github.com/SagerNet/sing-box-for-android",
-      "stars": 1135,
-      "forks_count": 387,
-      "open_issues_count": 0,
-      "language": "Kotlin",
-      "gem_score": 6.82,
-      "momentum_trend": 18,
-      "recent_commits": 18,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        1,
-        0,
-        2,
-        18
-      ],
-      "good_first_issues_url": "https://github.com/SagerNet/sing-box-for-android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:28:55Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 107,
+      "maintenance_score": 56,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3047,7 +4476,7 @@
       "full_name": "Leon406/SubCrawler",
       "description": "每天自动爬取测活（google ping）公开节点。 🚀 免费节点,🚀免费订阅 (若不进行二次开发,请不要fork)",
       "url": "https://github.com/Leon406/SubCrawler",
-      "stars": 1531,
+      "stars": 1532,
       "forks_count": 220,
       "open_issues_count": 0,
       "language": "Kotlin",
@@ -3068,7 +4497,7 @@
       ],
       "good_first_issues_url": "https://github.com/Leon406/SubCrawler/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T11:52:38Z",
+      "pushed_at": "2026-06-14T03:28:39Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": null,
@@ -3078,50 +4507,12 @@
       "is_verified": false
     },
     {
-      "name": "Chora",
-      "full_name": "CraftWorksMC/Chora",
-      "description": "Simple Navidrome / Subsonic Music Player",
-      "url": "https://github.com/CraftWorksMC/Chora",
-      "stars": 341,
-      "forks_count": 21,
-      "open_issues_count": 37,
-      "language": "Kotlin",
-      "gem_score": 6.64,
-      "momentum_trend": 0.63,
-      "recent_commits": 4,
-      "merged_prs_count": 0,
-      "topics": [
-        "music-player",
-        "navidrome-client",
-        "subsonic-client"
-      ],
-      "activity": [
-        2,
-        9,
-        8,
-        4
-      ],
-      "good_first_issues_url": "https://github.com/CraftWorksMC/Chora/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:54:51Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v1.30.1",
-        "published_at": "2026-04-26T08:40:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 63,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "jok",
       "full_name": "Jack-Ji/jok",
       "description": "A minimal 2d/3d game framework for @ziglang.",
       "url": "https://github.com/Jack-Ji/jok",
       "stars": 376,
-      "forks_count": 14,
+      "forks_count": 15,
       "open_issues_count": 7,
       "language": "Zig",
       "gem_score": 6.52,
@@ -3151,6 +4542,79 @@
       "is_verified": false
     },
     {
+      "name": "kotlin-gradle-plugin-template",
+      "full_name": "cortinico/kotlin-gradle-plugin-template",
+      "description": "🐘 A template to let you started with custom Gradle Plugins + Kotlin in a few seconds",
+      "url": "https://github.com/cortinico/kotlin-gradle-plugin-template",
+      "stars": 517,
+      "forks_count": 37,
+      "open_issues_count": 1,
+      "language": "Kotlin",
+      "gem_score": 6.28,
+      "momentum_trend": 1.5,
+      "recent_commits": 1,
+      "merged_prs_count": 3,
+      "topics": [
+        "gradle",
+        "gradle-plugin",
+        "gradle-plugin-kotlin"
+      ],
+      "activity": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/cortinico/kotlin-gradle-plugin-template/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T16:45:58Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "LinuxCommandLibrary",
+      "full_name": "SimonSchubert/LinuxCommandLibrary",
+      "description": "1M+ downloads Linux reference app with basics, tips and formatted man pages",
+      "url": "https://github.com/SimonSchubert/LinuxCommandLibrary",
+      "stars": 1756,
+      "forks_count": 146,
+      "open_issues_count": 18,
+      "language": "Kotlin",
+      "gem_score": 6.18,
+      "momentum_trend": 3.09,
+      "recent_commits": 35,
+      "merged_prs_count": 0,
+      "topics": [
+        "linux",
+        "kotlin",
+        "android"
+      ],
+      "activity": [
+        16,
+        10,
+        8,
+        35
+      ],
+      "good_first_issues_url": "https://github.com/SimonSchubert/LinuxCommandLibrary/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T17:40:57Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v4.2.0",
+        "published_at": "2026-06-13T17:39:43Z"
+      },
+      "featured": false,
+      "maintenance_score": 47,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
       "name": "pg.zig",
       "full_name": "karlseguin/pg.zig",
       "description": "Native PostgreSQL driver / client for Zig",
@@ -3159,7 +4623,7 @@
       "forks_count": 59,
       "open_issues_count": 3,
       "language": "Zig",
-      "gem_score": 6.05,
+      "gem_score": 6.04,
       "momentum_trend": 0.75,
       "recent_commits": 1,
       "merged_prs_count": 1,
@@ -3221,40 +4685,154 @@
       "is_verified": false
     },
     {
-      "name": "LinuxCommandLibrary",
-      "full_name": "SimonSchubert/LinuxCommandLibrary",
-      "description": "1M+ downloads Linux reference app with basics, tips and formatted man pages",
-      "url": "https://github.com/SimonSchubert/LinuxCommandLibrary",
-      "stars": 1754,
-      "forks_count": 146,
-      "open_issues_count": 18,
+      "name": "Fabric-Bedrock-Miner",
+      "full_name": "LXYan2333/Fabric-Bedrock-Miner",
+      "description": "A fabric client mod to mine bedrock!",
+      "url": "https://github.com/LXYan2333/Fabric-Bedrock-Miner",
+      "stars": 670,
+      "forks_count": 114,
+      "open_issues_count": 21,
       "language": "Kotlin",
-      "gem_score": 5.78,
-      "momentum_trend": 2,
-      "recent_commits": 26,
+      "gem_score": 5.84,
+      "momentum_trend": 19.5,
+      "recent_commits": 13,
       "merged_prs_count": 0,
       "topics": [
-        "linux",
+        "minecraft",
+        "minecraft-mod",
+        "fabric"
+      ],
+      "activity": [
+        0,
+        0,
+        2,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/LXYan2333/Fabric-Bedrock-Miner/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T18:03:03Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "1.0.1",
+        "published_at": "2023-04-21T13:02:25Z"
+      },
+      "featured": false,
+      "maintenance_score": 817,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "RoundCornerProgressBar",
+      "full_name": "akexorcist/RoundCornerProgressBar",
+      "description": "[Android] Round Corner Progress Bar Library for Android",
+      "url": "https://github.com/akexorcist/RoundCornerProgressBar",
+      "stars": 2586,
+      "forks_count": 373,
+      "open_issues_count": 8,
+      "language": "Kotlin",
+      "gem_score": 5.81,
+      "momentum_trend": 1,
+      "recent_commits": 12,
+      "merged_prs_count": 1,
+      "topics": [
+        "java",
         "kotlin",
         "android"
       ],
       "activity": [
-        20,
-        10,
-        9,
-        26
+        0,
+        0,
+        0,
+        12
       ],
-      "good_first_issues_url": "https://github.com/SimonSchubert/LinuxCommandLibrary/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/akexorcist/RoundCornerProgressBar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:20:43Z",
+      "pushed_at": "2026-06-13T22:31:23Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v4.1.0",
-        "published_at": "2026-06-07T14:16:40Z"
+        "tag": "2.2.2",
+        "published_at": "2025-07-21T19:34:27Z"
       },
       "featured": false,
-      "maintenance_score": 46,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true
+    },
+    {
+      "name": "PodAura",
+      "full_name": "SkyD666/PodAura",
+      "description": "All-in-on podcast app for RSS, media dl & play. MVI arch, Material You style. ⭐️ Star to support!",
+      "url": "https://github.com/SkyD666/PodAura",
+      "stars": 1233,
+      "forks_count": 41,
+      "open_issues_count": 23,
+      "language": "Kotlin",
+      "gem_score": 5.74,
+      "momentum_trend": 12,
+      "recent_commits": 4,
+      "merged_prs_count": 0,
+      "topics": [
+        "material-design",
+        "md3",
+        "mvi"
+      ],
+      "activity": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/SkyD666/PodAura/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T19:30:54Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "30",
+        "published_at": "2025-09-11T15:35:12Z"
+      },
+      "featured": false,
+      "maintenance_score": 49,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "rive-android",
+      "full_name": "rive-app/rive-android",
+      "description": "A runtime for interactive graphics and animations on Android",
+      "url": "https://github.com/rive-app/rive-android",
+      "stars": 518,
+      "forks_count": 62,
+      "open_issues_count": 89,
+      "language": "Kotlin",
+      "gem_score": 5.67,
+      "momentum_trend": 0.71,
+      "recent_commits": 8,
+      "merged_prs_count": 0,
+      "topics": [
+        "animations",
+        "rive",
+        "android"
+      ],
+      "activity": [
+        19,
+        6,
+        9,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/rive-app/rive-android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T18:13:25Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "11.6.1",
+        "published_at": "2026-05-27T16:30:22Z"
+      },
+      "featured": false,
+      "maintenance_score": 335,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3263,7 +4841,7 @@
       "full_name": "orhun/linuxwave",
       "description": "Generate music from the entropy of Linux 🐧🎵",
       "url": "https://github.com/orhun/linuxwave",
-      "stars": 650,
+      "stars": 651,
       "forks_count": 22,
       "open_issues_count": 7,
       "language": "Zig",
@@ -3292,42 +4870,7 @@
         "published_at": "2026-04-21T13:18:50Z"
       },
       "featured": false,
-      "maintenance_score": 1152,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "zigglgen",
-      "full_name": "castholm/zigglgen",
-      "description": "Zig OpenGL binding generator",
-      "url": "https://github.com/castholm/zigglgen",
-      "stars": 154,
-      "forks_count": 21,
-      "open_issues_count": 0,
-      "language": "Zig",
-      "gem_score": 5.29,
-      "momentum_trend": 1,
-      "recent_commits": 2,
-      "merged_prs_count": 0,
-      "topics": [
-        "bindings",
-        "opengl",
-        "zig"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/castholm/zigglgen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-07T10:43:56Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 602,
+      "maintenance_score": 1153,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3340,7 +4883,7 @@
       "forks_count": 29,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 5.22,
+      "gem_score": 5.21,
       "momentum_trend": 3,
       "recent_commits": 1,
       "merged_prs_count": 0,
@@ -3371,20 +4914,20 @@
       "forks_count": 211,
       "open_issues_count": 0,
       "language": "Kotlin",
-      "gem_score": 4.32,
-      "momentum_trend": 0.73,
-      "recent_commits": 8,
+      "gem_score": 4.47,
+      "momentum_trend": 0.79,
+      "recent_commits": 9,
       "merged_prs_count": 0,
       "topics": [],
       "activity": [
         14,
-        15,
+        16,
         4,
-        8
+        9
       ],
       "good_first_issues_url": "https://github.com/KDE/kdeconnect-android/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T12:51:35Z",
+      "pushed_at": "2026-06-14T02:02:04Z",
       "is_hype": false,
       "license": "GPL-2.0",
       "latest_release": null,
@@ -3420,7 +4963,120 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 32,
+      "maintenance_score": 33,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "TMDb-MotionLayout-Paging2-Playground",
+      "full_name": "alirezaeiii/TMDb-MotionLayout-Paging2-Playground",
+      "description": "A sample using Kotlin, MVVM, Paging2, Dagger2, RxJava2, Coroutines, Jetpack Compose, Retrofit, Glide, Espresso, Unit test, In-app updates and Github Actions which showcases MotionLayout in Android.",
+      "url": "https://github.com/alirezaeiii/TMDb-MotionLayout-Paging2-Playground",
+      "stars": 165,
+      "forks_count": 23,
+      "open_issues_count": 0,
+      "language": "Kotlin",
+      "gem_score": 4.03,
+      "momentum_trend": 1,
+      "recent_commits": 2,
+      "merged_prs_count": 0,
+      "topics": [
+        "kotlin",
+        "paging-library",
+        "dagger2-android"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/alirezaeiii/TMDb-MotionLayout-Paging2-Playground/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T21:38:47Z",
+      "is_hype": false,
+      "latest_release": {
+        "tag": "2.5.33",
+        "published_at": "2024-05-16T21:01:57Z"
+      },
+      "featured": false,
+      "maintenance_score": 1004,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "LightNovelReader",
+      "full_name": "dmzz-yyhyy/LightNovelReader",
+      "description": "一款基于Compose的多数据源轻小说阅读器。支持epub导出，自定义背景样式，本地书架和更新提醒等功能。",
+      "url": "https://github.com/dmzz-yyhyy/LightNovelReader",
+      "stars": 1615,
+      "forks_count": 56,
+      "open_issues_count": 59,
+      "language": "Kotlin",
+      "gem_score": 3.92,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 1,
+      "topics": [
+        "android",
+        "jetpack-compose",
+        "light-novel"
+      ],
+      "activity": [
+        4,
+        2,
+        1,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/dmzz-yyhyy/LightNovelReader/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T17:05:49Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "1.2.0",
+        "published_at": "2026-04-05T16:35:52Z"
+      },
+      "featured": false,
+      "maintenance_score": 13,
+      "bundle_size": null,
+      "is_verified": true
+    },
+    {
+      "name": "ComposeViews",
+      "full_name": "ltttttttttttt/ComposeViews",
+      "description": "Compose Multiplatform views, in to Android, Web, Desktop, iOS: Pager, Banner, Indicator, Refresh Layout, Flow Layout, Menu Floating Action Button, Pull To Refresh, Chain Scrollable Component, Scrollable App Bar(Nested Scroll View),Date Selector(Time Selector Date Picker), Swipe To Dismiss, Image viewer, ZoomLayout, Star Bar and more",
+      "url": "https://github.com/ltttttttttttt/ComposeViews",
+      "stars": 559,
+      "forks_count": 40,
+      "open_issues_count": 1,
+      "language": "Kotlin",
+      "gem_score": 3.83,
+      "momentum_trend": 9,
+      "recent_commits": 3,
+      "merged_prs_count": 0,
+      "topics": [
+        "android",
+        "compose",
+        "compose-jb"
+      ],
+      "activity": [
+        0,
+        1,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/ltttttttttttt/ComposeViews/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-14T03:04:05Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "1.11.1.3",
+        "published_at": "2026-06-14T03:04:05Z"
+      },
+      "featured": false,
+      "maintenance_score": 87,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3429,7 +5085,7 @@
       "full_name": "Hejsil/zig-clap",
       "description": "Command line argument parsing library",
       "url": "https://github.com/Hejsil/zig-clap",
-      "stars": 1552,
+      "stars": 1553,
       "forks_count": 99,
       "open_issues_count": 6,
       "language": "Zig",
@@ -3471,7 +5127,7 @@
       "forks_count": 14,
       "open_issues_count": 3,
       "language": "Zig",
-      "gem_score": 3.72,
+      "gem_score": 3.71,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -3496,7 +5152,7 @@
         "published_at": "2026-04-24T18:14:59Z"
       },
       "featured": false,
-      "maintenance_score": 49,
+      "maintenance_score": 50,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3505,7 +5161,7 @@
       "full_name": "nektro/zigmod",
       "description": "📦 A package manager for the Zig programming language.",
       "url": "https://github.com/nektro/zigmod",
-      "stars": 934,
+      "stars": 935,
       "forks_count": 38,
       "open_issues_count": 15,
       "language": "Zig",
@@ -3519,8 +5175,8 @@
       ],
       "activity": [
         0,
-        18,
-        22,
+        27,
+        13,
         2
       ],
       "good_first_issues_url": "https://github.com/nektro/zigmod/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -3533,7 +5189,7 @@
         "published_at": "2026-06-10T19:10:20Z"
       },
       "featured": false,
-      "maintenance_score": 404,
+      "maintenance_score": 405,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3571,7 +5227,7 @@
         "published_at": "2026-06-09T07:07:50Z"
       },
       "featured": false,
-      "maintenance_score": 198,
+      "maintenance_score": 199,
       "bundle_size": null,
       "is_verified": false
     },
@@ -3580,7 +5236,7 @@
       "full_name": "TheFox/keylogger",
       "description": "Keylogger for Windows.",
       "url": "https://github.com/TheFox/keylogger",
-      "stars": 218,
+      "stars": 219,
       "forks_count": 79,
       "open_issues_count": 0,
       "language": "Zig",
@@ -3609,9 +5265,9 @@
         "published_at": "2026-05-31T22:25:48Z"
       },
       "featured": false,
-      "maintenance_score": 4097,
+      "maintenance_score": 4098,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "odin-http",
@@ -3639,46 +5295,88 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-12T21:16:08Z",
+      "pushed_at": "2026-06-13T20:59:42Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 62,
+      "maintenance_score": 63,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "AirGuard",
-      "full_name": "seemoo-lab/AirGuard",
-      "description": "Protect yourself from being tracked 🌍 by AirTags 🏷 and Find My accessories 📍",
-      "url": "https://github.com/seemoo-lab/AirGuard",
-      "stars": 2333,
-      "forks_count": 136,
-      "open_issues_count": 15,
+      "name": "Fleks",
+      "full_name": "Quillraven/Fleks",
+      "description": "Fast, lightweight, multi-platform entity component system in Kotlin",
+      "url": "https://github.com/Quillraven/Fleks",
+      "stars": 260,
+      "forks_count": 24,
+      "open_issues_count": 0,
       "language": "Kotlin",
-      "gem_score": 1.58,
-      "momentum_trend": 0,
-      "recent_commits": 0,
+      "gem_score": 2.78,
+      "momentum_trend": 1,
+      "recent_commits": 1,
       "merged_prs_count": 0,
-      "topics": [],
+      "topics": [
+        "entity-component-system",
+        "kotlin",
+        "ecs"
+      ],
       "activity": [
         0,
         0,
         0,
-        0
+        1
       ],
-      "good_first_issues_url": "https://github.com/seemoo-lab/AirGuard/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/Quillraven/Fleks/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-13T13:11:06Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
+      "pushed_at": "2026-06-13T22:37:40Z",
+      "is_hype": false,
+      "license": "MIT",
       "latest_release": {
-        "tag": "3.0.2",
-        "published_at": "2026-04-13T10:39:00Z"
+        "tag": "2.14",
+        "published_at": "2026-05-14T05:23:34Z"
       },
       "featured": false,
-      "maintenance_score": 61,
+      "maintenance_score": 254,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "Manager",
+      "full_name": "Aliucord/Manager",
+      "description": "The new way to install Aliucord – in a user-friendly way",
+      "url": "https://github.com/Aliucord/Manager",
+      "stars": 621,
+      "forks_count": 68,
+      "open_issues_count": 9,
+      "language": "Kotlin",
+      "gem_score": 2.69,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [
+        "android",
+        "compose",
+        "jetpack-compose"
+      ],
+      "activity": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/Aliucord/Manager/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-13T18:16:30Z",
+      "is_hype": false,
+      "license": "OSL-3.0",
+      "latest_release": {
+        "tag": "v1.3.0",
+        "published_at": "2026-05-15T02:01:53Z"
+      },
+      "featured": false,
+      "maintenance_score": 30,
       "bundle_size": null,
       "is_verified": false
     }
