@@ -1,7 +1,42 @@
 {
-  "last_mined": "2026-06-15T04:04:22.373Z",
-  "count": 13,
+  "last_mined": "2026-06-15T17:16:29.320Z",
+  "count": 14,
   "gems": [
+    {
+      "name": "ai-engineering-from-scratch",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "stars": 32908,
+      "forks_count": 5389,
+      "open_issues_count": 21,
+      "language": "Python",
+      "gem_score": 32.17,
+      "momentum_trend": 0.02,
+      "recent_commits": 4,
+      "merged_prs_count": 50,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents"
+      ],
+      "activity": [
+        166,
+        428,
+        42,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-14T16:42:36Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false
+    },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
@@ -11,7 +46,7 @@
       "forks_count": 51,
       "open_issues_count": 44,
       "language": "Odin",
-      "gem_score": 31.32,
+      "gem_score": 31.29,
       "momentum_trend": 1.33,
       "recent_commits": 4,
       "merged_prs_count": 10,
@@ -36,46 +71,46 @@
         "published_at": "2026-05-01T20:20:15Z"
       },
       "featured": false,
-      "maintenance_score": 59,
+      "maintenance_score": 60,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "cypress",
-      "full_name": "cypress-io/cypress",
-      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
-      "url": "https://github.com/cypress-io/cypress",
-      "stars": 49995,
-      "forks_count": 3417,
-      "open_issues_count": 1131,
-      "language": "TypeScript",
-      "gem_score": 26.68,
-      "momentum_trend": 0.66,
-      "recent_commits": 28,
-      "merged_prs_count": 50,
+      "name": "Agent-Reach",
+      "full_name": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "stars": 29805,
+      "forks_count": 2426,
+      "open_issues_count": 31,
+      "language": "Python",
+      "gem_score": 30.47,
+      "momentum_trend": 1,
+      "recent_commits": 34,
+      "merged_prs_count": 28,
       "topics": [
-        "cypress",
-        "end-to-end-testing",
-        "angular-testing-library"
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search"
       ],
       "activity": [
-        36,
-        32,
-        60,
-        28
+        0,
+        0,
+        0,
+        34
       ],
-      "good_first_issues_url": "https://github.com/cypress-io/cypress/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/Panniantong/Agent-Reach/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-15T03:28:40Z",
-      "is_hype": false,
+      "pushed_at": "2026-06-12T14:55:09Z",
+      "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v15.17.0",
-        "published_at": "2026-06-09T16:32:50Z"
+        "tag": "v1.5.0",
+        "published_at": "2026-06-11T12:29:59Z"
       },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": 494,
+      "featured": false,
+      "maintenance_score": 4,
+      "bundle_size": null,
       "is_verified": false
     },
     {
@@ -83,13 +118,13 @@
       "full_name": "meshery/meshery",
       "description": "Meshery, the cloud native manager",
       "url": "https://github.com/meshery/meshery",
-      "stars": 10445,
-      "forks_count": 3424,
-      "open_issues_count": 944,
+      "stars": 10577,
+      "forks_count": 3431,
+      "open_issues_count": 949,
       "language": "TypeScript",
-      "gem_score": 23.52,
-      "momentum_trend": 0.96,
-      "recent_commits": 256,
+      "gem_score": 23.49,
+      "momentum_trend": 0.95,
+      "recent_commits": 255,
       "merged_prs_count": 50,
       "topics": [
         "meshery",
@@ -97,14 +132,14 @@
         "hacktoberfest"
       ],
       "activity": [
-        251,
-        315,
-        230,
-        256
+        261,
+        339,
+        203,
+        255
       ],
       "good_first_issues_url": "https://github.com/meshery/meshery/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-06-14T00:56:55Z",
+      "pushed_at": "2026-06-15T16:43:01Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -112,46 +147,8 @@
         "published_at": "2026-06-13T03:41:41Z"
       },
       "featured": true,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
-      "name": "pytest",
-      "full_name": "pytest-dev/pytest",
-      "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
-      "url": "https://github.com/pytest-dev/pytest",
-      "stars": 14073,
-      "forks_count": 3180,
-      "open_issues_count": 844,
-      "language": "Python",
-      "gem_score": 14.75,
-      "momentum_trend": 0.7,
-      "recent_commits": 19,
-      "merged_prs_count": 48,
-      "topics": [
-        "unit-testing",
-        "test",
-        "testing"
-      ],
-      "activity": [
-        33,
-        22,
-        26,
-        19
-      ],
-      "good_first_issues_url": "https://github.com/pytest-dev/pytest/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-15T03:55:14Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "9.1.0",
-        "published_at": "2026-06-13T18:53:04Z"
-      },
-      "featured": true,
       "maintenance_score": 0,
-      "bundle_size": null,
+      "bundle_size": 525,
       "is_verified": false
     },
     {
@@ -159,12 +156,12 @@
       "full_name": "chatwoot/chatwoot",
       "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
       "url": "https://github.com/chatwoot/chatwoot",
-      "stars": 31311,
-      "forks_count": 7594,
-      "open_issues_count": 906,
+      "stars": 31564,
+      "forks_count": 7621,
+      "open_issues_count": 909,
       "language": "Ruby",
-      "gem_score": 14.28,
-      "momentum_trend": 1.21,
+      "gem_score": 14.26,
+      "momentum_trend": 1.25,
       "recent_commits": 37,
       "merged_prs_count": 50,
       "topics": [
@@ -173,14 +170,14 @@
         "zendesk"
       ],
       "activity": [
-        34,
-        21,
+        30,
+        22,
         37,
         37
       ],
       "good_first_issues_url": "https://github.com/chatwoot/chatwoot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-06-14T03:27:39Z",
+      "pushed_at": "2026-06-15T16:04:21Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -188,9 +185,9 @@
         "published_at": "2026-06-10T17:37:23Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": true
+      "is_verified": false
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -201,7 +198,7 @@
       "forks_count": 357,
       "open_issues_count": 1,
       "language": "Mojo",
-      "gem_score": 13.97,
+      "gem_score": 13.96,
       "momentum_trend": 1.09,
       "recent_commits": 12,
       "merged_prs_count": 0,
@@ -218,7 +215,7 @@
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-14T09:03:23Z",
+      "pushed_at": "2026-06-15T17:05:18Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
@@ -232,13 +229,13 @@
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 1025,
-      "forks_count": 159,
-      "open_issues_count": 88,
+      "stars": 1026,
+      "forks_count": 160,
+      "open_issues_count": 89,
       "language": "Odin",
-      "gem_score": 13.62,
-      "momentum_trend": 1.63,
-      "recent_commits": 19,
+      "gem_score": 13.76,
+      "momentum_trend": 2.03,
+      "recent_commits": 21,
       "merged_prs_count": 27,
       "topics": [
         "language-server",
@@ -246,14 +243,14 @@
         "lsp"
       ],
       "activity": [
-        14,
+        10,
         6,
         15,
-        19
+        21
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-14T03:17:00Z",
+      "pushed_at": "2026-06-15T09:05:49Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -261,7 +258,45 @@
         "published_at": "2026-05-07T07:26:52Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false
+    },
+    {
+      "name": "cua",
+      "full_name": "trycua/cua",
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "url": "https://github.com/trycua/cua",
+      "stars": 18079,
+      "forks_count": 1169,
+      "open_issues_count": 136,
+      "language": "HTML",
+      "gem_score": 11.6,
+      "momentum_trend": 0.22,
+      "recent_commits": 15,
+      "merged_prs_count": 50,
+      "topics": [
+        "apple",
+        "cua",
+        "lume"
+      ],
+      "activity": [
+        96,
+        94,
+        15,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/trycua/cua/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-06-15T09:43:04Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "computer-server-v0.3.41",
+        "published_at": "2026-06-15T09:46:56Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false
     },
@@ -274,7 +309,7 @@
       "forks_count": 25,
       "open_issues_count": 15,
       "language": "Mojo",
-      "gem_score": 11.27,
+      "gem_score": 11.26,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 2,
@@ -303,54 +338,16 @@
       "is_verified": false
     },
     {
-      "name": "swc",
-      "full_name": "swc-project/swc",
-      "description": "Rust-based platform for the Web",
-      "url": "https://github.com/swc-project/swc",
-      "stars": 33808,
-      "forks_count": 1403,
-      "open_issues_count": 364,
-      "language": "Rust",
-      "gem_score": 11.1,
-      "momentum_trend": 0.51,
-      "recent_commits": 13,
-      "merged_prs_count": 48,
-      "topics": [
-        "ecmascript",
-        "compiler",
-        "rust"
-      ],
-      "activity": [
-        47,
-        21,
-        8,
-        13
-      ],
-      "good_first_issues_url": "https://github.com/swc-project/swc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-06-15T01:17:58Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v1.15.41",
-        "published_at": "2026-06-09T15:39:22Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false
-    },
-    {
       "name": "freeCodeCamp",
       "full_name": "freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "stars": 447337,
-      "forks_count": 44960,
-      "open_issues_count": 99,
+      "stars": 447746,
+      "forks_count": 44978,
+      "open_issues_count": 101,
       "language": "TypeScript",
       "gem_score": 10.67,
-      "momentum_trend": 1.13,
+      "momentum_trend": 1.1,
       "recent_commits": 46,
       "merged_prs_count": 50,
       "topics": [
@@ -359,20 +356,58 @@
         "programming"
       ],
       "activity": [
-        40,
-        36,
-        46,
+        45,
+        43,
+        38,
         46
       ],
       "good_first_issues_url": "https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-06-14T19:17:57Z",
+      "pushed_at": "2026-06-15T14:39:01Z",
       "is_hype": false,
       "license": "BSD-3-Clause",
       "latest_release": null,
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": 536,
+      "is_verified": false
+    },
+    {
+      "name": "teslamate",
+      "full_name": "teslamate-org/teslamate",
+      "description": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
+      "url": "https://github.com/teslamate-org/teslamate",
+      "stars": 8187,
+      "forks_count": 944,
+      "open_issues_count": 46,
+      "language": "Elixir",
+      "gem_score": 9.85,
+      "momentum_trend": 3,
+      "recent_commits": 18,
+      "merged_prs_count": 28,
+      "topics": [
+        "tesla",
+        "tesla-api",
+        "elixir-lang"
+      ],
+      "activity": [
+        3,
+        3,
+        12,
+        18
+      ],
+      "good_first_issues_url": "https://github.com/teslamate-org/teslamate/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-15T13:40:41Z",
+      "is_hype": true,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v4.0.1",
+        "published_at": "2026-06-14T17:09:52Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
       "is_verified": false
     },
     {
@@ -384,7 +419,7 @@
       "forks_count": 43,
       "open_issues_count": 17,
       "language": "Odin",
-      "gem_score": 2.89,
+      "gem_score": 2.88,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -411,22 +446,22 @@
       "is_verified": false
     },
     {
-      "name": "Introduction-to-Autonomous-Robots",
-      "full_name": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
-      "description": "Introduction to Autonomous Robots",
-      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
-      "stars": 2793,
-      "forks_count": 625,
-      "open_issues_count": 7,
-      "language": "TeX",
-      "gem_score": 0.82,
+      "name": "hello-algo",
+      "full_name": "krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "url": "https://github.com/krahets/hello-algo",
+      "stars": 126828,
+      "forks_count": 15132,
+      "open_issues_count": 12,
+      "language": "Java",
+      "gem_score": 0.71,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
       "topics": [
-        "robotics",
-        "book",
-        "cu"
+        "algorithms",
+        "data-structures",
+        "data-structures-and-algorithms"
       ],
       "activity": [
         0,
@@ -434,37 +469,37 @@
         0,
         0
       ],
-      "good_first_issues_url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/krahets/hello-algo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-02-11T23:38:22Z",
+      "pushed_at": "2026-04-18T18:23:33Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
-        "tag": "v3.0",
-        "published_at": "2021-12-01T21:31:57Z"
+        "tag": "1.3.0",
+        "published_at": "2026-01-01T20:48:29Z"
       },
-      "featured": true,
-      "maintenance_score": 264,
+      "featured": false,
+      "maintenance_score": 57,
       "bundle_size": null,
       "is_verified": false
     },
     {
-      "name": "Clone-Wars",
-      "full_name": "GorvGoyl/Clone-Wars",
-      "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
-      "url": "https://github.com/GorvGoyl/Clone-Wars",
-      "stars": 35565,
-      "forks_count": 3191,
-      "open_issues_count": 20,
+      "name": "coding-interview-university",
+      "full_name": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "stars": 352173,
+      "forks_count": 83550,
+      "open_issues_count": 78,
       "language": "Plain Text",
-      "gem_score": 0.48,
+      "gem_score": 0.44,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
       "topics": [
-        "clone",
-        "tiktok",
-        "whatsapp"
+        "computer-science",
+        "interview",
+        "programming-interviews"
       ],
       "activity": [
         0,
@@ -472,14 +507,14 @@
         0,
         0
       ],
-      "good_first_issues_url": "https://github.com/GorvGoyl/Clone-Wars/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/jwasham/coding-interview-university/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2024-08-06T12:31:36Z",
-      "is_hype": true,
-      "license": "AGPL-3.0",
+      "pushed_at": "2025-08-28T14:42:47Z",
+      "is_hype": false,
+      "license": "CC-BY-SA-4.0",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 677,
+      "maintenance_score": 3538,
       "bundle_size": null,
       "is_verified": false
     }
