@@ -57,7 +57,7 @@ export function CommandPalette({ gems }: CommandPaletteProps) {
                   No gems found for this search.
                 </Command.Empty>
                 <Command.Group heading="Repositories" className="px-2 py-3 text-[10px] font-bold uppercase tracking-widest text-white/20">
-                  {gems.map((gem) => (
+                  {gems.slice(0, 30).map((gem) => (
                     <Command.Item
                       key={gem.full_name}
                       onSelect={() => {

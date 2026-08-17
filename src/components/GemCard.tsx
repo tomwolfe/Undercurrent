@@ -9,6 +9,7 @@ import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { ClaimRepoButton } from "./ui/ClaimRepoButton";
 
+
 import { Gem } from "@/types";
 
 interface GemCardProps {
@@ -34,10 +35,12 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
     return "Gem";
   };
 
-  const isRecent = useMemo(() => {
-    if (now === 0) return false;
-    return new Date(gem.pushed_at).getTime() > now - 7 * 24 * 60 * 60 * 1000;
-  }, [gem.pushed_at, now]);
+  const isNew = useMemo(() => {
+    if (!gem.first_seen) return false;
+    const firstSeen = new Date(gem.first_seen);
+    const sevenDaysAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
+    return firstSeen > sevenDaysAgo;
+  }, [gem.first_seen, now]);
 
   const isNewRelease = useMemo(() => {
     if (!gem.latest_release?.published_at) return false;
@@ -116,6 +119,12 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
                 {isNewRelease && (
                   <Badge variant="default" className="bg-blue-500/10 text-blue-400 border-blue-500/20 text-[9px] px-1.5 py-0">
                     NEW RELEASE
+                  </Badge>
+                )}
+                {isNew && (
+                  <Badge variant="default" className="bg-emerald-500/10 text-emerald-400 border-emerald-500/20 text-[9px] px-1.5 py-0">
+                    <Sparkles size={10} className="fill-current" />
+                    NEW
                   </Badge>
                 )}
               </div>
@@ -227,7 +236,7 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
               </div>
             )}
             <div className="ml-auto">
-              <ClaimRepoButton repoFullName={gem.full_name} isVerified={gem.is_verified} />
+              <ClaimRepoButton />
             </div>
           </div>
 

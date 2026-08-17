@@ -33,6 +33,7 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
   
   const [activeModal, setActiveModal] = useState<string | null>(null);
   const [now, setNow] = useState(0);
+  const [visibleGemCount, setVisibleGemCount] = useState(40);
 
   const [savedGems, setSavedGems] = useLocalStorage<string[]>("saved-gems", []);
 
@@ -96,11 +97,22 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
         // Search query
         if (debouncedSearchQuery) {
           const query = debouncedSearchQuery.toLowerCase();
+          
+          const matchesQuery = (text: string | string[]) => {
+            if (!text) return false;
+            const textLower = typeof text === 'string' ? text.toLowerCase() : text.map(t => t.toLowerCase()).join(' ');
+            // Substring match
+            if (textLower.includes(query)) return true;
+            // Token/word match - check if any word contains the query
+            const tokens = textLower.split(/\s+/);
+            return tokens.some(token => token.includes(query));
+          };
+          
           return (
-            gem.name.toLowerCase().includes(query) ||
-            (gem.description || "").toLowerCase().includes(query) ||
-            gem.language.toLowerCase().includes(query) ||
-            (gem.topics || []).some(topic => topic.toLowerCase().includes(query))
+            matchesQuery(gem.name) ||
+            matchesQuery(gem.description) ||
+            matchesQuery(gem.language) ||
+            (gem.topics || []).some(topic => matchesQuery(topic))
           );
         }
         return true;
@@ -211,21 +223,29 @@ export function Explorer({ initialGems, lastMined }: ExplorerProps) {
         transition={{ duration: 0.4, ease: "easeOut" }}
         className="mx-auto max-w-7xl px-6 py-12"
       >
-        {filteredGems.length > 0 ? (
-          <ErrorBoundary>
-            <MasonryGrid className="gap-6">
-              {filteredGems.map((gem) => (
-                <GemCard 
-                  key={gem.full_name} 
-                  gem={gem} 
-                  now={now} 
-                  isSaved={savedGems.includes(gem.full_name)}
-                  onToggleSave={toggleSave}
-                />
-              ))}
-            </MasonryGrid>
-          </ErrorBoundary>
-        ) : (
+{filteredGems.length > 0 ? (
+            <ErrorBoundary>
+              <MasonryGrid className="gap-6">
+                {filteredGems.slice(0, visibleGemCount).map((gem) => (
+                  <GemCard 
+                    key={gem.full_name} 
+                    gem={gem} 
+                    now={now} 
+                    isSaved={savedGems.includes(gem.full_name)}
+                    onToggleSave={toggleSave}
+                  />
+                ))}
+                {filteredGems.length > visibleGemCount && (
+                  <button
+                    onClick={() => setVisibleGemCount(prev => Math.min(prev + 40, filteredGems.length))}
+                    className="mt-6 px-6 py-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-xs font-semibold transition-all"
+                  >
+                    Load more {filteredGems.length - visibleGemCount > 0 ? `+${filteredGems.length - visibleGemCount}` : ""}
+                  </button>
+                )}
+              </MasonryGrid>
+            </ErrorBoundary>
+          ) : (
           <div className="flex flex-col items-center justify-center h-96 text-center">
             <div className="h-20 w-20 rounded-full bg-white/[0.02] border border-white/5 flex items-center justify-center mb-6">
               <X size={32} className="text-white/10" />

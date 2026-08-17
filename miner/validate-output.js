@@ -25,7 +25,8 @@ const GemSchema = z.object({
   latest_release: z.object({
     tag: z.string(),
     published_at: z.string()
-  }).nullable()
+  }).nullable(),
+  first_seen: z.string().optional()
 });
 
 const GemsResponseSchema = z.object({

@@ -78,6 +78,7 @@ export interface ScoredGem {
   maintenance_score?: number;
   bundle_size?: number | null;
   is_verified?: boolean;
+  first_seen?: string; // ISO string, when repo was first mined
 }
 
 export interface MiningConfig {

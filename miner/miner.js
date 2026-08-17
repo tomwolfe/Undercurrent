@@ -25,11 +25,15 @@ const TARGET_LANGUAGES = [
 ];
 
 const CHURN_KEYWORDS = [
-  "config", "vpn", "proxy", "list", "index", "blocklist", 
-  "iptv", "rules", "detect", "scripts", "backup", "hot-search", 
+  "config", "vpn", "proxy", "list", "index", "blocklist",
+  "iptv", "rules", "detect", "scripts", "backup", "hot-search",
   "trending", "awesome-list", "collection", "mirrors", "database",
   "dns", "auto-updated", "hosts", "payload", "cve", "poc",
-  "homework", "assignment", "leetcode", "tutorial", "course"
+  "homework", "assignment", "leetcode", "tutorial", "course",
+  // Multi-language VPN/proxy terms
+  "节点", "分流", "翻墙", "科学上网", "订阅",
+  "clash", "v2ray", "shadowsocks", "trojan", "reality",
+  "sing-box", "xray", "naiveproxy", "hysteria"
 ];
 
 const HYPE_KEYWORDS = [
@@ -158,6 +162,46 @@ function isLikelyChurn(repo) {
 
   // Common automated repo patterns
   if (name.match(/\d{4}-\d{2}-\d{2}/) || name.match(/\d{6,}/)) {
+    return true;
+  }
+
+  return false;
+}
+
+/**
+ * Loads the blocklist of known-bad repos
+ * @returns {Set<string>}
+ */
+function loadBlocklist() {
+  try {
+    const blocklistPath = path.join(__dirname, "blocklist.json");
+    if (fs.existsSync(blocklistPath)) {
+      const data = JSON.parse(fs.readFileSync(blocklistPath, "utf8"));
+      return new Set(data);
+    }
+  } catch (error) {
+    console.warn("Warning: Could not load blocklist:", error.message);
+  }
+  return new Set();
+}
+
+/**
+ * Checks if a repository is likely spam based on computed signals
+ * @param {Repository} repo
+ * @param {number} maintenanceScore
+ * @param {number} mergedPrsCount
+ * @param {number} openIssuesCount
+ * @returns {boolean}
+ */
+function isLikelySpam(repo, maintenanceScore, mergedPrsCount, openIssuesCount) {
+  // Bot-repo signature: high maintenance score (no recent merges), zero PRs, zero issues
+  if (maintenanceScore === 999 && mergedPrsCount === 0 && openIssuesCount === 0) {
+    return true;
+  }
+
+  // Keyword-stuffed description heuristic
+  const description = repo.description || "";
+  if (description.length > 300) {
     return true;
   }
 
@@ -335,6 +379,16 @@ async function getGems() {
     w4: new Date(new Date().setDate(now.getDate() - 28)).toISOString()
   };
 
+  const blocklist = loadBlocklist();
+  const historyPath = path.join(__dirname, "../public/history.json");
+  let history = {};
+  if (fs.existsSync(historyPath)) {
+    try {
+      history = JSON.parse(fs.readFileSync(historyPath, "utf8"));
+    } catch (error) {
+      console.warn("Warning: Could not parse history.json, starting fresh");
+    }
+  }
   const allRepos = new Map();
 
   // 1. Trending discovery
@@ -376,7 +430,15 @@ async function getGems() {
   console.log(`Total unique repositories found: ${allRepos.size}. Calculating scores and enriching data...`);
 
   const scoredRepos = await Promise.all(Array.from(allRepos.values())
-    .filter(repo => !isLikelyChurn(repo))
+    .filter(repo => {
+      const fullName = `${repo.owner.login}/${repo.name}`;
+      // Skip blocklisted repos
+      if (blocklist.has(fullName)) {
+        console.log(`  Skipping blocklisted repo: ${fullName}`);
+        return false;
+      }
+      return !isLikelyChurn(repo);
+    })
     .map(async (repo) => {
       try {
         const fullName = `${repo.owner.login}/${repo.name}`;
@@ -445,7 +507,8 @@ async function getGems() {
           featured: featured,
           maintenance_score: maintenance_score,
           bundle_size: bundle_size,
-          is_verified: Math.random() > 0.9 // Mock verification logic
+          is_verified: !!(repo.licenseInfo && repo.latestRelease && maintenance_score < 30),
+          first_seen: history[fullName] || now.toISOString()
         };
       } catch (err) {
         console.error(`Error processing repo ${repo.name}:`, err.message);
@@ -455,8 +518,17 @@ async function getGems() {
 
   const filteredScoredRepos = scoredRepos.filter(Boolean);
 
+  // Apply spam filter using computed signals
+  const spamFilteredRepos = filteredScoredRepos.filter(gem => {
+    if (isLikelySpam({ name: gem.name, description: gem.description }, gem.maintenance_score, gem.merged_prs_count, gem.open_issues_count)) {
+      console.log(`  Dropping spam: ${gem.full_name} (maintenance:${gem.maintenance_score}, prs:${gem.merged_prs_count}, issues:${gem.open_issues_count})`);
+      return false;
+    }
+    return true;
+  });
+
   // Sort and Diversity Filter
-  const sortedGems = filteredScoredRepos.sort((a, b) => b.gem_score - a.gem_score);
+  const sortedGems = spamFilteredRepos.sort((a, b) => b.gem_score - a.gem_score);
   
   const finalGems = [];
   let hypeCount = 0;
@@ -484,10 +556,14 @@ async function getGems() {
 
   const outputPath = path.join(__dirname, "../public/gems.json");
   fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+
+  // Write history.json for cross-run freshness tracking
+  const historyOutputPath = path.join(__dirname, "../public/history.json");
+  fs.writeFileSync(historyOutputPath, JSON.stringify(history, null, 2));
   console.log(`Successfully mined ${finalGems.length} gems (Hype: ${hypeCount}) and saved to public/gems.json`);
 }
 
-module.exports = { calculateScore, isLikelyChurn, isHype, calculateMaintenanceScore };
+module.exports = { calculateScore, isLikelyChurn, isHype, calculateMaintenanceScore, isLikelySpam, loadBlocklist };
 
 if (require.main === module) {
   if (!GITHUB_TOKEN) {

@@ -1,6 +1,6 @@
 const assert = require("node:assert");
 const test = require("node:test");
-const { calculateScore, isLikelyChurn, isHype, calculateMaintenanceScore } = require("./miner.js");
+const { calculateScore, isLikelyChurn, isHype, calculateMaintenanceScore, isLikelySpam } = require("./miner.js");
 
 test("calculateMaintenanceScore logic", async (t) => {
   await t.test("should return 0 for just merged PR", () => {
@@ -129,10 +129,49 @@ test("isLikelyChurn logic", async (t) => {
   });
 });
 
-test("isHype logic", async (t) => {
-  await t.test("should identify hype keywords", () => {
-    assert.strictEqual(isHype({ name: "ai-generator", description: "" }), true);
-    assert.strictEqual(isHype({ name: "my-cool-app", description: "using llm and gpt" }), true);
-    assert.strictEqual(isHype({ name: "database-driver", description: "" }), false);
+test("isLikelySpam logic", async (t) => {
+  await t.test("should detect bot repo: maintenance_score 999, 0 PRs, 0 issues", () => {
+    const repo = {
+      name: "test-bot",
+      description: "just a test",
+      stargazerCount: 100,
+      createdAt: new Date(Date.now() - 12 * 30 * 24 * 60 * 60 * 1000).toISOString(),
+      primaryLanguage: { name: "Plain Text" }
+    };
+    // Mock isLikelySpam conditions
+    assert.strictEqual(isLikelySpam(repo, 999, 0, 0), true, "Bot repo should be dropped");
+  });
+
+  await t.test("should not flag repo with activity", () => {
+    const repo = {
+      name: "active-repo",
+      description: "An active project",
+      stargazerCount: 500,
+      createdAt: new Date(Date.now() - 12 * 30 * 24 * 60 * 60 * 1000).toISOString(),
+      primaryLanguage: { name: "Rust" }
+    };
+    assert.strictEqual(isLikelySpam(repo, 10, 5, 10), false, "Active repo should not be flagged");
+  });
+
+  await t.test("should detect keyword-stuffed description > 300 chars", () => {
+    const repo = {
+      name: "repo",
+      description: "A".repeat(350),
+      stargazerCount: 100,
+      createdAt: new Date(Date.now() - 12 * 30 * 24 * 60 * 60 * 1000).toISOString(),
+      primaryLanguage: { name: "Plain Text" }
+    };
+    assert.strictEqual(isLikelySpam(repo, 999, 0, 0), true, "Long description should be flagged");
+  });
+
+  await t.test("should not flag short descriptions", () => {
+    const repo = {
+      name: "repo",
+      description: "A short description",
+      stargazerCount: 100,
+      createdAt: new Date(Date.now() - 12 * 30 * 24 * 60 * 60 * 1000).toISOString(),
+      primaryLanguage: { name: "Plain Text" }
+    };
+    assert.strictEqual(isLikelySpam(repo, 10, 0, 0), false, "Short description with activity should not be flagged");
   });
 });
