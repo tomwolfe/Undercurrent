@@ -48,6 +48,12 @@ export function GemCard({ gem, now, isSaved, onToggleSave }: GemCardProps) {
     return publishedAt > now - 30 * 24 * 60 * 60 * 1000;
   }, [gem.latest_release, now]);
 
+  const isRecent = useMemo(() => {
+    if (!gem.pushed_at) return false;
+    const pushedAt = new Date(gem.pushed_at).getTime();
+    return pushedAt > now - 7 * 24 * 60 * 60 * 1000;
+  }, [gem.pushed_at, now]);
+
   const trendIcon = useMemo(() => {
     if (gem.momentum_trend > 1.2) return <TrendingUp size={10} className="text-emerald-500" />;
     if (gem.momentum_trend < 0.8) return <TrendingDown size={10} className="text-rose-500" />;
