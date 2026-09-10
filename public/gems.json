@@ -1,30 +1,30 @@
 {
-  "last_mined": "2026-09-09T15:57:50.225Z",
-  "count": 13,
+  "last_mined": "2026-09-10T03:00:40.514Z",
+  "count": 10,
   "gems": [
     {
       "name": "teamai-cli",
       "full_name": "Tencent/teamai-cli",
       "description": "Make Every Team AI Native",
       "url": "https://github.com/Tencent/teamai-cli",
-      "stars": 2797,
-      "forks_count": 176,
-      "open_issues_count": 15,
+      "stars": 3108,
+      "forks_count": 195,
+      "open_issues_count": 18,
       "language": "TypeScript",
-      "gem_score": 48.22,
-      "momentum_trend": 3.84,
-      "recent_commits": 132,
+      "gem_score": 47.83,
+      "momentum_trend": 4.08,
+      "recent_commits": 140,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
         3,
         40,
         60,
-        132
+        140
       ],
       "good_first_issues_url": "https://github.com/Tencent/teamai-cli/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-09T14:12:35Z",
+      "pushed_at": "2026-09-10T02:41:44Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -35,58 +35,19 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-09T15:52:20.028Z"
-    },
-    {
-      "name": "karl2d",
-      "full_name": "karl-zylinski/karl2d",
-      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
-      "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 663,
-      "forks_count": 59,
-      "open_issues_count": 37,
-      "language": "Odin",
-      "gem_score": 33.48,
-      "momentum_trend": 0.27,
-      "recent_commits": 4,
-      "merged_prs_count": 37,
-      "topics": [
-        "gamedev",
-        "odin",
-        "odin-lang"
-      ],
-      "activity": [
-        9,
-        6,
-        29,
-        4
-      ],
-      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-09T15:33:38Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": {
-        "tag": "karl2d-jam-hotfix-1",
-        "published_at": "2026-05-01T20:20:15Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "text-to-cad",
       "full_name": "earthtojake/text-to-cad",
       "description": "A library of agent skills for CAD, CAE and CAM",
       "url": "https://github.com/earthtojake/text-to-cad",
-      "stars": 14917,
-      "forks_count": 1560,
+      "stars": 15090,
+      "forks_count": 1564,
       "open_issues_count": 4,
       "language": "Python",
-      "gem_score": 33.23,
-      "momentum_trend": 0.18,
+      "gem_score": 33.19,
+      "momentum_trend": 0.2,
       "recent_commits": 18,
       "merged_prs_count": 50,
       "topics": [
@@ -95,14 +56,14 @@
         "cad"
       ],
       "activity": [
-        217,
-        87,
+        189,
+        81,
         0,
         18
       ],
       "good_first_issues_url": "https://github.com/earthtojake/text-to-cad/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-09T15:51:25Z",
+      "pushed_at": "2026-09-09T21:41:16Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -110,23 +71,23 @@
         "published_at": "2026-09-08T18:32:40Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "editor",
       "full_name": "pascalorg/editor",
-      "description": "Create and share 3D architectural projects.",
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
       "url": "https://github.com/pascalorg/editor",
-      "stars": 22768,
-      "forks_count": 2888,
+      "stars": 22993,
+      "forks_count": 2900,
       "open_issues_count": 27,
       "language": "TypeScript",
-      "gem_score": 30.13,
-      "momentum_trend": 1.25,
-      "recent_commits": 38,
+      "gem_score": 31.42,
+      "momentum_trend": 2.12,
+      "recent_commits": 67,
       "merged_prs_count": 49,
       "topics": [
         "3d",
@@ -134,15 +95,15 @@
         "bim"
       ],
       "activity": [
-        35,
-        29,
-        27,
-        38
+        37,
+        28,
+        30,
+        67
       ],
       "good_first_issues_url": "https://github.com/pascalorg/editor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-09T15:37:00Z",
-      "is_hype": false,
+      "pushed_at": "2026-09-10T00:54:24Z",
+      "is_hype": true,
       "license": "MIT",
       "latest_release": {
         "tag": "v0.9.1",
@@ -152,62 +113,62 @@
       "maintenance_score": 0,
       "bundle_size": 507,
       "is_verified": true,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "i-have-adhd",
       "full_name": "ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "url": "https://github.com/ayghri/i-have-adhd",
-      "stars": 33514,
-      "forks_count": 1980,
-      "open_issues_count": 16,
+      "stars": 34949,
+      "forks_count": 2048,
+      "open_issues_count": 17,
       "language": "Python",
-      "gem_score": 18.97,
-      "momentum_trend": 0.16,
-      "recent_commits": 2,
-      "merged_prs_count": 11,
+      "gem_score": 21.43,
+      "momentum_trend": 0.42,
+      "recent_commits": 5,
+      "merged_prs_count": 12,
       "topics": [
         "adhd",
         "claude-",
         "claude-code-plugin"
       ],
       "activity": [
-        22,
+        21,
         5,
         10,
-        2
+        5
       ],
       "good_first_issues_url": "https://github.com/ayghri/i-have-adhd/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-08T17:08:54Z",
+      "pushed_at": "2026-09-10T00:47:20Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 22,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "plugins",
       "full_name": "openai/plugins",
       "description": "OpenAI Plugins",
       "url": "https://github.com/openai/plugins",
-      "stars": 6104,
-      "forks_count": 816,
+      "stars": 6226,
+      "forks_count": 830,
       "open_issues_count": 0,
       "language": "JavaScript",
-      "gem_score": 16.58,
+      "gem_score": 16.52,
       "momentum_trend": 0.6,
       "recent_commits": 1,
       "merged_prs_count": 6,
       "topics": [],
       "activity": [
         0,
-        1,
-        4,
+        2,
+        3,
         1
       ],
       "good_first_issues_url": "https://github.com/openai/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -216,62 +177,23 @@
       "is_hype": true,
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-09T15:52:20.028Z"
-    },
-    {
-      "name": "ols",
-      "full_name": "DanielGavin/ols",
-      "description": "Language server for Odin",
-      "url": "https://github.com/DanielGavin/ols",
-      "stars": 1170,
-      "forks_count": 188,
-      "open_issues_count": 96,
-      "language": "Odin",
-      "gem_score": 13.03,
-      "momentum_trend": 0.59,
-      "recent_commits": 12,
-      "merged_prs_count": 31,
-      "topics": [
-        "language-server",
-        "odin",
-        "lsp"
-      ],
-      "activity": [
-        20,
-        11,
-        30,
-        12
-      ],
-      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-09T00:37:02Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "dev-2026-08",
-        "published_at": "2026-08-30T23:55:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "diagram-design",
       "full_name": "cathrynlavery/diagram-design",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "stars": 36245,
-      "forks_count": 2284,
-      "open_issues_count": 19,
+      "stars": 36738,
+      "forks_count": 2330,
+      "open_issues_count": 17,
       "language": "HTML",
-      "gem_score": 12.55,
-      "momentum_trend": 0.68,
-      "recent_commits": 14,
+      "gem_score": 12.77,
+      "momentum_trend": 1.11,
+      "recent_commits": 17,
       "merged_prs_count": 50,
       "topics": [
         "agent-skills",
@@ -279,33 +201,33 @@
         "codex"
       ],
       "activity": [
-        42,
-        16,
-        4,
-        14
+        31,
+        10,
+        5,
+        17
       ],
       "good_first_issues_url": "https://github.com/cathrynlavery/diagram-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-08T19:45:13Z",
+      "pushed_at": "2026-09-10T00:32:25Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 2,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "awesome-gpt-image-2",
       "full_name": "freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "stars": 29846,
-      "forks_count": 2876,
-      "open_issues_count": 11,
+      "stars": 30161,
+      "forks_count": 2920,
+      "open_issues_count": 13,
       "language": "JavaScript",
-      "gem_score": 10.73,
+      "gem_score": 10.72,
       "momentum_trend": 0.69,
       "recent_commits": 3,
       "merged_prs_count": 1,
@@ -330,54 +252,18 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-09T15:52:20.028Z"
-    },
-    {
-      "name": "mojo-gpu-puzzles",
-      "full_name": "modular/mojo-gpu-puzzles",
-      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
-      "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 386,
-      "forks_count": 380,
-      "open_issues_count": 1,
-      "language": "Mojo",
-      "gem_score": 10.35,
-      "momentum_trend": 0.39,
-      "recent_commits": 6,
-      "merged_prs_count": 0,
-      "topics": [
-        "mojo",
-        "gpu",
-        "learn-by-doing"
-      ],
-      "activity": [
-        17,
-        20,
-        9,
-        6
-      ],
-      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-09T06:32:43Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 50,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 283845,
-      "forks_count": 25401,
+      "stars": 284089,
+      "forks_count": 25414,
       "open_issues_count": 124,
       "language": "Shell",
-      "gem_score": 8.72,
+      "gem_score": 8.71,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 4,
@@ -387,7 +273,7 @@
         "coding"
       ],
       "activity": [
-        1,
+        0,
         0,
         0,
         0
@@ -402,19 +288,19 @@
         "published_at": "2026-08-12T16:58:30Z"
       },
       "featured": true,
-      "maintenance_score": 27,
+      "maintenance_score": 28,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "TradingAgents",
       "full_name": "TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "url": "https://github.com/TauricResearch/TradingAgents",
-      "stars": 103705,
-      "forks_count": 19950,
-      "open_issues_count": 172,
+      "stars": 104037,
+      "forks_count": 19980,
+      "open_issues_count": 174,
       "language": "Python",
       "gem_score": 8.58,
       "momentum_trend": 1.71,
@@ -441,27 +327,27 @@
         "published_at": "2026-08-31T03:10:43Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     },
     {
       "name": "system-design-notes",
       "full_name": "liquidslr/system-design-notes",
       "description": "Notes of the book System Desgin Interview - An Insider's Guide",
       "url": "https://github.com/liquidslr/system-design-notes",
-      "stars": 17731,
-      "forks_count": 3372,
+      "stars": 18086,
+      "forks_count": 3412,
       "open_issues_count": 2,
       "language": "Plain Text",
-      "gem_score": 1.51,
+      "gem_score": 1.5,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 1,
       "topics": [],
       "activity": [
-        1,
+        0,
         0,
         0,
         0
@@ -472,10 +358,10 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 27,
+      "maintenance_score": 28,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-09T15:52:20.028Z"
+      "first_seen": "2026-09-10T02:58:07.955Z"
     }
   ]
 }
