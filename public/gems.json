@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-09-14T17:41:46.602Z",
-  "count": 47,
+  "last_mined": "2026-09-15T03:23:43.517Z",
+  "count": 89,
   "gems": [
     {
       "name": "oh-my-hermes",
       "full_name": "rlaope/oh-my-hermes",
       "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
       "url": "https://github.com/rlaope/oh-my-hermes",
-      "stars": 1911,
-      "forks_count": 155,
-      "open_issues_count": 12,
+      "stars": 2124,
+      "forks_count": 163,
+      "open_issues_count": 15,
       "language": "Python",
-      "gem_score": 72.2,
-      "momentum_trend": 1.38,
-      "recent_commits": 380,
+      "gem_score": 71.16,
+      "momentum_trend": 1.34,
+      "recent_commits": 376,
       "merged_prs_count": 50,
       "topics": [
         "agent",
@@ -21,14 +21,14 @@
         "ai-agent"
       ],
       "activity": [
-        198,
-        306,
-        324,
-        380
+        199,
+        305,
+        340,
+        376
       ],
       "good_first_issues_url": "https://github.com/rlaope/oh-my-hermes/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-14T15:48:12Z",
+      "pushed_at": "2026-09-15T03:10:48Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -39,7 +39,85 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "vellum-assistant",
+      "full_name": "vellum-ai/vellum-assistant",
+      "description": "An AI Assistant that’s easy to setup, does your work 24/7, knows your preferences and gets better over time.",
+      "url": "https://github.com/vellum-ai/vellum-assistant",
+      "stars": 1256,
+      "forks_count": 179,
+      "open_issues_count": 53,
+      "language": "TypeScript",
+      "gem_score": 68.18,
+      "momentum_trend": 0.94,
+      "recent_commits": 259,
+      "merged_prs_count": 50,
+      "topics": [
+        "ai-assistant",
+        "anthropic",
+        "macos"
+      ],
+      "activity": [
+        283,
+        319,
+        228,
+        259
+      ],
+      "good_first_issues_url": "https://github.com/vellum-ai/vellum-assistant/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-15T03:12:52Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.12.1",
+        "published_at": "2026-09-14T17:48:55Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "vm0",
+      "full_name": "vm0-ai/vm0",
+      "description": "Okou connects to the tools your team already uses and does the work — across marketing, sales, engineering, and operations, under your control.",
+      "url": "https://github.com/vm0-ai/vm0",
+      "stars": 1152,
+      "forks_count": 70,
+      "open_issues_count": 113,
+      "language": "TypeScript",
+      "gem_score": 67.27,
+      "momentum_trend": 1.12,
+      "recent_commits": 992,
+      "merged_prs_count": 50,
+      "topics": [
+        "agentic-workflow",
+        "ai-agent",
+        "ai-runtime"
+      ],
+      "activity": [
+        731,
+        856,
+        1060,
+        992
+      ],
+      "good_first_issues_url": "https://github.com/vm0-ai/vm0/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:17:32Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "guest-control-tests-v0.11.11",
+        "published_at": "2026-09-15T02:40:58Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "zwasm",
@@ -47,10 +125,10 @@
       "description": "A fast, spec-compliant WebAssembly runtime written in Zig",
       "url": "https://github.com/zwasm/zwasm",
       "stars": 175,
-      "forks_count": 10,
+      "forks_count": 11,
       "open_issues_count": 47,
       "language": "Zig",
-      "gem_score": 65.02,
+      "gem_score": 64.96,
       "momentum_trend": 1.43,
       "recent_commits": 48,
       "merged_prs_count": 50,
@@ -60,8 +138,8 @@
         "simd"
       ],
       "activity": [
-        38,
-        43,
+        39,
+        42,
         20,
         48
       ],
@@ -75,23 +153,174 @@
         "published_at": "2026-09-14T08:45:40Z"
       },
       "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "thesvg",
+      "full_name": "glincker/thesvg",
+      "description": "7,400+ brand SVG icons for developers. Tree-shakeable, typed, open source. npm i thesvg",
+      "url": "https://github.com/glincker/thesvg",
+      "stars": 2693,
+      "forks_count": 212,
+      "open_issues_count": 3,
+      "language": "TypeScript",
+      "gem_score": 59.92,
+      "momentum_trend": 4.87,
+      "recent_commits": 73,
+      "merged_prs_count": 49,
+      "topics": [
+        "icons",
+        "logos",
+        "react"
+      ],
+      "activity": [
+        10,
+        3,
+        32,
+        73
+      ],
+      "good_first_issues_url": "https://github.com/glincker/thesvg/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:17:16Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "thesvg@3.3.7",
+        "published_at": "2026-09-14T04:42:54Z"
+      },
+      "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "ComfyUI_frontend",
+      "full_name": "Comfy-Org/ComfyUI_frontend",
+      "description": "Official front-end implementation of ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI_frontend",
+      "stars": 2010,
+      "forks_count": 697,
+      "open_issues_count": 1687,
+      "language": "TypeScript",
+      "gem_score": 55.19,
+      "momentum_trend": 1.3,
+      "recent_commits": 258,
+      "merged_prs_count": 50,
+      "topics": [
+        "generative-ai",
+        "machine-learning"
+      ],
+      "activity": [
+        110,
+        190,
+        297,
+        258
+      ],
+      "good_first_issues_url": "https://github.com/Comfy-Org/ComfyUI_frontend/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-15T03:17:36Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v1.55.9",
+        "published_at": "2026-09-14T00:53:45Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "OpenSwarm",
+      "full_name": "Intrect-io/OpenSwarm",
+      "description": "OpenSwarm — Autonomous AI dev team orchestrator powered by Claude Code CLI. Discord control, Linear integration, cognitive memory.",
+      "url": "https://github.com/Intrect-io/OpenSwarm",
+      "stars": 856,
+      "forks_count": 148,
+      "open_issues_count": 0,
+      "language": "TypeScript",
+      "gem_score": 55.15,
+      "momentum_trend": 1.22,
+      "recent_commits": 60,
+      "merged_prs_count": 50,
+      "topics": [
+        "ai-agents",
+        "ai-coding",
+        "autonomous-agents"
+      ],
+      "activity": [
+        6,
+        84,
+        58,
+        60
+      ],
+      "good_first_issues_url": "https://github.com/Intrect-io/OpenSwarm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:57:45Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.24.0",
+        "published_at": "2026-09-09T19:59:57Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "atomic",
+      "full_name": "bastani-inc/atomic",
+      "description": "The verifiable coding agent runtime. Define your coding agent's process in natural language with stages, checks, and approval gates instead of hoping it follows your instructions.",
+      "url": "https://github.com/bastani-inc/atomic",
+      "stars": 797,
+      "forks_count": 111,
+      "open_issues_count": 25,
+      "language": "TypeScript",
+      "gem_score": 55.11,
+      "momentum_trend": 0.83,
+      "recent_commits": 369,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        493,
+        356,
+        487,
+        369
+      ],
+      "good_first_issues_url": "https://github.com/bastani-inc/atomic/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-15T03:09:17Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "0.9.19",
+        "published_at": "2026-09-14T04:48:27Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "mlx-serve",
       "full_name": "ddalcu/mlx-serve",
       "description": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Includes MLX Core macOS app with chat, agent mode, and tool calling.",
       "url": "https://github.com/ddalcu/mlx-serve",
-      "stars": 1261,
-      "forks_count": 115,
-      "open_issues_count": 25,
+      "stars": 1271,
+      "forks_count": 116,
+      "open_issues_count": 26,
       "language": "Zig",
-      "gem_score": 46.1,
-      "momentum_trend": 1.45,
-      "recent_commits": 45,
+      "gem_score": 45.62,
+      "momentum_trend": 1.16,
+      "recent_commits": 41,
       "merged_prs_count": 50,
       "topics": [
         "agent",
@@ -99,14 +328,14 @@
         "apple-silicon"
       ],
       "activity": [
-        24,
-        45,
-        24,
-        45
+        22,
+        48,
+        36,
+        41
       ],
       "good_first_issues_url": "https://github.com/ddalcu/mlx-serve/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-14T16:24:47Z",
+      "pushed_at": "2026-09-15T02:59:35Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -117,20 +346,94 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "Mindwtr",
+      "full_name": "dongdongbh/Mindwtr",
+      "description": "Get tasks and ideas out of your head. A free GTD to-do app for desktop and mobile. Works offline, no account needed",
+      "url": "https://github.com/dongdongbh/Mindwtr",
+      "stars": 2030,
+      "forks_count": 122,
+      "open_issues_count": 32,
+      "language": "TypeScript",
+      "gem_score": 45.33,
+      "momentum_trend": 0.61,
+      "recent_commits": 208,
+      "merged_prs_count": 11,
+      "topics": [
+        "gtd",
+        "productivity",
+        "getting-things-done"
+      ],
+      "activity": [
+        198,
+        498,
+        319,
+        208
+      ],
+      "good_first_issues_url": "https://github.com/dongdongbh/Mindwtr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:15:14Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v1.3.0",
+        "published_at": "2026-09-14T06:12:39Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "typescript-sdk",
+      "full_name": "OpenRouterTeam/typescript-sdk",
+      "description": null,
+      "url": "https://github.com/OpenRouterTeam/typescript-sdk",
+      "stars": 254,
+      "forks_count": 72,
+      "open_issues_count": 18,
+      "language": "TypeScript",
+      "gem_score": 44.66,
+      "momentum_trend": 0.65,
+      "recent_commits": 29,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        39,
+        54,
+        40,
+        29
+      ],
+      "good_first_issues_url": "https://github.com/OpenRouterTeam/typescript-sdk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:16:28Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v1.2.122",
+        "published_at": "2026-09-14T19:01:31Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 166196,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "Shelly-ALPM",
       "full_name": "Seafoam-Labs/Shelly-ALPM",
       "description": "Pacman alternative for ArchLinux, designed with you in mind.",
       "url": "https://github.com/Seafoam-Labs/Shelly-ALPM",
-      "stars": 1121,
-      "forks_count": 93,
-      "open_issues_count": 36,
+      "stars": 1122,
+      "forks_count": 92,
+      "open_issues_count": 37,
       "language": "Zig",
-      "gem_score": 44.95,
-      "momentum_trend": 0.75,
-      "recent_commits": 75,
+      "gem_score": 44.52,
+      "momentum_trend": 0.68,
+      "recent_commits": 68,
       "merged_prs_count": 48,
       "topics": [
         "archlinux",
@@ -138,14 +441,14 @@
         "cli"
       ],
       "activity": [
-        108,
-        96,
-        97,
-        75
+        111,
+        93,
+        98,
+        68
       ],
       "good_first_issues_url": "https://github.com/Seafoam-Labs/Shelly-ALPM/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-14T17:25:14Z",
+      "pushed_at": "2026-09-14T23:05:39Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": {
@@ -153,23 +456,101 @@
         "published_at": "2026-09-13T21:31:49Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "thoughtdag",
+      "full_name": "chenxiachan/thoughtdag",
+      "description": "Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph. Wires are the context.",
+      "url": "https://github.com/chenxiachan/thoughtdag",
+      "stars": 449,
+      "forks_count": 44,
+      "open_issues_count": 5,
+      "language": "TypeScript",
+      "gem_score": 44.47,
+      "momentum_trend": 0.58,
+      "recent_commits": 40,
+      "merged_prs_count": 16,
+      "topics": [
+        "agentic-search",
+        "ai-tools",
+        "context-engineering"
+      ],
+      "activity": [
+        49,
+        69,
+        88,
+        40
+      ],
+      "good_first_issues_url": "https://github.com/chenxiachan/thoughtdag/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:00:23Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.4.15",
+        "published_at": "2026-09-15T02:46:38Z"
+      },
+      "featured": false,
+      "maintenance_score": 2,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "code-cli",
+      "full_name": "autohandai/code-cli",
+      "description": "Autohand Code CLI - Ultra fast self evolving coding agent that runs in your terminal",
+      "url": "https://github.com/autohandai/code-cli",
+      "stars": 191,
+      "forks_count": 33,
+      "open_issues_count": 41,
+      "language": "TypeScript",
+      "gem_score": 43.67,
+      "momentum_trend": 3.32,
+      "recent_commits": 115,
+      "merged_prs_count": 5,
+      "topics": [
+        "agentic-ai",
+        "ai",
+        "code-cli"
+      ],
+      "activity": [
+        15,
+        38,
+        51,
+        115
+      ],
+      "good_first_issues_url": "https://github.com/autohandai/code-cli/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:05:48Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.9.7",
+        "published_at": "2026-09-11T22:09:49Z"
+      },
+      "featured": false,
+      "maintenance_score": 3,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "VoiceStudio",
       "full_name": "debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "stars": 28758,
-      "forks_count": 3514,
-      "open_issues_count": 57,
+      "stars": 29460,
+      "forks_count": 3572,
+      "open_issues_count": 64,
       "language": "Python",
-      "gem_score": 43.29,
-      "momentum_trend": 2.52,
-      "recent_commits": 412,
+      "gem_score": 43.03,
+      "momentum_trend": 2.3,
+      "recent_commits": 392,
       "merged_prs_count": 50,
       "topics": [
         "tts",
@@ -177,25 +558,102 @@
         "voice-generation"
       ],
       "activity": [
-        137,
+        135,
         79,
-        275,
-        412
+        298,
+        392
       ],
       "good_first_issues_url": "https://github.com/debpalash/VoiceStudio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-14T17:22:53Z",
+      "pushed_at": "2026-09-14T18:25:11Z",
       "is_hype": false,
       "license": "AGPL-3.0",
       "latest_release": {
         "tag": "v0.5.2",
         "published_at": "2026-09-10T17:27:27Z"
       },
-      "featured": false,
+      "featured": true,
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "claudish",
+      "full_name": "MadAppGang/claudish",
+      "description": "Claude Code. Any Model. The most powerful AI coding agent now speaks every language.",
+      "url": "https://github.com/MadAppGang/claudish",
+      "stars": 989,
+      "forks_count": 135,
+      "open_issues_count": 7,
+      "language": "TypeScript",
+      "gem_score": 42.17,
+      "momentum_trend": 1.57,
+      "recent_commits": 81,
+      "merged_prs_count": 50,
+      "topics": [
+        "ai",
+        "claude",
+        "claudecode"
+      ],
+      "activity": [
+        92,
+        28,
+        35,
+        81
+      ],
+      "good_first_issues_url": "https://github.com/MadAppGang/claudish/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:57:42Z",
+      "is_hype": true,
+      "latest_release": {
+        "tag": "v9.4.0",
+        "published_at": "2026-09-15T02:51:27Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "inspector",
+      "full_name": "MCPJam/inspector",
+      "description": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps.",
+      "url": "https://github.com/MCPJam/inspector",
+      "stars": 2206,
+      "forks_count": 281,
+      "open_issues_count": 53,
+      "language": "TypeScript",
+      "gem_score": 39.9,
+      "momentum_trend": 1.43,
+      "recent_commits": 247,
+      "merged_prs_count": 50,
+      "topics": [
+        "mcp",
+        "modelcontextprotocol",
+        "mcp-clients"
+      ],
+      "activity": [
+        195,
+        148,
+        176,
+        247
+      ],
+      "good_first_issues_url": "https://github.com/MCPJam/inspector/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-15T03:16:32Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v3.5.4",
+        "published_at": "2026-09-12T02:56:44Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 5006,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "codedb",
@@ -206,9 +664,9 @@
       "forks_count": 86,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 41.02,
-      "momentum_trend": 0.19,
-      "recent_commits": 7,
+      "gem_score": 39.72,
+      "momentum_trend": 0.14,
+      "recent_commits": 5,
       "merged_prs_count": 43,
       "topics": [
         "agentic-ai",
@@ -218,8 +676,8 @@
       "activity": [
         11,
         83,
-        14,
-        7
+        16,
+        5
       ],
       "good_first_issues_url": "https://github.com/justrach/codedb/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -234,31 +692,105 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "cocos-cli",
+      "full_name": "cocos/cocos-cli",
+      "description": "COCOS CLI",
+      "url": "https://github.com/cocos/cocos-cli",
+      "stars": 424,
+      "forks_count": 155,
+      "open_issues_count": 22,
+      "language": "TypeScript",
+      "gem_score": 38.88,
+      "momentum_trend": 2,
+      "recent_commits": 26,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        9,
+        9,
+        21,
+        26
+      ],
+      "good_first_issues_url": "https://github.com/cocos/cocos-cli/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:12:12Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.0.1-alpha.40",
+        "published_at": "2026-09-08T01:24:59Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 252159,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "karl2d",
+      "full_name": "karl-zylinski/karl2d",
+      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
+      "url": "https://github.com/karl-zylinski/karl2d",
+      "stars": 679,
+      "forks_count": 60,
+      "open_issues_count": 37,
+      "language": "Odin",
+      "gem_score": 36.95,
+      "momentum_trend": 1.39,
+      "recent_commits": 19,
+      "merged_prs_count": 31,
+      "topics": [
+        "gamedev",
+        "odin",
+        "odin-lang"
+      ],
+      "activity": [
+        3,
+        34,
+        4,
+        19
+      ],
+      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-14T23:59:12Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": {
+        "tag": "karl2d-jam-hotfix-1",
+        "published_at": "2026-05-01T20:20:15Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "colibri",
       "full_name": "JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "url": "https://github.com/JustVugg/colibri",
-      "stars": 31593,
-      "forks_count": 3354,
-      "open_issues_count": 72,
+      "stars": 32267,
+      "forks_count": 3398,
+      "open_issues_count": 63,
       "language": "C",
-      "gem_score": 37.52,
-      "momentum_trend": 0.73,
-      "recent_commits": 137,
+      "gem_score": 36.89,
+      "momentum_trend": 0.58,
+      "recent_commits": 111,
       "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        299,
-        165,
-        100,
-        137
+        297,
+        150,
+        125,
+        111
       ],
       "good_first_issues_url": "https://github.com/JustVugg/colibri/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-14T08:12:01Z",
+      "pushed_at": "2026-09-14T21:35:36Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -269,46 +801,120 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
-      "name": "karl2d",
-      "full_name": "karl-zylinski/karl2d",
-      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
-      "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 678,
-      "forks_count": 60,
-      "open_issues_count": 36,
-      "language": "Odin",
-      "gem_score": 36.65,
-      "momentum_trend": 1.35,
-      "recent_commits": 18,
-      "merged_prs_count": 30,
+      "name": "compass-calendar",
+      "full_name": "KeepSoftwareSimple/compass-calendar",
+      "description": "The keyboard calendar. Fast & simple.",
+      "url": "https://github.com/KeepSoftwareSimple/compass-calendar",
+      "stars": 228,
+      "forks_count": 71,
+      "open_issues_count": 52,
+      "language": "TypeScript",
+      "gem_score": 36.77,
+      "momentum_trend": 1.14,
+      "recent_commits": 163,
+      "merged_prs_count": 50,
       "topics": [
-        "gamedev",
-        "odin",
-        "odin-lang"
+        "calendar",
+        "google",
+        "google-calendar"
       ],
       "activity": [
-        3,
-        33,
-        4,
-        18
+        50,
+        148,
+        231,
+        163
       ],
-      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-14T16:51:15Z",
+      "good_first_issues_url": "https://github.com/KeepSoftwareSimple/compass-calendar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:08:55Z",
       "is_hype": false,
-      "license": "Zlib",
+      "license": "MIT",
       "latest_release": {
-        "tag": "karl2d-jam-hotfix-1",
-        "published_at": "2026-05-01T20:20:15Z"
+        "tag": "v1.2.0",
+        "published_at": "2026-09-01T21:19:54Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "dot-ai",
+      "full_name": "vfarcic/dot-ai",
+      "description": "Intelligent dual-mode agent for deploying applications to ANY Kubernetes cluster through dynamic discovery and plain English governance",
+      "url": "https://github.com/vfarcic/dot-ai",
+      "stars": 336,
+      "forks_count": 76,
+      "open_issues_count": 35,
+      "language": "TypeScript",
+      "gem_score": 36.74,
+      "momentum_trend": 1.42,
+      "recent_commits": 9,
+      "merged_prs_count": 29,
+      "topics": [],
+      "activity": [
+        7,
+        2,
+        10,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/vfarcic/dot-ai/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:00:11Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2.3.1",
+        "published_at": "2026-09-02T15:53:04Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "aiwg",
+      "full_name": "jmagly/aiwg",
+      "description": "Cognitive architecture for AI-augmented software development. Specialized agents, structured workflows, and multi-platform deployment. Claude Code · Codex · Copilot · Cursor · Factory · Warp · Windsurf.",
+      "url": "https://github.com/jmagly/aiwg",
+      "stars": 212,
+      "forks_count": 31,
+      "open_issues_count": 6,
+      "language": "TypeScript",
+      "gem_score": 36.46,
+      "momentum_trend": 1.87,
+      "recent_commits": 155,
+      "merged_prs_count": 2,
+      "topics": [
+        "agentic-coding",
+        "anthropic",
+        "autonomous-agents"
+      ],
+      "activity": [
+        81,
+        33,
+        135,
+        155
+      ],
+      "good_first_issues_url": "https://github.com/jmagly/aiwg/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:56:37Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2026.9.10",
+        "published_at": "2026-09-15T02:57:28Z"
+      },
+      "featured": false,
+      "maintenance_score": 9,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "nanobrew",
@@ -319,7 +925,7 @@
       "forks_count": 19,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 35.47,
+      "gem_score": 35.44,
       "momentum_trend": 1,
       "recent_commits": 15,
       "merged_prs_count": 11,
@@ -347,7 +953,118 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "byethrow",
+      "full_name": "praha-inc/byethrow",
+      "description": "A lightweight, tree-shakable Result type package with a simple, consistent API designed.",
+      "url": "https://github.com/praha-inc/byethrow",
+      "stars": 362,
+      "forks_count": 9,
+      "open_issues_count": 7,
+      "language": "TypeScript",
+      "gem_score": 32.8,
+      "momentum_trend": 1.63,
+      "recent_commits": 19,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        5,
+        17,
+        13,
+        19
+      ],
+      "good_first_issues_url": "https://github.com/praha-inc/byethrow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:17:16Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "@praha/byethrow-testing@0.12.0",
+        "published_at": "2026-06-08T14:56:15Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "zio",
+      "full_name": "lalinsky/zio",
+      "description": "Async I/O framework for Zig",
+      "url": "https://github.com/lalinsky/zio",
+      "stars": 609,
+      "forks_count": 35,
+      "open_issues_count": 18,
+      "language": "Zig",
+      "gem_score": 30.62,
+      "momentum_trend": 0.19,
+      "recent_commits": 3,
+      "merged_prs_count": 39,
+      "topics": [
+        "zig-package",
+        "async",
+        "coroutines"
+      ],
+      "activity": [
+        28,
+        17,
+        3,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/lalinsky/zio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-14T18:01:07Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v0.17.0",
+        "published_at": "2026-08-05T06:09:55Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "FormSG",
+      "full_name": "opengovsg/FormSG",
+      "description": "Form builder for the Singapore Government",
+      "url": "https://github.com/opengovsg/FormSG",
+      "stars": 371,
+      "forks_count": 171,
+      "open_issues_count": 154,
+      "language": "TypeScript",
+      "gem_score": 28.32,
+      "momentum_trend": 2.66,
+      "recent_commits": 47,
+      "merged_prs_count": 50,
+      "topics": [
+        "hacktoberfest"
+      ],
+      "activity": [
+        13,
+        14,
+        26,
+        47
+      ],
+      "good_first_issues_url": "https://github.com/opengovsg/FormSG/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-15T03:03:23Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v9.22.2",
+        "published_at": "2026-09-14T07:42:01Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "yuku",
@@ -358,7 +1075,7 @@
       "forks_count": 28,
       "open_issues_count": 2,
       "language": "Zig",
-      "gem_score": 28.25,
+      "gem_score": 28.23,
       "momentum_trend": 1.23,
       "recent_commits": 9,
       "merged_prs_count": 17,
@@ -386,46 +1103,78 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
-      "name": "zio",
-      "full_name": "lalinsky/zio",
-      "description": "Async I/O framework for Zig",
-      "url": "https://github.com/lalinsky/zio",
-      "stars": 608,
-      "forks_count": 35,
-      "open_issues_count": 19,
-      "language": "Zig",
-      "gem_score": 28.01,
-      "momentum_trend": 0.06,
-      "recent_commits": 1,
-      "merged_prs_count": 38,
+      "name": "playfulprogramming",
+      "full_name": "playfulprogramming/playfulprogramming",
+      "description": "🦄 Practice programming with magically majestic methods",
+      "url": "https://github.com/playfulprogramming/playfulprogramming",
+      "stars": 227,
+      "forks_count": 106,
+      "open_issues_count": 85,
+      "language": "TypeScript",
+      "gem_score": 26.46,
+      "momentum_trend": 1.47,
+      "recent_commits": 121,
+      "merged_prs_count": 50,
       "topics": [
-        "zig-package",
-        "async",
-        "coroutines"
+        "computer-science",
+        "educational",
+        "blog"
       ],
       "activity": [
-        28,
-        17,
-        3,
-        1
+        41,
+        108,
+        98,
+        121
       ],
-      "good_first_issues_url": "https://github.com/lalinsky/zio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-12T05:50:04Z",
+      "good_first_issues_url": "https://github.com/playfulprogramming/playfulprogramming/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-15T03:00:50Z",
       "is_hype": false,
-      "license": "NOASSERTION",
+      "license": "MPL-2.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "gooey",
+      "full_name": "duanebester/gooey",
+      "description": "Gooey is a hybrid immediate/retained mode UI framework designed for building fast, GPU-rendered applications on macOS/Metal, WebAssembly/WebGPU, and Wayland/Vulkan",
+      "url": "https://github.com/duanebester/gooey",
+      "stars": 624,
+      "forks_count": 6,
+      "open_issues_count": 3,
+      "language": "Zig",
+      "gem_score": 25.14,
+      "momentum_trend": 0.52,
+      "recent_commits": 4,
+      "merged_prs_count": 10,
+      "topics": [],
+      "activity": [
+        7,
+        12,
+        4,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/duanebester/gooey/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-14T20:44:20Z",
+      "is_hype": true,
+      "license": "MIT",
       "latest_release": {
-        "tag": "v0.17.0",
-        "published_at": "2026-08-05T06:09:55Z"
+        "tag": "v0.2.9",
+        "published_at": "2026-09-01T16:06:27Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "zlint",
@@ -434,12 +1183,12 @@
       "url": "https://github.com/DonIsaac/zlint",
       "stars": 311,
       "forks_count": 22,
-      "open_issues_count": 26,
+      "open_issues_count": 27,
       "language": "Zig",
-      "gem_score": 24.31,
-      "momentum_trend": 1.5,
-      "recent_commits": 2,
-      "merged_prs_count": 10,
+      "gem_score": 24.73,
+      "momentum_trend": 2.25,
+      "recent_commits": 3,
+      "merged_prs_count": 9,
       "topics": [
         "linters",
         "zig"
@@ -448,11 +1197,11 @@
         2,
         0,
         2,
-        2
+        3
       ],
       "good_first_issues_url": "https://github.com/DonIsaac/zlint/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-14T02:18:51Z",
+      "pushed_at": "2026-09-14T21:48:55Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -463,7 +1212,113 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "luna",
+      "full_name": "jumpserver/luna",
+      "description": "Luna is the JumpServer workspace.",
+      "url": "https://github.com/jumpserver/luna",
+      "stars": 310,
+      "forks_count": 199,
+      "open_issues_count": 0,
+      "language": "TypeScript",
+      "gem_score": 24.06,
+      "momentum_trend": 3.23,
+      "recent_commits": 214,
+      "merged_prs_count": 50,
+      "topics": [
+        "nuxt-ui",
+        "rust",
+        "workspace"
+      ],
+      "activity": [
+        38,
+        75,
+        86,
+        214
+      ],
+      "good_first_issues_url": "https://github.com/jumpserver/luna/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:59:37Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v4.10.19",
+        "published_at": "2026-08-20T13:47:45Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 2741,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "fe",
+      "full_name": "n9e/fe",
+      "description": "Nightingale frontend",
+      "url": "https://github.com/n9e/fe",
+      "stars": 304,
+      "forks_count": 158,
+      "open_issues_count": 19,
+      "language": "TypeScript",
+      "gem_score": 23.91,
+      "momentum_trend": 1.54,
+      "recent_commits": 62,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        59,
+        26,
+        36,
+        62
+      ],
+      "good_first_issues_url": "https://github.com/n9e/fe/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:09:15Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v9.1.1",
+        "published_at": "2026-08-14T10:22:18Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "fluid-functionalism",
+      "full_name": "mickadesign/fluid-functionalism",
+      "description": null,
+      "url": "https://github.com/mickadesign/fluid-functionalism",
+      "stars": 889,
+      "forks_count": 43,
+      "open_issues_count": 3,
+      "language": "TypeScript",
+      "gem_score": 23.85,
+      "momentum_trend": 0.91,
+      "recent_commits": 28,
+      "merged_prs_count": 1,
+      "topics": [],
+      "activity": [
+        54,
+        31,
+        7,
+        28
+      ],
+      "good_first_issues_url": "https://github.com/mickadesign/fluid-functionalism/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:06:13Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 28,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "zignal",
@@ -484,8 +1339,8 @@
         "webassembly"
       ],
       "activity": [
-        0,
-        35,
+        3,
+        32,
         36,
         13
       ],
@@ -502,7 +1357,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "md4x",
@@ -513,7 +1368,7 @@
       "forks_count": 16,
       "open_issues_count": 2,
       "language": "Zig",
-      "gem_score": 22.36,
+      "gem_score": 22.34,
       "momentum_trend": 30,
       "recent_commits": 10,
       "merged_prs_count": 1,
@@ -534,7 +1389,222 @@
       "maintenance_score": 24,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "data",
+      "full_name": "one-among-us/data",
+      "description": "Data repo for https://one-among.us",
+      "url": "https://github.com/one-among-us/data",
+      "stars": 179,
+      "forks_count": 62,
+      "open_issues_count": 9,
+      "language": "TypeScript",
+      "gem_score": 20.56,
+      "momentum_trend": 1.24,
+      "recent_commits": 70,
+      "merged_prs_count": 18,
+      "topics": [],
+      "activity": [
+        47,
+        81,
+        41,
+        70
+      ],
+      "good_first_issues_url": "https://github.com/one-among-us/data/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:17:17Z",
+      "is_hype": false,
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 64800,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "obsidian-yolo",
+      "full_name": "Lapis0x0/obsidian-yolo",
+      "description": "Agent-native AI assistant — chat, write, learning, all in one.",
+      "url": "https://github.com/Lapis0x0/obsidian-yolo",
+      "stars": 1342,
+      "forks_count": 85,
+      "open_issues_count": 20,
+      "language": "TypeScript",
+      "gem_score": 20.5,
+      "momentum_trend": 0.46,
+      "recent_commits": 48,
+      "merged_prs_count": 5,
+      "topics": [],
+      "activity": [
+        84,
+        87,
+        142,
+        48
+      ],
+      "good_first_issues_url": "https://github.com/Lapis0x0/obsidian-yolo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:10:32Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "1.6.9.2",
+        "published_at": "2026-09-14T15:28:56Z"
+      },
+      "featured": false,
+      "maintenance_score": 11,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "octopus",
+      "full_name": "bestruirui/octopus",
+      "description": "One Hub All LLMs For You | 为个人打造的 LLM API 聚合网关",
+      "url": "https://github.com/bestruirui/octopus",
+      "stars": 2624,
+      "forks_count": 427,
+      "open_issues_count": 14,
+      "language": "TypeScript",
+      "gem_score": 19.4,
+      "momentum_trend": 1.05,
+      "recent_commits": 13,
+      "merged_prs_count": 4,
+      "topics": [
+        "ai",
+        "ai-gateway",
+        "anthropic"
+      ],
+      "activity": [
+        21,
+        6,
+        10,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/bestruirui/octopus/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:58:50Z",
+      "is_hype": true,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v0.13.4",
+        "published_at": "2026-09-10T02:54:57Z"
+      },
+      "featured": false,
+      "maintenance_score": 5,
+      "bundle_size": 1157436,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "awesome-gemini-3-prompts",
+      "full_name": "YouMind-OpenLab/awesome-gemini-3-prompts",
+      "description": "♊ 50+ selected Gemini prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library",
+      "url": "https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts",
+      "stars": 517,
+      "forks_count": 59,
+      "open_issues_count": 2,
+      "language": "TypeScript",
+      "gem_score": 19.22,
+      "momentum_trend": 0.97,
+      "recent_commits": 34,
+      "merged_prs_count": 0,
+      "topics": [
+        "ai",
+        "awesome-list",
+        "gemini-ai"
+      ],
+      "activity": [
+        42,
+        28,
+        35,
+        34
+      ],
+      "good_first_issues_url": "https://github.com/YouMind-OpenLab/awesome-gemini-3-prompts/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:13:52Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 999,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "sveltepress",
+      "full_name": "SveltePress/sveltepress",
+      "description": "SvelteKit docs & blog SSG — Svelte 5 in Markdown, versioning, i18n, and Pagefind.",
+      "url": "https://github.com/SveltePress/sveltepress",
+      "stars": 535,
+      "forks_count": 39,
+      "open_issues_count": 5,
+      "language": "TypeScript",
+      "gem_score": 19.21,
+      "momentum_trend": 0.87,
+      "recent_commits": 45,
+      "merged_prs_count": 22,
+      "topics": [
+        "docs",
+        "svelte",
+        "theme"
+      ],
+      "activity": [
+        6,
+        56,
+        93,
+        45
+      ],
+      "good_first_issues_url": "https://github.com/SveltePress/sveltepress/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:55:27Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "@sveltepress/theme-default@8.9.0",
+        "published_at": "2026-09-09T04:43:56Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "xml-crypto",
+      "full_name": "node-saml/xml-crypto",
+      "description": "Xml digital signature and encryption library for Node.js",
+      "url": "https://github.com/node-saml/xml-crypto",
+      "stars": 211,
+      "forks_count": 190,
+      "open_issues_count": 39,
+      "language": "TypeScript",
+      "gem_score": 18.78,
+      "momentum_trend": 66,
+      "recent_commits": 22,
+      "merged_prs_count": 23,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        1,
+        22
+      ],
+      "good_first_issues_url": "https://github.com/node-saml/xml-crypto/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:55:23Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v6.1.2",
+        "published_at": "2025-04-24T18:06:45Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 171912,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "turboAPI",
@@ -570,10 +1640,159 @@
         "published_at": "2026-08-26T16:16:47Z"
       },
       "featured": false,
-      "maintenance_score": 18,
+      "maintenance_score": 19,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "graphweaver",
+      "full_name": "exogee-technology/graphweaver",
+      "description": "Turn multiple data sources into a single GraphQL API",
+      "url": "https://github.com/exogee-technology/graphweaver",
+      "stars": 556,
+      "forks_count": 31,
+      "open_issues_count": 7,
+      "language": "TypeScript",
+      "gem_score": 18.31,
+      "momentum_trend": 159,
+      "recent_commits": 53,
+      "merged_prs_count": 23,
+      "topics": [],
+      "activity": [
+        1,
+        0,
+        0,
+        53
+      ],
+      "good_first_issues_url": "https://github.com/exogee-technology/graphweaver/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:16:12Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v2.24.0",
+        "published_at": "2026-09-14T12:02:05Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "cache-manager",
+      "full_name": "nestjs/cache-manager",
+      "description": "Cache manager module for Nest framework (node.js) 🗃",
+      "url": "https://github.com/nestjs/cache-manager",
+      "stars": 168,
+      "forks_count": 37,
+      "open_issues_count": 1,
+      "language": "TypeScript",
+      "gem_score": 18.23,
+      "momentum_trend": 1.62,
+      "recent_commits": 7,
+      "merged_prs_count": 19,
+      "topics": [
+        "cache",
+        "cache-manager",
+        "nestjs"
+      ],
+      "activity": [
+        5,
+        5,
+        3,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/nestjs/cache-manager/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:01:15Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "12.0.0",
+        "published_at": "2026-08-27T08:34:18Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 20384,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "libqt6zig",
+      "full_name": "rcalixte/libqt6zig",
+      "description": "Qt 6 for Zig",
+      "url": "https://github.com/rcalixte/libqt6zig",
+      "stars": 265,
+      "forks_count": 9,
+      "open_issues_count": 0,
+      "language": "Zig",
+      "gem_score": 18.2,
+      "momentum_trend": 1.15,
+      "recent_commits": 5,
+      "merged_prs_count": 5,
+      "topics": [
+        "bindings",
+        "gui-library",
+        "qt"
+      ],
+      "activity": [
+        2,
+        11,
+        0,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/rcalixte/libqt6zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-14T18:54:59Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "whu-ham.github.io",
+      "full_name": "whu-ham/whu-ham.github.io",
+      "description": "武汉大学生活助手——课表查询、成绩查询、预约体育场馆、预约武汉大学图书馆",
+      "url": "https://github.com/whu-ham/whu-ham.github.io",
+      "stars": 192,
+      "forks_count": 7,
+      "open_issues_count": 1,
+      "language": "TypeScript",
+      "gem_score": 18.01,
+      "momentum_trend": 6,
+      "recent_commits": 18,
+      "merged_prs_count": 25,
+      "topics": [
+        "campus-life",
+        "documentation",
+        "github-pages"
+      ],
+      "activity": [
+        0,
+        0,
+        9,
+        18
+      ],
+      "good_first_issues_url": "https://github.com/whu-ham/whu-ham.github.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:08:25Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.7.5",
+        "published_at": "2026-06-30T13:45:06Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "NuMojo",
@@ -611,18 +1830,57 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "URDF-Studio",
+      "full_name": "OpenLegged/URDF-Studio",
+      "description": "URDF-Studio is a web-based visual URDF robot modeler with 3D workspace, structured skeleton/detail/hardware workflows, motor library integration, MuJoCo export, and AI assistance.",
+      "url": "https://github.com/OpenLegged/URDF-Studio",
+      "stars": 475,
+      "forks_count": 56,
+      "open_issues_count": 1,
+      "language": "TypeScript",
+      "gem_score": 16.47,
+      "momentum_trend": 1.7,
+      "recent_commits": 17,
+      "merged_prs_count": 0,
+      "topics": [
+        "robot",
+        "robotics",
+        "urdf"
+      ],
+      "activity": [
+        3,
+        14,
+        13,
+        17
+      ],
+      "good_first_issues_url": "https://github.com/OpenLegged/URDF-Studio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:09:11Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "published_at": "2026-03-31T13:16:08Z"
+      },
+      "featured": false,
+      "maintenance_score": 60,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "zmx",
       "full_name": "neurosnap/zmx",
       "description": "Session attach/detach for the terminal",
       "url": "https://github.com/neurosnap/zmx",
-      "stars": 2143,
+      "stars": 2144,
       "forks_count": 149,
       "open_issues_count": 21,
       "language": "Zig",
-      "gem_score": 16.16,
+      "gem_score": 16.15,
       "momentum_trend": 0.21,
       "recent_commits": 2,
       "merged_prs_count": 7,
@@ -632,7 +1890,7 @@
         "zig"
       ],
       "activity": [
-        9,
+        8,
         9,
         11,
         2
@@ -647,57 +1905,21 @@
         "published_at": "2026-09-05T17:07:47Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
-    },
-    {
-      "name": "libqt6zig",
-      "full_name": "rcalixte/libqt6zig",
-      "description": "Qt 6 for Zig",
-      "url": "https://github.com/rcalixte/libqt6zig",
-      "stars": 265,
-      "forks_count": 9,
-      "open_issues_count": 0,
-      "language": "Zig",
-      "gem_score": 15.94,
-      "momentum_trend": 0.69,
-      "recent_commits": 3,
-      "merged_prs_count": 4,
-      "topics": [
-        "bindings",
-        "gui-library",
-        "qt"
-      ],
-      "activity": [
-        2,
-        8,
-        3,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/rcalixte/libqt6zig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-13T19:43:09Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "YuE",
       "full_name": "multimodal-art-projection/YuE",
       "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
       "url": "https://github.com/multimodal-art-projection/YuE",
-      "stars": 8214,
-      "forks_count": 897,
-      "open_issues_count": 8,
+      "stars": 8458,
+      "forks_count": 912,
+      "open_issues_count": 9,
       "language": "Python",
-      "gem_score": 15.85,
+      "gem_score": 15.8,
       "momentum_trend": 1,
       "recent_commits": 22,
       "merged_prs_count": 12,
@@ -725,60 +1947,60 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
-      "name": "zs3",
-      "full_name": "Lulzx/zs3",
-      "description": "S3-compatible storage in Zig. Zero dependencies.",
-      "url": "https://github.com/Lulzx/zs3",
-      "stars": 191,
-      "forks_count": 9,
-      "open_issues_count": 0,
-      "language": "Zig",
-      "gem_score": 15.85,
-      "momentum_trend": 1.75,
-      "recent_commits": 7,
-      "merged_prs_count": 0,
+      "name": "beancount-io",
+      "full_name": "bex-co/beancount-io",
+      "description": "💰 Double-entry bookkeeping made easy — plain-text accounting for humans and AI agents. Polished iOS & Android app built with React Native + Expo.",
+      "url": "https://github.com/bex-co/beancount-io",
+      "stars": 268,
+      "forks_count": 30,
+      "open_issues_count": 1,
+      "language": "TypeScript",
+      "gem_score": 15.76,
+      "momentum_trend": 5.11,
+      "recent_commits": 356,
+      "merged_prs_count": 2,
       "topics": [
-        "aws",
-        "object-storage",
-        "s3"
+        "beancount",
+        "plaintext-accounting",
+        "ledger"
       ],
       "activity": [
-        0,
-        3,
-        9,
-        7
+        60,
+        74,
+        75,
+        356
       ],
-      "good_first_issues_url": "https://github.com/Lulzx/zs3/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/bex-co/beancount-io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-08T22:24:30Z",
+      "pushed_at": "2026-09-15T03:03:18Z",
       "is_hype": true,
-      "license": "WTFPL",
+      "license": "MIT",
       "latest_release": {
-        "tag": "v0.3.0",
-        "published_at": "2026-09-08T22:24:05Z"
+        "tag": "mobile-v1.20260912.48",
+        "published_at": "2026-09-12T23:27:03Z"
       },
       "featured": false,
-      "maintenance_score": 46,
+      "maintenance_score": 2,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "microzig",
       "full_name": "ZigEmbeddedGroup/microzig",
       "description": "MicroZig is a toolbox for building embedded applications in Zig.",
       "url": "https://github.com/ZigEmbeddedGroup/microzig",
-      "stars": 2282,
+      "stars": 2281,
       "forks_count": 197,
       "open_issues_count": 69,
       "language": "Zig",
-      "gem_score": 14.79,
-      "momentum_trend": 6.75,
-      "recent_commits": 18,
-      "merged_prs_count": 20,
+      "gem_score": 15.56,
+      "momentum_trend": 8.33,
+      "recent_commits": 25,
+      "merged_prs_count": 24,
       "topics": [
         "ziglang",
         "zig-package",
@@ -787,43 +2009,78 @@
       "activity": [
         1,
         4,
-        3,
-        18
+        4,
+        25
       ],
       "good_first_issues_url": "https://github.com/ZigEmbeddedGroup/microzig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-14T13:15:59Z",
+      "pushed_at": "2026-09-15T01:26:16Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
-        "tag": "0.17.3",
-        "published_at": "2026-09-14T13:18:45Z"
+        "tag": "0.17.7",
+        "published_at": "2026-09-15T01:28:16Z"
       },
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "exif-photo-blog",
+      "full_name": "sambecker/exif-photo-blog",
+      "description": "Photo blog, reporting 🤓 EXIF camera details (aperture, shutter speed, ISO) for each image.",
+      "url": "https://github.com/sambecker/exif-photo-blog",
+      "stars": 1720,
+      "forks_count": 388,
+      "open_issues_count": 3,
+      "language": "TypeScript",
+      "gem_score": 15.4,
+      "momentum_trend": 3.18,
+      "recent_commits": 69,
+      "merged_prs_count": 9,
+      "topics": [
+        "approuter",
+        "exif",
+        "nextjs"
+      ],
+      "activity": [
+        8,
+        54,
+        3,
+        69
+      ],
+      "good_first_issues_url": "https://github.com/sambecker/exif-photo-blog/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:13:43Z",
+      "is_hype": true,
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 6,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "dvui",
       "full_name": "david-vanderson/dvui",
       "description": "Immediate Zig GUI for Apps and Games",
       "url": "https://github.com/david-vanderson/dvui",
-      "stars": 1658,
+      "stars": 1657,
       "forks_count": 143,
       "open_issues_count": 86,
       "language": "Zig",
-      "gem_score": 14.62,
-      "momentum_trend": 1.64,
-      "recent_commits": 18,
+      "gem_score": 14.54,
+      "momentum_trend": 1.5,
+      "recent_commits": 17,
       "merged_prs_count": 15,
       "topics": [],
       "activity": [
-        12,
-        18,
-        3,
-        18
+        14,
+        16,
+        4,
+        17
       ],
       "good_first_issues_url": "https://github.com/david-vanderson/dvui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
@@ -838,53 +2095,14 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
-    },
-    {
-      "name": "ols",
-      "full_name": "DanielGavin/ols",
-      "description": "Language server for Odin",
-      "url": "https://github.com/DanielGavin/ols",
-      "stars": 1176,
-      "forks_count": 189,
-      "open_issues_count": 100,
-      "language": "Odin",
-      "gem_score": 13.15,
-      "momentum_trend": 0.63,
-      "recent_commits": 12,
-      "merged_prs_count": 33,
-      "topics": [
-        "language-server",
-        "odin",
-        "lsp"
-      ],
-      "activity": [
-        18,
-        19,
-        20,
-        12
-      ],
-      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-14T15:17:34Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "dev-2026-08",
-        "published_at": "2026-08-30T23:55:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "mewz",
       "full_name": "mewz-project/mewz",
       "description": "A unikernel designed specifically for running Wasm applications and compatible with WASI",
       "url": "https://github.com/mewz-project/mewz",
-      "stars": 685,
+      "stars": 684,
       "forks_count": 19,
       "open_issues_count": 12,
       "language": "Zig",
@@ -916,18 +2134,18 @@
       "maintenance_score": 9,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "no_gfx_api",
       "full_name": "leotmp/no_gfx_api",
       "description": null,
       "url": "https://github.com/leotmp/no_gfx_api",
-      "stars": 308,
+      "stars": 309,
       "forks_count": 19,
       "open_issues_count": 7,
       "language": "Odin",
-      "gem_score": 12.87,
+      "gem_score": 12.85,
       "momentum_trend": 0.43,
       "recent_commits": 5,
       "merged_prs_count": 0,
@@ -945,10 +2163,166 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 30,
+      "maintenance_score": 31,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "ols",
+      "full_name": "DanielGavin/ols",
+      "description": "Language server for Odin",
+      "url": "https://github.com/DanielGavin/ols",
+      "stars": 1178,
+      "forks_count": 189,
+      "open_issues_count": 101,
+      "language": "Odin",
+      "gem_score": 12.76,
+      "momentum_trend": 0.51,
+      "recent_commits": 9,
+      "merged_prs_count": 33,
+      "topics": [
+        "language-server",
+        "odin",
+        "lsp"
+      ],
+      "activity": [
+        11,
+        24,
+        18,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-14T15:17:34Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "dev-2026-08",
+        "published_at": "2026-08-30T23:55:16Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "Inline",
+      "full_name": "PlayForm/Inline",
+      "description": "Inline 🦔",
+      "url": "https://github.com/PlayForm/Inline",
+      "stars": 283,
+      "forks_count": 11,
+      "open_issues_count": 3,
+      "language": "TypeScript",
+      "gem_score": 12.61,
+      "momentum_trend": 0.92,
+      "recent_commits": 8,
+      "merged_prs_count": 7,
+      "topics": [
+        "astro",
+        "critters",
+        "critical-css"
+      ],
+      "activity": [
+        11,
+        6,
+        9,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/PlayForm/Inline/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:15:35Z",
+      "is_hype": false,
+      "license": "CC0-1.0",
+      "latest_release": {
+        "tag": "AstroBeasties/v0.0.2",
+        "published_at": "2026-03-13T04:28:18Z"
+      },
+      "featured": false,
+      "maintenance_score": 5,
+      "bundle_size": 96185,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "flow",
+      "full_name": "neurocyte/flow",
+      "description": "Flow Control: a programmer's text editor",
+      "url": "https://github.com/neurocyte/flow",
+      "stars": 2223,
+      "forks_count": 115,
+      "open_issues_count": 76,
+      "language": "Zig",
+      "gem_score": 12.47,
+      "momentum_trend": 1.56,
+      "recent_commits": 39,
+      "merged_prs_count": 0,
+      "topics": [
+        "language-server-client",
+        "language-server-protocol",
+        "text-editor"
+      ],
+      "activity": [
+        39,
+        33,
+        3,
+        39
+      ],
+      "good_first_issues_url": "https://github.com/neurocyte/flow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-14T20:26:34Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.7.2",
+        "published_at": "2026-02-14T16:37:22Z"
+      },
+      "featured": false,
+      "maintenance_score": 74,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "LayaAir",
+      "full_name": "layabox/LayaAir",
+      "description": "LayaAir is a fully platform rendering engine with rich 2D/3D rendering capabilities and a mature integrated development platform",
+      "url": "https://github.com/layabox/LayaAir",
+      "stars": 2133,
+      "forks_count": 536,
+      "open_issues_count": 3,
+      "language": "TypeScript",
+      "gem_score": 12.09,
+      "momentum_trend": 0.97,
+      "recent_commits": 25,
+      "merged_prs_count": 20,
+      "topics": [
+        "webgl",
+        "3d-engine",
+        "2d-game-engine"
+      ],
+      "activity": [
+        30,
+        35,
+        12,
+        25
+      ],
+      "good_first_issues_url": "https://github.com/layabox/LayaAir/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:57:28Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v3.4.1",
+        "published_at": "2026-08-31T07:18:55Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "Deecy",
@@ -956,12 +2330,12 @@
       "description": "Dreamcast emulator written in Zig",
       "url": "https://github.com/Senryoku/Deecy",
       "stars": 238,
-      "forks_count": 5,
+      "forks_count": 4,
       "open_issues_count": 34,
       "language": "Zig",
-      "gem_score": 12.58,
-      "momentum_trend": 0.26,
-      "recent_commits": 3,
+      "gem_score": 11.86,
+      "momentum_trend": 0.18,
+      "recent_commits": 2,
       "merged_prs_count": 3,
       "topics": [
         "dreamcast",
@@ -969,10 +2343,10 @@
         "zig"
       ],
       "activity": [
-        20,
-        7,
-        7,
-        3
+        22,
+        4,
+        8,
+        2
       ],
       "good_first_issues_url": "https://github.com/Senryoku/Deecy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -987,18 +2361,53 @@
       "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "bonob",
+      "full_name": "simojenki/bonob",
+      "description": "sonos SMAPI implementation allowing integrating different music sources with sonos.",
+      "url": "https://github.com/simojenki/bonob",
+      "stars": 335,
+      "forks_count": 31,
+      "open_issues_count": 54,
+      "language": "TypeScript",
+      "gem_score": 11.52,
+      "momentum_trend": 6,
+      "recent_commits": 6,
+      "merged_prs_count": 9,
+      "topics": [],
+      "activity": [
+        0,
+        3,
+        0,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/simojenki/bonob/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:03:28Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.14.0",
+        "published_at": "2026-08-20T01:13:55Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 387,
+      "stars": 388,
       "forks_count": 380,
       "open_issues_count": 1,
       "language": "Mojo",
-      "gem_score": 11.47,
+      "gem_score": 11.46,
       "momentum_trend": 0.73,
       "recent_commits": 9,
       "merged_prs_count": 0,
@@ -1020,21 +2429,21 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 55,
+      "maintenance_score": 56,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "MiroFish",
       "full_name": "666ghj/MiroFish",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
       "url": "https://github.com/666ghj/MiroFish",
-      "stars": 73001,
-      "forks_count": 11278,
+      "stars": 73272,
+      "forks_count": 11294,
       "open_issues_count": 53,
       "language": "Python",
-      "gem_score": 11.43,
+      "gem_score": 11.41,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 2,
@@ -1062,7 +2471,7 @@
       "maintenance_score": 11,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "zig2nix",
@@ -1074,7 +2483,7 @@
       "open_issues_count": 6,
       "language": "Zig",
       "gem_score": 11.31,
-      "momentum_trend": 0.91,
+      "momentum_trend": 1,
       "recent_commits": 7,
       "merged_prs_count": 1,
       "topics": [
@@ -1083,8 +2492,8 @@
         "ci"
       ],
       "activity": [
-        8,
-        8,
+        7,
+        7,
         7,
         7
       ],
@@ -1098,46 +2507,42 @@
       "maintenance_score": 16,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
-      "name": "flow",
-      "full_name": "neurocyte/flow",
-      "description": "Flow Control: a programmer's text editor",
-      "url": "https://github.com/neurocyte/flow",
-      "stars": 2223,
-      "forks_count": 115,
-      "open_issues_count": 76,
-      "language": "Zig",
-      "gem_score": 11.26,
-      "momentum_trend": 0.71,
-      "recent_commits": 20,
-      "merged_prs_count": 0,
-      "topics": [
-        "language-server-client",
-        "language-server-protocol",
-        "text-editor"
-      ],
+      "name": "obsidian-typings",
+      "full_name": "obsidian-typings/obsidian-typings",
+      "description": "Typescript typings for undocumented parts of the Obsidian API ",
+      "url": "https://github.com/obsidian-typings/obsidian-typings",
+      "stars": 182,
+      "forks_count": 25,
+      "open_issues_count": 0,
+      "language": "TypeScript",
+      "gem_score": 11.27,
+      "momentum_trend": 1.58,
+      "recent_commits": 10,
+      "merged_prs_count": 1,
+      "topics": [],
       "activity": [
-        46,
-        35,
-        3,
-        20
+        14,
+        5,
+        0,
+        10
       ],
-      "good_first_issues_url": "https://github.com/neurocyte/flow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-13T13:29:46Z",
+      "good_first_issues_url": "https://github.com/obsidian-typings/obsidian-typings/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:06:02Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.7.2",
-        "published_at": "2026-02-14T16:37:22Z"
+        "tag": "obsidian-public-1.13.7-v1.9.0",
+        "published_at": "2026-08-31T00:38:49Z"
       },
       "featured": false,
-      "maintenance_score": 74,
+      "maintenance_score": 23,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "SVC16",
@@ -1172,7 +2577,7 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "zig-esp-idf-sample",
@@ -1208,18 +2613,57 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "xtreme1",
+      "full_name": "xtreme1-io/xtreme1",
+      "description": "Xtreme1 is an all-in-one data labeling and annotation platform for multimodal data training and supports 3D LiDAR point cloud, image, and LLM.",
+      "url": "https://github.com/xtreme1-io/xtreme1",
+      "stars": 1271,
+      "forks_count": 220,
+      "open_issues_count": 34,
+      "language": "TypeScript",
+      "gem_score": 8.71,
+      "momentum_trend": 1,
+      "recent_commits": 4,
+      "merged_prs_count": 4,
+      "topics": [
+        "annotation-tool",
+        "annotation",
+        "computer-vision"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/xtreme1-io/xtreme1/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:56:43Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.9.1",
+        "published_at": "2024-04-23T07:19:12Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "Agent-Reach",
       "full_name": "Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "url": "https://github.com/Panniantong/Agent-Reach",
-      "stars": 81024,
-      "forks_count": 7055,
+      "stars": 81423,
+      "forks_count": 7083,
       "open_issues_count": 78,
       "language": "Python",
-      "gem_score": 8.53,
+      "gem_score": 8.52,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 3,
@@ -1247,15 +2691,15 @@
       "maintenance_score": 13,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "vaultwarden",
       "full_name": "dani-garcia/vaultwarden",
       "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
       "url": "https://github.com/dani-garcia/vaultwarden",
-      "stars": 67468,
-      "forks_count": 3207,
+      "stars": 67565,
+      "forks_count": 3213,
       "open_issues_count": 12,
       "language": "Rust",
       "gem_score": 8.2,
@@ -1268,8 +2712,8 @@
         "rust"
       ],
       "activity": [
-        2,
-        6,
+        3,
+        5,
         2,
         12
       ],
@@ -1286,14 +2730,50 @@
       "maintenance_score": 47,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "zigrad",
+      "full_name": "Marco-Christiani/zigrad",
+      "description": "A deep learning framework built on an autograd engine with high level abstractions and low level control.",
+      "url": "https://github.com/Marco-Christiani/zigrad",
+      "stars": 195,
+      "forks_count": 13,
+      "open_issues_count": 11,
+      "language": "Zig",
+      "gem_score": 7.96,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "autograd",
+        "deep-learning",
+        "machine-learning"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/Marco-Christiani/zigrad/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-13T07:53:43Z",
+      "is_hype": false,
+      "license": "LGPL-3.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 344,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "arocc",
       "full_name": "Vexu/arocc",
       "description": "A modern fully featured C compiler.",
       "url": "https://github.com/Vexu/arocc",
-      "stars": 1808,
+      "stars": 1807,
       "forks_count": 109,
       "open_issues_count": 42,
       "language": "Zig",
@@ -1319,30 +2799,30 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 7,
+      "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "xit",
       "full_name": "xit-vcs/xit",
       "description": "a git alternative written in zig",
       "url": "https://github.com/xit-vcs/xit",
-      "stars": 722,
+      "stars": 721,
       "forks_count": 17,
       "open_issues_count": 1,
       "language": "Zig",
-      "gem_score": 7.47,
-      "momentum_trend": 1.31,
-      "recent_commits": 17,
+      "gem_score": 6.98,
+      "momentum_trend": 0.91,
+      "recent_commits": 13,
       "merged_prs_count": 0,
       "topics": [],
       "activity": [
-        0,
-        18,
-        21,
-        17
+        4,
+        14,
+        25,
+        13
       ],
       "good_first_issues_url": "https://github.com/xit-vcs/xit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -1351,22 +2831,61 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 125,
+      "maintenance_score": 126,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "tts-azure-web",
+      "full_name": "Femoon/tts-azure-web",
+      "description": "TTS Azure Web 是一个 Azure 文本转语音（TTS）网页应用，可以在本地或者云端使用你的 Azure Key 一键部署。TTS Azure Web is an Azure Text-to-Speech (TTS) web application. It allows you to run it locally or deploy it with a single click using your Azure Key.",
+      "url": "https://github.com/Femoon/tts-azure-web",
+      "stars": 480,
+      "forks_count": 65,
+      "open_issues_count": 0,
+      "language": "TypeScript",
+      "gem_score": 6.94,
+      "momentum_trend": 1,
+      "recent_commits": 4,
+      "merged_prs_count": 0,
+      "topics": [
+        "nextjs",
+        "nextui",
+        "react"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/Femoon/tts-azure-web/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:04:38Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2.0.0",
+        "published_at": "2025-08-21T15:31:38Z"
+      },
+      "featured": false,
+      "maintenance_score": 124,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "localsend",
       "full_name": "localsend/localsend",
       "description": "An open-source cross-platform alternative to AirDrop",
       "url": "https://github.com/localsend/localsend",
-      "stars": 91160,
-      "forks_count": 5090,
-      "open_issues_count": 1012,
+      "stars": 91396,
+      "forks_count": 5099,
+      "open_issues_count": 1013,
       "language": "Dart",
       "gem_score": 6.88,
-      "momentum_trend": 1.66,
+      "momentum_trend": 2.09,
       "recent_commits": 16,
       "merged_prs_count": 8,
       "topics": [
@@ -1375,7 +2894,7 @@
         "dart"
       ],
       "activity": [
-        20,
+        14,
         9,
         0,
         16
@@ -1393,7 +2912,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "odin-godot",
@@ -1429,10 +2948,45 @@
         "published_at": "2025-10-15T16:00:42Z"
       },
       "featured": false,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "package-template",
+      "full_name": "napi-rs/package-template",
+      "description": "Template project for using napi-rs to build native package",
+      "url": "https://github.com/napi-rs/package-template",
+      "stars": 371,
+      "forks_count": 45,
+      "open_issues_count": 7,
+      "language": "TypeScript",
+      "gem_score": 6.63,
+      "momentum_trend": 1.5,
+      "recent_commits": 1,
+      "merged_prs_count": 3,
+      "topics": [],
+      "activity": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/napi-rs/package-template/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T03:13:40Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.0.0",
+        "published_at": "2020-12-29T18:07:56Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 613,
+      "is_verified": true,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "ziggy-pydust",
@@ -1467,10 +3021,10 @@
         "published_at": "2025-09-18T17:08:06Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "llama2.mojo",
@@ -1503,61 +3057,22 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
-    },
-    {
-      "name": "libvaxis",
-      "full_name": "rockorager/libvaxis",
-      "description": "a modern tui library written in zig",
-      "url": "https://github.com/rockorager/libvaxis",
-      "stars": 2007,
-      "forks_count": 157,
-      "open_issues_count": 16,
-      "language": "Zig",
-      "gem_score": 6.28,
-      "momentum_trend": 0.3,
-      "recent_commits": 1,
-      "merged_prs_count": 2,
-      "topics": [
-        "tui",
-        "zig",
-        "zig-package"
-      ],
-      "activity": [
-        8,
-        0,
-        2,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/rockorager/libvaxis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-08T15:04:04Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.5.1",
-        "published_at": "2024-11-12T15:34:11Z"
-      },
-      "featured": false,
-      "maintenance_score": 24,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "system_prompts_leaks",
       "full_name": "asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "stars": 66635,
-      "forks_count": 10856,
-      "open_issues_count": 21,
+      "stars": 66854,
+      "forks_count": 10876,
+      "open_issues_count": 18,
       "language": "JavaScript",
       "gem_score": 5.92,
-      "momentum_trend": 0.44,
+      "momentum_trend": 0.45,
       "recent_commits": 9,
       "merged_prs_count": 0,
       "topics": [
@@ -1566,7 +3081,7 @@
         "chatbot"
       ],
       "activity": [
-        24,
+        23,
         9,
         28,
         9
@@ -1581,57 +3096,18 @@
       "maintenance_score": 32,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
-    },
-    {
-      "name": "zigimg",
-      "full_name": "zigimg/zigimg",
-      "description": "Zig library for reading and writing different image formats",
-      "url": "https://github.com/zigimg/zigimg",
-      "stars": 841,
-      "forks_count": 146,
-      "open_issues_count": 42,
-      "language": "Zig",
-      "gem_score": 5.51,
-      "momentum_trend": 3,
-      "recent_commits": 1,
-      "merged_prs_count": 0,
-      "topics": [
-        "zig",
-        "zig-library",
-        "image-processing"
-      ],
-      "activity": [
-        1,
-        0,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/zigimg/zigimg/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-08T20:42:06Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "zigimg_zig_0.16.0",
-        "published_at": "2026-04-19T21:25:18Z"
-      },
-      "featured": false,
-      "maintenance_score": 106,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "fizzy",
       "full_name": "fizzyedit/fizzy",
       "description": "Pixel art editor made with Zig",
       "url": "https://github.com/fizzyedit/fizzy",
-      "stars": 1484,
+      "stars": 1485,
       "forks_count": 40,
       "open_issues_count": 15,
       "language": "Zig",
-      "gem_score": 5.28,
+      "gem_score": 5.27,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 1,
@@ -1659,46 +3135,78 @@
       "maintenance_score": 27,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
-      "name": "zigar",
-      "full_name": "chung-leong/zigar",
-      "description": "Toolkit enabling the use of Zig code in JavaScript and PHP projects",
-      "url": "https://github.com/chung-leong/zigar",
-      "stars": 435,
-      "forks_count": 6,
-      "open_issues_count": 24,
-      "language": "Zig",
-      "gem_score": 5.02,
-      "momentum_trend": 0.1,
-      "recent_commits": 3,
+      "name": "tego",
+      "full_name": "tegojs/tego",
+      "description": "Tego is a pluggable Node.js framework for building customizable development platforms. It enables developers to create their own no-code/low-code systems or event-driven applications, while the core focuses on stability and environment adaptability.",
+      "url": "https://github.com/tegojs/tego",
+      "stars": 1101,
+      "forks_count": 112,
+      "open_issues_count": 0,
+      "language": "TypeScript",
+      "gem_score": 5.24,
+      "momentum_trend": 1,
+      "recent_commits": 2,
       "merged_prs_count": 0,
       "topics": [
-        "javascript",
-        "nodejs",
-        "rollup-plugin"
+        "admin-dashboard",
+        "crud",
+        "internal-tools"
       ],
       "activity": [
-        32,
-        32,
-        26,
-        3
+        0,
+        0,
+        0,
+        2
       ],
-      "good_first_issues_url": "https://github.com/chung-leong/zigar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/tegojs/tego/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-13T22:32:30Z",
+      "pushed_at": "2026-09-15T03:02:17Z",
       "is_hype": false,
-      "license": "MIT",
+      "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.16.0",
-        "published_at": "2026-09-06T22:21:52Z"
+        "tag": "v1.6.19",
+        "published_at": "2026-09-15T03:13:32Z"
       },
       "featured": false,
-      "maintenance_score": 999,
+      "maintenance_score": 70,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "inet-henge",
+      "full_name": "codeout/inet-henge",
+      "description": "Generate d3.js based Network Diagram from JSON data.",
+      "url": "https://github.com/codeout/inet-henge",
+      "stars": 266,
+      "forks_count": 33,
+      "open_issues_count": 9,
+      "language": "TypeScript",
+      "gem_score": 5.24,
+      "momentum_trend": 1,
+      "recent_commits": 6,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/codeout/inet-henge/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-15T02:56:30Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 1815,
+      "bundle_size": 34435,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "examples",
@@ -1726,10 +3234,49 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
+    },
+    {
+      "name": "zigar",
+      "full_name": "chung-leong/zigar",
+      "description": "Toolkit enabling the use of Zig code in JavaScript and PHP projects",
+      "url": "https://github.com/chung-leong/zigar",
+      "stars": 435,
+      "forks_count": 6,
+      "open_issues_count": 24,
+      "language": "Zig",
+      "gem_score": 3.59,
+      "momentum_trend": 0.03,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [
+        "javascript",
+        "nodejs",
+        "rollup-plugin"
+      ],
+      "activity": [
+        29,
+        32,
+        29,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/chung-leong/zigar/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-14T21:04:46Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.16.0",
+        "published_at": "2026-09-06T22:21:52Z"
+      },
+      "featured": false,
+      "maintenance_score": 999,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-15T03:16:48.051Z"
     },
     {
       "name": "Zag-Smalltalk",
@@ -1762,10 +3309,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 55,
+      "maintenance_score": 56,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-14T17:37:31.325Z"
+      "first_seen": "2026-09-15T03:16:48.051Z"
     }
   ]
 }
