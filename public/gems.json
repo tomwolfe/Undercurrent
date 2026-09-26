@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-09-25T16:32:39.442Z",
-  "count": 15,
+  "last_mined": "2026-09-26T03:27:30.798Z",
+  "count": 9,
   "gems": [
     {
       "name": "starnet",
       "full_name": "androoAGI/starnet",
       "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
       "url": "https://github.com/androoAGI/starnet",
-      "stars": 362,
-      "forks_count": 80,
-      "open_issues_count": 13,
+      "stars": 509,
+      "forks_count": 96,
+      "open_issues_count": 14,
       "language": "JavaScript",
-      "gem_score": 54.31,
-      "momentum_trend": 0.3,
-      "recent_commits": 261,
+      "gem_score": 50.91,
+      "momentum_trend": 0.28,
+      "recent_commits": 240,
       "merged_prs_count": 8,
       "topics": [
         "agent-harness",
@@ -21,10 +21,10 @@
         "ai-agents"
       ],
       "activity": [
-        235,
-        1483,
-        898,
-        261
+        408,
+        1276,
+        904,
+        240
       ],
       "good_first_issues_url": "https://github.com/androoAGI/starnet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -36,62 +36,23 @@
         "published_at": "2026-09-20T11:05:19Z"
       },
       "featured": false,
-      "maintenance_score": 1,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
-    },
-    {
-      "name": "karl2d",
-      "full_name": "karl-zylinski/karl2d",
-      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
-      "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 688,
-      "forks_count": 61,
-      "open_issues_count": 39,
-      "language": "Odin",
-      "gem_score": 37.45,
-      "momentum_trend": 1.6,
-      "recent_commits": 24,
-      "merged_prs_count": 33,
-      "topics": [
-        "gamedev",
-        "odin",
-        "odin-lang"
-      ],
-      "activity": [
-        17,
-        17,
-        11,
-        24
-      ],
-      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-25T15:43:24Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": {
-        "tag": "karl2d-jam-hotfix-1",
-        "published_at": "2026-05-01T20:20:15Z"
-      },
-      "featured": false,
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "wifit3",
       "full_name": "derv82/wifit3",
       "description": "Wifite but USB-only & cross-platform.",
       "url": "https://github.com/derv82/wifit3",
-      "stars": 774,
-      "forks_count": 77,
+      "stars": 967,
+      "forks_count": 87,
       "open_issues_count": 3,
       "language": "Python",
-      "gem_score": 36.53,
-      "momentum_trend": 0.4,
-      "recent_commits": 19,
+      "gem_score": 34.85,
+      "momentum_trend": 0.36,
+      "recent_commits": 17,
       "merged_prs_count": 12,
       "topics": [
         "cross-platform",
@@ -99,10 +60,10 @@
         "wifi-scanner"
       ],
       "activity": [
-        50,
+        48,
         54,
-        38,
-        19
+        39,
+        17
       ],
       "good_first_issues_url": "https://github.com/derv82/wifit3/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -117,31 +78,31 @@
       "maintenance_score": 7,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "paperclip",
       "full_name": "paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "url": "https://github.com/paperclipai/paperclip",
-      "stars": 84024,
-      "forks_count": 15174,
-      "open_issues_count": 2402,
+      "stars": 85140,
+      "forks_count": 15247,
+      "open_issues_count": 2420,
       "language": "TypeScript",
-      "gem_score": 34.04,
-      "momentum_trend": 0.68,
-      "recent_commits": 119,
+      "gem_score": 33.92,
+      "momentum_trend": 0.69,
+      "recent_commits": 117,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        236,
-        141,
-        147,
-        119
+        225,
+        169,
+        116,
+        117
       ],
       "good_first_issues_url": "https://github.com/paperclipai/paperclip/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T16:16:34Z",
+      "pushed_at": "2026-09-26T01:00:13Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -152,20 +113,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "hindsight",
       "full_name": "vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "url": "https://github.com/vectorize-io/hindsight",
-      "stars": 29191,
-      "forks_count": 3011,
-      "open_issues_count": 78,
+      "stars": 29922,
+      "forks_count": 3168,
+      "open_issues_count": 77,
       "language": "Python",
-      "gem_score": 29.66,
-      "momentum_trend": 1.14,
-      "recent_commits": 153,
+      "gem_score": 29.61,
+      "momentum_trend": 1.16,
+      "recent_commits": 156,
       "merged_prs_count": 50,
       "topics": [
         "agentic-ai",
@@ -173,14 +134,14 @@
         "agents"
       ],
       "activity": [
-        167,
+        166,
+        120,
         117,
-        117,
-        153
+        156
       ],
       "good_first_issues_url": "https://github.com/vectorize-io/hindsight/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T16:14:10Z",
+      "pushed_at": "2026-09-25T20:14:12Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -191,20 +152,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "claude-plugins-official",
       "full_name": "anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "stars": 36807,
-      "forks_count": 4149,
+      "stars": 36959,
+      "forks_count": 4154,
       "open_issues_count": 1014,
       "language": "Python",
-      "gem_score": 23.3,
-      "momentum_trend": 0.05,
-      "recent_commits": 15,
+      "gem_score": 26.25,
+      "momentum_trend": 0.2,
+      "recent_commits": 55,
       "merged_prs_count": 48,
       "topics": [
         "claude-code",
@@ -212,14 +173,14 @@
         "skills"
       ],
       "activity": [
-        187,
-        375,
-        281,
-        15
+        285,
+        276,
+        284,
+        55
       ],
       "good_first_issues_url": "https://github.com/anthropics/claude-plugins-official/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T06:00:17Z",
+      "pushed_at": "2026-09-25T23:12:23Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
@@ -227,19 +188,19 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "univer",
       "full_name": "dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "url": "https://github.com/dream-num/univer",
-      "stars": 18241,
-      "forks_count": 1556,
+      "stars": 18542,
+      "forks_count": 1585,
       "open_issues_count": 105,
       "language": "TypeScript",
-      "gem_score": 16.7,
-      "momentum_trend": 1.4,
+      "gem_score": 16.67,
+      "momentum_trend": 1.43,
       "recent_commits": 29,
       "merged_prs_count": 50,
       "topics": [
@@ -248,7 +209,7 @@
         "spreadsheet"
       ],
       "activity": [
-        14,
+        13,
         26,
         22,
         29
@@ -266,59 +227,21 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
-    },
-    {
-      "name": "NuMojo",
-      "full_name": "Mojo-Numerics-and-Algorithms-group/NuMojo",
-      "description": "NuMojo is a library for numerical computing in Mojo 🔥 similar to numpy in Python.",
-      "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
-      "stars": 240,
-      "forks_count": 28,
-      "open_issues_count": 18,
-      "language": "Mojo",
-      "gem_score": 16.69,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 16,
-      "topics": [
-        "mathematics",
-        "numerical-analysis"
-      ],
-      "activity": [
-        1,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-21T11:32:42Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.10.0",
-        "published_at": "2026-08-28T07:53:07Z"
-      },
-      "featured": false,
-      "maintenance_score": 4,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 291522,
-      "forks_count": 26090,
-      "open_issues_count": 143,
+      "stars": 291701,
+      "forks_count": 26108,
+      "open_issues_count": 145,
       "language": "Shell",
-      "gem_score": 15.29,
-      "momentum_trend": 1,
+      "gem_score": 15.51,
+      "momentum_trend": 3,
       "recent_commits": 1,
-      "merged_prs_count": 28,
+      "merged_prs_count": 31,
       "topics": [
         "ai",
         "brainstorming",
@@ -327,139 +250,32 @@
       "activity": [
         0,
         0,
-        0,
+        1,
         1
       ],
       "good_first_issues_url": "https://github.com/obra/superpowers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T15:53:39Z",
+      "pushed_at": "2026-09-25T18:08:16Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v6.4.1",
-        "published_at": "2026-09-19T00:32:44Z"
+        "tag": "v6.4.2",
+        "published_at": "2026-09-25T18:08:09Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
-    },
-    {
-      "name": "ols",
-      "full_name": "DanielGavin/ols",
-      "description": "Language server for Odin",
-      "url": "https://github.com/DanielGavin/ols",
-      "stars": 1187,
-      "forks_count": 191,
-      "open_issues_count": 102,
-      "language": "Odin",
-      "gem_score": 14.85,
-      "momentum_trend": 1.48,
-      "recent_commits": 31,
-      "merged_prs_count": 40,
-      "topics": [
-        "language-server",
-        "odin",
-        "lsp"
-      ],
-      "activity": [
-        28,
-        14,
-        21,
-        31
-      ],
-      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T12:59:59Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "dev-2026-08",
-        "published_at": "2026-08-30T23:55:16Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
-    },
-    {
-      "name": "no_gfx_api",
-      "full_name": "leotmp/no_gfx_api",
-      "description": null,
-      "url": "https://github.com/leotmp/no_gfx_api",
-      "stars": 312,
-      "forks_count": 21,
-      "open_issues_count": 7,
-      "language": "Odin",
-      "gem_score": 14.17,
-      "momentum_trend": 0.55,
-      "recent_commits": 2,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        3,
-        2,
-        6,
-        2
-      ],
-      "good_first_issues_url": "https://github.com/leotmp/no_gfx_api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-22T14:09:02Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 3,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-25T16:28:11.523Z"
-    },
-    {
-      "name": "mojo-gpu-puzzles",
-      "full_name": "modular/mojo-gpu-puzzles",
-      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
-      "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 409,
-      "forks_count": 380,
-      "open_issues_count": 2,
-      "language": "Mojo",
-      "gem_score": 12.33,
-      "momentum_trend": 1.39,
-      "recent_commits": 13,
-      "merged_prs_count": 0,
-      "topics": [
-        "mojo",
-        "gpu",
-        "learn-by-doing"
-      ],
-      "activity": [
-        8,
-        9,
-        11,
-        13
-      ],
-      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T06:33:26Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 66,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "skills",
       "full_name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "url": "https://github.com/anthropics/skills",
-      "stars": 178153,
-      "forks_count": 21101,
-      "open_issues_count": 368,
+      "stars": 178359,
+      "forks_count": 21114,
+      "open_issues_count": 369,
       "language": "Python",
       "gem_score": 7.86,
       "momentum_trend": 1,
@@ -483,18 +299,18 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     },
     {
       "name": "skills",
       "full_name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 269535,
-      "forks_count": 22716,
+      "stars": 269773,
+      "forks_count": 22734,
       "open_issues_count": 523,
       "language": "Shell",
-      "gem_score": 6.51,
+      "gem_score": 6.5,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 3,
@@ -518,43 +334,7 @@
       "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-25T16:28:11.523Z"
-    },
-    {
-      "name": "llama2.mojo",
-      "full_name": "tairov/llama2.mojo",
-      "description": "Inference Llama 2 in one file of pure 🔥",
-      "url": "https://github.com/tairov/llama2.mojo",
-      "stars": 2128,
-      "forks_count": 139,
-      "open_issues_count": 0,
-      "language": "Mojo",
-      "gem_score": 5.7,
-      "momentum_trend": 1.5,
-      "recent_commits": 1,
-      "merged_prs_count": 2,
-      "topics": [
-        "inference",
-        "llama",
-        "llama2"
-      ],
-      "activity": [
-        0,
-        0,
-        2,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/tairov/llama2.mojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-20T20:04:41Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 12,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-25T16:28:11.523Z"
+      "first_seen": "2026-09-26T03:24:05.830Z"
     }
   ]
 }
