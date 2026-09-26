@@ -1,108 +1,69 @@
 {
-  "last_mined": "2026-09-26T03:27:30.798Z",
+  "last_mined": "2026-09-26T15:45:58.424Z",
   "count": 9,
   "gems": [
     {
-      "name": "starnet",
-      "full_name": "androoAGI/starnet",
-      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
-      "url": "https://github.com/androoAGI/starnet",
-      "stars": 509,
-      "forks_count": 96,
-      "open_issues_count": 14,
-      "language": "JavaScript",
-      "gem_score": 50.91,
-      "momentum_trend": 0.28,
-      "recent_commits": 240,
-      "merged_prs_count": 8,
-      "topics": [
-        "agent-harness",
-        "ai",
-        "ai-agents"
-      ],
-      "activity": [
-        408,
-        1276,
-        904,
-        240
-      ],
-      "good_first_issues_url": "https://github.com/androoAGI/starnet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-23T17:52:14Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.12.4",
-        "published_at": "2026-09-20T11:05:19Z"
-      },
-      "featured": false,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-26T03:24:05.830Z"
-    },
-    {
-      "name": "wifit3",
-      "full_name": "derv82/wifit3",
-      "description": "Wifite but USB-only & cross-platform.",
-      "url": "https://github.com/derv82/wifit3",
-      "stars": 967,
-      "forks_count": 87,
-      "open_issues_count": 3,
-      "language": "Python",
-      "gem_score": 34.85,
-      "momentum_trend": 0.36,
-      "recent_commits": 17,
+      "name": "vscode",
+      "full_name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "url": "https://github.com/microsoft/vscode",
+      "stars": 193000,
+      "forks_count": 43471,
+      "open_issues_count": 18455,
+      "language": "TypeScript",
+      "gem_score": 53.11,
+      "momentum_trend": 1.31,
+      "recent_commits": 611,
       "merged_prs_count": 12,
       "topics": [
-        "cross-platform",
-        "userland",
-        "wifi-scanner"
+        "editor",
+        "electron",
+        "visual-studio-code"
       ],
       "activity": [
-        48,
-        54,
-        39,
-        17
+        481,
+        537,
+        378,
+        611
       ],
-      "good_first_issues_url": "https://github.com/derv82/wifit3/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-23T09:07:44Z",
+      "good_first_issues_url": "https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-26T15:17:49Z",
       "is_hype": false,
-      "license": "GPL-2.0",
+      "license": "MIT",
       "latest_release": {
-        "tag": "v0.3.3",
-        "published_at": "2026-09-22T17:20:03Z"
+        "tag": "1.139.1",
+        "published_at": "2026-09-25T09:58:03Z"
       },
       "featured": true,
-      "maintenance_score": 7,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T03:24:05.830Z"
+      "first_seen": "2026-09-26T15:42:56.212Z"
     },
     {
       "name": "paperclip",
       "full_name": "paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "url": "https://github.com/paperclipai/paperclip",
-      "stars": 85140,
-      "forks_count": 15247,
-      "open_issues_count": 2420,
+      "stars": 86387,
+      "forks_count": 15353,
+      "open_issues_count": 2440,
       "language": "TypeScript",
-      "gem_score": 33.92,
-      "momentum_trend": 0.69,
-      "recent_commits": 117,
+      "gem_score": 33.67,
+      "momentum_trend": 0.64,
+      "recent_commits": 110,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        225,
-        169,
-        116,
-        117
+        230,
+        163,
+        122,
+        110
       ],
       "good_first_issues_url": "https://github.com/paperclipai/paperclip/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-26T01:00:13Z",
+      "pushed_at": "2026-09-26T09:36:11Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -113,20 +74,94 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T03:24:05.830Z"
+      "first_seen": "2026-09-26T15:42:56.212Z"
+    },
+    {
+      "name": "buzz",
+      "full_name": "block/buzz",
+      "description": "A hive mind communication platform",
+      "url": "https://github.com/block/buzz",
+      "stars": 34756,
+      "forks_count": 4594,
+      "open_issues_count": 1593,
+      "language": "Rust",
+      "gem_score": 32.76,
+      "momentum_trend": 1.04,
+      "recent_commits": 48,
+      "merged_prs_count": 48,
+      "topics": [],
+      "activity": [
+        78,
+        27,
+        33,
+        48
+      ],
+      "good_first_issues_url": "https://github.com/block/buzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-26T15:40:51Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "desktop-v0.5.25",
+        "published_at": "2026-09-24T19:38:08Z"
+      },
+      "featured": true,
+      "maintenance_score": 199,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-26T15:42:56.212Z"
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "stars": 58080,
+      "forks_count": 10080,
+      "open_issues_count": 16,
+      "language": "Python",
+      "gem_score": 30.88,
+      "momentum_trend": 11.57,
+      "recent_commits": 27,
+      "merged_prs_count": 19,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents"
+      ],
+      "activity": [
+        2,
+        5,
+        0,
+        27
+      ],
+      "good_first_issues_url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-26T08:12:38Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2026.09",
+        "published_at": "2026-09-07T11:42:35Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-26T15:42:56.212Z"
     },
     {
       "name": "hindsight",
       "full_name": "vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "url": "https://github.com/vectorize-io/hindsight",
-      "stars": 29922,
-      "forks_count": 3168,
-      "open_issues_count": 77,
+      "stars": 31115,
+      "forks_count": 3379,
+      "open_issues_count": 80,
       "language": "Python",
-      "gem_score": 29.61,
-      "momentum_trend": 1.16,
-      "recent_commits": 156,
+      "gem_score": 29.26,
+      "momentum_trend": 1.02,
+      "recent_commits": 142,
       "merged_prs_count": 50,
       "topics": [
         "agentic-ai",
@@ -135,13 +170,13 @@
       ],
       "activity": [
         166,
-        120,
-        117,
-        156
+        122,
+        129,
+        142
       ],
       "good_first_issues_url": "https://github.com/vectorize-io/hindsight/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T20:14:12Z",
+      "pushed_at": "2026-09-26T14:14:46Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -152,55 +187,132 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T03:24:05.830Z"
+      "first_seen": "2026-09-26T15:42:56.212Z"
     },
     {
-      "name": "claude-plugins-official",
-      "full_name": "anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "stars": 36959,
-      "forks_count": 4154,
-      "open_issues_count": 1014,
-      "language": "Python",
-      "gem_score": 26.25,
-      "momentum_trend": 0.2,
-      "recent_commits": 55,
-      "merged_prs_count": 48,
+      "name": "openbao",
+      "full_name": "openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "url": "https://github.com/openbao/openbao",
+      "stars": 7920,
+      "forks_count": 589,
+      "open_issues_count": 256,
+      "language": "Go",
+      "gem_score": 28.64,
+      "momentum_trend": 1.3,
+      "recent_commits": 33,
+      "merged_prs_count": 49,
       "topics": [
-        "claude-code",
-        "mcp",
-        "skills"
+        "go",
+        "secret-management",
+        "security"
       ],
       "activity": [
-        285,
-        276,
-        284,
-        55
+        29,
+        30,
+        17,
+        33
       ],
-      "good_first_issues_url": "https://github.com/anthropics/claude-plugins-official/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/openbao/openbao/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-24T20:34:53Z",
+      "is_hype": false,
+      "license": "MPL-2.0",
+      "latest_release": {
+        "tag": "v2.7.0",
+        "published_at": "2026-09-23T17:39:54Z"
+      },
+      "featured": true,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-26T15:42:56.212Z"
+    },
+    {
+      "name": "Model-Optimizer",
+      "full_name": "NVIDIA/Model-Optimizer",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "stars": 4642,
+      "forks_count": 662,
+      "open_issues_count": 98,
+      "language": "Python",
+      "gem_score": 20.83,
+      "momentum_trend": 0.7,
+      "recent_commits": 21,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        19,
+        36,
+        35,
+        21
+      ],
+      "good_first_issues_url": "https://github.com/NVIDIA/Model-Optimizer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T23:12:23Z",
+      "pushed_at": "2026-09-26T06:14:55Z",
       "is_hype": true,
       "license": "Apache-2.0",
-      "latest_release": null,
+      "latest_release": {
+        "tag": "0.47.0",
+        "published_at": "2026-09-23T18:55:03Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-26T15:42:56.212Z"
+    },
+    {
+      "name": "tensorflow",
+      "full_name": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "stars": 200374,
+      "forks_count": 77554,
+      "open_issues_count": 661,
+      "language": "C++",
+      "gem_score": 17.13,
+      "momentum_trend": 0.84,
+      "recent_commits": 222,
+      "merged_prs_count": 50,
+      "topics": [
+        "tensorflow",
+        "machine-learning",
+        "python"
+      ],
+      "activity": [
+        274,
+        255,
+        266,
+        222
+      ],
+      "good_first_issues_url": "https://github.com/tensorflow/tensorflow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-26T14:07:03Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v2.21.0",
+        "published_at": "2026-03-06T19:48:15Z"
+      },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-26T03:24:05.830Z"
+      "is_verified": true,
+      "first_seen": "2026-09-26T15:42:56.212Z"
     },
     {
       "name": "univer",
       "full_name": "dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "url": "https://github.com/dream-num/univer",
-      "stars": 18542,
-      "forks_count": 1585,
+      "stars": 19035,
+      "forks_count": 1622,
       "open_issues_count": 105,
       "language": "TypeScript",
-      "gem_score": 16.67,
-      "momentum_trend": 1.43,
+      "gem_score": 16.62,
+      "momentum_trend": 1.5,
       "recent_commits": 29,
       "merged_prs_count": 50,
       "topics": [
@@ -209,9 +321,9 @@
         "spreadsheet"
       ],
       "activity": [
-        13,
+        11,
         26,
-        22,
+        21,
         29
       ],
       "good_first_issues_url": "https://github.com/dream-num/univer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -224,117 +336,10 @@
         "published_at": "2026-09-24T11:32:24Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T03:24:05.830Z"
-    },
-    {
-      "name": "superpowers",
-      "full_name": "obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "url": "https://github.com/obra/superpowers",
-      "stars": 291701,
-      "forks_count": 26108,
-      "open_issues_count": 145,
-      "language": "Shell",
-      "gem_score": 15.51,
-      "momentum_trend": 3,
-      "recent_commits": 1,
-      "merged_prs_count": 31,
-      "topics": [
-        "ai",
-        "brainstorming",
-        "coding"
-      ],
-      "activity": [
-        0,
-        0,
-        1,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/obra/superpowers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T18:08:16Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v6.4.2",
-        "published_at": "2026-09-25T18:08:09Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-26T03:24:05.830Z"
-    },
-    {
-      "name": "skills",
-      "full_name": "anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "url": "https://github.com/anthropics/skills",
-      "stars": 178359,
-      "forks_count": 21114,
-      "open_issues_count": 369,
-      "language": "Python",
-      "gem_score": 7.86,
-      "momentum_trend": 1,
-      "recent_commits": 1,
-      "merged_prs_count": 4,
-      "topics": [
-        "agent-skills"
-      ],
-      "activity": [
-        2,
-        1,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/anthropics/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-24T16:20:39Z",
-      "is_hype": true,
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 1,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-26T03:24:05.830Z"
-    },
-    {
-      "name": "skills",
-      "full_name": "mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "url": "https://github.com/mattpocock/skills",
-      "stars": 269773,
-      "forks_count": 22734,
-      "open_issues_count": 523,
-      "language": "Shell",
-      "gem_score": 6.5,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 3,
-      "topics": [],
-      "activity": [
-        2,
-        0,
-        13,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/mattpocock/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-24T14:07:55Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.2.3",
-        "published_at": "2026-08-06T14:05:28Z"
-      },
-      "featured": true,
-      "maintenance_score": 8,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-26T03:24:05.830Z"
+      "first_seen": "2026-09-26T15:42:56.212Z"
     }
   ]
 }
