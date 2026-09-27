@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-09-26T15:45:58.424Z",
+  "last_mined": "2026-09-27T03:36:04.773Z",
   "count": 9,
   "gems": [
     {
@@ -7,28 +7,28 @@
       "full_name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "url": "https://github.com/microsoft/vscode",
-      "stars": 193000,
-      "forks_count": 43471,
-      "open_issues_count": 18455,
+      "stars": 193086,
+      "forks_count": 43574,
+      "open_issues_count": 18435,
       "language": "TypeScript",
-      "gem_score": 53.11,
-      "momentum_trend": 1.31,
-      "recent_commits": 611,
-      "merged_prs_count": 12,
+      "gem_score": 52.51,
+      "momentum_trend": 1.32,
+      "recent_commits": 618,
+      "merged_prs_count": 7,
       "topics": [
         "editor",
         "electron",
         "visual-studio-code"
       ],
       "activity": [
-        481,
-        537,
-        378,
-        611
+        482,
+        539,
+        379,
+        618
       ],
       "good_first_issues_url": "https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-26T15:17:49Z",
+      "pushed_at": "2026-09-27T03:32:18Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -39,31 +39,31 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "paperclip",
       "full_name": "paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "url": "https://github.com/paperclipai/paperclip",
-      "stars": 86387,
-      "forks_count": 15353,
-      "open_issues_count": 2440,
+      "stars": 87595,
+      "forks_count": 15455,
+      "open_issues_count": 2459,
       "language": "TypeScript",
-      "gem_score": 33.67,
-      "momentum_trend": 0.64,
-      "recent_commits": 110,
+      "gem_score": 33.46,
+      "momentum_trend": 0.62,
+      "recent_commits": 105,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        230,
-        163,
-        122,
-        110
+        221,
+        180,
+        105,
+        105
       ],
       "good_first_issues_url": "https://github.com/paperclipai/paperclip/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-26T09:36:11Z",
+      "pushed_at": "2026-09-27T03:30:26Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -74,31 +74,31 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "buzz",
       "full_name": "block/buzz",
       "description": "A hive mind communication platform",
       "url": "https://github.com/block/buzz",
-      "stars": 34756,
-      "forks_count": 4594,
-      "open_issues_count": 1593,
+      "stars": 34850,
+      "forks_count": 4596,
+      "open_issues_count": 1596,
       "language": "Rust",
-      "gem_score": 32.76,
-      "momentum_trend": 1.04,
-      "recent_commits": 48,
+      "gem_score": 32.65,
+      "momentum_trend": 1.01,
+      "recent_commits": 47,
       "merged_prs_count": 48,
       "topics": [],
       "activity": [
         78,
-        27,
+        28,
         33,
-        48
+        47
       ],
       "good_first_issues_url": "https://github.com/block/buzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-26T15:40:51Z",
+      "pushed_at": "2026-09-26T23:11:42Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -106,21 +106,21 @@
         "published_at": "2026-09-24T19:38:08Z"
       },
       "featured": true,
-      "maintenance_score": 199,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "is_verified": true,
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "ai-engineering-from-scratch",
       "full_name": "rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 58080,
-      "forks_count": 10080,
+      "stars": 58447,
+      "forks_count": 10135,
       "open_issues_count": 16,
       "language": "Python",
-      "gem_score": 30.88,
+      "gem_score": 30.82,
       "momentum_trend": 11.57,
       "recent_commits": 27,
       "merged_prs_count": 19,
@@ -145,21 +145,21 @@
         "published_at": "2026-09-07T11:42:35Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "hindsight",
       "full_name": "vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "url": "https://github.com/vectorize-io/hindsight",
-      "stars": 31115,
-      "forks_count": 3379,
-      "open_issues_count": 80,
+      "stars": 32491,
+      "forks_count": 3630,
+      "open_issues_count": 86,
       "language": "Python",
-      "gem_score": 29.26,
+      "gem_score": 29.12,
       "momentum_trend": 1.02,
       "recent_commits": 142,
       "merged_prs_count": 50,
@@ -170,7 +170,7 @@
       ],
       "activity": [
         166,
-        122,
+        121,
         129,
         142
       ],
@@ -187,18 +187,18 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "openbao",
       "full_name": "openbao/openbao",
       "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
       "url": "https://github.com/openbao/openbao",
-      "stars": 7920,
-      "forks_count": 589,
-      "open_issues_count": 256,
+      "stars": 8026,
+      "forks_count": 590,
+      "open_issues_count": 257,
       "language": "Go",
-      "gem_score": 28.64,
+      "gem_score": 28.59,
       "momentum_trend": 1.3,
       "recent_commits": 33,
       "merged_prs_count": 49,
@@ -208,8 +208,8 @@
         "security"
       ],
       "activity": [
-        29,
         30,
+        29,
         17,
         33
       ],
@@ -223,21 +223,21 @@
         "published_at": "2026-09-23T17:39:54Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "Model-Optimizer",
       "full_name": "NVIDIA/Model-Optimizer",
       "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
       "url": "https://github.com/NVIDIA/Model-Optimizer",
-      "stars": 4642,
-      "forks_count": 662,
+      "stars": 4785,
+      "forks_count": 669,
       "open_issues_count": 98,
       "language": "Python",
-      "gem_score": 20.83,
+      "gem_score": 20.75,
       "momentum_trend": 0.7,
       "recent_commits": 21,
       "merged_prs_count": 50,
@@ -250,7 +250,7 @@
       ],
       "good_first_issues_url": "https://github.com/NVIDIA/Model-Optimizer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-26T06:14:55Z",
+      "pushed_at": "2026-09-27T01:01:53Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -258,23 +258,23 @@
         "published_at": "2026-09-23T18:55:03Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "tensorflow",
       "full_name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "url": "https://github.com/tensorflow/tensorflow",
-      "stars": 200374,
-      "forks_count": 77554,
-      "open_issues_count": 661,
+      "stars": 200475,
+      "forks_count": 77647,
+      "open_issues_count": 662,
       "language": "C++",
-      "gem_score": 17.13,
-      "momentum_trend": 0.84,
-      "recent_commits": 222,
+      "gem_score": 17.1,
+      "momentum_trend": 0.82,
+      "recent_commits": 216,
       "merged_prs_count": 50,
       "topics": [
         "tensorflow",
@@ -282,14 +282,14 @@
         "python"
       ],
       "activity": [
-        274,
-        255,
-        266,
-        222
+        282,
+        240,
+        270,
+        216
       ],
       "good_first_issues_url": "https://github.com/tensorflow/tensorflow/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-26T14:07:03Z",
+      "pushed_at": "2026-09-27T03:30:08Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -297,23 +297,23 @@
         "published_at": "2026-03-06T19:48:15Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     },
     {
       "name": "univer",
       "full_name": "dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "url": "https://github.com/dream-num/univer",
-      "stars": 19035,
-      "forks_count": 1622,
-      "open_issues_count": 105,
+      "stars": 19443,
+      "forks_count": 1650,
+      "open_issues_count": 106,
       "language": "TypeScript",
-      "gem_score": 16.62,
-      "momentum_trend": 1.5,
-      "recent_commits": 29,
+      "gem_score": 16.55,
+      "momentum_trend": 1.45,
+      "recent_commits": 28,
       "merged_prs_count": 50,
       "topics": [
         "data-table",
@@ -321,10 +321,10 @@
         "spreadsheet"
       ],
       "activity": [
-        11,
+        10,
         26,
-        21,
-        29
+        22,
+        28
       ],
       "good_first_issues_url": "https://github.com/dream-num/univer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -339,7 +339,7 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-26T15:42:56.212Z"
+      "first_seen": "2026-09-27T03:32:24.803Z"
     }
   ]
 }
