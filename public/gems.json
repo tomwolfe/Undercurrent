@@ -1,34 +1,34 @@
 {
-  "last_mined": "2026-09-28T03:35:23.362Z",
-  "count": 14,
+  "last_mined": "2026-09-28T19:17:56.098Z",
+  "count": 12,
   "gems": [
     {
       "name": "openrig",
       "full_name": "mvschwarz/openrig",
       "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
       "url": "https://github.com/mvschwarz/openrig",
-      "stars": 1071,
-      "forks_count": 107,
-      "open_issues_count": 38,
+      "stars": 1578,
+      "forks_count": 129,
+      "open_issues_count": 41,
       "language": "TypeScript",
-      "gem_score": 52.97,
-      "momentum_trend": 0.43,
-      "recent_commits": 51,
-      "merged_prs_count": 19,
+      "gem_score": 51.36,
+      "momentum_trend": 0.46,
+      "recent_commits": 54,
+      "merged_prs_count": 22,
       "topics": [
         "agent-harness",
         "agent-orchestration",
         "agent-skills"
       ],
       "activity": [
-        230,
-        125,
+        259,
+        96,
         1,
-        51
+        54
       ],
       "good_first_issues_url": "https://github.com/mvschwarz/openrig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-28T01:40:59Z",
+      "pushed_at": "2026-09-28T10:36:40Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -39,55 +39,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
-    },
-    {
-      "name": "scriptc",
-      "full_name": "vercel-labs/scriptc",
-      "description": "TypeScript-to-Native Compiler",
-      "url": "https://github.com/vercel-labs/scriptc",
-      "stars": 5444,
-      "forks_count": 142,
-      "open_issues_count": 11,
-      "language": "TypeScript",
-      "gem_score": 43.97,
-      "momentum_trend": 4.93,
-      "recent_commits": 115,
-      "merged_prs_count": 50,
-      "topics": [],
-      "activity": [
-        11,
-        15,
-        44,
-        115
-      ],
-      "good_first_issues_url": "https://github.com/vercel-labs/scriptc/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-28T03:29:24Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.1.7",
-        "published_at": "2026-09-27T16:14:46Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "VoiceStudio",
       "full_name": "debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "stars": 40467,
-      "forks_count": 4806,
-      "open_issues_count": 15,
+      "stars": 43318,
+      "forks_count": 5046,
+      "open_issues_count": 26,
       "language": "Python",
-      "gem_score": 39.25,
-      "momentum_trend": 0.4,
-      "recent_commits": 179,
+      "gem_score": 38.64,
+      "momentum_trend": 0.35,
+      "recent_commits": 159,
       "merged_prs_count": 49,
       "topics": [
         "tts",
@@ -95,14 +60,14 @@
         "voice-generation"
       ],
       "activity": [
-        102,
-        602,
-        648,
-        179
+        281,
+        437,
+        654,
+        159
       ],
       "good_first_issues_url": "https://github.com/debpalash/VoiceStudio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-27T13:29:55Z",
+      "pushed_at": "2026-09-28T17:59:35Z",
       "is_hype": false,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -110,34 +75,34 @@
         "published_at": "2026-09-23T08:53:32Z"
       },
       "featured": true,
-      "maintenance_score": 87,
+      "maintenance_score": 88,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "paperclip",
       "full_name": "paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "url": "https://github.com/paperclipai/paperclip",
-      "stars": 90287,
-      "forks_count": 15695,
-      "open_issues_count": 2498,
+      "stars": 92387,
+      "forks_count": 15859,
+      "open_issues_count": 2537,
       "language": "TypeScript",
-      "gem_score": 33.37,
-      "momentum_trend": 0.7,
-      "recent_commits": 108,
-      "merged_prs_count": 50,
+      "gem_score": 33.24,
+      "momentum_trend": 0.73,
+      "recent_commits": 111,
+      "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        189,
-        172,
-        105,
-        108
+        174,
+        180,
+        102,
+        111
       ],
       "good_first_issues_url": "https://github.com/paperclipai/paperclip/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-28T03:23:32Z",
+      "pushed_at": "2026-09-28T19:08:07Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -148,20 +113,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 692,
+      "stars": 693,
       "forks_count": 61,
       "open_issues_count": 39,
       "language": "Odin",
-      "gem_score": 32.91,
-      "momentum_trend": 0.5,
-      "recent_commits": 9,
+      "gem_score": 32.53,
+      "momentum_trend": 0.49,
+      "recent_commits": 8,
       "merged_prs_count": 25,
       "topics": [
         "gamedev",
@@ -169,14 +134,14 @@
         "odin-lang"
       ],
       "activity": [
-        9,
-        17,
+        3,
+        18,
         28,
-        9
+        8
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-28T00:31:50Z",
+      "pushed_at": "2026-09-28T16:32:45Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -184,62 +149,23 @@
         "published_at": "2026-05-01T20:20:15Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "full_name": "rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 59481,
-      "forks_count": 10257,
-      "open_issues_count": 14,
-      "language": "Python",
-      "gem_score": 31.86,
-      "momentum_trend": 19.8,
-      "recent_commits": 33,
-      "merged_prs_count": 22,
-      "topics": [
-        "agents",
-        "ai",
-        "ai-agents"
-      ],
-      "activity": [
-        0,
-        5,
-        0,
-        33
-      ],
-      "good_first_issues_url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-27T11:54:19Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v2026.10",
-        "published_at": "2026-09-27T10:17:34Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "hindsight",
       "full_name": "vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "url": "https://github.com/vectorize-io/hindsight",
-      "stars": 37722,
-      "forks_count": 4886,
-      "open_issues_count": 96,
+      "stars": 40722,
+      "forks_count": 5514,
+      "open_issues_count": 87,
       "language": "Python",
-      "gem_score": 28.65,
-      "momentum_trend": 1.01,
-      "recent_commits": 141,
+      "gem_score": 29.21,
+      "momentum_trend": 1.13,
+      "recent_commits": 142,
       "merged_prs_count": 50,
       "topics": [
         "agentic-ai",
@@ -247,14 +173,14 @@
         "agents"
       ],
       "activity": [
-        166,
-        122,
-        129,
-        141
+        152,
+        97,
+        127,
+        142
       ],
       "good_first_issues_url": "https://github.com/vectorize-io/hindsight/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-26T14:14:46Z",
+      "pushed_at": "2026-09-28T19:06:35Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -262,55 +188,23 @@
         "published_at": "2026-09-21T15:24:30Z"
       },
       "featured": false,
-      "maintenance_score": 13,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
-    },
-    {
-      "name": "Madeira",
-      "full_name": "willfaust/Madeira",
-      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
-      "url": "https://github.com/willfaust/Madeira",
-      "stars": 857,
-      "forks_count": 153,
-      "open_issues_count": 8,
-      "language": "C",
-      "gem_score": 16.37,
-      "momentum_trend": 5.4,
-      "recent_commits": 9,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        5,
-        9
-      ],
-      "good_first_issues_url": "https://github.com/willfaust/Madeira/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-25T07:23:42Z",
-      "is_hype": true,
-      "license": "GPL-3.0",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "univer",
       "full_name": "dream-num/univer",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "url": "https://github.com/dream-num/univer",
-      "stars": 20630,
-      "forks_count": 1733,
-      "open_issues_count": 107,
+      "stars": 21127,
+      "forks_count": 1795,
+      "open_issues_count": 101,
       "language": "TypeScript",
-      "gem_score": 16.17,
-      "momentum_trend": 0.96,
-      "recent_commits": 22,
+      "gem_score": 15.97,
+      "momentum_trend": 0.73,
+      "recent_commits": 19,
       "merged_prs_count": 50,
       "topics": [
         "data-table",
@@ -318,14 +212,14 @@
         "spreadsheet"
       ],
       "activity": [
-        11,
-        25,
-        33,
-        22
+        12,
+        24,
+        42,
+        19
       ],
       "good_first_issues_url": "https://github.com/dream-num/univer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-28T03:19:46Z",
+      "pushed_at": "2026-09-28T19:07:28Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -336,7 +230,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "NuMojo",
@@ -347,7 +241,7 @@
       "forks_count": 28,
       "open_issues_count": 18,
       "language": "Mojo",
-      "gem_score": 15.98,
+      "gem_score": 15.97,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 13,
@@ -374,7 +268,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "ols",
@@ -382,12 +276,12 @@
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
       "stars": 1190,
-      "forks_count": 191,
-      "open_issues_count": 105,
+      "forks_count": 192,
+      "open_issues_count": 106,
       "language": "Odin",
-      "gem_score": 14.74,
-      "momentum_trend": 1.58,
-      "recent_commits": 30,
+      "gem_score": 14.6,
+      "momentum_trend": 1.53,
+      "recent_commits": 27,
       "merged_prs_count": 39,
       "topics": [
         "language-server",
@@ -395,10 +289,10 @@
         "lsp"
       ],
       "activity": [
-        20,
-        14,
-        23,
-        30
+        16,
+        12,
+        25,
+        27
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -413,7 +307,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "no_gfx_api",
@@ -424,7 +318,7 @@
       "forks_count": 21,
       "open_issues_count": 7,
       "language": "Odin",
-      "gem_score": 14.1,
+      "gem_score": 14.09,
       "momentum_trend": 0.75,
       "recent_commits": 2,
       "merged_prs_count": 1,
@@ -442,21 +336,21 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 5,
+      "maintenance_score": 6,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 410,
-      "forks_count": 379,
+      "stars": 412,
+      "forks_count": 380,
       "open_issues_count": 2,
       "language": "Mojo",
-      "gem_score": 12.05,
+      "gem_score": 12.03,
       "momentum_trend": 1.2,
       "recent_commits": 12,
       "merged_prs_count": 0,
@@ -473,54 +367,86 @@
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-27T06:42:36Z",
+      "pushed_at": "2026-09-28T06:37:38Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 69,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-09-28T03:30:17.667Z"
-    },
-    {
-      "name": "PipePipe",
-      "full_name": "InfinityLoop1308/PipePipe",
-      "description": "An open-source Android app to let you browse YouTube and other services freely. ",
-      "url": "https://github.com/InfinityLoop1308/PipePipe",
-      "stars": 6633,
-      "forks_count": 224,
-      "open_issues_count": 153,
-      "language": "Shell",
-      "gem_score": 3.75,
-      "momentum_trend": 2.25,
-      "recent_commits": 3,
-      "merged_prs_count": 0,
-      "topics": [
-        "android",
-        "mediaplayer",
-        "youtube"
-      ],
-      "activity": [
-        1,
-        2,
-        1,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/InfinityLoop1308/PipePipe/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-26T08:12:59Z",
-      "is_hype": false,
-      "license": "GPL-3.0",
-      "latest_release": {
-        "tag": "v5.4.0",
-        "published_at": "2026-09-24T23:36:27Z"
-      },
-      "featured": true,
       "maintenance_score": 70,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-28T03:30:17.667Z"
+      "first_seen": "2026-09-28T19:11:59.244Z"
+    },
+    {
+      "name": "PLFM_RADAR",
+      "full_name": "NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "stars": 25690,
+      "forks_count": 5882,
+      "open_issues_count": 8,
+      "language": "PLSQL",
+      "gem_score": 2.45,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/NawfalMotii79/PLFM_RADAR/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-06-17T02:44:52Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v2.0.2-p0-audit",
+        "published_at": "2026-04-20T19:42:20Z"
+      },
+      "featured": true,
+      "maintenance_score": 137,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-09-28T19:11:59.244Z"
+    },
+    {
+      "name": "up",
+      "full_name": "byoungd/up",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "url": "https://github.com/byoungd/up",
+      "stars": 64579,
+      "forks_count": 6508,
+      "open_issues_count": 30,
+      "language": "JavaScript",
+      "gem_score": 1.03,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "chinese",
+        "tutorial",
+        "english-learning"
+      ],
+      "activity": [
+        93,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/byoungd/up/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-20T04:50:30Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 113,
+      "bundle_size": 620,
+      "is_verified": false,
+      "first_seen": "2026-09-28T19:11:59.244Z"
     }
   ]
 }
