@@ -1,19 +1,58 @@
 {
-  "last_mined": "2026-09-30T03:57:42.723Z",
-  "count": 12,
+  "last_mined": "2026-09-30T17:41:05.041Z",
+  "count": 13,
   "gems": [
+    {
+      "name": "openclaw",
+      "full_name": "openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+      "url": "https://github.com/openclaw/openclaw",
+      "stars": 390912,
+      "forks_count": 82211,
+      "open_issues_count": 5870,
+      "language": "TypeScript",
+      "gem_score": 81.52,
+      "momentum_trend": 0.89,
+      "recent_commits": 3665,
+      "merged_prs_count": 50,
+      "topics": [
+        "ai",
+        "assistant",
+        "own-your-data"
+      ],
+      "activity": [
+        4286,
+        4211,
+        3852,
+        3665
+      ],
+      "good_first_issues_url": "https://github.com/openclaw/openclaw/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-09-30T17:31:24Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v2026.9.7",
+        "published_at": "2026-09-30T04:44:14Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-30T17:33:55.402Z"
+    },
     {
       "name": "openrig",
       "full_name": "mvschwarz/openrig",
       "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
       "url": "https://github.com/mvschwarz/openrig",
-      "stars": 2513,
-      "forks_count": 178,
-      "open_issues_count": 52,
+      "stars": 2855,
+      "forks_count": 201,
+      "open_issues_count": 57,
       "language": "TypeScript",
-      "gem_score": 55.28,
-      "momentum_trend": 0.92,
-      "recent_commits": 88,
+      "gem_score": 54.53,
+      "momentum_trend": 1.1,
+      "recent_commits": 91,
       "merged_prs_count": 50,
       "topics": [
         "agent-harness",
@@ -21,49 +60,49 @@
         "agent-skills"
       ],
       "activity": [
-        214,
-        74,
+        187,
+        61,
         0,
-        88
+        91
       ],
       "good_first_issues_url": "https://github.com/mvschwarz/openrig/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-09-30T00:03:52Z",
+      "pushed_at": "2026-09-30T17:23:21Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.6.1",
-        "published_at": "2026-09-29T13:08:57Z"
+        "tag": "v0.6.2",
+        "published_at": "2026-09-30T05:32:32Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
       "name": "OpenShell",
       "full_name": "NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "url": "https://github.com/NVIDIA/OpenShell",
-      "stars": 10778,
-      "forks_count": 1432,
-      "open_issues_count": 315,
+      "stars": 12013,
+      "forks_count": 1509,
+      "open_issues_count": 335,
       "language": "Rust",
-      "gem_score": 51.47,
-      "momentum_trend": 1.28,
-      "recent_commits": 89,
+      "gem_score": 50.62,
+      "momentum_trend": 1.2,
+      "recent_commits": 84,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        56,
-        59,
-        94,
-        89
+        50,
+        61,
+        99,
+        84
       ],
       "good_first_issues_url": "https://github.com/NVIDIA/OpenShell/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-30T02:50:57Z",
+      "pushed_at": "2026-09-30T17:23:41Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -74,59 +113,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
-    },
-    {
-      "name": "openship",
-      "full_name": "oblien/openship",
-      "description": "Self-hosted deployment platform",
-      "url": "https://github.com/oblien/openship",
-      "stars": 13925,
-      "forks_count": 1244,
-      "open_issues_count": 80,
-      "language": "TypeScript",
-      "gem_score": 39.81,
-      "momentum_trend": 2.34,
-      "recent_commits": 268,
-      "merged_prs_count": 50,
-      "topics": [
-        "agents",
-        "ai",
-        "deployments"
-      ],
-      "activity": [
-        104,
-        115,
-        124,
-        268
-      ],
-      "good_first_issues_url": "https://github.com/oblien/openship/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-30T02:24:14Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.8.0",
-        "published_at": "2026-09-27T03:14:19Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": 654995,
-      "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
       "name": "VoiceStudio",
       "full_name": "debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "stars": 48520,
-      "forks_count": 5437,
-      "open_issues_count": 37,
+      "stars": 50067,
+      "forks_count": 5565,
+      "open_issues_count": 47,
       "language": "Python",
-      "gem_score": 39.44,
-      "momentum_trend": 0.53,
-      "recent_commits": 237,
+      "gem_score": 39.17,
+      "momentum_trend": 0.5,
+      "recent_commits": 225,
       "merged_prs_count": 49,
       "topics": [
         "tts",
@@ -134,10 +134,10 @@
         "voice-generation"
       ],
       "activity": [
-        309,
-        395,
-        639,
-        237
+        317,
+        401,
+        633,
+        225
       ],
       "good_first_issues_url": "https://github.com/debpalash/VoiceStudio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -149,84 +149,49 @@
         "published_at": "2026-09-23T08:53:32Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
-      "name": "paperclip",
-      "full_name": "paperclipai/paperclip",
-      "description": "The open-source app everyone uses to manage agents at work",
-      "url": "https://github.com/paperclipai/paperclip",
-      "stars": 94623,
-      "forks_count": 16067,
-      "open_issues_count": 2594,
+      "name": "hyperframes",
+      "full_name": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "stars": 54568,
+      "forks_count": 4958,
+      "open_issues_count": 47,
       "language": "TypeScript",
-      "gem_score": 32.87,
-      "momentum_trend": 0.66,
-      "recent_commits": 100,
+      "gem_score": 38.86,
+      "momentum_trend": 1.87,
+      "recent_commits": 332,
       "merged_prs_count": 50,
-      "topics": [],
-      "activity": [
-        157,
-        187,
-        114,
-        100
+      "topics": [
+        "ai",
+        "animation",
+        "ffmpeg"
       ],
-      "good_first_issues_url": "https://github.com/paperclipai/paperclip/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "activity": [
+        141,
+        85,
+        307,
+        332
+      ],
+      "good_first_issues_url": "https://github.com/heygen-com/hyperframes/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-30T03:27:26Z",
+      "pushed_at": "2026-09-30T17:33:48Z",
       "is_hype": true,
-      "license": "MIT",
+      "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v2026.916.1",
-        "published_at": "2026-09-21T21:22:44Z"
+        "tag": "v0.8.97",
+        "published_at": "2026-09-30T14:27:08Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
-    },
-    {
-      "name": "ai-engineering-from-scratch",
-      "full_name": "rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "stars": 61570,
-      "forks_count": 10547,
-      "open_issues_count": 21,
-      "language": "Python",
-      "gem_score": 32.72,
-      "momentum_trend": 24.6,
-      "recent_commits": 41,
-      "merged_prs_count": 25,
-      "topics": [
-        "agents",
-        "ai",
-        "ai-agents"
-      ],
-      "activity": [
-        5,
-        0,
-        0,
-        41
-      ],
-      "good_first_issues_url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-09-29T19:45:19Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v2026.10",
-        "published_at": "2026-09-27T10:17:34Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
       "name": "karl2d",
@@ -237,19 +202,19 @@
       "forks_count": 61,
       "open_issues_count": 39,
       "language": "Odin",
-      "gem_score": 30.13,
+      "gem_score": 29.44,
       "momentum_trend": 0.22,
       "recent_commits": 4,
-      "merged_prs_count": 23,
+      "merged_prs_count": 20,
       "topics": [
         "gamedev",
         "odin",
         "odin-lang"
       ],
       "activity": [
-        5,
+        6,
         23,
-        27,
+        26,
         4
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -265,46 +230,7 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
-    },
-    {
-      "name": "hindsight",
-      "full_name": "vectorize-io/hindsight",
-      "description": "Hindsight: Agent Memory That Learns",
-      "url": "https://github.com/vectorize-io/hindsight",
-      "stars": 43043,
-      "forks_count": 5795,
-      "open_issues_count": 78,
-      "language": "Python",
-      "gem_score": 29.24,
-      "momentum_trend": 1.5,
-      "recent_commits": 168,
-      "merged_prs_count": 48,
-      "topics": [
-        "agentic-ai",
-        "memory",
-        "agents"
-      ],
-      "activity": [
-        124,
-        111,
-        102,
-        168
-      ],
-      "good_first_issues_url": "https://github.com/vectorize-io/hindsight/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-30T00:37:11Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.10.2",
-        "published_at": "2026-09-29T10:06:40Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
       "name": "NuMojo",
@@ -342,7 +268,46 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "stars": 127409,
+      "forks_count": 19925,
+      "open_issues_count": 13,
+      "language": "Python",
+      "gem_score": 14.31,
+      "momentum_trend": 3.26,
+      "recent_commits": 114,
+      "merged_prs_count": 50,
+      "topics": [
+        "python",
+        "tiktok",
+        "ai-video-generator"
+      ],
+      "activity": [
+        27,
+        71,
+        7,
+        114
+      ],
+      "good_first_issues_url": "https://github.com/harry0703/MoneyPrinterTurbo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-30T12:59:35Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.3.7",
+        "published_at": "2026-09-13T12:26:39Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
       "name": "ols",
@@ -353,10 +318,10 @@
       "forks_count": 193,
       "open_issues_count": 106,
       "language": "Odin",
-      "gem_score": 13.88,
-      "momentum_trend": 1.18,
-      "recent_commits": 20,
-      "merged_prs_count": 34,
+      "gem_score": 13.45,
+      "momentum_trend": 0.87,
+      "recent_commits": 16,
+      "merged_prs_count": 32,
       "topics": [
         "language-server",
         "odin",
@@ -365,8 +330,8 @@
       "activity": [
         12,
         11,
-        28,
-        20
+        32,
+        16
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -381,7 +346,42 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
+    },
+    {
+      "name": "skills",
+      "full_name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 272806,
+      "forks_count": 22951,
+      "open_issues_count": 534,
+      "language": "Shell",
+      "gem_score": 12.74,
+      "momentum_trend": 3.35,
+      "recent_commits": 19,
+      "merged_prs_count": 4,
+      "topics": [],
+      "activity": [
+        2,
+        3,
+        12,
+        19
+      ],
+      "good_first_issues_url": "https://github.com/mattpocock/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-29T12:38:37Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.2.3",
+        "published_at": "2026-08-06T14:05:28Z"
+      },
+      "featured": true,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -392,9 +392,9 @@
       "forks_count": 380,
       "open_issues_count": 2,
       "language": "Mojo",
-      "gem_score": 12.01,
-      "momentum_trend": 1.24,
-      "recent_commits": 12,
+      "gem_score": 11.47,
+      "momentum_trend": 1,
+      "recent_commits": 10,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -402,14 +402,14 @@
         "learn-by-doing"
       ],
       "activity": [
-        7,
+        6,
+        13,
         11,
-        11,
-        12
+        10
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-29T06:42:43Z",
+      "pushed_at": "2026-09-30T06:49:26Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
@@ -417,39 +417,85 @@
       "maintenance_score": 71,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
     },
     {
-      "name": "reclip",
-      "full_name": "averygan/reclip",
-      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
-      "url": "https://github.com/averygan/reclip",
-      "stars": 10244,
-      "forks_count": 1543,
-      "open_issues_count": 35,
-      "language": "HTML",
-      "gem_score": 1.42,
+      "name": "ponytail",
+      "full_name": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 148895,
+      "forks_count": 8007,
+      "open_issues_count": 112,
+      "language": "JavaScript",
+      "gem_score": 11.01,
       "momentum_trend": 0,
       "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [],
+      "merged_prs_count": 6,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude"
+      ],
       "activity": [
-        0,
-        0,
+        12,
+        2,
         0,
         0
       ],
-      "good_first_issues_url": "https://github.com/averygan/reclip/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/DietrichGebert/ponytail/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-07-09T17:49:44Z",
-      "is_hype": false,
+      "pushed_at": "2026-09-14T14:34:56Z",
+      "is_hype": true,
       "license": "MIT",
-      "latest_release": null,
+      "latest_release": {
+        "tag": "v4.10.0",
+        "published_at": "2026-09-14T14:38:56Z"
+      },
       "featured": true,
-      "maintenance_score": 93,
-      "bundle_size": null,
+      "maintenance_score": 16,
+      "bundle_size": 3573,
+      "is_verified": true,
+      "first_seen": "2026-09-30T17:33:55.402Z"
+    },
+    {
+      "name": "context-mode",
+      "full_name": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "url": "https://github.com/mksglu/context-mode",
+      "stars": 24386,
+      "forks_count": 1764,
+      "open_issues_count": 159,
+      "language": "TypeScript",
+      "gem_score": 10.51,
+      "momentum_trend": 1,
+      "recent_commits": 10,
+      "merged_prs_count": 0,
+      "topics": [
+        "claude",
+        "claude-code",
+        "claude-code-plugins"
+      ],
+      "activity": [
+        8,
+        13,
+        9,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/mksglu/context-mode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-30T12:07:33Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v1.0.169",
+        "published_at": "2026-06-29T18:18:53Z"
+      },
+      "featured": true,
+      "maintenance_score": 101,
+      "bundle_size": 61098,
       "is_verified": false,
-      "first_seen": "2026-09-30T03:52:23.658Z"
+      "first_seen": "2026-09-30T17:33:55.402Z"
     }
   ]
 }
