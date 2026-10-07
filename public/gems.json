@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-10-06T17:59:21.504Z",
-  "count": 16,
+  "last_mined": "2026-10-07T04:16:36.097Z",
+  "count": 15,
   "gems": [
     {
       "name": "AnyPS5",
       "full_name": "boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "url": "https://github.com/boykopovar/AnyPS5",
-      "stars": 5900,
-      "forks_count": 441,
-      "open_issues_count": 24,
+      "stars": 6819,
+      "forks_count": 510,
+      "open_issues_count": 32,
       "language": "C++",
-      "gem_score": 55.16,
-      "momentum_trend": 6.2,
-      "recent_commits": 1279,
+      "gem_score": 54.68,
+      "momentum_trend": 6.39,
+      "recent_commits": 1433,
       "merged_prs_count": 50,
       "topics": [
         "dynamic-library",
@@ -21,14 +21,14 @@
         "ps5-tools"
       ],
       "activity": [
-        107,
+        109,
         87,
-        425,
-        1279
+        477,
+        1433
       ],
       "good_first_issues_url": "https://github.com/boykopovar/AnyPS5/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T16:43:41Z",
+      "pushed_at": "2026-10-07T03:45:33Z",
       "is_hype": false,
       "license": "GPL-2.0",
       "latest_release": {
@@ -39,20 +39,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "e2e",
       "full_name": "tester-army/e2e",
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "url": "https://github.com/tester-army/e2e",
-      "stars": 5985,
-      "forks_count": 267,
-      "open_issues_count": 17,
+      "stars": 6503,
+      "forks_count": 291,
+      "open_issues_count": 20,
       "language": "TypeScript",
-      "gem_score": 49.79,
-      "momentum_trend": 1.45,
-      "recent_commits": 178,
+      "gem_score": 49.1,
+      "momentum_trend": 1.35,
+      "recent_commits": 168,
       "merged_prs_count": 50,
       "topics": [
         "e2e",
@@ -60,14 +60,14 @@
         "end-to-end-testing"
       ],
       "activity": [
-        118,
-        74,
-        177,
-        178
+        111,
+        75,
+        186,
+        168
       ],
       "good_first_issues_url": "https://github.com/tester-army/e2e/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T17:30:19Z",
+      "pushed_at": "2026-10-06T22:19:36Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -78,20 +78,20 @@
       "maintenance_score": 0,
       "bundle_size": 187063,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "rea",
       "full_name": "morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "url": "https://github.com/morluto/rea",
-      "stars": 8035,
-      "forks_count": 888,
-      "open_issues_count": 67,
+      "stars": 10033,
+      "forks_count": 1117,
+      "open_issues_count": 79,
       "language": "TypeScript",
-      "gem_score": 48.2,
-      "momentum_trend": 6.8,
-      "recent_commits": 222,
+      "gem_score": 47.79,
+      "momentum_trend": 8.42,
+      "recent_commits": 275,
       "merged_prs_count": 50,
       "topics": [
         "ai-agents",
@@ -102,35 +102,35 @@
         0,
         0,
         98,
-        222
+        275
       ],
       "good_first_issues_url": "https://github.com/morluto/rea/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T17:48:10Z",
+      "pushed_at": "2026-10-07T04:10:47Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "rea-agents-4.0.1",
-        "published_at": "2026-10-05T18:54:59Z"
+        "tag": "rea-agents-4.1.0",
+        "published_at": "2026-10-06T17:57:41Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": 1183,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 97022,
-      "forks_count": 8553,
-      "open_issues_count": 27,
+      "stars": 97248,
+      "forks_count": 8567,
+      "open_issues_count": 29,
       "language": "TypeScript",
-      "gem_score": 33.71,
-      "momentum_trend": 7.08,
-      "recent_commits": 479,
+      "gem_score": 33.69,
+      "momentum_trend": 7.23,
+      "recent_commits": 482,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -138,49 +138,49 @@
         "ai-memory"
       ],
       "activity": [
-        164,
-        10,
+        163,
+        8,
         29,
-        479
+        482
       ],
       "good_first_issues_url": "https://github.com/thedotmack/claude-mem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T17:32:38Z",
+      "pushed_at": "2026-10-07T00:57:45Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v13.34.1",
-        "published_at": "2026-10-06T17:31:04Z"
+        "tag": "v13.34.2",
+        "published_at": "2026-10-06T18:17:47Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "impeccable",
       "full_name": "pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "url": "https://github.com/pbakaus/impeccable",
-      "stars": 77537,
-      "forks_count": 4618,
-      "open_issues_count": 42,
+      "stars": 77792,
+      "forks_count": 4633,
+      "open_issues_count": 43,
       "language": "JavaScript",
-      "gem_score": 31.07,
-      "momentum_trend": 4.22,
-      "recent_commits": 315,
+      "gem_score": 31.06,
+      "momentum_trend": 4.38,
+      "recent_commits": 318,
       "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        160,
+        151,
         57,
-        7,
-        315
+        10,
+        318
       ],
       "good_first_issues_url": "https://github.com/pbakaus/impeccable/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T16:46:00Z",
+      "pushed_at": "2026-10-07T03:55:25Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -191,35 +191,35 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 698,
+      "stars": 697,
       "forks_count": 62,
       "open_issues_count": 39,
       "language": "Odin",
-      "gem_score": 30.03,
-      "momentum_trend": 0.27,
-      "recent_commits": 5,
-      "merged_prs_count": 21,
+      "gem_score": 30.74,
+      "momentum_trend": 0.33,
+      "recent_commits": 6,
+      "merged_prs_count": 22,
       "topics": [
         "gamedev",
         "odin",
         "odin-lang"
       ],
       "activity": [
-        19,
-        28,
-        8,
-        5
+        23,
+        27,
+        4,
+        6
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-04T22:30:21Z",
+      "pushed_at": "2026-10-06T22:46:51Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -227,38 +227,38 @@
         "published_at": "2026-05-01T20:20:15Z"
       },
       "featured": false,
-      "maintenance_score": 26,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "text-to-cad",
       "full_name": "earthtojake/text-to-cad",
       "description": "Give your agent CAD superpowers.",
       "url": "https://github.com/earthtojake/text-to-cad",
-      "stars": 17840,
-      "forks_count": 1795,
-      "open_issues_count": 0,
+      "stars": 18056,
+      "forks_count": 1808,
+      "open_issues_count": 1,
       "language": "Python",
-      "gem_score": 30.01,
-      "momentum_trend": 0.38,
-      "recent_commits": 41,
-      "merged_prs_count": 16,
+      "gem_score": 30.29,
+      "momentum_trend": 0.35,
+      "recent_commits": 38,
+      "merged_prs_count": 18,
       "topics": [
         "agents",
         "ai-agents",
         "cad"
       ],
       "activity": [
-        166,
-        149,
-        11,
-        41
+        256,
+        55,
+        16,
+        38
       ],
       "good_first_issues_url": "https://github.com/earthtojake/text-to-cad/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T17:51:43Z",
+      "pushed_at": "2026-10-07T04:00:26Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -269,18 +269,54 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
+    },
+    {
+      "name": "i-have-adhd",
+      "full_name": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "stars": 54495,
+      "forks_count": 3129,
+      "open_issues_count": 28,
+      "language": "Python",
+      "gem_score": 23.78,
+      "momentum_trend": 0.52,
+      "recent_commits": 9,
+      "merged_prs_count": 18,
+      "topics": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin"
+      ],
+      "activity": [
+        44,
+        4,
+        4,
+        9
+      ],
+      "good_first_issues_url": "https://github.com/ayghri/i-have-adhd/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-06T23:23:46Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "skills",
       "full_name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 277859,
-      "forks_count": 23270,
-      "open_issues_count": 413,
+      "stars": 278296,
+      "forks_count": 23305,
+      "open_issues_count": 310,
       "language": "Shell",
-      "gem_score": 16.75,
+      "gem_score": 16.74,
       "momentum_trend": 2.67,
       "recent_commits": 32,
       "merged_prs_count": 15,
@@ -293,7 +329,7 @@
       ],
       "good_first_issues_url": "https://github.com/mattpocock/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T13:41:41Z",
+      "pushed_at": "2026-10-06T19:04:26Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -304,43 +340,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
-    },
-    {
-      "name": "i-have-adhd",
-      "full_name": "ayghri/i-have-adhd",
-      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "stars": 54260,
-      "forks_count": 3120,
-      "open_issues_count": 31,
-      "language": "Python",
-      "gem_score": 16.14,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 15,
-      "topics": [
-        "adhd",
-        "claude-",
-        "claude-code-plugin"
-      ],
-      "activity": [
-        34,
-        11,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/ayghri/i-have-adhd/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-19T16:44:46Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 26,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "ols",
@@ -348,11 +348,11 @@
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
       "stars": 1200,
-      "forks_count": 193,
+      "forks_count": 194,
       "open_issues_count": 99,
       "language": "Odin",
       "gem_score": 14.77,
-      "momentum_trend": 1.5,
+      "momentum_trend": 1.52,
       "recent_commits": 31,
       "merged_prs_count": 39,
       "topics": [
@@ -361,7 +361,7 @@
         "lsp"
       ],
       "activity": [
-        12,
+        11,
         28,
         22,
         31
@@ -379,7 +379,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -391,7 +391,7 @@
       "open_issues_count": 2,
       "language": "Mojo",
       "gem_score": 10.75,
-      "momentum_trend": 0.69,
+      "momentum_trend": 0.71,
       "recent_commits": 8,
       "merged_prs_count": 0,
       "topics": [
@@ -400,7 +400,7 @@
         "learn-by-doing"
       ],
       "activity": [
-        12,
+        11,
         11,
         12,
         8
@@ -412,17 +412,17 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 77,
+      "maintenance_score": 78,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "no_gfx_api",
       "full_name": "leotmp/no_gfx_api",
       "description": null,
       "url": "https://github.com/leotmp/no_gfx_api",
-      "stars": 314,
+      "stars": 313,
       "forks_count": 21,
       "open_issues_count": 8,
       "language": "Odin",
@@ -447,27 +447,27 @@
       "maintenance_score": 14,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "DeepGEMM",
       "full_name": "deepseek-ai/DeepGEMM",
       "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
       "url": "https://github.com/deepseek-ai/DeepGEMM",
-      "stars": 8633,
-      "forks_count": 1365,
+      "stars": 8750,
+      "forks_count": 1377,
       "open_issues_count": 69,
       "language": "Cuda",
-      "gem_score": 7.68,
-      "momentum_trend": 1.5,
-      "recent_commits": 1,
+      "gem_score": 6.52,
+      "momentum_trend": 0,
+      "recent_commits": 0,
       "merged_prs_count": 6,
       "topics": [],
       "activity": [
         2,
         0,
-        0,
-        1
+        1,
+        0
       ],
       "good_first_issues_url": "https://github.com/deepseek-ai/DeepGEMM/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -479,46 +479,10 @@
         "published_at": "2025-10-15T14:30:54Z"
       },
       "featured": true,
-      "maintenance_score": 6,
+      "maintenance_score": 7,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-06T17:52:50.863Z"
-    },
-    {
-      "name": "llama2.mojo",
-      "full_name": "tairov/llama2.mojo",
-      "description": "Inference Llama 2 in one file of pure 🔥",
-      "url": "https://github.com/tairov/llama2.mojo",
-      "stars": 2130,
-      "forks_count": 139,
-      "open_issues_count": 0,
-      "language": "Mojo",
-      "gem_score": 4.49,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 2,
-      "topics": [
-        "inference",
-        "llama",
-        "llama2"
-      ],
-      "activity": [
-        2,
-        1,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/tairov/llama2.mojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-09-30T22:26:47Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 316,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "llm.mojo",
@@ -547,10 +511,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 896,
+      "maintenance_score": 897,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     },
     {
       "name": "odin-http",
@@ -561,7 +525,7 @@
       "forks_count": 49,
       "open_issues_count": 16,
       "language": "Odin",
-      "gem_score": 2.69,
+      "gem_score": 2.68,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -578,15 +542,15 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-06T01:30:13Z",
+      "pushed_at": "2026-10-07T00:01:35Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 40,
+      "maintenance_score": 41,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-06T17:52:50.863Z"
+      "first_seen": "2026-10-07T04:10:56.514Z"
     }
   ]
 }
