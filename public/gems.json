@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-10-07T18:28:07.802Z",
-  "count": 15,
+  "last_mined": "2026-10-08T04:28:49.121Z",
+  "count": 16,
   "gems": [
     {
       "name": "cmux",
       "full_name": "manaflow-ai/cmux",
       "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
       "url": "https://github.com/manaflow-ai/cmux",
-      "stars": 27776,
-      "forks_count": 2459,
-      "open_issues_count": 1674,
+      "stars": 27906,
+      "forks_count": 2463,
+      "open_issues_count": 1716,
       "language": "Swift",
-      "gem_score": 53.33,
-      "momentum_trend": 0.41,
-      "recent_commits": 786,
+      "gem_score": 52.61,
+      "momentum_trend": 0.32,
+      "recent_commits": 619,
       "merged_prs_count": 50,
       "topics": [
         "amp",
@@ -21,14 +21,14 @@
         "codex"
       ],
       "activity": [
-        1440,
-        2006,
-        2243,
-        786
+        1560,
+        2088,
+        2197,
+        619
       ],
       "good_first_issues_url": "https://github.com/manaflow-ai/cmux/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-07T18:23:00Z",
+      "pushed_at": "2026-10-08T04:23:11Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -39,20 +39,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "AnyPS5",
       "full_name": "boykopovar/AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "url": "https://github.com/boykopovar/AnyPS5",
-      "stars": 9496,
-      "forks_count": 711,
-      "open_issues_count": 38,
+      "stars": 11139,
+      "forks_count": 845,
+      "open_issues_count": 46,
       "language": "C++",
-      "gem_score": 52.79,
-      "momentum_trend": 5.8,
-      "recent_commits": 1468,
+      "gem_score": 52.05,
+      "momentum_trend": 5.88,
+      "recent_commits": 1541,
       "merged_prs_count": 50,
       "topics": [
         "dynamic-library",
@@ -60,14 +60,14 @@
         "ps5-tools"
       ],
       "activity": [
-        115,
-        98,
-        546,
-        1468
+        116,
+        102,
+        568,
+        1541
       ],
       "good_first_issues_url": "https://github.com/boykopovar/AnyPS5/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-07T17:26:14Z",
+      "pushed_at": "2026-10-08T04:21:39Z",
       "is_hype": false,
       "license": "GPL-2.0",
       "latest_release": {
@@ -78,20 +78,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "rea",
       "full_name": "morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "url": "https://github.com/morluto/rea",
-      "stars": 13571,
-      "forks_count": 1432,
-      "open_issues_count": 76,
+      "stars": 16509,
+      "forks_count": 1717,
+      "open_issues_count": 78,
       "language": "TypeScript",
-      "gem_score": 48.17,
-      "momentum_trend": 14.55,
-      "recent_commits": 480,
+      "gem_score": 47.59,
+      "momentum_trend": 15.24,
+      "recent_commits": 503,
       "merged_prs_count": 50,
       "topics": [
         "ai-agents",
@@ -102,11 +102,11 @@
         0,
         0,
         99,
-        480
+        503
       ],
       "good_first_issues_url": "https://github.com/morluto/rea/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-07T18:08:41Z",
+      "pushed_at": "2026-10-08T04:15:30Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -117,20 +117,20 @@
       "maintenance_score": 0,
       "bundle_size": 1183,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 97575,
-      "forks_count": 8591,
-      "open_issues_count": 32,
+      "stars": 97845,
+      "forks_count": 8607,
+      "open_issues_count": 35,
       "language": "TypeScript",
-      "gem_score": 33.27,
-      "momentum_trend": 4.24,
-      "recent_commits": 393,
+      "gem_score": 32.56,
+      "momentum_trend": 2.1,
+      "recent_commits": 275,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -138,10 +138,10 @@
         "ai-memory"
       ],
       "activity": [
-        152,
-        8,
-        118,
-        393
+        149,
+        12,
+        231,
+        275
       ],
       "good_first_issues_url": "https://github.com/thedotmack/claude-mem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -156,7 +156,7 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "karl2d",
@@ -167,24 +167,24 @@
       "forks_count": 62,
       "open_issues_count": 40,
       "language": "Odin",
-      "gem_score": 30.72,
-      "momentum_trend": 0.34,
-      "recent_commits": 6,
-      "merged_prs_count": 22,
+      "gem_score": 30.93,
+      "momentum_trend": 0.53,
+      "recent_commits": 7,
+      "merged_prs_count": 21,
       "topics": [
         "gamedev",
         "odin",
         "odin-lang"
       ],
       "activity": [
-        23,
-        26,
+        12,
+        24,
         4,
-        6
+        7
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-06T22:46:51Z",
+      "pushed_at": "2026-10-08T00:47:15Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -192,23 +192,23 @@
         "published_at": "2026-05-01T20:20:15Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "cua",
       "full_name": "trycua/cua",
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "url": "https://github.com/trycua/cua",
-      "stars": 28666,
-      "forks_count": 2036,
-      "open_issues_count": 592,
+      "stars": 28829,
+      "forks_count": 2042,
+      "open_issues_count": 583,
       "language": "Rust",
-      "gem_score": 30.5,
-      "momentum_trend": 2.58,
-      "recent_commits": 280,
+      "gem_score": 30.6,
+      "momentum_trend": 2.87,
+      "recent_commits": 302,
       "merged_prs_count": 50,
       "topics": [
         "apple",
@@ -216,14 +216,14 @@
         "lume"
       ],
       "activity": [
-        89,
-        24,
-        212,
-        280
+        83,
+        27,
+        206,
+        302
       ],
       "good_first_issues_url": "https://github.com/trycua/cua/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-07T18:13:15Z",
+      "pushed_at": "2026-10-08T04:10:39Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -234,18 +234,18 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "agent-skills",
       "full_name": "addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "url": "https://github.com/addyosmani/agent-skills",
-      "stars": 102617,
-      "forks_count": 10752,
-      "open_issues_count": 59,
+      "stars": 102936,
+      "forks_count": 10778,
+      "open_issues_count": 60,
       "language": "JavaScript",
-      "gem_score": 25.83,
+      "gem_score": 25.8,
       "momentum_trend": 1.07,
       "recent_commits": 32,
       "merged_prs_count": 50,
@@ -256,8 +256,8 @@
       ],
       "activity": [
         17,
-        39,
-        34,
+        44,
+        29,
         32
       ],
       "good_first_issues_url": "https://github.com/addyosmani/agent-skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -273,19 +273,19 @@
       "maintenance_score": 4,
       "bundle_size": 1478,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "i-have-adhd",
       "full_name": "ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "url": "https://github.com/ayghri/i-have-adhd",
-      "stars": 54939,
-      "forks_count": 3151,
+      "stars": 55278,
+      "forks_count": 3164,
       "open_issues_count": 28,
       "language": "Python",
-      "gem_score": 23.76,
-      "momentum_trend": 0.52,
+      "gem_score": 23.75,
+      "momentum_trend": 0.55,
       "recent_commits": 9,
       "merged_prs_count": 18,
       "topics": [
@@ -294,7 +294,7 @@
         "claude-code-plugin"
       ],
       "activity": [
-        45,
+        42,
         3,
         4,
         9
@@ -306,21 +306,21 @@
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "skills",
       "full_name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 279271,
-      "forks_count": 23399,
-      "open_issues_count": 149,
+      "stars": 279879,
+      "forks_count": 23458,
+      "open_issues_count": 151,
       "language": "Shell",
-      "gem_score": 19,
+      "gem_score": 18.98,
       "momentum_trend": 3.92,
       "recent_commits": 47,
       "merged_prs_count": 26,
@@ -333,7 +333,7 @@
       ],
       "good_first_issues_url": "https://github.com/mattpocock/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-07T10:23:10Z",
+      "pushed_at": "2026-10-07T18:55:04Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -344,7 +344,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "ols",
@@ -355,10 +355,10 @@
       "forks_count": 194,
       "open_issues_count": 98,
       "language": "Odin",
-      "gem_score": 14.81,
-      "momentum_trend": 1.62,
-      "recent_commits": 33,
-      "merged_prs_count": 38,
+      "gem_score": 14.57,
+      "momentum_trend": 1.34,
+      "recent_commits": 29,
+      "merged_prs_count": 37,
       "topics": [
         "language-server",
         "odin",
@@ -366,9 +366,9 @@
       ],
       "activity": [
         11,
-        32,
+        36,
         18,
-        33
+        29
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -383,7 +383,43 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
+    },
+    {
+      "name": "diagram-design",
+      "full_name": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "stars": 45172,
+      "forks_count": 2903,
+      "open_issues_count": 21,
+      "language": "HTML",
+      "gem_score": 13.99,
+      "momentum_trend": 3.28,
+      "recent_commits": 58,
+      "merged_prs_count": 49,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex"
+      ],
+      "activity": [
+        15,
+        12,
+        26,
+        58
+      ],
+      "good_first_issues_url": "https://github.com/cathrynlavery/diagram-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-08T01:34:39Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -391,7 +427,7 @@
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
       "stars": 418,
-      "forks_count": 381,
+      "forks_count": 383,
       "open_issues_count": 2,
       "language": "Mojo",
       "gem_score": 10.73,
@@ -416,10 +452,10 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 78,
+      "maintenance_score": 79,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "no_gfx_api",
@@ -430,7 +466,7 @@
       "forks_count": 21,
       "open_issues_count": 8,
       "language": "Odin",
-      "gem_score": 8.97,
+      "gem_score": 8.96,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 1,
@@ -451,31 +487,31 @@
       "maintenance_score": 15,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "raddebugger",
       "full_name": "EpicGames/raddebugger",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "url": "https://github.com/EpicGames/raddebugger",
-      "stars": 7793,
-      "forks_count": 381,
-      "open_issues_count": 272,
+      "stars": 7912,
+      "forks_count": 384,
+      "open_issues_count": 267,
       "language": "C",
-      "gem_score": 7.16,
-      "momentum_trend": 0.83,
-      "recent_commits": 23,
+      "gem_score": 7.09,
+      "momentum_trend": 0.73,
+      "recent_commits": 22,
       "merged_prs_count": 1,
       "topics": [],
       "activity": [
         29,
-        24,
-        30,
-        23
+        25,
+        37,
+        22
       ],
       "good_first_issues_url": "https://github.com/EpicGames/raddebugger/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-07T00:11:02Z",
+      "pushed_at": "2026-10-07T20:56:17Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -486,7 +522,7 @@
       "maintenance_score": 10,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "llm.mojo",
@@ -515,10 +551,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 897,
+      "maintenance_score": 898,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     },
     {
       "name": "odin-http",
@@ -526,8 +562,8 @@
       "description": "A HTTP/1.1 client/server implementation for Odin.",
       "url": "https://github.com/laytan/odin-http",
       "stars": 448,
-      "forks_count": 49,
-      "open_issues_count": 16,
+      "forks_count": 50,
+      "open_issues_count": 17,
       "language": "Odin",
       "gem_score": 2.68,
       "momentum_trend": 0,
@@ -546,7 +582,7 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-07T00:01:35Z",
+      "pushed_at": "2026-10-08T00:29:16Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
@@ -554,7 +590,7 @@
       "maintenance_score": 42,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-07T18:23:30.588Z"
+      "first_seen": "2026-10-08T04:23:07.353Z"
     }
   ]
 }
