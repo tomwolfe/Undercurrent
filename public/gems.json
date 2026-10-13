@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-10-13T05:26:52.318Z",
+  "last_mined": "2026-10-13T18:55:35.529Z",
   "count": 14,
   "gems": [
     {
@@ -7,13 +7,13 @@
       "full_name": "morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "url": "https://github.com/morluto/rea",
-      "stars": 169562,
-      "forks_count": 40399,
-      "open_issues_count": 192,
+      "stars": 200516,
+      "forks_count": 49026,
+      "open_issues_count": 350,
       "language": "TypeScript",
-      "gem_score": 43.88,
-      "momentum_trend": 22.05,
-      "recent_commits": 1676,
+      "gem_score": 43.47,
+      "momentum_trend": 16.43,
+      "recent_commits": 1813,
       "merged_prs_count": 50,
       "topics": [
         "ai-agents",
@@ -22,13 +22,13 @@
       ],
       "activity": [
         0,
-        46,
-        182,
-        1676
+        98,
+        233,
+        1813
       ],
       "good_first_issues_url": "https://github.com/morluto/rea/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-13T05:14:41Z",
+      "pushed_at": "2026-10-13T18:48:55Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -39,18 +39,57 @@
       "maintenance_score": 0,
       "bundle_size": 1183,
       "is_verified": true,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
+    },
+    {
+      "name": "VoiceStudio",
+      "full_name": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "stars": 62570,
+      "forks_count": 6979,
+      "open_issues_count": 58,
+      "language": "Python",
+      "gem_score": 37.9,
+      "momentum_trend": 0.31,
+      "recent_commits": 142,
+      "merged_prs_count": 50,
+      "topics": [
+        "tts",
+        "voice-cloning",
+        "voice-generation"
+      ],
+      "activity": [
+        631,
+        277,
+        457,
+        142
+      ],
+      "good_first_issues_url": "https://github.com/debpalash/VoiceStudio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-13T18:44:29Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v0.5.6",
+        "published_at": "2026-09-23T08:53:32Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 700,
+      "stars": 702,
       "forks_count": 63,
       "open_issues_count": 40,
       "language": "Odin",
-      "gem_score": 29.02,
+      "gem_score": 28.99,
       "momentum_trend": 0.44,
       "recent_commits": 6,
       "merged_prs_count": 16,
@@ -60,8 +99,8 @@
         "odin-lang"
       ],
       "activity": [
-        28,
-        8,
+        29,
+        7,
         5,
         6
       ],
@@ -78,42 +117,81 @@
       "maintenance_score": 6,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
-      "name": "free-claude-code",
-      "full_name": "Alishahryar1/free-claude-code",
-      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "stars": 59409,
-      "forks_count": 9346,
-      "open_issues_count": 226,
-      "language": "Python",
-      "gem_score": 25.75,
-      "momentum_trend": 0.73,
-      "recent_commits": 23,
-      "merged_prs_count": 50,
+      "name": "skills",
+      "full_name": "vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "stars": 34340,
+      "forks_count": 2939,
+      "open_issues_count": 747,
+      "language": "TypeScript",
+      "gem_score": 25.93,
+      "momentum_trend": 5.29,
+      "recent_commits": 37,
+      "merged_prs_count": 31,
       "topics": [],
       "activity": [
-        31,
-        40,
-        24,
-        23
+        8,
+        9,
+        4,
+        37
       ],
-      "good_first_issues_url": "https://github.com/Alishahryar1/free-claude-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/vercel-labs/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-13T04:29:08Z",
+      "pushed_at": "2026-10-09T17:54:47Z",
       "is_hype": true,
-      "license": "NOASSERTION",
+      "license": "MIT",
       "latest_release": {
-        "tag": "v6.16.2",
-        "published_at": "2026-10-13T04:29:19Z"
+        "tag": "v1.7.2",
+        "published_at": "2026-10-09T16:46:55Z"
       },
-      "featured": false,
-      "maintenance_score": 0,
+      "featured": true,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
+    },
+    {
+      "name": "xtool",
+      "full_name": "xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "url": "https://github.com/xtool-org/xtool",
+      "stars": 9040,
+      "forks_count": 376,
+      "open_issues_count": 58,
+      "language": "Swift",
+      "gem_score": 17.3,
+      "momentum_trend": 0.35,
+      "recent_commits": 3,
+      "merged_prs_count": 30,
+      "topics": [
+        "ios",
+        "linux",
+        "swift"
+      ],
+      "activity": [
+        16,
+        3,
+        7,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/xtool-org/xtool/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-10-06T22:54:38Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "1.21.0",
+        "published_at": "2026-10-05T21:47:51Z"
+      },
+      "featured": true,
+      "maintenance_score": 6,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "ols",
@@ -121,13 +199,13 @@
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
       "stars": 1207,
-      "forks_count": 197,
-      "open_issues_count": 99,
+      "forks_count": 198,
+      "open_issues_count": 100,
       "language": "Odin",
-      "gem_score": 14.94,
-      "momentum_trend": 1.26,
-      "recent_commits": 34,
-      "merged_prs_count": 40,
+      "gem_score": 14.91,
+      "momentum_trend": 1.19,
+      "recent_commits": 32,
+      "merged_prs_count": 41,
       "topics": [
         "language-server",
         "odin",
@@ -135,13 +213,13 @@
       ],
       "activity": [
         28,
-        26,
-        27,
-        34
+        22,
+        31,
+        32
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-12T19:38:10Z",
+      "pushed_at": "2026-10-13T18:17:39Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -152,59 +230,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-13T05:21:48.328Z"
-    },
-    {
-      "name": "open-webui",
-      "full_name": "open-webui/open-webui",
-      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": 155242,
-      "forks_count": 22658,
-      "open_issues_count": 170,
-      "language": "Python",
-      "gem_score": 14.87,
-      "momentum_trend": 2.46,
-      "recent_commits": 325,
-      "merged_prs_count": 50,
-      "topics": [
-        "ollama",
-        "ollama-webui",
-        "llm"
-      ],
-      "activity": [
-        136,
-        122,
-        139,
-        325
-      ],
-      "good_first_issues_url": "https://github.com/open-webui/open-webui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-10-12T22:13:08Z",
-      "is_hype": true,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "v0.12.0",
-        "published_at": "2026-10-10T21:13:24Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "diagram-design",
       "full_name": "cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "stars": 52962,
-      "forks_count": 3347,
-      "open_issues_count": 16,
+      "stars": 53847,
+      "forks_count": 3419,
+      "open_issues_count": 12,
       "language": "HTML",
-      "gem_score": 14.23,
-      "momentum_trend": 3.16,
-      "recent_commits": 81,
+      "gem_score": 14.06,
+      "momentum_trend": 2.25,
+      "recent_commits": 72,
       "merged_prs_count": 50,
       "topics": [
         "agent-skills",
@@ -214,12 +253,12 @@
       "activity": [
         20,
         26,
-        31,
-        81
+        50,
+        72
       ],
       "good_first_issues_url": "https://github.com/cathrynlavery/diagram-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-13T04:30:17Z",
+      "pushed_at": "2026-10-13T18:18:49Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": null,
@@ -227,7 +266,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -235,11 +274,11 @@
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
       "stars": 427,
-      "forks_count": 387,
+      "forks_count": 388,
       "open_issues_count": 2,
       "language": "Mojo",
       "gem_score": 11.27,
-      "momentum_trend": 0.91,
+      "momentum_trend": 0.97,
       "recent_commits": 10,
       "merged_prs_count": 0,
       "topics": [
@@ -248,14 +287,14 @@
         "learn-by-doing"
       ],
       "activity": [
-        13,
+        11,
         12,
         8,
         10
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-12T23:20:40Z",
+      "pushed_at": "2026-10-13T06:45:37Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
@@ -263,19 +302,19 @@
       "maintenance_score": 84,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "context-mode",
       "full_name": "mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
       "url": "https://github.com/mksglu/context-mode",
-      "stars": 27485,
-      "forks_count": 1954,
-      "open_issues_count": 173,
+      "stars": 28035,
+      "forks_count": 1987,
+      "open_issues_count": 174,
       "language": "TypeScript",
-      "gem_score": 10.79,
-      "momentum_trend": 1.18,
+      "gem_score": 10.75,
+      "momentum_trend": 1.22,
       "recent_commits": 13,
       "merged_prs_count": 0,
       "topics": [
@@ -285,13 +324,13 @@
       ],
       "activity": [
         9,
-        10,
+        9,
         14,
         13
       ],
       "good_first_issues_url": "https://github.com/mksglu/context-mode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-12T18:05:18Z",
+      "pushed_at": "2026-10-13T18:06:23Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -299,21 +338,21 @@
         "published_at": "2026-06-29T18:18:53Z"
       },
       "featured": true,
-      "maintenance_score": 163,
+      "maintenance_score": 164,
       "bundle_size": 61098,
       "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "artcraft",
       "full_name": "storytold/artcraft",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "url": "https://github.com/storytold/artcraft",
-      "stars": 22807,
-      "forks_count": 3649,
-      "open_issues_count": 208,
+      "stars": 25012,
+      "forks_count": 3936,
+      "open_issues_count": 245,
       "language": "Rust",
-      "gem_score": 9.45,
+      "gem_score": 9.36,
       "momentum_trend": 2.18,
       "recent_commits": 8,
       "merged_prs_count": 20,
@@ -338,21 +377,21 @@
         "published_at": "2026-09-26T11:14:22Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "tina",
       "full_name": "pmbanugo/tina",
       "description": "A shared-nothing, thread-per-core concurrency framework. Designed for massive concurrency because There Is No Alternative (TINA)",
       "url": "https://github.com/pmbanugo/tina",
-      "stars": 398,
+      "stars": 399,
       "forks_count": 11,
       "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 7.81,
+      "gem_score": 7.8,
       "momentum_trend": 1,
       "recent_commits": 1,
       "merged_prs_count": 0,
@@ -373,17 +412,17 @@
         "published_at": "2026-07-10T17:15:07Z"
       },
       "featured": false,
-      "maintenance_score": 149,
+      "maintenance_score": 150,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "examples",
       "full_name": "odin-lang/examples",
       "description": "Examples of idiomatic Odin code",
       "url": "https://github.com/odin-lang/examples",
-      "stars": 770,
+      "stars": 771,
       "forks_count": 107,
       "open_issues_count": 12,
       "language": "Odin",
@@ -404,19 +443,19 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "airllm",
       "full_name": "lyogavin/airllm",
       "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
       "url": "https://github.com/lyogavin/airllm",
-      "stars": 37698,
-      "forks_count": 3885,
-      "open_issues_count": 112,
+      "stars": 38175,
+      "forks_count": 3909,
+      "open_issues_count": 113,
       "language": "Jupyter Notebook",
       "gem_score": 3.18,
       "momentum_trend": 1,
@@ -435,7 +474,7 @@
       ],
       "good_first_issues_url": "https://github.com/lyogavin/airllm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-12T06:31:50Z",
+      "pushed_at": "2026-10-13T06:24:34Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -443,10 +482,10 @@
         "published_at": "2026-09-05T15:43:11Z"
       },
       "featured": true,
-      "maintenance_score": 37,
+      "maintenance_score": 38,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     },
     {
       "name": "odin-http",
@@ -455,7 +494,7 @@
       "url": "https://github.com/laytan/odin-http",
       "stars": 449,
       "forks_count": 51,
-      "open_issues_count": 16,
+      "open_issues_count": 15,
       "language": "Odin",
       "gem_score": 2.68,
       "momentum_trend": 0,
@@ -479,42 +518,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 47,
+      "maintenance_score": 48,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
-    },
-    {
-      "name": "BitNet",
-      "full_name": "microsoft/BitNet",
-      "description": "Official inference framework for 1-bit LLMs",
-      "url": "https://github.com/microsoft/BitNet",
-      "stars": 40989,
-      "forks_count": 3816,
-      "open_issues_count": 215,
-      "language": "C++",
-      "gem_score": 1.42,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/microsoft/BitNet/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-07-27T05:52:06Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 77,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-10-13T05:21:48.328Z"
+      "first_seen": "2026-10-13T18:50:01.459Z"
     }
   ]
 }
