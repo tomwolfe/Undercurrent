@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-10-18T15:25:51.169Z",
-  "count": 17,
+  "last_mined": "2026-10-19T03:15:12.501Z",
+  "count": 16,
   "gems": [
     {
       "name": "orca",
       "full_name": "stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "url": "https://github.com/stablyai/orca",
-      "stars": 96156,
-      "forks_count": 6150,
-      "open_issues_count": 4212,
+      "stars": 96856,
+      "forks_count": 6186,
+      "open_issues_count": 4230,
       "language": "TypeScript",
-      "gem_score": 50.32,
-      "momentum_trend": 1.82,
-      "recent_commits": 1339,
+      "gem_score": 50.15,
+      "momentum_trend": 1.71,
+      "recent_commits": 1301,
       "merged_prs_count": 50,
       "topics": [
         "claude-code",
@@ -21,14 +21,14 @@
         "ghostty"
       ],
       "activity": [
-        515,
-        742,
-        946,
-        1339
+        524,
+        756,
+        1000,
+        1301
       ],
       "good_first_issues_url": "https://github.com/stablyai/orca/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-18T15:11:52Z",
+      "pushed_at": "2026-10-19T03:08:09Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -39,31 +39,31 @@
       "maintenance_score": 0,
       "bundle_size": 819225,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "ai-memory",
       "full_name": "akitaonrails/ai-memory",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "url": "https://github.com/akitaonrails/ai-memory",
-      "stars": 10283,
-      "forks_count": 739,
-      "open_issues_count": 4,
+      "stars": 10579,
+      "forks_count": 754,
+      "open_issues_count": 6,
       "language": "Rust",
-      "gem_score": 49.33,
-      "momentum_trend": 1.57,
-      "recent_commits": 664,
-      "merged_prs_count": 48,
+      "gem_score": 49.63,
+      "momentum_trend": 1.68,
+      "recent_commits": 711,
+      "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        313,
-        467,
-        490,
-        664
+        294,
+        473,
+        506,
+        711
       ],
       "good_first_issues_url": "https://github.com/akitaonrails/ai-memory/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-17T19:53:00Z",
+      "pushed_at": "2026-10-19T00:51:45Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -74,20 +74,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "VoiceStudio",
       "full_name": "debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "url": "https://github.com/debpalash/VoiceStudio",
-      "stars": 74516,
-      "forks_count": 8149,
-      "open_issues_count": 100,
+      "stars": 75683,
+      "forks_count": 8289,
+      "open_issues_count": 110,
       "language": "Python",
-      "gem_score": 38.67,
-      "momentum_trend": 0.92,
-      "recent_commits": 272,
+      "gem_score": 38.28,
+      "momentum_trend": 0.84,
+      "recent_commits": 246,
       "merged_prs_count": 50,
       "topics": [
         "tts",
@@ -95,14 +95,14 @@
         "voice-generation"
       ],
       "activity": [
-        216,
-        480,
-        194,
-        272
+        179,
+        557,
+        143,
+        246
       ],
       "good_first_issues_url": "https://github.com/debpalash/VoiceStudio/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-18T13:51:44Z",
+      "pushed_at": "2026-10-19T02:59:36Z",
       "is_hype": false,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -110,54 +110,54 @@
         "published_at": "2026-09-23T08:53:32Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "plugins",
       "full_name": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "url": "https://github.com/cursor/plugins",
-      "stars": 12581,
-      "forks_count": 1230,
+      "stars": 12793,
+      "forks_count": 1259,
       "open_issues_count": 70,
       "language": "TypeScript",
-      "gem_score": 32.32,
-      "momentum_trend": 1.66,
-      "recent_commits": 89,
+      "gem_score": 32.45,
+      "momentum_trend": 1.78,
+      "recent_commits": 96,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
         87,
         36,
-        38,
-        89
+        39,
+        96
       ],
       "good_first_issues_url": "https://github.com/cursor/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-18T07:31:08Z",
+      "pushed_at": "2026-10-19T01:51:15Z",
       "is_hype": false,
       "latest_release": null,
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "ruflo",
       "full_name": "ruvnet/ruflo",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "url": "https://github.com/ruvnet/ruflo",
-      "stars": 76348,
-      "forks_count": 9025,
-      "open_issues_count": 688,
+      "stars": 76605,
+      "forks_count": 9058,
+      "open_issues_count": 690,
       "language": "TypeScript",
-      "gem_score": 30.76,
-      "momentum_trend": 0.69,
-      "recent_commits": 393,
+      "gem_score": 30.3,
+      "momentum_trend": 0.51,
+      "recent_commits": 307,
       "merged_prs_count": 50,
       "topics": [
         "swarm",
@@ -165,14 +165,14 @@
         "agentic-framework"
       ],
       "activity": [
-        178,
-        514,
-        1028,
-        393
+        261,
+        576,
+        963,
+        307
       ],
       "good_first_issues_url": "https://github.com/ruvnet/ruflo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-18T11:13:04Z",
+      "pushed_at": "2026-10-19T01:50:10Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -180,23 +180,23 @@
         "published_at": "2026-10-17T22:38:55Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "ai-job-search",
       "full_name": "MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "stars": 51909,
-      "forks_count": 17150,
-      "open_issues_count": 6,
+      "stars": 53642,
+      "forks_count": 17454,
+      "open_issues_count": 7,
       "language": "Python",
-      "gem_score": 29.91,
-      "momentum_trend": 5.36,
-      "recent_commits": 50,
+      "gem_score": 29.89,
+      "momentum_trend": 5.57,
+      "recent_commits": 52,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -204,14 +204,14 @@
         "career"
       ],
       "activity": [
+        9,
+        12,
         7,
-        14,
-        7,
-        50
+        52
       ],
       "good_first_issues_url": "https://github.com/MadsLorentzen/ai-job-search/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-18T06:16:56Z",
+      "pushed_at": "2026-10-18T19:38:41Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -222,18 +222,18 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "claude-plugins-official",
       "full_name": "anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "url": "https://github.com/anthropics/claude-plugins-official",
-      "stars": 42379,
-      "forks_count": 4514,
-      "open_issues_count": 1060,
+      "stars": 42785,
+      "forks_count": 4538,
+      "open_issues_count": 1052,
       "language": "Python",
-      "gem_score": 27.65,
+      "gem_score": 27.6,
       "momentum_trend": 4.91,
       "recent_commits": 167,
       "merged_prs_count": 50,
@@ -250,39 +250,39 @@
       ],
       "good_first_issues_url": "https://github.com/anthropics/claude-plugins-official/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-18T07:34:19Z",
+      "pushed_at": "2026-10-18T17:04:56Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "opencode",
       "full_name": "anomalyco/opencode",
       "description": "The open source coding agent.",
       "url": "https://github.com/anomalyco/opencode",
-      "stars": 216126,
-      "forks_count": 28944,
-      "open_issues_count": 3551,
+      "stars": 216723,
+      "forks_count": 29014,
+      "open_issues_count": 3500,
       "language": "TypeScript",
-      "gem_score": 23.03,
-      "momentum_trend": 0.97,
-      "recent_commits": 287,
+      "gem_score": 22.99,
+      "momentum_trend": 0.96,
+      "recent_commits": 283,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        302,
-        311,
-        275,
-        287
+        290,
+        318,
+        274,
+        283
       ],
       "good_first_issues_url": "https://github.com/anomalyco/opencode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-18T15:03:39Z",
+      "pushed_at": "2026-10-19T03:02:57Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -293,18 +293,18 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "skills",
       "full_name": "android/skills",
       "description": "No description available.",
       "url": "https://github.com/android/skills",
-      "stars": 8650,
-      "forks_count": 561,
-      "open_issues_count": 44,
+      "stars": 8827,
+      "forks_count": 568,
+      "open_issues_count": 45,
       "language": "Kotlin",
-      "gem_score": 19.64,
+      "gem_score": 19.57,
       "momentum_trend": 7.5,
       "recent_commits": 5,
       "merged_prs_count": 7,
@@ -327,10 +327,10 @@
         "published_at": "2026-10-14T11:24:10Z"
       },
       "featured": true,
-      "maintenance_score": 4,
+      "maintenance_score": 41,
       "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "is_verified": false,
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "NuMojo",
@@ -368,7 +368,7 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "ols",
@@ -380,7 +380,7 @@
       "open_issues_count": 100,
       "language": "Odin",
       "gem_score": 13.8,
-      "momentum_trend": 0.57,
+      "momentum_trend": 0.58,
       "recent_commits": 17,
       "merged_prs_count": 37,
       "topics": [
@@ -389,9 +389,9 @@
         "lsp"
       ],
       "activity": [
-        31,
-        20,
-        39,
+        30,
+        29,
+        29,
         17
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -404,21 +404,21 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 429,
+      "stars": 430,
       "forks_count": 388,
       "open_issues_count": 2,
       "language": "Mojo",
-      "gem_score": 11.96,
+      "gem_score": 11.95,
       "momentum_trend": 1.56,
       "recent_commits": 13,
       "merged_prs_count": 0,
@@ -440,21 +440,21 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 89,
+      "maintenance_score": 90,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "no_gfx_api",
       "full_name": "leotmp/no_gfx_api",
       "description": null,
       "url": "https://github.com/leotmp/no_gfx_api",
-      "stars": 316,
+      "stars": 317,
       "forks_count": 21,
       "open_issues_count": 8,
       "language": "Odin",
-      "gem_score": 8.79,
+      "gem_score": 8.78,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 1,
@@ -475,18 +475,18 @@
       "maintenance_score": 26,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "CLI-Anything",
       "full_name": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "stars": 54399,
-      "forks_count": 4933,
-      "open_issues_count": 78,
+      "stars": 54676,
+      "forks_count": 4951,
+      "open_issues_count": 81,
       "language": "Python",
-      "gem_score": 8.75,
+      "gem_score": 8.73,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 4,
@@ -507,45 +507,10 @@
         "published_at": "2026-06-25T15:17:49Z"
       },
       "featured": true,
-      "maintenance_score": 26,
+      "maintenance_score": 27,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-18T15:20:13.410Z"
-    },
-    {
-      "name": "tina",
-      "full_name": "pmbanugo/tina",
-      "description": "A shared-nothing, thread-per-core concurrency framework. Designed for massive concurrency because There Is No Alternative (TINA)",
-      "url": "https://github.com/pmbanugo/tina",
-      "stars": 402,
-      "forks_count": 11,
-      "open_issues_count": 0,
-      "language": "Odin",
-      "gem_score": 7.71,
-      "momentum_trend": 1,
-      "recent_commits": 1,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/pmbanugo/tina/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-10-12T12:24:32Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "2026.07.10",
-        "published_at": "2026-07-10T17:15:07Z"
-      },
-      "featured": false,
-      "maintenance_score": 155,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "examples",
@@ -556,16 +521,16 @@
       "forks_count": 107,
       "open_issues_count": 12,
       "language": "Odin",
-      "gem_score": 6.42,
-      "momentum_trend": 1,
-      "recent_commits": 6,
+      "gem_score": 6.29,
+      "momentum_trend": 15,
+      "recent_commits": 5,
       "merged_prs_count": 2,
       "topics": [],
       "activity": [
         0,
         0,
-        0,
-        6
+        1,
+        5
       ],
       "good_first_issues_url": "https://github.com/odin-lang/examples/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -576,7 +541,7 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     },
     {
       "name": "odin-http",
@@ -604,15 +569,15 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-17T22:27:47Z",
+      "pushed_at": "2026-10-18T22:39:48Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 52,
+      "maintenance_score": 53,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-18T15:20:13.410Z"
+      "first_seen": "2026-10-19T03:08:36.535Z"
     }
   ]
 }
