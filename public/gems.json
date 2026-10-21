@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-10-21T03:17:28.932Z",
-  "count": 13,
+  "last_mined": "2026-10-21T16:40:26.407Z",
+  "count": 14,
   "gems": [
     {
       "name": "orca",
       "full_name": "stablyai/orca",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "url": "https://github.com/stablyai/orca",
-      "stars": 99924,
-      "forks_count": 6331,
-      "open_issues_count": 4359,
+      "stars": 100842,
+      "forks_count": 6375,
+      "open_issues_count": 4401,
       "language": "TypeScript",
-      "gem_score": 50.13,
-      "momentum_trend": 1.87,
-      "recent_commits": 1485,
+      "gem_score": 49.97,
+      "momentum_trend": 1.77,
+      "recent_commits": 1452,
       "merged_prs_count": 50,
       "topics": [
         "claude-code",
@@ -21,38 +21,38 @@
         "ghostty"
       ],
       "activity": [
-        549,
-        788,
-        1042,
-        1485
+        575,
+        792,
+        1095,
+        1452
       ],
       "good_first_issues_url": "https://github.com/stablyai/orca/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-21T03:11:56Z",
+      "pushed_at": "2026-10-21T16:30:33Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v1.4.235",
-        "published_at": "2026-10-20T22:52:23Z"
+        "tag": "v1.4.237",
+        "published_at": "2026-10-21T07:25:23Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": 819225,
       "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "ai-job-search",
       "full_name": "MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "stars": 60928,
-      "forks_count": 18958,
+      "stars": 62654,
+      "forks_count": 19334,
       "open_issues_count": 5,
       "language": "Python",
-      "gem_score": 30.88,
-      "momentum_trend": 13.29,
-      "recent_commits": 93,
+      "gem_score": 31.11,
+      "momentum_trend": 15.14,
+      "recent_commits": 106,
       "merged_prs_count": 49,
       "topics": [
         "ai",
@@ -63,11 +63,11 @@
         8,
         9,
         4,
-        93
+        106
       ],
       "good_first_issues_url": "https://github.com/MadsLorentzen/ai-job-search/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-20T19:02:25Z",
+      "pushed_at": "2026-10-21T05:29:11Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -78,57 +78,18 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
-    },
-    {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "url": "https://github.com/ruvnet/ruflo",
-      "stars": 77912,
-      "forks_count": 9163,
-      "open_issues_count": 658,
-      "language": "TypeScript",
-      "gem_score": 30.13,
-      "momentum_trend": 0.46,
-      "recent_commits": 295,
-      "merged_prs_count": 50,
-      "topics": [
-        "swarm",
-        "agentic-ai",
-        "agentic-framework"
-      ],
-      "activity": [
-        298,
-        890,
-        746,
-        295
-      ],
-      "good_first_issues_url": "https://github.com/ruvnet/ruflo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-10-21T02:30:05Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v3.59.4",
-        "published_at": "2026-10-21T02:30:15Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "ponytail",
       "full_name": "DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "stars": 169932,
-      "forks_count": 9243,
-      "open_issues_count": 24,
+      "stars": 171071,
+      "forks_count": 9309,
+      "open_issues_count": 28,
       "language": "JavaScript",
-      "gem_score": 27.03,
+      "gem_score": 27.02,
       "momentum_trend": 0.48,
       "recent_commits": 19,
       "merged_prs_count": 50,
@@ -156,18 +117,18 @@
       "maintenance_score": 3,
       "bundle_size": 3573,
       "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 701,
+      "stars": 702,
       "forks_count": 63,
-      "open_issues_count": 33,
+      "open_issues_count": 35,
       "language": "Odin",
-      "gem_score": 24.74,
+      "gem_score": 24.72,
       "momentum_trend": 4.2,
       "recent_commits": 21,
       "merged_prs_count": 10,
@@ -195,7 +156,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "NuMojo",
@@ -206,10 +167,10 @@
       "forks_count": 28,
       "open_issues_count": 16,
       "language": "Mojo",
-      "gem_score": 23.17,
+      "gem_score": 22.92,
       "momentum_trend": 1,
       "recent_commits": 21,
-      "merged_prs_count": 14,
+      "merged_prs_count": 13,
       "topics": [
         "mathematics",
         "numerical-analysis"
@@ -230,73 +191,116 @@
         "published_at": "2026-10-20T12:27:54Z"
       },
       "featured": false,
-      "maintenance_score": 452,
+      "maintenance_score": 453,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
-      "name": "opencode",
-      "full_name": "anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "url": "https://github.com/anomalyco/opencode",
-      "stars": 219048,
-      "forks_count": 29222,
-      "open_issues_count": 2616,
-      "language": "TypeScript",
-      "gem_score": 22.88,
-      "momentum_trend": 0.93,
-      "recent_commits": 273,
-      "merged_prs_count": 50,
-      "topics": [],
-      "activity": [
-        280,
-        355,
-        247,
-        273
+      "name": "vllm",
+      "full_name": "vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "url": "https://github.com/vllm-project/vllm",
+      "stars": 94755,
+      "forks_count": 23725,
+      "open_issues_count": 2693,
+      "language": "Python",
+      "gem_score": 19.88,
+      "momentum_trend": 1.15,
+      "recent_commits": 471,
+      "merged_prs_count": 49,
+      "topics": [
+        "gpt",
+        "llm",
+        "pytorch"
       ],
-      "good_first_issues_url": "https://github.com/anomalyco/opencode/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-10-21T03:12:27Z",
+      "activity": [
+        430,
+        343,
+        452,
+        471
+      ],
+      "good_first_issues_url": "https://github.com/vllm-project/vllm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-10-21T16:26:03Z",
       "is_hype": true,
-      "license": "MIT",
+      "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v1.19.3",
-        "published_at": "2026-10-16T12:31:52Z"
+        "tag": "v0.32.0",
+        "published_at": "2026-10-18T06:50:48Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
+    },
+    {
+      "name": "twenty",
+      "full_name": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "url": "https://github.com/twentyhq/twenty",
+      "stars": 58934,
+      "forks_count": 9649,
+      "open_issues_count": 70,
+      "language": "TypeScript",
+      "gem_score": 18.72,
+      "momentum_trend": 1.06,
+      "recent_commits": 363,
+      "merged_prs_count": 50,
+      "topics": [
+        "crm",
+        "customer",
+        "graphql"
+      ],
+      "activity": [
+        312,
+        327,
+        386,
+        363
+      ],
+      "good_first_issues_url": "https://github.com/twentyhq/twenty/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-21T16:33:36Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "twenty/v2.50.0",
+        "published_at": "2026-10-21T10:13:13Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "ComfyUI",
       "full_name": "Comfy-Org/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "url": "https://github.com/Comfy-Org/ComfyUI",
-      "stars": 140881,
-      "forks_count": 16671,
+      "stars": 141322,
+      "forks_count": 16710,
       "open_issues_count": 4376,
       "language": "Python",
-      "gem_score": 14.66,
-      "momentum_trend": 1.09,
-      "recent_commits": 51,
-      "merged_prs_count": 48,
+      "gem_score": 14.74,
+      "momentum_trend": 1.17,
+      "recent_commits": 54,
+      "merged_prs_count": 49,
       "topics": [
         "stable-diffusion",
         "pytorch",
         "ai"
       ],
       "activity": [
-        50,
         52,
-        38,
-        51
+        52,
+        35,
+        54
       ],
       "good_first_issues_url": "https://github.com/Comfy-Org/ComfyUI/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-21T03:08:17Z",
+      "pushed_at": "2026-10-21T16:33:33Z",
       "is_hype": false,
       "license": "GPL-3.0",
       "latest_release": {
@@ -307,7 +311,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "ols",
@@ -316,22 +320,22 @@
       "url": "https://github.com/DanielGavin/ols",
       "stars": 1214,
       "forks_count": 198,
-      "open_issues_count": 101,
+      "open_issues_count": 102,
       "language": "Odin",
-      "gem_score": 12.09,
-      "momentum_trend": 0.17,
-      "recent_commits": 5,
-      "merged_prs_count": 35,
+      "gem_score": 11.77,
+      "momentum_trend": 0.14,
+      "recent_commits": 4,
+      "merged_prs_count": 34,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        22,
-        32,
+        19,
+        33,
         36,
-        5
+        4
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -346,19 +350,19 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 430,
+      "stars": 429,
       "forks_count": 388,
       "open_issues_count": 2,
       "language": "Mojo",
       "gem_score": 10.88,
-      "momentum_trend": 0.9,
+      "momentum_trend": 0.96,
       "recent_commits": 9,
       "merged_prs_count": 0,
       "topics": [
@@ -367,14 +371,14 @@
         "learn-by-doing"
       ],
       "activity": [
-        12,
+        10,
         8,
         10,
         9
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-20T07:26:26Z",
+      "pushed_at": "2026-10-21T07:04:49Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
@@ -382,14 +386,14 @@
       "maintenance_score": 92,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "examples",
       "full_name": "odin-lang/examples",
       "description": "Examples of idiomatic Odin code",
       "url": "https://github.com/odin-lang/examples",
-      "stars": 774,
+      "stars": 775,
       "forks_count": 107,
       "open_issues_count": 12,
       "language": "Odin",
@@ -410,19 +414,19 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 5,
+      "maintenance_score": 6,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "security-audit-skill",
       "full_name": "cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "stars": 34440,
-      "forks_count": 2159,
-      "open_issues_count": 28,
+      "stars": 35431,
+      "forks_count": 2227,
+      "open_issues_count": 30,
       "language": "JavaScript",
       "gem_score": 3.02,
       "momentum_trend": 0,
@@ -442,10 +446,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 40,
+      "maintenance_score": 41,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
     },
     {
       "name": "odin-http",
@@ -456,7 +460,7 @@
       "forks_count": 53,
       "open_issues_count": 16,
       "language": "Odin",
-      "gem_score": 2.67,
+      "gem_score": 2.66,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -481,7 +485,39 @@
       "maintenance_score": 55,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-21T03:12:50.332Z"
+      "first_seen": "2026-10-21T16:33:42.892Z"
+    },
+    {
+      "name": "Kronos",
+      "full_name": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "stars": 42687,
+      "forks_count": 7052,
+      "open_issues_count": 213,
+      "language": "Python",
+      "gem_score": 1.83,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/shiyu-coder/Kronos/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-04-13T12:38:49Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 415,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-21T16:33:42.892Z"
     }
   ]
 }
