@@ -1,15 +1,15 @@
 {
-  "last_mined": "2026-10-22T16:37:43.375Z",
-  "count": 7,
+  "last_mined": "2026-10-23T03:21:30.118Z",
+  "count": 12,
   "gems": [
     {
       "name": "ponytail",
       "full_name": "DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "stars": 172959,
-      "forks_count": 9414,
-      "open_issues_count": 38,
+      "stars": 173688,
+      "forks_count": 9453,
+      "open_issues_count": 40,
       "language": "JavaScript",
       "gem_score": 26.55,
       "momentum_trend": 0.39,
@@ -36,10 +36,81 @@
         "published_at": "2026-10-16T23:15:15Z"
       },
       "featured": true,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": 3573,
       "is_verified": true,
-      "first_seen": "2026-10-22T16:35:09.364Z"
+      "first_seen": "2026-10-23T03:17:06.861Z"
+    },
+    {
+      "name": "karl2d",
+      "full_name": "karl-zylinski/karl2d",
+      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
+      "url": "https://github.com/karl-zylinski/karl2d",
+      "stars": 703,
+      "forks_count": 63,
+      "open_issues_count": 35,
+      "language": "Odin",
+      "gem_score": 24.36,
+      "momentum_trend": 4.4,
+      "recent_commits": 22,
+      "merged_prs_count": 9,
+      "topics": [
+        "gamedev",
+        "odin",
+        "odin-lang"
+      ],
+      "activity": [
+        5,
+        6,
+        4,
+        22
+      ],
+      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-22T21:51:17Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": {
+        "tag": "karl2d-jam-hotfix-1",
+        "published_at": "2026-05-01T20:20:15Z"
+      },
+      "featured": false,
+      "maintenance_score": 2,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-10-23T03:17:06.861Z"
+    },
+    {
+      "name": "knowledge-work-plugins",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "stars": 31695,
+      "forks_count": 3538,
+      "open_issues_count": 84,
+      "language": "Python",
+      "gem_score": 23.37,
+      "momentum_trend": 0.41,
+      "recent_commits": 7,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        1,
+        1,
+        49,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/anthropics/knowledge-work-plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-22T07:39:25Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": null,
+      "featured": true,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-23T03:17:06.861Z"
     },
     {
       "name": "NuMojo",
@@ -77,31 +148,31 @@
       "maintenance_score": 454,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-22T16:35:09.364Z"
+      "first_seen": "2026-10-23T03:17:06.861Z"
     },
     {
       "name": "php-src",
       "full_name": "php/php-src",
       "description": "The PHP Interpreter",
       "url": "https://github.com/php/php-src",
-      "stars": 40969,
-      "forks_count": 8293,
-      "open_issues_count": 998,
+      "stars": 41233,
+      "forks_count": 8320,
+      "open_issues_count": 1004,
       "language": "C",
-      "gem_score": 20.17,
-      "momentum_trend": 0.92,
-      "recent_commits": 248,
+      "gem_score": 20.19,
+      "momentum_trend": 0.96,
+      "recent_commits": 260,
       "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        338,
-        237,
-        231,
-        248
+        343,
+        239,
+        234,
+        260
       ],
       "good_first_issues_url": "https://github.com/php/php-src/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-22T14:37:39Z",
+      "pushed_at": "2026-10-23T02:12:11Z",
       "is_hype": false,
       "license": "BSD-3-Clause",
       "latest_release": {
@@ -112,20 +183,59 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-22T16:35:09.364Z"
+      "first_seen": "2026-10-23T03:17:06.861Z"
+    },
+    {
+      "name": "fastapi",
+      "full_name": "fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "url": "https://github.com/fastapi/fastapi",
+      "stars": 103832,
+      "forks_count": 10093,
+      "open_issues_count": 2,
+      "language": "Python",
+      "gem_score": 14.85,
+      "momentum_trend": 2.92,
+      "recent_commits": 113,
+      "merged_prs_count": 50,
+      "topics": [
+        "python",
+        "json",
+        "swagger-ui"
+      ],
+      "activity": [
+        33,
+        47,
+        36,
+        113
+      ],
+      "good_first_issues_url": "https://github.com/fastapi/fastapi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-22T22:21:50Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "0.161.1",
+        "published_at": "2026-10-22T22:21:50Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-10-23T03:17:06.861Z"
     },
     {
       "name": "claude-howto",
       "full_name": "luongnv89/claude-howto",
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "url": "https://github.com/luongnv89/claude-howto",
-      "stars": 42851,
-      "forks_count": 5367,
+      "stars": 43352,
+      "forks_count": 5398,
       "open_issues_count": 15,
       "language": "Python",
-      "gem_score": 13.88,
-      "momentum_trend": 3.75,
-      "recent_commits": 5,
+      "gem_score": 13.46,
+      "momentum_trend": 2.4,
+      "recent_commits": 4,
       "merged_prs_count": 9,
       "topics": [
         "claude-code",
@@ -135,8 +245,8 @@
       "activity": [
         3,
         0,
-        1,
-        5
+        2,
+        4
       ],
       "good_first_issues_url": "https://github.com/luongnv89/claude-howto/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -151,7 +261,46 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-22T16:35:09.364Z"
+      "first_seen": "2026-10-23T03:17:06.861Z"
+    },
+    {
+      "name": "ols",
+      "full_name": "DanielGavin/ols",
+      "description": "Language server for Odin",
+      "url": "https://github.com/DanielGavin/ols",
+      "stars": 1215,
+      "forks_count": 199,
+      "open_issues_count": 103,
+      "language": "Odin",
+      "gem_score": 11.25,
+      "momentum_trend": 0.12,
+      "recent_commits": 3,
+      "merged_prs_count": 31,
+      "topics": [
+        "language-server",
+        "odin",
+        "lsp"
+      ],
+      "activity": [
+        18,
+        25,
+        35,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-18T07:02:28Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "dev-2026-10",
+        "published_at": "2026-10-12T15:23:00Z"
+      },
+      "featured": false,
+      "maintenance_score": 5,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-10-23T03:17:06.861Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -162,9 +311,9 @@
       "forks_count": 389,
       "open_issues_count": 2,
       "language": "Mojo",
-      "gem_score": 11.69,
-      "momentum_trend": 1.29,
-      "recent_commits": 12,
+      "gem_score": 10.86,
+      "momentum_trend": 0.96,
+      "recent_commits": 9,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -172,34 +321,34 @@
         "learn-by-doing"
       ],
       "activity": [
-        11,
         8,
-        9,
-        12
+        8,
+        12,
+        9
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-22T07:30:33Z",
+      "pushed_at": "2026-10-23T00:12:17Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 93,
+      "maintenance_score": 94,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-22T16:35:09.364Z"
+      "first_seen": "2026-10-23T03:17:06.861Z"
     },
     {
       "name": "PCL",
       "full_name": "Meloong-Git/PCL",
       "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
       "url": "https://github.com/Meloong-Git/PCL",
-      "stars": 8627,
-      "forks_count": 1193,
-      "open_issues_count": 219,
+      "stars": 8744,
+      "forks_count": 1209,
+      "open_issues_count": 200,
       "language": "Visual Basic .NET",
-      "gem_score": 7.39,
-      "momentum_trend": 0.92,
+      "gem_score": 7.38,
+      "momentum_trend": 1,
       "recent_commits": 4,
       "merged_prs_count": 8,
       "topics": [
@@ -208,7 +357,7 @@
         "minecraft-launcher"
       ],
       "activity": [
-        3,
+        2,
         3,
         7,
         4
@@ -223,21 +372,21 @@
         "published_at": "2026-10-20T07:01:34Z"
       },
       "featured": false,
-      "maintenance_score": 9,
+      "maintenance_score": 10,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-22T16:35:09.364Z"
+      "first_seen": "2026-10-23T03:17:06.861Z"
     },
     {
       "name": "security-audit-skill",
       "full_name": "cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "url": "https://github.com/cloudflare/security-audit-skill",
-      "stars": 38687,
-      "forks_count": 2410,
+      "stars": 39785,
+      "forks_count": 2482,
       "open_issues_count": 30,
       "language": "JavaScript",
-      "gem_score": 2.99,
+      "gem_score": 2.98,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -258,7 +407,43 @@
       "maintenance_score": 42,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-22T16:35:09.364Z"
+      "first_seen": "2026-10-23T03:17:06.861Z"
+    },
+    {
+      "name": "odin-http",
+      "full_name": "laytan/odin-http",
+      "description": "A HTTP/1.1 client/server implementation for Odin.",
+      "url": "https://github.com/laytan/odin-http",
+      "stars": 453,
+      "forks_count": 53,
+      "open_issues_count": 16,
+      "language": "Odin",
+      "gem_score": 2.66,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [
+        "odin-lib",
+        "http",
+        "http-client"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-22T23:26:58Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 57,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-23T03:17:06.861Z"
     }
   ]
 }
