@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-10-26T18:16:49.890Z",
+  "last_mined": "2026-10-27T03:42:59.439Z",
   "count": 15,
   "gems": [
     {
@@ -7,12 +7,12 @@
       "full_name": "nightly-labs/openbot",
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "url": "https://github.com/nightly-labs/openbot",
-      "stars": 1304,
-      "forks_count": 172,
-      "open_issues_count": 150,
+      "stars": 1580,
+      "forks_count": 193,
+      "open_issues_count": 164,
       "language": "TypeScript",
-      "gem_score": 62.83,
-      "momentum_trend": 1.31,
+      "gem_score": 61.19,
+      "momentum_trend": 1.3,
       "recent_commits": 379,
       "merged_prs_count": 50,
       "topics": [
@@ -21,14 +21,14 @@
         "codex"
       ],
       "activity": [
-        183,
+        182,
         340,
-        347,
+        352,
         379
       ],
       "good_first_issues_url": "https://github.com/nightly-labs/openbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-26T18:06:19Z",
+      "pushed_at": "2026-10-27T02:58:06Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -36,23 +36,23 @@
         "published_at": "2026-10-26T16:26:20Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "cindy",
       "full_name": "makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "url": "https://github.com/makecindy/cindy",
-      "stars": 6171,
-      "forks_count": 766,
-      "open_issues_count": 1653,
+      "stars": 6676,
+      "forks_count": 807,
+      "open_issues_count": 1671,
       "language": "TypeScript",
-      "gem_score": 61.39,
-      "momentum_trend": 2.08,
-      "recent_commits": 1831,
+      "gem_score": 60.9,
+      "momentum_trend": 2.12,
+      "recent_commits": 1864,
       "merged_prs_count": 50,
       "topics": [
         "agent",
@@ -60,38 +60,38 @@
         "ai-assistant"
       ],
       "activity": [
-        416,
-        714,
-        1509,
-        1831
+        375,
+        773,
+        1488,
+        1864
       ],
       "good_first_issues_url": "https://github.com/makecindy/cindy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-26T17:17:47Z",
+      "pushed_at": "2026-10-27T03:30:14Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
         "tag": "v0.1.115",
         "published_at": "2026-10-23T02:46:16Z"
       },
-      "featured": false,
+      "featured": true,
       "maintenance_score": 0,
       "bundle_size": 202,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "thinkrail",
       "full_name": "JetBrains/thinkrail",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "url": "https://github.com/JetBrains/thinkrail",
-      "stars": 2608,
-      "forks_count": 143,
+      "stars": 3082,
+      "forks_count": 166,
       "open_issues_count": 174,
       "language": "TypeScript",
-      "gem_score": 47.59,
-      "momentum_trend": 1.86,
-      "recent_commits": 77,
+      "gem_score": 46.9,
+      "momentum_trend": 2.09,
+      "recent_commits": 83,
       "merged_prs_count": 50,
       "topics": [
         "agent",
@@ -99,14 +99,14 @@
         "agentic-ai"
       ],
       "activity": [
-        41,
-        50,
-        33,
-        77
+        40,
+        47,
+        32,
+        83
       ],
       "good_first_issues_url": "https://github.com/JetBrains/thinkrail/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-26T17:54:48Z",
+      "pushed_at": "2026-10-27T02:49:24Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -117,20 +117,55 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
+    },
+    {
+      "name": "microduck",
+      "full_name": "pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "stars": 12490,
+      "forks_count": 1553,
+      "open_issues_count": 21,
+      "language": "Rust",
+      "gem_score": 32.24,
+      "momentum_trend": 0.09,
+      "recent_commits": 8,
+      "merged_prs_count": 50,
+      "topics": [],
+      "activity": [
+        55,
+        137,
+        68,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/pollen-robotics/microduck/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-26T11:29:24Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "daemon-v0.17.9",
+        "published_at": "2026-10-26T11:19:51Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 289585,
-      "forks_count": 42897,
+      "stars": 289965,
+      "forks_count": 42970,
       "open_issues_count": 104,
       "language": "JavaScript",
-      "gem_score": 28.83,
-      "momentum_trend": 0.54,
-      "recent_commits": 121,
+      "gem_score": 28.54,
+      "momentum_trend": 0.46,
+      "recent_commits": 106,
       "merged_prs_count": 46,
       "topics": [
         "ai-agents",
@@ -138,10 +173,10 @@
         "claude"
       ],
       "activity": [
-        203,
-        466,
-        7,
-        121
+        201,
+        464,
+        22,
+        106
       ],
       "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -153,84 +188,84 @@
         "published_at": "2026-10-01T23:00:36Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": 2487,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "impeccable",
       "full_name": "pbakaus/impeccable",
       "description": "The design language that makes your AI harness better at design.",
       "url": "https://github.com/pbakaus/impeccable",
-      "stars": 88866,
-      "forks_count": 5300,
-      "open_issues_count": 24,
+      "stars": 89358,
+      "forks_count": 5318,
+      "open_issues_count": 25,
       "language": "Rust",
-      "gem_score": 27.17,
-      "momentum_trend": 0.62,
-      "recent_commits": 86,
+      "gem_score": 27.21,
+      "momentum_trend": 0.64,
+      "recent_commits": 89,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        242,
-        110,
-        66,
-        86
+        296,
+        56,
+        67,
+        89
       ],
       "good_first_issues_url": "https://github.com/pbakaus/impeccable/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-26T17:17:27Z",
+      "pushed_at": "2026-10-27T03:36:28Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "engine-v0.1.17",
-        "published_at": "2026-10-23T23:26:28Z"
+        "tag": "cli-v4.8.0",
+        "published_at": "2026-10-26T23:41:55Z"
       },
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 711,
+      "stars": 712,
       "forks_count": 64,
-      "open_issues_count": 32,
+      "open_issues_count": 29,
       "language": "Odin",
-      "gem_score": 25.36,
-      "momentum_trend": 5.14,
-      "recent_commits": 24,
-      "merged_prs_count": 11,
+      "gem_score": 26.97,
+      "momentum_trend": 8,
+      "recent_commits": 32,
+      "merged_prs_count": 13,
       "topics": [
         "gamedev",
         "odin",
         "odin-lang"
       ],
       "activity": [
-        7,
+        5,
         6,
         1,
-        24
+        32
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-26T17:57:41Z",
+      "pushed_at": "2026-10-27T00:46:36Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
-        "tag": "karl2d-jam-hotfix-1",
-        "published_at": "2026-05-01T20:20:15Z"
+        "tag": "beta-4",
+        "published_at": "2026-10-26T22:59:28Z"
       },
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "NuMojo",
@@ -265,21 +300,21 @@
         "published_at": "2026-10-25T14:25:22Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "Agent-Reach",
       "full_name": "Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "url": "https://github.com/Panniantong/Agent-Reach",
-      "stars": 103255,
-      "forks_count": 9157,
+      "stars": 103850,
+      "forks_count": 9212,
       "open_issues_count": 112,
       "language": "Python",
-      "gem_score": 17.67,
+      "gem_score": 17.65,
       "momentum_trend": 2.83,
       "recent_commits": 33,
       "merged_prs_count": 5,
@@ -307,7 +342,7 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "ols",
@@ -343,10 +378,10 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -357,7 +392,7 @@
       "forks_count": 390,
       "open_issues_count": 2,
       "language": "Mojo",
-      "gem_score": 12.08,
+      "gem_score": 12.07,
       "momentum_trend": 1.56,
       "recent_commits": 14,
       "merged_prs_count": 0,
@@ -368,8 +403,8 @@
       ],
       "activity": [
         8,
-        4,
-        15,
+        10,
+        9,
         14
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -379,57 +414,21 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 97,
+      "maintenance_score": 98,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-26T18:11:19.574Z"
-    },
-    {
-      "name": "Skald",
-      "full_name": "BuLEEto/Skald",
-      "description": "A declarative GUI framework for Odin. The predictability of Elm with the performance of immediate mode.",
-      "url": "https://github.com/BuLEEto/Skald",
-      "stars": 186,
-      "forks_count": 16,
-      "open_issues_count": 0,
-      "language": "Odin",
-      "gem_score": 10.68,
-      "momentum_trend": 3,
-      "recent_commits": 1,
-      "merged_prs_count": 0,
-      "topics": [
-        "cross-platform",
-        "elm-architecture",
-        "gui"
-      ],
-      "activity": [
-        1,
-        0,
-        0,
-        1
-      ],
-      "good_first_issues_url": "https://github.com/BuLEEto/Skald/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-10-20T12:31:49Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 57,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "hallmark",
       "full_name": "Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "url": "https://github.com/Nutlope/hallmark",
-      "stars": 35745,
-      "forks_count": 1861,
-      "open_issues_count": 20,
+      "stars": 36713,
+      "forks_count": 1914,
+      "open_issues_count": 21,
       "language": "CSS",
-      "gem_score": 6.91,
+      "gem_score": 6.89,
       "momentum_trend": 1.21,
       "recent_commits": 27,
       "merged_prs_count": 1,
@@ -450,14 +449,14 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "examples",
       "full_name": "odin-lang/examples",
       "description": "Examples of idiomatic Odin code",
       "url": "https://github.com/odin-lang/examples",
-      "stars": 772,
+      "stars": 774,
       "forks_count": 108,
       "open_issues_count": 12,
       "language": "Odin",
@@ -478,19 +477,19 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "TradingAgents",
       "full_name": "TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "url": "https://github.com/TauricResearch/TradingAgents",
-      "stars": 115735,
-      "forks_count": 22233,
-      "open_issues_count": 44,
+      "stars": 116328,
+      "forks_count": 22308,
+      "open_issues_count": 45,
       "language": "Python",
       "gem_score": 5.04,
       "momentum_trend": 0,
@@ -517,10 +516,10 @@
         "published_at": "2026-10-16T21:38:46Z"
       },
       "featured": true,
-      "maintenance_score": 9,
+      "maintenance_score": 10,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     },
     {
       "name": "odin-http",
@@ -548,15 +547,15 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-25T22:36:42Z",
+      "pushed_at": "2026-10-27T00:04:58Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 60,
+      "maintenance_score": 61,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-26T18:11:19.574Z"
+      "first_seen": "2026-10-27T03:36:36.698Z"
     }
   ]
 }
