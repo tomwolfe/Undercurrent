@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-10-27T17:31:03.134Z",
-  "count": 15,
+  "last_mined": "2026-10-28T03:57:46.632Z",
+  "count": 17,
   "gems": [
     {
       "name": "cindy",
       "full_name": "makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "url": "https://github.com/makecindy/cindy",
-      "stars": 7304,
-      "forks_count": 873,
-      "open_issues_count": 1719,
+      "stars": 7598,
+      "forks_count": 899,
+      "open_issues_count": 1735,
       "language": "TypeScript",
-      "gem_score": 60.73,
+      "gem_score": 60.52,
       "momentum_trend": 2.33,
-      "recent_commits": 2105,
+      "recent_commits": 2136,
       "merged_prs_count": 50,
       "topics": [
         "agent",
@@ -21,14 +21,14 @@
         "ai-assistant"
       ],
       "activity": [
-        350,
-        812,
-        1549,
-        2105
+        338,
+        844,
+        1567,
+        2136
       ],
       "good_first_issues_url": "https://github.com/makecindy/cindy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-27T16:49:52Z",
+      "pushed_at": "2026-10-28T03:46:48Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -39,20 +39,20 @@
       "maintenance_score": 0,
       "bundle_size": 202,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "openbot",
       "full_name": "nightly-labs/openbot",
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "url": "https://github.com/nightly-labs/openbot",
-      "stars": 2163,
-      "forks_count": 233,
-      "open_issues_count": 169,
+      "stars": 2579,
+      "forks_count": 259,
+      "open_issues_count": 201,
       "language": "TypeScript",
-      "gem_score": 59.11,
-      "momentum_trend": 1.47,
-      "recent_commits": 419,
+      "gem_score": 57.84,
+      "momentum_trend": 1.49,
+      "recent_commits": 424,
       "merged_prs_count": 50,
       "topics": [
         "ai-agents",
@@ -60,38 +60,38 @@
         "codex"
       ],
       "activity": [
-        212,
-        309,
-        335,
-        419
+        199,
+        311,
+        345,
+        424
       ],
       "good_first_issues_url": "https://github.com/nightly-labs/openbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-27T17:24:45Z",
+      "pushed_at": "2026-10-28T02:38:48Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
-        "tag": "v0.52.0",
-        "published_at": "2026-10-27T13:53:51Z"
+        "tag": "v0.52.1",
+        "published_at": "2026-10-27T18:06:59Z"
       },
       "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "thinkrail",
       "full_name": "JetBrains/thinkrail",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "url": "https://github.com/JetBrains/thinkrail",
-      "stars": 3767,
-      "forks_count": 198,
-      "open_issues_count": 177,
+      "stars": 4185,
+      "forks_count": 224,
+      "open_issues_count": 183,
       "language": "TypeScript",
-      "gem_score": 46.07,
-      "momentum_trend": 2.2,
-      "recent_commits": 90,
+      "gem_score": 45.66,
+      "momentum_trend": 2.26,
+      "recent_commits": 94,
       "merged_prs_count": 50,
       "topics": [
         "agent",
@@ -99,14 +99,14 @@
         "agentic-ai"
       ],
       "activity": [
-        43,
-        53,
-        27,
-        90
+        44,
+        52,
+        29,
+        94
       ],
       "good_first_issues_url": "https://github.com/JetBrains/thinkrail/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-27T16:58:04Z",
+      "pushed_at": "2026-10-28T03:25:31Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -117,64 +117,29 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
-    },
-    {
-      "name": "ECC",
-      "full_name": "affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "url": "https://github.com/affaan-m/ECC",
-      "stars": 290587,
-      "forks_count": 43047,
-      "open_issues_count": 105,
-      "language": "JavaScript",
-      "gem_score": 28.38,
-      "momentum_trend": 0.44,
-      "recent_commits": 100,
-      "merged_prs_count": 46,
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude"
-      ],
-      "activity": [
-        208,
-        453,
-        28,
-        100
-      ],
-      "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-10-26T04:56:56Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v2.2.3",
-        "published_at": "2026-10-01T23:00:36Z"
-      },
-      "featured": true,
-      "maintenance_score": 1,
-      "bundle_size": 2487,
-      "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "impeccable",
       "full_name": "pbakaus/impeccable",
-      "description": "The design language that makes your AI harness better at design.",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "url": "https://github.com/pbakaus/impeccable",
-      "stars": 90216,
-      "forks_count": 5364,
-      "open_issues_count": 26,
+      "stars": 90802,
+      "forks_count": 5384,
+      "open_issues_count": 27,
       "language": "Rust",
-      "gem_score": 27.19,
+      "gem_score": 27.16,
       "momentum_trend": 0.64,
       "recent_commits": 90,
       "merged_prs_count": 50,
-      "topics": [],
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop"
+      ],
       "activity": [
-        316,
-        35,
+        318,
+        30,
         71,
         90
       ],
@@ -191,20 +156,59 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
+    },
+    {
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 291006,
+      "forks_count": 43088,
+      "open_issues_count": 112,
+      "language": "JavaScript",
+      "gem_score": 25.62,
+      "momentum_trend": 0.11,
+      "recent_commits": 26,
+      "merged_prs_count": 46,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude"
+      ],
+      "activity": [
+        159,
+        452,
+        102,
+        26
+      ],
+      "good_first_issues_url": "https://github.com/affaan-m/ECC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-26T04:56:56Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2.2.3",
+        "published_at": "2026-10-01T23:00:36Z"
+      },
+      "featured": true,
+      "maintenance_score": 2,
+      "bundle_size": 2487,
+      "is_verified": true,
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 713,
+      "stars": 714,
       "forks_count": 65,
       "open_issues_count": 29,
       "language": "Odin",
-      "gem_score": 25.29,
-      "momentum_trend": 2.42,
-      "recent_commits": 21,
+      "gem_score": 24.26,
+      "momentum_trend": 1.41,
+      "recent_commits": 15,
       "merged_prs_count": 12,
       "topics": [
         "gamedev",
@@ -212,10 +216,10 @@
         "odin-lang"
       ],
       "activity": [
-        5,
         6,
-        15,
-        21
+        5,
+        21,
+        15
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -227,10 +231,10 @@
         "published_at": "2026-10-26T22:59:28Z"
       },
       "featured": false,
-      "maintenance_score": 48,
+      "maintenance_score": 49,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "NuMojo",
@@ -241,10 +245,10 @@
       "forks_count": 28,
       "open_issues_count": 16,
       "language": "Mojo",
-      "gem_score": 21.26,
+      "gem_score": 21.07,
       "momentum_trend": 0.86,
       "recent_commits": 6,
-      "merged_prs_count": 18,
+      "merged_prs_count": 17,
       "topics": [
         "mathematics",
         "numerical-analysis"
@@ -265,21 +269,21 @@
         "published_at": "2026-10-25T14:25:22Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "DeepTutor",
       "full_name": "HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "stars": 45471,
-      "forks_count": 5720,
-      "open_issues_count": 109,
+      "stars": 46252,
+      "forks_count": 5788,
+      "open_issues_count": 113,
       "language": "Python",
-      "gem_score": 16.18,
+      "gem_score": 16.14,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 50,
@@ -289,14 +293,14 @@
         "interactive-learning"
       ],
       "activity": [
-        130,
+        124,
         220,
         147,
         0
       ],
       "good_first_issues_url": "https://github.com/HKUDS/DeepTutor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-27T17:23:58Z",
+      "pushed_at": "2026-10-27T18:37:55Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -307,20 +311,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 306186,
-      "forks_count": 27262,
+      "stars": 306577,
+      "forks_count": 27291,
       "open_issues_count": 190,
       "language": "Shell",
-      "gem_score": 14.96,
-      "momentum_trend": 6,
-      "recent_commits": 2,
+      "gem_score": 14.35,
+      "momentum_trend": 1.5,
+      "recent_commits": 1,
       "merged_prs_count": 18,
       "topics": [
         "ai",
@@ -330,8 +334,8 @@
       "activity": [
         0,
         1,
-        0,
-        2
+        1,
+        1
       ],
       "good_first_issues_url": "https://github.com/obra/superpowers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -343,23 +347,23 @@
         "published_at": "2026-10-21T21:05:11Z"
       },
       "featured": true,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "postiz-app",
       "full_name": "gitroomhq/postiz-app",
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "url": "https://github.com/gitroomhq/postiz-app",
-      "stars": 39104,
-      "forks_count": 7480,
-      "open_issues_count": 135,
+      "stars": 39509,
+      "forks_count": 7525,
+      "open_issues_count": 136,
       "language": "TypeScript",
-      "gem_score": 14.34,
-      "momentum_trend": 0.18,
-      "recent_commits": 17,
+      "gem_score": 14.18,
+      "momentum_trend": 0.16,
+      "recent_commits": 15,
       "merged_prs_count": 50,
       "topics": [
         "typescript",
@@ -367,10 +371,10 @@
         "redis"
       ],
       "activity": [
-        110,
-        49,
-        122,
-        17
+        117,
+        39,
+        124,
+        15
       ],
       "good_first_issues_url": "https://github.com/gitroomhq/postiz-app/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -385,30 +389,30 @@
       "maintenance_score": 6,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "ols",
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 1215,
+      "stars": 1216,
       "forks_count": 199,
-      "open_issues_count": 104,
+      "open_issues_count": 103,
       "language": "Odin",
-      "gem_score": 12.49,
+      "gem_score": 12.42,
       "momentum_trend": 0.33,
       "recent_commits": 8,
-      "merged_prs_count": 32,
+      "merged_prs_count": 31,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        31,
         32,
-        10,
+        36,
+        5,
         8
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -421,10 +425,10 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -452,34 +456,70 @@
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-26T13:16:54Z",
+      "pushed_at": "2026-10-27T20:11:17Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 98,
+      "maintenance_score": 99,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
+    },
+    {
+      "name": "Skald",
+      "full_name": "BuLEEto/Skald",
+      "description": "A declarative GUI framework for Odin. The predictability of Elm with the performance of immediate mode.",
+      "url": "https://github.com/BuLEEto/Skald",
+      "stars": 188,
+      "forks_count": 16,
+      "open_issues_count": 0,
+      "language": "Odin",
+      "gem_score": 10.62,
+      "momentum_trend": 1.5,
+      "recent_commits": 1,
+      "merged_prs_count": 0,
+      "topics": [
+        "cross-platform",
+        "elm-architecture",
+        "gui"
+      ],
+      "activity": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/BuLEEto/Skald/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-27T17:36:03Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 58,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "hallmark",
       "full_name": "Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "url": "https://github.com/Nutlope/hallmark",
-      "stars": 38488,
-      "forks_count": 2007,
+      "stars": 39253,
+      "forks_count": 2051,
       "open_issues_count": 21,
       "language": "CSS",
-      "gem_score": 7.73,
+      "gem_score": 7.7,
       "momentum_trend": 1.23,
       "recent_commits": 29,
       "merged_prs_count": 2,
       "topics": [],
       "activity": [
         53,
-        1,
-        17,
+        2,
+        16,
         29
       ],
       "good_first_issues_url": "https://github.com/Nutlope/hallmark/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -492,7 +532,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "examples",
@@ -520,10 +560,42 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
+    },
+    {
+      "name": "ai-design-skills",
+      "full_name": "elayadesign/ai-design-skills",
+      "description": null,
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "stars": 9709,
+      "forks_count": 689,
+      "open_issues_count": 1,
+      "language": "Plain Text",
+      "gem_score": 4.08,
+      "momentum_trend": 1,
+      "recent_commits": 5,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/elayadesign/ai-design-skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-27T16:02:10Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 999,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-28T03:53:08.669Z"
     },
     {
       "name": "odin-http",
@@ -534,7 +606,7 @@
       "forks_count": 53,
       "open_issues_count": 16,
       "language": "Odin",
-      "gem_score": 2.66,
+      "gem_score": 2.65,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -551,15 +623,15 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-27T00:04:58Z",
+      "pushed_at": "2026-10-27T23:56:29Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 61,
+      "maintenance_score": 62,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-27T17:25:11.343Z"
+      "first_seen": "2026-10-28T03:53:08.669Z"
     }
   ]
 }
