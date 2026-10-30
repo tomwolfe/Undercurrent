@@ -1,18 +1,18 @@
 {
-  "last_mined": "2026-10-29T18:05:59.023Z",
-  "count": 17,
+  "last_mined": "2026-10-30T04:21:01.619Z",
+  "count": 18,
   "gems": [
     {
       "name": "openbot",
       "full_name": "nightly-labs/openbot",
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "url": "https://github.com/nightly-labs/openbot",
-      "stars": 3737,
-      "forks_count": 348,
-      "open_issues_count": 289,
+      "stars": 3965,
+      "forks_count": 367,
+      "open_issues_count": 317,
       "language": "TypeScript",
-      "gem_score": 55,
-      "momentum_trend": 1.28,
+      "gem_score": 54.61,
+      "momentum_trend": 1.27,
       "recent_commits": 400,
       "merged_prs_count": 50,
       "topics": [
@@ -21,14 +21,14 @@
         "codex"
       ],
       "activity": [
-        262,
-        308,
-        367,
+        264,
+        311,
+        369,
         400
       ],
       "good_first_issues_url": "https://github.com/nightly-labs/openbot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T17:57:09Z",
+      "pushed_at": "2026-10-30T04:13:20Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -39,20 +39,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "OpenMausBot",
       "full_name": "milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "url": "https://github.com/milind-soni/OpenMausBot",
-      "stars": 7280,
-      "forks_count": 1093,
-      "open_issues_count": 351,
+      "stars": 7603,
+      "forks_count": 1124,
+      "open_issues_count": 355,
       "language": "TypeScript",
-      "gem_score": 51.11,
-      "momentum_trend": 1.23,
-      "recent_commits": 1206,
+      "gem_score": 50.64,
+      "momentum_trend": 1.13,
+      "recent_commits": 1134,
       "merged_prs_count": 50,
       "topics": [
         "ai-agents",
@@ -60,38 +60,38 @@
         "codex"
       ],
       "activity": [
-        539,
-        1325,
-        1067,
-        1206
+        548,
+        1371,
+        1097,
+        1134
       ],
       "good_first_issues_url": "https://github.com/milind-soni/OpenMausBot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T17:42:06Z",
+      "pushed_at": "2026-10-30T00:37:07Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.1.132",
-        "published_at": "2026-10-29T07:12:32Z"
+        "tag": "v0.1.134",
+        "published_at": "2026-10-30T00:37:07Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "thinkrail",
       "full_name": "JetBrains/thinkrail",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "url": "https://github.com/JetBrains/thinkrail",
-      "stars": 5860,
-      "forks_count": 312,
-      "open_issues_count": 199,
+      "stars": 6110,
+      "forks_count": 332,
+      "open_issues_count": 202,
       "language": "TypeScript",
-      "gem_score": 43.97,
-      "momentum_trend": 2.34,
-      "recent_commits": 96,
+      "gem_score": 43.64,
+      "momentum_trend": 2.25,
+      "recent_commits": 93,
       "merged_prs_count": 50,
       "topics": [
         "agent",
@@ -99,38 +99,38 @@
         "agentic-ai"
       ],
       "activity": [
-        56,
+        54,
         39,
-        28,
-        96
+        31,
+        93
       ],
       "good_first_issues_url": "https://github.com/JetBrains/thinkrail/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T17:48:06Z",
+      "pushed_at": "2026-10-29T22:08:45Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.2.0",
-        "published_at": "2026-10-18T20:52:19Z"
+        "tag": "v0.3.0",
+        "published_at": "2026-10-29T18:26:41Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "OpenBot",
       "full_name": "CopilotKit/OpenBot",
       "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "url": "https://github.com/CopilotKit/OpenBot",
-      "stars": 7964,
-      "forks_count": 1038,
+      "stars": 8245,
+      "forks_count": 1052,
       "open_issues_count": 33,
       "language": "TypeScript",
-      "gem_score": 37.96,
-      "momentum_trend": 0.81,
-      "recent_commits": 29,
+      "gem_score": 37.94,
+      "momentum_trend": 0.87,
+      "recent_commits": 30,
       "merged_prs_count": 50,
       "topics": [
         "ag-ui",
@@ -138,14 +138,14 @@
         "ai-agents"
       ],
       "activity": [
-        65,
-        24,
-        18,
-        29
+        63,
+        22,
+        19,
+        30
       ],
       "good_first_issues_url": "https://github.com/CopilotKit/OpenBot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T17:47:57Z",
+      "pushed_at": "2026-10-29T20:07:51Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -156,20 +156,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 104483,
-      "forks_count": 9222,
-      "open_issues_count": 62,
+      "stars": 104961,
+      "forks_count": 9254,
+      "open_issues_count": 52,
       "language": "TypeScript",
-      "gem_score": 31.05,
-      "momentum_trend": 1.1,
-      "recent_commits": 210,
+      "gem_score": 31.23,
+      "momentum_trend": 1.13,
+      "recent_commits": 219,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -177,14 +177,14 @@
         "ai-memory"
       ],
       "activity": [
-        261,
-        144,
-        167,
-        210
+        257,
+        166,
+        160,
+        219
       ],
       "good_first_issues_url": "https://github.com/thedotmack/claude-mem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T17:01:44Z",
+      "pushed_at": "2026-10-30T03:07:33Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -195,20 +195,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "DeepTutor",
       "full_name": "HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "url": "https://github.com/HKUDS/DeepTutor",
-      "stars": 49590,
-      "forks_count": 6108,
-      "open_issues_count": 132,
+      "stars": 50493,
+      "forks_count": 6214,
+      "open_issues_count": 135,
       "language": "Python",
-      "gem_score": 28.09,
-      "momentum_trend": 1.12,
-      "recent_commits": 190,
+      "gem_score": 27.99,
+      "momentum_trend": 1.1,
+      "recent_commits": 187,
       "merged_prs_count": 48,
       "topics": [
         "ai-tutor",
@@ -216,14 +216,14 @@
         "interactive-learning"
       ],
       "activity": [
-        279,
+        277,
         111,
-        120,
-        190
+        123,
+        187
       ],
       "good_first_issues_url": "https://github.com/HKUDS/DeepTutor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T16:40:07Z",
+      "pushed_at": "2026-10-29T23:51:51Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -234,20 +234,20 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "impeccable",
       "full_name": "pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "url": "https://github.com/pbakaus/impeccable",
-      "stars": 94895,
-      "forks_count": 5594,
+      "stars": 95688,
+      "forks_count": 5637,
       "open_issues_count": 28,
       "language": "Rust",
-      "gem_score": 26.65,
-      "momentum_trend": 0.53,
-      "recent_commits": 76,
+      "gem_score": 26.29,
+      "momentum_trend": 0.47,
+      "recent_commits": 65,
       "merged_prs_count": 50,
       "topics": [
         "agent-skills",
@@ -255,14 +255,14 @@
         "anti-slop"
       ],
       "activity": [
-        317,
-        47,
-        69,
-        76
+        299,
+        53,
+        63,
+        65
       ],
       "good_first_issues_url": "https://github.com/pbakaus/impeccable/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T17:16:57Z",
+      "pushed_at": "2026-10-29T18:41:45Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -273,19 +273,19 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 716,
+      "stars": 717,
       "forks_count": 65,
       "open_issues_count": 29,
       "language": "Odin",
-      "gem_score": 23.2,
-      "momentum_trend": 1.27,
+      "gem_score": 23.18,
+      "momentum_trend": 1.31,
       "recent_commits": 14,
       "merged_prs_count": 10,
       "topics": [
@@ -294,14 +294,14 @@
         "odin-lang"
       ],
       "activity": [
-        7,
+        6,
         4,
         22,
         14
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T00:03:14Z",
+      "pushed_at": "2026-10-30T01:05:43Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -309,10 +309,10 @@
         "published_at": "2026-10-26T22:59:28Z"
       },
       "featured": false,
-      "maintenance_score": 50,
+      "maintenance_score": 51,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "NuMojo",
@@ -347,21 +347,21 @@
         "published_at": "2026-10-25T14:25:22Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 308266,
-      "forks_count": 27418,
-      "open_issues_count": 193,
+      "stars": 308721,
+      "forks_count": 27462,
+      "open_issues_count": 194,
       "language": "Shell",
-      "gem_score": 13.29,
+      "gem_score": 13.28,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 18,
@@ -378,7 +378,7 @@
       ],
       "good_first_issues_url": "https://github.com/obra/superpowers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-23T03:48:57Z",
+      "pushed_at": "2026-10-29T23:35:34Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -386,10 +386,10 @@
         "published_at": "2026-10-21T21:05:11Z"
       },
       "featured": true,
-      "maintenance_score": 383,
+      "maintenance_score": 384,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "odin-raylib-web",
@@ -400,7 +400,7 @@
       "forks_count": 16,
       "open_issues_count": 1,
       "language": "Odin",
-      "gem_score": 13.09,
+      "gem_score": 13.08,
       "momentum_trend": 1,
       "recent_commits": 6,
       "merged_prs_count": 1,
@@ -418,10 +418,10 @@
       "license": "Zlib",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "ols",
@@ -433,7 +433,7 @@
       "open_issues_count": 102,
       "language": "Odin",
       "gem_score": 12.78,
-      "momentum_trend": 0.43,
+      "momentum_trend": 0.47,
       "recent_commits": 10,
       "merged_prs_count": 32,
       "topics": [
@@ -442,9 +442,9 @@
         "lsp"
       ],
       "activity": [
-        28,
+        25,
         36,
-        5,
+        3,
         10
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -460,43 +460,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-10-29T17:59:10.729Z"
-    },
-    {
-      "name": "mojo-gpu-puzzles",
-      "full_name": "modular/mojo-gpu-puzzles",
-      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
-      "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 431,
-      "forks_count": 390,
-      "open_issues_count": 2,
-      "language": "Mojo",
-      "gem_score": 10.79,
-      "momentum_trend": 0.93,
-      "recent_commits": 9,
-      "merged_prs_count": 0,
-      "topics": [
-        "mojo",
-        "gpu",
-        "learn-by-doing"
-      ],
-      "activity": [
-        8,
-        9,
-        12,
-        9
-      ],
-      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-10-27T20:11:17Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 100,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "Skald",
@@ -507,7 +471,7 @@
       "forks_count": 17,
       "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 10.58,
+      "gem_score": 10.57,
       "momentum_trend": 1.5,
       "recent_commits": 1,
       "merged_prs_count": 0,
@@ -532,7 +496,75 @@
       "maintenance_score": 60,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
+    },
+    {
+      "name": "mojo-gpu-puzzles",
+      "full_name": "modular/mojo-gpu-puzzles",
+      "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
+      "url": "https://github.com/modular/mojo-gpu-puzzles",
+      "stars": 431,
+      "forks_count": 390,
+      "open_issues_count": 2,
+      "language": "Mojo",
+      "gem_score": 10.09,
+      "momentum_trend": 0.64,
+      "recent_commits": 7,
+      "merged_prs_count": 0,
+      "topics": [
+        "mojo",
+        "gpu",
+        "learn-by-doing"
+      ],
+      "activity": [
+        8,
+        12,
+        13,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-29T18:23:49Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 101,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-30T04:15:53.207Z"
+    },
+    {
+      "name": "no_gfx_api",
+      "full_name": "leotmp/no_gfx_api",
+      "description": null,
+      "url": "https://github.com/leotmp/no_gfx_api",
+      "stars": 321,
+      "forks_count": 21,
+      "open_issues_count": 7,
+      "language": "Odin",
+      "gem_score": 10.09,
+      "momentum_trend": 9,
+      "recent_commits": 3,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        1,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/leotmp/no_gfx_api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-10-29T23:50:24Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 37,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "examples",
@@ -560,21 +592,21 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "ai-design-skills",
       "full_name": "elayadesign/ai-design-skills",
       "description": null,
       "url": "https://github.com/elayadesign/ai-design-skills",
-      "stars": 11936,
-      "forks_count": 863,
+      "stars": 12342,
+      "forks_count": 895,
       "open_issues_count": 2,
       "language": "Plain Text",
-      "gem_score": 3.99,
+      "gem_score": 3.98,
       "momentum_trend": 1,
       "recent_commits": 5,
       "merged_prs_count": 0,
@@ -595,14 +627,14 @@
       "maintenance_score": 999,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     },
     {
       "name": "odin-http",
       "full_name": "laytan/odin-http",
       "description": "A HTTP/1.1 client/server implementation for Odin.",
       "url": "https://github.com/laytan/odin-http",
-      "stars": 456,
+      "stars": 457,
       "forks_count": 53,
       "open_issues_count": 16,
       "language": "Odin",
@@ -623,15 +655,15 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-10-29T00:14:48Z",
+      "pushed_at": "2026-10-30T00:05:48Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 63,
+      "maintenance_score": 64,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-10-29T17:59:10.729Z"
+      "first_seen": "2026-10-30T04:15:53.207Z"
     }
   ]
 }
