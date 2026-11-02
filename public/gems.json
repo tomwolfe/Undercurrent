@@ -1,30 +1,30 @@
 {
-  "last_mined": "2026-11-02T04:23:04.490Z",
-  "count": 17,
+  "last_mined": "2026-11-02T21:28:07.132Z",
+  "count": 18,
   "gems": [
     {
       "name": "t3code",
       "full_name": "pingdotgg/t3code",
       "description": "No description available.",
       "url": "https://github.com/pingdotgg/t3code",
-      "stars": 38475,
-      "forks_count": 8942,
-      "open_issues_count": 1497,
+      "stars": 41541,
+      "forks_count": 9076,
+      "open_issues_count": 1577,
       "language": "TypeScript",
-      "gem_score": 50.51,
-      "momentum_trend": 1.28,
-      "recent_commits": 1283,
+      "gem_score": 49.99,
+      "momentum_trend": 1.21,
+      "recent_commits": 1239,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        665,
-        1016,
-        1336,
-        1283
+        657,
+        1202,
+        1212,
+        1239
       ],
       "good_first_issues_url": "https://github.com/pingdotgg/t3code/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-02T04:08:47Z",
+      "pushed_at": "2026-11-02T21:20:39Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -35,98 +35,133 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
-      "name": "AiSOC",
-      "full_name": "beenuar/AiSOC",
-      "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
-      "url": "https://github.com/beenuar/AiSOC",
-      "stars": 6332,
-      "forks_count": 653,
-      "open_issues_count": 3,
-      "language": "Python",
-      "gem_score": 49.14,
-      "momentum_trend": 0.35,
-      "recent_commits": 60,
-      "merged_prs_count": 50,
-      "topics": [
-        "ai-security",
-        "alert-triage",
-        "cybersecurity"
-      ],
+      "name": "colibri",
+      "full_name": "JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "url": "https://github.com/JustVugg/colibri",
+      "stars": 46472,
+      "forks_count": 5373,
+      "open_issues_count": 65,
+      "language": "C",
+      "gem_score": 36.81,
+      "momentum_trend": 0.56,
+      "recent_commits": 230,
+      "merged_prs_count": 41,
+      "topics": [],
       "activity": [
-        324,
-        116,
-        68,
-        60
+        237,
+        496,
+        506,
+        230
       ],
-      "good_first_issues_url": "https://github.com/beenuar/AiSOC/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/JustVugg/colibri/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-02T03:22:49Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v21.0.0",
-        "published_at": "2026-11-01T05:05:15Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
-    },
-    {
-      "name": "OpenMausBot",
-      "full_name": "milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "stars": 10730,
-      "forks_count": 1474,
-      "open_issues_count": 400,
-      "language": "TypeScript",
-      "gem_score": 47.89,
-      "momentum_trend": 0.79,
-      "recent_commits": 826,
-      "merged_prs_count": 50,
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "codex"
-      ],
-      "activity": [
-        501,
-        1482,
-        1146,
-        826
-      ],
-      "good_first_issues_url": "https://github.com/milind-soni/OpenMausBot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-02T04:00:00Z",
+      "pushed_at": "2026-11-02T21:02:53Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.1.138",
-        "published_at": "2026-11-02T03:16:35Z"
+        "tag": "v2.1.0",
+        "published_at": "2026-10-31T12:50:50Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
+    },
+    {
+      "name": "FreeToken",
+      "full_name": "FlashML-org/FreeToken",
+      "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "stars": 15979,
+      "forks_count": 1580,
+      "open_issues_count": 284,
+      "language": "Python",
+      "gem_score": 36.15,
+      "momentum_trend": 0.51,
+      "recent_commits": 15,
+      "merged_prs_count": 50,
+      "topics": [
+        "deepseek-v4",
+        "edge",
+        "glm"
+      ],
+      "activity": [
+        20,
+        34,
+        34,
+        15
+      ],
+      "good_first_issues_url": "https://github.com/FlashML-org/FreeToken/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-02T19:37:09Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.2.1",
+        "published_at": "2026-10-26T03:24:21Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-02T21:21:50.746Z"
+    },
+    {
+      "name": "agent-desktop",
+      "full_name": "vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "stars": 9274,
+      "forks_count": 633,
+      "open_issues_count": 48,
+      "language": "Rust",
+      "gem_score": 34.76,
+      "momentum_trend": 5.71,
+      "recent_commits": 40,
+      "merged_prs_count": 50,
+      "topics": [
+        "accessibility",
+        "accessibility-api",
+        "ai-agents"
+      ],
+      "activity": [
+        0,
+        5,
+        16,
+        40
+      ],
+      "good_first_issues_url": "https://github.com/vercel-labs/agent-desktop/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-02T18:46:49Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v1.0.2",
+        "published_at": "2026-10-30T21:17:30Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 109594,
-      "forks_count": 9581,
-      "open_issues_count": 68,
+      "stars": 110629,
+      "forks_count": 9650,
+      "open_issues_count": 50,
       "language": "TypeScript",
-      "gem_score": 29.64,
-      "momentum_trend": 0.46,
-      "recent_commits": 104,
+      "gem_score": 30.38,
+      "momentum_trend": 0.79,
+      "recent_commits": 160,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -134,25 +169,25 @@
         "ai-memory"
       ],
       "activity": [
-        222,
-        195,
-        259,
-        104
+        235,
+        159,
+        213,
+        160
       ],
       "good_first_issues_url": "https://github.com/thedotmack/claude-mem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-02T02:01:56Z",
+      "pushed_at": "2026-11-02T20:37:31Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v15.8.1",
-        "published_at": "2026-11-01T20:04:20Z"
+        "tag": "v15.9.0",
+        "published_at": "2026-11-02T18:03:43Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "karl2d",
@@ -163,9 +198,9 @@
       "forks_count": 65,
       "open_issues_count": 26,
       "language": "Odin",
-      "gem_score": 22.42,
-      "momentum_trend": 1.3,
-      "recent_commits": 13,
+      "gem_score": 21.63,
+      "momentum_trend": 0.86,
+      "recent_commits": 10,
       "merged_prs_count": 9,
       "topics": [
         "gamedev",
@@ -175,12 +210,12 @@
       "activity": [
         6,
         1,
-        23,
-        13
+        28,
+        10
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-02T00:25:41Z",
+      "pushed_at": "2026-11-02T21:11:57Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -191,7 +226,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "NuMojo",
@@ -202,10 +237,10 @@
       "forks_count": 28,
       "open_issues_count": 16,
       "language": "Mojo",
-      "gem_score": 18.31,
-      "momentum_trend": 0.11,
-      "recent_commits": 1,
-      "merged_prs_count": 18,
+      "gem_score": 20.25,
+      "momentum_trend": 0.33,
+      "recent_commits": 3,
+      "merged_prs_count": 20,
       "topics": [
         "mathematics",
         "numerical-analysis"
@@ -214,11 +249,11 @@
         0,
         0,
         27,
-        1
+        3
       ],
       "good_first_issues_url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-10-30T15:42:32Z",
+      "pushed_at": "2026-11-02T15:45:04Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -226,21 +261,21 @@
         "published_at": "2026-10-25T14:25:22Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "Skald",
       "full_name": "BuLEEto/Skald",
       "description": "A declarative GUI framework for Odin. The predictability of Elm with the performance of immediate mode.",
       "url": "https://github.com/BuLEEto/Skald",
-      "stars": 189,
+      "stars": 190,
       "forks_count": 17,
       "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 17.11,
+      "gem_score": 17.06,
       "momentum_trend": 15,
       "recent_commits": 5,
       "merged_prs_count": 0,
@@ -262,62 +297,23 @@
       "license": "Zlib",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 63,
+      "maintenance_score": 64,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-02T04:16:21.450Z"
-    },
-    {
-      "name": "browser",
-      "full_name": "lightpanda-io/browser",
-      "description": "Lightpanda: the headless browser designed for AI and automation",
-      "url": "https://github.com/lightpanda-io/browser",
-      "stars": 40359,
-      "forks_count": 1976,
-      "open_issues_count": 68,
-      "language": "Zig",
-      "gem_score": 15.89,
-      "momentum_trend": 1.14,
-      "recent_commits": 388,
-      "merged_prs_count": 50,
-      "topics": [
-        "browser",
-        "cdp",
-        "headless"
-      ],
-      "activity": [
-        384,
-        296,
-        339,
-        388
-      ],
-      "good_first_issues_url": "https://github.com/lightpanda-io/browser/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-02T04:13:14Z",
-      "is_hype": true,
-      "license": "AGPL-3.0",
-      "latest_release": {
-        "tag": "1.0.2",
-        "published_at": "2026-10-23T09:01:02Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "kornia",
       "full_name": "kornia/kornia",
       "description": "🐍 Geometric Computer Vision Library for Spatial AI",
       "url": "https://github.com/kornia/kornia",
-      "stars": 11866,
-      "forks_count": 1471,
-      "open_issues_count": 99,
+      "stars": 12088,
+      "forks_count": 1485,
+      "open_issues_count": 103,
       "language": "Python",
-      "gem_score": 15.87,
-      "momentum_trend": 0.68,
-      "recent_commits": 124,
+      "gem_score": 15.89,
+      "momentum_trend": 0.79,
+      "recent_commits": 130,
       "merged_prs_count": 50,
       "topics": [
         "computer-vision",
@@ -325,14 +321,14 @@
         "machine-learning"
       ],
       "activity": [
-        239,
-        197,
-        109,
-        124
+        204,
+        204,
+        87,
+        130
       ],
       "good_first_issues_url": "https://github.com/kornia/kornia/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-01T18:28:07Z",
+      "pushed_at": "2026-11-02T21:17:42Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -343,46 +339,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
-    },
-    {
-      "name": "Handy",
-      "full_name": "cjpais/Handy",
-      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-      "url": "https://github.com/cjpais/Handy",
-      "stars": 36714,
-      "forks_count": 3460,
-      "open_issues_count": 91,
-      "language": "Rust",
-      "gem_score": 14.33,
-      "momentum_trend": 0.75,
-      "recent_commits": 6,
-      "merged_prs_count": 29,
-      "topics": [
-        "speech-to-text",
-        "tauri-v2",
-        "accessibility"
-      ],
-      "activity": [
-        8,
-        11,
-        5,
-        6
-      ],
-      "good_first_issues_url": "https://github.com/cjpais/Handy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-02T03:16:46Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.9.8",
-        "published_at": "2026-10-03T02:42:15Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "odin-raylib-web",
@@ -414,16 +371,94 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
+    },
+    {
+      "name": "Hyprland",
+      "full_name": "hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "stars": 39854,
+      "forks_count": 2152,
+      "open_issues_count": 51,
+      "language": "C++",
+      "gem_score": 12.98,
+      "momentum_trend": 1.59,
+      "recent_commits": 35,
+      "merged_prs_count": 47,
+      "topics": [
+        "wayland",
+        "wayland-compositor",
+        "compositor"
+      ],
+      "activity": [
+        5,
+        18,
+        43,
+        35
+      ],
+      "good_first_issues_url": "https://github.com/hyprwm/Hyprland/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-02T17:57:19Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause",
+      "latest_release": {
+        "tag": "v0.57.0",
+        "published_at": "2026-10-28T10:42:35Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-02T21:21:50.746Z"
+    },
+    {
+      "name": "Scrapling",
+      "full_name": "D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "stars": 92691,
+      "forks_count": 9765,
+      "open_issues_count": 4,
+      "language": "Python",
+      "gem_score": 11.98,
+      "momentum_trend": 0.15,
+      "recent_commits": 4,
+      "merged_prs_count": 22,
+      "topics": [
+        "crawler",
+        "crawling",
+        "crawling-python"
+      ],
+      "activity": [
+        29,
+        47,
+        3,
+        4
+      ],
+      "good_first_issues_url": "https://github.com/D4Vinci/Scrapling/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-02T20:16:23Z",
+      "is_hype": true,
+      "license": "BSD-3-Clause",
+      "latest_release": {
+        "tag": "v0.5",
+        "published_at": "2026-10-17T21:43:59Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "ols",
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 1222,
+      "stars": 1224,
       "forks_count": 198,
-      "open_issues_count": 103,
+      "open_issues_count": 102,
       "language": "Odin",
       "gem_score": 11.91,
       "momentum_trend": 0.33,
@@ -435,8 +470,8 @@
         "lsp"
       ],
       "activity": [
-        29,
-        18,
+        34,
+        13,
         8,
         6
       ],
@@ -450,10 +485,10 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "no_gfx_api",
@@ -464,7 +499,7 @@
       "forks_count": 21,
       "open_issues_count": 7,
       "language": "Odin",
-      "gem_score": 10.99,
+      "gem_score": 10.98,
       "momentum_trend": 12,
       "recent_commits": 4,
       "merged_prs_count": 0,
@@ -482,10 +517,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 40,
+      "maintenance_score": 41,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -493,7 +528,7 @@
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
       "stars": 431,
-      "forks_count": 390,
+      "forks_count": 391,
       "open_issues_count": 2,
       "language": "Mojo",
       "gem_score": 9.65,
@@ -506,22 +541,22 @@
         "learn-by-doing"
       ],
       "activity": [
-        5,
-        13,
+        4,
         15,
+        14,
         6
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-01T07:27:39Z",
+      "pushed_at": "2026-11-02T15:38:10Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 104,
+      "maintenance_score": 105,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "odin-http",
@@ -554,21 +589,21 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 67,
+      "maintenance_score": 68,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "Claude-Code-Game-Studios",
       "full_name": "Donchitos/Claude-Code-Game-Studios",
       "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
       "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "stars": 32508,
-      "forks_count": 4424,
+      "stars": 33418,
+      "forks_count": 4508,
       "open_issues_count": 46,
       "language": "Shell",
-      "gem_score": 2.11,
+      "gem_score": 2.1,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -596,15 +631,15 @@
       "maintenance_score": 39,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     },
     {
       "name": "Kronos",
       "full_name": "shiyu-coder/Kronos",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "url": "https://github.com/shiyu-coder/Kronos",
-      "stars": 45505,
-      "forks_count": 7513,
+      "stars": 45953,
+      "forks_count": 7583,
       "open_issues_count": 219,
       "language": "Python",
       "gem_score": 1.8,
@@ -625,10 +660,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 426,
+      "maintenance_score": 427,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-02T04:16:21.450Z"
+      "first_seen": "2026-11-02T21:21:50.746Z"
     }
   ]
 }
