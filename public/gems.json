@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-11-03T19:06:53.378Z",
-  "count": 18,
+  "last_mined": "2026-11-04T04:50:27.860Z",
+  "count": 17,
   "gems": [
     {
       "name": "hex",
       "full_name": "anomalyco/hex",
       "description": "Local voice dictation for mac, windows and linux",
       "url": "https://github.com/anomalyco/hex",
-      "stars": 4431,
-      "forks_count": 253,
-      "open_issues_count": 102,
+      "stars": 4696,
+      "forks_count": 263,
+      "open_issues_count": 103,
       "language": "Rust",
-      "gem_score": 52.46,
-      "momentum_trend": 3.94,
-      "recent_commits": 637,
+      "gem_score": 51.99,
+      "momentum_trend": 3.46,
+      "recent_commits": 619,
       "merged_prs_count": 50,
       "topics": [
         "dictation",
@@ -22,13 +22,13 @@
       ],
       "activity": [
         7,
-        40,
-        438,
-        637
+        50,
+        480,
+        619
       ],
       "good_first_issues_url": "https://github.com/anomalyco/hex/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-03T18:52:47Z",
+      "pushed_at": "2026-11-04T04:39:31Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -39,20 +39,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "floci",
       "full_name": "floci-io/floci",
       "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
       "url": "https://github.com/floci-io/floci",
-      "stars": 28549,
-      "forks_count": 3185,
-      "open_issues_count": 131,
+      "stars": 28960,
+      "forks_count": 3224,
+      "open_issues_count": 127,
       "language": "Java",
-      "gem_score": 51.78,
+      "gem_score": 51.7,
       "momentum_trend": 1.3,
-      "recent_commits": 483,
+      "recent_commits": 491,
       "merged_prs_count": 50,
       "topics": [
         "aws",
@@ -60,14 +60,14 @@
         "localstack"
       ],
       "activity": [
-        257,
-        398,
-        459,
-        483
+        284,
+        378,
+        473,
+        491
       ],
       "good_first_issues_url": "https://github.com/floci-io/floci/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-03T18:55:32Z",
+      "pushed_at": "2026-11-04T04:29:41Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -78,31 +78,31 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "colibri",
       "full_name": "JustVugg/colibri",
       "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "url": "https://github.com/JustVugg/colibri",
-      "stars": 47132,
-      "forks_count": 5451,
+      "stars": 47347,
+      "forks_count": 5470,
       "open_issues_count": 66,
       "language": "C",
-      "gem_score": 36.65,
-      "momentum_trend": 0.56,
-      "recent_commits": 220,
-      "merged_prs_count": 41,
+      "gem_score": 36.74,
+      "momentum_trend": 0.55,
+      "recent_commits": 214,
+      "merged_prs_count": 43,
       "topics": [],
       "activity": [
-        175,
-        566,
-        430,
-        220
+        181,
+        588,
+        396,
+        214
       ],
       "good_first_issues_url": "https://github.com/JustVugg/colibri/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-03T16:12:18Z",
+      "pushed_at": "2026-11-04T00:38:28Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -113,20 +113,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "agent-desktop",
       "full_name": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "url": "https://github.com/vercel-labs/agent-desktop",
-      "stars": 12285,
-      "forks_count": 845,
-      "open_issues_count": 55,
+      "stars": 13192,
+      "forks_count": 910,
+      "open_issues_count": 56,
       "language": "Rust",
-      "gem_score": 34.09,
-      "momentum_trend": 6.55,
-      "recent_commits": 48,
+      "gem_score": 33.43,
+      "momentum_trend": 4.2,
+      "recent_commits": 42,
       "merged_prs_count": 49,
       "topics": [
         "accessibility",
@@ -136,12 +136,12 @@
       "activity": [
         0,
         5,
-        17,
-        48
+        25,
+        42
       ],
       "good_first_issues_url": "https://github.com/vercel-labs/agent-desktop/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-03T18:05:02Z",
+      "pushed_at": "2026-11-03T23:16:15Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -152,20 +152,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 111668,
-      "forks_count": 9728,
-      "open_issues_count": 56,
+      "stars": 112112,
+      "forks_count": 9754,
+      "open_issues_count": 54,
       "language": "TypeScript",
-      "gem_score": 30.29,
-      "momentum_trend": 0.97,
-      "recent_commits": 157,
+      "gem_score": 30.27,
+      "momentum_trend": 0.93,
+      "recent_commits": 158,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -173,14 +173,14 @@
         "ai-memory"
       ],
       "activity": [
-        141,
-        127,
-        216,
-        157
+        144,
+        143,
+        220,
+        158
       ],
       "good_first_issues_url": "https://github.com/thedotmack/claude-mem/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-03T03:52:52Z",
+      "pushed_at": "2026-11-04T04:37:16Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -188,23 +188,23 @@
         "published_at": "2026-11-02T18:03:43Z"
       },
       "featured": true,
-      "maintenance_score": 8,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "worktrunk",
       "full_name": "max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "url": "https://github.com/max-sixty/worktrunk",
-      "stars": 10391,
-      "forks_count": 374,
-      "open_issues_count": 40,
+      "stars": 10602,
+      "forks_count": 384,
+      "open_issues_count": 41,
       "language": "Rust",
-      "gem_score": 27.83,
-      "momentum_trend": 0.59,
-      "recent_commits": 33,
+      "gem_score": 27.82,
+      "momentum_trend": 0.61,
+      "recent_commits": 34,
       "merged_prs_count": 50,
       "topics": [
         "agents",
@@ -212,14 +212,14 @@
         "codex"
       ],
       "activity": [
-        51,
-        47,
-        70,
-        33
+        61,
+        46,
+        61,
+        34
       ],
       "good_first_issues_url": "https://github.com/max-sixty/worktrunk/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-03T15:43:30Z",
+      "pushed_at": "2026-11-04T03:35:02Z",
       "is_hype": true,
       "license": "NOASSERTION",
       "latest_release": {
@@ -230,7 +230,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "NuMojo",
@@ -268,7 +268,7 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "karl2d",
@@ -277,11 +277,11 @@
       "url": "https://github.com/karl-zylinski/karl2d",
       "stars": 719,
       "forks_count": 66,
-      "open_issues_count": 26,
+      "open_issues_count": 29,
       "language": "Odin",
-      "gem_score": 18.41,
-      "momentum_trend": 0.21,
-      "recent_commits": 3,
+      "gem_score": 20.18,
+      "momentum_trend": 0.44,
+      "recent_commits": 6,
       "merged_prs_count": 9,
       "topics": [
         "gamedev",
@@ -289,36 +289,36 @@
         "odin-lang"
       ],
       "activity": [
-        6,
-        15,
+        5,
         21,
-        3
+        15,
+        6
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-02T21:11:57Z",
+      "pushed_at": "2026-11-04T00:00:11Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
-        "tag": "beta-4",
-        "published_at": "2026-10-26T22:59:28Z"
+        "tag": "beta-2026-11",
+        "published_at": "2026-11-03T23:38:32Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "heretic",
       "full_name": "p-e-w/heretic",
       "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "url": "https://github.com/p-e-w/heretic",
-      "stars": 38637,
-      "forks_count": 4369,
+      "stars": 38927,
+      "forks_count": 4395,
       "open_issues_count": 34,
       "language": "Python",
-      "gem_score": 17.1,
+      "gem_score": 17.08,
       "momentum_trend": 1.93,
       "recent_commits": 9,
       "merged_prs_count": 25,
@@ -346,7 +346,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "Skald",
@@ -357,7 +357,7 @@
       "forks_count": 17,
       "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 15.93,
+      "gem_score": 15.91,
       "momentum_trend": 6,
       "recent_commits": 4,
       "merged_prs_count": 0,
@@ -382,24 +382,24 @@
       "maintenance_score": 65,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "skills",
       "full_name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 311198,
-      "forks_count": 26166,
+      "stars": 311672,
+      "forks_count": 26193,
       "open_issues_count": 187,
       "language": "Shell",
-      "gem_score": 14.68,
-      "momentum_trend": 0.83,
+      "gem_score": 14.67,
+      "momentum_trend": 0.88,
       "recent_commits": 5,
       "merged_prs_count": 31,
       "topics": [],
       "activity": [
-        15,
+        14,
         1,
         2,
         5
@@ -417,50 +417,18 @@
       "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
-    },
-    {
-      "name": "odin-raylib-web",
-      "full_name": "karl-zylinski/odin-raylib-web",
-      "description": "Make games using Odin + Raylib that work in the browser",
-      "url": "https://github.com/karl-zylinski/odin-raylib-web",
-      "stars": 172,
-      "forks_count": 16,
-      "open_issues_count": 1,
-      "language": "Odin",
-      "gem_score": 13.04,
-      "momentum_trend": 1,
-      "recent_commits": 6,
-      "merged_prs_count": 1,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        6
-      ],
-      "good_first_issues_url": "https://github.com/karl-zylinski/odin-raylib-web/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-10-28T22:37:47Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 5,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "portal-ai-plugins",
       "full_name": "spotify/portal-ai-plugins",
       "description": null,
       "url": "https://github.com/spotify/portal-ai-plugins",
-      "stars": 2988,
-      "forks_count": 233,
+      "stars": 3083,
+      "forks_count": 239,
       "open_issues_count": 13,
       "language": "TypeScript",
-      "gem_score": 12.4,
+      "gem_score": 12.36,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 3,
@@ -481,7 +449,7 @@
       "maintenance_score": 11,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "ols",
@@ -492,20 +460,20 @@
       "forks_count": 198,
       "open_issues_count": 103,
       "language": "Odin",
-      "gem_score": 11.42,
-      "momentum_trend": 0.35,
-      "recent_commits": 6,
-      "merged_prs_count": 23,
+      "gem_score": 11.11,
+      "momentum_trend": 0.29,
+      "recent_commits": 5,
+      "merged_prs_count": 22,
       "topics": [
         "language-server",
         "odin",
         "lsp"
       ],
       "activity": [
-        33,
-        10,
-        8,
-        6
+        36,
+        6,
+        9,
+        5
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -517,21 +485,21 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "no_gfx_api",
       "full_name": "leotmp/no_gfx_api",
       "description": null,
       "url": "https://github.com/leotmp/no_gfx_api",
-      "stars": 321,
+      "stars": 322,
       "forks_count": 21,
       "open_issues_count": 7,
       "language": "Odin",
-      "gem_score": 10.97,
+      "gem_score": 10.95,
       "momentum_trend": 12,
       "recent_commits": 4,
       "merged_prs_count": 0,
@@ -552,18 +520,18 @@
       "maintenance_score": 42,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "ai-goofish-monitor",
       "full_name": "Usagi-org/ai-goofish-monitor",
       "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
       "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-      "stars": 16302,
-      "forks_count": 2837,
-      "open_issues_count": 32,
+      "stars": 16677,
+      "forks_count": 2866,
+      "open_issues_count": 33,
       "language": "Python",
-      "gem_score": 10.79,
+      "gem_score": 10.76,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 4,
@@ -591,16 +559,16 @@
       "maintenance_score": 25,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 431,
+      "stars": 432,
       "forks_count": 391,
-      "open_issues_count": 2,
+      "open_issues_count": 0,
       "language": "Mojo",
       "gem_score": 10.41,
       "momentum_trend": 0.75,
@@ -624,10 +592,10 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 105,
+      "maintenance_score": 106,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     },
     {
       "name": "odin-http",
@@ -655,7 +623,7 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-03T02:27:59Z",
+      "pushed_at": "2026-11-04T00:48:20Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
@@ -663,7 +631,7 @@
       "maintenance_score": 69,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-03T18:59:44.405Z"
+      "first_seen": "2026-11-04T04:44:21.270Z"
     }
   ]
 }
