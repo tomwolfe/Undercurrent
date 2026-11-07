@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-11-06T18:55:14.068Z",
+  "last_mined": "2026-11-07T04:36:23.548Z",
   "count": 15,
   "gems": [
     {
@@ -7,28 +7,28 @@
       "full_name": "rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "url": "https://github.com/rust-lang/rust",
-      "stars": 121317,
-      "forks_count": 17358,
-      "open_issues_count": 11187,
+      "stars": 121497,
+      "forks_count": 17369,
+      "open_issues_count": 11181,
       "language": "Rust",
-      "gem_score": 71.76,
-      "momentum_trend": 0.8,
-      "recent_commits": 576,
-      "merged_prs_count": 47,
+      "gem_score": 71.73,
+      "momentum_trend": 0.82,
+      "recent_commits": 582,
+      "merged_prs_count": 46,
       "topics": [
         "rust",
         "compiler",
         "language"
       ],
       "activity": [
-        708,
-        712,
-        743,
-        576
+        673,
+        746,
+        710,
+        582
       ],
       "good_first_issues_url": "https://github.com/rust-lang/rust/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-06T16:41:49Z",
+      "pushed_at": "2026-11-07T03:22:05Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -36,21 +36,21 @@
         "published_at": "2026-10-16T04:47:44Z"
       },
       "featured": true,
-      "maintenance_score": 31,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "is_verified": true,
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "auto-ontology",
       "full_name": "NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "url": "https://github.com/NVIDIA/auto-ontology",
-      "stars": 8740,
-      "forks_count": 704,
+      "stars": 9233,
+      "forks_count": 734,
       "open_issues_count": 34,
       "language": "Python",
-      "gem_score": 34.28,
+      "gem_score": 34.03,
       "momentum_trend": 0.71,
       "recent_commits": 18,
       "merged_prs_count": 48,
@@ -63,7 +63,7 @@
       ],
       "good_first_issues_url": "https://github.com/NVIDIA/auto-ontology/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-06T18:11:44Z",
+      "pushed_at": "2026-11-06T23:03:36Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
@@ -71,20 +71,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "zed",
       "full_name": "zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "url": "https://github.com/zed-industries/zed",
-      "stars": 93360,
-      "forks_count": 11479,
+      "stars": 93754,
+      "forks_count": 11507,
       "open_issues_count": 2279,
       "language": "Rust",
-      "gem_score": 25.18,
-      "momentum_trend": 0.75,
-      "recent_commits": 72,
+      "gem_score": 25.2,
+      "momentum_trend": 0.78,
+      "recent_commits": 74,
       "merged_prs_count": 50,
       "topics": [
         "text-editor",
@@ -92,14 +92,14 @@
         "gpui"
       ],
       "activity": [
-        85,
-        103,
-        99,
-        72
+        83,
+        104,
+        97,
+        74
       ],
       "good_first_issues_url": "https://github.com/zed-industries/zed/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-06T16:10:53Z",
+      "pushed_at": "2026-11-07T04:30:41Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": {
@@ -110,7 +110,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "karl2d",
@@ -121,9 +121,9 @@
       "forks_count": 66,
       "open_issues_count": 30,
       "language": "Odin",
-      "gem_score": 22.25,
-      "momentum_trend": 0.83,
-      "recent_commits": 11,
+      "gem_score": 22.49,
+      "momentum_trend": 1,
+      "recent_commits": 12,
       "merged_prs_count": 10,
       "topics": [
         "gamedev",
@@ -131,14 +131,14 @@
         "odin-lang"
       ],
       "activity": [
-        5,
-        21,
-        14,
-        11
+        1,
+        23,
+        12,
+        12
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-05T17:19:47Z",
+      "pushed_at": "2026-11-07T00:39:29Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -149,46 +149,46 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "angular",
       "full_name": "angular/angular",
       "description": "Deliver web apps with confidence 🚀",
       "url": "https://github.com/angular/angular",
-      "stars": 101236,
-      "forks_count": 28907,
-      "open_issues_count": 846,
+      "stars": 101403,
+      "forks_count": 28913,
+      "open_issues_count": 848,
       "language": "TypeScript",
-      "gem_score": 21.43,
-      "momentum_trend": 0.45,
+      "gem_score": 20.71,
+      "momentum_trend": 0.47,
       "recent_commits": 65,
-      "merged_prs_count": 23,
+      "merged_prs_count": 13,
       "topics": [
         "angular",
         "typescript",
         "web"
       ],
       "activity": [
+        106,
+        194,
         117,
-        170,
-        147,
         65
       ],
       "good_first_issues_url": "https://github.com/angular/angular/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-06T06:33:01Z",
+      "pushed_at": "2026-11-06T19:39:34Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
-        "tag": "v22.2.4",
-        "published_at": "2026-10-29T17:41:23Z"
+        "tag": "v22.2.5",
+        "published_at": "2026-11-06T19:37:09Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 30,
       "bundle_size": 183157,
-      "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "is_verified": false,
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "NuMojo",
@@ -226,20 +226,20 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "symfony",
       "full_name": "symfony/symfony",
       "description": "The Symfony PHP framework",
       "url": "https://github.com/symfony/symfony",
-      "stars": 31326,
-      "forks_count": 9942,
-      "open_issues_count": 168,
+      "stars": 31459,
+      "forks_count": 9949,
+      "open_issues_count": 167,
       "language": "PHP",
-      "gem_score": 18.07,
-      "momentum_trend": 0.97,
-      "recent_commits": 550,
+      "gem_score": 18.11,
+      "momentum_trend": 1.03,
+      "recent_commits": 578,
       "merged_prs_count": 49,
       "topics": [
         "framework",
@@ -247,14 +247,14 @@
         "symfony"
       ],
       "activity": [
-        620,
-        585,
-        491,
-        550
+        606,
+        607,
+        469,
+        578
       ],
       "good_first_issues_url": "https://github.com/symfony/symfony/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-06T18:44:02Z",
+      "pushed_at": "2026-11-06T22:12:59Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -265,20 +265,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "skills",
       "full_name": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "url": "https://github.com/google/skills",
-      "stars": 22750,
-      "forks_count": 1913,
-      "open_issues_count": 24,
+      "stars": 22907,
+      "forks_count": 1926,
+      "open_issues_count": 25,
       "language": "Python",
-      "gem_score": 17.15,
-      "momentum_trend": 1.25,
-      "recent_commits": 35,
+      "gem_score": 17.51,
+      "momentum_trend": 1.45,
+      "recent_commits": 40,
       "merged_prs_count": 1,
       "topics": [
         "google",
@@ -287,13 +287,13 @@
       ],
       "activity": [
         26,
-        31,
-        27,
-        35
+        32,
+        25,
+        40
       ],
       "good_first_issues_url": "https://github.com/google/skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-05T22:00:15Z",
+      "pushed_at": "2026-11-06T22:01:22Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
@@ -301,18 +301,18 @@
       "maintenance_score": 28,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "mpv",
       "full_name": "mpv-player/mpv",
       "description": "🎥 Command line media player",
       "url": "https://github.com/mpv-player/mpv",
-      "stars": 37827,
-      "forks_count": 3630,
+      "stars": 37911,
+      "forks_count": 3634,
       "open_issues_count": 1014,
       "language": "C",
-      "gem_score": 16.18,
+      "gem_score": 16.17,
       "momentum_trend": 0.95,
       "recent_commits": 82,
       "merged_prs_count": 50,
@@ -322,9 +322,9 @@
         "c"
       ],
       "activity": [
-        79,
-        95,
-        84,
+        85,
+        93,
+        80,
         82
       ],
       "good_first_issues_url": "https://github.com/mpv-player/mpv/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -340,20 +340,20 @@
       "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "react",
       "full_name": "react/react",
       "description": "The library for web and native user interfaces.",
       "url": "https://github.com/react/react",
-      "stars": 252148,
-      "forks_count": 51801,
-      "open_issues_count": 857,
+      "stars": 252289,
+      "forks_count": 51819,
+      "open_issues_count": 862,
       "language": "JavaScript",
-      "gem_score": 12.53,
-      "momentum_trend": 0.93,
-      "recent_commits": 9,
+      "gem_score": 12.45,
+      "momentum_trend": 0.77,
+      "recent_commits": 8,
       "merged_prs_count": 38,
       "topics": [
         "javascript",
@@ -363,12 +363,12 @@
       "activity": [
         10,
         8,
-        11,
-        9
+        13,
+        8
       ],
       "good_first_issues_url": "https://github.com/react/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-06T15:28:33Z",
+      "pushed_at": "2026-11-07T02:19:03Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -379,20 +379,20 @@
       "maintenance_score": 0,
       "bundle_size": 7994,
       "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "rails",
       "full_name": "rails/rails",
       "description": "Ruby on Rails",
       "url": "https://github.com/rails/rails",
-      "stars": 58942,
-      "forks_count": 23824,
-      "open_issues_count": 485,
+      "stars": 59045,
+      "forks_count": 23833,
+      "open_issues_count": 486,
       "language": "Ruby",
-      "gem_score": 12.13,
-      "momentum_trend": 1.54,
-      "recent_commits": 345,
+      "gem_score": 12.06,
+      "momentum_trend": 1.34,
+      "recent_commits": 315,
       "merged_prs_count": 45,
       "topics": [
         "rails",
@@ -400,14 +400,14 @@
         "html"
       ],
       "activity": [
-        211,
-        242,
-        217,
-        345
+        215,
+        254,
+        234,
+        315
       ],
       "good_first_issues_url": "https://github.com/rails/rails/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-06T14:50:07Z",
+      "pushed_at": "2026-11-06T23:19:25Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -415,23 +415,23 @@
         "published_at": "2026-11-04T02:46:00Z"
       },
       "featured": true,
-      "maintenance_score": 114,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "is_verified": true,
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 437,
+      "stars": 438,
       "forks_count": 391,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 10.98,
-      "momentum_trend": 0.97,
-      "recent_commits": 10,
+      "gem_score": 11.24,
+      "momentum_trend": 1.03,
+      "recent_commits": 11,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -441,20 +441,20 @@
       "activity": [
         11,
         14,
-        6,
-        10
+        7,
+        11
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-05T07:37:59Z",
+      "pushed_at": "2026-11-06T20:42:49Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 108,
+      "maintenance_score": 109,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "ols",
@@ -466,7 +466,7 @@
       "open_issues_count": 103,
       "language": "Odin",
       "gem_score": 10.54,
-      "momentum_trend": 0.25,
+      "momentum_trend": 0.26,
       "recent_commits": 4,
       "merged_prs_count": 19,
       "topics": [
@@ -475,8 +475,8 @@
         "lsp"
       ],
       "activity": [
-        35,
-        5,
+        36,
+        3,
         8,
         4
       ],
@@ -490,10 +490,10 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "no_gfx_api",
@@ -525,14 +525,14 @@
       "maintenance_score": 45,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     },
     {
       "name": "odin-http",
       "full_name": "laytan/odin-http",
       "description": "A HTTP/1.1 client/server implementation for Odin.",
       "url": "https://github.com/laytan/odin-http",
-      "stars": 457,
+      "stars": 458,
       "forks_count": 53,
       "open_issues_count": 16,
       "language": "Odin",
@@ -553,7 +553,7 @@
       ],
       "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-06T00:59:13Z",
+      "pushed_at": "2026-11-07T00:20:01Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": null,
@@ -561,7 +561,7 @@
       "maintenance_score": 72,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-06T18:51:02.060Z"
+      "first_seen": "2026-11-07T04:31:32.197Z"
     }
   ]
 }
