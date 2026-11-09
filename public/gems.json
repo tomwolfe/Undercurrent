@@ -1,106 +1,30 @@
 {
-  "last_mined": "2026-11-09T04:39:13.473Z",
+  "last_mined": "2026-11-09T22:00:10.797Z",
   "count": 12,
   "gems": [
-    {
-      "name": "billion-context",
-      "full_name": "ranxianglei/billion-context",
-      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
-      "url": "https://github.com/ranxianglei/billion-context",
-      "stars": 5310,
-      "forks_count": 413,
-      "open_issues_count": 506,
-      "language": "TypeScript",
-      "gem_score": 80.68,
-      "momentum_trend": 0.49,
-      "recent_commits": 535,
-      "merged_prs_count": 50,
-      "topics": [
-        "dsh-plugin"
-      ],
-      "activity": [
-        1196,
-        1163,
-        917,
-        535
-      ],
-      "good_first_issues_url": "https://github.com/ranxianglei/billion-context/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-09T04:32:27Z",
-      "is_hype": false,
-      "license": "NOASSERTION",
-      "latest_release": {
-        "tag": "v0.1.213",
-        "published_at": "2026-11-07T23:25:08Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": 2031575,
-      "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
-    },
-    {
-      "name": "nvke",
-      "full_name": "dsx-ai-factory/nvke",
-      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
-      "url": "https://github.com/dsx-ai-factory/nvke",
-      "stars": 913,
-      "forks_count": 113,
-      "open_issues_count": 111,
-      "language": "Go",
-      "gem_score": 64.48,
-      "momentum_trend": 0.5,
-      "recent_commits": 62,
-      "merged_prs_count": 50,
-      "topics": [
-        "bare-metal",
-        "cluster-api",
-        "gpu"
-      ],
-      "activity": [
-        170,
-        109,
-        91,
-        62
-      ],
-      "good_first_issues_url": "https://github.com/dsx-ai-factory/nvke/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-09T04:23:37Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.23.1",
-        "published_at": "2026-11-03T23:54:25Z"
-      },
-      "featured": true,
-      "maintenance_score": 2,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
-    },
     {
       "name": "astryx",
       "full_name": "meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "url": "https://github.com/meta/astryx",
-      "stars": 17323,
-      "forks_count": 1371,
-      "open_issues_count": 311,
+      "stars": 19743,
+      "forks_count": 1504,
+      "open_issues_count": 301,
       "language": "TypeScript",
-      "gem_score": 47.73,
-      "momentum_trend": 2.41,
-      "recent_commits": 1105,
+      "gem_score": 47.08,
+      "momentum_trend": 2.35,
+      "recent_commits": 1121,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        261,
-        441,
-        675,
-        1105
+        247,
+        483,
+        702,
+        1121
       ],
       "good_first_issues_url": "https://github.com/meta/astryx/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-09T04:31:11Z",
+      "pushed_at": "2026-11-09T21:50:54Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -111,70 +35,66 @@
       "maintenance_score": 0,
       "bundle_size": 262,
       "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
-      "name": "OpenMausBot",
-      "full_name": "milind-soni/OpenMausBot",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "stars": 18589,
-      "forks_count": 2571,
-      "open_issues_count": 582,
+      "name": "gbrain",
+      "full_name": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "url": "https://github.com/garrytan/gbrain",
+      "stars": 32095,
+      "forks_count": 4761,
+      "open_issues_count": 552,
       "language": "TypeScript",
-      "gem_score": 47.19,
-      "momentum_trend": 1.24,
-      "recent_commits": 1502,
-      "merged_prs_count": 50,
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "codex"
-      ],
+      "gem_score": 46.85,
+      "momentum_trend": 0.48,
+      "recent_commits": 1092,
+      "merged_prs_count": 49,
+      "topics": [],
       "activity": [
-        1485,
-        1156,
-        979,
-        1502
+        3174,
+        2319,
+        1369,
+        1092
       ],
-      "good_first_issues_url": "https://github.com/milind-soni/OpenMausBot/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/garrytan/gbrain/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-09T04:10:12Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
+      "pushed_at": "2026-11-09T21:50:55Z",
+      "is_hype": true,
+      "license": "MIT",
       "latest_release": {
-        "tag": "v0.1.150",
-        "published_at": "2026-11-09T03:26:23Z"
+        "tag": "v0.60.626.0",
+        "published_at": "2026-11-09T20:36:28Z"
       },
       "featured": true,
       "maintenance_score": 0,
-      "bundle_size": null,
+      "bundle_size": 433930,
       "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
       "name": "agent-browser",
       "full_name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "url": "https://github.com/vercel-labs/agent-browser",
-      "stars": 47803,
-      "forks_count": 3269,
-      "open_issues_count": 172,
+      "stars": 48400,
+      "forks_count": 3297,
+      "open_issues_count": 177,
       "language": "Rust",
-      "gem_score": 28.16,
-      "momentum_trend": 1.41,
-      "recent_commits": 38,
+      "gem_score": 28.21,
+      "momentum_trend": 1.45,
+      "recent_commits": 40,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        4,
-        25,
-        52,
-        38
+        5,
+        29,
+        49,
+        40
       ],
       "good_first_issues_url": "https://github.com/vercel-labs/agent-browser/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-08T10:03:53Z",
+      "pushed_at": "2026-11-09T19:30:52Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -182,10 +102,49 @@
         "published_at": "2026-11-03T23:46:27Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
+    },
+    {
+      "name": "daily_stock_analysis",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "stars": 68774,
+      "forks_count": 56372,
+      "open_issues_count": 25,
+      "language": "Python",
+      "gem_score": 22.63,
+      "momentum_trend": 2.05,
+      "recent_commits": 13,
+      "merged_prs_count": 31,
+      "topics": [
+        "aigc",
+        "llm",
+        "quant"
+      ],
+      "activity": [
+        9,
+        6,
+        4,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/ZhuLinsen/daily_stock_analysis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-09T14:14:52Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v3.34.0",
+        "published_at": "2026-11-09T12:39:03Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
       "name": "karl2d",
@@ -196,9 +155,9 @@
       "forks_count": 66,
       "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 22.18,
-      "momentum_trend": 0.89,
-      "recent_commits": 11,
+      "gem_score": 21.59,
+      "momentum_trend": 0.69,
+      "recent_commits": 9,
       "merged_prs_count": 10,
       "topics": [
         "gamedev",
@@ -207,9 +166,9 @@
       ],
       "activity": [
         1,
-        23,
-        13,
-        11
+        29,
+        9,
+        9
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -221,38 +180,76 @@
         "published_at": "2026-11-03T23:38:32Z"
       },
       "featured": false,
-      "maintenance_score": 4,
+      "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
+    },
+    {
+      "name": "NuMojo",
+      "full_name": "Mojo-Numerics-and-Algorithms-group/NuMojo",
+      "description": "NuMojo is a library for numerical computing in Mojo 🔥 similar to numpy in Python.",
+      "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
+      "stars": 248,
+      "forks_count": 28,
+      "open_issues_count": 16,
+      "language": "Mojo",
+      "gem_score": 19.84,
+      "momentum_trend": 0.2,
+      "recent_commits": 2,
+      "merged_prs_count": 22,
+      "topics": [
+        "mathematics",
+        "numerical-analysis"
+      ],
+      "activity": [
+        0,
+        27,
+        3,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-11-09T05:59:16Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.12.0",
+        "published_at": "2026-10-25T14:25:22Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
       "name": "mujoco",
       "full_name": "google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "url": "https://github.com/google-deepmind/mujoco",
-      "stars": 16518,
-      "forks_count": 1957,
-      "open_issues_count": 157,
+      "stars": 16869,
+      "forks_count": 1988,
+      "open_issues_count": 153,
       "language": "C++",
-      "gem_score": 13.45,
-      "momentum_trend": 1.27,
-      "recent_commits": 165,
-      "merged_prs_count": 16,
+      "gem_score": 13.15,
+      "momentum_trend": 1.06,
+      "recent_commits": 140,
+      "merged_prs_count": 15,
       "topics": [
         "robotics",
         "physics",
         "mujoco"
       ],
       "activity": [
-        119,
-        137,
-        135,
-        165
+        118,
+        126,
+        154,
+        140
       ],
       "good_first_issues_url": "https://github.com/google-deepmind/mujoco/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-08T23:35:03Z",
+      "pushed_at": "2026-11-09T12:57:21Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -260,10 +257,10 @@
         "published_at": "2026-11-06T15:39:53Z"
       },
       "featured": true,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -274,8 +271,8 @@
       "forks_count": 390,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 11.22,
-      "momentum_trend": 0.97,
+      "gem_score": 11.21,
+      "momentum_trend": 0.94,
       "recent_commits": 11,
       "merged_prs_count": 0,
       "topics": [
@@ -284,22 +281,22 @@
         "learn-by-doing"
       ],
       "activity": [
-        13,
         15,
+        14,
         6,
         11
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-08T07:04:43Z",
+      "pushed_at": "2026-11-09T20:52:04Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 111,
+      "maintenance_score": 112,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
       "name": "ols",
@@ -307,7 +304,7 @@
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
       "stars": 1228,
-      "forks_count": 199,
+      "forks_count": 200,
       "open_issues_count": 104,
       "language": "Odin",
       "gem_score": 7.98,
@@ -320,7 +317,7 @@
         "lsp"
       ],
       "activity": [
-        18,
+        13,
         8,
         6,
         0
@@ -335,19 +332,55 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 7,
+      "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
+    },
+    {
+      "name": "odin-http",
+      "full_name": "laytan/odin-http",
+      "description": "A HTTP/1.1 client/server implementation for Odin.",
+      "url": "https://github.com/laytan/odin-http",
+      "stars": 458,
+      "forks_count": 55,
+      "open_issues_count": 16,
+      "language": "Odin",
+      "gem_score": 6.11,
+      "momentum_trend": 1,
+      "recent_commits": 1,
+      "merged_prs_count": 1,
+      "topics": [
+        "odin-lib",
+        "http",
+        "http-client"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-09T17:58:43Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
       "name": "skills",
       "full_name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "url": "https://github.com/anthropics/skills",
-      "stars": 189829,
-      "forks_count": 22364,
-      "open_issues_count": 438,
+      "stars": 190830,
+      "forks_count": 22435,
+      "open_issues_count": 440,
       "language": "Python",
       "gem_score": 6.02,
       "momentum_trend": 3,
@@ -371,16 +404,16 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
     },
     {
       "name": "sherlock",
       "full_name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "url": "https://github.com/sherlock-project/sherlock",
-      "stars": 104359,
-      "forks_count": 12180,
-      "open_issues_count": 114,
+      "stars": 106861,
+      "forks_count": 12373,
+      "open_issues_count": 119,
       "language": "Python",
       "gem_score": 2.9,
       "momentum_trend": 0,
@@ -399,7 +432,7 @@
       ],
       "good_first_issues_url": "https://github.com/sherlock-project/sherlock/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-08T05:13:22Z",
+      "pushed_at": "2026-11-09T05:14:34Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -407,46 +440,10 @@
         "published_at": "2026-09-08T20:54:15Z"
       },
       "featured": true,
-      "maintenance_score": 43,
+      "maintenance_score": 237,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-09T04:32:52.231Z"
-    },
-    {
-      "name": "odin-http",
-      "full_name": "laytan/odin-http",
-      "description": "A HTTP/1.1 client/server implementation for Odin.",
-      "url": "https://github.com/laytan/odin-http",
-      "stars": 458,
-      "forks_count": 55,
-      "open_issues_count": 16,
-      "language": "Odin",
-      "gem_score": 2.64,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [
-        "odin-lib",
-        "http",
-        "http-client"
-      ],
-      "activity": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/laytan/odin-http/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-08T23:55:20Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 74,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-09T04:32:52.231Z"
+      "first_seen": "2026-11-09T21:54:06.640Z"
     }
   ]
 }
