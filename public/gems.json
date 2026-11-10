@@ -1,30 +1,65 @@
 {
-  "last_mined": "2026-11-09T22:00:10.797Z",
+  "last_mined": "2026-11-10T05:57:06.560Z",
   "count": 12,
   "gems": [
+    {
+      "name": "gbrain",
+      "full_name": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "url": "https://github.com/garrytan/gbrain",
+      "stars": 32281,
+      "forks_count": 4778,
+      "open_issues_count": 560,
+      "language": "TypeScript",
+      "gem_score": 46.98,
+      "momentum_trend": 0.51,
+      "recent_commits": 1166,
+      "merged_prs_count": 49,
+      "topics": [],
+      "activity": [
+        3112,
+        2256,
+        1438,
+        1166
+      ],
+      "good_first_issues_url": "https://github.com/garrytan/gbrain/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-10T05:46:58Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.60.638.0",
+        "published_at": "2026-11-10T04:25:29Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": 433930,
+      "is_verified": true,
+      "first_seen": "2026-11-10T05:51:49.837Z"
+    },
     {
       "name": "astryx",
       "full_name": "meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "url": "https://github.com/meta/astryx",
-      "stars": 19743,
-      "forks_count": 1504,
-      "open_issues_count": 301,
+      "stars": 20728,
+      "forks_count": 1572,
+      "open_issues_count": 294,
       "language": "TypeScript",
-      "gem_score": 47.08,
-      "momentum_trend": 2.35,
-      "recent_commits": 1121,
+      "gem_score": 46.84,
+      "momentum_trend": 2.32,
+      "recent_commits": 1126,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        247,
-        483,
-        702,
-        1121
+        243,
+        489,
+        726,
+        1126
       ],
       "good_first_issues_url": "https://github.com/meta/astryx/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-09T21:50:54Z",
+      "pushed_at": "2026-11-10T05:50:03Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -35,88 +70,53 @@
       "maintenance_score": 0,
       "bundle_size": 262,
       "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
-    },
-    {
-      "name": "gbrain",
-      "full_name": "garrytan/gbrain",
-      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
-      "url": "https://github.com/garrytan/gbrain",
-      "stars": 32095,
-      "forks_count": 4761,
-      "open_issues_count": 552,
-      "language": "TypeScript",
-      "gem_score": 46.85,
-      "momentum_trend": 0.48,
-      "recent_commits": 1092,
-      "merged_prs_count": 49,
-      "topics": [],
-      "activity": [
-        3174,
-        2319,
-        1369,
-        1092
-      ],
-      "good_first_issues_url": "https://github.com/garrytan/gbrain/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-09T21:50:55Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v0.60.626.0",
-        "published_at": "2026-11-09T20:36:28Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": 433930,
-      "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "agent-browser",
       "full_name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "url": "https://github.com/vercel-labs/agent-browser",
-      "stars": 48400,
-      "forks_count": 3297,
+      "stars": 48673,
+      "forks_count": 3316,
       "open_issues_count": 177,
       "language": "Rust",
-      "gem_score": 28.21,
-      "momentum_trend": 1.45,
-      "recent_commits": 40,
+      "gem_score": 28.07,
+      "momentum_trend": 1.34,
+      "recent_commits": 38,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
         5,
         29,
-        49,
-        40
+        51,
+        38
       ],
       "good_first_issues_url": "https://github.com/vercel-labs/agent-browser/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-09T19:30:52Z",
+      "pushed_at": "2026-11-10T01:45:24Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.41.2",
-        "published_at": "2026-11-03T23:46:27Z"
+        "tag": "v0.42.0",
+        "published_at": "2026-11-10T00:37:19Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "daily_stock_analysis",
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "stars": 68774,
-      "forks_count": 56372,
+      "stars": 69162,
+      "forks_count": 56455,
       "open_issues_count": 25,
       "language": "Python",
-      "gem_score": 22.63,
+      "gem_score": 22.61,
       "momentum_trend": 2.05,
       "recent_commits": 13,
       "merged_prs_count": 31,
@@ -144,7 +144,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "karl2d",
@@ -155,7 +155,7 @@
       "forks_count": 66,
       "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 21.59,
+      "gem_score": 21.58,
       "momentum_trend": 0.69,
       "recent_commits": 9,
       "merged_prs_count": 10,
@@ -166,8 +166,8 @@
       ],
       "activity": [
         1,
-        29,
-        9,
+        32,
+        6,
         9
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -183,7 +183,7 @@
       "maintenance_score": 5,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "NuMojo",
@@ -221,20 +221,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "mujoco",
       "full_name": "google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "url": "https://github.com/google-deepmind/mujoco",
-      "stars": 16869,
-      "forks_count": 1988,
-      "open_issues_count": 153,
+      "stars": 17028,
+      "forks_count": 2010,
+      "open_issues_count": 154,
       "language": "C++",
-      "gem_score": 13.15,
-      "momentum_trend": 1.06,
-      "recent_commits": 140,
+      "gem_score": 13.14,
+      "momentum_trend": 1.08,
+      "recent_commits": 141,
       "merged_prs_count": 15,
       "topics": [
         "robotics",
@@ -242,14 +242,14 @@
         "mujoco"
       ],
       "activity": [
-        118,
-        126,
-        154,
-        140
+        116,
+        120,
+        155,
+        141
       ],
       "good_first_issues_url": "https://github.com/google-deepmind/mujoco/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-09T12:57:21Z",
+      "pushed_at": "2026-11-10T01:29:18Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
@@ -260,19 +260,19 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 438,
+      "stars": 439,
       "forks_count": 390,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 11.21,
-      "momentum_trend": 0.94,
+      "gem_score": 11.2,
+      "momentum_trend": 1.14,
       "recent_commits": 11,
       "merged_prs_count": 0,
       "topics": [
@@ -281,7 +281,7 @@
         "learn-by-doing"
       ],
       "activity": [
-        15,
+        9,
         14,
         6,
         11
@@ -296,7 +296,7 @@
       "maintenance_score": 112,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "ols",
@@ -307,10 +307,10 @@
       "forks_count": 200,
       "open_issues_count": 104,
       "language": "Odin",
-      "gem_score": 7.98,
+      "gem_score": 7.85,
       "momentum_trend": 0,
       "recent_commits": 0,
-      "merged_prs_count": 17,
+      "merged_prs_count": 16,
       "topics": [
         "language-server",
         "odin",
@@ -335,7 +335,7 @@
       "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "odin-http",
@@ -371,18 +371,18 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "skills",
       "full_name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "url": "https://github.com/anthropics/skills",
-      "stars": 190830,
-      "forks_count": 22435,
-      "open_issues_count": 440,
+      "stars": 191322,
+      "forks_count": 22465,
+      "open_issues_count": 441,
       "language": "Python",
-      "gem_score": 6.02,
+      "gem_score": 6.01,
       "momentum_trend": 3,
       "recent_commits": 1,
       "merged_prs_count": 2,
@@ -401,21 +401,21 @@
       "is_hype": true,
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     },
     {
       "name": "sherlock",
       "full_name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "url": "https://github.com/sherlock-project/sherlock",
-      "stars": 106861,
-      "forks_count": 12373,
-      "open_issues_count": 119,
+      "stars": 107609,
+      "forks_count": 12448,
+      "open_issues_count": 120,
       "language": "Python",
-      "gem_score": 2.9,
+      "gem_score": 2.89,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -432,7 +432,7 @@
       ],
       "good_first_issues_url": "https://github.com/sherlock-project/sherlock/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-09T05:14:34Z",
+      "pushed_at": "2026-11-10T05:13:55Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -443,7 +443,7 @@
       "maintenance_score": 237,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-09T21:54:06.640Z"
+      "first_seen": "2026-11-10T05:51:49.837Z"
     }
   ]
 }
