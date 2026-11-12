@@ -1,19 +1,58 @@
 {
-  "last_mined": "2026-11-12T05:46:54.598Z",
-  "count": 14,
+  "last_mined": "2026-11-12T19:35:56.870Z",
+  "count": 15,
   "gems": [
+    {
+      "name": "TensorFold",
+      "full_name": "ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "url": "https://github.com/ashhart/TensorFold",
+      "stars": 1897,
+      "forks_count": 390,
+      "open_issues_count": 189,
+      "language": "Zig",
+      "gem_score": 61.8,
+      "momentum_trend": 1.45,
+      "recent_commits": 1626,
+      "merged_prs_count": 50,
+      "topics": [
+        "ai",
+        "ai-tools",
+        "llm"
+      ],
+      "activity": [
+        1152,
+        814,
+        1391,
+        1626
+      ],
+      "good_first_issues_url": "https://github.com/ashhart/TensorFold/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-12T17:49:33Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v1.2.7",
+        "published_at": "2026-11-11T17:18:05Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-12T19:30:06.700Z"
+    },
     {
       "name": "codex-security",
       "full_name": "openai/codex-security",
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "url": "https://github.com/openai/codex-security",
-      "stars": 11893,
-      "forks_count": 947,
-      "open_issues_count": 34,
+      "stars": 12280,
+      "forks_count": 971,
+      "open_issues_count": 35,
       "language": "TypeScript",
-      "gem_score": 50.82,
-      "momentum_trend": 1.06,
-      "recent_commits": 243,
+      "gem_score": 50.54,
+      "momentum_trend": 1.02,
+      "recent_commits": 235,
       "merged_prs_count": 50,
       "topics": [
         "ai-security",
@@ -21,14 +60,14 @@
         "cli"
       ],
       "activity": [
-        187,
+        198,
         252,
-        247,
-        243
+        243,
+        235
       ],
       "good_first_issues_url": "https://github.com/openai/codex-security/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-12T05:04:48Z",
+      "pushed_at": "2026-11-12T10:06:19Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -39,172 +78,176 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "modern-web-guidance-src",
       "full_name": "GoogleChrome/modern-web-guidance-src",
-      "description": "No description available.",
+      "description": "Keep your coding agent up to date with the latest web best practices",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "stars": 1954,
-      "forks_count": 148,
-      "open_issues_count": 302,
+      "stars": 2650,
+      "forks_count": 185,
+      "open_issues_count": 306,
       "language": "TypeScript",
-      "gem_score": 49.2,
-      "momentum_trend": 2.44,
-      "recent_commits": 193,
+      "gem_score": 47.58,
+      "momentum_trend": 2.55,
+      "recent_commits": 199,
       "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        57,
-        77,
-        103,
-        193
+        61,
+        69,
+        104,
+        199
       ],
       "good_first_issues_url": "https://github.com/GoogleChrome/modern-web-guidance-src/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-12T03:40:40Z",
-      "is_hype": false,
+      "pushed_at": "2026-11-12T19:20:44Z",
+      "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "astryx",
       "full_name": "meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "url": "https://github.com/meta/astryx",
-      "stars": 25396,
-      "forks_count": 1978,
-      "open_issues_count": 299,
+      "stars": 26325,
+      "forks_count": 2039,
+      "open_issues_count": 296,
       "language": "TypeScript",
       "gem_score": 45.61,
-      "momentum_trend": 1.87,
-      "recent_commits": 1065,
+      "momentum_trend": 1.86,
+      "recent_commits": 1077,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        271,
-        503,
-        934,
-        1065
+        266,
+        469,
+        1002,
+        1077
       ],
       "good_first_issues_url": "https://github.com/meta/astryx/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-12T05:39:33Z",
+      "pushed_at": "2026-11-12T19:20:13Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v0.7.14",
-        "published_at": "2026-11-11T19:54:54Z"
+        "tag": "v0.7.15",
+        "published_at": "2026-11-12T19:25:33Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": 262,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
-      "name": "agent-browser",
-      "full_name": "vercel-labs/agent-browser",
-      "description": "Browser automation CLI for AI agents",
-      "url": "https://github.com/vercel-labs/agent-browser",
-      "stars": 50013,
-      "forks_count": 3493,
-      "open_issues_count": 182,
-      "language": "Rust",
-      "gem_score": 27.12,
-      "momentum_trend": 0.74,
-      "recent_commits": 25,
+      "name": "qwen-code",
+      "full_name": "QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "stars": 29713,
+      "forks_count": 3389,
+      "open_issues_count": 1746,
+      "language": "TypeScript",
+      "gem_score": 42.89,
+      "momentum_trend": 1.03,
+      "recent_commits": 399,
       "merged_prs_count": 50,
-      "topics": [],
-      "activity": [
-        8,
-        32,
-        61,
-        25
+      "topics": [
+        "agentic",
+        "ai",
+        "ai-agent"
       ],
-      "good_first_issues_url": "https://github.com/vercel-labs/agent-browser/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "activity": [
+        481,
+        360,
+        320,
+        399
+      ],
+      "good_first_issues_url": "https://github.com/QwenLM/qwen-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-12T04:31:44Z",
+      "pushed_at": "2026-11-12T19:21:11Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.42.0",
-        "published_at": "2026-11-10T00:37:19Z"
+        "tag": "sdk-typescript-v0.1.32",
+        "published_at": "2026-11-10T20:18:32Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
-      "name": "daily_stock_analysis",
-      "full_name": "ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "stars": 70561,
-      "forks_count": 56957,
-      "open_issues_count": 27,
-      "language": "Python",
-      "gem_score": 22.6,
-      "momentum_trend": 2.17,
-      "recent_commits": 13,
-      "merged_prs_count": 32,
+      "name": "node",
+      "full_name": "nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "url": "https://github.com/nodejs/node",
+      "stars": 123558,
+      "forks_count": 38053,
+      "open_issues_count": 653,
+      "language": "JavaScript",
+      "gem_score": 22.82,
+      "momentum_trend": 0.9,
+      "recent_commits": 88,
+      "merged_prs_count": 48,
       "topics": [
-        "aigc",
-        "llm",
-        "quant"
+        "nodejs",
+        "javascript",
+        "node"
       ],
       "activity": [
-        7,
-        5,
-        6,
-        13
+        96,
+        113,
+        83,
+        88
       ],
-      "good_first_issues_url": "https://github.com/ZhuLinsen/daily_stock_analysis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/nodejs/node/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-10T11:51:09Z",
-      "is_hype": true,
-      "license": "MIT",
+      "pushed_at": "2026-11-12T19:15:21Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
       "latest_release": {
-        "tag": "v3.34.0",
-        "published_at": "2026-11-09T12:39:03Z"
+        "tag": "v27.0.0-alpha.0.1.0",
+        "published_at": "2026-11-12T13:35:13Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "sure",
       "full_name": "we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "url": "https://github.com/we-promise/sure",
-      "stars": 13136,
-      "forks_count": 968,
+      "stars": 13762,
+      "forks_count": 1022,
       "open_issues_count": 474,
       "language": "Ruby",
       "gem_score": 21.68,
-      "momentum_trend": 0.87,
-      "recent_commits": 84,
+      "momentum_trend": 0.96,
+      "recent_commits": 90,
       "merged_prs_count": 49,
       "topics": [],
       "activity": [
-        125,
-        53,
-        113,
-        84
+        112,
+        54,
+        114,
+        90
       ],
       "good_first_issues_url": "https://github.com/we-promise/sure/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-12T05:18:49Z",
+      "pushed_at": "2026-11-12T19:23:07Z",
       "is_hype": false,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -215,7 +258,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "NuMojo",
@@ -226,7 +269,7 @@
       "forks_count": 29,
       "open_issues_count": 16,
       "language": "Mojo",
-      "gem_score": 19.66,
+      "gem_score": 19.65,
       "momentum_trend": 0.2,
       "recent_commits": 2,
       "merged_prs_count": 21,
@@ -250,10 +293,10 @@
         "published_at": "2026-10-25T14:25:22Z"
       },
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "karl2d",
@@ -262,11 +305,11 @@
       "url": "https://github.com/karl-zylinski/karl2d",
       "stars": 726,
       "forks_count": 66,
-      "open_issues_count": 30,
+      "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 17.76,
-      "momentum_trend": 0.13,
-      "recent_commits": 2,
+      "gem_score": 16.48,
+      "momentum_trend": 0.06,
+      "recent_commits": 1,
       "merged_prs_count": 10,
       "topics": [
         "gamedev",
@@ -276,8 +319,8 @@
       "activity": [
         22,
         14,
-        10,
-        2
+        11,
+        1
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -289,21 +332,21 @@
         "published_at": "2026-11-03T23:38:32Z"
       },
       "featured": false,
-      "maintenance_score": 7,
+      "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "agent-skills",
       "full_name": "addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "url": "https://github.com/addyosmani/agent-skills",
-      "stars": 116099,
-      "forks_count": 12170,
+      "stars": 116561,
+      "forks_count": 12203,
       "open_issues_count": 59,
       "language": "JavaScript",
-      "gem_score": 15.71,
+      "gem_score": 15.69,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 49,
@@ -313,9 +356,9 @@
         "claude-code"
       ],
       "activity": [
-        18,
-        52,
-        31,
+        14,
+        62,
+        21,
         0
       ],
       "good_first_issues_url": "https://github.com/addyosmani/agent-skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -328,10 +371,45 @@
         "published_at": "2026-10-31T06:40:31Z"
       },
       "featured": true,
-      "maintenance_score": 10,
+      "maintenance_score": 11,
       "bundle_size": 1478,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
+    },
+    {
+      "name": "HermesEnabler",
+      "full_name": "pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "stars": 1474,
+      "forks_count": 138,
+      "open_issues_count": 50,
+      "language": "Objective-C",
+      "gem_score": 15.68,
+      "momentum_trend": 1,
+      "recent_commits": 77,
+      "merged_prs_count": 6,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        77
+      ],
+      "good_first_issues_url": "https://github.com/pookjw/HermesEnabler/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-12T14:49:08Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "1.5.2",
+        "published_at": "2026-11-12T14:49:08Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -342,9 +420,9 @@
       "forks_count": 391,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 11.86,
-      "momentum_trend": 1.4,
-      "recent_commits": 14,
+      "gem_score": 11.64,
+      "momentum_trend": 1.18,
+      "recent_commits": 13,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -352,36 +430,36 @@
         "learn-by-doing"
       ],
       "activity": [
-        9,
         12,
-        9,
-        14
+        11,
+        10,
+        13
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-11T07:25:14Z",
+      "pushed_at": "2026-11-12T19:05:42Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 114,
+      "maintenance_score": 115,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "ols",
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 1230,
+      "stars": 1231,
       "forks_count": 202,
       "open_issues_count": 106,
       "language": "Odin",
-      "gem_score": 7.43,
+      "gem_score": 7.27,
       "momentum_trend": 0,
       "recent_commits": 0,
-      "merged_prs_count": 13,
+      "merged_prs_count": 12,
       "topics": [
         "language-server",
         "odin",
@@ -389,8 +467,8 @@
       ],
       "activity": [
         5,
-        9,
-        5,
+        10,
+        4,
         0
       ],
       "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -403,46 +481,10 @@
         "published_at": "2026-10-12T15:23:00Z"
       },
       "featured": false,
-      "maintenance_score": 10,
+      "maintenance_score": 11,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-12T05:39:51.418Z"
-    },
-    {
-      "name": "Java",
-      "full_name": "TheAlgorithms/Java",
-      "description": "All Algorithms implemented in Java",
-      "url": "https://github.com/TheAlgorithms/Java",
-      "stars": 67118,
-      "forks_count": 21516,
-      "open_issues_count": 5,
-      "language": "Java",
-      "gem_score": 7.19,
-      "momentum_trend": 1,
-      "recent_commits": 9,
-      "merged_prs_count": 36,
-      "topics": [
-        "java",
-        "algorithms",
-        "algorithms-datastructures"
-      ],
-      "activity": [
-        7,
-        12,
-        8,
-        9
-      ],
-      "good_first_issues_url": "https://github.com/TheAlgorithms/Java/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-11T21:56:41Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
       "name": "odin-http",
@@ -475,42 +517,49 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "first_seen": "2026-11-12T19:30:06.700Z"
     },
     {
-      "name": "improve",
-      "full_name": "shadcn/improve",
-      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "url": "https://github.com/shadcn/improve",
-      "stars": 11103,
-      "forks_count": 451,
-      "open_issues_count": 6,
-      "language": "Plain Text",
-      "gem_score": 1.41,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        0,
-        0,
-        0,
-        0
+      "name": "nvm",
+      "full_name": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "url": "https://github.com/nvm-sh/nvm",
+      "stars": 95979,
+      "forks_count": 10756,
+      "open_issues_count": 321,
+      "language": "Shell",
+      "gem_score": 5.9,
+      "momentum_trend": 0.75,
+      "recent_commits": 3,
+      "merged_prs_count": 11,
+      "topics": [
+        "nvm",
+        "nodejs",
+        "node"
       ],
-      "good_first_issues_url": "https://github.com/shadcn/improve/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "activity": [
+        7,
+        0,
+        5,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/nvm-sh/nvm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-12T11:29:28Z",
+      "pushed_at": "2026-11-12T05:50:45Z",
       "is_hype": false,
       "license": "MIT",
-      "latest_release": null,
+      "latest_release": {
+        "tag": "v0.41.0",
+        "published_at": "2026-11-04T21:25:25Z"
+      },
       "featured": true,
-      "maintenance_score": 149,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-12T05:39:51.418Z"
+      "is_verified": true,
+      "first_seen": "2026-11-12T19:30:06.700Z"
     }
   ]
 }
