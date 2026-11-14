@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-11-13T19:15:06.129Z",
+  "last_mined": "2026-11-14T04:55:13.606Z",
   "count": 14,
   "gems": [
     {
@@ -7,13 +7,13 @@
       "full_name": "openai/codex-security",
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "url": "https://github.com/openai/codex-security",
-      "stars": 13012,
-      "forks_count": 1018,
-      "open_issues_count": 37,
+      "stars": 13224,
+      "forks_count": 1027,
+      "open_issues_count": 40,
       "language": "TypeScript",
-      "gem_score": 49.52,
-      "momentum_trend": 0.79,
-      "recent_commits": 191,
+      "gem_score": 49.36,
+      "momentum_trend": 0.78,
+      "recent_commits": 187,
       "merged_prs_count": 50,
       "topics": [
         "ai-security",
@@ -21,14 +21,14 @@
         "cli"
       ],
       "activity": [
-        211,
-        249,
+        225,
+        227,
         263,
-        191
+        187
       ],
       "good_first_issues_url": "https://github.com/openai/codex-security/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-13T14:52:10Z",
+      "pushed_at": "2026-11-14T04:31:20Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -39,31 +39,31 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "modern-web-guidance-src",
       "full_name": "GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "stars": 4595,
-      "forks_count": 261,
+      "stars": 5014,
+      "forks_count": 275,
       "open_issues_count": 303,
       "language": "TypeScript",
-      "gem_score": 43.93,
-      "momentum_trend": 2.01,
-      "recent_commits": 176,
-      "merged_prs_count": 48,
+      "gem_score": 43.65,
+      "momentum_trend": 1.78,
+      "recent_commits": 165,
+      "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        57,
-        73,
-        133,
-        176
+        53,
+        76,
+        149,
+        165
       ],
       "good_first_issues_url": "https://github.com/GoogleChrome/modern-web-guidance-src/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-13T18:59:12Z",
+      "pushed_at": "2026-11-14T02:08:33Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": null,
@@ -71,20 +71,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "plannotator",
       "full_name": "backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
       "url": "https://github.com/backnotprop/plannotator",
-      "stars": 10372,
-      "forks_count": 782,
-      "open_issues_count": 103,
+      "stars": 10532,
+      "forks_count": 790,
+      "open_issues_count": 109,
       "language": "TypeScript",
-      "gem_score": 40.6,
-      "momentum_trend": 1.42,
-      "recent_commits": 2264,
+      "gem_score": 40.45,
+      "momentum_trend": 1.36,
+      "recent_commits": 2211,
       "merged_prs_count": 50,
       "topics": [
         "claude-code",
@@ -92,14 +92,14 @@
         "obsidian"
       ],
       "activity": [
-        512,
-        1474,
-        2808,
-        2264
+        499,
+        1617,
+        2758,
+        2211
       ],
       "good_first_issues_url": "https://github.com/backnotprop/plannotator/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-13T17:58:38Z",
+      "pushed_at": "2026-11-14T04:48:41Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -110,66 +110,66 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "buzz",
       "full_name": "block/buzz",
       "description": "A hive mind communication platform",
       "url": "https://github.com/block/buzz",
-      "stars": 37252,
-      "forks_count": 4939,
-      "open_issues_count": 1742,
+      "stars": 37334,
+      "forks_count": 4942,
+      "open_issues_count": 1743,
       "language": "Rust",
-      "gem_score": 32.79,
-      "momentum_trend": 0.95,
-      "recent_commits": 127,
-      "merged_prs_count": 49,
+      "gem_score": 32.99,
+      "momentum_trend": 0.98,
+      "recent_commits": 135,
+      "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        75,
-        103,
-        222,
-        127
+        71,
+        111,
+        230,
+        135
       ],
       "good_first_issues_url": "https://github.com/block/buzz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-13T19:06:58Z",
+      "pushed_at": "2026-11-14T03:18:14Z",
       "is_hype": false,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "desktop-v0.5.28",
-        "published_at": "2026-10-09T20:52:44Z"
+        "tag": "desktop-v0.5.30",
+        "published_at": "2026-11-14T00:31:43Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "claude-trading-skills",
       "full_name": "tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "url": "https://github.com/tradermonty/claude-trading-skills",
-      "stars": 4055,
-      "forks_count": 857,
-      "open_issues_count": 64,
+      "stars": 4259,
+      "forks_count": 877,
+      "open_issues_count": 65,
       "language": "Python",
-      "gem_score": 29.79,
-      "momentum_trend": 2.8,
-      "recent_commits": 42,
+      "gem_score": 29.48,
+      "momentum_trend": 2.55,
+      "recent_commits": 40,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
         6,
         13,
-        26,
-        42
+        28,
+        40
       ],
       "good_first_issues_url": "https://github.com/tradermonty/claude-trading-skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-13T18:26:52Z",
+      "pushed_at": "2026-11-14T04:09:06Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": null,
@@ -177,21 +177,21 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "daily_stock_analysis",
       "full_name": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "stars": 71480,
-      "forks_count": 57261,
-      "open_issues_count": 27,
+      "stars": 71780,
+      "forks_count": 57340,
+      "open_issues_count": 29,
       "language": "Python",
-      "gem_score": 24.19,
-      "momentum_trend": 4.13,
-      "recent_commits": 22,
-      "merged_prs_count": 38,
+      "gem_score": 24.52,
+      "momentum_trend": 4.5,
+      "recent_commits": 24,
+      "merged_prs_count": 40,
       "topics": [
         "aigc",
         "llm",
@@ -201,11 +201,11 @@
         5,
         5,
         6,
-        22
+        24
       ],
       "good_first_issues_url": "https://github.com/ZhuLinsen/daily_stock_analysis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-13T16:25:42Z",
+      "pushed_at": "2026-11-14T04:30:54Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -216,31 +216,31 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "sure",
       "full_name": "we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "url": "https://github.com/we-promise/sure",
-      "stars": 14590,
-      "forks_count": 1101,
-      "open_issues_count": 475,
+      "stars": 14844,
+      "forks_count": 1130,
+      "open_issues_count": 477,
       "language": "Ruby",
-      "gem_score": 21.31,
-      "momentum_trend": 0.99,
-      "recent_commits": 93,
+      "gem_score": 21.21,
+      "momentum_trend": 1.03,
+      "recent_commits": 90,
       "merged_prs_count": 44,
       "topics": [],
       "activity": [
-        115,
-        57,
-        109,
-        93
+        91,
+        60,
+        110,
+        90
       ],
       "good_first_issues_url": "https://github.com/we-promise/sure/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-13T13:24:53Z",
+      "pushed_at": "2026-11-14T02:18:39Z",
       "is_hype": false,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -251,7 +251,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "NuMojo",
@@ -289,7 +289,7 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "karl2d",
@@ -300,9 +300,9 @@
       "forks_count": 66,
       "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 16.46,
-      "momentum_trend": 0.07,
-      "recent_commits": 1,
+      "gem_score": 14.28,
+      "momentum_trend": 0,
+      "recent_commits": 0,
       "merged_prs_count": 10,
       "topics": [
         "gamedev",
@@ -310,10 +310,10 @@
         "odin-lang"
       ],
       "activity": [
-        21,
-        14,
-        11,
-        1
+        23,
+        12,
+        12,
+        0
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -328,16 +328,16 @@
       "maintenance_score": 9,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "uptime-kuma",
       "full_name": "louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "url": "https://github.com/louislam/uptime-kuma",
-      "stars": 93769,
-      "forks_count": 8715,
-      "open_issues_count": 732,
+      "stars": 93928,
+      "forks_count": 8725,
+      "open_issues_count": 733,
       "language": "JavaScript",
       "gem_score": 12.66,
       "momentum_trend": 0.54,
@@ -349,14 +349,14 @@
         "docker"
       ],
       "activity": [
-        17,
+        18,
         41,
-        25,
+        24,
         15
       ],
       "good_first_issues_url": "https://github.com/louislam/uptime-kuma/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-13T17:16:15Z",
+      "pushed_at": "2026-11-14T00:04:41Z",
       "is_hype": false,
       "license": "MIT",
       "latest_release": {
@@ -367,7 +367,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -378,9 +378,9 @@
       "forks_count": 391,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 11.63,
-      "momentum_trend": 1.3,
-      "recent_commits": 13,
+      "gem_score": 11.4,
+      "momentum_trend": 1.13,
+      "recent_commits": 12,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -389,13 +389,13 @@
       ],
       "activity": [
         14,
-        6,
-        10,
-        13
+        7,
+        11,
+        12
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-12T19:05:42Z",
+      "pushed_at": "2026-11-13T21:01:58Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
@@ -403,7 +403,7 @@
       "maintenance_score": 116,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "ols",
@@ -424,7 +424,7 @@
         "lsp"
       ],
       "activity": [
-        5,
+        3,
         8,
         4,
         0
@@ -442,7 +442,7 @@
       "maintenance_score": 12,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "odin-http",
@@ -478,15 +478,15 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     },
     {
       "name": "tailcat",
       "full_name": "tailscale/tailcat",
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "url": "https://github.com/tailscale/tailcat",
-      "stars": 9356,
-      "forks_count": 428,
+      "stars": 9533,
+      "forks_count": 434,
       "open_issues_count": 26,
       "language": "Go",
       "gem_score": 3.66,
@@ -513,7 +513,7 @@
       "maintenance_score": 8,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-13T19:09:45.728Z"
+      "first_seen": "2026-11-14T04:50:08.574Z"
     }
   ]
 }
