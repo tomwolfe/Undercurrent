@@ -1,129 +1,246 @@
 {
-  "last_mined": "2026-11-16T04:42:27.720Z",
-  "count": 11,
+  "last_mined": "2026-11-16T21:42:28.838Z",
+  "count": 13,
   "gems": [
     {
-      "name": "modern-web-guidance-src",
-      "full_name": "GoogleChrome/modern-web-guidance-src",
-      "description": "Keep your coding agent up to date with the latest web best practices",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "stars": 7363,
-      "forks_count": 617,
-      "open_issues_count": 310,
-      "language": "TypeScript",
-      "gem_score": 40.64,
-      "momentum_trend": 1.09,
-      "recent_commits": 117,
+      "name": "jiangshan-map",
+      "full_name": "DeanChensj/jiangshan-map",
+      "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "stars": 6658,
+      "forks_count": 785,
+      "open_issues_count": 7,
+      "language": "JavaScript",
+      "gem_score": 47.56,
+      "momentum_trend": 1.14,
+      "recent_commits": 70,
       "merged_prs_count": 50,
-      "topics": [],
-      "activity": [
-        50,
-        77,
-        194,
-        117
+      "topics": [
+        "ancient-china",
+        "cartography",
+        "china-map"
       ],
-      "good_first_issues_url": "https://github.com/GoogleChrome/modern-web-guidance-src/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-15T12:09:36Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": null,
-      "featured": true,
-      "maintenance_score": 6,
+      "activity": [
+        63,
+        42,
+        80,
+        70
+      ],
+      "good_first_issues_url": "https://github.com/DeanChensj/jiangshan-map/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-11-16T11:59:10Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v1.3.0",
+        "published_at": "2026-11-13T02:57:43Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "is_verified": true,
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
       "name": "plannotator",
       "full_name": "backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
       "url": "https://github.com/backnotprop/plannotator",
-      "stars": 11984,
-      "forks_count": 1099,
-      "open_issues_count": 105,
+      "stars": 12481,
+      "forks_count": 1224,
+      "open_issues_count": 107,
       "language": "TypeScript",
-      "gem_score": 39.84,
-      "momentum_trend": 1.2,
-      "recent_commits": 2271,
-      "merged_prs_count": 50,
+      "gem_score": 39.55,
+      "momentum_trend": 1.17,
+      "recent_commits": 2277,
+      "merged_prs_count": 49,
       "topics": [
         "claude-code",
         "opencode",
         "obsidian"
       ],
       "activity": [
-        720,
-        1846,
-        3104,
-        2271
+        881,
+        1933,
+        3038,
+        2277
       ],
       "good_first_issues_url": "https://github.com/backnotprop/plannotator/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-16T04:33:02Z",
+      "pushed_at": "2026-11-16T21:34:59Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v0.28.65",
-        "published_at": "2026-11-15T00:07:22Z"
+        "tag": "v0.28.66",
+        "published_at": "2026-11-16T06:53:54Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
-      "name": "chrome-devtools-mcp",
-      "full_name": "ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "stars": 57133,
-      "forks_count": 4820,
-      "open_issues_count": 95,
-      "language": "TypeScript",
-      "gem_score": 23.07,
-      "momentum_trend": 0.92,
-      "recent_commits": 41,
-      "merged_prs_count": 50,
+      "name": "Claude-BugHunter",
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "stars": 7323,
+      "forks_count": 1136,
+      "open_issues_count": 3,
+      "language": "Python",
+      "gem_score": 37.96,
+      "momentum_trend": 7.57,
+      "recent_commits": 53,
+      "merged_prs_count": 46,
       "topics": [
-        "mcp-server",
-        "puppeteer",
-        "chrome-devtools"
+        "ai-security",
+        "anthropic",
+        "application-security"
       ],
       "activity": [
-        93,
-        17,
-        23,
-        41
+        7,
+        7,
+        7,
+        53
       ],
-      "good_first_issues_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/elementalsouls/Claude-BugHunter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-15T03:06:25Z",
+      "pushed_at": "2026-11-16T13:10:53Z",
       "is_hype": true,
-      "license": "Apache-2.0",
+      "license": "MIT",
       "latest_release": {
-        "tag": "chrome-devtools-mcp-v1.13.0",
-        "published_at": "2026-11-11T12:40:09Z"
+        "tag": "v2.1",
+        "published_at": "2026-06-05T16:15:13Z"
       },
       "featured": true,
-      "maintenance_score": 2,
-      "bundle_size": 7736,
+      "maintenance_score": 0,
+      "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
+    },
+    {
+      "name": "claude-trading-skills",
+      "full_name": "tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "stars": 6233,
+      "forks_count": 1323,
+      "open_issues_count": 50,
+      "language": "Python",
+      "gem_score": 29.16,
+      "momentum_trend": 4.76,
+      "recent_commits": 100,
+      "merged_prs_count": 36,
+      "topics": [],
+      "activity": [
+        11,
+        23,
+        29,
+        100
+      ],
+      "good_first_issues_url": "https://github.com/tradermonty/claude-trading-skills/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-16T20:10:27Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-16T21:36:33.843Z"
+    },
+    {
+      "name": "last30days-skill",
+      "full_name": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "stars": 68059,
+      "forks_count": 6031,
+      "open_issues_count": 13,
+      "language": "Python",
+      "gem_score": 26.82,
+      "momentum_trend": 3.77,
+      "recent_commits": 83,
+      "merged_prs_count": 47,
+      "topics": [
+        "ai-prompts",
+        "claude",
+        "claude-code"
+      ],
+      "activity": [
+        36,
+        14,
+        16,
+        83
+      ],
+      "good_first_issues_url": "https://github.com/mvanhorn/last30days-skill/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-16T20:21:59Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v4.2.1",
+        "published_at": "2026-11-16T16:42:38Z"
+      },
+      "featured": true,
+      "maintenance_score": 5,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-16T21:36:33.843Z"
+    },
+    {
+      "name": "arcane",
+      "full_name": "getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "stars": 8644,
+      "forks_count": 402,
+      "open_issues_count": 7,
+      "language": "Go",
+      "gem_score": 24.86,
+      "momentum_trend": 0.97,
+      "recent_commits": 99,
+      "merged_prs_count": 50,
+      "topics": [
+        "docker",
+        "docker-management",
+        "self-hosted"
+      ],
+      "activity": [
+        42,
+        27,
+        237,
+        99
+      ],
+      "good_first_issues_url": "https://github.com/getarcaneapp/arcane/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-16T18:45:42Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause",
+      "latest_release": {
+        "tag": "v3.0.1",
+        "published_at": "2026-11-15T17:05:31Z"
+      },
+      "featured": false,
+      "maintenance_score": 2,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
       "name": "ag-ui",
       "full_name": "ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "stars": 18069,
-      "forks_count": 1838,
-      "open_issues_count": 315,
+      "stars": 18856,
+      "forks_count": 1959,
+      "open_issues_count": 313,
       "language": "TypeScript",
-      "gem_score": 22.46,
-      "momentum_trend": 0.45,
-      "recent_commits": 58,
+      "gem_score": 22.41,
+      "momentum_trend": 0.5,
+      "recent_commits": 60,
       "merged_prs_count": 49,
       "topics": [
         "ag-ui-protocol",
@@ -131,14 +248,14 @@
         "agent-ui"
       ],
       "activity": [
-        197,
-        86,
-        103,
-        58
+        177,
+        89,
+        94,
+        60
       ],
       "good_first_issues_url": "https://github.com/ag-ui-protocol/ag-ui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-15T02:26:33Z",
+      "pushed_at": "2026-11-16T19:12:15Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -146,60 +263,98 @@
         "published_at": "2026-11-13T21:01:20Z"
       },
       "featured": true,
-      "maintenance_score": 10,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
       "name": "univer",
       "full_name": "dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "url": "https://github.com/dream-num/univer",
-      "stars": 26471,
-      "forks_count": 2402,
-      "open_issues_count": 92,
+      "stars": 27715,
+      "forks_count": 2522,
+      "open_issues_count": 93,
       "language": "TypeScript",
-      "gem_score": 16.64,
-      "momentum_trend": 1.36,
-      "recent_commits": 45,
-      "merged_prs_count": 49,
+      "gem_score": 16.71,
+      "momentum_trend": 1.39,
+      "recent_commits": 50,
+      "merged_prs_count": 50,
       "topics": [
         "excel",
         "spreadsheet",
         "xlsx"
       ],
       "activity": [
-        33,
-        21,
-        45,
-        45
+        38,
+        18,
+        52,
+        50
       ],
       "good_first_issues_url": "https://github.com/dream-num/univer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-16T04:34:55Z",
+      "pushed_at": "2026-11-16T17:59:43Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v1.5.0",
-        "published_at": "2026-11-14T10:33:37Z"
+        "tag": "v1.5.2",
+        "published_at": "2026-11-16T10:35:04Z"
       },
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
+    },
+    {
+      "name": "NuMojo",
+      "full_name": "Mojo-Numerics-and-Algorithms-group/NuMojo",
+      "description": "NuMojo is a library for numerical computing in Mojo 🔥 similar to numpy in Python.",
+      "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
+      "stars": 250,
+      "forks_count": 29,
+      "open_issues_count": 16,
+      "language": "Mojo",
+      "gem_score": 16.21,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 16,
+      "topics": [
+        "mathematics",
+        "numerical-analysis"
+      ],
+      "activity": [
+        27,
+        3,
+        2,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-11-14T21:46:03Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.12.0",
+        "published_at": "2026-10-25T14:25:22Z"
+      },
+      "featured": false,
+      "maintenance_score": 14,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
       "name": "Skald",
       "full_name": "BuLEEto/Skald",
       "description": "A declarative GUI framework for Odin. The predictability of Elm with the performance of immediate mode.",
       "url": "https://github.com/BuLEEto/Skald",
-      "stars": 201,
+      "stars": 202,
       "forks_count": 16,
-      "open_issues_count": 1,
+      "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 15.28,
+      "gem_score": 15.24,
       "momentum_trend": 2,
       "recent_commits": 4,
       "merged_prs_count": 0,
@@ -221,21 +376,21 @@
       "license": "Zlib",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 77,
+      "maintenance_score": 78,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
       "name": "karl2d",
       "full_name": "karl-zylinski/karl2d",
       "description": "Odin 2D game library. Beginner friendly and easy to modify.",
       "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 728,
+      "stars": 729,
       "forks_count": 66,
       "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 14.25,
+      "gem_score": 14.23,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 10,
@@ -245,14 +400,14 @@
         "odin-lang"
       ],
       "activity": [
-        23,
-        13,
-        11,
+        28,
+        10,
+        9,
         0
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-15T15:55:43Z",
+      "pushed_at": "2026-11-16T20:00:17Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -260,59 +415,22 @@
         "published_at": "2026-11-03T23:38:32Z"
       },
       "featured": false,
-      "maintenance_score": 11,
+      "maintenance_score": 12,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-16T04:38:42.045Z"
-    },
-    {
-      "name": "ggml",
-      "full_name": "ggml-org/ggml",
-      "description": "Tensor library for machine learning",
-      "url": "https://github.com/ggml-org/ggml",
-      "stars": 15972,
-      "forks_count": 2027,
-      "open_issues_count": 325,
-      "language": "C++",
-      "gem_score": 13.4,
-      "momentum_trend": 1.75,
-      "recent_commits": 118,
-      "merged_prs_count": 10,
-      "topics": [
-        "machine-learning"
-      ],
-      "activity": [
-        3,
-        129,
-        70,
-        118
-      ],
-      "good_first_issues_url": "https://github.com/ggml-org/ggml/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-11-13T08:34:20Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v1.0.0",
-        "published_at": "2026-11-13T08:34:21Z"
-      },
-      "featured": true,
-      "maintenance_score": 1190,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 441,
+      "stars": 442,
       "forks_count": 391,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 11.14,
-      "momentum_trend": 1.03,
+      "gem_score": 11.12,
+      "momentum_trend": 1.06,
       "recent_commits": 11,
       "merged_prs_count": 0,
       "topics": [
@@ -321,72 +439,33 @@
         "learn-by-doing"
       ],
       "activity": [
-        15,
+        14,
         6,
         11,
         11
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-16T04:17:27Z",
+      "pushed_at": "2026-11-16T07:14:17Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 118,
+      "maintenance_score": 119,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-16T04:38:42.045Z"
-    },
-    {
-      "name": "Claude-BugHunter",
-      "full_name": "elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "stars": 6635,
-      "forks_count": 997,
-      "open_issues_count": 3,
-      "language": "Python",
-      "gem_score": 10.92,
-      "momentum_trend": 1,
-      "recent_commits": 7,
-      "merged_prs_count": 0,
-      "topics": [
-        "ai-security",
-        "anthropic",
-        "application-security"
-      ],
-      "activity": [
-        7,
-        7,
-        7,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/elementalsouls/Claude-BugHunter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-15T11:59:53Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "v2.1",
-        "published_at": "2026-06-05T16:15:13Z"
-      },
-      "featured": true,
-      "maintenance_score": 37,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
     },
     {
       "name": "stitch-skills",
       "full_name": "google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "stars": 9411,
-      "forks_count": 1140,
-      "open_issues_count": 12,
+      "stars": 9696,
+      "forks_count": 1241,
+      "open_issues_count": 11,
       "language": "TypeScript",
-      "gem_score": 3.25,
+      "gem_score": 3.24,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -407,10 +486,10 @@
         "published_at": "2026-05-18T18:02:32Z"
       },
       "featured": false,
-      "maintenance_score": 90,
+      "maintenance_score": 91,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-16T04:38:42.045Z"
+      "first_seen": "2026-11-16T21:36:33.843Z"
     }
   ]
 }
