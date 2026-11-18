@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-11-18T05:53:58.254Z",
-  "count": 13,
+  "last_mined": "2026-11-18T20:02:09.444Z",
+  "count": 14,
   "gems": [
     {
       "name": "Claude-BugHunter",
       "full_name": "elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "stars": 9723,
-      "forks_count": 1391,
-      "open_issues_count": 5,
+      "stars": 11112,
+      "forks_count": 1495,
+      "open_issues_count": 4,
       "language": "Python",
-      "gem_score": 37.91,
-      "momentum_trend": 9.71,
-      "recent_commits": 68,
+      "gem_score": 37.6,
+      "momentum_trend": 10.57,
+      "recent_commits": 74,
       "merged_prs_count": 50,
       "topics": [
         "ai-security",
@@ -24,11 +24,11 @@
         7,
         7,
         7,
-        68
+        74
       ],
       "good_first_issues_url": "https://github.com/elementalsouls/Claude-BugHunter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-17T13:33:22Z",
+      "pushed_at": "2026-11-18T13:09:42Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -36,54 +36,54 @@
         "published_at": "2026-06-05T16:15:13Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
       "name": "plugins",
       "full_name": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "url": "https://github.com/cursor/plugins",
-      "stars": 16967,
-      "forks_count": 1838,
-      "open_issues_count": 132,
+      "stars": 17141,
+      "forks_count": 1890,
+      "open_issues_count": 133,
       "language": "TypeScript",
-      "gem_score": 27.76,
-      "momentum_trend": 0.89,
-      "recent_commits": 42,
+      "gem_score": 28.24,
+      "momentum_trend": 1.13,
+      "recent_commits": 52,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        87,
-        28,
+        89,
+        23,
         26,
-        42
+        52
       ],
       "good_first_issues_url": "https://github.com/cursor/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-17T22:49:29Z",
+      "pushed_at": "2026-11-18T12:24:36Z",
       "is_hype": false,
       "latest_release": null,
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
       "name": "last30days-skill",
       "full_name": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 69306,
-      "forks_count": 6163,
+      "stars": 69863,
+      "forks_count": 6237,
       "open_issues_count": 8,
       "language": "Python",
-      "gem_score": 27.27,
-      "momentum_trend": 3.75,
-      "recent_commits": 100,
+      "gem_score": 27.16,
+      "momentum_trend": 3.51,
+      "recent_commits": 97,
       "merged_prs_count": 49,
       "topics": [
         "ai-prompts",
@@ -91,10 +91,10 @@
         "claude-code"
       ],
       "activity": [
-        36,
-        14,
-        30,
-        100
+        37,
+        13,
+        33,
+        97
       ],
       "good_first_issues_url": "https://github.com/mvanhorn/last30days-skill/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -106,23 +106,23 @@
         "published_at": "2026-11-17T15:56:44Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
       "name": "arcane",
       "full_name": "getarcaneapp/arcane",
       "description": "Modern Docker Management, Designed for Everyone",
       "url": "https://github.com/getarcaneapp/arcane",
-      "stars": 9437,
-      "forks_count": 517,
-      "open_issues_count": 6,
+      "stars": 9740,
+      "forks_count": 557,
+      "open_issues_count": 9,
       "language": "Go",
-      "gem_score": 24.61,
-      "momentum_trend": 1,
-      "recent_commits": 100,
+      "gem_score": 24.5,
+      "momentum_trend": 0.97,
+      "recent_commits": 99,
       "merged_prs_count": 50,
       "topics": [
         "docker",
@@ -130,177 +130,25 @@
         "self-hosted"
       ],
       "activity": [
-        21,
-        186,
-        94,
-        100
+        19,
+        200,
+        87,
+        99
       ],
       "good_first_issues_url": "https://github.com/getarcaneapp/arcane/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-18T04:23:31Z",
+      "pushed_at": "2026-11-18T19:46:22Z",
       "is_hype": false,
       "license": "BSD-3-Clause",
       "latest_release": {
-        "tag": "v3.0.1",
-        "published_at": "2026-11-15T17:05:31Z"
+        "tag": "v3.1.0",
+        "published_at": "2026-11-18T16:24:02Z"
       },
       "featured": false,
-      "maintenance_score": 7,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
-    },
-    {
-      "name": "ag-ui",
-      "full_name": "ag-ui-protocol/ag-ui",
-      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "stars": 20122,
-      "forks_count": 2075,
-      "open_issues_count": 313,
-      "language": "TypeScript",
-      "gem_score": 22.55,
-      "momentum_trend": 0.65,
-      "recent_commits": 71,
-      "merged_prs_count": 49,
-      "topics": [
-        "ag-ui-protocol",
-        "agent-frontend",
-        "agent-ui"
-      ],
-      "activity": [
-        170,
-        91,
-        68,
-        71
-      ],
-      "good_first_issues_url": "https://github.com/ag-ui-protocol/ag-ui/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-18T04:02:03Z",
-      "is_hype": true,
-      "license": "MIT",
-      "latest_release": {
-        "tag": "release/2026-11-17",
-        "published_at": "2026-11-17T16:18:41Z"
-      },
-      "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
-    },
-    {
-      "name": "univer",
-      "full_name": "dream-num/univer",
-      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "url": "https://github.com/dream-num/univer",
-      "stars": 29244,
-      "forks_count": 2629,
-      "open_issues_count": 89,
-      "language": "TypeScript",
-      "gem_score": 16.59,
-      "momentum_trend": 1.28,
-      "recent_commits": 49,
-      "merged_prs_count": 50,
-      "topics": [
-        "excel",
-        "spreadsheet",
-        "xlsx"
-      ],
-      "activity": [
-        35,
-        21,
-        59,
-        49
-      ],
-      "good_first_issues_url": "https://github.com/dream-num/univer/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-18T04:37:11Z",
-      "is_hype": true,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v1.5.2",
-        "published_at": "2026-11-16T10:35:04Z"
-      },
-      "featured": true,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
-    },
-    {
-      "name": "Skald",
-      "full_name": "BuLEEto/Skald",
-      "description": "A declarative GUI framework for Odin. The predictability of Elm with the performance of immediate mode.",
-      "url": "https://github.com/BuLEEto/Skald",
-      "stars": 204,
-      "forks_count": 16,
-      "open_issues_count": 0,
-      "language": "Odin",
-      "gem_score": 16.21,
-      "momentum_trend": 3,
-      "recent_commits": 5,
-      "merged_prs_count": 0,
-      "topics": [
-        "cross-platform",
-        "elm-architecture",
-        "gui"
-      ],
-      "activity": [
-        1,
-        4,
-        0,
-        5
-      ],
-      "good_first_issues_url": "https://github.com/BuLEEto/Skald/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-16T21:49:15Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 79,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-18T05:49:19.529Z"
-    },
-    {
-      "name": "NuMojo",
-      "full_name": "Mojo-Numerics-and-Algorithms-group/NuMojo",
-      "description": "NuMojo is a library for numerical computing in Mojo 🔥 similar to numpy in Python.",
-      "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
-      "stars": 250,
-      "forks_count": 29,
-      "open_issues_count": 16,
-      "language": "Mojo",
-      "gem_score": 16.2,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 16,
-      "topics": [
-        "mathematics",
-        "numerical-analysis"
-      ],
-      "activity": [
-        6,
-        3,
-        2,
-        0
-      ],
-      "good_first_issues_url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": true,
-      "pushed_at": "2026-11-14T21:46:03Z",
-      "is_hype": false,
-      "license": "Apache-2.0",
-      "latest_release": {
-        "tag": "v0.12.0",
-        "published_at": "2026-10-25T14:25:22Z"
-      },
-      "featured": false,
-      "maintenance_score": 15,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
       "name": "karl2d",
@@ -311,10 +159,10 @@
       "forks_count": 66,
       "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 14.21,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 10,
+      "gem_score": 19.29,
+      "momentum_trend": 0.33,
+      "recent_commits": 3,
+      "merged_prs_count": 12,
       "topics": [
         "gamedev",
         "odin",
@@ -322,13 +170,13 @@
       ],
       "activity": [
         15,
-        6,
-        6,
-        0
+        10,
+        2,
+        3
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-17T20:16:52Z",
+      "pushed_at": "2026-11-18T17:53:21Z",
       "is_hype": false,
       "license": "Zlib",
       "latest_release": {
@@ -336,62 +184,171 @@
         "published_at": "2026-11-03T23:38:32Z"
       },
       "featured": false,
-      "maintenance_score": 13,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
-      "name": "superpowers",
-      "full_name": "obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "url": "https://github.com/obra/superpowers",
-      "stars": 319498,
-      "forks_count": 28486,
-      "open_issues_count": 201,
-      "language": "Shell",
-      "gem_score": 13.84,
-      "momentum_trend": 0,
-      "recent_commits": 0,
-      "merged_prs_count": 28,
+      "name": "Skald",
+      "full_name": "BuLEEto/Skald",
+      "description": "A declarative GUI framework for Odin. The predictability of Elm with the performance of immediate mode.",
+      "url": "https://github.com/BuLEEto/Skald",
+      "stars": 204,
+      "forks_count": 16,
+      "open_issues_count": 0,
+      "language": "Odin",
+      "gem_score": 19.1,
+      "momentum_trend": 5.4,
+      "recent_commits": 9,
+      "merged_prs_count": 0,
       "topics": [
-        "ai",
-        "brainstorming",
-        "coding"
+        "cross-platform",
+        "elm-architecture",
+        "gui"
       ],
       "activity": [
         1,
-        1,
+        4,
         0,
-        0
+        9
       ],
-      "good_first_issues_url": "https://github.com/obra/superpowers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "good_first_issues_url": "https://github.com/BuLEEto/Skald/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-03T23:24:58Z",
-      "is_hype": true,
-      "license": "MIT",
+      "pushed_at": "2026-11-18T14:10:47Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 80,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-18T19:55:58.383Z"
+    },
+    {
+      "name": "NuMojo",
+      "full_name": "Mojo-Numerics-and-Algorithms-group/NuMojo",
+      "description": "NuMojo is a library for numerical computing in Mojo 🔥 similar to numpy in Python.",
+      "url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo",
+      "stars": 250,
+      "forks_count": 29,
+      "open_issues_count": 16,
+      "language": "Mojo",
+      "gem_score": 19.09,
+      "momentum_trend": 0.55,
+      "recent_commits": 2,
+      "merged_prs_count": 18,
+      "topics": [
+        "mathematics",
+        "numerical-analysis"
+      ],
+      "activity": [
+        6,
+        3,
+        2,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/Mojo-Numerics-and-Algorithms-group/NuMojo/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-11-18T15:48:10Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
       "latest_release": {
-        "tag": "v7.0.2",
-        "published_at": "2026-11-03T22:17:54Z"
+        "tag": "v0.12.0",
+        "published_at": "2026-10-25T14:25:22Z"
       },
-      "featured": true,
-      "maintenance_score": 14,
+      "featured": false,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
+    },
+    {
+      "name": "paper-orchestra",
+      "full_name": "google-research/paper-orchestra",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "stars": 4120,
+      "forks_count": 517,
+      "open_issues_count": 9,
+      "language": "Python",
+      "gem_score": 18.62,
+      "momentum_trend": 1,
+      "recent_commits": 6,
+      "merged_prs_count": 3,
+      "topics": [
+        "ai-research-assistant",
+        "multi-agent-systems"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/google-research/paper-orchestra/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-15T18:08:08Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 3,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-18T19:55:58.383Z"
+    },
+    {
+      "name": "uv",
+      "full_name": "astral-sh/uv",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "url": "https://github.com/astral-sh/uv",
+      "stars": 92188,
+      "forks_count": 3921,
+      "open_issues_count": 2408,
+      "language": "Rust",
+      "gem_score": 18.17,
+      "momentum_trend": 0.59,
+      "recent_commits": 39,
+      "merged_prs_count": 50,
+      "topics": [
+        "packaging",
+        "python",
+        "resolver"
+      ],
+      "activity": [
+        104,
+        55,
+        40,
+        39
+      ],
+      "good_first_issues_url": "https://github.com/astral-sh/uv/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-18T18:59:26Z",
+      "is_hype": false,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "0.13.9",
+        "published_at": "2026-11-17T09:57:55Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
       "name": "mojo-gpu-puzzles",
       "full_name": "modular/mojo-gpu-puzzles",
       "description": "Learn GPU Programming in Mojo🔥 by Solving Puzzles",
       "url": "https://github.com/modular/mojo-gpu-puzzles",
-      "stars": 443,
+      "stars": 444,
       "forks_count": 392,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 10.84,
-      "momentum_trend": 0.94,
-      "recent_commits": 10,
+      "gem_score": 9.87,
+      "momentum_trend": 0.6,
+      "recent_commits": 7,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -399,33 +356,33 @@
         "learn-by-doing"
       ],
       "activity": [
-        13,
-        8,
-        11,
-        10
+        12,
+        9,
+        14,
+        7
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-17T15:36:06Z",
+      "pushed_at": "2026-11-18T13:00:39Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 120,
+      "maintenance_score": 121,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
       "name": "stitch-skills",
       "full_name": "google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "url": "https://github.com/google-labs-code/stitch-skills",
-      "stars": 10183,
-      "forks_count": 1335,
-      "open_issues_count": 11,
+      "stars": 10362,
+      "forks_count": 1363,
+      "open_issues_count": 12,
       "language": "TypeScript",
-      "gem_score": 9.04,
+      "gem_score": 9.02,
       "momentum_trend": 1,
       "recent_commits": 2,
       "merged_prs_count": 1,
@@ -449,15 +406,54 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
+    },
+    {
+      "name": "nvm",
+      "full_name": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "url": "https://github.com/nvm-sh/nvm",
+      "stars": 96138,
+      "forks_count": 10780,
+      "open_issues_count": 317,
+      "language": "Shell",
+      "gem_score": 5.31,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 17,
+      "topics": [
+        "nvm",
+        "nodejs",
+        "node"
+      ],
+      "activity": [
+        0,
+        4,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/nvm-sh/nvm/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-17T23:08:40Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v0.41.0",
+        "published_at": "2026-11-04T21:25:25Z"
+      },
+      "featured": true,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-18T19:55:58.383Z"
     },
     {
       "name": "examples",
       "full_name": "odin-lang/examples",
       "description": "Examples of idiomatic Odin code",
       "url": "https://github.com/odin-lang/examples",
-      "stars": 781,
-      "forks_count": 111,
+      "stars": 782,
+      "forks_count": 112,
       "open_issues_count": 12,
       "language": "Odin",
       "gem_score": 5.21,
@@ -480,7 +476,42 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-18T05:49:19.529Z"
+      "first_seen": "2026-11-18T19:55:58.383Z"
+    },
+    {
+      "name": "CLI-Anything",
+      "full_name": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "stars": 59581,
+      "forks_count": 5409,
+      "open_issues_count": 92,
+      "language": "Python",
+      "gem_score": 2.08,
+      "momentum_trend": 0,
+      "recent_commits": 0,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "good_first_issues_url": "https://github.com/HKUDS/CLI-Anything/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-09-22T02:01:29Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-06-25T15:17:49Z"
+      },
+      "featured": true,
+      "maintenance_score": 57,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-18T19:55:58.383Z"
     }
   ]
 }
