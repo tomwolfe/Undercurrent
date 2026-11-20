@@ -1,5 +1,5 @@
 {
-  "last_mined": "2026-11-20T05:44:49.346Z",
+  "last_mined": "2026-11-20T19:40:20.895Z",
   "count": 16,
   "gems": [
     {
@@ -7,13 +7,13 @@
       "full_name": "elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "stars": 12850,
-      "forks_count": 1614,
-      "open_issues_count": 6,
+      "stars": 13911,
+      "forks_count": 1668,
+      "open_issues_count": 3,
       "language": "Python",
-      "gem_score": 36.97,
-      "momentum_trend": 10.86,
-      "recent_commits": 76,
+      "gem_score": 36.78,
+      "momentum_trend": 11.43,
+      "recent_commits": 80,
       "merged_prs_count": 50,
       "topics": [
         "ai-security",
@@ -24,11 +24,11 @@
         7,
         7,
         7,
-        76
+        80
       ],
       "good_first_issues_url": "https://github.com/elementalsouls/Claude-BugHunter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-19T13:21:35Z",
+      "pushed_at": "2026-11-20T15:53:40Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -36,54 +36,54 @@
         "published_at": "2026-06-05T16:15:13Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "plugins",
       "full_name": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "url": "https://github.com/cursor/plugins",
-      "stars": 17625,
-      "forks_count": 1939,
+      "stars": 17789,
+      "forks_count": 1955,
       "open_issues_count": 137,
       "language": "TypeScript",
-      "gem_score": 28.05,
-      "momentum_trend": 1.22,
-      "recent_commits": 51,
+      "gem_score": 27.79,
+      "momentum_trend": 1.09,
+      "recent_commits": 47,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
         73,
         18,
-        34,
-        51
+        38,
+        47
       ],
       "good_first_issues_url": "https://github.com/cursor/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-20T04:53:53Z",
+      "pushed_at": "2026-11-20T18:58:43Z",
       "is_hype": false,
       "latest_release": null,
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "last30days-skill",
       "full_name": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 70955,
-      "forks_count": 6318,
-      "open_issues_count": 8,
+      "stars": 71349,
+      "forks_count": 6348,
+      "open_issues_count": 9,
       "language": "Python",
-      "gem_score": 26.79,
-      "momentum_trend": 3.15,
-      "recent_commits": 86,
+      "gem_score": 26.8,
+      "momentum_trend": 3.22,
+      "recent_commits": 88,
       "merged_prs_count": 49,
       "topics": [
         "ai-prompts",
@@ -94,50 +94,50 @@
         24,
         15,
         43,
-        86
+        88
       ],
       "good_first_issues_url": "https://github.com/mvanhorn/last30days-skill/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-20T04:00:00Z",
+      "pushed_at": "2026-11-20T05:45:47Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
-        "tag": "v4.3.2",
-        "published_at": "2026-11-17T15:56:44Z"
+        "tag": "v4.4.0",
+        "published_at": "2026-11-20T05:46:34Z"
       },
       "featured": true,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "openvino",
       "full_name": "openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "stars": 11605,
-      "forks_count": 3623,
-      "open_issues_count": 410,
+      "stars": 11738,
+      "forks_count": 3634,
+      "open_issues_count": 409,
       "language": "C++",
-      "gem_score": 23.98,
-      "momentum_trend": 1.04,
-      "recent_commits": 98,
-      "merged_prs_count": 46,
+      "gem_score": 24.07,
+      "momentum_trend": 1.15,
+      "recent_commits": 106,
+      "merged_prs_count": 47,
       "topics": [
         "inference",
         "deep-learning",
         "openvino"
       ],
       "activity": [
-        107,
-        119,
-        56,
-        98
+        104,
+        115,
+        58,
+        106
       ],
       "good_first_issues_url": "https://github.com/openvinotoolkit/openvino/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-20T04:07:33Z",
+      "pushed_at": "2026-11-20T19:11:45Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -148,20 +148,20 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": 204462,
-      "forks_count": 10717,
-      "open_issues_count": 122,
+      "stars": 205083,
+      "forks_count": 10748,
+      "open_issues_count": 126,
       "language": "TypeScript",
-      "gem_score": 19.27,
-      "momentum_trend": 1.6,
-      "recent_commits": 83,
+      "gem_score": 19.25,
+      "momentum_trend": 1.56,
+      "recent_commits": 82,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -169,14 +169,14 @@
         "markdown"
       ],
       "activity": [
-        31,
-        60,
-        65,
-        83
+        37,
+        59,
+        62,
+        82
       ],
       "good_first_issues_url": "https://github.com/firecrawl/firecrawl/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-20T03:28:33Z",
+      "pushed_at": "2026-11-20T18:54:59Z",
       "is_hype": true,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -187,18 +187,18 @@
       "maintenance_score": 0,
       "bundle_size": 227073,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "Skald",
       "full_name": "BuLEEto/Skald",
       "description": "A declarative GUI framework for Odin. The predictability of Elm with the performance of immediate mode.",
       "url": "https://github.com/BuLEEto/Skald",
-      "stars": 205,
+      "stars": 206,
       "forks_count": 16,
       "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 19.02,
+      "gem_score": 18.98,
       "momentum_trend": 5.4,
       "recent_commits": 9,
       "merged_prs_count": 0,
@@ -208,8 +208,8 @@
         "gui"
       ],
       "activity": [
-        1,
-        4,
+        2,
+        3,
         0,
         9
       ],
@@ -220,10 +220,10 @@
       "license": "Zlib",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 81,
+      "maintenance_score": 82,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "karl2d",
@@ -234,7 +234,7 @@
       "forks_count": 66,
       "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 18.48,
+      "gem_score": 18.47,
       "momentum_trend": 0.35,
       "recent_commits": 3,
       "merged_prs_count": 10,
@@ -259,10 +259,10 @@
         "published_at": "2026-11-03T23:38:32Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "NuMojo",
@@ -273,7 +273,7 @@
       "forks_count": 29,
       "open_issues_count": 16,
       "language": "Mojo",
-      "gem_score": 18.27,
+      "gem_score": 18.26,
       "momentum_trend": 0.55,
       "recent_commits": 2,
       "merged_prs_count": 14,
@@ -282,8 +282,8 @@
         "numerical-analysis"
       ],
       "activity": [
-        6,
-        3,
+        7,
+        2,
         2,
         2
       ],
@@ -297,24 +297,24 @@
         "published_at": "2026-10-25T14:25:22Z"
       },
       "featured": false,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 322249,
-      "forks_count": 28642,
-      "open_issues_count": 198,
+      "stars": 322734,
+      "forks_count": 28669,
+      "open_issues_count": 199,
       "language": "Shell",
-      "gem_score": 13.56,
+      "gem_score": 13.19,
       "momentum_trend": 0,
       "recent_commits": 0,
-      "merged_prs_count": 25,
+      "merged_prs_count": 21,
       "topics": [
         "ai",
         "brainstorming",
@@ -339,18 +339,18 @@
       "maintenance_score": 16,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "minimind",
       "full_name": "jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "url": "https://github.com/jingyaogong/minimind",
-      "stars": 67107,
-      "forks_count": 8810,
-      "open_issues_count": 31,
+      "stars": 67621,
+      "forks_count": 8864,
+      "open_issues_count": 33,
       "language": "Python",
-      "gem_score": 12.84,
+      "gem_score": 12.82,
       "momentum_trend": 4.5,
       "recent_commits": 15,
       "merged_prs_count": 13,
@@ -374,24 +374,24 @@
         "published_at": "2025-10-21T14:37:05Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "diagram-design",
       "full_name": "cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "stars": 68793,
-      "forks_count": 4624,
+      "stars": 69197,
+      "forks_count": 4657,
       "open_issues_count": 18,
       "language": "HTML",
-      "gem_score": 10.42,
+      "gem_score": 10.37,
       "momentum_trend": 0.27,
       "recent_commits": 8,
-      "merged_prs_count": 50,
+      "merged_prs_count": 49,
       "topics": [
         "agent-skills",
         "claude-code",
@@ -399,8 +399,8 @@
       ],
       "activity": [
         34,
-        10,
-        46,
+        12,
+        44,
         8
       ],
       "good_first_issues_url": "https://github.com/cathrynlavery/diagram-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -410,10 +410,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -424,8 +424,8 @@
       "forks_count": 392,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 9.45,
-      "momentum_trend": 0.6,
+      "gem_score": 9.44,
+      "momentum_trend": 0.62,
       "recent_commits": 6,
       "merged_prs_count": 0,
       "topics": [
@@ -434,7 +434,7 @@
         "learn-by-doing"
       ],
       "activity": [
-        7,
+        6,
         10,
         13,
         6
@@ -446,33 +446,33 @@
       "license": "NOASSERTION",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 122,
+      "maintenance_score": 123,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "nginx",
       "full_name": "nginx/nginx",
       "description": "The official NGINX Open Source repository.",
       "url": "https://github.com/nginx/nginx",
-      "stars": 32390,
-      "forks_count": 8419,
-      "open_issues_count": 158,
+      "stars": 32524,
+      "forks_count": 8433,
+      "open_issues_count": 157,
       "language": "C",
-      "gem_score": 9.04,
+      "gem_score": 8.92,
       "momentum_trend": 0.08,
       "recent_commits": 1,
-      "merged_prs_count": 21,
+      "merged_prs_count": 19,
       "topics": [
         "content-cache",
         "load-balancer",
         "reverse-proxy"
       ],
       "activity": [
-        7,
-        10,
-        20,
+        6,
+        11,
+        19,
         1
       ],
       "good_first_issues_url": "https://github.com/nginx/nginx/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -485,10 +485,10 @@
         "published_at": "2026-11-18T15:54:06Z"
       },
       "featured": true,
-      "maintenance_score": 1,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "no_gfx_api",
@@ -517,10 +517,10 @@
       "license": "MIT",
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 58,
+      "maintenance_score": 59,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "examples",
@@ -551,16 +551,16 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     },
     {
       "name": "CLI-Anything",
       "full_name": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "stars": 60726,
-      "forks_count": 5510,
-      "open_issues_count": 101,
+      "stars": 61249,
+      "forks_count": 5548,
+      "open_issues_count": 102,
       "language": "Python",
       "gem_score": 2.07,
       "momentum_trend": 0,
@@ -575,7 +575,7 @@
       ],
       "good_first_issues_url": "https://github.com/HKUDS/CLI-Anything/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-09-22T02:01:29Z",
+      "pushed_at": "2026-11-20T10:05:15Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -586,7 +586,7 @@
       "maintenance_score": 59,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T05:38:17.769Z"
+      "first_seen": "2026-11-20T19:34:49.254Z"
     }
   ]
 }
