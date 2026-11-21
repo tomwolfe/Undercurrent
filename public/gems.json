@@ -1,19 +1,200 @@
 {
-  "last_mined": "2026-11-20T19:40:20.895Z",
-  "count": 16,
+  "last_mined": "2026-11-21T05:36:00.516Z",
+  "count": 46,
   "gems": [
+    {
+      "name": "mwakidenis.com",
+      "full_name": "mwakidenis/mwakidenis.com",
+      "description": "⚡mwakidenis.com — Modern Next.js Creative Portfolio & Blog Platform with GSAP Animations, Markdown Content Management, Dynamic Project Layouts, Responsive Design, and Cloudflare Pages Deployment",
+      "url": "https://github.com/mwakidenis/mwakidenis.com",
+      "stars": 159,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "language": "JavaScript",
+      "gem_score": 49.36,
+      "momentum_trend": 1.69,
+      "recent_commits": 1006,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        13,
+        740,
+        1033,
+        1006
+      ],
+      "good_first_issues_url": "https://github.com/mwakidenis/mwakidenis.com/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:29:17Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 127,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "LiberNT",
+      "full_name": "LiberNT/LiberNT",
+      "description": "A free Windows-compatible Operating System",
+      "url": "https://github.com/LiberNT/LiberNT",
+      "stars": 1674,
+      "forks_count": 47,
+      "open_issues_count": 73,
+      "language": "C",
+      "gem_score": 48.97,
+      "momentum_trend": 0.48,
+      "recent_commits": 743,
+      "merged_prs_count": 50,
+      "topics": [
+        "amd64",
+        "arm64",
+        "drivers"
+      ],
+      "activity": [
+        1399,
+        1013,
+        2247,
+        743
+      ],
+      "good_first_issues_url": "https://github.com/LiberNT/LiberNT/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:28:49Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "WebCheck-OSINT",
+      "full_name": "mwakidenis/WebCheck-OSINT",
+      "description": "🕵️‍♂️ A comprehensive, on-demand, all-in-one OSINT reconnaissance tool for dissecting any website. 🧠🌐💥",
+      "url": "https://github.com/mwakidenis/WebCheck-OSINT",
+      "stars": 352,
+      "forks_count": 46,
+      "open_issues_count": 0,
+      "language": "TypeScript",
+      "gem_score": 44.13,
+      "momentum_trend": 1.69,
+      "recent_commits": 1804,
+      "merged_prs_count": 4,
+      "topics": [
+        "astro",
+        "docker",
+        "html"
+      ],
+      "activity": [
+        29,
+        1320,
+        1859,
+        1804
+      ],
+      "good_first_issues_url": "https://github.com/mwakidenis/WebCheck-OSINT/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:29:47Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.0.0-✅Released",
+        "published_at": "2026-01-07T20:31:17Z"
+      },
+      "featured": false,
+      "maintenance_score": 12,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "curvine",
+      "full_name": "CurvineIO/curvine",
+      "description": "AI-native, cloud-native file system in Rust. Full POSIX on object storage with a multi-tier distributed cache, for AI training, inference, and agents. CNCF Sandbox project.",
+      "url": "https://github.com/CurvineIO/curvine",
+      "stars": 1090,
+      "forks_count": 155,
+      "open_issues_count": 206,
+      "language": "Rust",
+      "gem_score": 38.73,
+      "momentum_trend": 3.34,
+      "recent_commits": 156,
+      "merged_prs_count": 50,
+      "topics": [
+        "s3",
+        "rust",
+        "cloud-native"
+      ],
+      "activity": [
+        43,
+        39,
+        58,
+        156
+      ],
+      "good_first_issues_url": "https://github.com/CurvineIO/curvine/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": true,
+      "pushed_at": "2026-11-21T05:30:24Z",
+      "is_hype": true,
+      "license": "Apache-2.0",
+      "latest_release": {
+        "tag": "v0.6.1-alpha",
+        "published_at": "2026-11-18T06:25:15Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "portfolio_website",
+      "full_name": "mwakidenis/portfolio_website",
+      "description": "💼 Portfolio | 🌐 Web & Mobile Projects | 💻 Clean Code | 🎨 UI/UX Design | 🚀 Fast & Interactive | 🌟 Modern Tech | 📫 Connect | 🔗 Live Demos | 🤝 Collaboration | ✨ Enjoy!",
+      "url": "https://github.com/mwakidenis/portfolio_website",
+      "stars": 204,
+      "forks_count": 5,
+      "open_issues_count": 1,
+      "language": "TypeScript",
+      "gem_score": 37.74,
+      "momentum_trend": 1.68,
+      "recent_commits": 1713,
+      "merged_prs_count": 0,
+      "topics": [
+        "css",
+        "javascript",
+        "typescript"
+      ],
+      "activity": [
+        28,
+        1267,
+        1764,
+        1713
+      ],
+      "good_first_issues_url": "https://github.com/mwakidenis/portfolio_website/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:24:33Z",
+      "is_hype": false,
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 61,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
     {
       "name": "Claude-BugHunter",
       "full_name": "elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "stars": 13911,
-      "forks_count": 1668,
-      "open_issues_count": 3,
+      "stars": 14597,
+      "forks_count": 1721,
+      "open_issues_count": 4,
       "language": "Python",
-      "gem_score": 36.78,
-      "momentum_trend": 11.43,
-      "recent_commits": 80,
+      "gem_score": 36.6,
+      "momentum_trend": 11.57,
+      "recent_commits": 81,
       "merged_prs_count": 50,
       "topics": [
         "ai-security",
@@ -24,11 +205,11 @@
         7,
         7,
         7,
-        80
+        81
       ],
       "good_first_issues_url": "https://github.com/elementalsouls/Claude-BugHunter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-20T15:53:40Z",
+      "pushed_at": "2026-11-21T04:24:41Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -39,51 +220,129 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "Claude-Code-Usage-Monitor",
+      "full_name": "CodeZeno/Claude-Code-Usage-Monitor",
+      "description": "Windows taskbar widget for Claude Code, Codex, Cursor and more. Track usage limits and reset times. Free and open source.",
+      "url": "https://github.com/CodeZeno/Claude-Code-Usage-Monitor",
+      "stars": 715,
+      "forks_count": 166,
+      "open_issues_count": 17,
+      "language": "Rust",
+      "gem_score": 32.36,
+      "momentum_trend": 0.57,
+      "recent_commits": 10,
+      "merged_prs_count": 17,
+      "topics": [
+        "claude",
+        "claude-code",
+        "codex"
+      ],
+      "activity": [
+        26,
+        9,
+        18,
+        10
+      ],
+      "good_first_issues_url": "https://github.com/CodeZeno/Claude-Code-Usage-Monitor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:25:39Z",
+      "is_hype": true,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v2.23.6",
+        "published_at": "2026-11-11T02:37:18Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "Woxi",
+      "full_name": "ad-si/Woxi",
+      "description": "Wolfram Language / Mathematica reimplementation in Rust (Wolfram oxidized)",
+      "url": "https://github.com/ad-si/Woxi",
+      "stars": 993,
+      "forks_count": 39,
+      "open_issues_count": 7,
+      "language": "Rust",
+      "gem_score": 29.34,
+      "momentum_trend": 0.68,
+      "recent_commits": 467,
+      "merged_prs_count": 50,
+      "topics": [
+        "math",
+        "mathematica",
+        "symbolic"
+      ],
+      "activity": [
+        795,
+        842,
+        422,
+        467
+      ],
+      "good_first_issues_url": "https://github.com/ad-si/Woxi/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:22:59Z",
+      "is_hype": false,
+      "license": "AGPL-3.0",
+      "latest_release": {
+        "tag": "v0.4.0",
+        "published_at": "2026-11-08T20:28:35Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "plugins",
       "full_name": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "url": "https://github.com/cursor/plugins",
-      "stars": 17789,
-      "forks_count": 1955,
-      "open_issues_count": 137,
+      "stars": 17898,
+      "forks_count": 1962,
+      "open_issues_count": 138,
       "language": "TypeScript",
-      "gem_score": 27.79,
-      "momentum_trend": 1.09,
-      "recent_commits": 47,
+      "gem_score": 27.7,
+      "momentum_trend": 1.29,
+      "recent_commits": 46,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        73,
-        18,
-        38,
-        47
+        48,
+        24,
+        35,
+        46
       ],
       "good_first_issues_url": "https://github.com/cursor/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-20T18:58:43Z",
+      "pushed_at": "2026-11-21T01:32:57Z",
       "is_hype": false,
       "latest_release": null,
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "last30days-skill",
       "full_name": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 71349,
-      "forks_count": 6348,
+      "stars": 71548,
+      "forks_count": 6342,
       "open_issues_count": 9,
       "language": "Python",
-      "gem_score": 26.8,
-      "momentum_trend": 3.22,
-      "recent_commits": 88,
+      "gem_score": 26.72,
+      "momentum_trend": 3.07,
+      "recent_commits": 86,
       "merged_prs_count": 49,
       "topics": [
         "ai-prompts",
@@ -93,8 +352,8 @@
       "activity": [
         24,
         15,
-        43,
-        88
+        45,
+        86
       ],
       "good_first_issues_url": "https://github.com/mvanhorn/last30days-skill/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -109,20 +368,92 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "Short-Term-Reversal-Strategy",
+      "full_name": "randomwalkhan/Short-Term-Reversal-Strategy",
+      "description": "Python-based quant trading research project for short-term reversal option setups, universe selection, staged-entry backtesting, and live paper trading.",
+      "url": "https://github.com/randomwalkhan/Short-Term-Reversal-Strategy",
+      "stars": 268,
+      "forks_count": 33,
+      "open_issues_count": 4,
+      "language": "Jupyter Notebook",
+      "gem_score": 25.87,
+      "momentum_trend": 1.16,
+      "recent_commits": 2125,
+      "merged_prs_count": 0,
+      "topics": [
+        "algorithmic-trading",
+        "backtesting",
+        "blackscholes"
+      ],
+      "activity": [
+        2504,
+        2387,
+        602,
+        2125
+      ],
+      "good_first_issues_url": "https://github.com/randomwalkhan/Short-Term-Reversal-Strategy/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:30:09Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 251,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "home-ops",
+      "full_name": "joryirving/home-ops",
+      "description": "Wife tolerated HomeOps driven by Kubernetes, and Gitops via Flux.",
+      "url": "https://github.com/joryirving/home-ops",
+      "stars": 232,
+      "forks_count": 11,
+      "open_issues_count": 1,
+      "language": "YAML",
+      "gem_score": 24.79,
+      "momentum_trend": 1.1,
+      "recent_commits": 293,
+      "merged_prs_count": 50,
+      "topics": [
+        "flux",
+        "gitops",
+        "kubernetes"
+      ],
+      "activity": [
+        259,
+        262,
+        276,
+        293
+      ],
+      "good_first_issues_url": "https://github.com/joryirving/home-ops/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:23:58Z",
+      "is_hype": false,
+      "license": "WTFPL",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "openvino",
       "full_name": "openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "stars": 11738,
-      "forks_count": 3634,
+      "stars": 11820,
+      "forks_count": 3640,
       "open_issues_count": 409,
       "language": "C++",
-      "gem_score": 24.07,
-      "momentum_trend": 1.15,
-      "recent_commits": 106,
+      "gem_score": 24.09,
+      "momentum_trend": 1.18,
+      "recent_commits": 109,
       "merged_prs_count": 47,
       "topics": [
         "inference",
@@ -130,14 +461,14 @@
         "openvino"
       ],
       "activity": [
-        104,
-        115,
-        58,
-        106
+        106,
+        114,
+        57,
+        109
       ],
       "good_first_issues_url": "https://github.com/openvinotoolkit/openvino/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-20T19:11:45Z",
+      "pushed_at": "2026-11-21T03:53:13Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -145,23 +476,171 @@
         "published_at": "2026-10-01T13:45:59Z"
       },
       "featured": true,
+      "maintenance_score": 311,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "macos-tahoe-liquid-kde",
+      "full_name": "lestercorderomurillo/macos-tahoe-liquid-kde",
+      "description": "MacOS Tahoe Liquid Glass Theme for KDE Plasma 6.7/6.8+",
+      "url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde",
+      "stars": 316,
+      "forks_count": 37,
+      "open_issues_count": 12,
+      "language": "CSS",
+      "gem_score": 22,
+      "momentum_trend": 3.36,
+      "recent_commits": 321,
+      "merged_prs_count": 12,
+      "topics": [
+        "kde",
+        "linux",
+        "macos"
+      ],
+      "activity": [
+        96,
+        45,
+        146,
+        321
+      ],
+      "good_first_issues_url": "https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:26:00Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v0.76.6",
+        "published_at": "2026-11-21T05:26:50Z"
+      },
+      "featured": false,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "skin.arctic.fuse.3",
+      "full_name": "jurialmunkey/skin.arctic.fuse.3",
+      "description": "Arctic Fuse 3 skin for Kodi",
+      "url": "https://github.com/jurialmunkey/skin.arctic.fuse.3",
+      "stars": 193,
+      "forks_count": 77,
+      "open_issues_count": 18,
+      "language": "Plain Text",
+      "gem_score": 21.52,
+      "momentum_trend": 2.44,
+      "recent_commits": 95,
+      "merged_prs_count": 38,
+      "topics": [],
+      "activity": [
+        33,
+        56,
+        28,
+        95
+      ],
+      "good_first_issues_url": "https://github.com/jurialmunkey/skin.arctic.fuse.3/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:23:15Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v3.5.6",
+        "published_at": "2026-11-19T11:37:27Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "shinkansen",
+      "full_name": "jimmysu0309/shinkansen",
+      "description": "快速、流暢的網頁及 YouTube 字幕翻譯擴充功能。支援 8 種目標語言與多種 AI 引擎，資料不經過第三方",
+      "url": "https://github.com/jimmysu0309/shinkansen",
+      "stars": 508,
+      "forks_count": 66,
+      "open_issues_count": 1,
+      "language": "JavaScript",
+      "gem_score": 21.18,
+      "momentum_trend": 24.75,
+      "recent_commits": 33,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        0,
+        2,
+        2,
+        33
+      ],
+      "good_first_issues_url": "https://github.com/jimmysu0309/shinkansen/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:30:24Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v2.7.3",
+        "published_at": "2026-11-21T05:30:40Z"
+      },
+      "featured": false,
+      "maintenance_score": 51,
+      "bundle_size": 288007,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "ultimate_bug_scanner",
+      "full_name": "Dicklesworthstone/ultimate_bug_scanner",
+      "description": "Static analysis tool that catches 1000+ bug patterns across all popular programming languages, with auto-wiring into AI coding agent quality guardrails",
+      "url": "https://github.com/Dicklesworthstone/ultimate_bug_scanner",
+      "stars": 319,
+      "forks_count": 44,
+      "open_issues_count": 29,
+      "language": "Python",
+      "gem_score": 19.64,
+      "momentum_trend": 0.55,
+      "recent_commits": 49,
+      "merged_prs_count": 0,
+      "topics": [
+        "agent-tools",
+        "bugs",
+        "code-quality"
+      ],
+      "activity": [
+        21,
+        134,
+        113,
+        49
+      ],
+      "good_first_issues_url": "https://github.com/Dicklesworthstone/ultimate_bug_scanner/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:31:21Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "v5.5.26",
+        "published_at": "2026-11-01T02:30:04Z"
+      },
+      "featured": false,
+      "maintenance_score": 999,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": 205083,
-      "forks_count": 10748,
-      "open_issues_count": 126,
+      "stars": 205468,
+      "forks_count": 10744,
+      "open_issues_count": 128,
       "language": "TypeScript",
-      "gem_score": 19.25,
-      "momentum_trend": 1.56,
-      "recent_commits": 82,
+      "gem_score": 19.22,
+      "momentum_trend": 1.53,
+      "recent_commits": 81,
       "merged_prs_count": 50,
       "topics": [
         "ai",
@@ -169,14 +648,14 @@
         "markdown"
       ],
       "activity": [
-        37,
-        59,
-        62,
-        82
+        40,
+        58,
+        61,
+        81
       ],
       "good_first_issues_url": "https://github.com/firecrawl/firecrawl/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-20T18:54:59Z",
+      "pushed_at": "2026-11-21T03:40:37Z",
       "is_hype": true,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -187,7 +666,7 @@
       "maintenance_score": 0,
       "bundle_size": 227073,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "Skald",
@@ -198,7 +677,7 @@
       "forks_count": 16,
       "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 18.98,
+      "gem_score": 18.96,
       "momentum_trend": 5.4,
       "recent_commits": 9,
       "merged_prs_count": 0,
@@ -208,8 +687,8 @@
         "gui"
       ],
       "activity": [
-        2,
-        3,
+        5,
+        0,
         0,
         9
       ],
@@ -223,7 +702,7 @@
       "maintenance_score": 82,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "karl2d",
@@ -234,8 +713,8 @@
       "forks_count": 66,
       "open_issues_count": 31,
       "language": "Odin",
-      "gem_score": 18.47,
-      "momentum_trend": 0.35,
+      "gem_score": 18.46,
+      "momentum_trend": 0.38,
       "recent_commits": 3,
       "merged_prs_count": 10,
       "topics": [
@@ -244,9 +723,9 @@
         "odin-lang"
       ],
       "activity": [
-        14,
-        11,
-        1,
+        12,
+        12,
+        0,
         3
       ],
       "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
@@ -262,7 +741,46 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "hyperglass",
+      "full_name": "hyperglass-community/hyperglass",
+      "description": "hyperglass is the network looking glass that tries to make the internet better.",
+      "url": "https://github.com/hyperglass-community/hyperglass",
+      "stars": 799,
+      "forks_count": 140,
+      "open_issues_count": 37,
+      "language": "Python",
+      "gem_score": 18.31,
+      "momentum_trend": 1,
+      "recent_commits": 70,
+      "merged_prs_count": 50,
+      "topics": [
+        "looking-glass",
+        "bgp",
+        "networking"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        70
+      ],
+      "good_first_issues_url": "https://github.com/hyperglass-community/hyperglass/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:24:39Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause-Clear",
+      "latest_release": {
+        "tag": "v2.0.4",
+        "published_at": "2024-07-01T04:12:03Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "NuMojo",
@@ -300,21 +818,89 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "tvbox",
+      "full_name": "cluntop/tvbox",
+      "description": "TVBox Interface / TVBox 接口 / OK影视",
+      "url": "https://github.com/cluntop/tvbox",
+      "stars": 719,
+      "forks_count": 259,
+      "open_issues_count": 0,
+      "language": "Python",
+      "gem_score": 18.08,
+      "momentum_trend": 0.96,
+      "recent_commits": 345,
+      "merged_prs_count": 1,
+      "topics": [],
+      "activity": [
+        365,
+        358,
+        359,
+        345
+      ],
+      "good_first_issues_url": "https://github.com/cluntop/tvbox/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:30:47Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 9,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "nts-servers",
+      "full_name": "jauderho/nts-servers",
+      "description": "NTP servers with NTS support",
+      "url": "https://github.com/jauderho/nts-servers",
+      "stars": 295,
+      "forks_count": 31,
+      "open_issues_count": 1,
+      "language": "Python",
+      "gem_score": 14.32,
+      "momentum_trend": 1,
+      "recent_commits": 5,
+      "merged_prs_count": 12,
+      "topics": [
+        "ntp",
+        "nts",
+        "time-server"
+      ],
+      "activity": [
+        8,
+        5,
+        2,
+        5
+      ],
+      "good_first_issues_url": "https://github.com/jauderho/nts-servers/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:29:36Z",
+      "is_hype": false,
+      "license": "BSD-3-Clause",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 322734,
-      "forks_count": 28669,
-      "open_issues_count": 199,
+      "stars": 322959,
+      "forks_count": 28676,
+      "open_issues_count": 203,
       "language": "Shell",
-      "gem_score": 13.19,
+      "gem_score": 13.09,
       "momentum_trend": 0,
       "recent_commits": 0,
-      "merged_prs_count": 21,
+      "merged_prs_count": 20,
       "topics": [
         "ai",
         "brainstorming",
@@ -336,18 +922,18 @@
         "published_at": "2026-11-03T22:17:54Z"
       },
       "featured": true,
-      "maintenance_score": 16,
+      "maintenance_score": 17,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "minimind",
       "full_name": "jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "url": "https://github.com/jingyaogong/minimind",
-      "stars": 67621,
-      "forks_count": 8864,
+      "stars": 67784,
+      "forks_count": 8862,
       "open_issues_count": 33,
       "language": "Python",
       "gem_score": 12.82,
@@ -377,18 +963,134 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "react-native-onesignal",
+      "full_name": "OneSignal/react-native-onesignal",
+      "description": "OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails. This plugin makes it easy to integrate your React Native app with OneSignal. https://onesignal.com",
+      "url": "https://github.com/OneSignal/react-native-onesignal",
+      "stars": 1589,
+      "forks_count": 378,
+      "open_issues_count": 15,
+      "language": "TypeScript",
+      "gem_score": 12.79,
+      "momentum_trend": 1.62,
+      "recent_commits": 7,
+      "merged_prs_count": 13,
+      "topics": [
+        "react-native",
+        "onesignal",
+        "react-native-onesignal"
+      ],
+      "activity": [
+        3,
+        6,
+        4,
+        7
+      ],
+      "good_first_issues_url": "https://github.com/OneSignal/react-native-onesignal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:29:12Z",
+      "is_hype": true,
+      "license": "NOASSERTION",
+      "latest_release": {
+        "tag": "5.5.17",
+        "published_at": "2026-11-07T04:18:51Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": 16728,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "mwakidenis",
+      "full_name": "mwakidenis/mwakidenis",
+      "description": "This is my special self updating repository.",
+      "url": "https://github.com/mwakidenis/mwakidenis",
+      "stars": 192,
+      "forks_count": 7,
+      "open_issues_count": 0,
+      "language": "CSS",
+      "gem_score": 11.92,
+      "momentum_trend": 1.69,
+      "recent_commits": 2379,
+      "merged_prs_count": 0,
+      "topics": [
+        "botnet",
+        "css3",
+        "javascipt"
+      ],
+      "activity": [
+        39,
+        1742,
+        2438,
+        2379
+      ],
+      "good_first_issues_url": "https://github.com/mwakidenis/mwakidenis/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:30:37Z",
+      "is_hype": false,
+      "latest_release": {
+        "tag": "enhancement",
+        "published_at": "2025-12-20T21:06:22Z"
+      },
+      "featured": false,
+      "maintenance_score": 38,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "idrac_exporter",
+      "full_name": "mrlhansen/idrac_exporter",
+      "description": "Simple Redfish (iDRAC, iLO, XClarity) exporter for Prometheus",
+      "url": "https://github.com/mrlhansen/idrac_exporter",
+      "stars": 318,
+      "forks_count": 104,
+      "open_issues_count": 7,
+      "language": "Go",
+      "gem_score": 11.38,
+      "momentum_trend": 2.06,
+      "recent_commits": 11,
+      "merged_prs_count": 6,
+      "topics": [
+        "idrac",
+        "prometheus",
+        "ilo"
+      ],
+      "activity": [
+        6,
+        8,
+        2,
+        11
+      ],
+      "good_first_issues_url": "https://github.com/mrlhansen/idrac_exporter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:28:09Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v3.1.0",
+        "published_at": "2026-11-21T05:30:51Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "diagram-design",
       "full_name": "cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "stars": 69197,
-      "forks_count": 4657,
+      "stars": 69398,
+      "forks_count": 4656,
       "open_issues_count": 18,
       "language": "HTML",
-      "gem_score": 10.37,
+      "gem_score": 10.36,
       "momentum_trend": 0.27,
       "recent_commits": 8,
       "merged_prs_count": 49,
@@ -398,7 +1100,7 @@
         "codex"
       ],
       "activity": [
-        34,
+        32,
         12,
         44,
         8
@@ -413,7 +1115,81 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "TinyPedal",
+      "full_name": "TinyPedal/TinyPedal",
+      "description": "Free and Open Source telemetry overlay application for racing simulation",
+      "url": "https://github.com/TinyPedal/TinyPedal",
+      "stars": 407,
+      "forks_count": 50,
+      "open_issues_count": 11,
+      "language": "Python",
+      "gem_score": 10.15,
+      "momentum_trend": 0.32,
+      "recent_commits": 6,
+      "merged_prs_count": 2,
+      "topics": [
+        "overlay",
+        "python",
+        "qt"
+      ],
+      "activity": [
+        22,
+        18,
+        16,
+        6
+      ],
+      "good_first_issues_url": "https://github.com/TinyPedal/TinyPedal/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:24:15Z",
+      "is_hype": false,
+      "license": "GPL-3.0",
+      "latest_release": {
+        "tag": "v2.53.0",
+        "published_at": "2026-11-06T15:22:44Z"
+      },
+      "featured": false,
+      "maintenance_score": 25,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "numbers_and_words",
+      "full_name": "kslazarev/numbers_and_words",
+      "description": "Convert numbers to words using I18N.",
+      "url": "https://github.com/kslazarev/numbers_and_words",
+      "stars": 336,
+      "forks_count": 121,
+      "open_issues_count": 16,
+      "language": "Ruby",
+      "gem_score": 10.1,
+      "momentum_trend": 1,
+      "recent_commits": 12,
+      "merged_prs_count": 10,
+      "topics": [],
+      "activity": [
+        0,
+        0,
+        0,
+        12
+      ],
+      "good_first_issues_url": "https://github.com/kslazarev/numbers_and_words/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:30:37Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v1.0.3",
+        "published_at": "2025-12-23T15:43:11Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -424,9 +1200,9 @@
       "forks_count": 392,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 9.44,
-      "momentum_trend": 0.62,
-      "recent_commits": 6,
+      "gem_score": 9.84,
+      "momentum_trend": 0.7,
+      "recent_commits": 7,
       "merged_prs_count": 0,
       "topics": [
         "mojo",
@@ -434,14 +1210,14 @@
         "learn-by-doing"
       ],
       "activity": [
-        6,
-        10,
-        13,
-        6
+        7,
+        11,
+        12,
+        7
       ],
       "good_first_issues_url": "https://github.com/modular/mojo-gpu-puzzles/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-19T14:30:46Z",
+      "pushed_at": "2026-11-20T19:57:19Z",
       "is_hype": false,
       "license": "NOASSERTION",
       "latest_release": null,
@@ -449,18 +1225,18 @@
       "maintenance_score": 123,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "nginx",
       "full_name": "nginx/nginx",
       "description": "The official NGINX Open Source repository.",
       "url": "https://github.com/nginx/nginx",
-      "stars": 32524,
-      "forks_count": 8433,
+      "stars": 32609,
+      "forks_count": 8367,
       "open_issues_count": 157,
       "language": "C",
-      "gem_score": 8.92,
+      "gem_score": 8.91,
       "momentum_trend": 0.08,
       "recent_commits": 1,
       "merged_prs_count": 19,
@@ -488,7 +1264,46 @@
       "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "ols",
+      "full_name": "DanielGavin/ols",
+      "description": "Language server for Odin",
+      "url": "https://github.com/DanielGavin/ols",
+      "stars": 1237,
+      "forks_count": 204,
+      "open_issues_count": 107,
+      "language": "Odin",
+      "gem_score": 8.7,
+      "momentum_trend": 0.69,
+      "recent_commits": 3,
+      "merged_prs_count": 9,
+      "topics": [
+        "language-server",
+        "odin",
+        "lsp"
+      ],
+      "activity": [
+        8,
+        4,
+        1,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/DanielGavin/ols/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T00:10:44Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "dev-2026-11",
+        "published_at": "2026-11-21T00:10:09Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "no_gfx_api",
@@ -499,7 +1314,7 @@
       "forks_count": 22,
       "open_issues_count": 6,
       "language": "Odin",
-      "gem_score": 8.56,
+      "gem_score": 8.55,
       "momentum_trend": 1.5,
       "recent_commits": 2,
       "merged_prs_count": 0,
@@ -520,7 +1335,225 @@
       "maintenance_score": 59,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "FPF",
+      "full_name": "ailev/FPF",
+      "description": "FPF (First Principles Framework) Library: methods and pattern languages for open-ended development and a shared culture of thinking and acting among people and AI agents. Use individual methods or combine them to solve difficult problems and expand capabilities.",
+      "url": "https://github.com/ailev/FPF",
+      "stars": 547,
+      "forks_count": 99,
+      "open_issues_count": 0,
+      "language": "Plain Text",
+      "gem_score": 7.53,
+      "momentum_trend": 0.94,
+      "recent_commits": 49,
+      "merged_prs_count": 0,
+      "topics": [
+        "systems-engineering",
+        "ai-agents",
+        "first-principles"
+      ],
+      "activity": [
+        93,
+        57,
+        7,
+        49
+      ],
+      "good_first_issues_url": "https://github.com/ailev/FPF/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:31:11Z",
+      "is_hype": true,
+      "license": "CC-BY-4.0",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 264,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "New-Grad-2027",
+      "full_name": "vanshb03/New-Grad-2027",
+      "description": "2026 & 2027 New grad full-time roles in SWE, Quant, and PM. ",
+      "url": "https://github.com/vanshb03/New-Grad-2027",
+      "stars": 2705,
+      "forks_count": 69,
+      "open_issues_count": 0,
+      "language": "Plain Text",
+      "gem_score": 7.07,
+      "momentum_trend": 0.87,
+      "recent_commits": 196,
+      "merged_prs_count": 4,
+      "topics": [
+        "college",
+        "fulltime",
+        "jobs"
+      ],
+      "activity": [
+        236,
+        218,
+        222,
+        196
+      ],
+      "good_first_issues_url": "https://github.com/vanshb03/New-Grad-2027/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:29:05Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 25,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "dot-files",
+      "full_name": "2SSK/dot-files",
+      "description": "i3/sway dotfiles",
+      "url": "https://github.com/2SSK/dot-files",
+      "stars": 258,
+      "forks_count": 14,
+      "open_issues_count": 0,
+      "language": "QML",
+      "gem_score": 6.79,
+      "momentum_trend": 0.32,
+      "recent_commits": 8,
+      "merged_prs_count": 0,
+      "topics": [
+        "i3",
+        "linux",
+        "rice"
+      ],
+      "activity": [
+        8,
+        33,
+        33,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/2SSK/dot-files/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:26:38Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 283,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "ReactiveProperty",
+      "full_name": "runceel/ReactiveProperty",
+      "description": "ReactiveProperty provides MVVM and asynchronous support features under Reactive Extensions. Target frameworks are .NET 6+, .NET Framework 4.7.2 and .NET Standard 2.0.",
+      "url": "https://github.com/runceel/ReactiveProperty",
+      "stars": 946,
+      "forks_count": 104,
+      "open_issues_count": 3,
+      "language": "C#",
+      "gem_score": 6.23,
+      "momentum_trend": 9,
+      "recent_commits": 3,
+      "merged_prs_count": 4,
+      "topics": [
+        "reactiveproperty",
+        "c-sharp",
+        "xamarin"
+      ],
+      "activity": [
+        1,
+        0,
+        0,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/runceel/ReactiveProperty/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:29:33Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": {
+        "tag": "v9.10.0",
+        "published_at": "2026-10-29T01:56:06Z"
+      },
+      "featured": false,
+      "maintenance_score": 0,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "awesome-ml-internships-2027",
+      "full_name": "zapplyjobs/awesome-ml-internships-2027",
+      "description": "Live AI and machine learning internships for students, refreshed through the Zapply job pipeline.",
+      "url": "https://github.com/zapplyjobs/awesome-ml-internships-2027",
+      "stars": 470,
+      "forks_count": 39,
+      "open_issues_count": 0,
+      "language": "Plain Text",
+      "gem_score": 5.79,
+      "momentum_trend": 0.78,
+      "recent_commits": 781,
+      "merged_prs_count": 0,
+      "topics": [
+        "awesome-list",
+        "internships",
+        "machine-learning"
+      ],
+      "activity": [
+        934,
+        966,
+        1095,
+        781
+      ],
+      "good_first_issues_url": "https://github.com/zapplyjobs/awesome-ml-internships-2027/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:24:41Z",
+      "is_hype": true,
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 1376,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "New-Grad-Jobs-2027",
+      "full_name": "zapplyjobs/New-Grad-Jobs-2027",
+      "description": "2027 entry-level jobs in tech, finance, healthcare & more — new grad US roles across software, business, operations & beyond",
+      "url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "stars": 1592,
+      "forks_count": 73,
+      "open_issues_count": 0,
+      "language": "HTML",
+      "gem_score": 4.97,
+      "momentum_trend": 0.78,
+      "recent_commits": 779,
+      "merged_prs_count": 0,
+      "topics": [
+        "university",
+        "jobs",
+        "college"
+      ],
+      "activity": [
+        934,
+        969,
+        1096,
+        779
+      ],
+      "good_first_issues_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:24:41Z",
+      "is_hype": false,
+      "license": "NOASSERTION",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 644,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "examples",
@@ -548,18 +1581,91 @@
       "is_hype": false,
       "latest_release": null,
       "featured": false,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "rabbit-hole",
+      "full_name": "michaelklishin/rabbit-hole",
+      "description": "RabbitMQ HTTP API client in Go",
+      "url": "https://github.com/michaelklishin/rabbit-hole",
+      "stars": 435,
+      "forks_count": 110,
+      "open_issues_count": 3,
+      "language": "Go",
+      "gem_score": 3.62,
+      "momentum_trend": 1,
+      "recent_commits": 2,
+      "merged_prs_count": 0,
+      "topics": [
+        "rabbitmq",
+        "monitoring",
+        "go"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "good_first_issues_url": "https://github.com/michaelklishin/rabbit-hole/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:31:00Z",
+      "is_hype": false,
+      "license": "BSD-2-Clause",
+      "latest_release": {
+        "tag": "v3.5.0",
+        "published_at": "2025-12-31T03:25:17Z"
+      },
+      "featured": false,
+      "maintenance_score": 38,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
+    },
+    {
+      "name": "i.mjh.nz",
+      "full_name": "matthuisman/i.mjh.nz",
+      "description": "Mirror of https://i.mjh.nz + issues / feature requests",
+      "url": "https://github.com/matthuisman/i.mjh.nz",
+      "stars": 489,
+      "forks_count": 89,
+      "open_issues_count": 42,
+      "language": "Plain Text",
+      "gem_score": 2.55,
+      "momentum_trend": 1,
+      "recent_commits": 13,
+      "merged_prs_count": 0,
+      "topics": [
+        "iptv",
+        "xmltv"
+      ],
+      "activity": [
+        0,
+        0,
+        0,
+        13
+      ],
+      "good_first_issues_url": "https://github.com/matthuisman/i.mjh.nz/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-21T05:25:04Z",
+      "is_hype": false,
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 999,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-21T05:31:15.609Z"
     },
     {
       "name": "CLI-Anything",
       "full_name": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "stars": 61249,
-      "forks_count": 5548,
+      "stars": 61519,
+      "forks_count": 5581,
       "open_issues_count": 102,
       "language": "Python",
       "gem_score": 2.07,
@@ -583,10 +1689,10 @@
         "published_at": "2026-06-25T15:17:49Z"
       },
       "featured": true,
-      "maintenance_score": 59,
+      "maintenance_score": 60,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-20T19:34:49.254Z"
+      "first_seen": "2026-11-21T05:31:15.609Z"
     }
   ]
 }
