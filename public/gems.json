@@ -1,19 +1,19 @@
 {
-  "last_mined": "2026-11-25T21:06:30.933Z",
+  "last_mined": "2026-11-26T06:50:30.257Z",
   "count": 17,
   "gems": [
     {
       "name": "Claude-BugHunter",
       "full_name": "elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
-      "stars": 22814,
-      "forks_count": 2342,
-      "open_issues_count": 3,
+      "stars": 23371,
+      "forks_count": 2390,
+      "open_issues_count": 5,
       "language": "Python",
-      "gem_score": 30.93,
-      "momentum_trend": 0.82,
-      "recent_commits": 24,
+      "gem_score": 31.27,
+      "momentum_trend": 0.93,
+      "recent_commits": 28,
       "merged_prs_count": 50,
       "topics": [
         "ai-security",
@@ -23,12 +23,12 @@
       "activity": [
         7,
         7,
-        74,
-        24
+        76,
+        28
       ],
       "good_first_issues_url": "https://github.com/elementalsouls/Claude-BugHunter/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-25T20:59:25Z",
+      "pushed_at": "2026-11-26T04:27:01Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -39,49 +39,49 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "plugins",
       "full_name": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "url": "https://github.com/cursor/plugins",
-      "stars": 19505,
-      "forks_count": 2104,
-      "open_issues_count": 143,
+      "stars": 19602,
+      "forks_count": 2117,
+      "open_issues_count": 145,
       "language": "TypeScript",
-      "gem_score": 26.35,
-      "momentum_trend": 0.98,
-      "recent_commits": 32,
+      "gem_score": 26.54,
+      "momentum_trend": 1.08,
+      "recent_commits": 35,
       "merged_prs_count": 50,
       "topics": [],
       "activity": [
-        20,
-        27,
-        51,
-        32
+        18,
+        31,
+        48,
+        35
       ],
       "good_first_issues_url": "https://github.com/cursor/plugins/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-24T23:17:05Z",
+      "pushed_at": "2026-11-25T23:42:15Z",
       "is_hype": false,
       "latest_release": null,
       "featured": true,
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "last30days-skill",
       "full_name": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "url": "https://github.com/mvanhorn/last30days-skill",
-      "stars": 75017,
-      "forks_count": 6610,
+      "stars": 75291,
+      "forks_count": 6641,
       "open_issues_count": 11,
       "language": "Python",
-      "gem_score": 26.08,
+      "gem_score": 26.06,
       "momentum_trend": 1.51,
       "recent_commits": 72,
       "merged_prs_count": 50,
@@ -92,13 +92,13 @@
       ],
       "activity": [
         13,
-        33,
-        97,
+        35,
+        95,
         72
       ],
       "good_first_issues_url": "https://github.com/mvanhorn/last30days-skill/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
-      "pushed_at": "2026-11-25T17:59:27Z",
+      "pushed_at": "2026-11-26T06:30:57Z",
       "is_hype": true,
       "license": "MIT",
       "latest_release": {
@@ -106,23 +106,23 @@
         "published_at": "2026-11-22T04:31:36Z"
       },
       "featured": true,
-      "maintenance_score": 8,
+      "maintenance_score": 9,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "openvino",
       "full_name": "openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "url": "https://github.com/openvinotoolkit/openvino",
-      "stars": 12629,
-      "forks_count": 3710,
+      "stars": 12699,
+      "forks_count": 3718,
       "open_issues_count": 422,
       "language": "C++",
-      "gem_score": 24.15,
-      "momentum_trend": 1.37,
-      "recent_commits": 124,
+      "gem_score": 24.11,
+      "momentum_trend": 1.33,
+      "recent_commits": 120,
       "merged_prs_count": 50,
       "topics": [
         "inference",
@@ -130,14 +130,14 @@
         "openvino"
       ],
       "activity": [
-        107,
+        108,
         72,
-        92,
-        124
+        91,
+        120
       ],
       "good_first_issues_url": "https://github.com/openvinotoolkit/openvino/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-25T19:45:28Z",
+      "pushed_at": "2026-11-26T06:37:01Z",
       "is_hype": true,
       "license": "Apache-2.0",
       "latest_release": {
@@ -145,22 +145,22 @@
         "published_at": "2026-10-01T13:45:59Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 2,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "url": "https://github.com/firecrawl/firecrawl",
-      "stars": 209914,
-      "forks_count": 10979,
-      "open_issues_count": 141,
+      "stars": 210298,
+      "forks_count": 11005,
+      "open_issues_count": 142,
       "language": "TypeScript",
-      "gem_score": 19.23,
-      "momentum_trend": 1.25,
+      "gem_score": 19.22,
+      "momentum_trend": 1.24,
       "recent_commits": 87,
       "merged_prs_count": 50,
       "topics": [
@@ -170,13 +170,13 @@
       ],
       "activity": [
         69,
-        46,
-        93,
+        55,
+        86,
         87
       ],
       "good_first_issues_url": "https://github.com/firecrawl/firecrawl/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": true,
-      "pushed_at": "2026-11-25T20:45:34Z",
+      "pushed_at": "2026-11-26T04:54:46Z",
       "is_hype": true,
       "license": "AGPL-3.0",
       "latest_release": {
@@ -187,46 +187,7 @@
       "maintenance_score": 0,
       "bundle_size": 227073,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
-    },
-    {
-      "name": "karl2d",
-      "full_name": "karl-zylinski/karl2d",
-      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
-      "url": "https://github.com/karl-zylinski/karl2d",
-      "stars": 731,
-      "forks_count": 66,
-      "open_issues_count": 32,
-      "language": "Odin",
-      "gem_score": 17.93,
-      "momentum_trend": 0.6,
-      "recent_commits": 3,
-      "merged_prs_count": 9,
-      "topics": [
-        "gamedev",
-        "odin",
-        "odin-lang"
-      ],
-      "activity": [
-        10,
-        2,
-        3,
-        3
-      ],
-      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-25T02:04:05Z",
-      "is_hype": false,
-      "license": "Zlib",
-      "latest_release": {
-        "tag": "beta-2026-11",
-        "published_at": "2026-11-03T23:38:32Z"
-      },
-      "featured": false,
-      "maintenance_score": 0,
-      "bundle_size": null,
-      "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "NuMojo",
@@ -264,21 +225,92 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
+    },
+    {
+      "name": "karl2d",
+      "full_name": "karl-zylinski/karl2d",
+      "description": "Odin 2D game library. Beginner friendly and easy to modify.",
+      "url": "https://github.com/karl-zylinski/karl2d",
+      "stars": 731,
+      "forks_count": 66,
+      "open_issues_count": 32,
+      "language": "Odin",
+      "gem_score": 17.43,
+      "momentum_trend": 0.6,
+      "recent_commits": 3,
+      "merged_prs_count": 8,
+      "topics": [
+        "gamedev",
+        "odin",
+        "odin-lang"
+      ],
+      "activity": [
+        10,
+        2,
+        3,
+        3
+      ],
+      "good_first_issues_url": "https://github.com/karl-zylinski/karl2d/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-25T02:04:05Z",
+      "is_hype": false,
+      "license": "Zlib",
+      "latest_release": {
+        "tag": "beta-2026-11",
+        "published_at": "2026-11-03T23:38:32Z"
+      },
+      "featured": false,
+      "maintenance_score": 1,
+      "bundle_size": null,
+      "is_verified": true,
+      "first_seen": "2026-11-26T06:44:33.431Z"
+    },
+    {
+      "name": "no_gfx_api",
+      "full_name": "leotmp/no_gfx_api",
+      "description": null,
+      "url": "https://github.com/leotmp/no_gfx_api",
+      "stars": 325,
+      "forks_count": 22,
+      "open_issues_count": 6,
+      "language": "Odin",
+      "gem_score": 12.99,
+      "momentum_trend": 4.8,
+      "recent_commits": 8,
+      "merged_prs_count": 0,
+      "topics": [],
+      "activity": [
+        4,
+        0,
+        1,
+        8
+      ],
+      "good_first_issues_url": "https://github.com/leotmp/no_gfx_api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
+      "has_good_first_issues": false,
+      "pushed_at": "2026-11-25T23:55:34Z",
+      "is_hype": false,
+      "license": "MIT",
+      "latest_release": null,
+      "featured": false,
+      "maintenance_score": 64,
+      "bundle_size": null,
+      "is_verified": false,
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "minimind",
       "full_name": "jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "url": "https://github.com/jingyaogong/minimind",
-      "stars": 70890,
-      "forks_count": 9214,
+      "stars": 71203,
+      "forks_count": 9242,
       "open_issues_count": 31,
       "language": "Python",
-      "gem_score": 13.4,
+      "gem_score": 12.88,
       "momentum_trend": 3.19,
       "recent_commits": 17,
-      "merged_prs_count": 17,
+      "merged_prs_count": 13,
       "topics": [
         "artificial-intelligence",
         "large-language-model"
@@ -302,15 +334,15 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "superpowers",
       "full_name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 326523,
-      "forks_count": 28972,
+      "stars": 326826,
+      "forks_count": 28994,
       "open_issues_count": 207,
       "language": "Shell",
       "gem_score": 12.67,
@@ -338,42 +370,10 @@
         "published_at": "2026-11-03T22:17:54Z"
       },
       "featured": true,
-      "maintenance_score": 0,
+      "maintenance_score": 1,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
-    },
-    {
-      "name": "no_gfx_api",
-      "full_name": "leotmp/no_gfx_api",
-      "description": null,
-      "url": "https://github.com/leotmp/no_gfx_api",
-      "stars": 325,
-      "forks_count": 22,
-      "open_issues_count": 6,
-      "language": "Odin",
-      "gem_score": 12.51,
-      "momentum_trend": 5.25,
-      "recent_commits": 7,
-      "merged_prs_count": 0,
-      "topics": [],
-      "activity": [
-        4,
-        0,
-        0,
-        7
-      ],
-      "good_first_issues_url": "https://github.com/leotmp/no_gfx_api/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
-      "has_good_first_issues": false,
-      "pushed_at": "2026-11-24T22:54:26Z",
-      "is_hype": false,
-      "license": "MIT",
-      "latest_release": null,
-      "featured": false,
-      "maintenance_score": 64,
-      "bundle_size": null,
-      "is_verified": false,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "Skald",
@@ -384,7 +384,7 @@
       "forks_count": 16,
       "open_issues_count": 0,
       "language": "Odin",
-      "gem_score": 12,
+      "gem_score": 11.99,
       "momentum_trend": 0.46,
       "recent_commits": 2,
       "merged_prs_count": 0,
@@ -409,21 +409,21 @@
       "maintenance_score": 87,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "diagram-design",
       "full_name": "cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "url": "https://github.com/cathrynlavery/diagram-design",
-      "stars": 72907,
-      "forks_count": 4851,
+      "stars": 73282,
+      "forks_count": 4874,
       "open_issues_count": 17,
       "language": "HTML",
-      "gem_score": 11.52,
-      "momentum_trend": 1.45,
-      "recent_commits": 28,
-      "merged_prs_count": 50,
+      "gem_score": 11.18,
+      "momentum_trend": 1.03,
+      "recent_commits": 22,
+      "merged_prs_count": 48,
       "topics": [
         "agent-skills",
         "claude-code",
@@ -432,8 +432,8 @@
       "activity": [
         10,
         24,
-        24,
-        28
+        30,
+        22
       ],
       "good_first_issues_url": "https://github.com/cathrynlavery/diagram-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22",
       "has_good_first_issues": false,
@@ -442,18 +442,18 @@
       "license": "MIT",
       "latest_release": null,
       "featured": true,
-      "maintenance_score": 2,
+      "maintenance_score": 3,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "nginx",
       "full_name": "nginx/nginx",
       "description": "The official NGINX Open Source repository.",
       "url": "https://github.com/nginx/nginx",
-      "stars": 33347,
-      "forks_count": 8406,
+      "stars": 33417,
+      "forks_count": 8409,
       "open_issues_count": 159,
       "language": "C",
       "gem_score": 10.73,
@@ -466,8 +466,8 @@
         "reverse-proxy"
       ],
       "activity": [
-        5,
-        25,
+        7,
+        23,
         1,
         14
       ],
@@ -484,7 +484,7 @@
       "maintenance_score": 0,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "mojo-gpu-puzzles",
@@ -495,7 +495,7 @@
       "forks_count": 393,
       "open_issues_count": 0,
       "language": "Mojo",
-      "gem_score": 10.47,
+      "gem_score": 10.46,
       "momentum_trend": 0.9,
       "recent_commits": 9,
       "merged_prs_count": 0,
@@ -520,15 +520,15 @@
       "maintenance_score": 128,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "ols",
       "full_name": "DanielGavin/ols",
       "description": "Language server for Odin",
       "url": "https://github.com/DanielGavin/ols",
-      "stars": 1238,
-      "forks_count": 205,
+      "stars": 1239,
+      "forks_count": 204,
       "open_issues_count": 108,
       "language": "Odin",
       "gem_score": 9.79,
@@ -556,10 +556,10 @@
         "published_at": "2026-11-21T00:10:09Z"
       },
       "featured": false,
-      "maintenance_score": 3,
+      "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": true,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "odin-http",
@@ -567,7 +567,7 @@
       "description": "A HTTP/1.1 client/server implementation for Odin.",
       "url": "https://github.com/laytan/odin-http",
       "stars": 462,
-      "forks_count": 58,
+      "forks_count": 57,
       "open_issues_count": 15,
       "language": "Odin",
       "gem_score": 8.94,
@@ -595,18 +595,18 @@
       "maintenance_score": 4,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     },
     {
       "name": "CLI-Anything",
       "full_name": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "url": "https://github.com/HKUDS/CLI-Anything",
-      "stars": 65595,
-      "forks_count": 5961,
-      "open_issues_count": 109,
+      "stars": 65871,
+      "forks_count": 5993,
+      "open_issues_count": 111,
       "language": "Python",
-      "gem_score": 2.04,
+      "gem_score": 2.03,
       "momentum_trend": 0,
       "recent_commits": 0,
       "merged_prs_count": 0,
@@ -627,10 +627,10 @@
         "published_at": "2026-06-25T15:17:49Z"
       },
       "featured": true,
-      "maintenance_score": 64,
+      "maintenance_score": 65,
       "bundle_size": null,
       "is_verified": false,
-      "first_seen": "2026-11-25T21:00:07.597Z"
+      "first_seen": "2026-11-26T06:44:33.431Z"
     }
   ]
 }
